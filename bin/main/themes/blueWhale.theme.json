@@ -1,0 +1,39 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Blue Whale",
+  "editorScheme": "/themes/Blue Whale.xml",
+  "ui": {
+    "*": {
+      "background": "002b3fff",
+      "foreground": "b0bec5ff",
+      "highlight": "425b67ff",
+      "selectionBackground": "546e7aff",
+      "selectionForeground": "ffffffff",
+      "button": "2e3c43ff",
+      "secondaryBackground": "32424aff",
+      "disabled": "415967ff",
+      "contrast": "1e272cff",
+      "tableSelected": "314549ff",
+      "secondBorder": "2a373eff",
+      "treeSelection": "00485c",
+      "notifications": "323232ff",
+      "accent": "009688ff",
+      "excluded": "2e3c43ff"
+    },
+    "Button": {
+      "background": "#007092",
+      "foreground": "#c6f6ff"
+    },
+    "DefaultTabs": {
+      "background": "002b3f",
+      "borderColor": "002b3f"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "003950"
+    },
+    "Popup": {
+      "Header.activeBackground": "#002b3f"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Winter Is Coming",
+  "editorScheme": "/themes/Winter Is Coming.xml",
+  "ui": {
+    "*": {
+      "background": "011627ff",
+      "foreground": "b0bec5ff",
+      "highlight": "425b67ff",
+      "selectionBackground": "546e7aff",
+      "selectionForeground": "ffffffff",
+      "button": "2e3c43ff",
+      "secondaryBackground": "32424aff",
+      "disabled": "415967ff",
+      "contrast": "1e272cff",
+      "tableSelected": "314549ff",
+      "secondBorder": "2a373eff",
+      "treeSelection": "00485c",
+      "notifications": "323232ff",
+      "accent": "009688ff",
+      "excluded": "2e3c43ff"
+    },
+    "DefaultTabs": {
+      "background": "011627",
+      "borderColor": "002b3f"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "011627"
+    },
+    "Popup": {
+      "Header.activeBackground": "#011627"
+    }
+  }
+}

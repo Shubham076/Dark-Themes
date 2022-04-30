@@ -1,0 +1,35 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Noctis Sereno",
+  "editorScheme": "/themes/Noctis Sereno.xml",
+  "ui": {
+    "*": {
+      "background": "062e32",
+      "foreground": "b2cacd",
+      "highlight": "425b67ff",
+      "selectionBackground": "546e7aff",
+      "selectionForeground": "ffffffff",
+      "button": "2e3c43ff",
+      "secondaryBackground": "32424aff",
+      "disabled": "415967ff",
+      "contrast": "1e272cff",
+      "tableSelected": "314549ff",
+      "secondBorder": "2a373eff",
+      "treeSelection": "00485c",
+      "notifications": "323232ff",
+      "accent": "009688ff",
+      "excluded": "2e3c43ff"
+    },
+    "DefaultTabs": {
+      "background": "052629",
+      "borderColor": "1f2430"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "052629"
+    },
+    "Popup": {
+      "Header.activeBackground": "#052629"
+    }
+  }
+}

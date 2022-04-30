@@ -1,0 +1,35 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Shape",
+  "editorScheme": "/themes/shape.xml",
+  "ui": {
+    "*": {
+      "background": "131c28ff",
+      "foreground": "b0bec5ff",
+      "highlight": "425b67ff",
+      "selectionBackground": "546e7aff",
+      "selectionForeground": "ffffffff",
+      "button": "2e3c43ff",
+      "secondaryBackground": "32424aff",
+      "disabled": "415967ff",
+      "contrast": "1e272cff",
+      "tableSelected": "314549ff",
+      "secondBorder": "2a373eff",
+      "treeSelection": "00485c",
+      "notifications": "323232ff",
+      "accent": "009688ff",
+      "excluded": "2e3c43ff"
+    },
+    "DefaultTabs": {
+      "background": "131c28",
+      "borderColor": "1f2430"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "131c28"
+    },
+    "Popup": {
+      "Header.activeBackground": "#131c28"
+    }
+  }
+}

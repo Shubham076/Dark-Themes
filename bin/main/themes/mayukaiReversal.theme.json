@@ -1,0 +1,35 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Mayukai Reversal",
+  "editorScheme": "/themes/Mayukai Reversal.xml",
+  "ui": {
+    "*": {
+      "background": "101521ff",
+      "foreground": "b0bec5ff",
+      "highlight": "425b67ff",
+      "selectionBackground": "546e7aff",
+      "selectionForeground": "ffffffff",
+      "button": "2e3c43ff",
+      "secondaryBackground": "32424aff",
+      "disabled": "415967ff",
+      "contrast": "1e272cff",
+      "tableSelected": "314549ff",
+      "secondBorder": "2a373eff",
+      "treeSelection": "00485c",
+      "notifications": "323232ff",
+      "accent": "009688ff",
+      "excluded": "2e3c43ff"
+    },
+    "DefaultTabs": {
+      "background": "03080f",
+      "borderColor": "03080f"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "03080f"
+    },
+    "Popup": {
+      "Header.activeBackground": "#03080f"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Noctis Bordo",
+  "editorScheme": "/themes/Noctis Bordo.xml",
+  "ui": {
+    "*": {
+      "background": "322a2d",
+      "foreground": "cbbec2",
+      "highlight": "425b67ff",
+      "selectionBackground": "546e7aff",
+      "selectionForeground": "ffffffff",
+      "button": "2e3c43ff",
+      "secondaryBackground": "32424aff",
+      "disabled": "415967ff",
+      "contrast": "1e272cff",
+      "tableSelected": "314549ff",
+      "secondBorder": "2a373eff",
+      "treeSelection": "00485c",
+      "notifications": "323232ff",
+      "accent": "009688ff",
+      "excluded": "2e3c43ff"
+    },
+    "DefaultTabs": {
+      "background": "2c2528",
+      "borderColor": "1f191b"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "2c2528"
+    },
+    "Popup": {
+      "Header.activeBackground": "#2c2528"
+    }
+  }
+}

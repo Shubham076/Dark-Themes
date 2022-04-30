@@ -1,0 +1,37 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Elements",
+  "editorScheme": "/themes/Elements.xml",
+  "ui": {
+    "*": {
+      "background": "0e151b",
+      "foreground": "d6deeb",
+      "highlight": "425b67ff",
+      "selectionBackground": "546e7aff",
+      "selectionForeground": "ffffffff",
+      "button": "2e3c43ff",
+      "secondaryBackground": "32424aff",
+      "disabled": "f29e7480",
+      "contrast": "1e272cff",
+      "tableSelected": "314549ff",
+      "secondBorder": "2a373eff",
+      "treeSelection": "707a8cb3",
+      "notifications": "323232ff",
+      "accent": "009688ff",
+      "excluded": "2e3c43ff"
+    },
+    "DefaultTabs": {
+      "background": "1c1e25",
+      "hoverBackground": "707a8c99",
+      "borderColor": "1f2430"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "1c1e25",
+      "borderColor" : "1f2430"
+    },
+    "Popup": {
+      "Header.activeBackground": "#1c1e25"
+    }
+  }
+}

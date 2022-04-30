@@ -1,0 +1,35 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Noctis Voila",
+  "editorScheme": "/themes/Noctis Voila.xml",
+  "ui": {
+    "*": {
+      "background": "2b2136ff",
+      "foreground": "b0bec5ff",
+      "highlight": "425b67ff",
+      "selectionBackground": "546e7aff",
+      "selectionForeground": "ffffffff",
+      "button": "2e3c43ff",
+      "secondaryBackground": "32424aff",
+      "disabled": "415967ff",
+      "contrast": "1e272cff",
+      "tableSelected": "314549ff",
+      "secondBorder": "2a373eff",
+      "treeSelection": "00485c",
+      "notifications": "323232ff",
+      "accent": "009688ff",
+      "excluded": "2e3c43ff"
+    },
+    "DefaultTabs": {
+      "background": "2b2136",
+      "borderColor": "1f2430"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "2b2136"
+    },
+    "Popup": {
+      "Header.activeBackground": "#2b2136"
+    }
+  }
+}
