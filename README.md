@@ -71,6 +71,10 @@ Themes included in this plugin:
 ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/GreenHaze.png)
 - *Elements*
 ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/Elements.png)
+- *Calm*
+![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/calm.png)
+- *Purple*
+![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/purple.png)
 
 ### Improvements are always appreciated!
 <!-- Plugin description end -->
