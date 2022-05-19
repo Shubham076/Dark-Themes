@@ -75,7 +75,10 @@ Themes included in this plugin:
 ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/calm.png)
 - *Purple*
 ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/purple.png)
-
+- *Gruvbox*
+![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/gruvbox.png)
+- *Gruvbox Github*
+- [](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/gruvboxGithub.png)
 ### Improvements are always appreciated!
 <!-- Plugin description end -->
 
