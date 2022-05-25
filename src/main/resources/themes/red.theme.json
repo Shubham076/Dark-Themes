@@ -1,0 +1,39 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Red",
+  "editorScheme": "/themes/red.xml",
+  "ui": {
+    "*": {
+      "background": "#24181e",
+      "foreground": "#9bffde",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#546e7aff",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#2e3c43ff"
+    },
+    "Button": {
+      "background": "#302129",
+      "foreground": "#cccccc"
+    },
+    "DefaultTabs": {
+      "background": "#302129",
+      "borderColor": "#cccccc10"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#302129"
+    },
+    "Popup": {
+      "Header.activeBackground": "#302129"
+    }
+  }
+}
