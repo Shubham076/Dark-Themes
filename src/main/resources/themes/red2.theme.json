@@ -1,13 +1,12 @@
 {
   "author": "Shubham",
   "dark": true,
-  "name": "Golden Blue",
-  "editorScheme": "/themes/Golden Blue.xml",
+  "name": "Red2",
+  "editorScheme": "/themes/red2.xml",
   "ui": {
     "*": {
-      "background": "#001c40ff",
-      "foreground": "#b0bec5ff",
-      "highlight": "#425b67ff",
+      "background": "#1b1010",
+      "foreground": "#d8b1b1",
       "selectionBackground": "#546e7aff",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
@@ -22,24 +21,27 @@
       "excluded": "#2e3c43ff"
     },
     "Button": {
-      "background": "#007092",
-      "foreground": "#c6f6ff"
+      "background": "#241a1a",
+      "foreground": "#cccccc"
+    },
+    "ActionButton": {
+      "hoverBackground": "#212121"
     },
     "DefaultTabs": {
-      "background": "#001c40",
-      "borderColor": "#002b3f"
+      "background": "#241a1a",
+      "borderColor": "#a54d4d"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#003950"
+      "underlinedTabBackground": "#302129"
     },
     "Popup": {
-      "Header.activeBackground": "#001c40"
+      "Header.activeBackground": "#241a1a"
     },
     "TabbedPane": {
-      "hoverColor": "#001c40"
+      "hoverColor": "#241a1a"
     },
     "Button": {
-      "focus": "#001c40"
+      "focus": "#241a1a"
     }
   }
 }

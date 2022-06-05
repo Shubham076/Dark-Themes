@@ -1,12 +1,12 @@
 {
   "author": "Shubham",
   "dark": true,
-  "name": "Golden Blue",
-  "editorScheme": "/themes/Golden Blue.xml",
+  "name": "Talos Dark",
+  "editorScheme": "/themes/talosDark.xml",
   "ui": {
     "*": {
-      "background": "#001c40ff",
-      "foreground": "#b0bec5ff",
+      "background": "#1C1E26",
+      "foreground": "#cccccc",
       "highlight": "#425b67ff",
       "selectionBackground": "#546e7aff",
       "selectionForeground": "#ffffffff",
@@ -21,25 +21,21 @@
       "accent": "#009688ff",
       "excluded": "#2e3c43ff"
     },
-    "Button": {
-      "background": "#007092",
-      "foreground": "#c6f6ff"
-    },
     "DefaultTabs": {
-      "background": "#001c40",
-      "borderColor": "#002b3f"
+      "background": "#1C1E26",
+      "borderColor": "#242731"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#003950"
+      "underlinedTabBackground": "#1C1E26"
     },
     "Popup": {
-      "Header.activeBackground": "#001c40"
+      "Header.activeBackground": "#1C1E26"
     },
     "TabbedPane": {
-      "hoverColor": "#001c40"
+      "hoverColor": "#1C1E26"
     },
     "Button": {
-      "focus": "#001c40"
+      "focus": "#1C1E26"
     }
   }
 }

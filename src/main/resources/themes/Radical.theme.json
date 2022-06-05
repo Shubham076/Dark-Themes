@@ -1,12 +1,12 @@
 {
   "author": "Shubham",
   "dark": true,
-  "name": "Golden Blue",
-  "editorScheme": "/themes/Golden Blue.xml",
+  "name": "Radical",
+  "editorScheme": "/themes/Radical.xml",
   "ui": {
     "*": {
-      "background": "#001c40ff",
-      "foreground": "#b0bec5ff",
+      "background": "#141322",
+      "foreground": "#94b4c4",
       "highlight": "#425b67ff",
       "selectionBackground": "#546e7aff",
       "selectionForeground": "#ffffffff",
@@ -22,24 +22,20 @@
       "excluded": "#2e3c43ff"
     },
     "Button": {
-      "background": "#007092",
-      "foreground": "#c6f6ff"
+      "focus": "#12111f"
     },
     "DefaultTabs": {
-      "background": "#001c40",
+      "background": "#12111f",
       "borderColor": "#002b3f"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#003950"
+      "underlinedTabBackground": "#12111f"
     },
     "Popup": {
-      "Header.activeBackground": "#001c40"
+      "Header.activeBackground": "#12111f"
     },
     "TabbedPane": {
-      "hoverColor": "#001c40"
-    },
-    "Button": {
-      "focus": "#001c40"
+      "hoverColor": "#12111f"
     }
   }
 }

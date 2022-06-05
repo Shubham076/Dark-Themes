@@ -30,6 +30,12 @@
     },
     "Popup": {
       "Header.activeBackground": "#052629"
+    },
+    "TabbedPane": {
+      "hoverColor": "#052629"
+    },
+    "Button": {
+      "focus": "#052629"
     }
   }
 }

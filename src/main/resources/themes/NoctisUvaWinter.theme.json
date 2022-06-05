@@ -1,12 +1,12 @@
 {
   "author": "Shubham",
   "dark": true,
-  "name": "Golden Blue",
-  "editorScheme": "/themes/Golden Blue.xml",
+  "name": "NoctisUva-Winter",
+  "editorScheme": "/themes/NoctisUvaWinter.xml",
   "ui": {
     "*": {
-      "background": "#001c40ff",
-      "foreground": "#b0bec5ff",
+      "background": "#02233d",
+      "foreground": "#a7dbf7",
       "highlight": "#425b67ff",
       "selectionBackground": "#546e7aff",
       "selectionForeground": "#ffffffff",
@@ -21,25 +21,21 @@
       "accent": "#009688ff",
       "excluded": "#2e3c43ff"
     },
-    "Button": {
-      "background": "#007092",
-      "foreground": "#c6f6ff"
-    },
     "DefaultTabs": {
-      "background": "#001c40",
-      "borderColor": "#002b3f"
+      "background": "#02233d",
+      "borderColor": "#219fd544"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#003950"
+      "underlinedTabBackground": "#02233d"
     },
     "Popup": {
-      "Header.activeBackground": "#001c40"
+      "Header.activeBackground": "#02233d"
     },
     "TabbedPane": {
-      "hoverColor": "#001c40"
+      "hoverColor": "#02233d"
     },
     "Button": {
-      "focus": "#001c40"
+      "focus": "#02233d"
     }
   }
 }

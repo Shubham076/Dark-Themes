@@ -6,7 +6,7 @@
   "ui": {
     "*": {
       "background": "#24181e",
-      "foreground": "#9bffde",
+      "foreground": "#cccccc",
       "highlight": "#425b67ff",
       "selectionBackground": "#546e7aff",
       "selectionForeground": "#ffffffff",
@@ -34,6 +34,12 @@
     },
     "Popup": {
       "Header.activeBackground": "#302129"
+    },
+    "TabbedPane": {
+      "hoverColor": "#302129"
+    },
+    "Button": {
+      "focus": "#302129"
     }
   }
 }
