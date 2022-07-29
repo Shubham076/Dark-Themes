@@ -20,10 +20,6 @@
       "accent": "#009688ff",
       "excluded": "#2e3c43ff"
     },
-    "Button": {
-      "background": "#241a1a",
-      "foreground": "#cccccc"
-    },
     "ActionButton": {
       "hoverBackground": "#212121"
     },
@@ -41,7 +37,9 @@
       "hoverColor": "#241a1a"
     },
     "Button": {
-      "focus": "#241a1a"
+      "focus": "#241a1a",
+      "background": "#241a1a",
+      "foreground": "#cccccc"
     }
   }
 }

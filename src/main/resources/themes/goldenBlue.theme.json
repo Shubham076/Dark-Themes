@@ -21,10 +21,6 @@
       "accent": "#009688ff",
       "excluded": "#2e3c43ff"
     },
-    "Button": {
-      "background": "#007092",
-      "foreground": "#c6f6ff"
-    },
     "DefaultTabs": {
       "background": "#001c40",
       "borderColor": "#002b3f"
@@ -39,7 +35,9 @@
       "hoverColor": "#001c40"
     },
     "Button": {
-      "focus": "#001c40"
+      "focus": "#001c40",
+      "background": "#007092",
+      "foreground": "#c6f6ff"
     }
   }
 }
