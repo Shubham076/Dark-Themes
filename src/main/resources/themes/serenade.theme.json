@@ -1,14 +1,14 @@
 {
   "author": "Shubham",
   "dark": true,
-  "name": "Galaxy",
-  "editorScheme": "/themes/Galaxy.xml",
+  "name": "Serenade",
+  "editorScheme": "/themes/serenade.xml",
   "ui": {
     "*": {
-      "background": "#0a2635",
-      "foreground": "#b0bec5ff",
+      "background": "#2A2F33",
+      "foreground": "#d3c6aa",
       "highlight": "#425b67ff",
-      "selectionBackground": "#0e384d",
+      "selectionBackground": "#3e4951",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
       "secondaryBackground": "#32424aff",
@@ -19,37 +19,37 @@
       "treeSelection": "#00485c",
       "notifications": "#323232ff",
       "accent": "#009688ff",
-      "excluded": "#0e384d"
+      "excluded": "#3e4951"
     },
     "DefaultTabs": {
-      "background": "#092330",
-      "borderColor": "#002b3f"
+      "background": "#2A2F33",
+      "borderColor": "#364148"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#2A2F33"
+    },
+    "Popup": {
+      "Header.activeBackground": "#2A2F33"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#092330"
+        "inactiveBackground": "#2A2F33"
       }
     },
-     "Plugins": {
+    "Plugins": {
       "Button": {
-        "installBackground": "#144d69",
-        "updateBackground": "#144d69",
+        "installBackground": "#3a4359ff",
+        "updateBackground": "#3a4359ff",
         "installForeground": "#ffffff",
         "installFillForeground": "#ffffff",
         "updateForeground": "#ffffff"
       }
     },
-    "EditorTabs": {
-      "underlinedTabBackground": "#092330"
-    },
-    "Popup": {
-      "Header.activeBackground": "#092330"
-    },
     "TabbedPane": {
-      "hoverColor": "#092330"
+      "hoverColor": "#364148"
     },
     "Button": {
-      "focus": "#092330"
+      "focus": "#364148"
     }
   }
 }

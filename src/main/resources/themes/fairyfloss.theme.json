@@ -1,55 +1,56 @@
 {
   "author": "Shubham",
   "dark": true,
-  "name": "Galaxy",
-  "editorScheme": "/themes/Galaxy.xml",
+  "name": "FairyFloss",
+  "editorScheme": "/themes/fairyfloss.xml",
   "ui": {
     "*": {
-      "background": "#0a2635",
-      "foreground": "#b0bec5ff",
+      "background": "#464258",
+      "foreground": "#F8F8F2",
       "highlight": "#425b67ff",
-      "selectionBackground": "#0e384d",
+      "selectionBackground": "#705873",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
       "secondaryBackground": "#32424aff",
-      "disabled": "#415967ff",
+      "disabled": "#f29e7480",
       "contrast": "#1e272cff",
       "tableSelected": "#314549ff",
-      "secondBorder": "#2a373eff",
-      "treeSelection": "#00485c",
+      "secondBorder": "#707a8cb3",
       "notifications": "#323232ff",
       "accent": "#009688ff",
-      "excluded": "#0e384d"
+      "excluded": "#705873"
     },
     "DefaultTabs": {
-      "background": "#092330",
-      "borderColor": "#002b3f"
+      "background": "#464258",
+      "borderColor": "#464258"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#092330"
+        "inactiveBackground": "#464258"
       }
     },
-     "Plugins": {
+    "Plugins": {
+      "Tab.hoverBackground": "826687",
       "Button": {
-        "installBackground": "#144d69",
-        "updateBackground": "#144d69",
+        "installBackground": "#826687",
+        "updateBackground": "#826687",
         "installForeground": "#ffffff",
         "installFillForeground": "#ffffff",
         "updateForeground": "#ffffff"
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#092330"
+      "underlinedTabBackground": "#503a5fb0",
+      "borderColor" : "#464258"
     },
     "Popup": {
-      "Header.activeBackground": "#092330"
+      "Header.activeBackground": "#503a5fb0"
     },
     "TabbedPane": {
-      "hoverColor": "#092330"
+      "hoverColor": "#503a5fb0"
     },
     "Button": {
-      "focus": "#092330"
+      "focus": "#503a5fb0"
     }
   }
 }

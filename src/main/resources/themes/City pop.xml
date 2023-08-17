@@ -9,8 +9,8 @@
   <colors>
     <option name="CARET_COLOR" value="fad000" />
     <option name="CARET_ROW_COLOR" value="37233d" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1b1d36" />
-    <option name="GUTTER_BACKGROUND" value="1b1d36" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="26294d" />
+    <option name="GUTTER_BACKGROUND" value="26294d" />
     <option name="INDENT_GUIDE" value="32334a" />
     <option name="LINE_NUMBERS_COLOR" value="fca6d1" />
     <option name="SELECTED_INDENT_GUIDE" value="32334a" />
@@ -1834,7 +1834,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="fca6d1" />
-        <option name="BACKGROUND" value="1b1d36" />
+        <option name="BACKGROUND" value="26294d" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

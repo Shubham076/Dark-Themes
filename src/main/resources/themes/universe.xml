@@ -9,7 +9,7 @@
   <colors>
     <option name="CARET_COLOR" value="e6d791" />
     <option name="CARET_ROW_COLOR" value="121c30" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="e1729" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="172542" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_DELETED" value="f77669" />
     <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
@@ -23,7 +23,7 @@
     <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
     <option name="FILESTATUS_SWITCHED" value="f77669" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
-    <option name="GUTTER_BACKGROUND" value="e1729" />
+    <option name="GUTTER_BACKGROUND" value="172542" />
     <option name="INDENT_GUIDE" value="4e5a71" />
     <option name="LINE_NUMBERS_COLOR" value="d6d9e0" />
     <option name="SELECTED_INDENT_GUIDE" value="4e5a71" />
@@ -474,7 +474,7 @@
     <option name="DEFAULT_CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="c1a2ff" />
-        <option name="BACKGROUND" value="e1729" />
+        <option name="BACKGROUND" value="172542" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
@@ -547,7 +547,7 @@
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="c1a2ff" />
-        <option name="BACKGROUND" value="e1729" />
+        <option name="BACKGROUND" value="172542" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
@@ -1812,7 +1812,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d6d9e0" />
-        <option name="BACKGROUND" value="e1729" />
+        <option name="BACKGROUND" value="172542" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

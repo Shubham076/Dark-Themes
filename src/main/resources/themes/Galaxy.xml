@@ -8,9 +8,9 @@
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="ededed" />
-    <option name="CARET_ROW_COLOR" value="92330" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="71c27" />
-    <option name="GUTTER_BACKGROUND" value="71c27" />
+    <option name="CARET_ROW_COLOR" value="0c3144" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="0a2635" />
+    <option name="GUTTER_BACKGROUND" value="0a2635" />
     <option name="LINE_NUMBERS_COLOR" value="d4d4d4" />
     <option name="SELECTION_BACKGROUND" value="485860" />
   </colors>
@@ -1593,7 +1593,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d4d4d4" />
-        <option name="BACKGROUND" value="71c27" />
+        <option name="BACKGROUND" value="0a2635" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
