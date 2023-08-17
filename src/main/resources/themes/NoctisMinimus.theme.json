@@ -1,0 +1,55 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Noctis Minimus",
+  "editorScheme": "/themes/noctisMinimus.xml",
+  "ui": {
+    "*": {
+      "background": "#1b2932",
+      "foreground": "#c5cdd3",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#273b48",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#273b48"
+    },
+    "DefaultTabs": {
+      "background": "#1b2932",
+      "borderColor": "#1d3544"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#1b2932"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#1b2932"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#2d4453",
+        "updateBackground": "#2d4453",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "Popup": {
+      "Header.activeBackground": "#1b2932"
+    },
+    "TabbedPane": {
+      "hoverColor": "#1b2932"
+    },
+    "Button": {
+      "focus": "#1b2932"
+    }
+  }
+}

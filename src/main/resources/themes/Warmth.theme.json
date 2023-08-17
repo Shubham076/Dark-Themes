@@ -1,0 +1,55 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "QuangoWarmth",
+  "editorScheme": "/themes/Warmth.xml",
+  "ui": {
+    "*": {
+      "background": "#382607",
+      "foreground": "#ebd8c0",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#563b0b",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#563b0b"
+    },
+    "DefaultTabs": {
+      "background": "#382607",
+      "borderColor": "#1f2430"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#382607"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#382607"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#65450d",
+        "updateBackground": "#65450d",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "Popup": {
+      "Header.activeBackground": "#382607"
+    },
+    "TabbedPane": {
+      "hoverColor": "#382607"
+    },
+    "Button": {
+      "focus": "#382607"
+    }
+  }
+}

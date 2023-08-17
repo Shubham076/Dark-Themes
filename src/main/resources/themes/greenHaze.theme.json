@@ -1,0 +1,54 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Green Haze",
+  "editorScheme": "/themes/greenHaze.xml",
+  "ui": {
+    "*": {
+      "background": "#072626",
+      "foreground": "#d3b58d",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#0c4343",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#0c4343"
+    },
+    "DefaultTabs": {
+      "background": "#002020"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#003950"
+    },
+    "Popup": {
+      "Header.activeBackground": "#002020"
+    },
+    "TabbedPane": {
+      "hoverColor": "#002020"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#072626"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#0f5151",
+        "updateBackground": "#0f5151",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "Button": {
+      "focus": "#002020"
+    }
+  }
+}

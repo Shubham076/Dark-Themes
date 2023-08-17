@@ -1,0 +1,55 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Hack The Box",
+  "editorScheme": "/themes/Hack The Box.xml",
+  "ui": {
+    "*": {
+      "background": "#1a2332ff",
+      "foreground": "#b0bec5ff",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#263348ff",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#263348ff"
+    },
+    "DefaultTabs": {
+      "background": "#1a2332",
+      "borderColor": "#002b3f"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#1a2332"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#1a2332ff"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#2b3a54ff",
+        "updateBackground": "#2b3a54ff",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "Popup": {
+      "Header.activeBackground": "#1a2332"
+    },
+    "TabbedPane": {
+      "hoverColor": "#1a2332"
+    },
+    "Button": {
+      "focus": "#1a2332"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Gruvbox Github",
+  "editorScheme": "/themes/gruvboxGithub.xml",
+  "ui": {
+    "*": {
+      "background": "#22272e",
+      "foreground": "#adbac7",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#303842",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#303842"
+    },
+    "DefaultTabs": {
+      "background": "#1c2128",
+      "borderColor": "#444c56"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#1c2128"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#22272e"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#38404b",
+        "updateBackground": "#38404b",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "Popup": {
+      "Header.activeBackground": "#1c2128"
+    },
+    "TabbedPane": {
+      "hoverColor": "#1c2128"
+    },
+    "Button": {
+      "focus": "#1c2128"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Noctis Voila",
+  "editorScheme": "/themes/Noctis Voila.xml",
+  "ui": {
+    "*": {
+      "background": "#2b2136ff",
+      "foreground": "#b0bec5ff",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#3c2e4bff",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#3c2e4bff"
+    },
+    "DefaultTabs": {
+      "background": "#2b2136",
+      "borderColor": "#1f2430"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#2b2136"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#2b2136ff"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#443456ff",
+        "updateBackground": "#443456ff",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "Popup": {
+      "Header.activeBackground": "#2b2136"
+    },
+    "TabbedPane": {
+      "hoverColor": "#2b2136"
+    },
+    "Button": {
+      "focus": "#2b2136"
+    }
+  }
+}

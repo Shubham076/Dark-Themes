@@ -1,0 +1,55 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Oblong",
+  "editorScheme": "/themes/oblong.xml",
+  "ui": {
+    "*": {
+      "background": "#002933",
+      "foreground": "#fff1ce",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#001e25",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#001e25"
+    },
+    "DefaultTabs": {
+      "background": "#002933",
+      "borderColor": "#002933"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#003950"
+    },
+    "Popup": {
+      "Header.activeBackground": "#002933"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#002933"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#005266",
+        "updateBackground": "#005266",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "TabbedPane": {
+      "hoverColor": "#002933"
+    },
+    "Button": {
+      "focus": "#002933"
+    }
+  }
+}

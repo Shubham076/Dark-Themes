@@ -1,0 +1,55 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Golden Blue",
+  "editorScheme": "/themes/Golden Blue.xml",
+  "ui": {
+    "*": {
+      "background": "#001c40ff",
+      "foreground": "#b0bec5ff",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#002b62ff",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#002b62ff"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#001c40ff"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#003273ff",
+        "updateBackground": "#003273ff",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "DefaultTabs": {
+      "background": "#001c40",
+      "borderColor": "#002b3f"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#003950"
+    },
+    "Popup": {
+      "Header.activeBackground": "#001c40"
+    },
+    "TabbedPane": {
+      "hoverColor": "#001c40"
+    },
+    "Button": {
+      "focus": "#001c40"
+    }
+  }
+}

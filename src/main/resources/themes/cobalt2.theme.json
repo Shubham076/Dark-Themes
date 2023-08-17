@@ -1,0 +1,55 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Cobalt 2",
+  "editorScheme": "/themes/Cobalt 2.xml",
+  "ui": {
+    "*": {
+      "background": "#15232dff",
+      "foreground": "#b0bec5ff",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#203544ff",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#203544ff"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#15232dff"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#253e50ff",
+        "updateBackground": "#253e50ff",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "DefaultTabs": {
+      "background": "#15232d",
+      "borderColor": "#002b3f"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#15232d"
+    },
+    "Popup": {
+      "Header.activeBackground": "#15232d"
+    },
+    "TabbedPane": {
+      "hoverColor": "#15232d"
+    },
+    "Button": {
+      "focus": "#15232d"
+    }
+  }
+}

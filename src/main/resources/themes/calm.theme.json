@@ -1,0 +1,57 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Calm",
+  "editorScheme": "/themes/calm.xml",
+  "ui": {
+    "*": {
+      "background": "#143131",
+      "foreground": "#ffecdd",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#235555",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#235555"
+    },
+    "DefaultTabs": {
+      "background": "#23393f",
+      "borderColor": "#002b3f"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#23393f"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#143131"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#286161",
+        "updateBackground": "#286161",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "Popup": {
+      "Header.activeBackground": "#23393f"
+    },
+    "TabbedPane": {
+      "hoverColor": "#23393f"
+    },
+    "Button": {
+      "focus": "#23393f",
+      "background": "#23393f",
+      "foreground": "#c6f6ff"
+    }
+  }
+}

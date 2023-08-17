@@ -1,0 +1,55 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Talos Dark",
+  "editorScheme": "/themes/talosDark.xml",
+  "ui": {
+    "*": {
+      "background": "#1C1E26",
+      "foreground": "#cccccc",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#2A2D3A",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#2A2D3A"
+    },
+    "DefaultTabs": {
+      "background": "#1C1E26",
+      "borderColor": "#242731"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#1C1E26"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#1C1E26"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#323543",
+        "updateBackground": "#323543",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "Popup": {
+      "Header.activeBackground": "#1C1E26"
+    },
+    "TabbedPane": {
+      "hoverColor": "#1C1E26"
+    },
+    "Button": {
+      "focus": "#1C1E26"
+    }
+  }
+}

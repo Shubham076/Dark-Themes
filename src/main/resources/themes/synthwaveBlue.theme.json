@@ -1,0 +1,55 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Synthwave Blue",
+  "editorScheme": "/themes/Synthwave Blue.xml",
+  "ui": {
+    "*": {
+      "background": "#002335",
+      "foreground": "#ffffff",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#003957",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#003957"
+    },
+    "DefaultTabs": {
+      "background": "#001b2f",
+      "borderColor": "#000088"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#001b2f"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#002335"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#004568",
+        "updateBackground": "#004568",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "Popup": {
+      "Header.activeBackground": "#001b2f"
+    },
+    "TabbedPane": {
+      "hoverColor": "#001b2f"
+    },
+    "Button": {
+      "focus": "#001b2f"
+    }
+  }
+}

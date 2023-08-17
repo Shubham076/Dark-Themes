@@ -1,0 +1,55 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Noctis Azureus",
+  "editorScheme": "/themes/Noctis Azureus.xml",
+  "ui": {
+    "*": {
+      "background": "#07273b",
+      "foreground": "#becfda",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#0b3b59",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#0b3b59"
+    },
+    "DefaultTabs": {
+      "background": "#062132",
+      "borderColor": "#0f1315"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#062132"
+    },
+    "Popup": {
+      "Header.activeBackground": "#062132"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#07273b"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#0c4569",
+        "updateBackground": "#0c4569",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "TabbedPane": {
+      "hoverColor": "#062132"
+    },
+    "Button": {
+      "focus": "#062132"
+    }
+  }
+}

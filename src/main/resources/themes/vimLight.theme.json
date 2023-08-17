@@ -1,0 +1,56 @@
+{
+  "author": "Shubham",
+  "dark": false,
+  "name": "Vim Light",
+  "editorScheme": "/themes/vimLight.xml",
+  "ui": {
+    "*": {
+      "background": "#fbf1c7",
+      "foreground": "#393a34",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#f6e188",
+      "selectionForeground": "#000000",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#f6e188"
+    },
+    "DefaultTabs": {
+      "background": "#fbf1c7",
+      "borderColor": "#fbf1c7"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#fbf1c7",
+      "hoverBackground": "#fbf1c7"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#fbf1c7"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#fbf1c7",
+        "updateBackground": "#fbf1c7",
+        "installForeground": "#000000",
+        "installFillForeground": "#000000",
+        "updateForeground": "#000000"
+      }
+    },
+    "Popup": {
+      "Header.activeBackground": "#fbf1c7"
+    },
+    "TabbedPane": {
+      "hoverColor": "#fbf1c7"
+    },
+    "Button": {
+      "focus": "#fbf1c7"
+    }
+  }
+}

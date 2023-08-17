@@ -1,0 +1,55 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Vim Dark Soft",
+  "editorScheme": "/themes/vimDarkSoft.xml",
+  "ui": {
+    "*": {
+      "background": "#32302f",
+      "foreground": "#ebdbb2",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#44413f",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#44413f"
+    },
+    "DefaultTabs": {
+      "background": "#32302f",
+      "borderColor": "#32302f"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#32302f"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#32302f"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#44413f",
+        "updateBackground": "#44413f",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "Popup": {
+      "Header.activeBackground": "#32302f"
+    },
+    "TabbedPane": {
+      "hoverColor": "#32302f"
+    },
+    "Button": {
+      "focus": "#32302f"
+    }
+  }
+}

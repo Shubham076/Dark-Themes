@@ -1,0 +1,55 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "EverForest",
+  "editorScheme": "/themes/everforest.xml",
+  "ui": {
+    "*": {
+      "background": "#2f383e",
+      "foreground": "#d3c6aa",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#3e4951",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#3e4951"
+    },
+    "DefaultTabs": {
+      "background": "#364148",
+      "borderColor": "#364148"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#364148"
+    },
+    "Popup": {
+      "Header.activeBackground": "#364148"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#2f383e"
+      }
+    },
+    "Plugins": {
+      "Button": {
+        "installBackground": "#3a4359ff",
+        "updateBackground": "#3a4359ff",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "TabbedPane": {
+      "hoverColor": "#364148"
+    },
+    "Button": {
+      "focus": "#364148"
+    }
+  }
+}

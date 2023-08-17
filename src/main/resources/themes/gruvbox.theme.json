@@ -1,0 +1,57 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Gruvbox",
+  "editorScheme": "/themes/gruvbox.xml",
+  "ui": {
+    "*": {
+      "background": "#1d2021",
+      "foreground": "#ebdbb2",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#2d3233",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#2d3233"
+    },
+    "DefaultTabs": {
+      "background": "#1d2021",
+      "borderColor": "#3c3836"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#1d2021"
+    },
+    "Popup": {
+      "Header.activeBackground": "#1d2021"
+    },
+    "TabbedPane": {
+      "hoverColor": "#1d2021"
+    },
+     "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#1d2021"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#353a3c",
+        "updateBackground": "#353a3c",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "Button": {
+      "focus": "#1d2021",
+      "background": "#1d2021",
+      "foreground": "#d5c4a1"
+    }
+  }
+}

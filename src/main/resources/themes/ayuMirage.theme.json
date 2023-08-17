@@ -1,0 +1,57 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Ayu Mirage",
+  "editorScheme": "/themes/Ayu Mirage.xml",
+  "ui": {
+    "*": {
+      "background": "#1f2430ff",
+      "foreground": "#b0bec5ff",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#333b4fff",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#f29e7480",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#707a8cb3",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#333b4fff"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#1f2430ff"
+      }
+    },
+    "DefaultTabs": {
+      "background": "#1f2430",
+      "hoverBackground": "#707a8c99",
+      "borderColor": "#1f2430"
+    },
+      "Plugins": {
+      "Button": {
+        "installBackground": "#3a4359ff",
+        "updateBackground": "#3a4359ff",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#1f2430",
+      "borderColor" : "#1f2430"
+    },
+    "Popup": {
+      "Header.activeBackground": "#1f2430"
+    },
+    "TabbedPane": {
+      "hoverColor": "#1f2430"
+    },
+    "Button": {
+      "focus": "#1f2430"
+    }
+  }
+}

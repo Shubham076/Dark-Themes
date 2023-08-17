@@ -1,1 +1,1 @@
-rootProject.name = "Themes"
+rootProject.name = "Dark-Themes"

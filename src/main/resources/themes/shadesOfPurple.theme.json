@@ -1,0 +1,55 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Shades Of Purple",
+  "editorScheme": "/themes/Shades Of Purple.xml",
+  "ui": {
+    "*": {
+      "background": "#222244ff",
+      "foreground": "#b0bec5ff",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#2d2d5b",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#f29e7480",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#707a8cb3",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#2d2d5b"
+    },
+    "DefaultTabs": {
+      "background": "#222244",
+      "borderColor": "#25254B"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#222244",
+      "borderColor" : "#25254B"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#222244ff"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#333366",
+        "updateBackground": "#333366",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "Popup": {
+      "Header.activeBackground": "#222244"
+    },
+    "TabbedPane": {
+      "hoverColor": "#222244"
+    },
+    "Button": {
+      "focus": "#222244"
+    }
+  }
+}

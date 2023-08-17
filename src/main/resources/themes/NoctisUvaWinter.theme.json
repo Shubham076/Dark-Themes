@@ -1,0 +1,55 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "NoctisUva-Winter",
+  "editorScheme": "/themes/NoctisUvaWinter.xml",
+  "ui": {
+    "*": {
+      "background": "#02233d",
+      "foreground": "#a7dbf7",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#03365e",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#03365e"
+    },
+    "DefaultTabs": {
+      "background": "#02233d",
+      "borderColor": "#219fd544"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#02233d"
+    },
+    "Popup": {
+      "Header.activeBackground": "#02233d"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#02233d"
+      }
+    },
+     "Plugins": {
+      "Button": {
+        "installBackground": "#043f6e",
+        "updateBackground": "#043f6e",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "TabbedPane": {
+      "hoverColor": "#02233d"
+    },
+    "Button": {
+      "focus": "#02233d"
+    }
+  }
+}

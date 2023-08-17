@@ -1,0 +1,48 @@
+{
+  "author": "Shubham",
+  "dark": false,
+  "name": "Tokyo Night Light",
+  "editorScheme": "/themes/tokyoNightLight.xml",
+  "ui": {
+    "*": {
+      "background": "#d5d6db",
+      "foreground": "#343b59",
+      "highlight": "#e7e7e8ff",
+      "selectionBackground": "#fbf1c7",
+      "selectionForeground": "#546e7aff",
+      "button": "#f3f4f5ff",
+      "secondaryBackground": "#ffffffff",
+      "disabled": "#d2d4d5ff",
+      "contrast": "#eeeeeeff",
+      "tableSelected": "#e7e7e8ff",
+      "secondBorder": "#d3e1e8ff",
+      "treeSelection": "#80cbc440",
+      "notifications": "#eae8e8ff",
+      "accent": "#00bcd4ff",
+      "excluded": "#fbf1c7"
+    },
+    "DefaultTabs": {
+      "background": "#d5d6db",
+      "borderColor": "#1f2430"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#d5d6db",
+      "hoverBackground": "#d5d6db"
+
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#d5d6db"
+      }
+    },
+    "Popup": {
+      "Header.activeBackground": "#d5d6db"
+    },
+    "TabbedPane": {
+      "hoverColor": "#d5d6db"
+    },
+    "Button": {
+      "focus": "#d5d6db"
+    }
+  }
+}
