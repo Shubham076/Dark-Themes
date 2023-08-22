@@ -9,6 +9,7 @@
       "foreground": "#ebdbb2",
       "highlight": "#425b67ff",
       "selectionBackground": "#44413f",
+      "selectionInactiveBackground": "#44413f",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
       "secondaryBackground": "#32424aff",

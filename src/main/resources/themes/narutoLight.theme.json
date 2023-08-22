@@ -9,6 +9,7 @@
       "foreground": "#4D4D4A",
       "highlight": "#e7e7e8ff",
       "selectionBackground": "#ccd7daff",
+      "selectionInactiveBackground": "#ccd7daff",
       "selectionForeground": "#546e7aff",
       "button": "#f3f4f5ff",
       "secondaryBackground": "#ffffffff",
@@ -33,6 +34,11 @@
     },
     "TabbedPane": {
       "hoverColor": "#fcfcfc"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#fcfcfc"
+      }
     },
     "Button": {
       "focus": "#fcfcfc"

@@ -8,8 +8,8 @@
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="bbd99e" />
-    <option name="CARET_ROW_COLOR" value="191230" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="150e29" />
+    <option name="CARET_ROW_COLOR" value="3c2974" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="221742" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_DELETED" value="f77669" />
     <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
@@ -23,11 +23,11 @@
     <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
     <option name="FILESTATUS_SWITCHED" value="f77669" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
-    <option name="GUTTER_BACKGROUND" value="150e29" />
+    <option name="GUTTER_BACKGROUND" value="221742" />
     <option name="INDENT_GUIDE" value="574e71" />
     <option name="LINE_NUMBERS_COLOR" value="d8d5df" />
     <option name="SELECTED_INDENT_GUIDE" value="574e71" />
-    <option name="SELECTION_BACKGROUND" value="2a2145" />
+    <option name="SELECTION_BACKGROUND" value="3c2974" />
     <option name="WHITESPACES" value="574e71" />
   </colors>
   <attributes>
@@ -474,7 +474,7 @@
     <option name="DEFAULT_CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="c1a2ff" />
-        <option name="BACKGROUND" value="150e29" />
+        <option name="BACKGROUND" value="221742" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
@@ -547,7 +547,7 @@
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="c1a2ff" />
-        <option name="BACKGROUND" value="150e29" />
+        <option name="BACKGROUND" value="221742" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
@@ -1822,7 +1822,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d8d5df" />
-        <option name="BACKGROUND" value="150e29" />
+        <option name="BACKGROUND" value="221742" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

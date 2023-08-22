@@ -8,7 +8,8 @@
       "background": "#221742",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
-      "selectionBackground": "#2f205b",
+      "selectionBackground": "#3c2974",
+      "selectionInactiveBackground": "#3c2974",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
       "secondaryBackground": "#32424aff",
@@ -19,7 +20,7 @@
       "treeSelection": "#00485c",
       "notifications": "#323232ff",
       "accent": "#009688ff",
-      "excluded": "#2f205b"
+      "excluded": "#3c2974"
     },
     "DefaultTabs": {
       "background": "#221742",
