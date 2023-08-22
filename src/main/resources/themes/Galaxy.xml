@@ -1,16 +1,36 @@
 <scheme name="Galaxy" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2022-03-03T20:04:29</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2021.3.2.0.0</property>
-    <property name="modified">2022-03-03T20:04:36</property>
+    <property name="created">2023-08-22T16:11:17</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2023.2.0.0</property>
+    <property name="modified">2023-08-22T16:11:20</property>
     <property name="originalScheme">Galaxy</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="ededed" />
-    <option name="CARET_ROW_COLOR" value="0c3144" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="0a2635" />
-    <option name="GUTTER_BACKGROUND" value="0a2635" />
+    <option name="CARET_ROW_COLOR" value="92330" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="a2635" />
+    <option name="FILESTATUS_ADDED" value="c3e887" />
+    <option name="FILESTATUS_COPIED" value="c3e88d" />
+    <option name="FILESTATUS_DELETED" value="f77669" />
+    <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="808080" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="fc9867" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="fc9867" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="fc9867" />
+    <option name="FILESTATUS_MERGED" value="c792ea" />
+    <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
+    <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+    <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
+    <option name="FILESTATUS_SWITCHED" value="f77669" />
+    <option name="FILESTATUS_UNKNOWN" value="f77669" />
+    <option name="FILESTATUS_addedOutside" value="ffcb6b" />
+    <option name="FILESTATUS_changelistConflict" value="fc9867" />
+    <option name="FILESTATUS_modifiedOutside" value="c792ea" />
+    <option name="GUTTER_BACKGROUND" value="71c27" />
     <option name="LINE_NUMBERS_COLOR" value="d4d4d4" />
     <option name="SELECTION_BACKGROUND" value="485860" />
   </colors>
@@ -732,15 +752,15 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="HAML_FILTER" baseAttributes="DEFAULT_LABEL" />
-    <option name="HAML_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_FILTER" baseAttributes="" />
+    <option name="HAML_FILTER_CONTENT" baseAttributes="" />
     <option name="HAML_ID">
       <value>
         <option name="FOREGROUND" value="d1ab79" />
       </value>
     </option>
-    <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
-    <option name="HAML_RUBY_START" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HAML_RUBY_CODE" baseAttributes="" />
+    <option name="HAML_RUBY_START" baseAttributes="" />
     <option name="HAML_STRING">
       <value>
         <option name="FOREGROUND" value="c99380" />
@@ -761,8 +781,8 @@
         <option name="FOREGROUND" value="d1ab79" />
       </value>
     </option>
-    <option name="HAML_TEXT" baseAttributes="TEXT" />
-    <option name="HAML_XHTML" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_TEXT" baseAttributes="" />
+    <option name="HAML_XHTML" baseAttributes="" />
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="94c5cc" />
@@ -929,6 +949,11 @@
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="d16969" />
+      </value>
+    </option>
+    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
+      <value>
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="KOTLIN_LABEL">
@@ -1593,7 +1618,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d4d4d4" />
-        <option name="BACKGROUND" value="0a2635" />
+        <option name="BACKGROUND" value="a2635" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
