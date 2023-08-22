@@ -21,8 +21,8 @@
       "excluded": "#705873"
     },
     "DefaultTabs": {
-      "background": "#503a5fb0",
-      "borderColor": "#25254B"
+      "background": "#5d4960",
+      "borderColor": "#4a3a4d"
     },
     "ToolWindow": {
       "Header": {
@@ -41,7 +41,7 @@
     },
     "EditorTabs": {
       "underlinedTabBackground": "#503a5fb0",
-      "borderColor" : "#25254B"
+      "borderColor" : "#4a3a4d"
     },
     "Popup": {
       "Header.activeBackground": "#503a5fb0"

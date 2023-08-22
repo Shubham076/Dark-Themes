@@ -1,21 +1,27 @@
-<scheme name="Oblong copy" version="142" parent_scheme="Darcula">
+<scheme name="Oblong" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2023-06-26T22:41:02</property>
-    <property name="ide">PyCharmCore</property>
-    <property name="ideVersion">2022.3.3.0.0</property>
-    <property name="modified">2023-06-26T22:41:13</property>
-    <property name="originalScheme">Oblong copy</property>
+    <property name="created">2023-08-22T14:33:27</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2023.2.0.0</property>
+    <property name="modified">2023-08-22T14:33:30</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="b9b9b9" />
     <option name="CARET_ROW_COLOR" value="1e25" />
     <option name="CONSOLE_BACKGROUND_KEY" value="2933" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
+    <option name="FILESTATUS_COPIED" value="22863a" />
     <option name="FILESTATUS_DELETED" value="f77669" />
     <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6a737d" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="d73a49" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d73a49" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d73a49" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
     <option name="FILESTATUS_IDEA_SVN_REPLACED" value="c3e887" />
+    <option name="FILESTATUS_MERGED" value="6f42c1" />
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
@@ -23,9 +29,13 @@
     <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
     <option name="FILESTATUS_SWITCHED" value="f77669" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
+    <option name="FILESTATUS_addedOutside" value="b08800" />
+    <option name="FILESTATUS_changelistConflict" value="d73a49" />
+    <option name="FILESTATUS_modifiedOutside" value="6f42c1" />
     <option name="GUTTER_BACKGROUND" value="2933" />
     <option name="INDENT_GUIDE" value="525252" />
     <option name="LINE_NUMBERS_COLOR" value="fff1ce" />
+    <option name="MT_FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
     <option name="SELECTED_INDENT_GUIDE" value="525252" />
     <option name="SELECTION_BACKGROUND" value="5d74" />
     <option name="WHITESPACES" value="525252" />
@@ -686,19 +696,34 @@
         <option name="FOREGROUND" value="999999" />
       </value>
     </option>
+    <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_BUILTIN_TYPE_REFERENCE">
       <value>
         <option name="FOREGROUND" value="ffffcc" />
       </value>
     </option>
+    <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="1ffd57" />
       </value>
     </option>
+    <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
         <option name="FOREGROUND" value="fff1ce" />
+      </value>
+    </option>
+    <option name="GO_STRUCT_EXPORTED_MEMBER">
+      <value>
+        <option name="FOREGROUND" value="d1f1a9" />
+      </value>
+    </option>
+    <option name="GO_STRUCT_LOCAL_MEMBER">
+      <value>
+        <option name="FOREGROUND" value="d1f1a9" />
       </value>
     </option>
     <option name="GO_TYPE_REFERENCE">
@@ -816,7 +841,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -906,6 +931,22 @@
         <option name="FOREGROUND" value="868686" />
       </value>
     </option>
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="7c7c7c" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JS.INSTANCE_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="686868" />
+      </value>
+    </option>
+    <option name="JS.LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="7c7c7c" />
+      </value>
+    </option>
     <option name="JS.PARAMETER">
       <value>
         <option name="FOREGROUND" value="fff1ce" />
@@ -916,10 +957,14 @@
         <option name="FOREGROUND" value="868686" />
       </value>
     </option>
+    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="KOTLIN_LABEL">
       <value />
     </option>
-    <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="LABEL">
       <value>
         <option name="FOREGROUND" value="747474" />
@@ -1132,27 +1177,20 @@
         <option name="FOREGROUND" value="c2ffd8" />
       </value>
     </option>
-    <option name="PY.KEYWORD_ARGUMENT">
-      <value>
-        <option name="FOREGROUND" value="c2ffd8" />
-      </value>
-    </option>
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="1ffd57" />
       </value>
     </option>
-    <option name="PY.METHOD_CALL">
+    <option name="PY.NUMBER">
       <value>
-        <option name="FOREGROUND" value="ffc66d" />
+        <option name="FOREGROUND" value="999999" />
       </value>
     </option>
-    <option name="PY.OPERATION_SIGN">
-      <value>
-        <option name="FOREGROUND" value="b9b9b9" />
-      </value>
-    </option>
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.STRING">
       <value>
         <option name="FOREGROUND" value="ff7070" />
@@ -1161,6 +1199,11 @@
     <option name="PY.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="868686" />
+      </value>
+    </option>
+    <option name="REST.BOLD">
+      <value>
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="REST.EXPLICIT">
@@ -1186,6 +1229,11 @@
     <option name="REST.INTERPRETED">
       <value>
         <option name="BACKGROUND" value="4d5d3d" />
+      </value>
+    </option>
+    <option name="REST.ITALIC">
+      <value>
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="REST.LINE_COMMENT">
@@ -1597,6 +1645,16 @@
         <option name="BACKGROUND" value="623062" />
       </value>
     </option>
+    <option name="XML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="999999" />
+      </value>
+    </option>
+    <option name="XML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="ff7070" />
+      </value>
+    </option>
     <option name="XML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="fdc8ff" />
@@ -1613,6 +1671,11 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="XML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="7c7c7c" />
+      </value>
+    </option>
     <option name="YAML_COMMENT">
       <value>
         <option name="FOREGROUND" value="1ffd57" />
@@ -1623,8 +1686,5 @@
         <option name="FOREGROUND" value="b9b9b9" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
-    <option name="XML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
-    <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
   </attributes>
 </scheme>
