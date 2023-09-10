@@ -1,14 +1,14 @@
 <scheme name="Elements" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2023-08-22T16:10:40</property>
+    <property name="created">2023-09-10T16:23:14</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2023.2.0.0</property>
-    <property name="modified">2023-08-22T16:10:44</property>
+    <property name="modified">2023-09-10T16:23:17</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="d6deeb" />
     <option name="CARET_ROW_COLOR" value="314a5e" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1A2731" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="1a2731" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="c3e88d" />
     <option name="FILESTATUS_DELETED" value="f77669" />
@@ -1657,7 +1657,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="d6deeb" />
+        <option name="FOREGROUND" value="afbf7e" />
         <option name="BACKGROUND" value="1a2731" />
       </value>
     </option>

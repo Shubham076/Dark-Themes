@@ -18,7 +18,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="com.github.shubham076.bluedolphin" path="/themes/blueDolphin.theme.json"/>
-        <themeProvider id="com.github.shubham076.bluewhale" path="/themes/blueWhale.theme.json"/>
         <themeProvider id="com.github.shubham076.goldenBlue" path="/themes/goldenBlue.theme.json"/>
         <themeProvider id="com.github.shubham076.ayuMirage" path="/themes/ayuMirage.theme.json"/>
         <themeProvider id="com.github.shubham076.shadesOfPurple" path="/themes/shadesOfPurple.theme.json"/>
@@ -79,5 +78,8 @@
         <themeProvider id="com.github.shubham076.vitesse-dark" path="/themes/vitesseDark.theme.json" />
         <themeProvider id="com.github.shubham076.serenade" path="/themes/serenade.theme.json" />
         <themeProvider id="com.github.shubham076.fairyfloss" path="/themes/fairyfloss.theme.json" />
+        <themeProvider id="com.github.shubham076.gruvboxConcoctisHard" path="/themes/gruvboxConcoctisHard.theme.json" />
+        <themeProvider id="com.github.shubham076.gruvboxConcoctisMedium" path="/themes/gruvboxConcoctisMedium.theme.json" />
+        <themeProvider id="com.github.shubham076.gruvboxConcoctisSoft" path="/themes/gruvboxConcoctisSoft.theme.json" />
     </extensions>
 </idea-plugin>

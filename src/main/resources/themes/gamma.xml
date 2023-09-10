@@ -1,9 +1,9 @@
 <scheme name="Gamma" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2023-08-22T16:11:01</property>
+    <property name="created">2023-09-10T16:25:18</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2023.2.0.0</property>
-    <property name="modified">2023-08-22T16:11:05</property>
+    <property name="modified">2023-09-10T16:25:22</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="ff9f" />
@@ -1850,7 +1850,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="ec4b4" />
+        <option name="FOREGROUND" value="afbf7e" />
         <option name="BACKGROUND" value="33535" />
       </value>
     </option>

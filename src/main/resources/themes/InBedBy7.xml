@@ -1,10 +1,9 @@
 <scheme name="In bed by 7pm" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2022-03-02T22:01:53</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2021.3.2.0.0</property>
-    <property name="modified">2022-03-02T22:02:04</property>
-    <property name="originalScheme">In bed by 7pm</property>
+    <property name="created">2023-09-10T16:34:51</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2023.2.0.0</property>
+    <property name="modified">2023-09-10T16:34:53</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="ebecf1" />
@@ -894,8 +893,8 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="HAML_FILTER" baseAttributes="DEFAULT_LABEL" />
-    <option name="HAML_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_FILTER" baseAttributes="" />
+    <option name="HAML_FILTER_CONTENT" baseAttributes="" />
     <option name="HAML_ID">
       <value>
         <option name="FOREGROUND" value="eeadf1" />
@@ -906,8 +905,8 @@
         <option name="FOREGROUND" value="9dd2e8" />
       </value>
     </option>
-    <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
-    <option name="HAML_RUBY_START" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HAML_RUBY_CODE" baseAttributes="" />
+    <option name="HAML_RUBY_START" baseAttributes="" />
     <option name="HAML_STRING">
       <value>
         <option name="FOREGROUND" value="e2c3b2" />
@@ -928,13 +927,13 @@
         <option name="FOREGROUND" value="9dd2e8" />
       </value>
     </option>
-    <option name="HAML_TEXT" baseAttributes="TEXT" />
+    <option name="HAML_TEXT" baseAttributes="" />
     <option name="HAML_WS_REMOVAL">
       <value>
         <option name="FOREGROUND" value="9dd2e8" />
       </value>
     </option>
-    <option name="HAML_XHTML" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_XHTML" baseAttributes="" />
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="cde0be" />

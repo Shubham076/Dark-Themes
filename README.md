@@ -10,8 +10,6 @@ Themes included in this plugin:
 
 - *Aura*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/Aura.png)
-- *Blue Whale*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/BlueWhale.png)
 - *Blue Dolphin*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/BlueDolphin.png)
 - *City Pop*
@@ -20,8 +18,6 @@ Themes included in this plugin:
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/Galaxy.png)
 - *Hack The Box*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/HackTheBox.png)
-- *Giraffe*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/Giraffe.png)
 - *Shape*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/Shape.png)
 - *Ayu Mirage*
