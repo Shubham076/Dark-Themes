@@ -1,10 +1,10 @@
 <scheme name="Ayu-mirage" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2022-03-02T21:13:49</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2021.3.2.0.0</property>
-    <property name="modified">2022-03-02T21:13:57</property>
-    <property name="originalScheme">Ayu-mirage</property>
+    <property name="created">2023-09-12T15:20:53</property>
+    <property name="ide">PyCharmCore</property>
+    <property name="ideVersion">2022.3.3.0.0</property>
+    <property name="modified">2023-09-12T15:20:56</property>
+    <property name="originalScheme">_@user_Ayu-mirage</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="ffcc66" />
@@ -730,15 +730,15 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="HAML_FILTER" baseAttributes="DEFAULT_LABEL" />
-    <option name="HAML_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_FILTER" baseAttributes="" />
+    <option name="HAML_FILTER_CONTENT" baseAttributes="" />
     <option name="HAML_ID">
       <value>
         <option name="FOREGROUND" value="5ccfe6" />
       </value>
     </option>
-    <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
-    <option name="HAML_RUBY_START" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HAML_RUBY_CODE" baseAttributes="" />
+    <option name="HAML_RUBY_START" baseAttributes="" />
     <option name="HAML_STRING">
       <value>
         <option name="FOREGROUND" value="bae67e" />
@@ -759,8 +759,8 @@
         <option name="FOREGROUND" value="5ccfe6" />
       </value>
     </option>
-    <option name="HAML_TEXT" baseAttributes="TEXT" />
-    <option name="HAML_XHTML" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_TEXT" baseAttributes="" />
+    <option name="HAML_XHTML" baseAttributes="" />
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="ffd580" />
@@ -1177,6 +1177,7 @@
         <option name="FOREGROUND" value="ffa759" />
       </value>
     </option>
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="5c6773" />
@@ -1193,11 +1194,13 @@
         <option name="FOREGROUND" value="f29e74" />
       </value>
     </option>
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.PREDEFINED_USAGE">
       <value>
         <option name="FOREGROUND" value="f28779" />
       </value>
     </option>
+    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.STRING">
       <value>
         <option name="FOREGROUND" value="bae67e" />
@@ -1206,11 +1209,6 @@
     <option name="PY.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="95e6cb" />
-      </value>
-    </option>
-    <option name="REST.BOLD">
-      <value>
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="REST.EXPLICIT">
@@ -1236,11 +1234,6 @@
     <option name="REST.INTERPRETED">
       <value>
         <option name="BACKGROUND" value="4d5d3d" />
-      </value>
-    </option>
-    <option name="REST.ITALIC">
-      <value>
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="REST.LINE_COMMENT">

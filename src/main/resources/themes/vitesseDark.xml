@@ -1,9 +1,10 @@
 <scheme name="Vitesse-dark" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2023-08-22T14:53:16</property>
-    <property name="ide">GoLand</property>
-    <property name="ideVersion">2023.2.0.0</property>
-    <property name="modified">2023-08-22T14:53:20</property>
+    <property name="created">2023-09-12T17:07:02</property>
+    <property name="ide">PyCharmCore</property>
+    <property name="ideVersion">2022.3.3.0.0</property>
+    <property name="modified">2023-09-12T17:07:05</property>
+    <property name="originalScheme">_@user_Vitesse-dark</property>
   </metaInfo>
   <colors>
     <option name="CARET_ROW_COLOR" value="292929" />
@@ -1400,6 +1401,7 @@
         <option name="FOREGROUND" value="cb7676" />
       </value>
     </option>
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="758575" />
@@ -1426,6 +1428,7 @@
         <option name="FOREGROUND" value="b8a965" />
       </value>
     </option>
+    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.STRING">
       <value>
         <option name="FOREGROUND" value="c98a7d" />
@@ -1434,11 +1437,6 @@
     <option name="PY.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="c99076" />
-      </value>
-    </option>
-    <option name="REST.BOLD">
-      <value>
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="REST.EXPLICIT">
@@ -1464,11 +1462,6 @@
     <option name="REST.INTERPRETED">
       <value>
         <option name="BACKGROUND" value="4d5d3d" />
-      </value>
-    </option>
-    <option name="REST.ITALIC">
-      <value>
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="REST.LINE_COMMENT">

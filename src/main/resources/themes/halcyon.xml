@@ -1,10 +1,10 @@
 <scheme name="Halcyon" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2022-03-03T20:04:59</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2021.3.2.0.0</property>
-    <property name="modified">2022-03-03T20:05:08</property>
+    <property name="created">2023-09-12T16:43:16</property>
+    <property name="ide">PyCharmCore</property>
+    <property name="ideVersion">2022.3.3.0.0</property>
+    <property name="modified">2023-09-12T16:43:20</property>
     <property name="originalScheme">_@user_Halcyon</property>
   </metaInfo>
   <console-font>
@@ -260,6 +260,10 @@
         <option name="FOREGROUND" value="ffd580" />
       </value>
     </option>
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="a2aabc" />

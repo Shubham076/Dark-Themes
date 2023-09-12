@@ -1,16 +1,16 @@
 <scheme name="Red2" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2022-05-29T17:30:33</property>
-    <property name="ide">Idea</property>
-    <property name="ideVersion">2022.1.0.0</property>
-    <property name="modified">2022-05-29T17:30:46</property>
-    <property name="originalScheme">Red2</property>
+    <property name="created">2023-09-12T16:57:57</property>
+    <property name="ide">PyCharmCore</property>
+    <property name="ideVersion">2022.3.3.0.0</property>
+    <property name="modified">2023-09-12T16:58:01</property>
+    <property name="originalScheme">_@user_Red2</property>
   </metaInfo>
   <colors>
-    <option name="CONSOLE_BACKGROUND_KEY" value="3B2323" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="3b2323" />
     <option name="GUTTER_BACKGROUND" value="3b2323" />
     <option name="LINE_NUMBERS_COLOR" value="d8b1b1" />
-    <option name="SELECTION_BACKGROUND" value="4C3737" />
+    <option name="SELECTION_BACKGROUND" value="4c3737" />
   </colors>
   <attributes>
     <option name="BAD_CHARACTER">
@@ -1362,6 +1362,7 @@
         <option name="FOREGROUND" value="c0a0a0" />
       </value>
     </option>
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="b86464" />
@@ -1383,11 +1384,13 @@
         <option name="FOREGROUND" value="f09a9a" />
       </value>
     </option>
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.PREDEFINED_USAGE">
       <value>
         <option name="FOREGROUND" value="ec6262" />
       </value>
     </option>
+    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.STRING">
       <value>
         <option name="FOREGROUND" value="ffa66b" />
@@ -1396,11 +1399,6 @@
     <option name="PY.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="ff89ba" />
-      </value>
-    </option>
-    <option name="REST.BOLD">
-      <value>
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="REST.EXPLICIT">
@@ -1426,11 +1424,6 @@
     <option name="REST.INTERPRETED">
       <value>
         <option name="BACKGROUND" value="4d5d3d" />
-      </value>
-    </option>
-    <option name="REST.ITALIC">
-      <value>
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="REST.LINE_COMMENT">
@@ -1836,7 +1829,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d8b1b1" />
-        <option name="BACKGROUND" value="3B2323" />
+        <option name="BACKGROUND" value="3b2323" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

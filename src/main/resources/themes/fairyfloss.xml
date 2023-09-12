@@ -1,9 +1,9 @@
 <scheme name="Fairyfloss" version="142" parent_scheme="Default">
     <metaInfo>
-        <property name="created">2023-08-17T23:27:43</property>
-        <property name="ide">Idea</property>
-        <property name="ideVersion">2022.3.2.0.0</property>
-        <property name="modified">2023-08-17T23:27:48</property>
+        <property name="created">2023-09-12T16:31:21</property>
+        <property name="ide">PyCharmCore</property>
+        <property name="ideVersion">2022.3.3.0.0</property>
+        <property name="modified">2023-09-12T16:31:24</property>
         <property name="originalScheme">_@user_Fairyfloss</property>
     </metaInfo>
     <colors>
@@ -3019,6 +3019,7 @@
                 <option name="FOREGROUND" value="ffea00" />
             </value>
         </option>
+        <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
         <option name="PY.DECORATOR">
             <value>
                 <option name="FOREGROUND" value="fff352" />
@@ -3690,7 +3691,7 @@
                 <option name="FOREGROUND" value="c7c8f5" />
             </value>
         </option>
-        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
         <option name="TYPO">
             <value>
                 <option name="EFFECT_COLOR" value="ffeb95" />
@@ -3755,8 +3756,8 @@
                 <option name="FOREGROUND" value="ffb8d1" />
             </value>
         </option>
-        <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
-        <option name="XPATH.XPATH_NAME" baseAttributes="TEXT" />
+        <option name="XPATH.KEYWORD" baseAttributes="" />
+        <option name="XPATH.XPATH_NAME" baseAttributes="" />
         <option name="YAML_SCALAR_KEY">
             <value>
                 <option name="FOREGROUND" value="fff352" />

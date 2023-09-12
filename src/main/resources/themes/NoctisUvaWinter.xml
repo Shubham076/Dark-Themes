@@ -1,10 +1,10 @@
 <scheme name="Noctisuva-winter" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2022-05-31T12:12:25</property>
-    <property name="ide">Idea</property>
-    <property name="ideVersion">2022.1.0.0</property>
-    <property name="modified">2022-05-31T12:12:42</property>
-    <property name="originalScheme">Noctisuva-winter</property>
+    <property name="created">2023-09-12T16:54:11</property>
+    <property name="ide">PyCharmCore</property>
+    <property name="ideVersion">2022.3.3.0.0</property>
+    <property name="modified">2023-09-12T16:54:15</property>
+    <property name="originalScheme">_@user_Noctisuva-winter</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="219fd5" />
@@ -1376,6 +1376,7 @@
         <option name="FOREGROUND" value="e97749" />
       </value>
     </option>
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="716c93" />
@@ -1396,11 +1397,13 @@
         <option name="FOREGROUND" value="c5c2d6" />
       </value>
     </option>
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.PREDEFINED_USAGE">
       <value>
         <option name="FOREGROUND" value="49d6e9" />
       </value>
     </option>
+    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.STRING">
       <value>
         <option name="FOREGROUND" value="49e9a6" />
@@ -1409,11 +1412,6 @@
     <option name="PY.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="49ace9" />
-      </value>
-    </option>
-    <option name="REST.BOLD">
-      <value>
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="REST.EXPLICIT">
@@ -1439,11 +1437,6 @@
     <option name="REST.INTERPRETED">
       <value>
         <option name="BACKGROUND" value="4d5d3d" />
-      </value>
-    </option>
-    <option name="REST.ITALIC">
-      <value>
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="REST.LINE_COMMENT">
