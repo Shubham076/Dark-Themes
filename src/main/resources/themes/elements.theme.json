@@ -37,22 +37,22 @@
       }
     },
     "DefaultTabs": {
-      "background": "#1c1e25",
+      "background": "#1A2731",
       "hoverBackground": "#707a8c99",
       "borderColor": "#1f2430"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#1c1e25",
+      "underlinedTabBackground": "#1A2731",
       "borderColor" : "#1f2430"
     },
     "Popup": {
-      "Header.activeBackground": "#1c1e25"
+      "Header.activeBackground": "#1A2731"
     },
     "TabbedPane": {
-      "hoverColor": "#1c1e25"
+      "hoverColor": "#1A2731"
     },
     "Button": {
-      "focus": "#1c1e25"
+      "focus": "#1A2731"
     }
   }
 }

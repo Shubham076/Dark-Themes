@@ -41,17 +41,17 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#503a5fb0",
+      "underlinedTabBackground": "#464258",
       "borderColor" : "#464258"
     },
     "Popup": {
-      "Header.activeBackground": "#503a5fb0"
+      "Header.activeBackground": "#464258"
     },
     "TabbedPane": {
-      "hoverColor": "#503a5fb0"
+      "hoverColor": "#464258"
     },
     "Button": {
-      "focus": "#503a5fb0"
+      "focus": "#464258"
     }
   }
 }

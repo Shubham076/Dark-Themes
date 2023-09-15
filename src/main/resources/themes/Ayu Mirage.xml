@@ -812,11 +812,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="fda5ff" />
-      </value>
-    </option>
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="333434" />
@@ -1619,12 +1615,6 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_FIELD_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="fda5ff" />
-        <option name="FONT_TYPE" value="3" />
-      </value>
-    </option>
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="ffd580" />

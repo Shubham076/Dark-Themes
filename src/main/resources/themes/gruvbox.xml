@@ -465,6 +465,17 @@
         <option name="FOREGROUND" value="d4be98" />
       </value>
     </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="afbf76" />
+        <option name="BACKGROUND" value="1d2021" />
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="afbf76" />
+      </value>
+    </option>
     <option name="DEFAULT_COMMA">
       <value>
         <option name="FOREGROUND" value="d4be98" />
@@ -519,6 +530,12 @@
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
         <option name="FOREGROUND" value="a9b665" />
+      </value>
+    </option>
+    <option name="DEFAULT_INTERFACE_NAME">
+      <value>
+        <option name="FOREGROUND" value="afbf7e" />
+        <option name="BACKGROUND" value="1d2021" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
@@ -899,11 +916,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="fda5ff" />
-      </value>
-    </option>
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -1756,6 +1769,7 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="d8a657" />
