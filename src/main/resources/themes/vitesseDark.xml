@@ -960,11 +960,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="fda5ff" />
-      </value>
-    </option>
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -975,12 +971,6 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="273627" />
-      </value>
-    </option>
-    <option name="INSTANCE_FIELD_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="fda5ff" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="IVAR">
@@ -1840,12 +1830,7 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_FIELD_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="fda5ff" />
-        <option name="FONT_TYPE" value="3" />
-      </value>
-    </option>
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="bd976a" />

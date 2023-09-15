@@ -439,7 +439,12 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="89b482" />
+                <option name="FOREGROUND" value="a9b665" />
+            </value>
+        </option>
+        <option name="DEFAULT_CLASS_REFERENCE">
+            <value>
+                <option name="FOREGROUND" value="a9b665" />
             </value>
         </option>
         <option name="DEFAULT_COMMA">
@@ -506,7 +511,7 @@
         </option>
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="89b482" />
+                <option name="FOREGROUND" value="a9b665" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -912,11 +917,7 @@
                 <option name="ERROR_STRIPE_COLOR" value="ccccff" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="fda5ff" />
-            </value>
-        </option>
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INFO_ATTRIBUTES">
             <value>
                 <option name="EFFECT_COLOR" value="343434" />
@@ -927,12 +928,6 @@
         <option name="INJECTED_LANGUAGE_FRAGMENT">
             <value>
                 <option name="BACKGROUND" value="273627" />
-            </value>
-        </option>
-        <option name="INSTANCE_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="fda5ff" />
-                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="IVAR">
@@ -995,11 +990,6 @@
         <option name="JAVA_INVALID_STRING_ESCAPE">
             <value>
                 <option name="FOREGROUND" value="ea6962" />
-            </value>
-        </option>
-        <option name="JAVA_KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="d3869b" />
             </value>
         </option>
         <option name="JAVA_LINE_COMMENT">
@@ -1766,12 +1756,6 @@
             </value>
         </option>
         <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-        <option name="STATIC_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="fda5ff" />
-                <option name="FONT_TYPE" value="3" />
-            </value>
-        </option>
         <option name="TAG_ATTR_KEY">
             <value>
                 <option name="FOREGROUND" value="89b482" />
