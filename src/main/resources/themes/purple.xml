@@ -1,10 +1,9 @@
 <scheme name="Purpleglass" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2023-09-12T16:55:25</property>
-    <property name="ide">PyCharmCore</property>
-    <property name="ideVersion">2022.3.3.0.0</property>
-    <property name="modified">2023-09-12T16:55:28</property>
-    <property name="originalScheme">_@user_Purpleglass</property>
+    <property name="created">2023-09-15T11:22:17</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2023.2.0.0</property>
+    <property name="modified">2023-09-15T11:22:21</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="fcefff" />
@@ -750,6 +749,12 @@
         <option name="FOREGROUND" value="ffb8df" />
       </value>
     </option>
+    <option name="GIT_TOOLBOX.EDITOR_INLINE_BLAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="fcefff" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="GO_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="a289bb" />
@@ -781,11 +786,6 @@
         <option name="FOREGROUND" value="fffeae" />
       </value>
     </option>
-    <option name="GO_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="ffb8df" />
-      </value>
-    </option>
     <option name="GO_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="a289bb" />
@@ -804,6 +804,12 @@
     <option name="GO_METHOD_RECEIVER">
       <value>
         <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="GO_PACKAGE">
+      <value>
+        <option name="FOREGROUND" value="fde1bd" />
+        <option name="BACKGROUND" value="5d4960" />
       </value>
     </option>
     <option name="GO_TYPE_REFERENCE">

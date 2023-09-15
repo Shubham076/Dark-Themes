@@ -1,10 +1,9 @@
 <scheme name="Fairyfloss" version="142" parent_scheme="Default">
     <metaInfo>
-        <property name="created">2023-09-12T16:31:21</property>
-        <property name="ide">PyCharmCore</property>
-        <property name="ideVersion">2022.3.3.0.0</property>
-        <property name="modified">2023-09-12T16:31:24</property>
-        <property name="originalScheme">_@user_Fairyfloss</property>
+        <property name="created">2023-09-15T11:21:56</property>
+        <property name="ide">GoLand</property>
+        <property name="ideVersion">2023.2.0.0</property>
+        <property name="modified">2023-09-15T11:22:04</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="43997d20" />
@@ -586,7 +585,6 @@
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
                 <option name="FOREGROUND" value="fff352" />
-                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -867,7 +865,7 @@
         </option>
         <option name="GO_BUILTIN_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="f8f8f2" />
+                <option name="FOREGROUND" value="c2ffdf" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -895,12 +893,6 @@
         <option name="GO_FUNCTION_PARAMETER">
             <value>
                 <option name="FOREGROUND" value="ff857f" />
-            </value>
-        </option>
-        <option name="GO_KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="fff355" />
-                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="GO_LINE_COMMENT">
@@ -931,7 +923,7 @@
         </option>
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="ffea00" />
+                <option name="FOREGROUND" value="c2ffdf" />
             </value>
         </option>
         <option name="GO_PACKAGE_EXPORTED_CONSTANT">

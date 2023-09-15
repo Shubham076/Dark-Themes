@@ -1,10 +1,9 @@
 <scheme name="Darksoft" version="142" parent_scheme="Darcula">
     <metaInfo>
-        <property name="created">2023-09-12T16:40:20</property>
-        <property name="ide">PyCharmCore</property>
-        <property name="ideVersion">2022.3.3.0.0</property>
-        <property name="modified">2023-09-12T16:40:24</property>
-        <property name="originalScheme">_@user_Darksoft</property>
+        <property name="created">2023-09-15T11:23:04</property>
+        <property name="ide">GoLand</property>
+        <property name="ideVersion">2023.2.0.0</property>
+        <property name="modified">2023-09-15T11:23:06</property>
     </metaInfo>
     <colors>
         <option name="CARET_COLOR" value="d4be98" />
@@ -517,7 +516,7 @@
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="d3869b" />
+                <option name="FOREGROUND" value="e78a4e" />
             </value>
         </option>
         <option name="DEFAULT_LINE_COMMENT">
@@ -731,7 +730,7 @@
         </option>
         <option name="GO_BUILTIN_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="d4be98" />
+                <option name="FOREGROUND" value="ea6962" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -743,11 +742,6 @@
         <option name="GO_EXPORTED_FUNCTION_CALL">
             <value>
                 <option name="FOREGROUND" value="89b482" />
-            </value>
-        </option>
-        <option name="GO_KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="d3869b" />
             </value>
         </option>
         <option name="GO_LINE_COMMENT">
@@ -781,6 +775,17 @@
             </value>
         </option>
         <option name="GO_PACKAGE_LOCAL_CONSTANT">
+            <value>
+                <option name="FOREGROUND" value="d8a657" />
+            </value>
+        </option>
+        <option name="GO_STRUCT_EXPORTED_MEMBER">
+            <value>
+                <option name="FOREGROUND" value="d8a657" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="GO_STRUCT_LOCAL_MEMBER">
             <value>
                 <option name="FOREGROUND" value="d8a657" />
             </value>
