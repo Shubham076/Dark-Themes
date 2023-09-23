@@ -1,0 +1,56 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Peachy",
+  "editorScheme": "/themes/peachy.xml",
+  "ui": {
+    "*": {
+      "background": "#202330",
+      "foreground": "#fff8f8",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#472541",
+      "selectionInactiveBackground": "#472541",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#472541"
+    },
+    "DefaultTabs": {
+      "background": "#202330",
+      "borderColor": "#202330"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#003950"
+    },
+    "Popup": {
+      "Header.activeBackground": "#202330"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#202330"
+      }
+    },
+    "Plugins": {
+      "Button": {
+        "installBackground": "#005266",
+        "updateBackground": "#005266",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "TabbedPane": {
+      "hoverColor": "#202330"
+    },
+    "Button": {
+      "focus": "#202330"
+    }
+  }
+}
