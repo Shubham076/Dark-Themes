@@ -1,9 +1,9 @@
 <scheme name="Oblong" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2023-08-22T14:33:27</property>
-    <property name="ide">GoLand</property>
+    <property name="created">2023-11-02T21:39:28</property>
+    <property name="ide">WebStorm</property>
     <property name="ideVersion">2023.2.0.0</property>
-    <property name="modified">2023-08-22T14:33:30</property>
+    <property name="modified">2023-11-02T21:39:34</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="b9b9b9" />
@@ -931,22 +931,18 @@
         <option name="FOREGROUND" value="868686" />
       </value>
     </option>
-    <option name="JS.GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="7c7c7c" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="686868" />
+        <option name="FOREGROUND" value="d1f1a9" />
       </value>
     </option>
-    <option name="JS.LOCAL_VARIABLE">
+    <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="7c7c7c" />
+        <option name="FOREGROUND" value="d1f1a9" />
       </value>
     </option>
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.PARAMETER">
       <value>
         <option name="FOREGROUND" value="fff1ce" />

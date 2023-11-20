@@ -1,10 +1,9 @@
-<scheme name="Everforest - dark_medium" version="142" parent_scheme="Default">
+<scheme name="Everforest" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2023-08-17T23:21:47</property>
-    <property name="ide">Idea</property>
-    <property name="ideVersion">2022.3.2.0.0</property>
-    <property name="modified">2023-08-17T23:21:53</property>
-    <property name="originalScheme">_@user_Everforest - dark_medium</property>
+    <property name="created">2023-11-03T11:26:09</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2023.2.0.0</property>
+    <property name="modified">2023-11-03T11:26:13</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="445349" />
@@ -707,7 +706,7 @@
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="d3c6aa" />
+        <option name="FOREGROUND" value="e69875" />
       </value>
     </option>
     <option name="JS.INTERFACE">

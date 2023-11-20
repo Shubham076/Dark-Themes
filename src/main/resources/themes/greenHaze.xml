@@ -1,9 +1,9 @@
 <scheme name="Green Haze" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2023-08-22T14:27:41</property>
-    <property name="ide">GoLand</property>
+    <property name="created">2023-11-03T11:32:27</property>
+    <property name="ide">WebStorm</property>
     <property name="ideVersion">2023.2.0.0</property>
-    <property name="modified">2023-08-22T14:27:45</property>
+    <property name="modified">2023-11-03T11:32:30</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="" />
@@ -20,6 +20,7 @@
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d73a49" />
     <option name="FILESTATUS_MERGED" value="6f42c1" />
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED" value="dfdfdf" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
     <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
@@ -811,13 +812,13 @@
         <option name="FOREGROUND" value="79ffcf" />
       </value>
     </option>
-    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-    <option name="JS.PARAMETER">
+    <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
-        <option name="EFFECT_COLOR" value="d3b58d" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="FOREGROUND" value="afbf76" />
+        <option name="BACKGROUND" value="72626" />
       </value>
     </option>
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="fdfaf" />

@@ -1,13 +1,33 @@
 <scheme name="Aura" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2023-09-12T15:18:20</property>
-    <property name="ide">PyCharmCore</property>
-    <property name="ideVersion">2022.3.3.0.0</property>
-    <property name="modified">2023-09-12T15:18:25</property>
-    <property name="originalScheme">_@user_Aura</property>
+    <property name="created">2023-11-03T11:22:11</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2023.2.0.0</property>
+    <property name="modified">2023-11-03T11:22:27</property>
   </metaInfo>
   <colors>
     <option name="CONSOLE_BACKGROUND_KEY" value="131d46" />
+    <option name="FILESTATUS_ADDED" value="c3e887" />
+    <option name="FILESTATUS_COPIED" value="c3e88d" />
+    <option name="FILESTATUS_DELETED" value="f77669" />
+    <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="808080" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="fc9867" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="fc9867" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="fc9867" />
+    <option name="FILESTATUS_MERGED" value="c792ea" />
+    <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED" value="dfdfdf" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
+    <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+    <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
+    <option name="FILESTATUS_SWITCHED" value="f77669" />
+    <option name="FILESTATUS_UNKNOWN" value="f77669" />
+    <option name="FILESTATUS_addedOutside" value="ffcb6b" />
+    <option name="FILESTATUS_changelistConflict" value="fc9867" />
+    <option name="FILESTATUS_modifiedOutside" value="c792ea" />
     <option name="GUTTER_BACKGROUND" value="131d46" />
     <option name="LINE_NUMBERS_COLOR" value="d4d4d4" />
   </colors>
@@ -1065,16 +1085,7 @@
         <option name="FOREGROUND" value="fbee9f" />
       </value>
     </option>
-    <option name="JS.LOCAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="9fdefb" />
-      </value>
-    </option>
-    <option name="JS.PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="9fdefb" />
-      </value>
-    </option>
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="89ddff" />

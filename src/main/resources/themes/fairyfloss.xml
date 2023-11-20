@@ -1,9 +1,9 @@
 <scheme name="Fairyfloss" version="142" parent_scheme="Default">
     <metaInfo>
-        <property name="created">2023-09-15T11:21:56</property>
-        <property name="ide">GoLand</property>
+        <property name="created">2023-11-03T11:28:10</property>
+        <property name="ide">WebStorm</property>
         <property name="ideVersion">2023.2.0.0</property>
-        <property name="modified">2023-09-15T11:22:04</property>
+        <property name="modified">2023-11-03T11:28:15</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="43997d20" />
@@ -44,6 +44,7 @@
         <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
         <option name="FILESTATUS_MERGED" value="9876aa" />
         <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+        <option name="FILESTATUS_NOT_CHANGED" value="dfdfdf" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
         <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
@@ -1292,7 +1293,7 @@
         </option>
         <option name="JS.GLOBAL_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="f8f8f2" />
+                <option name="FOREGROUND" value="c2ffdf" />
             </value>
         </option>
         <option name="JS.INSTANCE_MEMBER_FUNCTION">
@@ -1302,7 +1303,7 @@
         </option>
         <option name="JS.INSTANCE_MEMBER_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="f8f8f2" />
+                <option name="FOREGROUND" value="c2ffdf" />
             </value>
         </option>
         <option name="JS.LOCAL_VARIABLE">
