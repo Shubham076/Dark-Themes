@@ -2,6 +2,7 @@
   <colors>
     <option name="GUTTER_BACKGROUND" value="FCFCFC" />
     <option name="SELECTION_BACKGROUND" value="F5E4E5" />
+    <option name="SELECTION_FOREGROUND" value="" />
     <option name="CARET_COLOR" value="A61D0D" />
     <option name="LINE_NUMBERS_COLOR" value="4D4D4A" />
     <option name="CARET_ROW_COLOR" value="FCF5F5" />
@@ -276,7 +277,7 @@
     </option>
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="FFCC00" />
+        <option name="FOREGROUND" value="c38e2e" />
       </value>
     </option>
     <option name="CSS.COMMENT">

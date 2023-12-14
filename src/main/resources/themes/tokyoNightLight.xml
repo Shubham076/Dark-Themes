@@ -276,9 +276,14 @@
         <option name="FOREGROUND" value="ff0000" />
       </value>
     </option>
+    <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="f1bf4a" />
+      </value>
+    </option>
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ffcc00" />
+        <option name="FOREGROUND" value="c38e2e" />
       </value>
     </option>
     <option name="CSS.COMMENT">
