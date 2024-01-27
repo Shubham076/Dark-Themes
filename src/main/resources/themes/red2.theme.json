@@ -25,8 +25,7 @@
       "hoverBackground": "#212121"
     },
     "DefaultTabs": {
-      "background": "#3B2323",
-      "borderColor": "#a54d4d"
+      "background": "#3B2323"
     },
     "EditorTabs": {
       "underlinedTabBackground": "#3B2323"

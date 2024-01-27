@@ -87,14 +87,16 @@
     <option name="TAB_UNDERLINE" value="7fbbb3" />
     <option name="TAB_UNDERLINE_INACTIVE" value="3b5360" />
     <option name="TEARLINE_COLOR" value="596763" />
-    <option name="VCS_ANNOTATIONS_COLOR_1" value="374247" />
-    <option name="VCS_ANNOTATIONS_COLOR_2" value="404c51" />
-    <option name="VCS_ANNOTATIONS_COLOR_3" value="4a555b" />
-    <option name="VCS_ANNOTATIONS_COLOR_4" value="525c62" />
-    <option name="VCS_ANNOTATIONS_COLOR_5" value="596763" />
     <option name="VISUAL_INDENT_GUIDE" value="3c474d" />
     <option name="WHITESPACES" value="576268" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="596763" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
+    <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
+    <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
+    <option name="VCS_ANNOTATIONS_COLOR_4" value="5ca4a9" />
+    <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
+    <option name="ANNOTATIONS_COLOR" value="0" />
+
   </colors>
   <attributes>
     <option name="BAD_CHARACTER">
@@ -115,6 +117,24 @@
     <option name="BASH.BRACKET">
       <value>
         <option name="FOREGROUND" value="d3c6aa" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="54646E" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="54646E" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="54646E" />
       </value>
     </option>
     <option name="BASH.CONDITIONAL">

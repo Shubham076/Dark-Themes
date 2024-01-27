@@ -36,6 +36,12 @@
     <option name="GUTTER_BACKGROUND" value="e151b" />
     <option name="LINE_NUMBERS_COLOR" value="d6deeb" />
     <option name="SELECTION_BACKGROUND" value="1a2f57" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
+    <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
+    <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
+    <option name="VCS_ANNOTATIONS_COLOR_4" value="5ca4a9" />
+    <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
+    <option name="ANNOTATIONS_COLOR" value="0" />
   </colors>
   <attributes>
     <option name="BAD_CHARACTER">
@@ -52,6 +58,24 @@
     <option name="BUILDOUT.KEY">
       <value>
         <option name="FOREGROUND" value="33e4b8" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="43657F" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="43657F" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="43657F" />
       </value>
     </option>
     <option name="BUILDOUT.KEY_VALUE_SEPARATOR">

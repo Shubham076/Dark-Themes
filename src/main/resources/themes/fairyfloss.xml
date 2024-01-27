@@ -131,11 +131,6 @@
         <option name="TEXT_GREY" value="f8f8f2" />
         <option name="TOOLTIP" value="514c66" />
         <option name="UNUSED_VARIABLE" value="bab6b6" />
-        <option name="VCS_ANNOTATIONS_COLOR_1" value="995467" />
-        <option name="VCS_ANNOTATIONS_COLOR_2" value="8d6799" />
-        <option name="VCS_ANNOTATIONS_COLOR_3" value="716799" />
-        <option name="VCS_ANNOTATIONS_COLOR_4" value="677c99" />
-        <option name="VCS_ANNOTATIONS_COLOR_5" value="5c9191" />
         <option name="VCS_COLOR_1" value="b35252" />
         <option name="VCS_COLOR_2" value="995467" />
         <option name="VCS_COLOR_3" value="8d6799" />
@@ -145,6 +140,12 @@
         <option name="WHITESPACES" value="4e5579" />
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="4e5579" />
         <option name="YELLOW" value="daaa01" />
+        <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
+        <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
+        <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
+        <option name="VCS_ANNOTATIONS_COLOR_4" value="5ca4a9" />
+        <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
+        <option name="ANNOTATIONS_COLOR" value="0" />
     </colors>
     <attributes>
         <option name="ABSTRACT_METHOD_ATTRIBUTES">
@@ -155,6 +156,24 @@
         <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
             <value>
                 <option name="FOREGROUND" value="ffea00" />
+            </value>
+        </option>
+        <option name="INLINE_PARAMETER_HINT">
+            <value>
+                <option name="FOREGROUND" value="ffffff" />
+                <option name="BACKGROUND" value="9690B0" />
+            </value>
+        </option>
+        <option name="INLINE_PARAMETER_HINT_CURRENT">
+            <value>
+                <option name="FOREGROUND" value="ffffff" />
+                <option name="BACKGROUND" value="9690B0" />
+            </value>
+        </option>
+        <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+            <value>
+                <option name="FOREGROUND" value="ffffff" />
+                <option name="BACKGROUND" value="9690B0" />
             </value>
         </option>
         <option name="ANGLE_BRACKETS_RAINBOW_COLOR1">
