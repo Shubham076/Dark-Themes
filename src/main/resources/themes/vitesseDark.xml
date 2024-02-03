@@ -651,7 +651,7 @@
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="bd976a" />
+        <option name="FOREGROUND" value="dbd7ca" />
       </value>
     </option>
     <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
@@ -1165,11 +1165,7 @@
         <option name="FOREGROUND" value="80a665" />
       </value>
     </option>
-    <option name="JS.LOCAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="bd976a" />
-      </value>
-    </option>
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.PARAMETER">
       <value>
         <option name="FOREGROUND" value="bd976a" />
@@ -1906,7 +1902,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="dbd7ca" />
+        <option name="FOREGROUND" value="bd976a" />
         <option name="BACKGROUND" value="222222" />
       </value>
     </option>

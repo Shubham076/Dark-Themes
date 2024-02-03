@@ -505,7 +505,12 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="cccccc" />
+        <option name="BACKGROUND" value="1c1e26" />
+      </value>
+    </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
         <option name="FOREGROUND" value="ee7b79" />
@@ -531,11 +536,6 @@
       <value>
         <option name="FOREGROUND" value="707896" />
         <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="DEFAULT_LOCAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="ee7b79" />
       </value>
     </option>
     <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
@@ -582,7 +582,11 @@
         <option name="FOREGROUND" value="fae2aa" />
       </value>
     </option>
-    <option name="DEFAULT_STRING" baseAttributes="" />
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="ffac96" />
+      </value>
+    </option>
     <option name="DEFAULT_TAG">
       <value>
         <option name="FOREGROUND" value="e95678" />
@@ -999,11 +1003,7 @@
         <option name="FOREGROUND" value="fae2aa" />
       </value>
     </option>
-    <option name="JS.LOCAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="ee7b79" />
-      </value>
-    </option>
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.PARAMETER">
       <value>
         <option name="FONT_TYPE" value="2" />
@@ -1626,7 +1626,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="d5d8da" />
+        <option name="FOREGROUND" value="fae2aa" />
         <option name="BACKGROUND" value="1c1e26" />
       </value>
     </option>

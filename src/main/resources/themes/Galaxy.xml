@@ -574,7 +574,8 @@
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="94c5cc" />
+        <option name="FOREGROUND" value="d4d4d4" />
+        <option name="BACKGROUND" value="a2635" />
       </value>
     </option>
     <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
@@ -585,7 +586,7 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="d4d4d4" />
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
@@ -1017,11 +1018,7 @@
         <option name="FOREGROUND" value="cac386" />
       </value>
     </option>
-    <option name="JS.LOCAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="94c5cc" />
-      </value>
-    </option>
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.PARAMETER">
       <value>
         <option name="FOREGROUND" value="94c5cc" />
@@ -1697,7 +1694,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="d4d4d4" />
+        <option name="FOREGROUND" value="94c5cc" />
         <option name="BACKGROUND" value="a2635" />
       </value>
     </option>
@@ -1709,7 +1706,7 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="c7c7ff" />
+        <option name="FOREGROUND" value="94c5cc" />
         <option name="FONT_TYPE" value="3" />
         <option name="ERROR_STRIPE_COLOR" value="ff" />
       </value>
