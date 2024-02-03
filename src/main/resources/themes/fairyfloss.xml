@@ -3031,21 +3031,35 @@
                 <option name="FOREGROUND" value="ffea00" />
             </value>
         </option>
-        <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+        <option name="PY.BUILTIN_NAME">
+            <value>
+                <option name="FOREGROUND" value="c2ffdf" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
         <option name="PY.DECORATOR">
             <value>
                 <option name="FOREGROUND" value="fff352" />
             </value>
         </option>
-        <option name="PY.KEYWORD">
+        <option name="PY.FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="fff355" />
-                <option name="FONT_TYPE" value="2" />
+                <option name="FOREGROUND" value="c2ffdf" />
+            </value>
+        </option>
+        <option name="PY.FUNC_DEFINITION">
+            <value>
+                <option name="FOREGROUND" value="c2ffdf" />
             </value>
         </option>
         <option name="PY.KEYWORD_ARGUMENT">
             <value>
                 <option name="FOREGROUND" value="f8f8f2" />
+            </value>
+        </option>
+        <option name="PY.NESTED_FUNC_DEFINITION">
+            <value>
+                <option name="FOREGROUND" value="c2ffdf" />
             </value>
         </option>
         <option name="PY.PREDEFINED_DEFINITION">
