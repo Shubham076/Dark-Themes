@@ -599,7 +599,7 @@
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="f8f8f2" />
+                <option name="FOREGROUND" value="fff352" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
@@ -891,7 +891,7 @@
         </option>
         <option name="GO_BUILTIN_TYPE_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="ffea00" />
+                <option name="FOREGROUND" value="c2ffdf" />
             </value>
         </option>
         <option name="GO_BUILTIN_VARIABLE">
@@ -903,11 +903,6 @@
             <value>
                 <option name="FOREGROUND" value="fff352" />
                 <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
-        <option name="GO_EXPORTED_FUNCTION_CALL">
-            <value>
-                <option name="FOREGROUND" value="f8f8f2" />
             </value>
         </option>
         <option name="GO_FUNCTION_PARAMETER">
@@ -931,11 +926,6 @@
                 <option name="FOREGROUND" value="fff352" />
             </value>
         </option>
-        <option name="GO_LOCAL_FUNCTION_CALL">
-            <value>
-                <option name="FOREGROUND" value="f8f8f2" />
-            </value>
-        </option>
         <option name="GO_METHOD_RECEIVER">
             <value>
                 <option name="FOREGROUND" value="f8f8f2" />
@@ -949,7 +939,6 @@
         <option name="GO_PACKAGE_EXPORTED_CONSTANT">
             <value>
                 <option name="FOREGROUND" value="c5a3ff" />
-                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="GO_PACKAGE_LOCAL_CONSTANT">
@@ -959,7 +948,7 @@
         </option>
         <option name="GO_TYPE_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="ffea00" />
+                <option name="FOREGROUND" value="c2ffdf" />
             </value>
         </option>
         <option name="Groovy method declaration">
@@ -1361,6 +1350,11 @@
             <value>
                 <option name="FOREGROUND" value="f8f8f2" />
                 <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="JSON.PROPERTY_KEY">
+            <value>
+                <option name="FOREGROUND" value="c2ffdf" />
             </value>
         </option>
         <option name="JUPYTER_SELECTED_CELL">
