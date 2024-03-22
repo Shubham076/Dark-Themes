@@ -608,7 +608,7 @@
     </option>
     <option name="DIFF_CONFLICT">
       <value>
-        <option name="BACKGROUND" value="dca3a3" />
+        <option name="BACKGROUND" value="1c6374" />
         <option name="ERROR_STRIPE_COLOR" value="dca3a3" />
       </value>
     </option>
@@ -626,7 +626,7 @@
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="94bff3" />
+        <option name="BACKGROUND" value="1c6374" />
         <option name="ERROR_STRIPE_COLOR" value="94bff3" />
       </value>
     </option>
@@ -681,11 +681,19 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+    <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
         <option name="FOREGROUND" value="fed6af" />
       </value>
     </option>
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GRADLE_CHANGE_CONFLICT">
       <value>
         <option name="FOREGROUND" value="db4233" />
@@ -793,6 +801,11 @@
     <option name="INTELLIJ_LOCAL_CHANGE">
       <value>
         <option name="FOREGROUND" value="d0d0ff" />
+      </value>
+    </option>
+    <option name="INTERFACE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="7cb8bb" />
       </value>
     </option>
     <option name="IVAR">
@@ -1337,6 +1350,13 @@
     <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR4">
       <value>
         <option name="FOREGROUND" value="dc8cc3" />
+      </value>
+    </option>
+    <option name="STATIC_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="93e0e3" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
