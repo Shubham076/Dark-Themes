@@ -1133,9 +1133,22 @@
         <option name="FOREGROUND" value="219598" />
       </value>
     </option>
+    <option name="PY.ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="fed6af" />
+      </value>
+    </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="8888c6" />
+        <option name="FOREGROUND" value="fed6af" />
+      </value>
+    </option>
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.SELF_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="fed6af" />
       </value>
     </option>
     <option name="REQUIRE_GEM_CALL">
