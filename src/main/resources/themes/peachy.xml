@@ -556,7 +556,7 @@
         </option>
         <option name="DEFAULT_OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="cccccc" />
+                <option name="FOREGROUND" value="EAF2F1" />
             </value>
         </option>
         <option name="DEFAULT_PARENTHS" baseAttributes="" />
@@ -1620,7 +1620,7 @@
         </option>
         <option name="TEXT">
             <value>
-                <option name="FOREGROUND" value="cccccc" />
+                <option name="FOREGROUND" value="EAF2F1" />
                 <option name="BACKGROUND" value="202330" />
             </value>
         </option>
