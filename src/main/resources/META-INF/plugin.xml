@@ -82,5 +82,6 @@
         <themeProvider id="com.github.shubham076.matcha" path="/themes/matcha.theme.json" />
         <themeProvider id="com.github.shubham076.brackets" path="/themes/bracketsLightPro.theme.json" />
         <themeProvider id="com.github.shubham076.zenburn" path="/themes/zenburn.theme.json" />
+        <themeProvider id="com.github.shubham076.embark" path="/themes/embark.theme.json" />
     </extensions>
 </idea-plugin>

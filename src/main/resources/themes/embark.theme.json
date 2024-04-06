@@ -1,0 +1,58 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Elements",
+  "editorScheme": "/themes/embark.xml",
+  "ui": {
+    "*": {
+      "background": "#2D2B40",
+      "foreground": "#CBE3E7",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#585273",
+      "selectionInactiveBackground": "#585273",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#f29e7480",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#707a8cb3",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#1a2631"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#2D2B40"
+      }
+    },
+    "Plugins": {
+      "Button": {
+        "installBackground": "#253848",
+        "updateBackground": "#253848",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "DefaultTabs": {
+      "background": "#2D2B40",
+      "hoverBackground": "#707a8c99",
+      "borderColor": "#1f2430"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#2D2B40",
+      "borderColor" : "#1f2430"
+    },
+    "Popup": {
+      "Header.activeBackground": "#2D2B40"
+    },
+    "TabbedPane": {
+      "hoverColor": "#2D2B40"
+    },
+    "Button": {
+      "focus": "#2D2B40"
+    }
+  }
+}
