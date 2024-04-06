@@ -617,7 +617,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="49f3c3" />
+        <option name="FOREGROUND" value="ffcb6b" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -642,7 +642,7 @@
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="fefefe" />
+        <option name="FOREGROUND" value="dde5ed" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -662,7 +662,7 @@
     </option>
     <option name="DEFAULT_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="fefefe" />
+        <option name="FOREGROUND" value="dde5ed" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
@@ -857,11 +857,7 @@
         <option name="FOREGROUND" value="49f3c3" />
       </value>
     </option>
-    <option name="GO_BUILTIN_TYPE_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="49f3c3" />
-      </value>
-    </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_BUILTIN_VARIABLE">
       <value>
         <option name="FOREGROUND" value="49f3c3" />
@@ -903,11 +899,7 @@
         <option name="FOREGROUND" value="49f3c3" />
       </value>
     </option>
-    <option name="GO_METHOD_RECEIVER">
-      <value>
-        <option name="FOREGROUND" value="49f3c3" />
-      </value>
-    </option>
+    <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
         <option name="FOREGROUND" value="ffcb6b" />
@@ -918,16 +910,23 @@
         <option name="FOREGROUND" value="fffeca" />
       </value>
     </option>
+    <option name="GO_PACKAGE_EXPORTED_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="dde5ed" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="GO_PACKAGE_LOCAL_CONSTANT">
       <value>
         <option name="FOREGROUND" value="fffeca" />
       </value>
     </option>
-    <option name="GO_TYPE_REFERENCE">
+    <option name="GO_STRUCT_EXPORTED_MEMBER">
       <value>
-        <option name="FOREGROUND" value="49f3c3" />
+        <option name="FOREGROUND" value="dde5ed" />
       </value>
     </option>
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="fffeca" />

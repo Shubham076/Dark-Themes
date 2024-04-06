@@ -562,13 +562,11 @@
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="cd9ffb" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
         <option name="FOREGROUND" value="cd9ffb" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
@@ -632,7 +630,6 @@
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="cd9ffb" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
@@ -845,6 +842,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="GO_BUILTIN_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="fbee9f" />
@@ -876,12 +874,6 @@
         <option name="FOREGROUND" value="9fdefb" />
       </value>
     </option>
-    <option name="GO_LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="cd9ffb" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="GO_LOCAL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="fbee9f" />
@@ -897,6 +889,12 @@
         <option name="FOREGROUND" value="9fdefb" />
       </value>
     </option>
+    <option name="GO_PACKAGE">
+      <value>
+        <option name="FOREGROUND" value="9ffbde" />
+      </value>
+    </option>
+    <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_TYPE_REFERENCE">
       <value>
         <option name="FOREGROUND" value="9ffbde" />

@@ -736,6 +736,7 @@
         <option name="FOREGROUND" value="6a9955" />
       </value>
     </option>
+    <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="GO_BUILTIN_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="ffffcc" />
@@ -784,9 +785,10 @@
     <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="c5f1ff" />
+        <option name="FOREGROUND" value="ffffcc" />
       </value>
     </option>
+    <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_TYPE_REFERENCE">
       <value>
         <option name="FOREGROUND" value="ffffcc" />
