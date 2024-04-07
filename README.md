@@ -9,101 +9,101 @@ This plugins contains personal favorites and the famous vscode themes.
 Themes included in this plugin:
 
 - *Aura*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/aura.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/aura.png)
 - *Ayu Mirage*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/ayuMirage.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/ayuMirage.png)
 - *Blue Dolphin*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/blueDolphin.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/blueDolphin.png)
 - *Calm*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/calm.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/calm.png)
 - *Chillhop*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/chillhop.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/chillhop.png)
 - *City Pop*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/citypop.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/citypop.png)
 - *Cobalt2*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/cobalt2.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/cobalt2.png)
 - *Elements*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/elements.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/elements.png)
 - *Embark*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/embark.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/embark.png)
 - *Everforest*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/everforest.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/everforest.png)
 - *FairyFloss*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/fairyfloss.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/fairyfloss.png)
 - *Field Lights*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/fieldLights.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/fieldLights.png)
 - *Galaxy*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/galaxy.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/galaxy.png)
 - *Gamma*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/gamma.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/gamma.png)
 - *Green Haze*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/greenHaze.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/greenHaze.png)
 - *Gruvbox*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/gruvbox.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/gruvbox.png)
 - *Gruvbox Concoctis*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/gruvboxConcoctis.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/gruvboxConcoctis.png)
 - *Gruvbox Material*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/gruvboxMaterial.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/gruvboxMaterial.png)
 - *Hack the Box*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/hackTheBox.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/hackTheBox.png)
 - *In Bed By 7*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/inBedBy7.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/inBedBy7.png)
 - *Matcha*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/matcha.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/matcha.png)
 - *Mayukai Mono*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/mayukaiMono.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/mayukaiMono.png)
 - *Mayukai Mirage*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/mayukaiMirage.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/mayukaiMirage.png)
 - *Mayukai Reversal*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/mayukaiReversal.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/mayukaiReversal.png)
 - *Mayukai Alucard*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/mayukaiAlucard.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/mayukaiAlucard.png)
 - *Noctis*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/noctis.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/noctis.png)
 - *Noctis Sereno*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/noctisSereno.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/noctisSereno.png)
 - *Noctis Uva*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/noctisUva.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/noctisUva.png)
 - *Noctis Viola*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/noctisViola.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/noctisViola.png)
 - *Noctis Azureus*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/noctisAzureus.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/noctisAzureus.png)
 - *Noctis Bordo*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/noctisBordo.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/noctisBordo.png)
 - *Oblong*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/oblong.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/oblong.png)
 - *Peachy*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/peachy.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/peachy.png)
 - *Purple*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/purple.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/purple.png)
 - *Quango Warmth*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/quangoWarmth.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/quangoWarmth.png)
 - *Red*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/red.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/red.png)
 - *Red 2*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/red2.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/red2.png)
 - *Rouge*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/Rouge.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/Rouge.png)
 - *Serenade*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/serenade.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/serenade.png)
 - *Shades Of Purple*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/shadesOfPurple.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/shadesOfPurple.png)
 - *Shape*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/shape.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/shape.png)
 - *Talos*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/talos.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/talos.png)
 - *Universe*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/universe.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/universe.png)
 - *Universe purple*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/universePurple.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/universePurple.png)
 - *Vim*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/vim.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/vim.png)
 - *Vitesse*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/vitesse.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/vitesse.png)
 - *Winter is Coming*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/winterIsComing.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/winterIsComing.png)
 - *Zenburn*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/screenshots/zenburn.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/zenburn.png)
 
 
 ### Improvements are always appreciated!
