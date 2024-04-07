@@ -9,21 +9,21 @@ This plugins contains personal favorites and the famous vscode themes.
 Themes included in this plugin:
 
 - *Aura*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/aura.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/Aura.png)
 - *Ayu Mirage*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/ayuMirage.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/AyuMirage.png)
 - *Blue Dolphin*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/blueDolphin.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/BlueDolphin.png)
 - *Calm*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/calm.png)
 - *Chillhop*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/chillhop.png)
 - *City Pop*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/citypop.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/Citypop.png)
 - *Cobalt2*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/cobalt2.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/Cobalt2.png)
 - *Elements*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/elements.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/Elements.png)
 - *Embark*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/embark.png)
 - *Everforest*
@@ -31,13 +31,13 @@ Themes included in this plugin:
 - *FairyFloss*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/fairyfloss.png)
 - *Field Lights*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/fieldLights.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/FieldLights.png)
 - *Galaxy*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/galaxy.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/Galaxy.png)
 - *Gamma*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/gamma.png)
 - *Green Haze*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/greenHaze.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/GreenHaze.png)
 - *Gruvbox*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/gruvbox.png)
 - *Gruvbox Concoctis*
@@ -45,31 +45,31 @@ Themes included in this plugin:
 - *Gruvbox Material*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/gruvboxMaterial.png)
 - *Hack the Box*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/hackTheBox.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/HackTheBox.png)
 - *In Bed By 7*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/inBedBy7.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/InBedBy7.png)
 - *Matcha*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/matcha.png)
 - *Mayukai Mono*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/mayukaiMono.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/MayukaiMono.png)
 - *Mayukai Mirage*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/mayukaiMirage.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/MayukaiMirage.png)
 - *Mayukai Reversal*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/mayukaiReversal.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/MayukaiReversal.png)
 - *Mayukai Alucard*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/mayukaiAlucard.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/MayukaiAlucard.png)
 - *Noctis*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/noctis.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/Noctis.png)
 - *Noctis Sereno*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/noctisSereno.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/NoctisSereno.png)
 - *Noctis Uva*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/noctisUva.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/NoctisUva.png)
 - *Noctis Viola*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/noctisViola.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/NoctisViola.png)
 - *Noctis Azureus*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/noctisAzureus.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/NoctisAzureus.png)
 - *Noctis Bordo*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/noctisBordo.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/NoctisBordo.png)
 - *Oblong*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/oblong.png)
 - *Peachy*
@@ -87,21 +87,21 @@ Themes included in this plugin:
 - *Serenade*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/serenade.png)
 - *Shades Of Purple*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/shadesOfPurple.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/ShadesOfPurple.png)
 - *Shape*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/shape.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/Shape.png)
 - *Talos*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/talos.png)
 - *Universe*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/universe.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/Universe.png)
 - *Universe purple*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/universePurple.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/UniversePurple.png)
 - *Vim*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/vim.png)
 - *Vitesse*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/vitesse.png)
 - *Winter is Coming*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/winterIsComing.png)
+  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/WinterIsComing.png)
 - *Zenburn*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/zenburn.png)
 
