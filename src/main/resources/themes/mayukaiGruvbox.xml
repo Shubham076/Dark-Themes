@@ -28,7 +28,6 @@
     <option name="LINE_NUMBERS_COLOR" value="ebdbb2" />
     <option name="SELECTED_INDENT_GUIDE" value="44484f" />
     <option name="SELECTION_BACKGROUND" value="504945" />
-    <option name="WHITESPACES" value="44484f" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
@@ -523,7 +522,12 @@
     <option name="DEFAULT_BRACKETS" baseAttributes="" />
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="fb4934" />
+        <option name="FOREGROUND" value="afbf7e" />
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="afbf7e" />
       </value>
     </option>
     <option name="DEFAULT_COMMA" baseAttributes="" />
@@ -571,7 +575,7 @@
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="ebdbb2" />
+        <option name="FOREGROUND" value="afbf7e" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
@@ -581,7 +585,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="fb4934" />
+        <option name="FOREGROUND" value="afbf7e" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -786,16 +790,13 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="GO_BUILTIN_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="fabd2f" />
       </value>
     </option>
-    <option name="GO_BUILTIN_TYPE_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="fb4934" />
-      </value>
-    </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_BUILTIN_VARIABLE">
       <value>
         <option name="FOREGROUND" value="ebdbb2" />
@@ -838,11 +839,8 @@
         <option name="FOREGROUND" value="ebdbb2" />
       </value>
     </option>
-    <option name="GO_TYPE_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="fb4934" />
-      </value>
-    </option>
+    <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="d3869b" />

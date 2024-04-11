@@ -10,6 +10,16 @@
     <option name="CARET_COLOR" value="ebdbb2" />
     <option name="CARET_ROW_COLOR" value="282928" />
     <option name="CONSOLE_BACKGROUND_KEY" value="1d2021" />
+    <option name="FILESTATUS_ADDED" value="c3e887" />
+    <option name="FILESTATUS_DELETED" value="f77669" />
+    <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
+    <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
+    <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+    <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
+    <option name="FILESTATUS_SWITCHED" value="f77669" />
+    <option name="FILESTATUS_UNKNOWN" value="f77669" />
     <option name="GUTTER_BACKGROUND" value="1d2021" />
     <option name="INDENT_GUIDE" value="2e2f2d" />
     <option name="LINE_NUMBERS_COLOR" value="ebdbb2" />
@@ -535,13 +545,13 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="afbf76" />
+        <option name="FOREGROUND" value="6fafbd" />
         <option name="BACKGROUND" value="1d2021" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="afbf76" />
+        <option name="FOREGROUND" value="6fafbd" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -602,7 +612,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="afbf7e" />
+        <option name="FOREGROUND" value="6fafbd" />
         <option name="BACKGROUND" value="1d2021" />
       </value>
     </option>
@@ -823,6 +833,11 @@
         <option name="FOREGROUND" value="a9b665" />
       </value>
     </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="6fafbd" />
+      </value>
+    </option>
     <option name="GO_BUILTIN_VARIABLE">
       <value>
         <option name="FOREGROUND" value="d4be98" />
@@ -865,6 +880,13 @@
         <option name="FOREGROUND" value="d4be98" />
       </value>
     </option>
+    <option name="GO_PACKAGE">
+      <value>
+        <option name="FOREGROUND" value="6fafbd" />
+        <option name="BACKGROUND" value="1d2021" />
+      </value>
+    </option>
+    <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="d3869b" />
@@ -984,7 +1006,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />

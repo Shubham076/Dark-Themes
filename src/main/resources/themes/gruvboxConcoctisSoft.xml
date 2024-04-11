@@ -9,6 +9,16 @@
         <option name="CARET_COLOR" value="d4be98" />
         <option name="CARET_ROW_COLOR" value="393634" />
         <option name="CONSOLE_BACKGROUND_KEY" value="32302f" />
+        <option name="FILESTATUS_ADDED" value="c3e887" />
+        <option name="FILESTATUS_DELETED" value="f77669" />
+        <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
+        <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
+        <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+        <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
+        <option name="FILESTATUS_SWITCHED" value="f77669" />
+        <option name="FILESTATUS_UNKNOWN" value="f77669" />
         <option name="GUTTER_BACKGROUND" value="32302f" />
         <option name="INDENT_GUIDE" value="7c6f64" />
         <option name="LINE_NUMBERS_COLOR" value="d4be98" />
@@ -842,6 +852,12 @@
                 <option name="FOREGROUND" value="d4be98" />
             </value>
         </option>
+        <option name="GO_PACKAGE">
+            <value>
+                <option name="FOREGROUND" value="89b482" />
+                <option name="BACKGROUND" value="32302f" />
+            </value>
+        </option>
         <option name="GO_PACKAGE_EXPORTED_CONSTANT">
             <value>
                 <option name="FOREGROUND" value="d8a657" />
@@ -852,6 +868,7 @@
                 <option name="FOREGROUND" value="d8a657" />
             </value>
         </option>
+        <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="GO_STRUCT_EXPORTED_MEMBER">
             <value>
                 <option name="FOREGROUND" value="d8a657" />
@@ -985,7 +1002,7 @@
                 <option name="ERROR_STRIPE_COLOR" value="ccccff" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
         <option name="INFO_ATTRIBUTES">
             <value>
                 <option name="EFFECT_COLOR" value="343434" />
