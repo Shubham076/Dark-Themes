@@ -28,7 +28,6 @@
     <option name="LINE_NUMBERS_COLOR" value="d8d5df" />
     <option name="SELECTED_INDENT_GUIDE" value="574e71" />
     <option name="SELECTION_BACKGROUND" value="3c2974" />
-    <option name="WHITESPACES" value="574e71" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
@@ -541,13 +540,13 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="c1a2ff" />
+        <option name="FOREGROUND" value="ffa2a2" />
         <option name="BACKGROUND" value="221742" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="c1a2ff" />
+        <option name="FOREGROUND" value="ffa2a2" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -595,12 +594,6 @@
         <option name="FOREGROUND" value="9ac6f2" />
       </value>
     </option>
-    <option name="DEFAULT_GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="ffbad1" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="d8d5df" />
@@ -619,7 +612,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="c1a2ff" />
+        <option name="FOREGROUND" value="ffa2a2" />
         <option name="BACKGROUND" value="221742" />
       </value>
     </option>
@@ -841,6 +834,7 @@
         <option name="FOREGROUND" value="9ac6f2" />
       </value>
     </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_BUILTIN_VARIABLE">
       <value>
         <option name="FOREGROUND" value="ffbad1" />
@@ -887,6 +881,11 @@
         <option name="FOREGROUND" value="ffbad1" />
       </value>
     </option>
+    <option name="GO_PACKAGE">
+      <value>
+        <option name="FOREGROUND" value="ffa2a2" />
+      </value>
+    </option>
     <option name="GO_PACKAGE_EXPORTED_CONSTANT">
       <value>
         <option name="FOREGROUND" value="ffa2a2" />
@@ -897,6 +896,8 @@
         <option name="FOREGROUND" value="ffa2a2" />
       </value>
     </option>
+    <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="f2b09a" />
@@ -1017,7 +1018,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -1867,7 +1868,7 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="9ac6f2" />
@@ -1888,7 +1889,6 @@
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
-        <option name="FONT_TYPE" value="3" />
         <option name="ERROR_STRIPE_COLOR" value="ff" />
       </value>
     </option>

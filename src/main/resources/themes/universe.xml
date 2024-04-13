@@ -541,13 +541,13 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="c1a2ff" />
+        <option name="FOREGROUND" value="ffa2a2" />
         <option name="BACKGROUND" value="172542" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="c1a2ff" />
+        <option name="FOREGROUND" value="ffa2a2" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -595,12 +595,6 @@
         <option name="FOREGROUND" value="9ac6f2" />
       </value>
     </option>
-    <option name="DEFAULT_GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="ffbad1" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="d6d9e0" />
@@ -619,7 +613,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="c1a2ff" />
+        <option name="FOREGROUND" value="ffa2a2" />
         <option name="BACKGROUND" value="172542" />
       </value>
     </option>
@@ -836,6 +830,7 @@
         <option name="FOREGROUND" value="9ac6f2" />
       </value>
     </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_BUILTIN_VARIABLE">
       <value>
         <option name="FOREGROUND" value="ffbad1" />
@@ -850,11 +845,6 @@
     <option name="GO_EXPORTED_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="9ac6f2" />
-      </value>
-    </option>
-    <option name="GO_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="c1a2ff" />
       </value>
     </option>
     <option name="GO_LINE_COMMENT">
@@ -877,9 +867,11 @@
         <option name="FOREGROUND" value="9ac6f2" />
       </value>
     </option>
-    <option name="GO_METHOD_RECEIVER">
+    <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="ffbad1" />
+        <option name="FOREGROUND" value="ffa2a2" />
+        <option name="BACKGROUND" value="172542" />
       </value>
     </option>
     <option name="GO_PACKAGE_EXPORTED_CONSTANT">
@@ -892,6 +884,7 @@
         <option name="FOREGROUND" value="ffa2a2" />
       </value>
     </option>
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="f2b09a" />
@@ -1883,7 +1876,6 @@
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
-        <option name="FONT_TYPE" value="3" />
         <option name="ERROR_STRIPE_COLOR" value="ff" />
       </value>
     </option>
