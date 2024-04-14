@@ -839,7 +839,6 @@
     <option name="GO_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="cd9ffb" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
