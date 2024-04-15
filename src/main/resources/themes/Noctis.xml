@@ -652,11 +652,6 @@
         <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
-    <option name="DEFAULT_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="e4b781" />
-      </value>
-    </option>
     <option name="DEFAULT_PARENTHS">
       <value>
         <option name="FOREGROUND" value="b2cacd" />
@@ -1380,6 +1375,12 @@
         <option name="FOREGROUND" value="49e9a6" />
       </value>
     </option>
+    <option name="PY.ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="49e9a6" />
+        <option name="BACKGROUND" value="52529" />
+      </value>
+    </option>
     <option name="PY.BRACES">
       <value>
         <option name="FOREGROUND" value="b2cacd" />
@@ -1392,12 +1393,7 @@
     </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="49d6e9" />
-      </value>
-    </option>
-    <option name="PY.CLASS_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="49d6e9" />
+        <option name="FOREGROUND" value="49e9a6" />
       </value>
     </option>
     <option name="PY.COMMA">
@@ -1407,7 +1403,7 @@
     </option>
     <option name="PY.DECORATOR">
       <value>
-        <option name="FOREGROUND" value="16a3b6" />
+        <option name="FOREGROUND" value="49e9a6" />
       </value>
     </option>
     <option name="PY.DOC_COMMENT">
@@ -1420,19 +1416,9 @@
         <option name="FOREGROUND" value="b2cacd" />
       </value>
     </option>
-    <option name="PY.FUNC_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="16a3b6" />
-      </value>
-    </option>
     <option name="PY.INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="e3541c" />
-      </value>
-    </option>
-    <option name="PY.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="e66533" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT">
@@ -1445,19 +1431,9 @@
         <option name="FOREGROUND" value="5b858b" />
       </value>
     </option>
-    <option name="PY.NUMBER">
-      <value>
-        <option name="FOREGROUND" value="7060eb" />
-      </value>
-    </option>
     <option name="PY.OPERATION_SIGN">
       <value>
         <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="PY.PARENTHS">
-      <value>
-        <option name="FOREGROUND" value="b2cacd" />
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />

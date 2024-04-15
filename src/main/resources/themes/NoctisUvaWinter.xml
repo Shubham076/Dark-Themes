@@ -41,7 +41,6 @@
     <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="5ca4a9" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
-    <option name="ANNOTATIONS_COLOR" value="0" />
   </colors>
   <attributes>
     <option name="BAD_CHARACTER">
@@ -1372,6 +1371,12 @@
         <option name="FOREGROUND" value="49e9a6" />
       </value>
     </option>
+    <option name="PY.ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="49e9a6" />
+        <option name="BACKGROUND" value="2233d" />
+      </value>
+    </option>
     <option name="PY.BRACES">
       <value>
         <option name="FOREGROUND" value="c5c2d6" />
@@ -1384,12 +1389,12 @@
     </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="49d6e9" />
+        <option name="FOREGROUND" value="49e9a6" />
       </value>
     </option>
     <option name="PY.CLASS_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="49d6e9" />
+        <option name="FOREGROUND" value="49e9a6" />
       </value>
     </option>
     <option name="PY.COMMA">
@@ -1399,7 +1404,7 @@
     </option>
     <option name="PY.DECORATOR">
       <value>
-        <option name="FOREGROUND" value="16a3b6" />
+        <option name="FOREGROUND" value="49e9a6" />
       </value>
     </option>
     <option name="PY.DOC_COMMENT">
@@ -1412,19 +1417,9 @@
         <option name="FOREGROUND" value="c5c2d6" />
       </value>
     </option>
-    <option name="PY.FUNC_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="16a3b6" />
-      </value>
-    </option>
     <option name="PY.INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="e3541c" />
-      </value>
-    </option>
-    <option name="PY.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="e97749" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
@@ -1454,7 +1449,13 @@
         <option name="FOREGROUND" value="49d6e9" />
       </value>
     </option>
+    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.STRING">
+      <value>
+        <option name="FOREGROUND" value="49e9a6" />
+      </value>
+    </option>
+    <option name="PY.STRING.B">
       <value>
         <option name="FOREGROUND" value="49e9a6" />
       </value>

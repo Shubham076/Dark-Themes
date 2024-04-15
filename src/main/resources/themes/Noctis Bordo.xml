@@ -657,11 +657,6 @@
         <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
-    <option name="DEFAULT_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="e4b781" />
-      </value>
-    </option>
     <option name="DEFAULT_PARENTHS">
       <value>
         <option name="FOREGROUND" value="cbbec2" />
@@ -1372,6 +1367,12 @@
         <option name="FOREGROUND" value="49e9a6" />
       </value>
     </option>
+    <option name="PY.ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="49e9a6" />
+        <option name="BACKGROUND" value="322a2d" />
+      </value>
+    </option>
     <option name="PY.BRACES">
       <value>
         <option name="FOREGROUND" value="cbbec2" />
@@ -1384,12 +1385,7 @@
     </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="49d6e9" />
-      </value>
-    </option>
-    <option name="PY.CLASS_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="49d6e9" />
+        <option name="FOREGROUND" value="49e9a6" />
       </value>
     </option>
     <option name="PY.COMMA">
@@ -1399,7 +1395,7 @@
     </option>
     <option name="PY.DECORATOR">
       <value>
-        <option name="FOREGROUND" value="16a3b6" />
+        <option name="FOREGROUND" value="49e9a6" />
       </value>
     </option>
     <option name="PY.DOC_COMMENT">
@@ -1412,30 +1408,15 @@
         <option name="FOREGROUND" value="cbbec2" />
       </value>
     </option>
-    <option name="PY.FUNC_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="16a3b6" />
-      </value>
-    </option>
     <option name="PY.INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="e3541c" />
-      </value>
-    </option>
-    <option name="PY.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="e66533" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="8b747c" />
-      </value>
-    </option>
-    <option name="PY.NUMBER">
-      <value>
-        <option name="FOREGROUND" value="7060eb" />
       </value>
     </option>
     <option name="PY.OPERATION_SIGN">
@@ -1460,6 +1441,7 @@
         <option name="FOREGROUND" value="49e9a6" />
       </value>
     </option>
+    <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
     <option name="PY.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="49ace9" />
