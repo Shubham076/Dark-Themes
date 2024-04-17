@@ -7,9 +7,20 @@
     <property name="originalScheme">_@user_In bed by 7pm</property>
   </metaInfo>
   <colors>
+    <option name="ANNOTATIONS_COLOR" value="0" />
     <option name="CARET_COLOR" value="ebecf1" />
     <option name="CARET_ROW_COLOR" value="212432" />
     <option name="CONSOLE_BACKGROUND_KEY" value="292c3d" />
+    <option name="FILESTATUS_ADDED" value="c3e887" />
+    <option name="FILESTATUS_DELETED" value="f77669" />
+    <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
+    <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
+    <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+    <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
+    <option name="FILESTATUS_SWITCHED" value="f77669" />
+    <option name="FILESTATUS_UNKNOWN" value="f77669" />
     <option name="GUTTER_BACKGROUND" value="292c3d" />
     <option name="LINE_NUMBERS_COLOR" value="ebecf1" />
     <option name="SELECTION_BACKGROUND" value="42485f" />
@@ -18,7 +29,6 @@
     <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="5ca4a9" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
-    <option name="ANNOTATIONS_COLOR" value="0" />
   </colors>
   <attributes>
     <option name="BAD_CHARACTER">
@@ -871,6 +881,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="GO_BUILTIN_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="e2c3b2" />
@@ -924,6 +935,12 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="GO_PACKAGE">
+      <value>
+        <option name="FOREGROUND" value="a5ffe2" />
+      </value>
+    </option>
+    <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_TYPE_REFERENCE">
       <value>
         <option name="FOREGROUND" value="a5ffe2" />

@@ -11,15 +11,8 @@
     <option name="CARET_ROW_COLOR" value="92330" />
     <option name="CONSOLE_BACKGROUND_KEY" value="a2635" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
-    <option name="FILESTATUS_COPIED" value="c3e88d" />
     <option name="FILESTATUS_DELETED" value="f77669" />
     <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="808080" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="fc9867" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="fc9867" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="fc9867" />
-    <option name="FILESTATUS_MERGED" value="c792ea" />
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
@@ -27,9 +20,6 @@
     <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
     <option name="FILESTATUS_SWITCHED" value="f77669" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
-    <option name="FILESTATUS_addedOutside" value="ffcb6b" />
-    <option name="FILESTATUS_changelistConflict" value="fc9867" />
-    <option name="FILESTATUS_modifiedOutside" value="c792ea" />
     <option name="GUTTER_BACKGROUND" value="71c27" />
     <option name="LINE_NUMBERS_COLOR" value="d4d4d4" />
     <option name="SELECTION_BACKGROUND" value="485860" />
@@ -760,11 +750,13 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="GO_BUILTIN_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="cac386" />
       </value>
     </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_BUILTIN_VARIABLE">
       <value>
         <option name="FOREGROUND" value="94c5cc" />
@@ -807,6 +799,13 @@
         <option name="FOREGROUND" value="94c5cc" />
       </value>
     </option>
+    <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="GO_STRUCT_EXPORTED_MEMBER">
+      <value>
+        <option name="FOREGROUND" value="d4d4d4" />
+      </value>
+    </option>
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="9dc488" />
