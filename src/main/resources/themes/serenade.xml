@@ -8,7 +8,8 @@
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="79740e" />
-    <option name="ANNOTATIONS_COLOR" value="928374" />
+    <option name="ANNOTATIONS_COLOR" value="0" />
+    <option name="CARET_COLOR" value="bfddb2" />
     <option name="CARET_ROW_COLOR" value="2e3338" />
     <option name="CONSOLE_BACKGROUND_KEY" value="2a2f33" />
     <option name="DOCUMENTATION_COLOR" value="282828" />
