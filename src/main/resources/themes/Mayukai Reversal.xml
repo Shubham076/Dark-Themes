@@ -845,6 +845,11 @@
         <option name="FOREGROUND" value="cbcebc" />
       </value>
     </option>
+    <option name="GO_PACKAGE">
+      <value>
+        <option name="FOREGROUND" value="ff8f40" />
+      </value>
+    </option>
     <option name="GO_TYPE_REFERENCE">
       <value>
         <option name="FOREGROUND" value="ff8f40" />

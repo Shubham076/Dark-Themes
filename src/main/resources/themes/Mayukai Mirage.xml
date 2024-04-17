@@ -10,6 +10,16 @@
     <option name="CARET_COLOR" value="dadbc0" />
     <option name="CARET_ROW_COLOR" value="191e2a" />
     <option name="CONSOLE_BACKGROUND_KEY" value="1f2430" />
+    <option name="FILESTATUS_ADDED" value="c3e887" />
+    <option name="FILESTATUS_DELETED" value="f77669" />
+    <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
+    <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
+    <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+    <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
+    <option name="FILESTATUS_SWITCHED" value="f77669" />
+    <option name="FILESTATUS_UNKNOWN" value="f77669" />
     <option name="GUTTER_BACKGROUND" value="1f2430" />
     <option name="LINE_NUMBERS_COLOR" value="dadbc0" />
     <option name="SELECTION_BACKGROUND" value="3d424d" />
@@ -830,6 +840,11 @@
     <option name="GO_METHOD_RECEIVER">
       <value>
         <option name="FOREGROUND" value="dadbc0" />
+      </value>
+    </option>
+    <option name="GO_PACKAGE">
+      <value>
+        <option name="FOREGROUND" value="f28779" />
       </value>
     </option>
     <option name="GO_TYPE_REFERENCE">
