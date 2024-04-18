@@ -653,12 +653,6 @@
         <option name="FOREGROUND" value="ec4b4" />
       </value>
     </option>
-    <option name="DEFAULT_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="ff7e7e" />
-        <option name="BACKGROUND" value="33535" />
-      </value>
-    </option>
     <option name="DEFAULT_PARENTHS">
       <value>
         <option name="FOREGROUND" value="ff7e7e" />
@@ -1375,6 +1369,12 @@
         <option name="FOREGROUND" value="92db5e" />
       </value>
     </option>
+    <option name="PY.ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="e2ad7c" />
+        <option name="BACKGROUND" value="33535" />
+      </value>
+    </option>
     <option name="PY.BRACES">
       <value>
         <option name="FOREGROUND" value="ff7e7e" />
@@ -1387,7 +1387,7 @@
     </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="58d1e0" />
+        <option name="FOREGROUND" value="e2ad7c" />
       </value>
     </option>
     <option name="PY.CLASS_DEFINITION">
@@ -1400,11 +1400,6 @@
         <option name="FOREGROUND" value="ff7e7e" />
       </value>
     </option>
-    <option name="PY.DECORATOR">
-      <value>
-        <option name="FOREGROUND" value="acad3" />
-      </value>
-    </option>
     <option name="PY.DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="1968a" />
@@ -1414,16 +1409,6 @@
     <option name="PY.DOT">
       <value>
         <option name="FOREGROUND" value="ff7e7e" />
-      </value>
-    </option>
-    <option name="PY.FUNC_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="acad3" />
-      </value>
-    </option>
-    <option name="PY.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="59baa3" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
