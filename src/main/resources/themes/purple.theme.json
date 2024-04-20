@@ -23,7 +23,7 @@
     },
     "DefaultTabs": {
       "background": "#544256",
-      "borderColor": "#4a3a4d"
+      "borderColor": "#544256"
     },
     "ToolWindow": {
       "Header": {
@@ -42,7 +42,7 @@
     },
     "EditorTabs": {
       "underlinedTabBackground": "#544256",
-      "borderColor" : "#4a3a4d"
+      "borderColor" : "#544256"
     },
     "Popup": {
       "Header.activeBackground": "#544256"
