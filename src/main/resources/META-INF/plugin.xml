@@ -25,7 +25,6 @@
         <themeProvider id="com.github.shubham076.cityPop" path="/themes/cityPop.theme.json"/>
         <themeProvider id="com.github.shubham076.inBedBy7" path="/themes/inBedBy7.theme.json"/>
         <themeProvider id="com.github.shubham076.hackTheBox" path="/themes/hackTheBox.theme.json"/>
-        <themeProvider id="com.github.shubham076.mayukaiAlucard" path="/themes/mayukaiAlucard.theme.json"/>
         <themeProvider id="com.github.shubham076.mayukaiMono" path="/themes/mayukaiMono.theme.json"/>
         <themeProvider id="com.github.shubham076.mayukaiMirage" path="/themes/mayukaiMirage.theme.json"/>
         <themeProvider id="com.github.shubham076.mayukaiReversal" path="/themes/mayukaiReversal.theme.json"/>
@@ -33,7 +32,6 @@
         <themeProvider id="com.github.shubham076.aura" path="/themes/aura.theme.json"/>
         <themeProvider id="com.github.shubham076.galaxy" path="/themes/galaxy.theme.json"/>
         <themeProvider id="com.github.shubham076.fieldLights" path="/themes/fieldLights.theme.json"/>
-        <themeProvider id="com.github.shubham076.halcyon" path="/themes/halcyon.theme.json"/>
         <themeProvider id="com.github.shubham076.universe" path="/themes/universe.theme.json"/>
         <themeProvider id="com.github.shubham076.universePurple" path="/themes/universePurple.theme.json"/>
         <themeProvider id="com.github.shubham076.shape" path="/themes/shape.theme.json"/>

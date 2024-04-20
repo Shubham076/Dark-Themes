@@ -56,8 +56,6 @@ Themes included in this plugin:
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/MayukaiMirage.png)
 - *Mayukai Reversal*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/MayukaiReversal.png)
-- *Mayukai Alucard*
-  ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/MayukaiAlucard.png)
 - *Noctis*
   ![](https://github.com/Shubham076/Dark-Themes/blob/main/Screenshots/Noctis.png)
 - *Noctis Sereno*
