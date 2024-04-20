@@ -5,7 +5,7 @@
   "editorScheme": "/themes/fairyfloss.xml",
   "ui": {
     "*": {
-      "background": "#464258",
+      "background": "#4e4962",
       "foreground": "#F8F8F2",
       "highlight": "#425b67ff",
       "selectionBackground": "#705873",
@@ -22,12 +22,12 @@
       "excluded": "#705873"
     },
     "DefaultTabs": {
-      "background": "#464258",
+      "background": "#4e4962",
       "borderColor": "#464258"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#464258"
+        "inactiveBackground": "#4e4962"
       }
     },
     "Plugins": {
@@ -41,7 +41,7 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#464258",
+      "underlinedTabBackground": "#4e4962",
       "borderColor" : "#464258"
     },
     "Popup": {

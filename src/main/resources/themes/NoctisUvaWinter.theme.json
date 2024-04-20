@@ -5,7 +5,7 @@
   "editorScheme": "/themes/NoctisUvaWinter.xml",
   "ui": {
     "*": {
-      "background": "#02233d",
+      "background": "#011a2d",
       "foreground": "#a7dbf7",
       "highlight": "#425b67ff",
       "selectionBackground": "#03365e",
@@ -23,18 +23,18 @@
       "excluded": "#03365e"
     },
     "DefaultTabs": {
-      "background": "#02233d",
+      "background": "#011a2d",
       "borderColor": "#219fd544"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#02233d"
+      "underlinedTabBackground": "#011a2d"
     },
     "Popup": {
-      "Header.activeBackground": "#02233d"
+      "Header.activeBackground": "#011a2d"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#02233d"
+        "inactiveBackground": "#011a2d"
       }
     },
      "Plugins": {
@@ -47,10 +47,10 @@
       }
     },
     "TabbedPane": {
-      "hoverColor": "#02233d"
+      "hoverColor": "#011a2d"
     },
     "Button": {
-      "focus": "#02233d"
+      "focus": "#011a2d"
     }
   }
 }

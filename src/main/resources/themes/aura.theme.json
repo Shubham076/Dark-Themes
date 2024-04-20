@@ -5,7 +5,7 @@
   "editorScheme": "/themes/Aura.xml",
   "ui": {
     "*": {
-      "background": "#131d46",
+      "background": "#0f1739",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
       "selectionBackground": "#22337b",
@@ -28,7 +28,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#131d46"
+        "inactiveBackground": "#0f1739"
       }
     },
     "Plugins": {

@@ -5,7 +5,7 @@
   "editorScheme": "/themes/Noctis Azureus.xml",
   "ui": {
     "*": {
-      "background": "#07273b",
+      "background": "#051d2c",
       "foreground": "#becfda",
       "highlight": "#425b67ff",
       "selectionBackground": "#0b3b59",
@@ -34,7 +34,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#07273b"
+        "inactiveBackground": "#051d2c"
       }
     },
      "Plugins": {

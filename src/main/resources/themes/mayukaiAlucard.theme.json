@@ -5,7 +5,7 @@
   "editorScheme": "/themes/Mayukai Alucard.xml",
   "ui": {
     "*": {
-      "background": "#101521ff",
+      "background": "#1a1f2f",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
       "selectionBackground": "#1b2438ff",
@@ -23,18 +23,18 @@
       "excluded": "#1b2438ff"
     },
     "DefaultTabs": {
-      "background": "#03080f",
+      "background": "#1a1f2f",
       "borderColor": "#03080f"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#03080f"
+      "underlinedTabBackground": "#1a1f2f"
     },
     "Popup": {
-      "Header.activeBackground": "#03080f"
+      "Header.activeBackground": "#1a1f2f"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#101521ff"
+        "inactiveBackground": "#1a1f2f"
       }
     },
      "Plugins": {
@@ -47,10 +47,10 @@
       }
     },
     "TabbedPane": {
-      "hoverColor": "#03080f"
+      "hoverColor": "#1a1f2f"
     },
     "Button": {
-      "focus": "#03080f"
+      "focus": "#1a1f2f"
     }
   }
 }

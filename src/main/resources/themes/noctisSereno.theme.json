@@ -5,7 +5,7 @@
   "editorScheme": "/themes/Noctis Sereno.xml",
   "ui": {
     "*": {
-      "background": "#062e32",
+      "background": "#042023",
       "foreground": "#b2cacd",
       "highlight": "#425b67ff",
       "selectionBackground": "#0a4a50",
@@ -34,7 +34,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#062e32"
+        "inactiveBackground": "#042023"
       }
     },
      "Plugins": {

@@ -5,7 +5,7 @@
   "editorScheme": "/themes/Mayukai Reversal.xml",
   "ui": {
     "*": {
-      "background": "#101521ff",
+      "background": "#1a1f2f",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
       "selectionBackground": "#1b2438ff",
@@ -31,7 +31,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#101521ff"
+        "inactiveBackground": "#1a1f2f"
       }
     },
      "Plugins": {

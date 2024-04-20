@@ -24,10 +24,11 @@
     },
     "DefaultTabs": {
       "background": "#fcfcfc",
-      "borderColor": "#1f2430"
+      "borderColor": "#FCF5F5"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#fcfcfc"
+      "underlinedTabBackground": "#fcfcfc",
+      "borderColor": "#FCF5F5"
     },
     "Popup": {
       "Header.activeBackground": "#fcfcfc"

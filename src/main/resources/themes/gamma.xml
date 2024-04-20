@@ -7,12 +7,14 @@
     <property name="originalScheme">_@user_Gamma</property>
   </metaInfo>
   <colors>
+    <option name="ANNOTATIONS_COLOR" value="0" />
     <option name="CARET_COLOR" value="ff9f" />
     <option name="CARET_ROW_COLOR" value="55555" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="33535" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="44545" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_DELETED" value="f77669" />
     <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="5d5d5d" />
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
@@ -20,10 +22,12 @@
     <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
     <option name="FILESTATUS_SWITCHED" value="f77669" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
-    <option name="GUTTER_BACKGROUND" value="33535" />
-    <option name="INDENT_GUIDE" value="17d3c2" />
+    <option name="FILESTATUS_addedOutside" value="a2c699" />
+    <option name="FILESTATUS_modifiedOutside" value="99bfc6" />
+    <option name="GUTTER_BACKGROUND" value="44545" />
+    <option name="INDENT_GUIDE" value="" />
     <option name="LINE_NUMBERS_COLOR" value="ec4b4" />
-    <option name="SELECTED_INDENT_GUIDE" value="17d3c2" />
+    <option name="SELECTED_INDENT_GUIDE" value="" />
     <option name="SELECTION_BACKGROUND" value="36f65" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
@@ -31,12 +35,12 @@
     <option name="VCS_ANNOTATIONS_COLOR_4" value="5ca4a9" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
     <option name="WHITESPACES" value="17d3c2" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="33535" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="33535" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="33535" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="44545" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="44545" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="44545" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="33535" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="44545" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
   </colors>
@@ -139,24 +143,6 @@
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="743d3d" />
-      </value>
-    </option>
-    <option name="INLINE_PARAMETER_HINT">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="066565" />
-      </value>
-    </option>
-    <option name="INLINE_PARAMETER_HINT_CURRENT">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="066565" />
-      </value>
-    </option>
-    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="066565" />
       </value>
     </option>
     <option name="BUILDOUT.KEY">
@@ -644,7 +630,7 @@
     <option name="DEFAULT_CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="e2ad7c" />
-        <option name="BACKGROUND" value="33535" />
+        <option name="BACKGROUND" value="44545" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
@@ -715,7 +701,7 @@
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="e2ad7c" />
-        <option name="BACKGROUND" value="33535" />
+        <option name="BACKGROUND" value="44545" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
@@ -733,7 +719,7 @@
     <option name="DEFAULT_LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="d3c6aa" />
-        <option name="BACKGROUND" value="33535" />
+        <option name="BACKGROUND" value="44545" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -1069,6 +1055,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="HTML_CUSTOM_TAG_NAME" baseAttributes="HTML_TAG_NAME" />
     <option name="HTML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="ff7e7e" />
@@ -1371,6 +1358,7 @@
         <option name="FOREGROUND" value="ff7e7e" />
       </value>
     </option>
+    <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD" />
     <option name="PROTOCOL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="d7b36f" />
@@ -1470,7 +1458,7 @@
     <option name="PY.ANNOTATION">
       <value>
         <option name="FOREGROUND" value="e2ad7c" />
-        <option name="BACKGROUND" value="33535" />
+        <option name="BACKGROUND" value="44545" />
       </value>
     </option>
     <option name="PY.BRACES">
@@ -1958,7 +1946,7 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="e2ad7c" />
@@ -1967,7 +1955,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d3c6aa" />
-        <option name="BACKGROUND" value="33535" />
+        <option name="BACKGROUND" value="44545" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

@@ -5,7 +5,7 @@
   "editorScheme": "/themes/Elements.xml",
   "ui": {
     "*": {
-      "background": "#1a2731",
+      "background": "#141e26",
       "foreground": "#d6deeb",
       "highlight": "#425b67ff",
       "selectionBackground": "#314a5e",
@@ -24,7 +24,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#1a2731"
+        "inactiveBackground": "#141e26"
       }
     },
      "Plugins": {

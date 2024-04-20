@@ -5,7 +5,7 @@
   "editorScheme": "/themes/vimDarkSoft.xml",
   "ui": {
     "*": {
-      "background": "#32302f",
+      "background": "#292827",
       "foreground": "#ebdbb2",
       "highlight": "#425b67ff",
       "selectionBackground": "#44413f",
@@ -23,15 +23,15 @@
       "excluded": "#44413f"
     },
     "DefaultTabs": {
-      "background": "#32302f",
-      "borderColor": "#32302f"
+      "background": "#292827",
+      "borderColor": "#292827"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#32302f"
+      "underlinedTabBackground": "#292827"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#32302f"
+        "inactiveBackground": "#292827"
       }
     },
      "Plugins": {
@@ -44,13 +44,13 @@
       }
     },
     "Popup": {
-      "Header.activeBackground": "#32302f"
+      "Header.activeBackground": "#292827"
     },
     "TabbedPane": {
-      "hoverColor": "#32302f"
+      "hoverColor": "#292827"
     },
     "Button": {
-      "focus": "#32302f"
+      "focus": "#292827"
     }
   }
 }

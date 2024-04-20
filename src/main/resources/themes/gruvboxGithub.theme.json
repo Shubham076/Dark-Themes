@@ -5,7 +5,7 @@
   "editorScheme": "/themes/gruvboxGithub.xml",
   "ui": {
     "*": {
-      "background": "#22272e",
+      "background": "#1b1f24",
       "foreground": "#adbac7",
       "highlight": "#425b67ff",
       "selectionBackground": "#303842",
@@ -31,7 +31,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#22272e"
+        "inactiveBackground": "#1b1f24"
       }
     },
      "Plugins": {

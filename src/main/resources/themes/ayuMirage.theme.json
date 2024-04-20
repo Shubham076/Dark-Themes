@@ -30,7 +30,7 @@
     "DefaultTabs": {
       "background": "#1f2430",
       "hoverBackground": "#707a8c99",
-      "borderColor": "#1f2430"
+      "borderColor": "#1c222c"
     },
       "Plugins": {
       "Button": {
@@ -43,7 +43,7 @@
     },
     "EditorTabs": {
       "underlinedTabBackground": "#1f2430",
-      "borderColor" : "#1f2430"
+      "borderColor" : "#1c222c"
     },
     "Popup": {
       "Header.activeBackground": "#1f2430"

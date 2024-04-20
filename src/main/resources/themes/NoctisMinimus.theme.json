@@ -5,7 +5,7 @@
   "editorScheme": "/themes/noctisMinimus.xml",
   "ui": {
     "*": {
-      "background": "#1b2932",
+      "background": "#152027",
       "foreground": "#c5cdd3",
       "highlight": "#425b67ff",
       "selectionBackground": "#273b48",
@@ -23,15 +23,15 @@
       "excluded": "#273b48"
     },
     "DefaultTabs": {
-      "background": "#1b2932",
+      "background": "#152027",
       "borderColor": "#1d3544"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#1b2932"
+      "underlinedTabBackground": "#152027"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#1b2932"
+        "inactiveBackground": "#152027"
       }
     },
      "Plugins": {
@@ -44,13 +44,13 @@
       }
     },
     "Popup": {
-      "Header.activeBackground": "#1b2932"
+      "Header.activeBackground": "#152027"
     },
     "TabbedPane": {
-      "hoverColor": "#1b2932"
+      "hoverColor": "#152027"
     },
     "Button": {
-      "focus": "#1b2932"
+      "focus": "#152027"
     }
   }
 }

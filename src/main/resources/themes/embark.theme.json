@@ -5,7 +5,7 @@
   "editorScheme": "/themes/embark.xml",
   "ui": {
     "*": {
-      "background": "#2D2B40",
+      "background": "#262436",
       "foreground": "#CBE3E7",
       "highlight": "#425b67ff",
       "selectionBackground": "#585273",
@@ -24,7 +24,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#2D2B40"
+        "inactiveBackground": "#262436"
       }
     },
     "Plugins": {

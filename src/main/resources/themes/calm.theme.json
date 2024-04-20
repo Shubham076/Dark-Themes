@@ -5,7 +5,7 @@
   "editorScheme": "/themes/calm.xml",
   "ui": {
     "*": {
-      "background": "#143131",
+      "background": "#0f2525",
       "foreground": "#ffecdd",
       "highlight": "#425b67ff",
       "selectionBackground": "#235555",
@@ -31,7 +31,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#143131"
+        "inactiveBackground": "#0f2525"
       }
     },
      "Plugins": {

@@ -5,7 +5,7 @@
   "editorScheme": "/themes/rouge.xml",
   "ui": {
     "*": {
-      "background": "#172030",
+      "background": "#111825",
       "foreground": "#bbb",
       "highlight": "#425b67ff",
       "selectionBackground": "#222f47",
@@ -23,18 +23,18 @@
       "excluded": "#222f47"
     },
     "DefaultTabs": {
-      "background": "#172030",
+      "background": "#111825",
       "borderColor": "#1f2430"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#172030"
+      "underlinedTabBackground": "#111825"
     },
     "Popup": {
-      "Header.activeBackground": "#172030"
+      "Header.activeBackground": "#111825"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#172030"
+        "inactiveBackground": "#111825"
       }
     },
      "Plugins": {
@@ -47,10 +47,10 @@
       }
     },
     "TabbedPane": {
-      "hoverColor": "#172030"
+      "hoverColor": "#111825"
     },
     "Button": {
-      "focus": "#172030"
+      "focus": "#111825"
     }
   }
 }

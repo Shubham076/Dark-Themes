@@ -5,7 +5,7 @@
   "editorScheme": "/themes/Noctis Bordo.xml",
   "ui": {
     "*": {
-      "background": "#322a2d",
+      "background": "#292225",
       "foreground": "#cbbec2",
       "highlight": "#425b67ff",
       "selectionBackground": "#443a3e",
@@ -34,7 +34,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#322a2d"
+        "inactiveBackground": "#292225"
       }
     },
      "Plugins": {

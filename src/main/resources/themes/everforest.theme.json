@@ -5,7 +5,7 @@
   "editorScheme": "/themes/everforest.xml",
   "ui": {
     "*": {
-      "background": "#2f383e",
+      "background": "#282f34",
       "foreground": "#d3c6aa",
       "highlight": "#425b67ff",
       "selectionBackground": "#3e4951",
@@ -34,7 +34,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#2f383e"
+        "inactiveBackground": "#282f34"
       }
     },
     "Plugins": {

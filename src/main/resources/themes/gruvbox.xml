@@ -9,7 +9,7 @@
   <colors>
     <option name="CARET_COLOR" value="ebdbb2" />
     <option name="CARET_ROW_COLOR" value="282928" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1d2021" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="25292a" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_DELETED" value="f77669" />
     <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
@@ -20,7 +20,7 @@
     <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
     <option name="FILESTATUS_SWITCHED" value="f77669" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
-    <option name="GUTTER_BACKGROUND" value="1d2021" />
+    <option name="GUTTER_BACKGROUND" value="25292a" />
     <option name="INDENT_GUIDE" value="2e2f2d" />
     <option name="LINE_NUMBERS_COLOR" value="ebdbb2" />
     <option name="SELECTED_INDENT_GUIDE" value="2e2f2d" />
@@ -32,12 +32,12 @@
     <option name="VCS_ANNOTATIONS_COLOR_4" value="5ca4a9" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
     <option name="ANNOTATIONS_COLOR" value="0" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1d2021" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="1d2021" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="1d2021" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="25292a" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="25292a" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="25292a" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="1d2021" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="25292a" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
   </colors>
@@ -644,7 +644,7 @@
     <option name="DEFAULT_CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="6fafbd" />
-        <option name="BACKGROUND" value="1d2021" />
+        <option name="BACKGROUND" value="25292a" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
@@ -711,7 +711,7 @@
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="6fafbd" />
-        <option name="BACKGROUND" value="1d2021" />
+        <option name="BACKGROUND" value="25292a" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
@@ -981,7 +981,7 @@
     <option name="GO_PACKAGE">
       <value>
         <option name="FOREGROUND" value="6fafbd" />
-        <option name="BACKGROUND" value="1d2021" />
+        <option name="BACKGROUND" value="25292a" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -1966,7 +1966,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="ebdbb2" />
-        <option name="BACKGROUND" value="1d2021" />
+        <option name="BACKGROUND" value="25292a" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

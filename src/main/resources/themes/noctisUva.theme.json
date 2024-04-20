@@ -5,7 +5,7 @@
   "editorScheme": "/themes/Noctis Uva.xml",
   "ui": {
     "*": {
-      "background": "#292640",
+      "background": "#222035",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
       "selectionBackground": "#373355",
@@ -34,7 +34,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#292640"
+        "inactiveBackground": "#222035"
       }
     },
      "Plugins": {

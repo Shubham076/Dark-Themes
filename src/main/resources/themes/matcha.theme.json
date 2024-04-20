@@ -5,7 +5,7 @@
   "editorScheme": "/themes/matcha.xml",
   "ui": {
     "*": {
-      "background": "#273136",
+      "background": "#20282c",
       "foreground": "#D1DED3",
       "highlight": "#425b67ff",
       "selectionBackground": "#323e45",
@@ -28,7 +28,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#273136"
+        "inactiveBackground": "#20282c"
       }
     },
     "Plugins": {

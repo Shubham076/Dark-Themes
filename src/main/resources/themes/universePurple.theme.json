@@ -5,7 +5,7 @@
   "editorScheme": "/themes/universePurple.xml",
   "ui": {
     "*": {
-      "background": "#221742",
+      "background": "#1c1335",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
       "selectionBackground": "#3c2974",
@@ -23,15 +23,15 @@
       "excluded": "#3c2974"
     },
     "DefaultTabs": {
-      "background": "#221742",
+      "background": "#1c1335",
       "borderColor": "#1f2430"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#221742"
+      "underlinedTabBackground": "#1c1335"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#221742"
+        "inactiveBackground": "#1c1335"
       }
     },
      "Plugins": {

@@ -8,7 +8,7 @@
     <colors>
         <option name="CARET_COLOR" value="d4be98" />
         <option name="CARET_ROW_COLOR" value="302e2d" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="292828" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="323030" />
         <option name="FILESTATUS_ADDED" value="c3e887" />
         <option name="FILESTATUS_DELETED" value="f77669" />
         <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
@@ -19,7 +19,7 @@
         <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
         <option name="FILESTATUS_SWITCHED" value="f77669" />
         <option name="FILESTATUS_UNKNOWN" value="f77669" />
-        <option name="GUTTER_BACKGROUND" value="292828" />
+        <option name="GUTTER_BACKGROUND" value="323030" />
         <option name="INDENT_GUIDE" value="665c54" />
         <option name="LINE_NUMBERS_COLOR" value="d4be98" />
         <option name="SELECTED_INDENT_GUIDE" value="665c54" />
@@ -31,12 +31,12 @@
         <option name="VCS_ANNOTATIONS_COLOR_4" value="5ca4a9" />
         <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
         <option name="ANNOTATIONS_COLOR" value="0" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="292828" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="292828" />
-        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="292828" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="323030" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="323030" />
+        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="323030" />
         <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
         <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
-        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="292828" />
+        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="323030" />
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
         <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     </colors>
@@ -1946,7 +1946,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="d4be98" />
-                <option name="BACKGROUND" value="292828" />
+                <option name="BACKGROUND" value="323030" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
