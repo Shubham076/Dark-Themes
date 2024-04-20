@@ -1520,7 +1520,7 @@
     </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="fffeae" />
+        <option name="FOREGROUND" value="fde1bd" />
       </value>
     </option>
     <option name="PY.CLASS_DEFINITION">
@@ -1556,11 +1556,6 @@
     <option name="PY.INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="ff7088" />
-      </value>
-    </option>
-    <option name="PY.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="ffb8df" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
