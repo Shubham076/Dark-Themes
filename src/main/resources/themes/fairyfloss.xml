@@ -30,19 +30,19 @@
         <option name="FADED_PINK" value="e9e8f3" />
         <option name="FADED_PINK_DARK" value="716799" />
         <option name="FILESTATUS_ADDED" value="c3e887" />
-        <option name="FILESTATUS_COPIED" value="629755" />
+        <option name="FILESTATUS_COPIED" value="c3e88d" />
         <option name="FILESTATUS_DELETED" value="f77669" />
         <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6c6c" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="848504" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="d5756c" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d5756c" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d5756c" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="808080" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="fc9867" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="fc9867" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="fc9867" />
         <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038" />
         <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
         <option name="FILESTATUS_IDEA_SVN_REPLACED" value="c3e887" />
         <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
-        <option name="FILESTATUS_MERGED" value="9876aa" />
+        <option name="FILESTATUS_MERGED" value="c792ea" />
         <option name="FILESTATUS_MODIFIED" value="80cbc4" />
         <option name="FILESTATUS_NOT_CHANGED" value="dfdfdf" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
@@ -95,7 +95,7 @@
         <option name="SELECTED_INDENT_GUIDE" value="fff355" />
         <option name="SELECTED_TEARLINE_COLOR" value="fff355" />
         <option name="SELECTION_BACKGROUND" value="7c6799" />
-        <option name="SELECTION_FOREGROUND" value="f8f8f2" />
+        <option name="SELECTION_FOREGROUND" value="" />
         <option name="SEPARATOR_BELOW_COLOR" value="4e5579" />
         <option name="SOFT_WRAP_SIGN_COLOR" value="d6d4d4" />
         <option name="STRING" value="ffea00" />
@@ -131,6 +131,11 @@
         <option name="TEXT_GREY" value="f8f8f2" />
         <option name="TOOLTIP" value="514c66" />
         <option name="UNUSED_VARIABLE" value="bab6b6" />
+        <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
+        <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
+        <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
+        <option name="VCS_ANNOTATIONS_COLOR_4" value="5ca4a9" />
+        <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
         <option name="VCS_COLOR_1" value="b35252" />
         <option name="VCS_COLOR_2" value="995467" />
         <option name="VCS_COLOR_3" value="8d6799" />
@@ -557,15 +562,9 @@
         <option name="CTRL_CLICKABLE">
             <value>
                 <option name="FOREGROUND" value="6cb6e7" />
-                <option name="EFFECT_COLOR" value="6cb6e7" />
             </value>
         </option>
-        <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="fff355" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
+        <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
         <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="fff352" />
@@ -590,6 +589,7 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
+        <option name="CUSTOM_NUMBER_ATTRIBUTES" baseAttributes="DEFAULT_NUMBER" />
         <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
         <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
         <option name="Closure braces">
@@ -670,7 +670,6 @@
         <option name="DEFAULT_DOC_COMMENT_TAG">
             <value>
                 <option name="FOREGROUND" value="fff355" />
-                <option name="FONT_TYPE" value="3" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -1253,8 +1252,7 @@
         </option>
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="808080" />
-                <option name="EFFECT_COLOR" value="808080" />
+                <option name="FOREGROUND" value="ffea00" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -1364,6 +1362,11 @@
                 <option name="FOREGROUND" value="f8f8f2" />
             </value>
         </option>
+        <option name="JS.FUNCTION">
+            <value>
+                <option name="FOREGROUND" value="ffff35" />
+            </value>
+        </option>
         <option name="JS.GLOBAL_FUNCTION">
             <value>
                 <option name="FOREGROUND" value="ffea00" />
@@ -1405,6 +1408,11 @@
             <value>
                 <option name="FOREGROUND" value="f8f8f2" />
                 <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="JS.PARAMETER">
+            <value>
+                <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
         <option name="JS.REGEXP">
@@ -3849,8 +3857,7 @@
         </option>
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="f8f8f2" />
-                <option name="FONT_TYPE" value="3" />
+                <option name="FOREGROUND" value="ffea00" />
             </value>
         </option>
         <option name="TS.MODULE_NAME">
