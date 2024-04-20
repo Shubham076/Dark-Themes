@@ -17,6 +17,13 @@
     <option name="SELECTION_BACKGROUND" value="b0ccb1" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="WHITESPACES" value="ebe0ba" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="fbf1c7" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="fbf1c7" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="fbf1c7" />
+    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="fbf1c7" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
+    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
   </colors>
   <attributes>
     <option name="BAD_CHARACTER">

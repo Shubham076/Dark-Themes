@@ -39,11 +39,13 @@
     "DefaultTabs": {
       "background": "#1a2731",
       "hoverBackground": "#707a8c99",
-      "borderColor": "#1f2430"
+      "borderColor": "#1f2430",
+      "underlinedTabForeground": "#d6deeb"
     },
     "EditorTabs": {
       "underlinedTabBackground": "#1a2731",
-      "borderColor" : "#1f2430"
+      "borderColor" : "#1f2430",
+      "underlinedTabForeground": "#d6deeb"
     },
     "Popup": {
       "Header.activeBackground": "#1a2731"
