@@ -1180,19 +1180,9 @@
         <option name="FOREGROUND" value="e3541c" />
       </value>
     </option>
-    <option name="JAVA_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="df769b" />
-      </value>
-    </option>
     <option name="JAVA_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="5b858b" />
-      </value>
-    </option>
-    <option name="JAVA_NUMBER">
-      <value>
-        <option name="FOREGROUND" value="7060eb" />
       </value>
     </option>
     <option name="JAVA_OPERATION_SIGN">

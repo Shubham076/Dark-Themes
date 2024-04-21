@@ -1203,11 +1203,6 @@
         <option name="FOREGROUND" value="5b858b" />
       </value>
     </option>
-    <option name="JAVA_NUMBER">
-      <value>
-        <option name="FOREGROUND" value="7060eb" />
-      </value>
-    </option>
     <option name="JAVA_OPERATION_SIGN">
       <value>
         <option name="FONT_TYPE" value="1" />
