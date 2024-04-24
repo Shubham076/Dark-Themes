@@ -24,7 +24,7 @@
     },
     "DefaultTabs": {
       "background": "#002b3f",
-      "hoverBackground": "#001c40"
+      "hoverBackground": "#002b3f"
     },
     "EditorTabs": {
       "underlinedTabBackground": "#003950"
