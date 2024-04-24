@@ -1453,6 +1453,12 @@
         <option name="FOREGROUND" value="fcb5d9" />
       </value>
     </option>
+    <option name="PY.ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="a0fcbd" />
+        <option name="BACKGROUND" value="26294d" />
+      </value>
+    </option>
     <option name="PY.BRACES">
       <value>
         <option name="FOREGROUND" value="acb5ff" />
@@ -1465,12 +1471,7 @@
     </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="fffb85" />
-      </value>
-    </option>
-    <option name="PY.CLASS_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="fffb85" />
+        <option name="FOREGROUND" value="a0fcbd" />
       </value>
     </option>
     <option name="PY.COMMA">

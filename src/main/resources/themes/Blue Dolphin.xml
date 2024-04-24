@@ -1063,8 +1063,35 @@
         <option name="BACKGROUND" value="3950" />
       </value>
     </option>
+    <option name="KOTLIN_BACKING_FIELD_VARIABLE">
+      <value />
+    </option>
+    <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="fffccc" />
+      </value>
+    </option>
+    <option name="KOTLIN_DYNAMIC_PROPERTY_CALL">
+      <value />
+    </option>
     <option name="KOTLIN_LABEL">
       <value />
+    </option>
+    <option name="KOTLIN_MUTABLE_VARIABLE">
+      <value>
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_NAMED_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="fffccc" />
+      </value>
+    </option>
+    <option name="KOTLIN_PACKAGE_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="fffccc" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
     </option>
     <option name="LABEL">
       <value>
@@ -1165,6 +1192,8 @@
         <option name="FOREGROUND" value="c7c8ff" />
       </value>
     </option>
+    <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
+    <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD" />
     <option name="PROTOCOL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="6affb4" />
@@ -1752,14 +1781,9 @@
         <option name="FOREGROUND" value="6affb4" />
       </value>
     </option>
-    <option name="XML_TAG_DATA">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="6ed1ff" />
+        <option name="FOREGROUND" value="6affb4" />
       </value>
     </option>
     <option name="YAML_COMMENT">
