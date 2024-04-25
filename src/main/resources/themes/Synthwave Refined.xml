@@ -1,10 +1,7 @@
 <scheme name="Synthwave" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2023-09-12T17:02:23</property>
-    <property name="ide">PyCharmCore</property>
-    <property name="ideVersion">2022.3.3.0.0</property>
-    <property name="modified">2023-09-12T17:02:28</property>
-    <property name="originalScheme">_@user_Synthwave</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2024.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="f97e72" />
@@ -466,12 +463,6 @@
         <option name="FOREGROUND" value="f8f8f2" />
       </value>
     </option>
-    <option name="CSS.PROPERTY_VALUE">
-      <value>
-        <option name="FOREGROUND" value="68e868" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="CSS.TAG_NAME">
       <value>
         <option name="FOREGROUND" value="72f1b8" />
@@ -582,12 +573,12 @@
     <option name="DEFAULT_BRACKETS" baseAttributes="" />
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="fede5d" />
+        <option name="FOREGROUND" value="e8bf6a" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="fede5d" />
+        <option name="FOREGROUND" value="e8bf6a" />
       </value>
     </option>
     <option name="DEFAULT_COMMA" baseAttributes="" />
@@ -622,36 +613,32 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="36f9f6" />
+        <option name="FOREGROUND" value="72f1b8" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="36f9f6" />
+        <option name="FOREGROUND" value="72f1b8" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="ff7edb" />
+        <option name="FOREGROUND" value="bbbbbb" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="DEFAULT_INSTANCE_METHOD">
-      <value>
-        <option name="FOREGROUND" value="fede5d" />
-      </value>
-    </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="fe4450" />
+        <option name="FOREGROUND" value="e8bf6a" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="fede5d" />
+        <option name="FOREGROUND" value="f97e72" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -701,10 +688,14 @@
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="36f9f6" />
+        <option name="FOREGROUND" value="72f1b8" />
       </value>
     </option>
-    <option name="DEFAULT_STRING" baseAttributes="" />
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="e8bf6a" />
+      </value>
+    </option>
     <option name="DEFAULT_TAG">
       <value>
         <option name="FOREGROUND" value="36f9f6" />
@@ -849,35 +840,13 @@
         <option name="FOREGROUND" value="f97e72" />
       </value>
     </option>
-    <option name="GO_BUILTIN_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="36f9f6" />
-      </value>
-    </option>
-    <option name="GO_BUILTIN_TYPE_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="fe4450" />
-      </value>
-    </option>
-    <option name="GO_BUILTIN_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="ff7edb" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="GO_EXPORTED_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="36f9f6" />
-      </value>
-    </option>
-    <option name="GO_EXPORTED_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="36f9f6" />
-      </value>
-    </option>
+    <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+    <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="fede5d" />
+        <option name="FOREGROUND" value="f97e72" />
       </value>
     </option>
     <option name="GO_LINE_COMMENT">
@@ -891,19 +860,11 @@
         <option name="FOREGROUND" value="f97e72" />
       </value>
     </option>
-    <option name="GO_LOCAL_FUNCTION">
+    <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="36f9f6" />
-      </value>
-    </option>
-    <option name="GO_LOCAL_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="36f9f6" />
-      </value>
-    </option>
-    <option name="GO_METHOD_RECEIVER">
-      <value>
-        <option name="FOREGROUND" value="ff7edb" />
+        <option name="FOREGROUND" value="e8bf6a" />
       </value>
     </option>
     <option name="GO_PACKAGE_EXPORTED_CONSTANT">
@@ -916,11 +877,14 @@
         <option name="FOREGROUND" value="f97e72" />
       </value>
     </option>
-    <option name="GO_TYPE_REFERENCE">
+    <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="GO_STRUCT_EXPORTED_MEMBER">
       <value>
-        <option name="FOREGROUND" value="fe4450" />
+        <option name="FOREGROUND" value="bbbbbb" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="f97e72" />
@@ -984,12 +948,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="HTML_ATTRIBUTE_VALUE">
-      <value>
-        <option name="FOREGROUND" value="ff8b39" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_CODE">
       <value />
     </option>
@@ -999,6 +958,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="HTML_CUSTOM_TAG_NAME" baseAttributes="HTML_TAG_NAME" />
     <option name="HTML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="f97e72" />
@@ -1029,7 +989,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -1113,22 +1073,10 @@
         <option name="FOREGROUND" value="36f9f6" />
       </value>
     </option>
-    <option name="JS.GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="ff7edb" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="JS.INSTANCE_MEMBER_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="36f9f6" />
-      </value>
-    </option>
-    <option name="JS.LOCAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="ff7edb" />
-      </value>
-    </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.PARAMETER">
       <value>
         <option name="FONT_TYPE" value="2" />
@@ -1137,6 +1085,17 @@
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="f97e72" />
+      </value>
+    </option>
+    <option name="JSON.PROPERTY_KEY">
+      <value>
+        <option name="FOREGROUND" value="72f1b8" />
+        <option name="BACKGROUND" value="262335" />
+      </value>
+    </option>
+    <option name="JSON.STRING">
+      <value>
+        <option name="FOREGROUND" value="e8bf6a" />
       </value>
     </option>
     <option name="KOTLIN_LABEL">
@@ -1317,35 +1276,21 @@
         <option name="FOREGROUND" value="ff7edb" />
       </value>
     </option>
+    <option name="PY.ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="e8bf6a" />
+        <option name="BACKGROUND" value="262335" />
+      </value>
+    </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="36f9f6" />
-      </value>
-    </option>
-    <option name="PY.CLASS_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="50fa7b" />
-      </value>
-    </option>
-    <option name="PY.DECORATOR">
-      <value>
-        <option name="FOREGROUND" value="36f9f6" />
+        <option name="FOREGROUND" value="e8bf6a" />
       </value>
     </option>
     <option name="PY.DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="848bbd" />
         <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="PY.FUNC_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="36f9f6" />
-      </value>
-    </option>
-    <option name="PY.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="fede5d" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
@@ -1365,10 +1310,14 @@
         <option name="FOREGROUND" value="fede5d" />
       </value>
     </option>
-    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.PREDEFINED_DEFINITION">
+      <value>
+        <option name="FOREGROUND" value="72f1b8" />
+      </value>
+    </option>
     <option name="PY.PREDEFINED_USAGE">
       <value>
-        <option name="FOREGROUND" value="36f9f6" />
+        <option name="FOREGROUND" value="72f1b8" />
       </value>
     </option>
     <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
@@ -1764,6 +1713,11 @@
         <option name="ERROR_STRIPE_COLOR" value="ff" />
       </value>
     </option>
+    <option name="TS.PRIMITIVE.TYPES">
+      <value>
+        <option name="FOREGROUND" value="f97e72" />
+      </value>
+    </option>
     <option name="TYPEDEF">
       <value>
         <option name="FOREGROUND" value="fede5d" />
@@ -1803,6 +1757,7 @@
         <option name="FOREGROUND" value="ff8b39" />
       </value>
     </option>
+    <option name="XML_CUSTOM_TAG_NAME" baseAttributes="XML_TAG_NAME" />
     <option name="XML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="f97e72" />
@@ -1818,11 +1773,6 @@
         <option name="FOREGROUND" value="36f9f6" />
       </value>
     </option>
-    <option name="XML_TAG_DATA">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="72f1b8" />
@@ -1836,7 +1786,7 @@
     </option>
     <option name="YAML_SCALAR_DSTRING">
       <value>
-        <option name="FOREGROUND" value="ff8b39" />
+        <option name="FOREGROUND" value="e8bf6a" />
       </value>
     </option>
     <option name="YAML_SCALAR_KEY">
@@ -1844,14 +1794,32 @@
         <option name="FOREGROUND" value="72f1b8" />
       </value>
     </option>
+    <option name="YAML_SCALAR_LIST">
+      <value>
+        <option name="FOREGROUND" value="e8bf6a" />
+        <option name="BACKGROUND" value="262335" />
+      </value>
+    </option>
     <option name="YAML_SCALAR_STRING">
       <value>
-        <option name="FOREGROUND" value="ff8b39" />
+        <option name="FOREGROUND" value="e8bf6a" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_VALUE">
+      <value>
+        <option name="FOREGROUND" value="e8bf6a" />
+        <option name="BACKGROUND" value="262335" />
       </value>
     </option>
     <option name="YAML_SIGN">
       <value>
         <option name="FOREGROUND" value="fede5d" />
+      </value>
+    </option>
+    <option name="YAML_TEXT">
+      <value>
+        <option name="FOREGROUND" value="e8bf6a" />
+        <option name="BACKGROUND" value="262335" />
       </value>
     </option>
   </attributes>
