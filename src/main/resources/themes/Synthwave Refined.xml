@@ -584,7 +584,7 @@
     <option name="DEFAULT_COMMA" baseAttributes="" />
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="fede5d" />
+        <option name="FOREGROUND" value="72f1b8" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -666,7 +666,7 @@
     <option name="DEFAULT_PARENTHS" baseAttributes="" />
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="50fa7b" />
+        <option name="FOREGROUND" value="72f1b8" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
