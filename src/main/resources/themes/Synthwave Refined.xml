@@ -1,6 +1,6 @@
 <scheme name="Synthwave" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">GoLand</property>
+    <property name="ide">Idea</property>
     <property name="ideVersion">2024.1.0.0</property>
   </metaInfo>
   <colors>
@@ -1042,11 +1042,6 @@
         <option name="BACKGROUND" value="481515" />
       </value>
     </option>
-    <option name="JAVA_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="fede5d" />
-      </value>
-    </option>
     <option name="JAVA_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="848bbd" />
@@ -1061,11 +1056,6 @@
     <option name="JAVA_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="fede5d" />
-      </value>
-    </option>
-    <option name="JAVA_STRING">
-      <value>
-        <option name="FOREGROUND" value="68e868" />
       </value>
     </option>
     <option name="JAVA_VALID_STRING_ESCAPE">
@@ -1749,12 +1739,7 @@
     </option>
     <option name="XML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="fede5d" />
-      </value>
-    </option>
-    <option name="XML_ATTRIBUTE_VALUE">
-      <value>
-        <option name="FOREGROUND" value="ff8b39" />
+        <option name="FOREGROUND" value="f97e72" />
       </value>
     </option>
     <option name="XML_CUSTOM_TAG_NAME" baseAttributes="XML_TAG_NAME" />
