@@ -1205,6 +1205,7 @@
         <option name="FOREGROUND" value="ff7edb" />
       </value>
     </option>
+    <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD" />
     <option name="PROTOCOL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="50fa7b" />
