@@ -48,8 +48,6 @@
         <themeProvider id="com.github.shubham076.gruvbox" path="/themes/gruvbox.theme.json"/>
         <themeProvider id="com.github.shubham076.gruvboxGithub" path="/themes/gruvboxGithub.theme.json"/>
         <themeProvider id="com.github.shubham076.gruvboxMaterial" path="/themes/gruvboxMaterial.theme.json"/>
-        <themeProvider id="com.github.shubham076.red" path="/themes/red.theme.json"/>
-        <themeProvider id="com.github.shubham076.red2" path="/themes/red2.theme.json"/>
         <themeProvider id="com.github.shubham076.talosDark" path="/themes/talosDark.theme.json"/>
         <themeProvider id="com.github.shubham076.NoctisUvaWinter" path="/themes/NoctisUvaWinter.theme.json"/>
         <themeProvider id="com.github.shubham076.ChillHop" path="/themes/Chillhop.theme.json" />
