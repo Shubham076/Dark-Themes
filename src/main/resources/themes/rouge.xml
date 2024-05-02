@@ -5,15 +5,15 @@
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="172030" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="172030" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="172030" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1d283b" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="1d283b" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="1d283b" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="172030" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="1d283b" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="CARET_COLOR" value="c6797e" />
     <option name="CARET_ROW_COLOR" value="1e2b38" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="172030" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="1d283b" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="73bd79" />
     <option name="FILESTATUS_DELETED" value="f77669" />
@@ -35,7 +35,7 @@
     <option name="FILESTATUS_addedOutside" value="73bd79" />
     <option name="FILESTATUS_changelistConflict" value="de6a66" />
     <option name="FILESTATUS_modifiedOutside" value="70aeff" />
-    <option name="GUTTER_BACKGROUND" value="172030" />
+    <option name="GUTTER_BACKGROUND" value="1d283b" />
     <option name="INDENT_GUIDE" value="293a44" />
     <option name="LINE_NUMBERS_COLOR" value="bbbbbb" />
     <option name="SELECTED_INDENT_GUIDE" value="293a44" />
@@ -1449,7 +1449,7 @@
     <option name="PY.ANNOTATION">
       <value>
         <option name="FOREGROUND" value="f7e3af" />
-        <option name="BACKGROUND" value="172030" />
+        <option name="BACKGROUND" value="1d283b" />
       </value>
     </option>
     <option name="PY.BRACES">
@@ -1963,7 +1963,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="adb9a4" />
-        <option name="BACKGROUND" value="172030" />
+        <option name="BACKGROUND" value="1d283b" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
