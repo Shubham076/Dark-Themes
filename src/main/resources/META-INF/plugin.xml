@@ -24,7 +24,6 @@
         <themeProvider id="com.github.shubham076.cobalt2" path="/themes/cobalt2.theme.json"/>
         <themeProvider id="com.github.shubham076.cityPop" path="/themes/cityPop.theme.json"/>
         <themeProvider id="com.github.shubham076.inBedBy7" path="/themes/inBedBy7.theme.json"/>
-        <themeProvider id="com.github.shubham076.hackTheBox" path="/themes/hackTheBox.theme.json"/>
         <themeProvider id="com.github.shubham076.mayukaiMono" path="/themes/mayukaiMono.theme.json"/>
         <themeProvider id="com.github.shubham076.mayukaiMirage" path="/themes/mayukaiMirage.theme.json"/>
         <themeProvider id="com.github.shubham076.mayukaiReversal" path="/themes/mayukaiReversal.theme.json"/>
