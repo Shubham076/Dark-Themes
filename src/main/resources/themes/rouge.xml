@@ -53,6 +53,7 @@
         <option name="FOREGROUND" value="bbbbbb" />
       </value>
     </option>
+    <option name="BASH.EXTERNAL_COMMAND" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="BLOCK_TERMINAL_BLACK">
       <value>
         <option name="FOREGROUND" value="0" />
