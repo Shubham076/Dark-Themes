@@ -945,8 +945,7 @@
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="d3eed6" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="7fdbca" />
       </value>
     </option>
     <option name="HTML_CODE">
@@ -957,6 +956,7 @@
         <option name="FOREGROUND" value="999999" />
       </value>
     </option>
+    <option name="HTML_CUSTOM_TAG_NAME" baseAttributes="HTML_TAG_NAME" />
     <option name="HTML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="82aaff" />
@@ -970,7 +970,7 @@
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="6dbdfa" />
+        <option name="FOREGROUND" value="7fdbca" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -987,7 +987,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_TYPE" value="2" />
@@ -1061,29 +1061,14 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JAVA_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="bff9" />
-      </value>
-    </option>
     <option name="JAVA_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="999999" />
       </value>
     </option>
-    <option name="JAVA_NUMBER">
-      <value>
-        <option name="FOREGROUND" value="8dec95" />
-      </value>
-    </option>
     <option name="JAVA_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="bff9" />
-      </value>
-    </option>
-    <option name="JAVA_STRING">
-      <value>
-        <option name="FOREGROUND" value="d3eed6" />
       </value>
     </option>
     <option name="JAVA_VALID_STRING_ESCAPE">
@@ -1259,6 +1244,7 @@
         <option name="FOREGROUND" value="a4ceee" />
       </value>
     </option>
+    <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD" />
     <option name="PROTOCOL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="f7ecb5" />
@@ -1766,7 +1752,7 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="f7ecb5" />
@@ -1845,7 +1831,7 @@
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="6dbdfa" />
+        <option name="FOREGROUND" value="7fdbca" />
       </value>
     </option>
     <option name="YAML_COMMENT">
