@@ -1351,6 +1351,11 @@
         <option name="FOREGROUND" value="c6878f" />
       </value>
     </option>
+    <option name="PROPERTIES.KEY">
+      <value>
+        <option name="FOREGROUND" value="eabe9a" />
+      </value>
+    </option>
     <option name="PROTOCOL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="db6e8f" />
