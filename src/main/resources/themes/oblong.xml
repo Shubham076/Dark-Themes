@@ -6,6 +6,13 @@
     <property name="modified">2023-11-02T21:39:34</property>
   </metaInfo>
   <colors>
+    <option name="ANNOTATIONS_COLOR" value="0" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="3744" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="3744" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="3744" />
+    <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="3744" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="CARET_COLOR" value="b9b9b9" />
     <option name="CARET_ROW_COLOR" value="002933" />
     <option name="CONSOLE_BACKGROUND_KEY" value="003744" />
@@ -26,6 +33,7 @@
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
     <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+    <option name="FILESTATUS_RENAMED" value="70aeff" />
     <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
     <option name="FILESTATUS_SWITCHED" value="f77669" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
@@ -38,23 +46,19 @@
     <option name="MT_FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
     <option name="SELECTED_INDENT_GUIDE" value="525252" />
     <option name="SELECTION_BACKGROUND" value="5d74" />
-    <option name="WHITESPACES" value="525252" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="5ca4a9" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
-    <option name="ANNOTATIONS_COLOR" value="0" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="003744" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="003744" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="003744" />
-    <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="003744" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
+    <option name="WHITESPACES" value="525252" />
   </colors>
   <attributes>
+    <option name="BAD_CHARACTER">
+      <value>
+        <option name="FOREGROUND" value="fff1ce" />
+      </value>
+    </option>
     <option name="BLOCK_TERMINAL_BLACK">
       <value>
         <option name="FOREGROUND" value="0" />
@@ -145,11 +149,6 @@
         <option name="FOREGROUND" value="f1bf4a" />
       </value>
     </option>
-    <option name="BAD_CHARACTER">
-      <value>
-        <option name="FOREGROUND" value="fff1ce" />
-      </value>
-    </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="743d3d" />
@@ -163,24 +162,6 @@
     <option name="BUILDOUT.KEY_VALUE_SEPARATOR">
       <value>
         <option name="FOREGROUND" value="b9b9b9" />
-      </value>
-    </option>
-    <option name="INLINE_PARAMETER_HINT">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="0089aa" />
-      </value>
-    </option>
-    <option name="INLINE_PARAMETER_HINT_CURRENT">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="0089aa" />
-      </value>
-    </option>
-    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="0089aa" />
       </value>
     </option>
     <option name="BUILDOUT.LINE_COMMENT">
@@ -639,7 +620,11 @@
       </value>
     </option>
     <option name="DEFAULT_COMMA" baseAttributes="" />
-    <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="d1f1a9" />
+      </value>
+    </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="525252" />
@@ -709,7 +694,7 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="b9b9b9" />
+        <option name="FOREGROUND" value="fbee9f" />
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
@@ -734,7 +719,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="868686" />
+        <option name="FOREGROUND" value="fbee9f" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -996,6 +981,24 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="273627" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="89aa" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="89aa" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="89aa" />
       </value>
     </option>
     <option name="IVAR">
@@ -1297,11 +1300,6 @@
         <option name="FOREGROUND" value="d1f1a9" />
       </value>
     </option>
-    <option name="PY.DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="525252" />
-      </value>
-    </option>
     <option name="PY.INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="fff1ce" />
@@ -1313,11 +1311,6 @@
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
-    <option name="PY.NUMBER">
-      <value>
-        <option name="FOREGROUND" value="999999" />
-      </value>
-    </option>
     <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
@@ -1327,11 +1320,6 @@
       </value>
     </option>
     <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
-    <option name="PY.VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="868686" />
-      </value>
-    </option>
     <option name="REST.EXPLICIT">
       <value>
         <option name="FOREGROUND" value="747474" />
