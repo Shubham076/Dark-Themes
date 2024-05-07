@@ -1212,6 +1212,27 @@
         <option name="FOREGROUND" value="a3b09a" />
       </value>
     </option>
+    <option name="JSON.INVALID_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="eabe9a" />
+      </value>
+    </option>
+    <option name="JSON.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="eabe9a" />
+      </value>
+    </option>
+    <option name="JSON.PROPERTY_KEY">
+      <value>
+        <option name="FOREGROUND" value="9dd2bb" />
+        <option name="BACKGROUND" value="1d283b" />
+      </value>
+    </option>
+    <option name="JSON.STRING">
+      <value>
+        <option name="FOREGROUND" value="eabe9a" />
+      </value>
+    </option>
     <option name="KOTLIN_LABEL">
       <value />
     </option>
