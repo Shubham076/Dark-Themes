@@ -1366,21 +1366,9 @@
             <option name="FONT_TYPE" value="2" />
         </value>
     </option>
-    <option name="PY.FUNC_DEFINITION">
-        <value>
-            <option name="FOREGROUND" value="f48fb1" />
-            <option name="FONT_TYPE" value="2" />
-        </value>
-    </option>
     <option name="PY.INVALID_STRING_ESCAPE">
         <value>
             <option name="FOREGROUND" value="f02e6e" />
-        </value>
-    </option>
-    <option name="PY.KEYWORD">
-        <value>
-            <option name="FOREGROUND" value="d4bfff" />
-            <option name="FONT_TYPE" value="2" />
         </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
