@@ -6,7 +6,7 @@
   "ui": {
     "*": {
       "background": "#222436",
-      "foreground": "#c8d3f5",
+      "foreground": "#E4F3FA",
       "highlight": "#425b67ff",
       "selectionBackground": "#424865",
       "selectionInactiveBackground": "#424865",

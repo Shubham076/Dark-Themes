@@ -21,7 +21,7 @@
         <option name="ActionButton.pressedBackground" value="6c6f9380" />
         <option name="CARET_COLOR" value="fab795" />
         <option name="CARET_ROW_COLOR" value="2a2e48" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="212337" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="272a42" />
         <option name="DELETED_LINES_COLOR" value="d94652" />
         <option name="DOCUMENTATION_COLOR" value="232530" />
         <option name="DOC_COMMENT_GUIDE" value="444a73" />
@@ -51,10 +51,10 @@
         <option name="FILESTATUS_addedOutside" value="ffcb6b" />
         <option name="FILESTATUS_changelistConflict" value="fc9867" />
         <option name="FILESTATUS_modifiedOutside" value="c792ea" />
-        <option name="GUTTER_BACKGROUND" value="212337" />
+        <option name="GUTTER_BACKGROUND" value="272a42" />
         <option name="INDENT_GUIDE" value="2e303e" />
         <option name="INFORMATION_HINT" value="232530" />
-        <option name="LINE_NUMBERS_COLOR" value="373d48" />
+        <option name="LINE_NUMBERS_COLOR" value="e4f3fa" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="616c7f" />
         <option name="LOOKUP_COLOR" value="2e303e" />
         <option name="METHOD_SEPARATORS_COLOR" value="" />
@@ -76,10 +76,10 @@
         <option name="ScrollBar.Mac.Transparent.trackColor" value="23253010" />
         <option name="ScrollBar.Mac.hoverThumbBorderColor" value="6c6f931a" />
         <option name="ScrollBar.Mac.hoverThumbColor" value="6c6f9330" />
-        <option name="ScrollBar.Mac.hoverTrackColor" value="212337" />
+        <option name="ScrollBar.Mac.hoverTrackColor" value="272a42" />
         <option name="ScrollBar.Mac.thumbBorderColor" value="6c6f9310" />
         <option name="ScrollBar.Mac.thumbColor" value="6c6f9325" />
-        <option name="ScrollBar.Mac.trackColor" value="212337" />
+        <option name="ScrollBar.Mac.trackColor" value="272a42" />
         <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="6c6f931a" />
         <option name="ScrollBar.Transparent.hoverThumbColor" value="6c6f9330" />
         <option name="ScrollBar.Transparent.hoverTrackColor" value="23253010" />
@@ -91,7 +91,7 @@
         <option name="ScrollBar.thumbBorderColor" value="6c6f9310" />
         <option name="ScrollBar.thumbColor" value="6c6f9325" />
         <option name="TAB_UNDERLINE" value="74a0f1" />
-        <option name="TAB_UNDERLINE_INACTIVE" value="212337" />
+        <option name="TAB_UNDERLINE_INACTIVE" value="272a42" />
         <option name="TEARLINE_COLOR" value="2e303e" />
         <option name="TOOLTIP" value="232530" />
         <option name="VCS_ANNOTATIONS_COLOR_1" value="bd93f9" />
@@ -3504,7 +3504,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="e4f3fa" />
-                <option name="BACKGROUND" value="212337" />
+                <option name="BACKGROUND" value="272a42" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
