@@ -2,7 +2,7 @@
   "author": "Shubham",
   "dark": true,
   "name": "Night-Owl",
-  "editorScheme": "/themes/nightOwl.xml",
+  "editorScheme": "/themes/nightowl.xml",
   "ui": {
     "*": {
       "background": "#011f38",

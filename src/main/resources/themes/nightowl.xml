@@ -1,4 +1,4 @@
-<scheme name="Night Owl (Material)" version="142" parent_scheme="Darcula">
+<scheme name="Night Owl" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="ide">GoLand</property>
         <property name="ideVersion">2024.1.1.0.0</property>
