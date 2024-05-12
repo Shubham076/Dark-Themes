@@ -1,0 +1,56 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Night Owl",
+  "editorScheme": "/themes/nightOwl.xml",
+  "ui": {
+    "*": {
+      "background": "#011f38",
+      "foreground": "#D6DEEB",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#4373C2",
+      "selectionInactiveBackground": "#4373C2",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#4373C2"
+    },
+    "DefaultTabs": {
+      "background": "#011f38",
+      "borderColor": "#011f38"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#011f38"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#011f38"
+      }
+    },
+    "Plugins": {
+      "Button": {
+        "installBackground": "#26324fff",
+        "updateBackground": "#26324fff",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "Popup": {
+      "Header.activeBackground": "#011f38"
+    },
+    "TabbedPane": {
+      "hoverColor": "#011f38"
+    },
+    "Button": {
+      "focus": "#011f38"
+    }
+  }
+}
