@@ -1,0 +1,56 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Moonlight",
+  "editorScheme": "/themes/moonlight.xml",
+  "ui": {
+    "*": {
+      "background": "#222436",
+      "foreground": "#c8d3f5",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#424865",
+      "selectionInactiveBackground": "#424865",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#424865"
+    },
+    "DefaultTabs": {
+      "background": "#222436",
+      "borderColor": "#222436"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#222436"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#222436"
+      }
+    },
+    "Plugins": {
+      "Button": {
+        "installBackground": "#26324fff",
+        "updateBackground": "#26324fff",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "Popup": {
+      "Header.activeBackground": "#222436"
+    },
+    "TabbedPane": {
+      "hoverColor": "#222436"
+    },
+    "Button": {
+      "focus": "#222436"
+    }
+  }
+}

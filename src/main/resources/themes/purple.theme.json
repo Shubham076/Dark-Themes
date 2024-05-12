@@ -8,8 +8,8 @@
       "background": "#292D3E",
       "foreground": "#fcefff",
       "highlight": "#425b67ff",
-      "selectionBackground": "#705873",
-      "selectionInactiveBackground": "#705873",
+      "selectionBackground": "#232235",
+      "selectionInactiveBackground": "#232235",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
       "secondaryBackground": "#32424aff",
@@ -19,7 +19,7 @@
       "secondBorder": "#707a8cb3",
       "notifications": "#323232ff",
       "accent": "#009688ff",
-      "excluded": "#705873"
+      "excluded": "#232235"
     },
     "DefaultTabs": {
       "background": "#292D3E",
