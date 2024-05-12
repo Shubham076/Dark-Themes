@@ -9,9 +9,9 @@
         <option name="ActionButton.hoverBackground" value="84d8150" />
         <option name="ActionButton.iconTextForeground" value="5f7e97" />
         <option name="ActionButton.pressedBackground" value="84d81" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="022948" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="022948" />
-        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="022948" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="22948" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="22948" />
+        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="22948" />
         <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="d6deeb" />
         <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="ef5350" />
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="122d42" />
@@ -27,8 +27,8 @@
         <option name="BookmarkMnemonicIcon.borderColor" value="4373c2" />
         <option name="BookmarkMnemonicIcon.foreground" value="ffffff" />
         <option name="CARET_COLOR" value="7e57c2" />
-        <option name="CARET_ROW_COLOR" value="232235" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="022948" />
+        <option name="CARET_ROW_COLOR" value="73b42" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="22948" />
         <option name="DELETED_LINES_COLOR" value="ef5350" />
         <option name="DIAGRAM_ANNOTATION_EDGE" value="c792ea" />
         <option name="DIAGRAM_COARSE_GRID" value="32374d" />
@@ -37,11 +37,11 @@
         <option name="DIAGRAM_GENERALIZATION_EDGE" value="addb67" />
         <option name="DIAGRAM_HOT_SPOTS" value="e2b93d" />
         <option name="DIAGRAM_INNER_EDGE" value="82aaff" />
-        <option name="DIAGRAM_NODE_BACKGROUND" value="022948" />
+        <option name="DIAGRAM_NODE_BACKGROUND" value="22948" />
         <option name="DIAGRAM_NODE_BORDER" value="84d81" />
         <option name="DIAGRAM_NODE_HEADER" value="b2942" />
         <option name="DIAGRAM_NODE_SLOPPY_BACKGROUND" value="84d81" />
-        <option name="DIAGRAM_NOTE_BACKGROUND" value="022948" />
+        <option name="DIAGRAM_NOTE_BACKGROUND" value="22948" />
         <option name="DIAGRAM_NOTE_BORDER" value="d6deeb" />
         <option name="DIAGRAM_NOTE_SLOPPY_BACKGROUND" value="84d81" />
         <option name="DIAGRAM_REALIZATION_EDGE" value="f78c6c" />
@@ -75,10 +75,10 @@
         <option name="FILESTATUS_changelistConflict" value="f78c6c" />
         <option name="FILESTATUS_modifiedOutside" value="82aaff" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="122d42" />
-        <option name="GUTTER_BACKGROUND" value="022948" />
+        <option name="GUTTER_BACKGROUND" value="22948" />
         <option name="INDENT_GUIDE" value="84d81" />
-        <option name="INFORMATION_HINT" value="022948" />
-        <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="022948" />
+        <option name="INFORMATION_HINT" value="22948" />
+        <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="22948" />
         <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="4373c2" />
         <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="1d3b53" />
         <option name="JUPYTER.CELL_UNDER_CARET_COMMAND_MODE_STRIPE_COLOR" value="7e57c2" />
@@ -91,7 +91,7 @@
         <option name="JUPYTER.SAUSAGE_BUTTON_SHORTCUT_COLOR" value="5f7e97" />
         <option name="LINE_NUMBERS_COLOR" value="4b6479" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="c5e4fd" />
-        <option name="LOOKUP_COLOR" value="022948" />
+        <option name="LOOKUP_COLOR" value="22948" />
         <option name="METHOD_SEPARATORS_COLOR" value="84d81" />
         <option name="MODIFIED_LINES_COLOR" value="e2b93d" />
         <option name="MODIFIED_TAB_ICON" value="7e57c2" />
@@ -128,38 +128,37 @@
         <option name="NOTIFICATION_BACKGROUND" value="1111d" />
         <option name="NOT_CHANGED" value="d6deeb" />
         <option name="PROMOTION_PANE" value="1d3b53" />
-        <option name="QUESTION_HINT" value="022948" />
+        <option name="QUESTION_HINT" value="22948" />
         <option name="RECENT_LOCATIONS_SELECTION" value="1d3b53" />
         <option name="RIGHT_MARGIN_COLOR" value="84d81" />
         <option name="SELECTED_INDENT_GUIDE" value="7e97ac" />
         <option name="SELECTED_TEARLINE_COLOR" value="7e97ac" />
-        <option name="SELECTION_BACKGROUND" value="4373c2" />
-        <option name="SELECTION_FOREGROUND" value="ffffff" />
+        <option name="SELECTION_BACKGROUND" value="b4263" />
         <option name="SEPARATOR_BELOW_COLOR" value="122d42" />
         <option name="SOFT_WRAP_SIGN_COLOR" value="122d42" />
         <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="7e57c2c0" />
-        <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="022948" />
+        <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="22948" />
         <option name="ScrollBar.Mac.Transparent.thumbColor" value="7e57c280" />
-        <option name="ScrollBar.Mac.Transparent.trackColor" value="022948" />
+        <option name="ScrollBar.Mac.Transparent.trackColor" value="22948" />
         <option name="ScrollBar.Mac.hoverThumbColor" value="7e57c2" />
-        <option name="ScrollBar.Mac.hoverTrackColor" value="022948" />
+        <option name="ScrollBar.Mac.hoverTrackColor" value="22948" />
         <option name="ScrollBar.Mac.thumbColor" value="7e57c2c0" />
-        <option name="ScrollBar.Mac.trackColor" value="022948" />
+        <option name="ScrollBar.Mac.trackColor" value="22948" />
         <option name="ScrollBar.Transparent.hoverThumbColor" value="7e57c2c0" />
-        <option name="ScrollBar.Transparent.hoverTrackColor" value="022948" />
+        <option name="ScrollBar.Transparent.hoverTrackColor" value="22948" />
         <option name="ScrollBar.Transparent.thumbColor" value="7e57c280" />
-        <option name="ScrollBar.Transparent.trackColor" value="022948" />
+        <option name="ScrollBar.Transparent.trackColor" value="22948" />
         <option name="ScrollBar.hoverThumbColor" value="7e57c2" />
-        <option name="ScrollBar.hoverTrackColor" value="022948" />
+        <option name="ScrollBar.hoverTrackColor" value="22948" />
         <option name="ScrollBar.thumbColor" value="7e57c2c0" />
-        <option name="ScrollBar.trackColor" value="022948" />
+        <option name="ScrollBar.trackColor" value="22948" />
         <option name="Scrollbar.Tabs.HoveredThumbColor" value="7e57c2" />
         <option name="Scrollbar.Tabs.ThumbColor" value="7e57c2c0" />
         <option name="Scrollbar.Tabs.TransparentThumbColor" value="7e57c280" />
         <option name="TAB_UNDERLINE" value="7e57c2" />
         <option name="TAB_UNDERLINE_INACTIVE" value="7e57c2c0" />
         <option name="TEARLINE_COLOR" value="444267" />
-        <option name="TOOLTIP" value="022948" />
+        <option name="TOOLTIP" value="22948" />
         <option name="VCS_ANNOTATIONS_COLOR_1" value="637777" />
         <option name="VCS_ANNOTATIONS_COLOR_2" value="2e3c43" />
         <option name="VCS_ANNOTATIONS_COLOR_3" value="37474f" />
@@ -290,7 +289,7 @@
         <option name="BREADCRUMBS_DEFAULT">
             <value>
                 <option name="FOREGROUND" value="d6deeb" />
-                <option name="BACKGROUND" value="022948" />
+                <option name="BACKGROUND" value="22948" />
             </value>
         </option>
         <option name="BREADCRUMBS_HOVERED">
@@ -302,7 +301,7 @@
         <option name="BREADCRUMBS_INACTIVE">
             <value>
                 <option name="FOREGROUND" value="5f7e97" />
-                <option name="BACKGROUND" value="022948" />
+                <option name="BACKGROUND" value="22948" />
             </value>
         </option>
         <option name="BREAKPOINT_ATTRIBUTES">
@@ -391,7 +390,7 @@
         </option>
         <option name="CONSOLE_OUTPUT">
             <value>
-                <option name="BACKGROUND" value="022948" />
+                <option name="BACKGROUND" value="22948" />
             </value>
         </option>
         <option name="CONSOLE_RANGE_TO_EXECUTE">
@@ -2172,9 +2171,14 @@
                 <option name="FOREGROUND" value="219598" />
             </value>
         </option>
-        <option name="PY.DECORATOR">
+        <option name="PY.ANNOTATION">
             <value>
-                <option name="FOREGROUND" value="82aaff" />
+                <option name="FOREGROUND" value="c5e478" />
+            </value>
+        </option>
+        <option name="PY.BUILTIN_NAME">
+            <value>
+                <option name="FOREGROUND" value="c5e478" />
             </value>
         </option>
         <option name="PY.IMPORT">
@@ -2183,45 +2187,20 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="PY.KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
-        <option name="PY.KEYWORD_ARGUMENT">
-            <value>
-                <option name="FOREGROUND" value="d6deeb" />
-            </value>
-        </option>
+        <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.NONE">
             <value>
                 <option name="FOREGROUND" value="ff5874" />
             </value>
         </option>
-        <option name="PY.PREDEFINED_DEFINITION">
-            <value>
-                <option name="FOREGROUND" value="82aaff" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
-        <option name="PY.PREDEFINED_USAGE">
-            <value>
-                <option name="FOREGROUND" value="82aaff" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
+        <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+        <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
         <option name="PY.PRINT">
             <value>
                 <option name="FOREGROUND" value="addb67" />
             </value>
         </option>
-        <option name="PY.SELF_PARAMETER">
-            <value>
-                <option name="FOREGROUND" value="ef5350" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
+        <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.STRING">
             <value>
                 <option name="FOREGROUND" value="ecc48d" />
@@ -2407,7 +2386,7 @@
         <option name="RUBY_HEREDOC_CONTENT">
             <value>
                 <option name="FOREGROUND" value="d6deeb" />
-                <option name="BACKGROUND" value="022948" />
+                <option name="BACKGROUND" value="22948" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
@@ -2498,7 +2477,7 @@
         </option>
         <option name="RUBY_REGEXP">
             <value>
-                <option name="BACKGROUND" value="022948" />
+                <option name="BACKGROUND" value="22948" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
@@ -2693,7 +2672,7 @@
         </option>
         <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK">
             <value>
-                <option name="BACKGROUND" value="022948" />
+                <option name="BACKGROUND" value="22948" />
             </value>
         </option>
         <option name="ReSharper.ASP_NET_RAZOR_COMMENT">
