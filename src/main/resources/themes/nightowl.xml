@@ -1,12 +1,12 @@
 <scheme name="Night Owl" version="142" parent_scheme="Darcula">
     <metaInfo>
-        <property name="ide">GoLand</property>
-        <property name="ideVersion">2024.1.1.0.0</property>
+        <property name="ide">Idea</property>
+        <property name="ideVersion">2024.1.0.0</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="9ccc65" />
         <option name="ANNOTATIONS_COLOR" value="fffbf7" />
-        <option name="ActionButton.hoverBackground" value="84d8150" />
+        <option name="ActionButton.hoverBackground" value="4d8150" />
         <option name="ActionButton.iconTextForeground" value="5f7e97" />
         <option name="ActionButton.pressedBackground" value="84d81" />
         <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="22948" />
@@ -635,12 +635,12 @@
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="7fdbca" />
+                <option name="FOREGROUND" value="ecc48d" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="7fdbca" />
+                <option name="FOREGROUND" value="ecc48d" />
             </value>
         </option>
         <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -683,7 +683,7 @@
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="c792ea" />
+                <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
         <option name="DEFAULT_LABEL">
@@ -910,35 +910,15 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="GO_BUILTIN_CONSTANT">
-            <value>
-                <option name="FOREGROUND" value="f78c6c" />
-            </value>
-        </option>
+        <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
         <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="GO_BUILTIN_TYPE_REFERENCE">
             <value>
                 <option name="FOREGROUND" value="c5e478" />
             </value>
         </option>
-        <option name="GO_BUILTIN_VARIABLE">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
+        <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
         <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-        <option name="GO_FUNCTION_PARAMETER">
-            <value>
-                <option name="FOREGROUND" value="d9f5dd" />
-            </value>
-        </option>
-        <option name="GO_KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
         <option name="GO_LINE_COMMENT">
             <value>
                 <option name="FOREGROUND" value="637777" />
@@ -951,11 +931,7 @@
             </value>
         </option>
         <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-        <option name="GO_METHOD_RECEIVER">
-            <value>
-                <option name="FOREGROUND" value="d9f5dd" />
-            </value>
-        </option>
+        <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="GO_PACKAGE">
             <value>
                 <option name="FOREGROUND" value="c5e478" />
@@ -966,6 +942,7 @@
                 <option name="FOREGROUND" value="dedeeb" />
             </value>
         </option>
+        <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="GO_STRUCT_EXPORTED_MEMBER">
             <value>
                 <option name="FOREGROUND" value="dedeeb" />
@@ -1196,11 +1173,7 @@
                 <option name="FOREGROUND" value="d6deeb" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="ffcb8b" />
-            </value>
-        </option>
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="EFFECT_COLOR" value="808080" />
@@ -1276,71 +1249,6 @@
                 <option name="FOREGROUND" value="9373a5" />
             </value>
         </option>
-        <option name="JAVA.ABSTRACT">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="JAVA.ASSERT">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="JAVA.CLASS">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="JAVA.ENUM">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="JAVA.FINAL">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="JAVA.IF_ELSE">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="JAVA.INSTANCEOF">
-            <value>
-                <option name="FOREGROUND" value="7fdbca" />
-            </value>
-        </option>
-        <option name="JAVA.LOOP">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="JAVA.MODIFIER">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="JAVA.MODULE">
-            <value>
-                <option name="FOREGROUND" value="f9ee98" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="JAVA.NEW">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
         <option name="JAVA.NULL">
             <value>
                 <option name="FOREGROUND" value="82aaff" />
@@ -1351,45 +1259,9 @@
                 <option name="FOREGROUND" value="82aaff" />
             </value>
         </option>
-        <option name="JAVA.RETURN">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="JAVA.STATIC_FINAL">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="JAVA.SWITCH">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="JAVA.SYNC">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
         <option name="JAVA.THIS_SUPER">
             <value>
-                <option name="FOREGROUND" value="7fdbca" />
-            </value>
-        </option>
-        <option name="JAVA.THROW">
-            <value>
                 <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="JAVA.TRY_CATCH">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="JFLEX_MACROS_REF">
@@ -1430,7 +1302,6 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="JS.GLOBAL_VARIABLE">
             <value>
                 <option name="FOREGROUND" value="addb67" />
@@ -1442,8 +1313,6 @@
                 <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
-        <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
-        <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="JS.MODULE_KEYWORD">
             <value>
                 <option name="FOREGROUND" value="c792ea" />
@@ -1476,7 +1345,6 @@
                 <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
-        <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
         <option name="JS.THIS_SUPER">
             <value>
                 <option name="FOREGROUND" value="7fdbca" />
@@ -2951,7 +2819,7 @@
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
-        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
         <option name="SUGGESTION">
             <value>
                 <option name="EFFECT_COLOR" value="637777" />
@@ -3193,11 +3061,6 @@
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
-        <option name="com.plan9.IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
-        <option name="com.plan9.INSTRUCTION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-        <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
-        <option name="com.plan9.PSEUDO_INSTRUCTION" baseAttributes="com.plan9.INSTRUCTION" />
-        <option name="com.plan9.REGISTER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="org.rust.UNSAFE_CODE">
             <value />
         </option>
