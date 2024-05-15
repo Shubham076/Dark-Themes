@@ -199,8 +199,8 @@
                 <option name="FOREGROUND" value="c792ea" />
             </value>
         </option>
-        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
         <option name="APACHE_CONFIG.ARG_LEXEM">
             <value>
                 <option name="FOREGROUND" value="addb67" />
@@ -608,7 +608,6 @@
         <option name="DEFAULT_DOC_COMMENT_TAG">
             <value>
                 <option name="FOREGROUND" value="7fdbca" />
-                <option name="FONT_TYPE" value="3" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -625,7 +624,7 @@
         </option>
         <option name="DEFAULT_DOT">
             <value>
-                <option name="FOREGROUND" value="c792ea" />
+                <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
         <option name="DEFAULT_ENTITY">
@@ -648,12 +647,7 @@
                 <option name="FOREGROUND" value="addb67" />
             </value>
         </option>
-        <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
-            <value>
-                <option name="BACKGROUND" value="122d42" />
-                <option name="ERROR_STRIPE_COLOR" value="4d6168" />
-            </value>
-        </option>
+        <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
         <option name="DEFAULT_IDENTIFIER">
             <value>
                 <option name="FOREGROUND" value="d6deeb" />
@@ -666,7 +660,7 @@
         </option>
         <option name="DEFAULT_INSTANCE_METHOD">
             <value>
-                <option name="FOREGROUND" value="82aaff" />
+                <option name="FOREGROUND" value="ecc48d" />
             </value>
         </option>
         <option name="DEFAULT_INTERFACE_NAME">
@@ -677,7 +671,7 @@
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="EFFECT_COLOR" value="ef5350" />
+                <option name="EFFECT_COLOR" value="ecc48d" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -719,7 +713,7 @@
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
-                <option name="FOREGROUND" value="82aaff" />
+                <option name="FOREGROUND" value="c5e478" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -744,7 +738,7 @@
         </option>
         <option name="DEFAULT_STATIC_METHOD">
             <value>
-                <option name="FOREGROUND" value="82aaff" />
+                <option name="FOREGROUND" value="ecc48d" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -1176,7 +1170,7 @@
         <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="808080" />
+                <option name="FOREGROUND" value="ecc48d" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -1259,21 +1253,10 @@
                 <option name="FOREGROUND" value="1a1f29" />
             </value>
         </option>
-        <option name="JS.ASYNC_AWAIT">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
         <option name="JS.CONSOLE">
             <value>
                 <option name="FOREGROUND" value="7fdbca" />
                 <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
-        <option name="JS.CONSTRUCTOR">
-            <value>
-                <option name="FOREGROUND" value="82aaff" />
             </value>
         </option>
         <option name="JS.DEBUGGER_STMT">
@@ -1281,17 +1264,7 @@
                 <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
-        <option name="JS.DECORATOR">
-            <value>
-                <option name="FOREGROUND" value="82aaff" />
-            </value>
-        </option>
-        <option name="JS.GET_SET">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
+        <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="JS.GLOBAL_VARIABLE">
             <value>
                 <option name="FOREGROUND" value="addb67" />
@@ -1303,12 +1276,8 @@
                 <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
-        <option name="JS.MODULE_KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
+        <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+        <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="JS.MODULE_NAME">
             <value>
                 <option name="FOREGROUND" value="fad430" />
@@ -1335,20 +1304,20 @@
                 <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
+        <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
         <option name="JS.THIS_SUPER">
             <value>
                 <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
-        <option name="JS.YIELD">
-            <value>
-                <option name="FOREGROUND" value="c792ea" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
         <option name="JSON.KEYWORD">
             <value>
-                <option name="FOREGROUND" value="ff5874" />
+                <option name="FOREGROUND" value="ecc48d" />
+            </value>
+        </option>
+        <option name="JSON.NUMBER">
+            <value>
+                <option name="FOREGROUND" value="ecc48d" />
             </value>
         </option>
         <option name="JSON.PROPERTY_KEY">
@@ -2040,7 +2009,11 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+        <option name="PY.KEYWORD_ARGUMENT">
+            <value>
+                <option name="FOREGROUND" value="c5e478" />
+            </value>
+        </option>
         <option name="PY.NONE">
             <value>
                 <option name="FOREGROUND" value="ff5874" />
@@ -3027,21 +3000,18 @@
         <option name="YAML_SCALAR_LIST">
             <value>
                 <option name="FOREGROUND" value="ecc48d" />
-                <option name="BACKGROUND" value="11f38" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
         <option name="YAML_SCALAR_VALUE">
             <value>
                 <option name="FOREGROUND" value="ecc48d" />
-                <option name="BACKGROUND" value="11f38" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
         <option name="YAML_TEXT">
             <value>
                 <option name="FOREGROUND" value="ecc48d" />
-                <option name="BACKGROUND" value="11f38" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
