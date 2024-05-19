@@ -1344,14 +1344,15 @@
         <option name="FOREGROUND" value="bae67e" />
       </value>
     </option>
-    <option name="PY.BUILTIN_NAME">
+    <option name="PY.ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="f28779" />
+        <option name="FOREGROUND" value="95e6cb" />
+        <option name="BACKGROUND" value="212733" />
       </value>
     </option>
-    <option name="PY.CLASS_DEFINITION">
+    <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="73d0ff" />
+        <option name="FOREGROUND" value="95e6cb" />
       </value>
     </option>
     <option name="PY.DECORATOR">
@@ -1368,11 +1369,6 @@
     <option name="PY.FUNC_DEFINITION">
       <value>
         <option name="FOREGROUND" value="ffd580" />
-      </value>
-    </option>
-    <option name="PY.INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="ff3333" />
       </value>
     </option>
     <option name="PY.KEYWORD">
