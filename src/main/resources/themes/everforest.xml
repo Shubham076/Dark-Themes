@@ -1,13 +1,19 @@
 <scheme name="Everforest" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2023-11-03T11:26:09</property>
-    <property name="ide">WebStorm</property>
-    <property name="ideVersion">2023.2.0.0</property>
-    <property name="modified">2023-11-03T11:26:13</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2024.1.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="445349" />
-    <option name="ANNOTATIONS_COLOR" value="d3c6aa" />
+    <option name="ANNOTATIONS_COLOR" value="0" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="323d43" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="323d43" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="323d43" />
+    <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
+    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="323d43" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
+    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="d3c6aa" />
     <option name="CARET_ROW_COLOR" value="374247" />
     <option name="CONSOLE_BACKGROUND_KEY" value="323d43" />
@@ -25,29 +31,30 @@
     <option name="DOCUMENTATION_COLOR" value="2f383e" />
     <option name="ERROR_HINT" value="544247" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
-    <option name="FILESTATUS_COPIED" value="629755" />
+    <option name="FILESTATUS_COPIED" value="addb67" />
     <option name="FILESTATUS_DELETED" value="f77669" />
     <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6c6c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="848504" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="d5756c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d5756c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d5756c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="ef5350" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="637777" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f78c6c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f78c6c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f78c6c" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
     <option name="FILESTATUS_IDEA_SVN_REPLACED" value="c3e887" />
-    <option name="FILESTATUS_MERGED" value="9876aa" />
+    <option name="FILESTATUS_MERGED" value="82aaff" />
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED" value="dfdfdf" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
     <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
-    <option name="FILESTATUS_RENAMED" value="3a8484" />
+    <option name="FILESTATUS_RENAMED" value="c792ea" />
     <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
     <option name="FILESTATUS_SWITCHED" value="f77669" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
-    <option name="FILESTATUS_addedOutside" value="629755" />
-    <option name="FILESTATUS_changelistConflict" value="d5756c" />
-    <option name="FILESTATUS_modifiedOutside" value="6897bb" />
+    <option name="FILESTATUS_addedOutside" value="7fdbca" />
+    <option name="FILESTATUS_changelistConflict" value="f78c6c" />
+    <option name="FILESTATUS_modifiedOutside" value="82aaff" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
     <option name="GUTTER_BACKGROUND" value="2f383e" />
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="404c51" />
@@ -87,116 +94,16 @@
     <option name="TAB_UNDERLINE" value="7fbbb3" />
     <option name="TAB_UNDERLINE_INACTIVE" value="3b5360" />
     <option name="TEARLINE_COLOR" value="596763" />
-    <option name="VISUAL_INDENT_GUIDE" value="3c474d" />
-    <option name="WHITESPACES" value="576268" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="596763" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="5ca4a9" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
-    <option name="ANNOTATIONS_COLOR" value="0" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="323d43" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="323d43" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="323d43" />
-    <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="323d43" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
-
+    <option name="VISUAL_INDENT_GUIDE" value="3c474d" />
+    <option name="WHITESPACES" value="576268" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="596763" />
   </colors>
   <attributes>
-    <option name="BLOCK_TERMINAL_BLACK">
-      <value>
-        <option name="FOREGROUND" value="0" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_BLACK_BRIGHT">
-      <value>
-        <option name="FOREGROUND" value="6b6b6b" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_BLUE">
-      <value>
-        <option name="FOREGROUND" value="84a498" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_BLUE_BRIGHT">
-      <value>
-        <option name="FOREGROUND" value="95a19d" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_COMMAND">
-      <value>
-        <option name="FOREGROUND" value="ebdbb2" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_CURRENT_SEARCH_ENTRY">
-      <value>
-        <option name="FOREGROUND" value="ebdbb2" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_CYAN">
-      <value>
-        <option name="FOREGROUND" value="8ec07b" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_CYAN_BRIGHT">
-      <value>
-        <option name="FOREGROUND" value="9ebd93" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_GREEN">
-      <value>
-        <option name="FOREGROUND" value="b8bb26" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_GREEN_BRIGHT">
-      <value>
-        <option name="FOREGROUND" value="b2b437" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_MAGENTA">
-      <value>
-        <option name="FOREGROUND" value="d3859a" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_MAGENTA_BRIGHT">
-      <value>
-        <option name="FOREGROUND" value="cd98a6" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_RED">
-      <value>
-        <option name="FOREGROUND" value="f78d8c" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_RED_BRIGHT">
-      <value>
-        <option name="FOREGROUND" value="f28e82" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_WHITE">
-      <value>
-        <option name="FOREGROUND" value="ebdbb2" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_WHITE_BRIGHT">
-      <value>
-        <option name="FOREGROUND" value="ebdbb2" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_YELLOW">
-      <value>
-        <option name="FOREGROUND" value="fabd2f" />
-      </value>
-    </option>
-    <option name="BLOCK_TERMINAL_YELLOW_BRIGHT">
-      <value>
-        <option name="FOREGROUND" value="f1bf4a" />
-      </value>
-    </option>
     <option name="BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="544247" />
@@ -215,24 +122,6 @@
     <option name="BASH.BRACKET">
       <value>
         <option name="FOREGROUND" value="d3c6aa" />
-      </value>
-    </option>
-    <option name="INLINE_PARAMETER_HINT">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="54646E" />
-      </value>
-    </option>
-    <option name="INLINE_PARAMETER_HINT_CURRENT">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="54646E" />
-      </value>
-    </option>
-    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="54646E" />
       </value>
     </option>
     <option name="BASH.CONDITIONAL">
@@ -325,6 +214,96 @@
         <option name="FOREGROUND" value="d3c6aa" />
       </value>
     </option>
+    <option name="BLOCK_TERMINAL_BLACK">
+      <value>
+        <option name="FOREGROUND" value="0" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_BLACK_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="6b6b6b" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_BLUE">
+      <value>
+        <option name="FOREGROUND" value="84a498" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_BLUE_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="95a19d" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_COMMAND">
+      <value>
+        <option name="FOREGROUND" value="ebdbb2" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_CURRENT_SEARCH_ENTRY">
+      <value>
+        <option name="FOREGROUND" value="ebdbb2" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_CYAN">
+      <value>
+        <option name="FOREGROUND" value="8ec07b" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_CYAN_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="9ebd93" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_GREEN">
+      <value>
+        <option name="FOREGROUND" value="b8bb26" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_GREEN_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="b2b437" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_MAGENTA">
+      <value>
+        <option name="FOREGROUND" value="d3859a" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_MAGENTA_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="cd98a6" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_RED">
+      <value>
+        <option name="FOREGROUND" value="f78d8c" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_RED_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="f28e82" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_WHITE">
+      <value>
+        <option name="FOREGROUND" value="ebdbb2" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_WHITE_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="ebdbb2" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_YELLOW">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_YELLOW_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="f1bf4a" />
+      </value>
+    </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="ERROR_STRIPE_COLOR" value="ffc8c8" />
@@ -400,6 +379,9 @@
         <option name="FOREGROUND" value="ebdbb2" />
       </value>
     </option>
+    <option name="CONSOLE_RANGE_TO_EXECUTE">
+      <value />
+    </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
         <option name="FOREGROUND" value="f28e82" />
@@ -409,6 +391,9 @@
       <value>
         <option name="FOREGROUND" value="f78d8c" />
       </value>
+    </option>
+    <option name="CONSOLE_SELECTED_PARAMETER">
+      <value />
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
       <value>
@@ -759,7 +744,7 @@
         <option name="BACKGROUND" value="404c51" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="dbbc7f" />
@@ -772,26 +757,26 @@
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
-        <option name="FOREGROUND" value="cccccc" />
-        <option name="BACKGROUND" value="a7c080" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="54646E" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
-        <option name="FOREGROUND" value="cccccc" />
-        <option name="BACKGROUND" value="a7c080" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="54646E" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
-        <option name="FOREGROUND" value="cccccc" />
-        <option name="BACKGROUND" value="a7c080" />
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="54646E" />
       </value>
     </option>
     <option name="INLINE_STACK_FRAMES">
       <value />
     </option>
-    <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="" />
     <option name="JS.BADCHARACTER">
       <value>
         <option name="BACKGROUND" value="544247" />
@@ -1790,8 +1775,8 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
-    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
+    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="" />
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d3c6aa" />
