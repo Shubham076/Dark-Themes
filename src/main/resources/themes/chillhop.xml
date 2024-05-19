@@ -2114,5 +2114,10 @@
         <option name="FOREGROUND" value="c99376" />
       </value>
     </option>
+    <option name="org.rust.MACRO">
+      <value>
+        <option name="FOREGROUND" value="C99376" />
+      </value>
+    </option>
   </attributes>
 </scheme>

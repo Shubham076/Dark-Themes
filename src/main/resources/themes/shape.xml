@@ -2161,5 +2161,10 @@
         <option name="FOREGROUND" value="fffeca" />
       </value>
     </option>
+    <option name="org.rust.MACRO">
+      <value>
+        <option name="FOREGROUND" value="49F3C3" />
+      </value>
+    </option>
   </attributes>
 </scheme>

@@ -2005,5 +2005,10 @@
         <option name="FOREGROUND" value="c5f467" />
       </value>
     </option>
+    <option name="org.rust.MACRO">
+      <value>
+        <option name="FOREGROUND" value="FFCC5C" />
+      </value>
+    </option>
   </attributes>
 </scheme>

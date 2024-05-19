@@ -3024,5 +3024,10 @@
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
+        <option name="org.rust.MACRO">
+            <value>
+                <option name="FOREGROUND" value="ECC48D" />
+            </value>
+        </option>
     </attributes>
 </scheme>

@@ -1808,5 +1808,10 @@
         <option name="BACKGROUND" value="262335" />
       </value>
     </option>
+    <option name="org.rust.MACRO">
+      <value>
+        <option name="FOREGROUND" value="72F1B8" />
+      </value>
+    </option>
   </attributes>
 </scheme>
