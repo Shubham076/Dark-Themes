@@ -908,11 +908,7 @@
         <option name="FOREGROUND" value="d6ffc1" />
       </value>
     </option>
-    <option name="HTML_ATTRIBUTE_VALUE">
-      <value>
-        <option name="FOREGROUND" value="ffb395" />
-      </value>
-    </option>
+    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_CODE">
       <value />
     </option>
@@ -1767,11 +1763,6 @@
         <option name="FOREGROUND" value="d6ffc1" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_VALUE">
-      <value>
-        <option name="FOREGROUND" value="ffb395" />
-      </value>
-    </option>
     <option name="XML_CUSTOM_TAG_NAME" baseAttributes="XML_TAG_NAME" />
     <option name="XML_ENTITY_REFERENCE">
       <value>
@@ -1831,7 +1822,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="FFFFCC" />
+        <option name="FOREGROUND" value="ffffcc" />
       </value>
     </option>
   </attributes>
