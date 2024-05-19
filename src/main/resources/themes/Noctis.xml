@@ -1,44 +1,9 @@
 <scheme name="Noctis" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2023-09-12T16:49:01</property>
-    <property name="ide">PyCharmCore</property>
-    <property name="ideVersion">2022.3.3.0.0</property>
-    <property name="modified">2023-09-12T16:49:03</property>
-    <property name="originalScheme">_@user_Noctis</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2024.1.1.0.0</property>
   </metaInfo>
   <colors>
-    <option name="CARET_COLOR" value="b2cacd" />
-    <option name="CARET_ROW_COLOR" value="73b42" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="52529" />
-    <option name="FILESTATUS_ADDED" value="c3e887" />
-    <option name="FILESTATUS_COPIED" value="c3e88d" />
-    <option name="FILESTATUS_DELETED" value="f77669" />
-    <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="808080" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="fc9867" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="fc9867" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="fc9867" />
-    <option name="FILESTATUS_MERGED" value="c792ea" />
-    <option name="FILESTATUS_MODIFIED" value="80cbc4" />
-    <option name="FILESTATUS_NOT_CHANGED" value="dfdfdf" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
-    <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
-    <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
-    <option name="FILESTATUS_SWITCHED" value="f77669" />
-    <option name="FILESTATUS_UNKNOWN" value="f77669" />
-    <option name="FILESTATUS_addedOutside" value="ffcb6b" />
-    <option name="FILESTATUS_changelistConflict" value="fc9867" />
-    <option name="FILESTATUS_modifiedOutside" value="c792ea" />
-    <option name="GUTTER_BACKGROUND" value="52529" />
-    <option name="LINE_NUMBERS_COLOR" value="b2cacd" />
-    <option name="SELECTION_BACKGROUND" value="9454d" />
-    <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
-    <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
-    <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
-    <option name="VCS_ANNOTATIONS_COLOR_4" value="5ca4a9" />
-    <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
     <option name="ANNOTATIONS_COLOR" value="0" />
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="52529" />
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="52529" />
@@ -48,8 +13,46 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="52529" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
+    <option name="CARET_COLOR" value="b2cacd" />
+    <option name="CARET_ROW_COLOR" value="73b42" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="52529" />
+    <option name="FILESTATUS_ADDED" value="c3e887" />
+    <option name="FILESTATUS_COPIED" value="addb67" />
+    <option name="FILESTATUS_DELETED" value="f77669" />
+    <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="ef5350" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="637777" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f78c6c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f78c6c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f78c6c" />
+    <option name="FILESTATUS_MERGED" value="82aaff" />
+    <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED" value="dfdfdf" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
+    <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+    <option name="FILESTATUS_RENAMED" value="c792ea" />
+    <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
+    <option name="FILESTATUS_SWITCHED" value="f77669" />
+    <option name="FILESTATUS_UNKNOWN" value="f77669" />
+    <option name="FILESTATUS_addedOutside" value="7fdbca" />
+    <option name="FILESTATUS_changelistConflict" value="f78c6c" />
+    <option name="FILESTATUS_modifiedOutside" value="82aaff" />
+    <option name="GUTTER_BACKGROUND" value="52529" />
+    <option name="LINE_NUMBERS_COLOR" value="b2cacd" />
+    <option name="SELECTION_BACKGROUND" value="9454d" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
+    <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
+    <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
+    <option name="VCS_ANNOTATIONS_COLOR_4" value="5ca4a9" />
+    <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
   </colors>
   <attributes>
+    <option name="BAD_CHARACTER">
+      <value>
+        <option name="FOREGROUND" value="e3541c" />
+      </value>
+    </option>
     <option name="BLOCK_TERMINAL_BLACK">
       <value>
         <option name="FOREGROUND" value="0" />
@@ -140,32 +143,9 @@
         <option name="FOREGROUND" value="f1bf4a" />
       </value>
     </option>
-    <option name="BAD_CHARACTER">
-      <value>
-        <option name="FOREGROUND" value="e3541c" />
-      </value>
-    </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="743d3d" />
-      </value>
-    </option>
-    <option name="INLINE_PARAMETER_HINT">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="0c5c66" />
-      </value>
-    </option>
-    <option name="INLINE_PARAMETER_HINT_CURRENT">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="0c5c66" />
-      </value>
-    </option>
-    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="0c5c66" />
       </value>
     </option>
     <option name="BUILDOUT.KEY">
@@ -463,6 +443,9 @@
         <option name="FOREGROUND" value="ebdbb2" />
       </value>
     </option>
+  <option name="CONSOLE_RANGE_TO_EXECUTE">
+    <value />
+  </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
         <option name="FOREGROUND" value="f28e82" />
@@ -713,6 +696,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
@@ -1064,7 +1048,6 @@
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="49e9a6" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HTML_CODE">
@@ -1075,22 +1058,18 @@
         <option name="FOREGROUND" value="5b858b" />
       </value>
     </option>
+    <option name="HTML_CUSTOM_TAG_NAME" baseAttributes="HTML_TAG_NAME" />
     <option name="HTML_ENTITY_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="d5971a" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="5b858b" />
+        <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
-    <option name="HTML_TAG_NAME">
-      <value>
-        <option name="FOREGROUND" value="e66533" />
-      </value>
-    </option>
+    <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
@@ -1116,6 +1095,24 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="273627" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="c5c66" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="c5c66" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="c5c66" />
       </value>
     </option>
     <option name="IVAR">
@@ -2004,6 +2001,11 @@
         <option name="FOREGROUND" value="49e9a6" />
       </value>
     </option>
+    <option name="XML_CUSTOM_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="e4b781" />
+      </value>
+    </option>
     <option name="XML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="d5971a" />
@@ -2016,19 +2018,10 @@
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="5b858b" />
+        <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
-    <option name="XML_TAG_DATA">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="XML_TAG_NAME">
-      <value>
-        <option name="FOREGROUND" value="e66533" />
-      </value>
-    </option>
+    <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="YAML_COMMENT">
       <value>
         <option name="FOREGROUND" value="5b858b" />
