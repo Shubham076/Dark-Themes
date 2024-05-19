@@ -49,8 +49,6 @@
         <themeProvider id="com.github.shubham076.gruvboxMaterial" path="/themes/gruvboxMaterial.theme.json"/>
         <themeProvider id="com.github.shubham076.talosDark" path="/themes/talosDark.theme.json"/>
         <themeProvider id="com.github.shubham076.NoctisUvaWinter" path="/themes/NoctisUvaWinter.theme.json"/>
-        <themeProvider id="com.github.shubham076.ChillHop" path="/themes/Chillhop.theme.json" />
-        <themeProvider id="com.github.shubham076.QuangoWarmth" path="/themes/Warmth.theme.json" />
         <themeProvider id="com.github.shubham076.Gamma" path="/themes/gamma.theme.json" />
         <themeProvider id="com.github.shubham076.TokyoNightLight" path="/themes/tokyoNightLight.theme.json" />
         <themeProvider id="com.github.shubham076.GruvboxLight" path="/themes/gruvboxLight.theme.json" />
@@ -72,7 +70,6 @@
         <themeProvider id="com.github.shubham076.gruvboxConcoctisMedium" path="/themes/gruvboxConcoctisMedium.theme.json" />
         <themeProvider id="com.github.shubham076.gruvboxConcoctisSoft" path="/themes/gruvboxConcoctisSoft.theme.json" />
         <themeProvider id="com.github.shubham076.peachy" path="/themes/peachy.theme.json" />
-        <themeProvider id="com.github.shubham076.matcha" path="/themes/matcha.theme.json" />
         <themeProvider id="com.github.shubham076.brackets" path="/themes/bracketsLightPro.theme.json" />
         <themeProvider id="com.github.shubham076.zenburn" path="/themes/zenburn.theme.json" />
         <themeProvider id="com.github.shubham076.embark" path="/themes/embark.theme.json" />
