@@ -598,12 +598,12 @@
     <option name="DEFAULT_BRACKETS" baseAttributes="" />
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="73d0ff" />
+        <option name="FOREGROUND" value="95e6cb" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="73d0ff" />
+        <option name="FOREGROUND" value="95e6cb" />
       </value>
     </option>
     <option name="DEFAULT_COMMA" baseAttributes="" />
@@ -644,14 +644,15 @@
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="5ccfe6" />
+        <option name="FOREGROUND" value="95e6cb" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="73d0ff" />
+        <option name="FOREGROUND" value="95e6cb" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -662,7 +663,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="73d0ff" />
+        <option name="FOREGROUND" value="95e6cb" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -706,7 +707,7 @@
     <option name="DEFAULT_PARENTHS" baseAttributes="" />
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="5ccfe6" />
+        <option name="FOREGROUND" value="95e6cb" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -725,7 +726,7 @@
     <option name="DEFAULT_SEMICOLON" baseAttributes="" />
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="5ccfe6" />
+        <option name="FOREGROUND" value="95e6cb" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -881,7 +882,7 @@
     <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="73d0ff" />
+        <option name="FOREGROUND" value="95e6cb" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -1943,7 +1944,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="FFD580" />
+        <option name="FOREGROUND" value="ffd580" />
       </value>
     </option>
   </attributes>
