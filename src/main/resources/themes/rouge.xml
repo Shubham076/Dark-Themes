@@ -1,7 +1,7 @@
 <scheme name="Rouge" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.1.0.0</property>
+    <property name="ideVersion">2024.1.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -15,26 +15,27 @@
     <option name="CARET_ROW_COLOR" value="1e2b38" />
     <option name="CONSOLE_BACKGROUND_KEY" value="1d283b" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
-    <option name="FILESTATUS_COPIED" value="73bd79" />
+    <option name="FILESTATUS_COPIED" value="addb67" />
     <option name="FILESTATUS_DELETED" value="f77669" />
     <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6f737a" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="de6a66" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="de6a66" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="de6a66" />
-    <option name="FILESTATUS_MERGED" value="cf84cf" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="ef5350" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="637777" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f78c6c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f78c6c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f78c6c" />
+    <option name="FILESTATUS_MERGED" value="82aaff" />
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED" value="dfdfdf" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
     <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
-    <option name="FILESTATUS_RENAMED" value="70aeff" />
+    <option name="FILESTATUS_RENAMED" value="c792ea" />
     <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
     <option name="FILESTATUS_SWITCHED" value="f77669" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
-    <option name="FILESTATUS_addedOutside" value="73bd79" />
-    <option name="FILESTATUS_changelistConflict" value="de6a66" />
-    <option name="FILESTATUS_modifiedOutside" value="70aeff" />
+    <option name="FILESTATUS_addedOutside" value="7fdbca" />
+    <option name="FILESTATUS_changelistConflict" value="f78c6c" />
+    <option name="FILESTATUS_modifiedOutside" value="82aaff" />
     <option name="GUTTER_BACKGROUND" value="1d283b" />
     <option name="INDENT_GUIDE" value="293a44" />
     <option name="LINE_NUMBERS_COLOR" value="bbbbbb" />
@@ -433,6 +434,9 @@
       <value>
         <option name="FOREGROUND" value="ebdbb2" />
       </value>
+    </option>
+    <option name="CONSOLE_RANGE_TO_EXECUTE">
+      <value />
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
