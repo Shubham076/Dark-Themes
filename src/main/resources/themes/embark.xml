@@ -13,7 +13,7 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="a1efd3" />
-    <option name="CARET_ROW_COLOR" value="585273" />
+    <option name="CARET_ROW_COLOR" value="3e3859" />
     <option name="CONSOLE_BACKGROUND_KEY" value="2d2b40" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
@@ -41,7 +41,7 @@
     <option name="INDENT_GUIDE" value="2d2b40" />
     <option name="LINE_NUMBERS_COLOR" value="cbe3e7" />
     <option name="SELECTED_INDENT_GUIDE" value="2d2b40" />
-    <option name="SELECTION_BACKGROUND" value="3e3859" />
+    <option name="SELECTION_BACKGROUND" value="585273" />
     <option name="WHITESPACES" value="2d2b40" />
 </colors>
 <attributes>
@@ -637,7 +637,11 @@
             <option name="FONT_TYPE" value="2" />
         </value>
     </option>
-    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
+    <option name="DEFAULT_IDENTIFIER">
+        <value>
+            <option name="FOREGROUND" value="cbe3e7" />
+        </value>
+    </option>
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INSTANCE_METHOD">
         <value>
@@ -988,7 +992,6 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
         <value>
-            <option name="BACKGROUND" value="3c3c57" />
             <option name="ERROR_STRIPE_COLOR" value="ccccff" />
         </value>
     </option>
@@ -1931,7 +1934,7 @@
     </option>
     <option name="org.rust.MACRO">
         <value>
-            <option name="FOREGROUND" value="7FE9C3" />
+            <option name="FOREGROUND" value="7fe9c3" />
         </value>
     </option>
 </attributes>
