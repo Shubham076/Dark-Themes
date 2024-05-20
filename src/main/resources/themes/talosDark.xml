@@ -611,7 +611,6 @@
     <option name="DEFAULT_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="cccccc" />
-        <option name="BACKGROUND" value="232630" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -983,7 +982,6 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="3c3c57" />
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
