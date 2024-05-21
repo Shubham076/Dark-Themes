@@ -1,6 +1,6 @@
 <scheme name="Ayu-mirage" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">GoLand</property>
+    <property name="ide">WebStorm</property>
     <property name="ideVersion">2024.1.1.0.0</property>
   </metaInfo>
   <colors>
@@ -13,7 +13,7 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="ffcc66" />
-    <option name="CARET_ROW_COLOR" value="2A363E" />
+    <option name="CARET_ROW_COLOR" value="2a363e" />
     <option name="CONSOLE_BACKGROUND_KEY" value="212733" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
@@ -1101,12 +1101,7 @@
         <option name="FOREGROUND" value="95e6cb" />
       </value>
     </option>
-    <option name="JS.GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="5ccfe6" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
         <option name="FOREGROUND" value="ffd580" />
@@ -1118,17 +1113,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JS.LOCAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="5ccfe6" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="JS.PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="ffcc66" />
-      </value>
-    </option>
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="95e6cb" />
