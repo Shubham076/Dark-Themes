@@ -30,7 +30,6 @@
         <themeProvider id="com.github.shubham076.mayukaiGruvbox" path="/themes/mayukaiGruvbox.theme.json"/>
         <themeProvider id="com.github.shubham076.aura" path="/themes/aura.theme.json"/>
         <themeProvider id="com.github.shubham076.galaxy" path="/themes/galaxy.theme.json"/>
-        <themeProvider id="com.github.shubham076.fieldLights" path="/themes/fieldLights.theme.json"/>
         <themeProvider id="com.github.shubham076.shape" path="/themes/shape.theme.json"/>
         <themeProvider id="com.github.shubham076.rouge" path="/themes/rouge.theme.json"/>
         <themeProvider id="com.github.shubham076.noctis" path="/themes/noctis.theme.json"/>
