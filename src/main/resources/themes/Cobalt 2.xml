@@ -651,7 +651,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="ff628c" />
+        <option name="FOREGROUND" value="f78c6c" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -698,6 +698,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="ffc600" />
@@ -954,27 +955,14 @@
         <option name="FOREGROUND" value="ff9d00" />
       </value>
     </option>
-    <option name="GO_BUILTIN_TYPE_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="ffc600" />
-      </value>
-    </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_BUILTIN_VARIABLE">
       <value>
         <option name="FOREGROUND" value="e1efff" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="GO_EXPORTED_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="ffc600" />
-      </value>
-    </option>
-    <option name="GO_EXPORTED_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="ff9d00" />
-      </value>
-    </option>
+    <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_KEYWORD">
       <value>
         <option name="FOREGROUND" value="ff9d00" />
@@ -996,11 +984,7 @@
         <option name="FOREGROUND" value="ffc600" />
       </value>
     </option>
-    <option name="GO_LOCAL_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="ff9d00" />
-      </value>
-    </option>
+    <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_METHOD_RECEIVER">
       <value>
         <option name="FOREGROUND" value="e1efff" />
@@ -1008,24 +992,10 @@
     </option>
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="ffc600" />
+        <option name="FOREGROUND" value="9effff" />
       </value>
     </option>
-    <option name="GO_PACKAGE_EXPORTED_CONSTANT">
-      <value>
-        <option name="FOREGROUND" value="ff628c" />
-      </value>
-    </option>
-    <option name="GO_PACKAGE_LOCAL_CONSTANT">
-      <value>
-        <option name="FOREGROUND" value="ff628c" />
-      </value>
-    </option>
-    <option name="GO_TYPE_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="ffc600" />
-      </value>
-    </option>
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="ff628c" />
@@ -2208,7 +2178,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="FFC600" />
+        <option name="FOREGROUND" value="ffc600" />
       </value>
     </option>
   </attributes>
