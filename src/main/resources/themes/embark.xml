@@ -577,7 +577,7 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE">
         <value>
-            <option name="FOREGROUND" value="f48fb1" />
+            <option name="FOREGROUND" value="f2b482" />
             <option name="FONT_TYPE" value="2" />
         </value>
     </option>
@@ -637,6 +637,7 @@
             <option name="FONT_TYPE" value="2" />
         </value>
     </option>
+    <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER">
         <value>
             <option name="FOREGROUND" value="cbe3e7" />
