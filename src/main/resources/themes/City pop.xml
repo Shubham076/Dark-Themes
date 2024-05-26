@@ -1465,12 +1465,6 @@
         <option name="FOREGROUND" value="fffb85" />
       </value>
     </option>
-    <option name="PY.DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="a0fcbd" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="PY.DOT">
       <value>
         <option name="FOREGROUND" value="acb5ff" />
@@ -1520,6 +1514,7 @@
         <option name="FOREGROUND" value="fcb5d9" />
       </value>
     </option>
+    <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
     <option name="PY.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="89ddff" />
@@ -2037,7 +2032,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="FFFB85" />
+        <option name="FOREGROUND" value="fffb85" />
       </value>
     </option>
   </attributes>
