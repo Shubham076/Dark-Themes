@@ -621,12 +621,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="f7ecb5" />
+        <option name="FOREGROUND" value="d3b692" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="f7ecb5" />
+        <option name="FOREGROUND" value="d3b692" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
