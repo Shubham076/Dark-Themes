@@ -621,12 +621,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="d3b692" />
+        <option name="FOREGROUND" value="d8be9e" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="d3b692" />
+        <option name="FOREGROUND" value="d8be9e" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -676,7 +676,7 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="bff9" />
+        <option name="FOREGROUND" value="6dbdfa" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS" baseAttributes="" />
