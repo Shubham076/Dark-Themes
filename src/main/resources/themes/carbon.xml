@@ -1,7 +1,7 @@
 <scheme name="Carbon" version="142" parent_scheme="Darcula">
     <metaInfo>
-        <property name="ide">Idea</property>
-        <property name="ideVersion">2024.1.0.0</property>
+        <property name="ide">GoLand</property>
+        <property name="ideVersion">2024.1.1.0.0</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="51966b" />
@@ -447,12 +447,6 @@
                 <option name="ERROR_STRIPE_COLOR" value="57a464" />
             </value>
         </option>
-        <option name="DIFF_MODIFIED">
-            <value>
-                <option name="BACKGROUND" value="1e2a3e" />
-                <option name="ERROR_STRIPE_COLOR" value="43698d" />
-            </value>
-        </option>
         <option name="DUPLICATE_FROM_SERVER">
             <value>
                 <option name="BACKGROUND" value="29262e" />
@@ -525,10 +519,7 @@
             </value>
         </option>
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
-            <value>
-                <option name="EFFECT_COLOR" value="305e80" />
-                <option name="ERROR_STRIPE_COLOR" value="2c4e68" />
-            </value>
+            <value />
         </option>
         <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
