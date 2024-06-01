@@ -1,6 +1,6 @@
 <scheme name="Carbon" version="142" parent_scheme="Darcula">
     <metaInfo>
-        <property name="ide">PyCharmCore</property>
+        <property name="ide">Idea</property>
         <property name="ideVersion">2024.1.0.0</property>
     </metaInfo>
     <colors>
@@ -17,23 +17,31 @@
         <option name="DIAGRAM_REALIZATION_EDGE" value="213047" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="214760" />
         <option name="DOCUMENTATION_COLOR" value="172030" />
-        <option name="FILESTATUS_ADDED" value="9cde65" />
-        <option name="FILESTATUS_COPIED" value="9cde65" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="d8de90" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ff6464" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ff6464" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ff6464" />
+        <option name="FILESTATUS_ADDED" value="c3e887" />
+        <option name="FILESTATUS_COPIED" value="addb67" />
+        <option name="FILESTATUS_DELETED" value="f77669" />
+        <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="ef5350" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="637777" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f78c6c" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f78c6c" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f78c6c" />
         <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="639f2d" />
         <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
         <option name="FILESTATUS_IDEA_SVN_REPLACED" value="639f2d" />
-        <option name="FILESTATUS_MERGED" value="bd82c0" />
-        <option name="FILESTATUS_MODIFIED" value="65b7ec" />
-        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="65b7ec" />
-        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="65b7ec" />
-        <option name="FILESTATUS_UNKNOWN" value="ff6464" />
-        <option name="FILESTATUS_addedOutside" value="9cde65" />
-        <option name="FILESTATUS_changelistConflict" value="ff6464" />
-        <option name="FILESTATUS_modifiedOutside" value="65b7ec" />
+        <option name="FILESTATUS_MERGED" value="82aaff" />
+        <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+        <option name="FILESTATUS_NOT_CHANGED" value="dfdfdf" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
+        <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+        <option name="FILESTATUS_RENAMED" value="c792ea" />
+        <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
+        <option name="FILESTATUS_SWITCHED" value="f77669" />
+        <option name="FILESTATUS_UNKNOWN" value="f77669" />
+        <option name="FILESTATUS_addedOutside" value="7fdbca" />
+        <option name="FILESTATUS_changelistConflict" value="f78c6c" />
+        <option name="FILESTATUS_modifiedOutside" value="82aaff" />
         <option name="GUTTER_BACKGROUND" value="172030" />
         <option name="HTML_TAG_TREE_LEVEL0" value="d81e5b" />
         <option name="HTML_TAG_TREE_LEVEL1" value="167387" />
@@ -58,8 +66,8 @@
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="214760" />
     </colors>
     <attributes>
-        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="BAD_CHARACTER">
             <value>
                 <option name="EFFECT_COLOR" value="ff4262" />
@@ -359,7 +367,7 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="b87ea2" />
+                <option name="FOREGROUND" value="d0d6b5" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -522,7 +530,7 @@
                 <option name="ERROR_STRIPE_COLOR" value="2c4e68" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="5d6976" />
@@ -649,14 +657,7 @@
                 <option name="ERROR_STRIPE_COLOR" value="530d" />
             </value>
         </option>
-        <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="716994" />
-                <option name="FONT_TYPE" value="2" />
-                <option name="EFFECT_TYPE" value="5" />
-            </value>
-        </option>
-        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="c5cdd3" />
@@ -688,7 +689,7 @@
                 <option name="FOREGROUND" value="d0d6b5" />
             </value>
         </option>
-        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
         <option name="UNMATCHED_BRACE_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="ff4262" />
