@@ -20,6 +20,12 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="f8f8f8" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
+    <option name="CARET_ROW_COLOR" value="f8f8f8" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="f8f8f8" />
+    <option name="GUTTER_BACKGROUND" value="f8f8f8" />
+    <option name="LINE_NUMBERS_COLOR" value="535353" />
+    <option name="SELECTION_BACKGROUND" value="abdffa" />
+    <option name="SELECTION_FOREGROUND" value="" />
   </colors>
   <attributes>
     <option name="BREAKPOINT_ATTRIBUTES">
@@ -316,6 +322,18 @@
         <option name="FOREGROUND" value="10a567" />
       </value>
     </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+        <option name="BACKGROUND" value="f8f8f8" />
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+        <option name="BACKGROUND" value="f8f8f8" />
+      </value>
+    </option>
     <option name="DEFAULT_COMMA" baseAttributes="" />
     <option name="DEFAULT_CONSTANT">
       <value>
@@ -347,13 +365,26 @@
         <option name="FOREGROUND" value="386ac3" />
       </value>
     </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="386ac3" />
+        <option name="BACKGROUND" value="f8f8f8" />
+      </value>
+    </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_INTERFACE_NAME">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+        <option name="BACKGROUND" value="f8f8f8" />
+      </value>
+    </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
     <option name="DEFAULT_KEYWORD">
       <value>
@@ -377,12 +408,8 @@
         <option name="FOREGROUND" value="535353" />
       </value>
     </option>
-    <option name="DEFAULT_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="e06c75" />
-      </value>
-    </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="DEFAULT_SEMICOLON" baseAttributes="" />
     <option name="DEFAULT_STATIC_FIELD">
       <value>
@@ -544,6 +571,12 @@
     <option name="GO_LOCAL_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="386ac3" />
+      </value>
+    </option>
+    <option name="GO_PACKAGE">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+        <option name="BACKGROUND" value="f8f8f8" />
       </value>
     </option>
     <option name="GO_PACKAGE_EXPORTED_CONSTANT">
