@@ -72,5 +72,6 @@
         <themeProvider id="com.github.shubham076.moonlight" path="/themes/moonlight.theme.json" />
         <themeProvider id="com.github.shubham076.nightOwl" path="/themes/nightOwl.theme.json" />
         <themeProvider id="com.github.shubham076.carbon" path="/themes/carbon.theme.json" />
+        <themeProvider id="com.github.shubham076.lightPro" path="/themes/lightPro.theme.json" />
     </extensions>
 </idea-plugin>
