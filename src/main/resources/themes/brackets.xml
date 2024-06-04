@@ -362,12 +362,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="386ac3" />
+        <option name="FOREGROUND" value="e88501" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="386ac3" />
+        <option name="FOREGROUND" value="e88501" />
         <option name="BACKGROUND" value="f8f8f8" />
       </value>
     </option>
