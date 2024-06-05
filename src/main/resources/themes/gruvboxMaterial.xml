@@ -635,6 +635,17 @@
         <option name="FOREGROUND" value="d4be98" />
       </value>
     </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="7daea3" />
+        <option name="BACKGROUND" value="323030" />
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="7daea3" />
+      </value>
+    </option>
     <option name="DEFAULT_COMMA">
       <value>
         <option name="FOREGROUND" value="d4be98" />
@@ -690,6 +701,12 @@
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
         <option name="FOREGROUND" value="a9b665" />
+      </value>
+    </option>
+    <option name="DEFAULT_INTERFACE_NAME">
+      <value>
+        <option name="FOREGROUND" value="7daea3" />
+        <option name="BACKGROUND" value="323030" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
@@ -918,11 +935,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="GO_EXPORTED_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="a9b665" />
-      </value>
-    </option>
     <option name="GO_EXPORTED_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="a9b665" />
@@ -939,11 +951,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="GO_LOCAL_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="a9b665" />
-      </value>
-    </option>
     <option name="GO_LOCAL_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="a9b665" />
@@ -956,10 +963,11 @@
     </option>
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="6fafbd" />
+        <option name="FOREGROUND" value="7daea3" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="d3869b" />
@@ -2068,7 +2076,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="A9B665" />
+        <option name="FOREGROUND" value="a9b665" />
       </value>
     </option>
   </attributes>
