@@ -602,12 +602,12 @@
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="e99d35" />
+                <option name="FOREGROUND" value="914c07" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="e99d35" />
+                <option name="FOREGROUND" value="914c07" />
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -619,11 +619,6 @@
         <option name="DEFAULT_INSTANCE_FIELD">
             <value>
                 <option name="FOREGROUND" value="575279" />
-            </value>
-        </option>
-        <option name="DEFAULT_INSTANCE_METHOD">
-            <value>
-                <option name="FOREGROUND" value="e99d35" />
             </value>
         </option>
         <option name="DEFAULT_INTERFACE_NAME">
@@ -701,11 +696,7 @@
                 <option name="FOREGROUND" value="575279" />
             </value>
         </option>
-        <option name="DEFAULT_STATIC_METHOD">
-            <value>
-                <option name="FOREGROUND" value="e99d35" />
-            </value>
-        </option>
+        <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
                 <option name="FOREGROUND" value="ef6733" />
@@ -1199,11 +1190,14 @@
                 <option name="FOREGROUND" value="1a1f29" />
             </value>
         </option>
+        <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
         <option name="JS.INSTANCE_MEMBER_VARIABLE">
             <value>
                 <option name="FOREGROUND" value="4d545d" />
             </value>
         </option>
+        <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+        <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
         <option name="JSP_DIRECTIVE_NAME">
             <value>
                 <option name="FOREGROUND" value="a7dbd8" />
