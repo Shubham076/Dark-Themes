@@ -252,6 +252,12 @@
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
+        <option name="DEFAULT_ATTRIBUTE">
+            <value>
+                <option name="FOREGROUND" value="eba287" />
+                <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
         <option name="DEFAULT_BLOCK_COMMENT">
             <value>
                 <option name="FOREGROUND" value="5d6976" />
@@ -504,11 +510,17 @@
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
+        <option name="HTML_CUSTOM_TAG_NAME" baseAttributes="HTML_TAG_NAME" />
         <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
-        <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
+        <option name="HTML_TAG">
+            <value>
+                <option name="FOREGROUND" value="eba287" />
+                <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
         <option name="HTML_TAG_NAME">
             <value>
-                <option name="FOREGROUND" value="ffae8f" />
+                <option name="FOREGROUND" value="eba287" />
             </value>
         </option>
         <option name="HYPERLINK_ATTRIBUTES">
@@ -521,7 +533,7 @@
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value />
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="5d6976" />
@@ -717,6 +729,7 @@
             </value>
         </option>
         <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+        <option name="XML_CUSTOM_TAG_NAME" baseAttributes="XML_TAG_NAME" />
         <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
         <option name="XML_PROLOGUE">
             <value>
@@ -724,10 +737,15 @@
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
-        <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
+        <option name="XML_TAG">
+            <value>
+                <option name="FOREGROUND" value="eba287" />
+                <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
         <option name="XML_TAG_NAME">
             <value>
-                <option name="FOREGROUND" value="ffae8f" />
+                <option name="FOREGROUND" value="eba287" />
             </value>
         </option>
         <option name="XPATH.KEYWORD" baseAttributes="" />
