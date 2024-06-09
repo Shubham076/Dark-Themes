@@ -1,4 +1,4 @@
-<scheme name="Light Plus" version="142" parent_scheme="Default">
+<scheme name="Light Pro" version="142" parent_scheme="Default">
     <metaInfo>
         <property name="ide">GoLand</property>
         <property name="ideVersion">2024.1.1.0.0</property>
@@ -551,12 +551,12 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="689967" />
+                <option name="FOREGROUND" value="5a8559" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="689967" />
+                <option name="FOREGROUND" value="5a8559" />
             </value>
         </option>
         <option name="DEFAULT_COMMA">
@@ -602,12 +602,12 @@
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="914c07" />
+                <option name="FOREGROUND" value="b15d09" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="914c07" />
+                <option name="FOREGROUND" value="b15d09" />
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -623,7 +623,7 @@
         </option>
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="689967" />
+                <option name="FOREGROUND" value="5a8559" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -699,7 +699,7 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="ef6733" />
+                <option name="FOREGROUND" value="e38e19" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -897,7 +897,7 @@
         </option>
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="689967" />
+                <option name="FOREGROUND" value="5a8559" />
             </value>
         </option>
         <option name="GO_PACKAGE_EXPORTED_CONSTANT">
