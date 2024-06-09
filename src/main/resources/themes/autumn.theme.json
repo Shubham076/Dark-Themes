@@ -5,9 +5,10 @@
   "editorScheme": "/themes/autumn.xml",
   "ui": {
     "*": {
-      "background": "#f8f8f8",
+      "background": "#FFFFFF",
       "foreground": "#535353",
       "highlight": "#e7e7e8ff",
+      "sidePanelBackground": "#f1ece8",
       "selectionBackground": "#ccd7daff",
       "selectionInactiveBackground": "#ccd7daff",
       "selectionForeground": "#546e7aff",
