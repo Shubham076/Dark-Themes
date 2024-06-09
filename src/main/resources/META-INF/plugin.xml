@@ -61,7 +61,6 @@
         <themeProvider id="com.github.shubham076.serenade" path="/themes/serenade.theme.json" />
         <themeProvider id="com.github.shubham076.fairyfloss" path="/themes/fairyfloss.theme.json" />
         <themeProvider id="com.github.shubham076.gruvboxConcoctisHard" path="/themes/gruvboxConcoctisHard.theme.json" />
-        <themeProvider id="com.github.shubham076.gruvboxConcoctisMedium" path="/themes/gruvboxConcoctisMedium.theme.json" />
         <themeProvider id="com.github.shubham076.gruvboxConcoctisSoft" path="/themes/gruvboxConcoctisSoft.theme.json" />
         <themeProvider id="com.github.shubham076.peachy" path="/themes/peachy.theme.json" />
         <themeProvider id="com.github.shubham076.brackets" path="/themes/bracketsLightPro.theme.json" />

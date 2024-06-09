@@ -637,13 +637,13 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="6fafbd" />
+        <option name="FOREGROUND" value="92bbb2" />
         <option name="BACKGROUND" value="25292a" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="6fafbd" />
+        <option name="FOREGROUND" value="92bbb2" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -705,7 +705,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="6fafbd" />
+        <option name="FOREGROUND" value="92bbb2" />
         <option name="BACKGROUND" value="25292a" />
       </value>
     </option>
@@ -726,7 +726,12 @@
         <option name="FOREGROUND" value="d4be98" />
       </value>
     </option>
-    <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
+    <option name="DEFAULT_METADATA">
+      <value>
+        <option name="FOREGROUND" value="d8a657" />
+        <option name="BACKGROUND" value="25292a" />
+      </value>
+    </option>
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="d3869b" />
@@ -734,7 +739,7 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="e78a4e" />
+        <option name="FOREGROUND" value="d8a657" />
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
@@ -749,7 +754,7 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="7daea3" />
+        <option name="FOREGROUND" value="92bbb2" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -926,11 +931,7 @@
         <option name="FOREGROUND" value="a9b665" />
       </value>
     </option>
-    <option name="GO_BUILTIN_TYPE_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="6fafbd" />
-      </value>
-    </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_BUILTIN_VARIABLE">
       <value>
         <option name="FOREGROUND" value="d4be98" />
@@ -975,11 +976,12 @@
     </option>
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="6fafbd" />
+        <option name="FOREGROUND" value="92bbb2" />
         <option name="BACKGROUND" value="25292a" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="d3869b" />
@@ -2086,7 +2088,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="A9B665" />
+        <option name="FOREGROUND" value="a9b665" />
       </value>
     </option>
   </attributes>

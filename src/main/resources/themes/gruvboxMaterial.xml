@@ -637,13 +637,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="7daea3" />
-        <option name="BACKGROUND" value="323030" />
+        <option name="FOREGROUND" value="92bbb2" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="7daea3" />
+        <option name="FOREGROUND" value="92bbb2" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -705,8 +704,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="7daea3" />
-        <option name="BACKGROUND" value="323030" />
+        <option name="FOREGROUND" value="92bbb2" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
@@ -749,7 +747,7 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="7daea3" />
+        <option name="FOREGROUND" value="92bbb2" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -963,7 +961,7 @@
     </option>
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="7daea3" />
+        <option name="FOREGROUND" value="92bbb2" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />

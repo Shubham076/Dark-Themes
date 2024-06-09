@@ -1,4 +1,4 @@
-<scheme name="Darkhard" version="142" parent_scheme="Darcula">
+<scheme name="Gruvbox Concoctis Hard" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="ide">GoLand</property>
         <property name="ideVersion">2024.1.1.0.0</property>
@@ -655,12 +655,12 @@
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="89b482" />
+                <option name="FOREGROUND" value="d8a657" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="89b482" />
+                <option name="FOREGROUND" value="d8a657" />
             </value>
         </option>
         <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -911,11 +911,6 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="GO_EXPORTED_FUNCTION">
-            <value>
-                <option name="FOREGROUND" value="89b482" />
-            </value>
-        </option>
         <option name="GO_EXPORTED_FUNCTION_CALL">
             <value>
                 <option name="FOREGROUND" value="89b482" />
@@ -929,11 +924,6 @@
         <option name="GO_LOCAL_CONSTANT">
             <value>
                 <option name="FOREGROUND" value="d8a657" />
-            </value>
-        </option>
-        <option name="GO_LOCAL_FUNCTION">
-            <value>
-                <option name="FOREGROUND" value="89b482" />
             </value>
         </option>
         <option name="GO_LOCAL_FUNCTION_CALL">
@@ -2060,7 +2050,7 @@
         </option>
         <option name="org.rust.MACRO">
             <value>
-                <option name="FOREGROUND" value="89B482" />
+                <option name="FOREGROUND" value="89b482" />
             </value>
         </option>
     </attributes>
