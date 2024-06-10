@@ -1,7 +1,7 @@
 <scheme name="Moonlight Theme" version="142" parent_scheme="Darcula">
     <option name="FONT_SCALE" value="1.0" />
     <metaInfo>
-        <property name="ide">WebStorm</property>
+        <property name="ide">GoLand</property>
         <property name="ideVersion">2024.1.1.0.0</property>
     </metaInfo>
     <console-font>
@@ -791,6 +791,7 @@
                 <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
+        <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="GO_STRUCT_EXPORTED_MEMBER">
             <value>
                 <option name="FOREGROUND" value="d5d8da" />
