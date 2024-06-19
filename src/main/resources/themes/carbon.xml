@@ -266,7 +266,7 @@
         </option>
         <option name="DEFAULT_BRACKETS">
             <value>
-                <option name="FOREGROUND" value="db6378" />
+                <option name="FOREGROUND" value="c5cdd3" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_NAME">
@@ -383,7 +383,7 @@
         </option>
         <option name="DEFAULT_OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="db6e89" />
+                <option name="FOREGROUND" value="c5cdd3" />
             </value>
         </option>
         <option name="DEFAULT_PARAMETER">
