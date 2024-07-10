@@ -74,5 +74,6 @@
         <themeProvider id="com.github.shubham076.lightPro" path="/themes/lightPro.theme.json" />
         <themeProvider id="com.github.shubham076.autumn" path="/themes/autumn.theme.json" />
         <themeProvider id="com.github.shubham076.carbonLight" path="/themes/carbonLight.theme.json" />
+        <themeProvider id="com.github.shubham076.bracketsLight" path="/themes/bracketsLight.theme.json" />
     </extensions>
 </idea-plugin>
