@@ -555,7 +555,6 @@
         <option name="DEFAULT_CLASS_NAME">
             <value>
                 <option name="FOREGROUND" value="ff928b" />
-                <option name="BACKGROUND" value="202330" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
@@ -607,7 +606,6 @@
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
                 <option name="FOREGROUND" value="ff928b" />
-                <option name="BACKGROUND" value="202330" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -644,7 +642,6 @@
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
                 <option name="FOREGROUND" value="f1edbc" />
-                <option name="BACKGROUND" value="202330" />
             </value>
         </option>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -652,7 +649,6 @@
         <option name="DEFAULT_STATIC_FIELD">
             <value>
                 <option name="FOREGROUND" value="efe9ae" />
-                <option name="BACKGROUND" value="202330" />
             </value>
         </option>
         <option name="DEFAULT_STATIC_METHOD">
@@ -1037,10 +1033,13 @@
         <option name="JS.INSTANCE_MEMBER_VARIABLE">
             <value>
                 <option name="FOREGROUND" value="ff928b" />
-                <option name="BACKGROUND" value="202330" />
             </value>
         </option>
-        <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+        <option name="JS.LOCAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="eaf2f1" />
+            </value>
+        </option>
         <option name="JS.PARAMETER">
             <value>
                 <option name="FOREGROUND" value="fff8f8" />
@@ -1684,7 +1683,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="eaf2f1" />
-                <option name="BACKGROUND" value="202330" />
+                <option name="BACKGROUND" value="2a2d3a" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -1794,7 +1793,7 @@
         </option>
         <option name="org.rust.MACRO">
             <value>
-                <option name="FOREGROUND" value="F1EDBC" />
+                <option name="FOREGROUND" value="f1edbc" />
             </value>
         </option>
     </attributes>

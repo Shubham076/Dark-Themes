@@ -13,7 +13,7 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="d6deeb" />
-    <option name="CARET_ROW_COLOR" value="2A363E" />
+    <option name="CARET_ROW_COLOR" value="2a363e" />
     <option name="CONSOLE_BACKGROUND_KEY" value="1a2731" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
@@ -42,7 +42,7 @@
     <option name="FILESTATUS_modifiedOutside" value="82aaff" />
     <option name="GUTTER_BACKGROUND" value="e151b" />
     <option name="LINE_NUMBERS_COLOR" value="d6deeb" />
-    <option name="SELECTION_BACKGROUND" value="314A5E" />
+    <option name="SELECTION_BACKGROUND" value="314a5e" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
@@ -644,12 +644,7 @@
         <option name="FOREGROUND" value="f6bb42" />
       </value>
     </option>
-    <option name="DEFAULT_GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="d6deeb" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
+    <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
@@ -684,7 +679,7 @@
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="d6deeb" />
+        <option name="FOREGROUND" value="dadbc0" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -1017,6 +1012,11 @@
       </value>
     </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+    <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -1132,11 +1132,6 @@
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-    <option name="JS.PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="d7dbe0" />
-      </value>
-    </option>
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="5ca7e4" />
@@ -1811,7 +1806,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="d6deeb" />
+        <option name="FOREGROUND" value="dadbc0" />
         <option name="BACKGROUND" value="1a2731" />
       </value>
     </option>
@@ -1926,7 +1921,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="F6BB42" />
+        <option name="FOREGROUND" value="f6bb42" />
       </value>
     </option>
   </attributes>

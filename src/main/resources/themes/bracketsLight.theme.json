@@ -1,8 +1,8 @@
 {
-  "name": "Everest",
+  "name": "Brackets Light",
   "dark": false,
-  "author": "Brackets Light",
-  "editorScheme": "/theme/bracketsLight.xml",
+  "author": "Shubham Dogra",
+  "editorScheme": "/themes/bracketsLight.xml",
   "colors": {
     "borderColor": "#c5d1d7",
     "separatorColor": "#c5d1d7",
