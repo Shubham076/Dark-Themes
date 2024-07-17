@@ -828,7 +828,6 @@
         <option name="GO_TAG_KEY">
             <value>
                 <option name="FOREGROUND" value="cdeac0" />
-                <option name="BACKGROUND" value="202330" />
             </value>
         </option>
         <option name="GO_TYPE_REFERENCE">
@@ -952,9 +951,7 @@
             </value>
         </option>
         <option name="INJECTED_LANGUAGE_FRAGMENT">
-            <value>
-                <option name="BACKGROUND" value="273627" />
-            </value>
+            <value />
         </option>
         <option name="IVAR">
             <value>
