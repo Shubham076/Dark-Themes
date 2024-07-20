@@ -636,6 +636,11 @@
         <option name="FOREGROUND" value="fde1bd" />
       </value>
     </option>
+    <option name="DEFAULT_CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="fde1bd" />
+      </value>
+    </option>
     <option name="DEFAULT_COMMA">
       <value>
         <option name="FOREGROUND" value="aeffd9" />
@@ -679,7 +684,7 @@
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="dadbc0" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -687,7 +692,7 @@
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="dadbc0" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
@@ -717,7 +722,7 @@
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="dadbc0" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -767,7 +772,7 @@
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="dadbc0" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -913,12 +918,6 @@
     <option name="GHERKIN_TAG">
       <value>
         <option name="FOREGROUND" value="ffb8df" />
-      </value>
-    </option>
-    <option name="GIT_TOOLBOX.EDITOR_INLINE_BLAME_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="fcefff" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="GO_BLOCK_COMMENT">
@@ -2118,7 +2117,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="FFFEAE" />
+        <option name="FOREGROUND" value="fffeae" />
       </value>
     </option>
   </attributes>
