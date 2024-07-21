@@ -1,0 +1,56 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Fluffy",
+  "editorScheme": "/themes/fluffy.xml",
+  "ui": {
+    "*": {
+      "background": "#263238",
+      "foreground": "#DADBC0",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#3B4252",
+      "selectionInactiveBackground": "#3B4252",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#3B4252ff",
+      "accent": "#009688ff",
+      "excluded": "#3B4252"
+    },
+    "DefaultTabs": {
+      "background": "#263238",
+      "borderColor": "#002b3f"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#263238"
+      }
+    },
+    "Plugins": {
+      "Button": {
+        "installBackground": "#144d69",
+        "updateBackground": "#144d69",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#263238"
+    },
+    "Popup": {
+      "Header.activeBackground": "#263238"
+    },
+    "TabbedPane": {
+      "hoverColor": "#263238"
+    },
+    "Button": {
+      "focus": "#263238"
+    }
+  }
+}
