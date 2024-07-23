@@ -5,7 +5,7 @@
   "editorScheme": "/themes/chalk.xml",
   "ui": {
     "*": {
-      "background": "#263238",
+      "background": "#212d33",
       "foreground": "#DADBC0",
       "highlight": "#425b67ff",
       "selectionBackground": "#3B4252",
@@ -23,12 +23,12 @@
       "excluded": "#3B4252"
     },
     "DefaultTabs": {
-      "background": "#263238",
+      "background": "#212d33",
       "borderColor": "#002b3f"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#263238"
+        "inactiveBackground": "#212d33"
       }
     },
     "Plugins": {
@@ -41,16 +41,16 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#263238"
+      "underlinedTabBackground": "#212d33"
     },
     "Popup": {
-      "Header.activeBackground": "#263238"
+      "Header.activeBackground": "#212d33"
     },
     "TabbedPane": {
-      "hoverColor": "#263238"
+      "hoverColor": "#212d33"
     },
     "Button": {
-      "focus": "#263238"
+      "focus": "#212d33"
     }
   }
 }
