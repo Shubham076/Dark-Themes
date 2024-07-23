@@ -1,4 +1,4 @@
-<scheme name="Fluffy " version="142" parent_scheme="Darcula">
+<scheme name="Fluffy" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="ide">GoLand</property>
         <property name="ideVersion">2024.1.1.0.0</property>
@@ -678,7 +678,11 @@
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
-        <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
+        <option name="DEFAULT_IDENTIFIER">
+            <value>
+                <option name="FOREGROUND" value="dadbc0" />
+            </value>
+        </option>
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
@@ -901,7 +905,6 @@
         <option name="GO_PACKAGE">
             <value>
                 <option name="FOREGROUND" value="f6c08f" />
-                <option name="BACKGROUND" value="263238" />
             </value>
         </option>
         <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
