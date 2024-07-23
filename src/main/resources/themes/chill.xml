@@ -2,7 +2,6 @@
     <metaInfo>
         <property name="ide">GoLand</property>
         <property name="ideVersion">2024.1.1.0.0</property>
-        <property name="originalScheme">Chill copy1</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="7f9f7f" />
@@ -45,7 +44,7 @@
         <option name="INDENT_GUIDE" value="424b5d" />
         <option name="LINE_NUMBERS_COLOR" value="d8dee9" />
         <option name="SELECTED_INDENT_GUIDE" value="424b5d" />
-        <option name="SELECTION_BACKGROUND" value="3e4757" />
+        <option name="SELECTION_BACKGROUND" value="505869" />
         <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
         <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
         <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
@@ -689,7 +688,11 @@
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
-        <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
+        <option name="DEFAULT_IDENTIFIER">
+            <value>
+                <option name="FOREGROUND" value="dadbc0" />
+            </value>
+        </option>
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
@@ -899,7 +902,6 @@
         <option name="GO_PACKAGE">
             <value>
                 <option name="FOREGROUND" value="ebcb8b" />
-                <option name="BACKGROUND" value="2e3440" />
             </value>
         </option>
         <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />

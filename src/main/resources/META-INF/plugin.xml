@@ -76,6 +76,6 @@
         <themeProvider id="com.github.shubham076.carbonLight" path="/themes/carbonLight.theme.json" />
         <themeProvider id="com.github.shubham076.bracketsLight" path="/themes/bracketsLight.theme.json" />
         <themeProvider id="com.github.shubham076.chill" path="/themes/chill.theme.json" />
-        <themeProvider id="com.github.shubham076.fluffy" path="/themes/fluffy.theme.json" />
+        <themeProvider id="com.github.shubham076.chalk" path="/themes/chalk.theme.json" />
     </extensions>
 </idea-plugin>

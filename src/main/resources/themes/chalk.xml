@@ -1,4 +1,4 @@
-<scheme name="Fluffy" version="142" parent_scheme="Darcula">
+<scheme name="Chalk" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="ide">GoLand</property>
         <property name="ideVersion">2024.1.1.0.0</property>

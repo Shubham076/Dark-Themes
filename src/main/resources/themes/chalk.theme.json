@@ -1,8 +1,8 @@
 {
   "author": "Shubham",
   "dark": true,
-  "name": "Fluffy",
-  "editorScheme": "/themes/fluffy.xml",
+  "name": "Chalk",
+  "editorScheme": "/themes/chalk.xml",
   "ui": {
     "*": {
       "background": "#263238",
