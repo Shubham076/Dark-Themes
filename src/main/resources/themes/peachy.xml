@@ -595,8 +595,17 @@
                 <option name="FOREGROUND" value="f1edbc" />
             </value>
         </option>
+        <option name="DEFAULT_GLOBAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="dadbc0" />
+            </value>
+        </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
-        <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
+        <option name="DEFAULT_IDENTIFIER">
+            <value>
+                <option name="FOREGROUND" value="dadbc0" />
+            </value>
+        </option>
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INSTANCE_METHOD">
             <value>
@@ -729,7 +738,6 @@
         <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="c7c7ff" />
-                <option name="BACKGROUND" value="171717" />
                 <option name="FONT_TYPE" value="2" />
                 <option name="EFFECT_COLOR" value="c7c7ff" />
                 <option name="EFFECT_TYPE" value="1" />
@@ -1679,7 +1687,7 @@
         </option>
         <option name="TEXT">
             <value>
-                <option name="FOREGROUND" value="eaf2f1" />
+                <option name="FOREGROUND" value="dadbc0" />
                 <option name="BACKGROUND" value="2a2d3a" />
             </value>
         </option>
