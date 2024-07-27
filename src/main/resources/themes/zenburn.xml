@@ -1590,14 +1590,31 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="YAML_ANCHOR">
+    <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="YAML_SCALAR_LIST">
       <value>
-        <option name="FOREGROUND" value="4c7073" />
+        <option name="FOREGROUND" value="fffd87" />
+        <option name="BACKGROUND" value="3f3f3f" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_VALUE">
+      <value>
+        <option name="FOREGROUND" value="fffd87" />
+        <option name="BACKGROUND" value="3f3f3f" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="YAML_SCALAR_VALUE4">
       <value>
         <option name="FOREGROUND" value="e8d3d3" />
+      </value>
+    </option>
+    <option name="YAML_TEXT">
+      <value>
+        <option name="FOREGROUND" value="fffd87" />
+        <option name="BACKGROUND" value="3f3f3f" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="org.rust.MACRO">
