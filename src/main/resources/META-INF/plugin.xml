@@ -57,7 +57,6 @@
         <themeProvider id="com.github.shubham076.vim-dark-soft" path="/themes/vimDarkSoft.theme.json" />
         <themeProvider id="com.github.shubham076.vim-dark" path="/themes/vimDark.theme.json" />
         <themeProvider id="com.github.shubham076.vim-light" path="/themes/vimLight.theme.json" />
-        <themeProvider id="com.github.shubham076.vitesse-dark" path="/themes/vitesseDark.theme.json" />
         <themeProvider id="com.github.shubham076.serenade" path="/themes/serenade.theme.json" />
         <themeProvider id="com.github.shubham076.fairyfloss" path="/themes/fairyfloss.theme.json" />
         <themeProvider id="com.github.shubham076.gruvboxConcoctisHard" path="/themes/gruvboxConcoctisHard.theme.json" />
