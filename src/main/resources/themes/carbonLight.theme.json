@@ -5,7 +5,7 @@
   "editorScheme": "/themes/carbonLight.xml",
   "ui": {
     "*": {
-      "background": "#fdf6e3",
+      "background": "#eee8d5",
       "foreground": "#2f3f50",
       "highlight": "#e7e7e8ff",
       "selectionBackground": "#eae0c0",
@@ -23,21 +23,26 @@
       "excluded": "#d3e1e8ff"
     },
     "DefaultTabs": {
-      "background": "#fdf6e3",
+      "background": "#eee8d5",
       "borderColor": "#FCF5F5"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#fdf6e3",
+      "underlinedTabBackground": "#eee8d5",
       "borderColor": "#FCF5F5"
     },
     "Popup": {
-      "Header.activeBackground": "#fdf6e3"
+      "Header.activeBackground": "#eee8d5"
     },
     "TabbedPane": {
-      "hoverColor": "#fdf6e3"
+      "hoverColor": "#eee8d5"
     },
     "Button": {
-      "focus": "#fdf6e3"
+      "focus": "#eee8d5"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#eee8d5"
+      }
     }
   }
 }
