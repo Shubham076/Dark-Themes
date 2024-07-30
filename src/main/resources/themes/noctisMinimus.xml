@@ -696,14 +696,13 @@
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="d3b692" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="bdbdbd" />
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="dadfc0" />
+        <option name="FOREGROUND" value="bdbdbd" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
@@ -972,11 +971,6 @@
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-    <option name="GO_STRUCT_EXPORTED_MEMBER">
-      <value>
-        <option name="FOREGROUND" value="dadfc0" />
-      </value>
-    </option>
     <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_ID">
       <value>
@@ -1936,7 +1930,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="dadfc0" />
+        <option name="FOREGROUND" value="bdbdbd" />
         <option name="BACKGROUND" value="1b2932" />
       </value>
     </option>
