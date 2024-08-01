@@ -10,10 +10,8 @@
         <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="3f3f3f" />
         <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="3f3f3f" />
         <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-        <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="3f3f3f" />
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-        <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
         <option name="CARET_COLOR" value="d8dee9" />
         <option name="CARET_ROW_COLOR" value="3b4252" />
         <option name="CONSOLE_BACKGROUND_KEY" value="2e3440" />
@@ -1391,6 +1389,11 @@
                 <option name="FOREGROUND" value="a3be8c" />
             </value>
         </option>
+        <option name="PY.ANNOTATION">
+            <value>
+                <option name="FOREGROUND" value="ebcb8b" />
+            </value>
+        </option>
         <option name="PY.BRACES">
             <value>
                 <option name="FOREGROUND" value="eceff4" />
@@ -1403,17 +1406,7 @@
         </option>
         <option name="PY.BUILTIN_NAME">
             <value>
-                <option name="FOREGROUND" value="88c0d0" />
-            </value>
-        </option>
-        <option name="PY.CLASS_DEFINITION">
-            <value>
-                <option name="FOREGROUND" value="8fbcbb" />
-            </value>
-        </option>
-        <option name="PY.COMMA">
-            <value>
-                <option name="FOREGROUND" value="eceff4" />
+                <option name="FOREGROUND" value="ebcb8b" />
             </value>
         </option>
         <option name="PY.DECORATOR">
@@ -1431,30 +1424,10 @@
                 <option name="FOREGROUND" value="eceff4" />
             </value>
         </option>
-        <option name="PY.FUNC_DEFINITION">
-            <value>
-                <option name="FOREGROUND" value="88c0d0" />
-            </value>
-        </option>
-        <option name="PY.KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="e26b73" />
-                <option name="FONT_TYPE" value="3" />
-            </value>
-        </option>
+        <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.LINE_COMMENT">
             <value>
                 <option name="FOREGROUND" value="616e88" />
-            </value>
-        </option>
-        <option name="PY.NUMBER">
-            <value>
-                <option name="FOREGROUND" value="b48ead" />
-            </value>
-        </option>
-        <option name="PY.OPERATION_SIGN">
-            <value>
-                <option name="FOREGROUND" value="81a1c1" />
             </value>
         </option>
         <option name="PY.PARENTHS">
@@ -1462,26 +1435,15 @@
                 <option name="FOREGROUND" value="eceff4" />
             </value>
         </option>
-        <option name="PY.PREDEFINED_USAGE">
-            <value>
-                <option name="FOREGROUND" value="88c0d0" />
-            </value>
-        </option>
+        <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+        <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+        <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.STRING">
             <value>
                 <option name="FOREGROUND" value="a3be8c" />
             </value>
         </option>
-        <option name="PY.VALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="ebcb8b" />
-            </value>
-        </option>
-        <option name="REST.BOLD">
-            <value>
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
+        <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
         <option name="REST.EXPLICIT">
             <value>
                 <option name="FOREGROUND" value="81a1c1" />
@@ -1505,11 +1467,6 @@
         <option name="REST.INTERPRETED">
             <value>
                 <option name="BACKGROUND" value="4d5d3d" />
-            </value>
-        </option>
-        <option name="REST.ITALIC">
-            <value>
-                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="REST.LINE_COMMENT">
