@@ -571,12 +571,12 @@
     <option name="DEFAULT_DOT" baseAttributes="" />
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="d3b58d" />
+        <option name="FOREGROUND" value="e1b29c" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="d3b58d" />
+        <option name="FOREGROUND" value="e1b29c" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
