@@ -1424,6 +1424,16 @@
                 <option name="FOREGROUND" value="eceff4" />
             </value>
         </option>
+        <option name="PY.FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="ebcb8b" />
+            </value>
+        </option>
+        <option name="PY.FUNC_DEFINITION">
+            <value>
+                <option name="FOREGROUND" value="ebcb8b" />
+            </value>
+        </option>
         <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.LINE_COMMENT">
             <value>
