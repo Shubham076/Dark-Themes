@@ -616,7 +616,7 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="49d6e9" />
+        <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -636,12 +636,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="49e9a6" />
+        <option name="FOREGROUND" value="63e797" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="49e9a6" />
+        <option name="FOREGROUND" value="63e797" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -681,12 +681,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="49d6e9" />
+        <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="49d6e9" />
+        <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -704,17 +704,17 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="49e9a6" />
+        <option name="FOREGROUND" value="63e797" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="e3541c" />
+        <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="e4b781" />
+        <option name="FOREGROUND" value="ff8d64" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -767,7 +767,7 @@
     <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="49e9a6" />
+        <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -778,7 +778,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="49ace9" />
+        <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -916,11 +916,7 @@
         <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
-    <option name="GO_BUILTIN_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="49d6e9" />
-      </value>
-    </option>
+    <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_BUILTIN_VARIABLE">
       <value>
@@ -928,11 +924,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="GO_EXPORTED_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="49d6e9" />
-      </value>
-    </option>
+    <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="5988a6" />
@@ -943,15 +935,11 @@
         <option name="FOREGROUND" value="d5971a" />
       </value>
     </option>
-    <option name="GO_LOCAL_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="49d6e9" />
-      </value>
-    </option>
+    <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="49e9a6" />
+        <option name="FOREGROUND" value="63e797" />
       </value>
     </option>
     <option name="GO_PACKAGE_EXPORTED_CONSTANT">
@@ -977,11 +965,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="GO_TYPE_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="49e9a6" />
-      </value>
-    </option>
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="7060eb" />
@@ -1053,11 +1037,7 @@
       </value>
     </option>
     <option name="HAML_XHTML" baseAttributes="" />
-    <option name="HTML_ATTRIBUTE_NAME">
-      <value>
-        <option name="FOREGROUND" value="49d6e9" />
-      </value>
-    </option>
+    <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="49e9a6" />
@@ -1082,7 +1062,11 @@
         <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
-    <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HTML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="e4b781" />
+      </value>
+    </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
@@ -2012,11 +1996,7 @@
         <option name="BACKGROUND" value="623062" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME">
-      <value>
-        <option name="FOREGROUND" value="49d6e9" />
-      </value>
-    </option>
+    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="49e9a6" />
@@ -2038,7 +2018,11 @@
         <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
-    <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="XML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="e4b781" />
+      </value>
+    </option>
     <option name="YAML_COMMENT">
       <value>
         <option name="FOREGROUND" value="5988a6" />
@@ -2051,7 +2035,7 @@
     </option>
     <option name="YAML_SCALAR_KEY">
       <value>
-        <option name="FOREGROUND" value="e66533" />
+        <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
     <option name="YAML_SCALAR_LIST">
@@ -2081,7 +2065,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="49D6E9" />
+        <option name="FOREGROUND" value="49d6e9" />
       </value>
     </option>
   </attributes>
