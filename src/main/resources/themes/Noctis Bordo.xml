@@ -634,12 +634,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="63e797" />
+        <option name="FOREGROUND" value="92ddaa" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="63e797" />
+        <option name="FOREGROUND" value="92ddaa" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -696,7 +696,7 @@
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="63e797" />
+        <option name="FOREGROUND" value="92ddaa" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -706,7 +706,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="ff8d64" />
+        <option name="FOREGROUND" value="ea9b73" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -928,7 +928,7 @@
     </option>
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="63e797" />
+        <option name="FOREGROUND" value="92ddaa" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -937,11 +937,7 @@
         <option name="FOREGROUND" value="dadfc0" />
       </value>
     </option>
-    <option name="GO_TYPE_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="49e9a6" />
-      </value>
-    </option>
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="7060eb" />

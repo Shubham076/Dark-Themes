@@ -636,12 +636,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="63e797" />
+        <option name="FOREGROUND" value="85e0a4" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="63e797" />
+        <option name="FOREGROUND" value="85e0a4" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -704,7 +704,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="63e797" />
+        <option name="FOREGROUND" value="85e0a4" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -714,7 +714,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="ff8d64" />
+        <option name="FOREGROUND" value="ffa474" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -939,7 +939,7 @@
     <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="63e797" />
+        <option name="FOREGROUND" value="85e0a4" />
       </value>
     </option>
     <option name="GO_PACKAGE_EXPORTED_CONSTANT">
