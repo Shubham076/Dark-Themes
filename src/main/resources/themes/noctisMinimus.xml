@@ -713,12 +713,12 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="b16a4e" />
+        <option name="FOREGROUND" value="72c09f" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="c37455" />
+        <option name="FOREGROUND" value="cd8b72" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -768,7 +768,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="5998c0" />
+        <option name="FOREGROUND" value="72c09f" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -925,11 +925,7 @@
       </value>
     </option>
     <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-    <option name="GO_METHOD_RECEIVER">
-      <value>
-        <option name="FOREGROUND" value="d3b692" />
-      </value>
-    </option>
+    <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
         <option name="FOREGROUND" value="72c09f" />
