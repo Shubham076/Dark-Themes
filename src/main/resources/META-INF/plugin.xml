@@ -34,8 +34,6 @@
         <themeProvider id="com.github.shubham076.rouge" path="/themes/rouge.theme.json"/>
         <themeProvider id="com.github.shubham076.noctis" path="/themes/noctis.theme.json"/>
         <themeProvider id="com.github.shubham076.noctisSereno" path="/themes/noctisSereno.theme.json"/>
-        <themeProvider id="com.github.shubham076.noctisVoila" path="/themes/noctisVoila.theme.json"/>
-        <themeProvider id="com.github.shubham076.noctisUva" path="/themes/noctisUva.theme.json"/>
         <themeProvider id="com.github.shubham076.noctisMinimus" path="/themes/NoctisMinimus.theme.json"/>
         <themeProvider id="com.github.shubham076.noctisBordo" path="/themes/noctisBordo.theme.json"/>
         <themeProvider id="com.github.shubham076.noctisAzureus" path="/themes/noctisAzureus.theme.json"/>
