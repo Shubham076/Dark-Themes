@@ -696,7 +696,11 @@
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
-    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="becfda" />
+      </value>
+    </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
         <option name="FOREGROUND" value="e4b781" />
@@ -1223,6 +1227,31 @@
       </value>
     </option>
     <option name="JS.REGEXP">
+      <value>
+        <option name="FOREGROUND" value="49e9a6" />
+      </value>
+    </option>
+    <option name="JSON.INVALID_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="49e9a6" />
+      </value>
+    </option>
+    <option name="JSON.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="49e9a6" />
+      </value>
+    </option>
+    <option name="JSON.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="49e9a6" />
+      </value>
+    </option>
+    <option name="JSON.STRING">
+      <value>
+        <option name="FOREGROUND" value="49e9a6" />
+      </value>
+    </option>
+    <option name="JSON.VALID_ESCAPE">
       <value>
         <option name="FOREGROUND" value="49e9a6" />
       </value>

@@ -1012,7 +1012,7 @@
     <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="49e9a6" />
+        <option name="FOREGROUND" value="92ddaa" />
       </value>
     </option>
     <option name="HTML_CODE">
@@ -1191,6 +1191,36 @@
     </option>
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
+    <option name="JSON.INVALID_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="92ddaa" />
+      </value>
+    </option>
+    <option name="JSON.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="92ddaa" />
+      </value>
+    </option>
+    <option name="JSON.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="92ddaa" />
+      </value>
+    </option>
+    <option name="JSON.PROPERTY_KEY">
+      <value>
+        <option name="FOREGROUND" value="e4b781" />
+      </value>
+    </option>
+    <option name="JSON.STRING">
+      <value>
+        <option name="FOREGROUND" value="92ddaa" />
+      </value>
+    </option>
+    <option name="JSON.VALID_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="92ddaa" />
+      </value>
+    </option>
     <option name="KOTLIN_LABEL">
       <value />
     </option>
@@ -1966,7 +1996,7 @@
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="49e9a6" />
+        <option name="FOREGROUND" value="92ddaa" />
       </value>
     </option>
     <option name="XML_ENTITY_REFERENCE">
@@ -1996,7 +2026,7 @@
     </option>
     <option name="YAML_SCALAR_DSTRING">
       <value>
-        <option name="FOREGROUND" value="49e9a6" />
+        <option name="FOREGROUND" value="92ddaa" />
       </value>
     </option>
     <option name="YAML_SCALAR_KEY">
@@ -2006,17 +2036,17 @@
     </option>
     <option name="YAML_SCALAR_LIST">
       <value>
-        <option name="FOREGROUND" value="49e9a6" />
+        <option name="FOREGROUND" value="92ddaa" />
       </value>
     </option>
     <option name="YAML_SCALAR_STRING">
       <value>
-        <option name="FOREGROUND" value="49e9a6" />
+        <option name="FOREGROUND" value="92ddaa" />
       </value>
     </option>
     <option name="YAML_SCALAR_VALUE">
       <value>
-        <option name="FOREGROUND" value="49e9a6" />
+        <option name="FOREGROUND" value="92ddaa" />
       </value>
     </option>
     <option name="YAML_SIGN">
@@ -2026,7 +2056,7 @@
     </option>
     <option name="YAML_TEXT">
       <value>
-        <option name="FOREGROUND" value="49e9a6" />
+        <option name="FOREGROUND" value="92ddaa" />
       </value>
     </option>
     <option name="org.rust.MACRO">

@@ -621,7 +621,7 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="72b7c0" />
+        <option name="FOREGROUND" value="d3b692" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -1004,11 +1004,7 @@
       </value>
     </option>
     <option name="HAML_XHTML" baseAttributes="" />
-    <option name="HTML_ATTRIBUTE_NAME">
-      <value>
-        <option name="FOREGROUND" value="72b7c0" />
-      </value>
-    </option>
+    <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="72c09f" />
@@ -1030,7 +1026,11 @@
         <option name="FOREGROUND" value="d3b692" />
       </value>
     </option>
-    <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HTML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="d3b692" />
+      </value>
+    </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
@@ -1167,6 +1167,21 @@
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="72c09f" />
+      </value>
+    </option>
+    <option name="JSON.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="72c09f" />
+      </value>
+    </option>
+    <option name="JSON.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="72c09f" />
+      </value>
+    </option>
+    <option name="JSON.PROPERTY_KEY">
+      <value>
+        <option name="FOREGROUND" value="d3b692" />
       </value>
     </option>
     <option name="LABEL">
@@ -1936,11 +1951,7 @@
         <option name="BACKGROUND" value="623062" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME">
-      <value>
-        <option name="FOREGROUND" value="72b7c0" />
-      </value>
-    </option>
+    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="72c09f" />
@@ -1962,7 +1973,11 @@
         <option name="FOREGROUND" value="d3b692" />
       </value>
     </option>
-    <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="XML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="d3b692" />
+      </value>
+    </option>
     <option name="YAML_COMMENT">
       <value>
         <option name="FOREGROUND" value="5e7887" />
@@ -1975,7 +1990,7 @@
     </option>
     <option name="YAML_SCALAR_KEY">
       <value>
-        <option name="FOREGROUND" value="c37455" />
+        <option name="FOREGROUND" value="d3b692" />
       </value>
     </option>
     <option name="YAML_SCALAR_LIST">

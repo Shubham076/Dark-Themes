@@ -712,7 +712,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="ffa282" />
+        <option name="FOREGROUND" value="f78c6c" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -1197,6 +1197,36 @@
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="49e9a6" />
+      </value>
+    </option>
+    <option name="JSON.INVALID_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="85e0a4" />
+      </value>
+    </option>
+    <option name="JSON.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="85e0a4" />
+      </value>
+    </option>
+    <option name="JSON.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="85e0a4" />
+      </value>
+    </option>
+    <option name="JSON.PROPERTY_KEY">
+      <value>
+        <option name="FOREGROUND" value="e4b781" />
+      </value>
+    </option>
+    <option name="JSON.STRING">
+      <value>
+        <option name="FOREGROUND" value="85e0a4" />
+      </value>
+    </option>
+    <option name="JSON.VALID_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="85e0a4" />
       </value>
     </option>
     <option name="KOTLIN_LABEL">
