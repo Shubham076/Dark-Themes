@@ -1216,11 +1216,6 @@
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
-    <option name="JS.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="e66533" />
-      </value>
-    </option>
     <option name="JS.LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="e4b781" />
@@ -1997,6 +1992,19 @@
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
         <option name="ERROR_STRIPE_COLOR" value="ff" />
+      </value>
+    </option>
+    <option name="TS.PRIMITIVE.TYPES">
+      <value>
+        <option name="FOREGROUND" value="85e0a4" />
+      </value>
+    </option>
+    <option name="TS.TYPE_GUARD">
+      <value />
+    </option>
+    <option name="TS.TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="85e0a4" />
       </value>
     </option>
     <option name="TYPEDEF">
