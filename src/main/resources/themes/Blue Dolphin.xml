@@ -607,12 +607,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="ffffcc" />
+        <option name="FOREGROUND" value="f2f2bf" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="ffffcc" />
+        <option name="FOREGROUND" value="f2f2bf" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
