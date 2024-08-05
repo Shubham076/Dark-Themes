@@ -133,8 +133,12 @@
                 <option name="FOREGROUND" value="baacff" />
             </value>
         </option>
-        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="d5d8da" />
+            </value>
+        </option>
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="APACHE_CONFIG.ARG_LEXEM">
             <value>
                 <option name="FOREGROUND" value="64d1a9" />
@@ -423,7 +427,7 @@
         </option>
         <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
         <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-        <option name="Class" baseAttributes="" />
+        <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="Closure braces">
             <value>
                 <option name="FOREGROUND" value="7fdaff" />
@@ -545,11 +549,7 @@
                 <option name="FOREGROUND" value="cbcccd" />
             </value>
         </option>
-        <option name="DEFAULT_INSTANCE_FIELD">
-            <value>
-                <option name="FOREGROUND" value="7fdbca" />
-            </value>
-        </option>
+        <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INSTANCE_METHOD">
             <value>
                 <option name="FOREGROUND" value="fab795" />
@@ -590,7 +590,7 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="70b0ff" />
+                <option name="FOREGROUND" value="7fdbca" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -632,12 +632,7 @@
                 <option name="FOREGROUND" value="86e1fc" />
             </value>
         </option>
-        <option name="DEFAULT_STATIC_FIELD">
-            <value>
-                <option name="FOREGROUND" value="7fdbca" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
+        <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_STATIC_METHOD">
             <value>
                 <option name="FOREGROUND" value="fab795" />
@@ -681,25 +676,25 @@
         </option>
         <option name="DIFF_CONFLICT">
             <value>
-                <option name="BACKGROUND" value="572327" />
+                <option name="BACKGROUND" value="4e2727" />
                 <option name="ERROR_STRIPE_COLOR" value="b03435" />
             </value>
         </option>
         <option name="DIFF_DELETED">
             <value>
-                <option name="BACKGROUND" value="212e3a" />
+                <option name="BACKGROUND" value="41454b" />
                 <option name="ERROR_STRIPE_COLOR" value="656e76" />
             </value>
         </option>
         <option name="DIFF_INSERTED">
             <value>
-                <option name="BACKGROUND" value="405044" />
+                <option name="BACKGROUND" value="374b2c" />
                 <option name="ERROR_STRIPE_COLOR" value="447152" />
             </value>
         </option>
         <option name="DIFF_MODIFIED">
             <value>
-                <option name="BACKGROUND" value="25354e" />
+                <option name="BACKGROUND" value="675433" />
                 <option name="ERROR_STRIPE_COLOR" value="284777" />
             </value>
         </option>
@@ -3491,7 +3486,7 @@
                 <option name="FOREGROUND" value="baacff" />
             </value>
         </option>
-        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
         <option name="TYPO">
             <value>
                 <option name="EFFECT_COLOR" value="dbbe7f" />
