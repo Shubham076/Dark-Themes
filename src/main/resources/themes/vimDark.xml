@@ -934,11 +934,6 @@
       </value>
     </option>
     <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-    <option name="GO_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="fb4934" />
-      </value>
-    </option>
     <option name="GO_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="928374" />
@@ -1099,7 +1094,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -1983,7 +1978,7 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="fabd2f" />

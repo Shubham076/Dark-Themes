@@ -56,7 +56,7 @@
         <option name="FOREGROUND" value="ebdbb2" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="fb3934" />
@@ -911,11 +911,6 @@
     <option name="GO_EXPORTED_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="fabd2f" />
-      </value>
-    </option>
-    <option name="GO_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="fb4934" />
       </value>
     </option>
     <option name="GO_LINE_COMMENT">
@@ -1852,7 +1847,7 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="fabd2f" />
