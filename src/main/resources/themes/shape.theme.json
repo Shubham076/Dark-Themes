@@ -5,7 +5,7 @@
   "editorScheme": "/themes/shape.xml",
   "ui": {
     "*": {
-      "background": "131c28ff",
+      "background": "1e2939",
       "foreground": "b0bec5ff",
       "highlight": "425b67ff",
       "selectionBackground": "#1e2c3fff",
@@ -28,7 +28,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#131c28ff"
+        "inactiveBackground": "#1e2939"
       }
     },
      "Plugins": {
