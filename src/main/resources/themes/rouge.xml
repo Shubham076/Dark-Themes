@@ -12,7 +12,7 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="1d283b" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="CARET_COLOR" value="c6797e" />
-    <option name="CARET_ROW_COLOR" value="2A363E" />
+    <option name="CARET_ROW_COLOR" value="2a363e" />
     <option name="CONSOLE_BACKGROUND_KEY" value="1d283b" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
@@ -49,6 +49,12 @@
     <option name="WHITESPACES" value="293a44" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="bbbbbb" />
+      </value>
+    </option>
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="bbbbbb" />
@@ -628,12 +634,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="f7e3af" />
+        <option name="FOREGROUND" value="e3cf9c" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="f7e3af" />
+        <option name="FOREGROUND" value="e3cf9c" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -691,7 +697,7 @@
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="f7e3af" />
+        <option name="FOREGROUND" value="e3cf9c" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -721,7 +727,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="db6e8f" />
+        <option name="FOREGROUND" value="9dd2bb" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">

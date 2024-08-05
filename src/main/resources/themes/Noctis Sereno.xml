@@ -9,10 +9,8 @@
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="62e32" />
     <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="62e32" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="62e32" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="b2cacd" />
     <option name="CARET_ROW_COLOR" value="73b42" />
     <option name="CONSOLE_BACKGROUND_KEY" value="62e32" />
@@ -48,6 +46,12 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="b2cacd" />
+      </value>
+    </option>
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="e3541c" />
@@ -729,7 +733,11 @@
         <option name="FOREGROUND" value="b2cacd" />
       </value>
     </option>
-    <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
+    <option name="DEFAULT_METADATA">
+      <value>
+        <option name="FOREGROUND" value="ddb17b" />
+      </value>
+    </option>
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="ddb17b" />
@@ -2083,11 +2091,6 @@
         <option name="FOREGROUND" value="49e9a6" />
       </value>
     </option>
-    <option name="com.plan9.IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="com.plan9.INSTRUCTION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
-    <option name="com.plan9.PSEUDO_INSTRUCTION" baseAttributes="com.plan9.INSTRUCTION" />
-    <option name="com.plan9.REGISTER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="org.rust.MACRO">
       <value>
         <option name="FOREGROUND" value="49d6e9" />
