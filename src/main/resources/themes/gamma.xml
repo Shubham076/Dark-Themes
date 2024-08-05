@@ -52,6 +52,12 @@
     <option name="WHITESPACES" value="17d3c2" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="d3c6aa" />
+      </value>
+    </option>
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="6e3b3b" />
@@ -640,7 +646,6 @@
     <option name="DEFAULT_CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="e2ad7c" />
-        <option name="BACKGROUND" value="33535" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
@@ -716,7 +721,6 @@
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="e2ad7c" />
-        <option name="BACKGROUND" value="33535" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
@@ -738,7 +742,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="ec4b4" />
+        <option name="FOREGROUND" value="e2ad7c" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -1094,7 +1098,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
       <value>
         <option name="EFFECT_TYPE" value="1" />
@@ -1171,17 +1175,6 @@
         <option name="FOREGROUND" value="ff7e7e" />
       </value>
     </option>
-    <option name="JAVA_INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="68e868" />
-        <option name="BACKGROUND" value="481515" />
-      </value>
-    </option>
-    <option name="JAVA_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="59baa3" />
-      </value>
-    </option>
     <option name="JAVA_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="1968a" />
@@ -1206,16 +1199,6 @@
     <option name="JAVA_SEMICOLON">
       <value>
         <option name="FOREGROUND" value="ff7e7e" />
-      </value>
-    </option>
-    <option name="JAVA_STRING">
-      <value>
-        <option name="FOREGROUND" value="92db5e" />
-      </value>
-    </option>
-    <option name="JAVA_VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="58d1e0" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />

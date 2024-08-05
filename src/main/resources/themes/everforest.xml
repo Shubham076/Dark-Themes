@@ -10,10 +10,8 @@
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="323d43" />
     <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="323d43" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="323d43" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="d3c6aa" />
     <option name="CARET_ROW_COLOR" value="374247" />
     <option name="CONSOLE_BACKGROUND_KEY" value="323d43" />
@@ -104,6 +102,7 @@
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="596763" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="544247" />
@@ -447,6 +446,11 @@
         <option name="FOREGROUND" value="d3c6aa" />
       </value>
     </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="a7c080" />
+      </value>
+    </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
         <option name="FOREGROUND" value="a7c080" />
@@ -511,21 +515,13 @@
         <option name="FOREGROUND" value="d3c6aa" />
       </value>
     </option>
+    <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="a7c080" />
+        <option name="FOREGROUND" value="d3c6aa" />
       </value>
     </option>
-    <option name="DEFAULT_INSTANCE_FIELD">
-      <value>
-        <option name="FOREGROUND" value="a7c080" />
-      </value>
-    </option>
-    <option name="DEFAULT_INSTANCE_METHOD">
-      <value>
-        <option name="FOREGROUND" value="a7c080" />
-      </value>
-    </option>
+    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="a7c080" />
@@ -540,7 +536,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="e67e80" />
+        <option name="FOREGROUND" value="e39b7b" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
@@ -604,11 +600,7 @@
         <option name="FOREGROUND" value="859289" />
       </value>
     </option>
-    <option name="DEFAULT_STATIC_FIELD">
-      <value>
-        <option name="FOREGROUND" value="a7c080" />
-      </value>
-    </option>
+    <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="a7c080" />
@@ -616,7 +608,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="83c092" />
+        <option name="FOREGROUND" value="dbbc7f" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -744,7 +736,7 @@
         <option name="BACKGROUND" value="404c51" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="dbbc7f" />
@@ -758,25 +750,25 @@
     <option name="INLINE_PARAMETER_HINT">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="54646E" />
+        <option name="BACKGROUND" value="54646e" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="54646E" />
+        <option name="BACKGROUND" value="54646e" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="54646E" />
+        <option name="BACKGROUND" value="54646e" />
       </value>
     </option>
     <option name="INLINE_STACK_FRAMES">
       <value />
     </option>
-    <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="" />
+    <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="JS.BADCHARACTER">
       <value>
         <option name="BACKGROUND" value="544247" />
@@ -1775,8 +1767,8 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
-    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="" />
+    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d3c6aa" />
@@ -1807,6 +1799,7 @@
         <option name="FOREGROUND" value="859289" />
       </value>
     </option>
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
     <option name="TYPO">
       <value>
         <option name="EFFECT_COLOR" value="a7c080" />
@@ -1887,7 +1880,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="A7C080" />
+        <option name="FOREGROUND" value="a7c080" />
       </value>
     </option>
   </attributes>
