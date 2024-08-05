@@ -12,7 +12,7 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="3744" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="CARET_COLOR" value="b9b9b9" />
-    <option name="CARET_ROW_COLOR" value="2933" />
+    <option name="CARET_ROW_COLOR" value="1f4662" />
     <option name="CONSOLE_BACKGROUND_KEY" value="3744" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
@@ -53,6 +53,12 @@
     <option name="WHITESPACES" value="525252" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="dadfc0" />
+      </value>
+    </option>
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="fff1ce" />
@@ -656,7 +662,7 @@
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="fff1cc" />
+        <option name="FOREGROUND" value="dadfc0" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -687,7 +693,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="fff1ce" />
+        <option name="FOREGROUND" value="d1f1a9" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -961,7 +967,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -1699,7 +1705,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="fff1ce" />
+        <option name="FOREGROUND" value="dadfc0" />
         <option name="BACKGROUND" value="3744" />
       </value>
     </option>
@@ -1719,6 +1725,11 @@
     <option name="TYPEDEF">
       <value>
         <option name="FOREGROUND" value="c2ffd8" />
+      </value>
+    </option>
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="d1f1a9" />
       </value>
     </option>
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
@@ -1772,7 +1783,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="FFD580" />
+        <option name="FOREGROUND" value="ffd580" />
       </value>
     </option>
   </attributes>
