@@ -45,6 +45,12 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="dadfc0" />
+      </value>
+    </option>
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="ff5370" />
@@ -666,12 +672,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="fbee9f" />
+        <option name="FOREGROUND" value="eee192" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="fbee9f" />
+        <option name="FOREGROUND" value="eee192" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -681,12 +687,12 @@
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
-    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
-    <option name="DEFAULT_INSTANCE_FIELD">
+    <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="9fdefb" />
+        <option name="FOREGROUND" value="dadfc0" />
       </value>
     </option>
+    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
         <option name="FOREGROUND" value="fbee9f" />
@@ -699,22 +705,17 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="ff5370" />
+        <option name="FOREGROUND" value="fbbc9f" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="9fdefb" />
+        <option name="FOREGROUND" value="fbbc9f" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="cd9ffb" />
-      </value>
-    </option>
-    <option name="DEFAULT_LOCAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="ededed" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -730,11 +731,6 @@
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="9fdefb" />
-      </value>
-    </option>
-    <option name="DEFAULT_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="ededed" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
@@ -762,12 +758,7 @@
         <option name="FOREGROUND" value="cd9ffb" />
       </value>
     </option>
-    <option name="DEFAULT_STATIC_FIELD">
-      <value>
-        <option name="FOREGROUND" value="9fdefb" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
+    <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="fbee9f" />
@@ -786,7 +777,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="89ddff" />
+        <option name="FOREGROUND" value="fbbc9f" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -1099,7 +1090,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -1166,12 +1157,6 @@
         <option name="FOREGROUND" value="cd9ffb" />
       </value>
     </option>
-    <option name="JAVA_DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="cd9ffb" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="JAVA_DOC_MARKUP">
       <value>
         <option name="BACKGROUND" value="223f22" />
@@ -1192,17 +1177,6 @@
     <option name="JAVA_INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="ff5370" />
-      </value>
-    </option>
-    <option name="JAVA_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="9fdefb" />
-      </value>
-    </option>
-    <option name="JAVA_LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="cd9ffb" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JAVA_NUMBER">
@@ -2001,7 +1975,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="d4d4d4" />
+        <option name="FOREGROUND" value="dadfc0" />
         <option name="BACKGROUND" value="131d46" />
       </value>
     </option>
@@ -2109,7 +2083,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="FBEE9F" />
+        <option name="FOREGROUND" value="fbee9f" />
       </value>
     </option>
   </attributes>
