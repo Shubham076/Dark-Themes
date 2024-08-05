@@ -1054,7 +1054,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -1124,11 +1124,6 @@
         <option name="FOREGROUND" value="c5cdd3" />
       </value>
     </option>
-    <option name="JAVA_INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="b16a4e" />
-      </value>
-    </option>
     <option name="JAVA_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="5e7887" />
@@ -1147,16 +1142,6 @@
     <option name="JAVA_SEMICOLON">
       <value>
         <option name="FOREGROUND" value="c5cdd3" />
-      </value>
-    </option>
-    <option name="JAVA_STRING">
-      <value>
-        <option name="FOREGROUND" value="72c09f" />
-      </value>
-    </option>
-    <option name="JAVA_VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="5998c0" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />

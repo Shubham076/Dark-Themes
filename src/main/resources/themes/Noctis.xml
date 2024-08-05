@@ -1,7 +1,7 @@
 <scheme name="Noctis" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.1.1.0.0</property>
+    <property name="ide">Idea</property>
+    <property name="ideVersion">2024.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -9,10 +9,8 @@
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="52529" />
     <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="52529" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="52529" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="b2cacd" />
     <option name="CARET_ROW_COLOR" value="73b42" />
     <option name="CONSOLE_BACKGROUND_KEY" value="52529" />
@@ -1164,11 +1162,6 @@
         <option name="FOREGROUND" value="b2cacd" />
       </value>
     </option>
-    <option name="JAVA_INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="e3541c" />
-      </value>
-    </option>
     <option name="JAVA_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="5b858b" />
@@ -1187,16 +1180,6 @@
     <option name="JAVA_SEMICOLON">
       <value>
         <option name="FOREGROUND" value="b2cacd" />
-      </value>
-    </option>
-    <option name="JAVA_STRING">
-      <value>
-        <option name="FOREGROUND" value="49e9a6" />
-      </value>
-    </option>
-    <option name="JAVA_VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="49ace9" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
