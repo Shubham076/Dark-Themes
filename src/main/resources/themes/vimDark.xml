@@ -9,10 +9,8 @@
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="282828" />
     <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="282828" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="282828" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CONSOLE_BACKGROUND_KEY" value="282828" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
@@ -48,6 +46,11 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ebdbb2" />
+      </value>
+    </option>
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="cc241d" />
@@ -712,7 +715,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="fb5245" />
+        <option name="FOREGROUND" value="ff7d69" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -1096,7 +1099,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -1189,11 +1192,6 @@
     <option name="JAVA_INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="cc241d" />
-      </value>
-    </option>
-    <option name="JAVA_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="fb4934" />
       </value>
     </option>
     <option name="JAVA_LINE_COMMENT">
@@ -1985,7 +1983,7 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="fabd2f" />

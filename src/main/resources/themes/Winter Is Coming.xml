@@ -1,6 +1,6 @@
 <scheme name="Winter Is Coming" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">PyCharmCore</property>
+    <property name="ide">Idea</property>
     <property name="ideVersion">2024.1.0.0</property>
   </metaInfo>
   <colors>
@@ -52,6 +52,7 @@
     <option name="WHITESPACES" value="3b3a32" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="6dbdfa" />
@@ -660,7 +661,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="A4CEEE" />
+        <option name="FOREGROUND" value="a4ceee" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -982,7 +983,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_TYPE" value="2" />
@@ -1747,7 +1748,7 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="f7ecb5" />

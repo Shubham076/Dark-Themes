@@ -9,10 +9,8 @@
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="232630" />
     <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="232630" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="232630" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="1de1e3" />
     <option name="CARET_ROW_COLOR" value="374247" />
     <option name="CONSOLE_BACKGROUND_KEY" value="232630" />
@@ -48,6 +46,7 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="6e3b3b" />
@@ -636,7 +635,11 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
+    <option name="DEFAULT_METADATA">
+      <value>
+        <option name="FOREGROUND" value="fac29a" />
+      </value>
+    </option>
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="ffac96" />
@@ -985,7 +988,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
       <value>
         <option name="EFFECT_TYPE" value="1" />
@@ -1055,17 +1058,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JAVA_INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="68e868" />
-        <option name="BACKGROUND" value="481515" />
-      </value>
-    </option>
-    <option name="JAVA_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="7299bf" />
-      </value>
-    </option>
     <option name="JAVA_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="707896" />
@@ -1080,17 +1072,6 @@
     <option name="JAVA_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="bbbbbb" />
-      </value>
-    </option>
-    <option name="JAVA_STRING">
-      <value>
-        <option name="FOREGROUND" value="68e868" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="JAVA_VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="3c1b6" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
@@ -1723,7 +1704,7 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="ffac96" />

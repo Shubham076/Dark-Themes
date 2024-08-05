@@ -9,10 +9,8 @@
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="262335" />
     <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="262335" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="262335" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="f97e72" />
     <option name="CARET_ROW_COLOR" value="34353e" />
     <option name="CONSOLE_BACKGROUND_KEY" value="262335" />
@@ -51,6 +49,7 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="6e3b3b" />
@@ -655,7 +654,11 @@
         <option name="FOREGROUND" value="bbbbbb" />
       </value>
     </option>
-    <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
+    <option name="DEFAULT_METADATA">
+      <value>
+        <option name="FOREGROUND" value="edd59d" />
+      </value>
+    </option>
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="f97e72" />
@@ -988,7 +991,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />

@@ -9,10 +9,8 @@
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="2d2b55" />
     <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="2d2b55" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="2d2b55" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="ffffff" />
     <option name="CARET_ROW_COLOR" value="1f1f41" />
     <option name="CONSOLE_BACKGROUND_KEY" value="2d2b55" />
@@ -48,6 +46,12 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="e1efff" />
+      </value>
+    </option>
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="ec3a37" />
@@ -1111,7 +1115,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -2005,7 +2009,7 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FONT_TYPE" value="2" />
@@ -2129,7 +2133,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="FAD000" />
+        <option name="FOREGROUND" value="fad000" />
       </value>
     </option>
   </attributes>
