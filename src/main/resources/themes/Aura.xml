@@ -9,11 +9,9 @@
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="131d46" />
     <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="131d46" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="131d46" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="131d46" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="17224c" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
     <option name="FILESTATUS_DELETED" value="f77669" />
@@ -1976,7 +1974,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="dadfc0" />
-        <option name="BACKGROUND" value="131d46" />
+        <option name="BACKGROUND" value="17224c" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

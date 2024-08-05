@@ -47,6 +47,12 @@
         <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
     </colors>
     <attributes>
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="dadbc0" />
+            </value>
+        </option>
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="BAD_CHARACTER">
             <value>
                 <option name="FOREGROUND" value="ff5370" />
@@ -735,7 +741,7 @@
         </option>
         <option name="DEFAULT_SEMICOLON">
             <value>
-                <option name="FOREGROUND" value="ef96c5" />
+                <option name="FOREGROUND" value="9ddbd6" />
             </value>
         </option>
         <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -1016,11 +1022,7 @@
                 <option name="ERROR_STRIPE_COLOR" value="ccccff" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="fda5ff" />
-            </value>
-        </option>
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="9ddbd6" />
@@ -1037,12 +1039,6 @@
         <option name="INJECTED_LANGUAGE_FRAGMENT">
             <value>
                 <option name="BACKGROUND" value="273627" />
-            </value>
-        </option>
-        <option name="INSTANCE_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="fda5ff" />
-                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="IVAR">
@@ -1064,16 +1060,6 @@
             <value>
                 <option name="FOREGROUND" value="aaaaaa" />
                 <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
-        <option name="JAVA_BRACES">
-            <value>
-                <option name="FOREGROUND" value="ef96c5" />
-            </value>
-        </option>
-        <option name="JAVA_BRACKETS">
-            <value>
-                <option name="FOREGROUND" value="ef96c5" />
             </value>
         </option>
         <option name="JAVA_COMMA">
@@ -1104,50 +1090,15 @@
                 <option name="FOREGROUND" value="ef96c5" />
             </value>
         </option>
-        <option name="JAVA_INVALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="ff5370" />
-            </value>
-        </option>
-        <option name="JAVA_KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="fef5d8" />
-            </value>
-        </option>
         <option name="JAVA_LINE_COMMENT">
             <value>
                 <option name="FOREGROUND" value="aaaaaa" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="JAVA_NUMBER">
-            <value>
-                <option name="FOREGROUND" value="a6c1ee" />
-            </value>
-        </option>
         <option name="JAVA_OPERATION_SIGN">
             <value>
                 <option name="FOREGROUND" value="fef5d8" />
-            </value>
-        </option>
-        <option name="JAVA_PARENTH">
-            <value>
-                <option name="FOREGROUND" value="ef96c5" />
-            </value>
-        </option>
-        <option name="JAVA_SEMICOLON">
-            <value>
-                <option name="FOREGROUND" value="ef96c5" />
-            </value>
-        </option>
-        <option name="JAVA_STRING">
-            <value>
-                <option name="FOREGROUND" value="c5b5ff" />
-            </value>
-        </option>
-        <option name="JAVA_VALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="89ddff" />
             </value>
         </option>
         <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
@@ -1916,12 +1867,6 @@
             </value>
         </option>
         <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-        <option name="STATIC_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="fda5ff" />
-                <option name="FONT_TYPE" value="3" />
-            </value>
-        </option>
         <option name="TAG_ATTR_KEY">
             <value>
                 <option name="FOREGROUND" value="ef96c5" />

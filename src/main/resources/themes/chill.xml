@@ -51,6 +51,12 @@
         <option name="WHITESPACES" value="424b5d" />
     </colors>
     <attributes>
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="dadbc0" />
+            </value>
+        </option>
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="BAD_CHARACTER">
             <value>
                 <option name="BACKGROUND" value="6e3b3b" />
@@ -1016,11 +1022,7 @@
                 <option name="ERROR_STRIPE_COLOR" value="ccccff" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="fda5ff" />
-            </value>
-        </option>
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="9ecaa5" />
@@ -1037,12 +1039,6 @@
         <option name="INJECTED_LANGUAGE_FRAGMENT">
             <value>
                 <option name="BACKGROUND" value="273627" />
-            </value>
-        </option>
-        <option name="INSTANCE_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="fda5ff" />
-                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="IVAR">
@@ -1102,25 +1098,9 @@
                 <option name="FOREGROUND" value="eceff4" />
             </value>
         </option>
-        <option name="JAVA_INVALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="68e868" />
-                <option name="BACKGROUND" value="481515" />
-            </value>
-        </option>
-        <option name="JAVA_KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="81a1c1" />
-            </value>
-        </option>
         <option name="JAVA_LINE_COMMENT">
             <value>
                 <option name="FOREGROUND" value="616e88" />
-            </value>
-        </option>
-        <option name="JAVA_NUMBER">
-            <value>
-                <option name="FOREGROUND" value="b48ead" />
             </value>
         </option>
         <option name="JAVA_OPERATION_SIGN">
@@ -1131,21 +1111,6 @@
         <option name="JAVA_PARENTH">
             <value>
                 <option name="FOREGROUND" value="eceff4" />
-            </value>
-        </option>
-        <option name="JAVA_SEMICOLON">
-            <value>
-                <option name="FOREGROUND" value="eceff4" />
-            </value>
-        </option>
-        <option name="JAVA_STRING">
-            <value>
-                <option name="FOREGROUND" value="a3be8c" />
-            </value>
-        </option>
-        <option name="JAVA_VALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="ebcb8b" />
             </value>
         </option>
         <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
@@ -1864,12 +1829,6 @@
             </value>
         </option>
         <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-        <option name="STATIC_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="fda5ff" />
-                <option name="FONT_TYPE" value="3" />
-            </value>
-        </option>
         <option name="TAG_ATTR_KEY">
             <value>
                 <option name="FOREGROUND" value="8fbcbb" />
