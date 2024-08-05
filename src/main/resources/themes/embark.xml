@@ -626,12 +626,12 @@
     <option name="DEFAULT_DOT" baseAttributes="" />
     <option name="DEFAULT_FUNCTION_CALL">
         <value>
-            <option name="FOREGROUND" value="7fe9c3" />
+            <option name="FOREGROUND" value="ffa2a5" />
         </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
         <value>
-            <option name="FOREGROUND" value="7fe9c3" />
+            <option name="FOREGROUND" value="ffa2a5" />
         </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -646,12 +646,6 @@
         </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="DEFAULT_INSTANCE_METHOD">
-        <value>
-            <option name="FOREGROUND" value="f48fb1" />
-            <option name="FONT_TYPE" value="2" />
-        </value>
-    </option>
     <option name="DEFAULT_INTERFACE_NAME">
         <value>
             <option name="FOREGROUND" value="ffe6b3" />
@@ -664,8 +658,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
         <value>
-            <option name="FOREGROUND" value="f48fb1" />
-            <option name="FONT_TYPE" value="2" />
+            <option name="FOREGROUND" value="7fe9c3" />
         </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -686,13 +679,12 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
         <value>
-            <option name="FOREGROUND" value="63f2f1" />
+            <option name="FOREGROUND" value="f2b482" />
         </value>
     </option>
     <option name="DEFAULT_PARAMETER">
         <value>
             <option name="FOREGROUND" value="cbe3e7" />
-            <option name="FONT_TYPE" value="2" />
         </value>
     </option>
     <option name="DEFAULT_PARENTHS" baseAttributes="" />
@@ -711,12 +703,7 @@
     <option name="DEFAULT_STATIC_FIELD">
         <value />
     </option>
-    <option name="DEFAULT_STATIC_METHOD">
-        <value>
-            <option name="FOREGROUND" value="f48fb1" />
-            <option name="FONT_TYPE" value="2" />
-        </value>
-    </option>
+    <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
         <value>
             <option name="FOREGROUND" value="ffe6b3" />
@@ -1163,12 +1150,6 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
         <value>
             <option name="BACKGROUND" value="3a6da0" />
-        </value>
-    </option>
-    <option name="METHOD_DECLARATION_ATTRIBUTES">
-        <value>
-            <option name="FOREGROUND" value="f48fb1" />
-            <option name="FONT_TYPE" value="2" />
         </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
