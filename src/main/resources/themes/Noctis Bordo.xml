@@ -46,6 +46,11 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
   </colors>
   <attributes>
+    <option name="ABSTRACT_METHOD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="e4b781" />
+      </value>
+    </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="dadfc0" />
@@ -180,6 +185,11 @@
     <option name="BUILDOUT.VALUE">
       <value>
         <option name="FOREGROUND" value="49e9a6" />
+      </value>
+    </option>
+    <option name="CLASS_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="92ddaa" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -485,6 +495,16 @@
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
         <option name="FOREGROUND" value="fabd2f" />
+      </value>
+    </option>
+    <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="e4b781" />
+      </value>
+    </option>
+    <option name="CONSTRUCTOR_DECLARATION_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
     <option name="CSS.COMMENT">
@@ -837,6 +857,11 @@
         <option name="FOREGROUND" value="d5971a" />
       </value>
     </option>
+    <option name="ENUM_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="92ddaa" />
+      </value>
+    </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="ff6667" />
@@ -1066,12 +1091,17 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
         <option name="ERROR_STRIPE_COLOR" value="ffffcc" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="INHERITED_METHOD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
@@ -1095,6 +1125,11 @@
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="605157" />
+      </value>
+    </option>
+    <option name="INTERFACE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="92ddaa" />
       </value>
     </option>
     <option name="IVAR">
@@ -1237,6 +1272,16 @@
       <value>
         <option name="BACKGROUND" value="3b514d" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="METHOD_CALL_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="e4b781" />
+      </value>
+    </option>
+    <option name="METHOD_DECLARATION_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="e4b781" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
@@ -1929,7 +1974,16 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+    <option name="STATIC_METHOD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="e4b781" />
+      </value>
+    </option>
+    <option name="STATIC_METHOD_IMPORTED_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="e4b781" />
+      </value>
+    </option>
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="49d6e9" />
