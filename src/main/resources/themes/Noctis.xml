@@ -1,7 +1,7 @@
 <scheme name="Noctis" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">Idea</property>
-    <property name="ideVersion">2024.1.0.0</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2024.1.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -13,7 +13,7 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="CARET_COLOR" value="b2cacd" />
     <option name="CARET_ROW_COLOR" value="73b42" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="52529" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="a2a2e" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
     <option name="FILESTATUS_DELETED" value="f77669" />
@@ -51,7 +51,7 @@
         <option name="FOREGROUND" value="dadfc0" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="e3541c" />
@@ -622,7 +622,7 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="e4b781" />
+        <option name="FOREGROUND" value="f1c48d" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -642,12 +642,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="63e797" />
+        <option name="FOREGROUND" value="f1c48d" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="63e797" />
+        <option name="FOREGROUND" value="f1c48d" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -657,7 +657,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="e4b781" />
+        <option name="FOREGROUND" value="f1c48d" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -682,17 +682,17 @@
     </option>
     <option name="DEFAULT_ENTITY">
       <value>
-        <option name="FOREGROUND" value="d5971a" />
+        <option name="FOREGROUND" value="f1c48d" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="e4b781" />
+        <option name="FOREGROUND" value="6bed9e" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="e4b781" />
+        <option name="FOREGROUND" value="6bed9e" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -706,24 +706,20 @@
         <option name="FOREGROUND" value="dadfc0" />
       </value>
     </option>
-    <option name="DEFAULT_INSTANCE_FIELD">
-      <value>
-        <option name="FOREGROUND" value="e4b781" />
-      </value>
-    </option>
+    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="63e797" />
+        <option name="FOREGROUND" value="f1c48d" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="e4b781" />
+        <option name="FOREGROUND" value="6bed9e" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="ff8d64" />
+        <option name="FOREGROUND" value="ffa474" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -733,17 +729,17 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="e4b781" />
+        <option name="FOREGROUND" value="f1c48d" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="e4b781" />
+        <option name="FOREGROUND" value="f1c48d" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="e4b781" />
+        <option name="FOREGROUND" value="f1c48d" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
@@ -753,7 +749,7 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="e4b781" />
+        <option name="FOREGROUND" value="f1c48d" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -771,16 +767,11 @@
         <option name="FOREGROUND" value="b2cacd" />
       </value>
     </option>
-    <option name="DEFAULT_STATIC_FIELD">
-      <value>
-        <option name="FOREGROUND" value="63e797" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
+    <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="e4b781" />
+        <option name="FOREGROUND" value="6bed9e" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -791,7 +782,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="e4b781" />
+        <option name="FOREGROUND" value="6bed9e" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -950,7 +941,7 @@
     <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="63e797" />
+        <option name="FOREGROUND" value="f1c48d" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -1074,7 +1065,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -1936,7 +1927,7 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="49d6e9" />
@@ -1945,7 +1936,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="dadfc0" />
-        <option name="BACKGROUND" value="52529" />
+        <option name="BACKGROUND" value="a2a2e" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
