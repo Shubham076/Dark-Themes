@@ -1,7 +1,7 @@
 <scheme name="Noctis sereno" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">Idea</property>
-    <property name="ideVersion">2024.1.0.0</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2024.1.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -51,7 +51,7 @@
         <option name="FOREGROUND" value="b2cacd" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="e3541c" />
@@ -642,12 +642,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="85e0a4" />
+        <option name="FOREGROUND" value="ddb17b" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="85e0a4" />
+        <option name="FOREGROUND" value="ddb17b" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -687,12 +687,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="ddb17b" />
+        <option name="FOREGROUND" value="85e0a4" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="ddb17b" />
+        <option name="FOREGROUND" value="85e0a4" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -710,17 +710,17 @@
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="85e0a4" />
+        <option name="FOREGROUND" value="ddb17b" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="e4b781" />
+        <option name="FOREGROUND" value="85e0a4" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="f78c6c" />
+        <option name="FOREGROUND" value="ff9c7f" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -782,7 +782,7 @@
     <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="ddb17b" />
+        <option name="FOREGROUND" value="85e0a4" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -793,7 +793,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="e4b781" />
+        <option name="FOREGROUND" value="85e0a4" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -1086,7 +1086,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -1992,7 +1992,7 @@
         <option name="FOREGROUND" value="e66533" />
       </value>
     </option>
-    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="583535" />
