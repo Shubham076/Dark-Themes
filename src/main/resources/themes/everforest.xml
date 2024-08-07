@@ -502,12 +502,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="a7c080" />
+        <option name="FOREGROUND" value="dbbc7f" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="a7c080" />
+        <option name="FOREGROUND" value="dbbc7f" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">

@@ -8,10 +8,8 @@
         <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="202330" />
         <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="202330" />
         <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-        <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="202330" />
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-        <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
         <option name="CARET_COLOR" value="fff8f8" />
         <option name="CARET_ROW_COLOR" value="472541" />
         <option name="CONSOLE_BACKGROUND_KEY" value="2a2d3a" />
@@ -1221,12 +1219,6 @@
                 <option name="FOREGROUND" value="fae8b6" />
             </value>
         </option>
-        <option name="PARAMETER_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="fff8f8" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
         <option name="PHP_PARAMETER">
             <value>
                 <option name="FOREGROUND" value="9cd162" />
@@ -1685,7 +1677,7 @@
             </value>
         </option>
         <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
         <option name="TAG_ATTR_KEY">
             <value>
                 <option name="FOREGROUND" value="e6a1ff" />
