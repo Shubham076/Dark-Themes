@@ -11,6 +11,8 @@
         <option name="CONSOLE_BACKGROUND_KEY" value="fdf6e3" />
         <option name="DOCUMENTATION_COLOR" value="eee8d5" />
         <option name="ERROR_HINT" value="f5e6e7" />
+        <option name="FILESTATUS_COPIED" value="addb67" />
+        <option name="FILESTATUS_RENAMED" value="c792ea" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
         <option name="GUTTER_BACKGROUND" value="eee8d5" />
         <option name="INDENT_GUIDE" value="e1dbc8" />
@@ -29,7 +31,7 @@
         <option name="VISUAL_INDENT_GUIDE" value="e1dbc8" />
     </colors>
     <attributes>
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="BAD_CHARACTER">
             <value>
                 <option name="FOREGROUND" value="ff4262" />
@@ -301,11 +303,6 @@
                 <option name="FOREGROUND" value="9b3a63" />
             </value>
         </option>
-        <option name="DEFAULT_PARAMETER">
-            <value>
-                <option name="FOREGROUND" value="f76c5e" />
-            </value>
-        </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
                 <option name="FOREGROUND" value="bc466b" />
@@ -394,7 +391,7 @@
                 <option name="ERROR_STRIPE_COLOR" value="baa8ff" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INJECTED_LANGUAGE_FRAGMENT">
             <value />
         </option>
@@ -460,7 +457,7 @@
                 <option name="BACKGROUND" value="ffdbbe" />
             </value>
         </option>
-        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
+        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
         <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="87617e" />
@@ -498,7 +495,7 @@
                 <option name="ERROR_STRIPE_COLOR" value="54aae3" />
             </value>
         </option>
-        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
         <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
                 <option name="BACKGROUND" value="cae2dc" />

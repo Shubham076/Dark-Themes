@@ -15,7 +15,7 @@
         <option name="DOCUMENTATION_COLOR" value="ffffff" />
         <option name="DOC_COMMENT_GUIDE" value="d0d0d0" />
         <option name="FILESTATUS_ADDED" value="eaa00" />
-        <option name="FILESTATUS_COPIED" value="659d9a" />
+        <option name="FILESTATUS_COPIED" value="addb67" />
         <option name="FILESTATUS_DELETED" value="f77669" />
         <option name="FILESTATUS_HIJACKED" value="ef6733" />
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="f77669" />
@@ -27,6 +27,7 @@
         <option name="FILESTATUS_NOT_CHANGED" value="626669" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="95b3" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="95b3" />
+        <option name="FILESTATUS_RENAMED" value="c792ea" />
         <option name="FILESTATUS_SUPPRESSED" value="616161" />
         <option name="FILESTATUS_UNKNOWN" value="f77669" />
         <option name="FILESTATUS_modifiedOutside" value="95b3" />
@@ -62,8 +63,8 @@
                 <option name="FOREGROUND" value="98d5d6" />
             </value>
         </option>
-        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="APACHE_CONFIG.ARG_LEXEM">
             <value>
                 <option name="FOREGROUND" value="98d5d6" />
@@ -699,7 +700,7 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="B15D09" />
+                <option name="FOREGROUND" value="b15d09" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -1145,7 +1146,7 @@
                 <option name="BACKGROUND" value="e5e5e5" />
             </value>
         </option>
-        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="" />
+        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
         <option name="IVAR">
             <value>
                 <option name="FOREGROUND" value="9373a5" />
@@ -1175,11 +1176,6 @@
             <value>
                 <option name="EFFECT_COLOR" value="ff5370" />
                 <option name="EFFECT_TYPE" value="2" />
-            </value>
-        </option>
-        <option name="JAVA_KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="47b1b3" />
             </value>
         </option>
         <option name="JAVA_VALID_STRING_ESCAPE">

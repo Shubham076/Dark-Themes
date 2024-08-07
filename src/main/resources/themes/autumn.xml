@@ -13,6 +13,8 @@
         <option name="DOC_COMMENT_LINK" value="8d7e79" />
         <option name="EDITOR_GUTTER_BACKGROUND" value="faf2ee" />
         <option name="ERROR_HINT" value="ffdcdc" />
+        <option name="FILESTATUS_COPIED" value="addb67" />
+        <option name="FILESTATUS_RENAMED" value="c792ea" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
         <option name="GUTTER_BACKGROUND" value="fefefe" />
         <option name="INDENT_GUIDE" value="f3e9de" />
@@ -47,7 +49,7 @@
                 <option name="FOREGROUND" value="96723b" />
             </value>
         </option>
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="BAD_CHARACTER">
             <value>
                 <option name="BACKGROUND" value="f5dddd" />
@@ -183,12 +185,12 @@
         <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="805900" />
+                <option name="FOREGROUND" value="b0633a" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="805900" />
+                <option name="FOREGROUND" value="b0633a" />
             </value>
         </option>
         <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -242,11 +244,6 @@
         <option name="DEFAULT_NUMBER">
             <value>
                 <option name="FOREGROUND" value="e8113" />
-            </value>
-        </option>
-        <option name="DEFAULT_PARAMETER">
-            <value>
-                <option name="FOREGROUND" value="b0633a" />
             </value>
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -565,8 +562,8 @@
                 <option name="ERROR_STRIPE_COLOR" value="7c8134" />
             </value>
         </option>
-        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
-        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="" />
+        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
         <option name="STATIC_METHOD_ATTRIBUTES">
             <value>
                 <option name="FONT_TYPE" value="2" />
