@@ -558,12 +558,12 @@
         <option name="DEFAULT_BRACKETS" baseAttributes="" />
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="ff928b" />
+                <option name="FOREGROUND" value="cdeac0" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="ff928b" />
+                <option name="FOREGROUND" value="cdeac0" />
             </value>
         </option>
         <option name="DEFAULT_COMMA" baseAttributes="" />
@@ -618,7 +618,7 @@
         </option>
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="ff928b" />
+                <option name="FOREGROUND" value="cdeac0" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -628,7 +628,7 @@
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="cdeac0" />
+                <option name="FOREGROUND" value="ff928b" />
             </value>
         </option>
         <option name="DEFAULT_LINE_COMMENT">
@@ -797,19 +797,10 @@
         </option>
         <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
         <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-        <option name="GO_BUILTIN_TYPE_REFERENCE">
-            <value>
-                <option name="FOREGROUND" value="ff928b" />
-            </value>
-        </option>
+        <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
         <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
         <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="GO_EXPORTED_INTERFACE_REFERENCE">
-            <value>
-                <option name="FOREGROUND" value="ff928b" />
-            </value>
-        </option>
-        <option name="GO_EXPORTED_STRUCT_REFERENCE">
             <value>
                 <option name="FOREGROUND" value="ff928b" />
             </value>
@@ -825,15 +816,10 @@
                 <option name="FOREGROUND" value="ff928b" />
             </value>
         </option>
-        <option name="GO_LOCAL_STRUCT_REFERENCE">
-            <value>
-                <option name="FOREGROUND" value="ff928b" />
-            </value>
-        </option>
         <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="ff928b" />
+                <option name="FOREGROUND" value="cdeac0" />
             </value>
         </option>
         <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -842,11 +828,7 @@
                 <option name="FOREGROUND" value="cdeac0" />
             </value>
         </option>
-        <option name="GO_TYPE_REFERENCE">
-            <value>
-                <option name="FOREGROUND" value="ff928b" />
-            </value>
-        </option>
+        <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
         <option name="GQL_ID">
             <value>
                 <option name="FOREGROUND" value="ff38a2" />
@@ -954,7 +936,7 @@
                 <option name="ERROR_STRIPE_COLOR" value="ccccff" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
         <option name="INFO_ATTRIBUTES">
             <value>
                 <option name="EFFECT_COLOR" value="343434" />
