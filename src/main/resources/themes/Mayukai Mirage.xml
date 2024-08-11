@@ -640,7 +640,7 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="ffd580" />
+        <option name="FOREGROUND" value="ffcc66" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
@@ -1154,12 +1154,7 @@
         <option name="FOREGROUND" value="95e6cb" />
       </value>
     </option>
-    <option name="JS.GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="dadbc0" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
         <option name="FOREGROUND" value="ffcc66" />
@@ -1168,12 +1163,6 @@
     <option name="JS.LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="dadbc0" />
-      </value>
-    </option>
-    <option name="JS.PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="d4bfff" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JS.REGEXP">

@@ -643,12 +643,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="bae67e" />
+        <option name="FOREGROUND" value="fc9867" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="bae67e" />
+        <option name="FOREGROUND" value="fc9867" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -704,12 +704,6 @@
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="f29668" />
-      </value>
-    </option>
-    <option name="DEFAULT_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="fc9867" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS" baseAttributes="" />
@@ -2003,7 +1997,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="FFD866" />
+        <option name="FOREGROUND" value="ffd866" />
       </value>
     </option>
   </attributes>

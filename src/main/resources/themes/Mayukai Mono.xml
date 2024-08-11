@@ -1,7 +1,7 @@
 <scheme name="Mayukai Mono" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.1.1.0.0</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2024.1.3.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -640,12 +640,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="ffd866" />
+        <option name="FOREGROUND" value="9cd1bb" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="ffd866" />
+        <option name="FOREGROUND" value="9cd1bb" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -678,7 +678,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="ffa759" />
+        <option name="FOREGROUND" value="f07178" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -703,18 +703,13 @@
         <option name="FOREGROUND" value="ff6188" />
       </value>
     </option>
-    <option name="DEFAULT_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="fc9867" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="DEFAULT_PARENTHS" baseAttributes="" />
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
         <option name="FOREGROUND" value="9cd1bb" />
       </value>
     </option>
+    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="DEFAULT_SEMICOLON" baseAttributes="" />
     <option name="DEFAULT_STATIC_FIELD">
       <value>
@@ -1992,7 +1987,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="FFD866" />
+        <option name="FOREGROUND" value="ffd866" />
       </value>
     </option>
   </attributes>
