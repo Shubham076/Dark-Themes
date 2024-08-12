@@ -23,7 +23,7 @@
       "excluded": "1e2c3fff"
     },
     "DefaultTabs": {
-      "background": "131c28",
+      "background": "1e2939",
       "borderColor": "1f2430"
     },
     "ToolWindow": {
@@ -41,16 +41,16 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "131c28"
+      "underlinedTabBackground": "1e2939"
     },
     "Popup": {
-      "Header.activeBackground": "#131c28"
+      "Header.activeBackground": "#1e2939"
     },
     "TabbedPane": {
-      "hoverColor": "#131c28"
+      "hoverColor": "#1e2939"
     },
     "Button": {
-      "focus": "#131c28"
+      "focus": "#1e2939"
     }
   }
 }
