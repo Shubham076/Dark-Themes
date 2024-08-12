@@ -611,11 +611,6 @@
         <option name="FOREGROUND" value="c8eeff" />
       </value>
     </option>
-    <option name="DEFAULT_ATTRIBUTE">
-      <value>
-        <option name="FOREGROUND" value="f8f0c4" />
-      </value>
-    </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="a289bb" />
@@ -682,19 +677,13 @@
         <option name="FOREGROUND" value="fffeae" />
       </value>
     </option>
-    <option name="DEFAULT_GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="dadbc0" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
-    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
-    <option name="DEFAULT_INSTANCE_FIELD">
+    <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="dadbc0" />
+        <option name="FOREGROUND" value="e1e1df" />
       </value>
     </option>
+    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
         <option name="FOREGROUND" value="fffeae" />
@@ -718,11 +707,6 @@
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="a289bb" />
-      </value>
-    </option>
-    <option name="DEFAULT_LOCAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="dadbc0" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -755,11 +739,7 @@
         <option name="FOREGROUND" value="fde1bd" />
       </value>
     </option>
-    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
-      <value>
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="DEFAULT_REASSIGNED_PARAMETER">
       <value>
         <option name="EFFECT_TYPE" value="1" />
@@ -770,12 +750,7 @@
         <option name="FOREGROUND" value="aeffd9" />
       </value>
     </option>
-    <option name="DEFAULT_STATIC_FIELD">
-      <value>
-        <option name="FOREGROUND" value="dadbc0" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
+    <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="fffeae" />
@@ -936,12 +911,7 @@
         <option name="FOREGROUND" value="fde1bd" />
       </value>
     </option>
-    <option name="GO_BUILTIN_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
+    <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="GO_EXPORTED_FUNCTION">
       <value>
         <option name="FOREGROUND" value="fffeae" />
@@ -967,11 +937,7 @@
         <option name="FOREGROUND" value="fffeae" />
       </value>
     </option>
-    <option name="GO_METHOD_RECEIVER">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-      </value>
-    </option>
+    <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
         <option name="FOREGROUND" value="fde1bd" />
