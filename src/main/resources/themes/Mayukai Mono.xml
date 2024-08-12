@@ -14,7 +14,7 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="cbcebc" />
-    <option name="CARET_ROW_COLOR" value="3B4252" />
+    <option name="CARET_ROW_COLOR" value="3b4252" />
     <option name="CONSOLE_BACKGROUND_KEY" value="20273a" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
@@ -683,7 +683,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="ffa759" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -882,11 +882,6 @@
       </value>
     </option>
     <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-    <option name="GO_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="ffa759" />
-      </value>
-    </option>
     <option name="GO_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="5c6773" />
