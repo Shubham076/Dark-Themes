@@ -938,6 +938,7 @@
         <option name="FOREGROUND" value="f28779" />
       </value>
     </option>
+    <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_TYPE_REFERENCE">
       <value>
         <option name="FOREGROUND" value="f28779" />
