@@ -133,11 +133,7 @@
                 <option name="FOREGROUND" value="baacff" />
             </value>
         </option>
-        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="d5d8da" />
-            </value>
-        </option>
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="APACHE_CONFIG.ARG_LEXEM">
             <value>
@@ -2749,15 +2745,15 @@
                 <option name="FOREGROUND" value="e4f3fa" />
             </value>
         </option>
-        <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="" />
+        <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
         <option name="PROPERTIES.KEY">
             <value>
                 <option name="FOREGROUND" value="7fdbca" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="" />
-        <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="" />
+        <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
+        <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
         <option name="PROTOCOL_REFERENCE">
             <value>
                 <option name="FOREGROUND" value="64d1a9" />
@@ -3393,13 +3389,7 @@
                 <option name="FOREGROUND" value="baacff" />
             </value>
         </option>
-        <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="34d3fb" />
-                <option name="EFFECT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
         <option name="SUGGESTION">
             <value>
                 <option name="EFFECT_COLOR" value="7e8eda" />
@@ -3424,7 +3414,7 @@
         </option>
         <option name="Scala Type Alias" baseAttributes="" />
         <option name="Scala Type parameter" baseAttributes="" />
-        <option name="Static method access" baseAttributes="" />
+        <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
         <option name="Static property reference ID">
             <value>
                 <option name="FOREGROUND" value="dbbe7f" />
@@ -3438,7 +3428,7 @@
         </option>
         <option name="TEXT">
             <value>
-                <option name="FOREGROUND" value="e4f3fa" />
+                <option name="FOREGROUND" value="cbcccd" />
                 <option name="BACKGROUND" value="272a42" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
