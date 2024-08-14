@@ -10,10 +10,8 @@
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="2a2f33" />
     <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="2a2f33" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="2a2f33" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="bfddb2" />
     <option name="CARET_ROW_COLOR" value="2e3338" />
     <option name="CONSOLE_BACKGROUND_KEY" value="2a2f33" />
@@ -62,8 +60,8 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
   </colors>
   <attributes>
-    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="6e3b3b" />
@@ -643,13 +641,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="e5a46b" />
-        <option name="BACKGROUND" value="2a2f33" />
+        <option name="FOREGROUND" value="bfddb2" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="e5a46b" />
+        <option name="FOREGROUND" value="bfddb2" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -701,11 +698,7 @@
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
-    <option name="DEFAULT_INSTANCE_FIELD">
-      <value>
-        <option name="FOREGROUND" value="e5a46b" />
-      </value>
-    </option>
+    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
         <option name="FOREGROUND" value="a7c080" />
@@ -713,11 +706,16 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="e5a46b" />
-        <option name="BACKGROUND" value="2a2f33" />
+        <option name="FOREGROUND" value="bfddb2" />
       </value>
     </option>
-    <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
+    <option name="DEFAULT_INVALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="d9bb80" />
+        <option name="EFFECT_COLOR" value="ff0000" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="e68183" />
@@ -735,7 +733,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="e5a46b" />
+        <option name="FOREGROUND" value="bfddb2" />
         <option name="BACKGROUND" value="2a2f33" />
       </value>
     </option>
@@ -793,7 +791,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="a7c080" />
+        <option name="FOREGROUND" value="d9bb80" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -2068,7 +2066,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="A7C080" />
+        <option name="FOREGROUND" value="a7c080" />
       </value>
     </option>
   </attributes>
