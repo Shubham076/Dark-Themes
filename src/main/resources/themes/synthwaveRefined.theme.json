@@ -5,7 +5,7 @@
   "editorScheme": "/themes/Synthwave Refined.xml",
   "ui": {
     "*": {
-      "background": "#241b2f",
+      "background": "#262335",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
       "selectionBackground": "#352745",
@@ -24,7 +24,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#241b2f"
+        "inactiveBackground": "#262335"
       }
     },
      "Plugins": {
@@ -37,20 +37,20 @@
       }
     },
     "DefaultTabs": {
-      "background": "#241b2f",
+      "background": "#262335",
       "borderColor": "#002b3f"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#241b2f"
+      "underlinedTabBackground": "#262335"
     },
     "Popup": {
-      "Header.activeBackground": "#241b2f"
+      "Header.activeBackground": "#262335"
     },
     "TabbedPane": {
-      "hoverColor": "#241b2f"
+      "hoverColor": "#262335"
     },
     "Button": {
-      "focus": "#241b2f"
+      "focus": "#262335"
     }
   }
 }
