@@ -23,16 +23,16 @@
       "excluded": "#0c4343"
     },
     "DefaultTabs": {
-      "background": "#002020"
+      "background": "#072626"
     },
     "EditorTabs": {
       "underlinedTabBackground": "#003950"
     },
     "Popup": {
-      "Header.activeBackground": "#002020"
+      "Header.activeBackground": "#072626"
     },
     "TabbedPane": {
-      "hoverColor": "#002020"
+      "hoverColor": "#072626"
     },
     "ToolWindow": {
       "Header": {
@@ -49,7 +49,7 @@
       }
     },
     "Button": {
-      "focus": "#002020"
+      "focus": "#072626"
     }
   }
 }
