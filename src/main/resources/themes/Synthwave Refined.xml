@@ -49,7 +49,7 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
   </colors>
   <attributes>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="6e3b3b" />
@@ -775,9 +775,7 @@
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
-        <option name="BACKGROUND" value="171717" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="c7c7ff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -968,7 +966,7 @@
     </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="36f9f6" />
+        <option name="FOREGROUND" value="72f1b8" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
@@ -980,7 +978,6 @@
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="c7c7ff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -991,6 +988,11 @@
       </value>
     </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -1683,7 +1685,7 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="fede5d" />
@@ -1761,7 +1763,7 @@
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="36f9f6" />
+        <option name="FOREGROUND" value="72f1b8" />
       </value>
     </option>
     <option name="XML_TAG_NAME">
@@ -1788,7 +1790,6 @@
     <option name="YAML_SCALAR_LIST">
       <value>
         <option name="FOREGROUND" value="e8bf6a" />
-        <option name="BACKGROUND" value="262335" />
       </value>
     </option>
     <option name="YAML_SCALAR_STRING">
@@ -1799,7 +1800,6 @@
     <option name="YAML_SCALAR_VALUE">
       <value>
         <option name="FOREGROUND" value="e8bf6a" />
-        <option name="BACKGROUND" value="262335" />
       </value>
     </option>
     <option name="YAML_SIGN">
@@ -1810,7 +1810,6 @@
     <option name="YAML_TEXT">
       <value>
         <option name="FOREGROUND" value="e8bf6a" />
-        <option name="BACKGROUND" value="262335" />
       </value>
     </option>
     <option name="org.rust.MACRO">
