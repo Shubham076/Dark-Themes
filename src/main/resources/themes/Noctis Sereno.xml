@@ -56,7 +56,7 @@
         <option name="FOREGROUND" value="b2cacd" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="e3541c" />
@@ -707,12 +707,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="85e0a4" />
+        <option name="FOREGROUND" value="78d398" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="85e0a4" />
+        <option name="FOREGROUND" value="78d398" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -740,7 +740,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="ff9c7f" />
+        <option name="FOREGROUND" value="eb906e" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -780,7 +780,7 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="49d6e9" />
+        <option name="FOREGROUND" value="ddb17b" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -802,7 +802,7 @@
     <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="85e0a4" />
+        <option name="FOREGROUND" value="78d398" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -1111,7 +1111,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="343434" />
@@ -1512,8 +1512,7 @@
     </option>
     <option name="PY.ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="49e9a6" />
-        <option name="BACKGROUND" value="62e32" />
+        <option name="FOREGROUND" value="ddb17b" />
       </value>
     </option>
     <option name="PY.BRACES">
@@ -1528,7 +1527,7 @@
     </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="49e9a6" />
+        <option name="FOREGROUND" value="ddb17b" />
       </value>
     </option>
     <option name="PY.COMMA">
@@ -1536,24 +1535,9 @@
         <option name="FOREGROUND" value="b2cacd" />
       </value>
     </option>
-    <option name="PY.DECORATOR">
-      <value>
-        <option name="FOREGROUND" value="49e9a6" />
-      </value>
-    </option>
-    <option name="PY.DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="49e9a6" />
-      </value>
-    </option>
     <option name="PY.DOT">
       <value>
         <option name="FOREGROUND" value="b2cacd" />
-      </value>
-    </option>
-    <option name="PY.INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="e3541c" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
@@ -1573,22 +1557,14 @@
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.PREDEFINED_USAGE">
-      <value>
-        <option name="FOREGROUND" value="49d6e9" />
-      </value>
-    </option>
+    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.STRING">
       <value>
         <option name="FOREGROUND" value="49e9a6" />
       </value>
     </option>
-    <option name="PY.VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="49ace9" />
-      </value>
-    </option>
+    <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
     <option name="REST.EXPLICIT">
       <value>
         <option name="FOREGROUND" value="df769b" />
@@ -2048,7 +2024,7 @@
         <option name="FOREGROUND" value="e66533" />
       </value>
     </option>
-    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="583535" />
