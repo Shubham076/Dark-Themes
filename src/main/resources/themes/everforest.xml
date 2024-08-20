@@ -829,26 +829,13 @@
         <option name="FOREGROUND" value="e69875" />
       </value>
     </option>
-    <option name="JS.GLOBAL_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="a7c080" />
-      </value>
-    </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="d3c6aa" />
       </value>
     </option>
-    <option name="JS.INSTANCE_MEMBER_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="a7c080" />
-      </value>
-    </option>
-    <option name="JS.INSTANCE_MEMBER_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="e69875" />
-      </value>
-    </option>
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.INTERFACE">
       <value>
         <option name="FOREGROUND" value="a7c080" />
@@ -867,11 +854,6 @@
     <option name="JS.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="859289" />
-      </value>
-    </option>
-    <option name="JS.LOCAL_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="a7c080" />
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE">
@@ -909,6 +891,7 @@
         <option name="FOREGROUND" value="dbbc7f" />
       </value>
     </option>
+    <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="JS.SEMICOLON">
       <value>
         <option name="FOREGROUND" value="859289" />
@@ -922,11 +905,6 @@
     <option name="JS.STATIC_MEMBER_VARIABLE">
       <value>
         <option name="FOREGROUND" value="d3c6aa" />
-      </value>
-    </option>
-    <option name="JS.STRING">
-      <value>
-        <option name="FOREGROUND" value="83c092" />
       </value>
     </option>
     <option name="JS.TYPE_ALIAS">
