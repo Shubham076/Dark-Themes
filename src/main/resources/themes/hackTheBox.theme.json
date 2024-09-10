@@ -5,7 +5,7 @@
   "editorScheme": "/themes/Hack The Box.xml",
   "ui": {
     "*": {
-      "background": "#1a2332ff",
+      "background": "#202b3d",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
       "selectionBackground": "#263348ff",
@@ -31,7 +31,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#1a2332ff"
+        "inactiveBackground": "#202b3d"
       }
     },
      "Plugins": {
