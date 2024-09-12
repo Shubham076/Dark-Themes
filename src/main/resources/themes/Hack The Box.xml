@@ -735,7 +735,7 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="ff8484" />
+        <option name="FOREGROUND" value="d8eba1" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -1333,8 +1333,7 @@
     </option>
     <option name="PY.ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="c5f467" />
-        <option name="BACKGROUND" value="202b3d" />
+        <option name="FOREGROUND" value="d8eba1" />
       </value>
     </option>
     <option name="PY.BRACES">
@@ -1347,34 +1346,15 @@
         <option name="FOREGROUND" value="5cecc6" />
       </value>
     </option>
-    <option name="PY.BUILTIN_NAME">
-      <value>
-        <option name="FOREGROUND" value="c5f467" />
-      </value>
-    </option>
+    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.COMMA">
       <value>
         <option name="FOREGROUND" value="5cecc6" />
       </value>
     </option>
-    <option name="PY.DECORATOR">
-      <value>
-        <option name="FOREGROUND" value="ffcc5c" />
-      </value>
-    </option>
     <option name="PY.DOT">
       <value>
         <option name="FOREGROUND" value="5cecc6" />
-      </value>
-    </option>
-    <option name="PY.FUNC_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="ffcc5c" />
-      </value>
-    </option>
-    <option name="PY.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="ff8484" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
@@ -1384,11 +1364,7 @@
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.PREDEFINED_USAGE">
-      <value>
-        <option name="FOREGROUND" value="ffcc5c" />
-      </value>
-    </option>
+    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.STRING">
       <value>
