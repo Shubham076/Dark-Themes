@@ -1,7 +1,7 @@
 <scheme name="Brackets-light-pro" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="ide">WebStorm</property>
-    <property name="ideVersion">2024.1.3.0.0</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2024.2.0.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="f8f8f8" />
@@ -29,7 +29,7 @@
     <option name="SELECTION_FOREGROUND" value="" />
   </colors>
   <attributes>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="BASH.SHEBANG">
       <value />
     </option>
@@ -335,12 +335,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="914c07" />
+        <option name="FOREGROUND" value="386ac3" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="914c07" />
+        <option name="FOREGROUND" value="386ac3" />
       </value>
     </option>
     <option name="DEFAULT_COMMA" baseAttributes="" />
@@ -394,7 +394,7 @@
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="914c07" />
+        <option name="FOREGROUND" value="386ac3" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
@@ -551,19 +551,9 @@
         <option name="FOREGROUND" value="386ac3" />
       </value>
     </option>
-    <option name="GO_BUILTIN_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="386ac3" />
-      </value>
-    </option>
     <option name="GO_BUILTIN_VARIABLE">
       <value>
         <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="GO_EXPORTED_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="386ac3" />
       </value>
     </option>
     <option name="GO_KEYWORD">
@@ -581,14 +571,9 @@
         <option name="FOREGROUND" value="386ac3" />
       </value>
     </option>
-    <option name="GO_LOCAL_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="386ac3" />
-      </value>
-    </option>
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="e06c75" />
+        <option name="FOREGROUND" value="386ac3" />
         <option name="BACKGROUND" value="f8f8f8" />
       </value>
     </option>

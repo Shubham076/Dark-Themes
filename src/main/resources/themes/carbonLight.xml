@@ -41,7 +41,7 @@
         <option name="VISUAL_INDENT_GUIDE" value="e1dbc8" />
     </colors>
     <attributes>
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
         <option name="BAD_CHARACTER">
             <value>
                 <option name="FOREGROUND" value="ff4262" />
@@ -396,6 +396,11 @@
                 <option name="FOREGROUND" value="5a2643" />
                 <option name="EFFECT_COLOR" value="5a2643" />
                 <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="GO_PACKAGE">
+            <value>
+                <option name="FOREGROUND" value="87617e" />
             </value>
         </option>
         <option name="HTML_CODE">
