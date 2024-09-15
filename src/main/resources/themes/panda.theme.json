@@ -1,11 +1,11 @@
 {
   "author": "Shubham",
   "dark": true,
-  "name": "FairyFloss",
-  "editorScheme": "/themes/fairyfloss.xml",
+  "name": "Panda",
+  "editorScheme": "/themes/panda.xml",
   "ui": {
     "*": {
-      "background": "#4e4962",
+      "background": "#4a3e51",
       "foreground": "#F8F8F2",
       "highlight": "#425b67ff",
       "selectionBackground": "#705873",
@@ -22,12 +22,12 @@
       "excluded": "#705873"
     },
     "DefaultTabs": {
-      "background": "#4e4962",
+      "background": "#4a3e51",
       "borderColor": "#464258"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#4e4962"
+        "inactiveBackground": "#4a3e51"
       }
     },
     "Plugins": {
@@ -41,7 +41,7 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#4e4962",
+      "underlinedTabBackground": "#4a3e51",
       "borderColor" : "#464258"
     },
     "Popup": {
