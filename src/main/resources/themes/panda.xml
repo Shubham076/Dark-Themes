@@ -1172,11 +1172,7 @@
                 <option name="FOREGROUND" value="f8f8f2" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="ff857f" />
-            </value>
-        </option>
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="fff893" />
@@ -1245,33 +1241,21 @@
                 <option name="BACKGROUND" value="613a63" />
             </value>
         </option>
-        <option name="INSTANCE_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="f8f8f2" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
+        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
         <option name="IVAR">
             <value>
                 <option name="FOREGROUND" value="9373a5" />
-            </value>
-        </option>
-        <option name="JAVA.IMPORT_PACKAGE">
-            <value>
-                <option name="FOREGROUND" value="f8f8f2" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
-        <option name="JAVA.MODIFIER">
-            <value>
-                <option name="FOREGROUND" value="f8f8f2" />
-                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="JAVA.THIS_SUPER">
             <value>
                 <option name="FOREGROUND" value="ffea00" />
                 <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="JAVA_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="ffb1a1" />
             </value>
         </option>
         <option name="JFLEX_MACROS_REF">
@@ -3581,18 +3565,8 @@
                 <option name="FOREGROUND" value="ff857f" />
             </value>
         </option>
-        <option name="STATIC_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="f8f8f2" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
-        <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="c5a3ff" />
-                <option name="FONT_TYPE" value="3" />
-            </value>
-        </option>
+        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
         <option name="SUGGESTION">
             <value>
                 <option name="EFFECT_COLOR" value="607d8b" />
@@ -3685,7 +3659,7 @@
                 <option name="FOREGROUND" value="c7c8f5" />
             </value>
         </option>
-        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
         <option name="TYPO">
             <value>
                 <option name="EFFECT_COLOR" value="ffeb95" />
