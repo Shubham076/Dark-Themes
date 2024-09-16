@@ -677,7 +677,7 @@
         </option>
         <option name="DEFAULT_DOC_COMMENT_TAG">
             <value>
-                <option name="FOREGROUND" value="fff355" />
+                <option name="FOREGROUND" value="fff893" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -769,7 +769,7 @@
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
-                <option name="FOREGROUND" value="fff352" />
+                <option name="FOREGROUND" value="fff893" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -1293,11 +1293,7 @@
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
-        <option name="JS.REGEXP">
-            <value>
-                <option name="FOREGROUND" value="ffea00" />
-            </value>
-        </option>
+        <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
         <option name="JS.THIS_SUPER">
             <value>
                 <option name="FOREGROUND" value="fff352" />
@@ -3605,16 +3601,8 @@
                 <option name="FOREGROUND" value="afebcb" />
             </value>
         </option>
-        <option name="TS.MODULE_NAME">
-            <value>
-                <option name="FOREGROUND" value="ffea00" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
         <option name="TS.TYPE_GUARD">
-            <value>
-                <option name="BACKGROUND" value="333747" />
-            </value>
+            <value />
         </option>
         <option name="TS.TYPE_PARAMETER">
             <value>
