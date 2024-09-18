@@ -5,15 +5,15 @@
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1d283b" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="1d283b" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="1d283b" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="222d40" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="222d40" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="222d40" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="1d283b" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="222d40" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="CARET_COLOR" value="c6797e" />
     <option name="CARET_ROW_COLOR" value="2a363e" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1d283b" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="222d40" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
     <option name="FILESTATUS_DELETED" value="f77669" />
@@ -36,7 +36,7 @@
     <option name="FILESTATUS_addedOutside" value="7fdbca" />
     <option name="FILESTATUS_changelistConflict" value="f78c6c" />
     <option name="FILESTATUS_modifiedOutside" value="82aaff" />
-    <option name="GUTTER_BACKGROUND" value="1d283b" />
+    <option name="GUTTER_BACKGROUND" value="222d40" />
     <option name="INDENT_GUIDE" value="293a44" />
     <option name="LINE_NUMBERS_COLOR" value="bbbbbb" />
     <option name="SELECTED_INDENT_GUIDE" value="293a44" />
@@ -1235,7 +1235,7 @@
     <option name="JSON.PROPERTY_KEY">
       <value>
         <option name="FOREGROUND" value="9dd2bb" />
-        <option name="BACKGROUND" value="1d283b" />
+        <option name="BACKGROUND" value="222d40" />
       </value>
     </option>
     <option name="JSON.STRING">
@@ -1486,7 +1486,7 @@
     <option name="PY.ANNOTATION">
       <value>
         <option name="FOREGROUND" value="f7e3af" />
-        <option name="BACKGROUND" value="1d283b" />
+        <option name="BACKGROUND" value="222d40" />
       </value>
     </option>
     <option name="PY.BRACES">
@@ -2000,7 +2000,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="adb9a4" />
-        <option name="BACKGROUND" value="1d283b" />
+        <option name="BACKGROUND" value="222d40" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -2116,7 +2116,7 @@
     <option name="org.rust.MACRO">
       <value>
         <option name="FOREGROUND" value="eab69a" />
-        <option name="BACKGROUND" value="1d283b" />
+        <option name="BACKGROUND" value="222d40" />
       </value>
     </option>
   </attributes>

@@ -13,7 +13,7 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="CARET_COLOR" value="f97e72" />
     <option name="CARET_ROW_COLOR" value="34353e" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="2b283a" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="302D3F" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
     <option name="FILESTATUS_DELETED" value="f77669" />
@@ -1695,7 +1695,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="bbbbbb" />
-        <option name="BACKGROUND" value="2b283a" />
+        <option name="BACKGROUND" value="302D3F" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

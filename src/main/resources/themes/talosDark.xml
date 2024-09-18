@@ -5,15 +5,15 @@
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="232630" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="232630" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="232630" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="282b35" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="282b35" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="282b35" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="232630" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="282b35" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="CARET_COLOR" value="1de1e3" />
     <option name="CARET_ROW_COLOR" value="374247" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="232630" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="282b35" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
     <option name="FILESTATUS_DELETED" value="f77669" />
@@ -36,7 +36,7 @@
     <option name="FILESTATUS_addedOutside" value="7fdbca" />
     <option name="FILESTATUS_changelistConflict" value="f78c6c" />
     <option name="FILESTATUS_modifiedOutside" value="82aaff" />
-    <option name="GUTTER_BACKGROUND" value="232630" />
+    <option name="GUTTER_BACKGROUND" value="282b35" />
     <option name="LINE_NUMBERS_COLOR" value="d5d8da" />
     <option name="SELECTION_BACKGROUND" value="293847" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
@@ -1100,7 +1100,7 @@
     <option name="JSON.PROPERTY_KEY">
       <value>
         <option name="FOREGROUND" value="ffac96" />
-        <option name="BACKGROUND" value="232630" />
+        <option name="BACKGROUND" value="282b35" />
       </value>
     </option>
     <option name="LABEL">
@@ -1280,7 +1280,7 @@
     <option name="PY.ANNOTATION">
       <value>
         <option name="FOREGROUND" value="fac29a" />
-        <option name="BACKGROUND" value="232630" />
+        <option name="BACKGROUND" value="282b35" />
       </value>
     </option>
     <option name="PY.BUILTIN_NAME">
@@ -1713,7 +1713,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="cccccc" />
-        <option name="BACKGROUND" value="232630" />
+        <option name="BACKGROUND" value="282b35" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -1805,13 +1805,13 @@
     <option name="YAML_SCALAR_LIST">
       <value>
         <option name="FOREGROUND" value="bae67e" />
-        <option name="BACKGROUND" value="232630" />
+        <option name="BACKGROUND" value="282b35" />
       </value>
     </option>
     <option name="YAML_SCALAR_VALUE">
       <value>
         <option name="FOREGROUND" value="bae67e" />
-        <option name="BACKGROUND" value="232630" />
+        <option name="BACKGROUND" value="282b35" />
       </value>
     </option>
     <option name="YAML_SIGN">
@@ -1822,7 +1822,7 @@
     <option name="YAML_TEXT">
       <value>
         <option name="FOREGROUND" value="bae67e" />
-        <option name="BACKGROUND" value="232630" />
+        <option name="BACKGROUND" value="282b35" />
       </value>
     </option>
     <option name="org.rust.MACRO">

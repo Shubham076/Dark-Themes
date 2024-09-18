@@ -5,7 +5,7 @@
   "editorScheme": "/themes/talosDark.xml",
   "ui": {
     "*": {
-      "background": "#1C1E26",
+      "background": "#232630",
       "foreground": "#cccccc",
       "highlight": "#425b67ff",
       "selectionBackground": "#2A2D3A",
@@ -23,15 +23,15 @@
       "excluded": "#2A2D3A"
     },
     "DefaultTabs": {
-      "background": "#1C1E26",
+      "background": "#232630",
       "borderColor": "#242731"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#1C1E26"
+      "underlinedTabBackground": "#232630"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#1C1E26"
+        "inactiveBackground": "#232630"
       }
     },
      "Plugins": {
@@ -44,13 +44,13 @@
       }
     },
     "Popup": {
-      "Header.activeBackground": "#1C1E26"
+      "Header.activeBackground": "#232630"
     },
     "TabbedPane": {
-      "hoverColor": "#1C1E26"
+      "hoverColor": "#232630"
     },
     "Button": {
-      "focus": "#1C1E26"
+      "focus": "#232630"
     }
   }
 }
