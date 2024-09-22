@@ -2,7 +2,7 @@
   "author": "Shubham",
   "dark": true,
   "name": "Vim Dark",
-  "editorScheme": "/themes/vimDark.xml",
+  "editorScheme": "/themes/vim.xml",
   "ui": {
     "*": {
       "background": "#2d2d2d",
