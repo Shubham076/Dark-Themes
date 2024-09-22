@@ -1,7 +1,7 @@
 <scheme name="Purple" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.1.1.0.0</property>
+    <property name="ideVersion">2024.2.2.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="202020" />
@@ -14,7 +14,7 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="fcefff" />
-    <option name="CARET_ROW_COLOR" value="472541" />
+    <option name="CARET_ROW_COLOR" value="45495e" />
     <option name="CONSOLE_BACKGROUND_KEY" value="303448" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
@@ -941,7 +941,6 @@
     <option name="GO_PACKAGE">
       <value>
         <option name="FOREGROUND" value="fde1bd" />
-        <option name="BACKGROUND" value="303448" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />

@@ -1,7 +1,7 @@
 <scheme name="Panda" version="142" parent_scheme="Default">
     <metaInfo>
-        <property name="ide">PyCharmCore</property>
-        <property name="ideVersion">2024.1.0.0</property>
+        <property name="ide">GoLand</property>
+        <property name="ideVersion">2024.2.2.0.0</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="43997d20" />
@@ -353,7 +353,7 @@
         </option>
         <option name="BREAKPOINT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="624568" />
+                <option name="BACKGROUND" value="743d3d" />
             </value>
         </option>
         <option name="BROWSEWORDATCARET">
@@ -612,7 +612,7 @@
         </option>
         <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
             <value>
-                <option name="FOREGROUND" value="ffea00" />
+                <option name="FOREGROUND" value="ca7e03" />
             </value>
         </option>
         <option name="DEBUGGER_SMART_STEP_INTO_SELECTION">
@@ -876,7 +876,7 @@
         </option>
         <option name="EXECUTIONPOINT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="743c52" />
+                <option name="BACKGROUND" value="2d6099" />
             </value>
         </option>
         <option name="FOLDED_TEXT_ATTRIBUTES">
@@ -1233,7 +1233,7 @@
         </option>
         <option name="INLINE_STACK_FRAMES">
             <value>
-                <option name="BACKGROUND" value="613a63" />
+                <option name="BACKGROUND" value="2d6099" />
             </value>
         </option>
         <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />

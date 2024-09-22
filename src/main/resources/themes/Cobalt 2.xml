@@ -1,7 +1,7 @@
 <scheme name="Cobalt2" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.1.1.0.0</property>
+    <property name="ideVersion">2024.2.2.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -779,6 +779,11 @@
         <option name="FOREGROUND" value="80ffbb" />
       </value>
     </option>
+    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
+      <value>
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="DEFAULT_REASSIGNED_PARAMETER">
       <value>
         <option name="EFFECT_TYPE" value="1" />
@@ -949,11 +954,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="GO_BUILTIN_CONSTANT">
-      <value>
-        <option name="FOREGROUND" value="ff628c" />
-      </value>
-    </option>
+    <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="GO_BUILTIN_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="ff9d00" />
@@ -978,11 +979,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="GO_LOCAL_CONSTANT">
-      <value>
-        <option name="FOREGROUND" value="ff628c" />
-      </value>
-    </option>
     <option name="GO_LOCAL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="ffc600" />
@@ -999,6 +995,7 @@
         <option name="FOREGROUND" value="9effff" />
       </value>
     </option>
+    <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_ID">
       <value>

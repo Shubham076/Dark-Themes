@@ -1,11 +1,11 @@
 <scheme name="Carbon" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2024.1.1.0.0</property>
+        <property name="ideVersion">2024.2.2.0.0</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="51966b" />
-        <option name="CARET_ROW_COLOR" value="2a363e" />
+        <option name="CARET_ROW_COLOR" value="313c51" />
         <option name="CONSOLE_BACKGROUND_KEY" value="1d283b" />
         <option name="DELETED_LINES_COLOR" value="ff4262" />
         <option name="DIAGRAM_ANNOTATION_EDGE" value="8f9948" />
