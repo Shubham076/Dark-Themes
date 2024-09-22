@@ -1,7 +1,7 @@
 <scheme name="Gruvbox Concoctis Soft" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2024.1.1.0.0</property>
+        <property name="ideVersion">2024.2.2.0.0</property>
     </metaInfo>
     <colors>
         <option name="ANNOTATIONS_COLOR" value="0" />
@@ -14,7 +14,7 @@
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
         <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
         <option name="CARET_COLOR" value="d4be98" />
-        <option name="CARET_ROW_COLOR" value="393634" />
+        <option name="CARET_ROW_COLOR" value="413f3e" />
         <option name="CONSOLE_BACKGROUND_KEY" value="32302f" />
         <option name="FILESTATUS_ADDED" value="c3e887" />
         <option name="FILESTATUS_COPIED" value="addb67" />
@@ -936,7 +936,6 @@
         <option name="GO_PACKAGE">
             <value>
                 <option name="FOREGROUND" value="89b482" />
-                <option name="BACKGROUND" value="32302f" />
             </value>
         </option>
         <option name="GO_PACKAGE_EXPORTED_CONSTANT">
