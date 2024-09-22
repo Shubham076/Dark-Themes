@@ -12,11 +12,11 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="343b59" />
-    <option name="CARET_ROW_COLOR" value="d2d2d2" />
+    <option name="CARET_ROW_COLOR" value="f8f3de" />
     <option name="CONSOLE_BACKGROUND_KEY" value="d5d6db" />
     <option name="GUTTER_BACKGROUND" value="d5d6db" />
     <option name="LINE_NUMBERS_COLOR" value="343b59" />
-    <option name="SELECTION_BACKGROUND" value="cccccc" />
+    <option name="SELECTION_BACKGROUND" value="abdffa" />
     <option name="SELECTION_FOREGROUND" value="" />
   </colors>
   <attributes>
@@ -866,10 +866,7 @@
       </value>
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="e4e4ff" />
-        <option name="ERROR_STRIPE_COLOR" value="ccccff" />
-      </value>
+      <value />
     </option>
     <option name="INFO_ATTRIBUTES">
       <value>
@@ -1028,7 +1025,6 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="99ccbb" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="OC.BADCHARACTER">
