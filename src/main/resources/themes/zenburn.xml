@@ -2,7 +2,7 @@
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.1.1.0.0</property>
+    <property name="ideVersion">2024.2.2.0.0</property>
   </metaInfo>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Iosevka Nerd Font" />
@@ -22,7 +22,7 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="3f3f3f" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="CARET_COLOR" value="dcdccc" />
-    <option name="CARET_ROW_COLOR" value="303030" />
+    <option name="CARET_ROW_COLOR" value="4f4f4f" />
     <option name="CONSOLE_BACKGROUND_KEY" value="303030" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="6f6f6f" />
     <option name="DOCUMENTATION_COLOR" value="2b2b2b" />
@@ -107,8 +107,8 @@
         <option name="FOREGROUND" value="dc8cc3" />
       </value>
     </option>
-    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
       <value />
     </option>
