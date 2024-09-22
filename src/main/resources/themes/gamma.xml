@@ -1,7 +1,7 @@
 <scheme name="Gamma" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.1.1.0.0</property>
+    <property name="ideVersion">2024.2.2.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -14,7 +14,7 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="ff9f" />
-    <option name="CARET_ROW_COLOR" value="55555" />
+    <option name="CARET_ROW_COLOR" value="1d4a4a" />
     <option name="CONSOLE_BACKGROUND_KEY" value="33535" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
@@ -42,7 +42,7 @@
     <option name="INDENT_GUIDE" value="3b514d" />
     <option name="LINE_NUMBERS_COLOR" value="ec4b4" />
     <option name="SELECTED_INDENT_GUIDE" value="3b514d" />
-    <option name="SELECTION_BACKGROUND" value="36f65" />
+    <option name="SELECTION_BACKGROUND" value="23504f" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
@@ -57,7 +57,7 @@
         <option name="FOREGROUND" value="d3c6aa" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="6e3b3b" />
@@ -723,7 +723,13 @@
         <option name="FOREGROUND" value="e2ad7c" />
       </value>
     </option>
-    <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
+    <option name="DEFAULT_INVALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="a9dc76" />
+        <option name="EFFECT_COLOR" value="ff0000" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="ff7e7e" />
@@ -785,7 +791,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="58d1e0" />
+        <option name="FOREGROUND" value="a9dc76" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
