@@ -1,7 +1,7 @@
 <scheme name="Noctis bordo" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.1.1.0.0</property>
+    <property name="ideVersion">2024.2.2.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -12,7 +12,7 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="322a2d" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="CARET_COLOR" value="cbbec2" />
-    <option name="CARET_ROW_COLOR" value="3e2e34" />
+    <option name="CARET_ROW_COLOR" value="4e3d44" />
     <option name="CONSOLE_BACKGROUND_KEY" value="322a2d" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />

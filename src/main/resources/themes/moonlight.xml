@@ -2,7 +2,7 @@
     <option name="FONT_SCALE" value="1.0" />
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2024.1.1.0.0</property>
+        <property name="ideVersion">2024.2.2.0.0</property>
     </metaInfo>
     <console-font>
         <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
@@ -20,7 +20,7 @@
         <option name="ActionButton.hoverBackground" value="6c6f934d" />
         <option name="ActionButton.pressedBackground" value="6c6f9380" />
         <option name="CARET_COLOR" value="fab795" />
-        <option name="CARET_ROW_COLOR" value="2a2e48" />
+        <option name="CARET_ROW_COLOR" value="3b3f58" />
         <option name="CONSOLE_BACKGROUND_KEY" value="272a42" />
         <option name="DELETED_LINES_COLOR" value="d94652" />
         <option name="DOCUMENTATION_COLOR" value="232530" />
@@ -65,7 +65,7 @@
         <option name="RIGHT_MARGIN_COLOR" value="2e303e80" />
         <option name="SELECTED_INDENT_GUIDE" value="d5d8da2a" />
         <option name="SELECTED_TEARLINE_COLOR" value="4d515f" />
-        <option name="SELECTION_BACKGROUND" value="474747" />
+        <option name="SELECTION_BACKGROUND" value="454963" />
         <option name="SEPARATOR_ABOVE_COLOR" value="232530" />
         <option name="SEPARATOR_BELOW_COLOR" value="232530" />
         <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="6c6f931a" />

@@ -1,7 +1,7 @@
 <scheme name="Shades of purple" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.1.1.0.0</property>
+    <property name="ideVersion">2024.2.2.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -12,7 +12,7 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="2d2b55" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="CARET_COLOR" value="ffffff" />
-    <option name="CARET_ROW_COLOR" value="3B4252" />
+    <option name="CARET_ROW_COLOR" value="3c3b66" />
     <option name="CONSOLE_BACKGROUND_KEY" value="2d2b55" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
@@ -38,7 +38,7 @@
     <option name="FILESTATUS_modifiedOutside" value="82aaff" />
     <option name="GUTTER_BACKGROUND" value="2d2b55" />
     <option name="LINE_NUMBERS_COLOR" value="ffffff" />
-    <option name="SELECTION_BACKGROUND" value="7448af" />
+    <option name="SELECTION_BACKGROUND" value="464672" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
