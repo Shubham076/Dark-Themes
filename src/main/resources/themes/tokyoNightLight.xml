@@ -655,7 +655,7 @@
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="666666" />
-        <option name="BACKGROUND" value="f5f7f0" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1047,7 +1047,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="fbf1c7" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="OC.BADCHARACTER">
