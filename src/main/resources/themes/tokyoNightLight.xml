@@ -425,7 +425,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="343b58" />
+        <option name="FOREGROUND" value="965027" />
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="965027" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -492,7 +497,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="343b58" />
+        <option name="FOREGROUND" value="965027" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -718,11 +723,6 @@
         <option name="FOREGROUND" value="166775" />
       </value>
     </option>
-    <option name="GO_BUILTIN_TYPE_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="343b58" />
-      </value>
-    </option>
     <option name="GO_BUILTIN_VARIABLE">
       <value>
         <option name="FOREGROUND" value="343b58" />
@@ -764,9 +764,9 @@
         <option name="FOREGROUND" value="343b58" />
       </value>
     </option>
-    <option name="GO_TYPE_REFERENCE">
+    <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="343b58" />
+        <option name="FOREGROUND" value="965027" />
       </value>
     </option>
     <option name="GQL_ID">
