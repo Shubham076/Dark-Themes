@@ -1,7 +1,7 @@
 <scheme name="Tokyo night light" version="142" parent_scheme="Default">
   <metaInfo>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.2.2.0.0</property>
+    <property name="ideVersion">2024.2.2.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="d5d6db" />
@@ -252,105 +252,77 @@
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="3b3b3b" />
+        <option name="FOREGROUND" value="24292e" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="95a19d" />
+        <option name="FOREGROUND" value="3981c6" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="84a498" />
+        <option name="FOREGROUND" value="529b" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="9ebd93" />
+        <option name="FOREGROUND" value="3c4c8" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="8ec07b" />
+        <option name="FOREGROUND" value="186b4" />
       </value>
     </option>
     <option name="CONSOLE_DARKGRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="6b6b6b" />
-      </value>
-    </option>
-    <option name="CONSOLE_ERROR_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="f67667" />
-      </value>
-    </option>
-    <option name="CONSOLE_GRAY_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="ebdbb2" />
+        <option name="FOREGROUND" value="646464" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="b2b437" />
+        <option name="FOREGROUND" value="a237" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="b8bb26" />
+        <option name="FOREGROUND" value="a237" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="cd98a6" />
+        <option name="FOREGROUND" value="ffb3ae" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="d3859a" />
+        <option name="FOREGROUND" value="ef61a2" />
       </value>
-    </option>
-    <option name="CONSOLE_NORMAL_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="ebdbb2" />
-      </value>
-    </option>
-    <option name="CONSOLE_RANGE_TO_EXECUTE">
-      <value />
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="f28e82" />
+        <option name="FOREGROUND" value="e62000" />
       </value>
     </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="f78d8c" />
-      </value>
-    </option>
-    <option name="CONSOLE_SYSTEM_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="ebdbb2" />
-      </value>
-    </option>
-    <option name="CONSOLE_USER_INPUT">
-      <value>
-        <option name="FOREGROUND" value="ebdbb2" />
+        <option name="FOREGROUND" value="c42740" />
       </value>
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ebdbb2" />
+        <option name="FOREGROUND" value="c9c9c9" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="f1bf4a" />
+        <option name="FOREGROUND" value="b59f00" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="fabd2f" />
+        <option name="FOREGROUND" value="b68e00" />
       </value>
     </option>
     <option name="CSS.COMMENT">
@@ -1084,6 +1056,31 @@
     </option>
     <option name="LIVE_TEMPLATE_INACTIVE_SEGMENT">
       <value />
+    </option>
+    <option name="LOG_DEBUG_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="186b4" />
+      </value>
+    </option>
+    <option name="LOG_ERROR_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="a91b1b" />
+      </value>
+    </option>
+    <option name="LOG_INFO_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="a237" />
+      </value>
+    </option>
+    <option name="LOG_VERBOSE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="529b" />
+      </value>
+    </option>
+    <option name="LOG_WARNING_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="b68e00" />
+      </value>
     </option>
     <option name="MACRONAME">
       <value>
