@@ -5,7 +5,7 @@
   "editorScheme": "/themes/Winter Is Coming.xml",
   "ui": {
     "*": {
-      "background": "#022037",
+      "background": "#002541",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
       "selectionBackground": "#022948ff",
@@ -23,15 +23,15 @@
       "excluded": "#022948ff"
     },
     "DefaultTabs": {
-      "background": "#022037",
-      "borderColor": "#022037"
+      "background": "#002541",
+      "borderColor": "#002541"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#022037"
+      "underlinedTabBackground": "#002541"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#022037"
+        "inactiveBackground": "#002541"
       }
     },
      "Plugins": {
@@ -44,7 +44,7 @@
       }
     },
     "Popup": {
-      "Header.activeBackground": "#022037"
+      "Header.activeBackground": "#002541"
     },
     "TabbedPane": {
       "hoverColor": "#011627"

@@ -5,7 +5,7 @@
   "editorScheme": "/themes/nightowl.xml",
   "ui": {
     "*": {
-      "background": "#011f38",
+      "background": "#002441",
       "foreground": "#D6DEEB",
       "highlight": "#425b67ff",
       "selectionBackground": "#4373C2",
@@ -23,15 +23,15 @@
       "excluded": "#4373C2"
     },
     "DefaultTabs": {
-      "background": "#011f38",
-      "borderColor": "#011f38"
+      "background": "#002441",
+      "borderColor": "#002441"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#011f38"
+      "underlinedTabBackground": "#002441"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#011f38"
+        "inactiveBackground": "#002441"
       }
     },
     "Plugins": {
@@ -44,13 +44,13 @@
       }
     },
     "Popup": {
-      "Header.activeBackground": "#011f38"
+      "Header.activeBackground": "#002441"
     },
     "TabbedPane": {
-      "hoverColor": "#011f38"
+      "hoverColor": "#002441"
     },
     "Button": {
-      "focus": "#011f38"
+      "focus": "#002441"
     }
   }
 }
