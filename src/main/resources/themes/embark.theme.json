@@ -5,7 +5,7 @@
   "editorScheme": "/themes/embark.xml",
   "ui": {
     "*": {
-      "background": "#262436",
+      "background": "#2d2b40",
       "foreground": "#CBE3E7",
       "highlight": "#425b67ff",
       "selectionBackground": "#585273",
@@ -24,7 +24,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#262436"
+        "inactiveBackground": "#2d2b40"
       }
     },
     "Plugins": {
@@ -37,22 +37,22 @@
       }
     },
     "DefaultTabs": {
-      "background": "#2D2B40",
+      "background": "#2d2b40",
       "hoverBackground": "#707a8c99",
       "borderColor": "#1f2430"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#2D2B40",
+      "underlinedTabBackground": "#2d2b40",
       "borderColor" : "#1f2430"
     },
     "Popup": {
-      "Header.activeBackground": "#2D2B40"
+      "Header.activeBackground": "#2d2b40"
     },
     "TabbedPane": {
-      "hoverColor": "#2D2B40"
+      "hoverColor": "#2d2b40"
     },
     "Button": {
-      "focus": "#2D2B40"
+      "focus": "#2d2b40"
     }
   }
 }
