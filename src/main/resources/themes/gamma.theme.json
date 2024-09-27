@@ -5,7 +5,7 @@
   "editorScheme": "/themes/gamma.xml",
   "ui": {
     "*": {
-      "background": "#002828",
+      "background": "#033535",
       "foreground": "#0ec4b4",
       "highlight": "#425b67ff",
       "selectionBackground": "#055555",
@@ -23,14 +23,14 @@
       "excluded": "#055555"
     },
     "DefaultTabs": {
-      "background": "#002828"
+      "background": "#033535"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#002828"
+      "underlinedTabBackground": "#033535"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#002828"
+        "inactiveBackground": "#033535"
       }
     },
      "Plugins": {
@@ -43,13 +43,13 @@
       }
     },
     "Popup": {
-      "Header.activeBackground": "#002828"
+      "Header.activeBackground": "#033535"
     },
     "TabbedPane": {
-      "hoverColor": "#002828"
+      "hoverColor": "#033535"
     },
     "Button": {
-      "focus": "#002828"
+      "focus": "#033535"
     }
   }
 }
