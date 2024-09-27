@@ -1,7 +1,7 @@
 <scheme name="Everforest" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.1.1.0.0</property>
+    <property name="ide">PyCharmCore</property>
+    <property name="ideVersion">2024.2.2.0.0</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="445349" />
@@ -529,8 +529,7 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="d8caac" />
-        <option name="BACKGROUND" value="e68183" />
+        <option name="FOREGROUND" value="d9bb80" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -601,11 +600,7 @@
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="DEFAULT_STATIC_METHOD">
-      <value>
-        <option name="FOREGROUND" value="a7c080" />
-      </value>
-    </option>
+    <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
         <option name="FOREGROUND" value="dbbc7f" />
@@ -1668,11 +1663,6 @@
         <option name="FOREGROUND" value="a7c080" />
       </value>
     </option>
-    <option name="PY.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="e67e80" />
-      </value>
-    </option>
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
         <option name="FOREGROUND" value="d3c6aa" />
@@ -1693,11 +1683,6 @@
         <option name="FOREGROUND" value="a7c080" />
       </value>
     </option>
-    <option name="PY.NUMBER">
-      <value>
-        <option name="FOREGROUND" value="d699b6" />
-      </value>
-    </option>
     <option name="PY.OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="e69875" />
@@ -1713,31 +1698,14 @@
         <option name="FOREGROUND" value="d3c6aa" />
       </value>
     </option>
-    <option name="PY.PREDEFINED_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="a7c080" />
-      </value>
-    </option>
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.PREDEFINED_USAGE">
       <value>
         <option name="FOREGROUND" value="a7c080" />
       </value>
     </option>
-    <option name="PY.SELF_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="7fbbb3" />
-      </value>
-    </option>
-    <option name="PY.STRING.B">
-      <value>
-        <option name="FOREGROUND" value="83c092" />
-      </value>
-    </option>
-    <option name="PY.STRING.U">
-      <value>
-        <option name="FOREGROUND" value="83c092" />
-      </value>
-    </option>
+    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
     <option name="RUNTIME_ERROR">
       <value>
         <option name="EFFECT_COLOR" value="e67e80" />
