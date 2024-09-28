@@ -9,13 +9,11 @@
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="a2635" />
     <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="a2635" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="a2635" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="ededed" />
     <option name="CARET_ROW_COLOR" value="1f3a4a" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="0f2b3a" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="f2b3a" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
     <option name="FILESTATUS_DELETED" value="f77669" />
@@ -587,7 +585,6 @@
     <option name="DEFAULT_CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="afbf76" />
-        <option name="BACKGROUND" value="a2635" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
@@ -649,11 +646,7 @@
         <option name="FOREGROUND" value="c0c5a7" />
       </value>
     </option>
-    <option name="DEFAULT_INSTANCE_FIELD">
-      <value>
-        <option name="FOREGROUND" value="94c5cc" />
-      </value>
-    </option>
+    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
         <option name="FOREGROUND" value="cac386" />
@@ -662,7 +655,6 @@
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="afbf76" />
-        <option name="BACKGROUND" value="a2635" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -681,7 +673,11 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
+    <option name="DEFAULT_METADATA">
+      <value>
+        <option name="FOREGROUND" value="afbf76" />
+      </value>
+    </option>
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="9dc488" />
@@ -690,11 +686,6 @@
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="c0c5a7" />
-      </value>
-    </option>
-    <option name="DEFAULT_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="94c5cc" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
@@ -722,11 +713,7 @@
         <option name="FOREGROUND" value="c0c5a7" />
       </value>
     </option>
-    <option name="DEFAULT_STATIC_FIELD">
-      <value>
-        <option name="FOREGROUND" value="94c5cc" />
-      </value>
-    </option>
+    <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="cac386" />
@@ -1125,11 +1112,6 @@
     <option name="JAVA_NUMBER">
       <value>
         <option name="FOREGROUND" value="9dc488" />
-      </value>
-    </option>
-    <option name="JAVA_OPERATION_SIGN">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="JAVA_STRING">
@@ -1830,7 +1812,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="c0c5a7" />
-        <option name="BACKGROUND" value="0f2b3a" />
+        <option name="BACKGROUND" value="f2b3a" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
