@@ -6,7 +6,7 @@
   "ui": {
     "*": {
       "foreground": "#bac8cb",
-      "background": "#172030",
+      "background": "#1d283b",
       "borderColor": "#213047",
       "disabledBorderColor": "#586e75",
       "selectionBackground": "#0A677A",
@@ -101,7 +101,7 @@
     },
 
     "Editor": {
-      "background": "#172030",
+      "background": "#1d283b",
       "foreground": "#bac8cb",
       "shortcutForeground": "#2aa198"
     },
@@ -183,7 +183,7 @@
         "installForeground": "#bac8cb",
         "installBorderColor": "#02858e",
         "installFillForeground": "#bac8cb",
-        "installFillBackground": "#172030",
+        "installFillBackground": "#1d283b",
         "updateForeground": "#bac8cb",
         "updateBackground": "#02858e",
         "updateBorderColor": "#213047"
@@ -196,8 +196,8 @@
       "borderColor": "#213047",
       "inactiveBorderColor": "#213047",
       "Toolbar.borderColor": "#213047",
-      "Header.activeBackground": "#172030",
-      "Header.inactiveBackground": "#172030",
+      "Header.activeBackground": "#1d283b",
+      "Header.inactiveBackground": "#1d283b",
       "separatorForeground": "#213047",
       "Advertiser": {
         "foreground": "#bac8cb",
@@ -229,7 +229,7 @@
         "selectedBackground": "#074855"
       },
       "SearchField": {
-        "background": "#172030",
+        "background": "#1d283b",
         "borderColor": "#213047"
       },
       "Advertiser.foreground": "#bac8cb"
@@ -247,13 +247,13 @@
       "errorForeground": "#e0555e"
     },
 
-    "SplitPane.background": "#172030",
+    "SplitPane.background": "#1d283b",
 
     "StatusBar.borderColor": "#213047",
 
     "Table": {
       "foreground": "#bac8cb",
-      "background": "#172030",
+      "background": "#1d283b",
       "stripeColor": "#1E2A3E",
       "selectionForeground": "#fdf6e3",
       "selectionBackground": "#074855",
@@ -280,7 +280,7 @@
     },
 
     "ToolTip": {
-      "background": "#172030",
+      "background": "#1d283b",
       "Actions.background": "#1E2A3E"
     },
 
@@ -310,13 +310,13 @@
       "FileHistory.Commit.selectedBranchBackground": "#3f5d6e"
     },
 
-    "Viewport.background": "#172030",
+    "Viewport.background": "#1d283b",
 
-    "WelcomeScreen.background": "#172030",
+    "WelcomeScreen.background": "#1d283b",
 
     "WelcomeScreen": {
-      "Projects.selectionInactiveBackground": "#172030",
-      "separatorColor": "#172030"
+      "Projects.selectionInactiveBackground": "#1d283b",
+      "separatorColor": "#1d283b"
     }
   },
 
