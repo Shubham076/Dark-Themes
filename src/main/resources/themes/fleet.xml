@@ -11,17 +11,19 @@
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="212733" />
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
         <option name="CARET_COLOR" value="d6d6dd" />
-        <option name="CARET_ROW_COLOR" value="292929" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="181818" />
+        <option name="CARET_ROW_COLOR" value="353535" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="262626" />
         <option name="GUTTER_BACKGROUND" value="181818" />
-        <option name="INDENT_GUIDE" value="737373" />
+        <option name="INDENT_GUIDE" value="353535" />
         <option name="LINE_NUMBERS_COLOR" value="d6d6dd" />
-        <option name="SELECTED_INDENT_GUIDE" value="737373" />
+        <option name="RIGHT_MARGIN_COLOR" value="353535" />
+        <option name="SELECTED_INDENT_GUIDE" value="353535" />
         <option name="SELECTION_BACKGROUND" value="163761" />
+        <option name="VISUAL_INDENT_GUIDE" value="353535" />
         <option name="WHITESPACES" value="737373" />
     </colors>
     <attributes>
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
         <option name="BAD_CHARACTER">
             <value>
                 <option name="BACKGROUND" value="6e3b3b" />
