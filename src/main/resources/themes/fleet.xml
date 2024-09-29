@@ -1,8 +1,7 @@
 <scheme name="Fleet" version="142" parent_scheme="Darcula">
     <metaInfo>
-        <property name="ide">GoLand</property>
-        <property name="ideVersion">2024.2.2.1.0.0</property>
-        <property name="originalScheme">Fleet</property>
+        <property name="ide">PyCharmCore</property>
+        <property name="ideVersion">2024.2.2.0.0</property>
     </metaInfo>
     <colors>
         <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="212733" />
@@ -487,7 +486,7 @@
         </option>
         <option name="DEFAULT_ATTRIBUTE">
             <value>
-                <option name="FOREGROUND" value="87c3ff" />
+                <option name="FOREGROUND" value="efb080" />
             </value>
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
@@ -915,11 +914,7 @@
             </value>
         </option>
         <option name="HAML_XHTML" baseAttributes="" />
-        <option name="HTML_ATTRIBUTE_NAME">
-            <value>
-                <option name="FOREGROUND" value="aaa0fa" />
-            </value>
-        </option>
+        <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
         <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
         <option name="HTML_COMMENT">
             <value>
@@ -1328,29 +1323,14 @@
                 <option name="FOREGROUND" value="e394dc" />
             </value>
         </option>
-        <option name="PY.BRACES">
+        <option name="PY.ANNOTATION">
             <value>
-                <option name="FOREGROUND" value="e394dc" />
-            </value>
-        </option>
-        <option name="PY.BRACKETS">
-            <value>
-                <option name="FOREGROUND" value="e394dc" />
+                <option name="FOREGROUND" value="83d6c5" />
             </value>
         </option>
         <option name="PY.BUILTIN_NAME">
             <value>
-                <option name="FOREGROUND" value="efb080" />
-            </value>
-        </option>
-        <option name="PY.CLASS_DEFINITION">
-            <value>
-                <option name="FOREGROUND" value="efb080" />
-            </value>
-        </option>
-        <option name="PY.COMMA">
-            <value>
-                <option name="FOREGROUND" value="e394dc" />
+                <option name="FOREGROUND" value="83d6c5" />
             </value>
         </option>
         <option name="PY.DOC_COMMENT">
@@ -1359,20 +1339,21 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="PY.DOT">
-            <value>
-                <option name="FOREGROUND" value="e394dc" />
-            </value>
-        </option>
         <option name="PY.KEYWORD">
             <value>
                 <option name="FOREGROUND" value="82d2ce" />
             </value>
         </option>
+        <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.LINE_COMMENT">
             <value>
                 <option name="FOREGROUND" value="898989" />
                 <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="PY.METHOD_CALL">
+            <value>
+                <option name="FOREGROUND" value="efb080" />
             </value>
         </option>
         <option name="PY.NUMBER">
@@ -1380,39 +1361,22 @@
                 <option name="FOREGROUND" value="ebc88d" />
             </value>
         </option>
-        <option name="PY.OPERATION_SIGN">
-            <value>
-                <option name="FOREGROUND" value="d6d6dd" />
-            </value>
-        </option>
-        <option name="PY.PARENTHS">
-            <value>
-                <option name="FOREGROUND" value="e394dc" />
-            </value>
-        </option>
+        <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
         <option name="PY.PREDEFINED_USAGE">
             <value>
                 <option name="FOREGROUND" value="efb080" />
             </value>
         </option>
+        <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.STRING">
             <value>
                 <option name="FOREGROUND" value="e394dc" />
             </value>
         </option>
-        <option name="PY.VALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="d6d6dd" />
-            </value>
-        </option>
+        <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
         <option name="REGEXP.ESC_CHARACTER" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
         <option name="REGEXP.META" baseAttributes="DEFAULT_KEYWORD" />
         <option name="REGEXP.QUOTE_CHARACTER" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-        <option name="REST.BOLD">
-            <value>
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
         <option name="REST.EXPLICIT">
             <value>
                 <option name="FOREGROUND" value="83d6c5" />
@@ -1436,11 +1400,6 @@
         <option name="REST.INTERPRETED">
             <value>
                 <option name="BACKGROUND" value="4d5d3d" />
-            </value>
-        </option>
-        <option name="REST.ITALIC">
-            <value>
-                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="REST.LINE_COMMENT">
@@ -1863,11 +1822,7 @@
                 <option name="BACKGROUND" value="623062" />
             </value>
         </option>
-        <option name="XML_ATTRIBUTE_NAME">
-            <value>
-                <option name="FOREGROUND" value="aaa0fa" />
-            </value>
-        </option>
+        <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
         <option name="XML_CUSTOM_TAG_NAME" baseAttributes="XML_TAG_NAME" />
         <option name="XML_ENTITY_REFERENCE">
             <value>
