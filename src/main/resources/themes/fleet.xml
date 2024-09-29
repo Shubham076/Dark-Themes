@@ -996,6 +996,11 @@
             </value>
         </option>
         <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+        <option name="JS.INSTANCE_MEMBER_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="e8b1bf" />
+            </value>
+        </option>
         <option name="JS.LOCAL_VARIABLE">
             <value>
                 <option name="FOREGROUND" value="d6d6dd" />
