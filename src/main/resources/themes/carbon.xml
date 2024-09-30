@@ -1,7 +1,7 @@
 <scheme name="Carbon" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2024.2.2.0.0</property>
+        <property name="ideVersion">2024.2.2.1.0.0</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="51966b" />
@@ -405,7 +405,7 @@
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="ffa2a5" />
+                <option name="FOREGROUND" value="e3898c" />
             </value>
         </option>
         <option name="DEFAULT_LABEL">
