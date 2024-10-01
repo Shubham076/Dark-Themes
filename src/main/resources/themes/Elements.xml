@@ -1125,7 +1125,9 @@
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
-      <value />
+        <value>
+          <option name="FOREGROUND" value="807f80" />
+        </value>
     </option>
     <option name="OC.BADCHARACTER">
       <value>
