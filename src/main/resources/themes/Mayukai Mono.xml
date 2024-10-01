@@ -609,16 +609,20 @@
     <option name="DEFAULT_BRACKETS" baseAttributes="" />
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="f28779" />
+        <option name="FOREGROUND" value="9cd1bb" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="f28779" />
+        <option name="FOREGROUND" value="9cd1bb" />
       </value>
     </option>
     <option name="DEFAULT_COMMA" baseAttributes="" />
-    <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="cbcebc" />
+      </value>
+    </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="5c6773" />
@@ -640,17 +644,17 @@
     <option name="DEFAULT_DOT" baseAttributes="" />
     <option name="DEFAULT_ENTITY">
       <value>
-        <option name="FOREGROUND" value="78dce8" />
+        <option name="FOREGROUND" value="cbcebc" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="9cd1bb" />
+        <option name="FOREGROUND" value="f2cb58" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="9cd1bb" />
+        <option name="FOREGROUND" value="f2cb58" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -666,24 +670,19 @@
         <option name="FOREGROUND" value="cbcebc" />
       </value>
     </option>
-    <option name="DEFAULT_INSTANCE_METHOD">
-      <value>
-        <option name="FOREGROUND" value="ffd866" />
-      </value>
-    </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="f28779" />
+        <option name="FOREGROUND" value="9cd1bb" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="ff3333" />
+        <option name="FOREGROUND" value="a9dc76" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="ffa759" />
+        <option name="FOREGROUND" value="9cd1bb" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -697,15 +696,19 @@
         <option name="FOREGROUND" value="cbcebc" />
       </value>
     </option>
-    <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
+    <option name="DEFAULT_METADATA">
+      <value>
+        <option name="FOREGROUND" value="ffa759" />
+      </value>
+    </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="78dce8" />
+        <option name="FOREGROUND" value="f2cb58" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="ff6188" />
+        <option name="FOREGROUND" value="f2cb58" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS" baseAttributes="" />
@@ -722,11 +725,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="DEFAULT_STATIC_METHOD">
-      <value>
-        <option name="FOREGROUND" value="ffd866" />
-      </value>
-    </option>
+    <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
         <option name="FOREGROUND" value="a9dc76" />
@@ -740,7 +739,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="78dce8" />
+        <option name="FOREGROUND" value="a9dc76" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -873,6 +872,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_BUILTIN_VARIABLE">
@@ -896,15 +896,11 @@
     </option>
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="f28779" />
+        <option name="FOREGROUND" value="9cd1bb" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-    <option name="GO_TYPE_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="f28779" />
-      </value>
-    </option>
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="78dce8" />

@@ -26,7 +26,6 @@
         <themeProvider id="com.github.shubham076.inBedBy7" path="/themes/inBedBy7.theme.json"/>
         <themeProvider id="com.github.shubham076.mayukaiMono" path="/themes/mayukaiMono.theme.json"/>
         <themeProvider id="com.github.shubham076.mayukaiMirage" path="/themes/mayukaiMirage.theme.json"/>
-        <themeProvider id="com.github.shubham076.mayukaiReversal" path="/themes/mayukaiReversal.theme.json"/>
         <themeProvider id="com.github.shubham076.mayukaiGruvbox" path="/themes/mayukaiGruvbox.theme.json"/>
         <themeProvider id="com.github.shubham076.aura" path="/themes/aura.theme.json"/>
         <themeProvider id="com.github.shubham076.galaxy" path="/themes/galaxy.theme.json"/>
