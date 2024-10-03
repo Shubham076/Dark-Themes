@@ -630,11 +630,6 @@
         <option name="FOREGROUND" value="d8be9e" />
       </value>
     </option>
-    <option name="DEFAULT_GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="a4ceee" />
-      </value>
-    </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER">
       <value>
@@ -653,8 +648,7 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="6dbdfa" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="7fdbca" />
         <option name="EFFECT_COLOR" value="6dbdfa" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -669,7 +663,11 @@
         <option name="FOREGROUND" value="999999" />
       </value>
     </option>
-    <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
+    <option name="DEFAULT_METADATA">
+      <value>
+        <option name="FOREGROUND" value="f7ecb5" />
+      </value>
+    </option>
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="7fdbca" />
@@ -677,7 +675,7 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="6dbdfa" />
+        <option name="FOREGROUND" value="c5cdd3" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS" baseAttributes="" />
@@ -713,7 +711,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="82aaff" />
+        <option name="FOREGROUND" value="7fdbca" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -1307,25 +1305,15 @@
         <option name="FOREGROUND" value="d3eed6" />
       </value>
     </option>
-    <option name="PY.BUILTIN_NAME">
+    <option name="PY.ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="f7ecb5" />
+        <option name="FOREGROUND" value="7fdbca" />
       </value>
     </option>
-    <option name="PY.DECORATOR">
-      <value>
-        <option name="FOREGROUND" value="87aff4" />
-      </value>
-    </option>
+    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="999999" />
-      </value>
-    </option>
-    <option name="PY.INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="6dbdfa" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
@@ -1334,28 +1322,15 @@
         <option name="FOREGROUND" value="999999" />
       </value>
     </option>
-    <option name="PY.OPERATION_SIGN">
-      <value>
-        <option name="FOREGROUND" value="bff9" />
-      </value>
-    </option>
     <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.PREDEFINED_USAGE">
-      <value>
-        <option name="FOREGROUND" value="f7ecb5" />
-      </value>
-    </option>
+    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.STRING">
       <value>
         <option name="FOREGROUND" value="d3eed6" />
       </value>
     </option>
-    <option name="PY.VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="82aaff" />
-      </value>
-    </option>
+    <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
     <option name="REST.EXPLICIT">
       <value>
         <option name="FOREGROUND" value="bff9" />
@@ -1756,7 +1731,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="a7dbf7" />
+        <option name="FOREGROUND" value="c5cdd3" />
         <option name="BACKGROUND" value="32a47" />
       </value>
     </option>
