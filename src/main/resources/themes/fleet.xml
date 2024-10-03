@@ -379,6 +379,12 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
+        <option name="CTRL_CLICKABLE">
+            <value>
+                <option name="FOREGROUND" value="589df6" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
         <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="68e868" />
@@ -512,7 +518,7 @@
         </option>
         <option name="DEFAULT_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="87c3ff" />
+                <option name="FOREGROUND" value="d4bfff" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT">
@@ -610,7 +616,7 @@
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
-                <option name="FOREGROUND" value="87c3ff" />
+                <option name="FOREGROUND" value="d4bfff" />
             </value>
         </option>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -705,7 +711,6 @@
         <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="c7c7ff" />
-                <option name="BACKGROUND" value="171717" />
                 <option name="FONT_TYPE" value="2" />
                 <option name="EFFECT_COLOR" value="c7c7ff" />
                 <option name="EFFECT_TYPE" value="1" />
@@ -815,6 +820,7 @@
                 <option name="FOREGROUND" value="83d6c5" />
             </value>
         </option>
+        <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
         <option name="GQL_ID">
             <value>
@@ -900,7 +906,6 @@
             <value>
                 <option name="FOREGROUND" value="c7c7ff" />
                 <option name="FONT_TYPE" value="2" />
-                <option name="EFFECT_COLOR" value="c7c7ff" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -910,7 +915,13 @@
                 <option name="ERROR_STRIPE_COLOR" value="ccccff" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+        <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="ebc88d" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
         <option name="INFO_ATTRIBUTES">
             <value>
                 <option name="EFFECT_COLOR" value="343434" />
@@ -1693,7 +1704,6 @@
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="c7c7ff" />
-                <option name="FONT_TYPE" value="3" />
                 <option name="ERROR_STRIPE_COLOR" value="ff" />
             </value>
         </option>
