@@ -40,7 +40,7 @@
     <option name="FILESTATUS_changelistConflict" value="f78c6c" />
     <option name="FILESTATUS_modifiedOutside" value="82aaff" />
     <option name="GUTTER_BACKGROUND" value="22037" />
-    <option name="INDENT_GUIDE" value="3b3a32" />
+    <option name="INDENT_GUIDE" value="1a3f5d" />
     <option name="LINE_NUMBERS_COLOR" value="a7dbf7" />
     <option name="SELECTED_INDENT_GUIDE" value="3b3a32" />
     <option name="SELECTION_BACKGROUND" value="15427f" />
@@ -1315,10 +1315,14 @@
     </option>
     <option name="PY.ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="7fdbca" />
+        <option name="FOREGROUND" value="afe3b3" />
       </value>
     </option>
-    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.BUILTIN_NAME">
+      <value>
+        <option name="FOREGROUND" value="afe3b3" />
+      </value>
+    </option>
     <option name="PY.DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="999999" />
@@ -1821,11 +1825,6 @@
     <option name="YAML_SCALAR_DSTRING">
       <value>
         <option name="FOREGROUND" value="d3eed6" />
-      </value>
-    </option>
-    <option name="YAML_SCALAR_KEY">
-      <value>
-        <option name="FOREGROUND" value="d8be9e" />
       </value>
     </option>
     <option name="YAML_SCALAR_LIST">
