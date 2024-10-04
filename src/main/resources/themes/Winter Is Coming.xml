@@ -1,7 +1,7 @@
 <scheme name="Winter Is Coming" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.2.2.1.0.0</property>
+    <property name="ide">PyCharmCore</property>
+    <property name="ideVersion">2024.2.2.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -666,7 +666,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="d5dfa4" />
+        <option name="FOREGROUND" value="bcd38a" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -1086,7 +1086,6 @@
     <option name="JSON.INVALID_ESCAPE">
       <value>
         <option name="FOREGROUND" value="d3eed6" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1096,6 +1095,16 @@
       </value>
     </option>
     <option name="JSON.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="d3eed6" />
+      </value>
+    </option>
+    <option name="JSON.PROPERTY_KEY">
+      <value>
+        <option name="FOREGROUND" value="d8be9e" />
+      </value>
+    </option>
+    <option name="JSON.STRING">
       <value>
         <option name="FOREGROUND" value="d3eed6" />
       </value>
@@ -1803,6 +1812,7 @@
         <option name="FOREGROUND" value="7fdbca" />
       </value>
     </option>
+    <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="YAML_COMMENT">
       <value>
         <option name="FOREGROUND" value="999999" />
@@ -1811,11 +1821,6 @@
     <option name="YAML_SCALAR_DSTRING">
       <value>
         <option name="FOREGROUND" value="d3eed6" />
-      </value>
-    </option>
-    <option name="YAML_SCALAR_KEY">
-      <value>
-        <option name="FOREGROUND" value="6dbdfa" />
       </value>
     </option>
     <option name="YAML_SCALAR_LIST">
@@ -1831,11 +1836,6 @@
     <option name="YAML_SCALAR_VALUE">
       <value>
         <option name="FOREGROUND" value="d3eed6" />
-      </value>
-    </option>
-    <option name="YAML_SIGN">
-      <value>
-        <option name="FOREGROUND" value="bff9" />
       </value>
     </option>
     <option name="YAML_TEXT">
