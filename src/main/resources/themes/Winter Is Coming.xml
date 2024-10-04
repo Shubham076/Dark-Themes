@@ -1,7 +1,7 @@
 <scheme name="Winter Is Coming" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">PyCharmCore</property>
-    <property name="ideVersion">2024.2.2.0.0</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2024.2.2.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -628,12 +628,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="d8be9e" />
+        <option name="FOREGROUND" value="d5dfa4" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="d8be9e" />
+        <option name="FOREGROUND" value="d5dfa4" />
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -656,7 +656,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="7fdbca" />
+        <option name="FOREGROUND" value="d8be9e" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
