@@ -681,12 +681,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="fffb85" />
+        <option name="FOREGROUND" value="f2ee77" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="fffb85" />
+        <option name="FOREGROUND" value="f2ee77" />
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -696,11 +696,6 @@
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="DEFAULT_INSTANCE_METHOD">
-      <value>
-        <option name="FOREGROUND" value="fffb85" />
-      </value>
-    </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="a0fcbd" />
@@ -744,7 +739,7 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="fffb85" />
+        <option name="FOREGROUND" value="f2ee77" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -755,11 +750,7 @@
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="DEFAULT_STATIC_METHOD">
-      <value>
-        <option name="FOREGROUND" value="fffb85" />
-      </value>
-    </option>
+    <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
         <option name="FOREGROUND" value="a0fcbd" />
