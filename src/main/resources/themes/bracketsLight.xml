@@ -1,7 +1,7 @@
 <scheme name="Brackets Light" version="142" parent_scheme="Default">
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2024.1.1.0.0</property>
+        <property name="ideVersion">2024.2.2.1.0.0</property>
     </metaInfo>
     <colors>
         <option name="BREADCRUMBS_BORDER_COLOR" value="c5d1d7" />
@@ -376,16 +376,6 @@
         <option name="GO_PACKAGE">
             <value>
                 <option name="FOREGROUND" value="805900" />
-            </value>
-        </option>
-        <option name="GO_PACKAGE_EXPORTED_CONSTANT">
-            <value>
-                <option name="FOREGROUND" value="871094" />
-            </value>
-        </option>
-        <option name="GO_PACKAGE_LOCAL_CONSTANT">
-            <value>
-                <option name="FOREGROUND" value="871094" />
             </value>
         </option>
         <option name="HTML_TAG_NAME">
