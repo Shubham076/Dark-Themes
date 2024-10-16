@@ -20,7 +20,6 @@
         <themeProvider id="com.github.shubham076.bluedolphin" path="/themes/blueDolphin.theme.json"/>
         <themeProvider id="com.github.shubham076.ayuMirage" path="/themes/ayuMirage.theme.json"/>
         <themeProvider id="com.github.shubham076.shadesOfPurple" path="/themes/shadesOfPurple.theme.json"/>
-        <themeProvider id="com.github.shubham076.winterIsComing" path="/themes/WinterIsComing.theme.json"/>
         <themeProvider id="com.github.shubham076.cobalt2" path="/themes/cobalt2.theme.json"/>
         <themeProvider id="com.github.shubham076.cityPop" path="/themes/cityPop.theme.json"/>
         <themeProvider id="com.github.shubham076.inBedBy7" path="/themes/inBedBy7.theme.json"/>
