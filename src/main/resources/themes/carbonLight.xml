@@ -384,6 +384,12 @@
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
+        <option name="EXECUTIONPOINT_ATTRIBUTES">
+            <value>
+                <option name="BACKGROUND" value="c0d8ff" />
+                <option name="EFFECT_TYPE" value="4" />
+            </value>
+        </option>
         <option name="FOLDED_TEXT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="4d6168" />
