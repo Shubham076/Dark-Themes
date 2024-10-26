@@ -56,7 +56,7 @@
         <option name="FOREGROUND" value="bfd4bc" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="ff5370" />
@@ -1384,6 +1384,11 @@
         <option name="FOREGROUND" value="f8b600" />
       </value>
     </option>
+    <option name="PY.ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="f4ce9f" />
+      </value>
+    </option>
     <option name="PY.BRACES">
       <value>
         <option name="FOREGROUND" value="ffeac4" />
@@ -1396,22 +1401,12 @@
     </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="ff9900" />
-      </value>
-    </option>
-    <option name="PY.CLASS_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="fdb93b" />
+        <option name="FOREGROUND" value="f4ce9f" />
       </value>
     </option>
     <option name="PY.COMMA">
       <value>
         <option name="FOREGROUND" value="ffeac4" />
-      </value>
-    </option>
-    <option name="PY.DECORATOR">
-      <value>
-        <option name="FOREGROUND" value="ff9900" />
       </value>
     </option>
     <option name="PY.DOC_COMMENT">
@@ -1424,35 +1419,10 @@
         <option name="FOREGROUND" value="ffeac4" />
       </value>
     </option>
-    <option name="PY.FUNC_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="ff9900" />
-      </value>
-    </option>
-    <option name="PY.INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="ff5370" />
-      </value>
-    </option>
-    <option name="PY.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="81ebd0" />
-      </value>
-    </option>
     <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="7e786e" />
-      </value>
-    </option>
-    <option name="PY.NUMBER">
-      <value>
-        <option name="FOREGROUND" value="f78c6c" />
-      </value>
-    </option>
-    <option name="PY.OPERATION_SIGN">
-      <value>
-        <option name="FOREGROUND" value="81ebd0" />
       </value>
     </option>
     <option name="PY.PARENTHS">
@@ -1461,22 +1431,14 @@
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.PREDEFINED_USAGE">
-      <value>
-        <option name="FOREGROUND" value="ff9900" />
-      </value>
-    </option>
+    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.STRING">
       <value>
         <option name="FOREGROUND" value="f8b600" />
       </value>
     </option>
-    <option name="PY.VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="89ddff" />
-      </value>
-    </option>
+    <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
     <option name="REST.EXPLICIT">
       <value>
         <option name="FOREGROUND" value="81ebd0" />
