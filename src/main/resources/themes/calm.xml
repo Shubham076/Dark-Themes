@@ -1,7 +1,7 @@
 <scheme name="Calm" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.2.2.1.0.0</property>
+    <property name="ide">Idea</property>
+    <property name="ideVersion">2024.2.4.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -56,6 +56,7 @@
         <option name="FOREGROUND" value="bfd4bc" />
       </value>
     </option>
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="ff5370" />
@@ -1125,24 +1126,9 @@
         <option name="FOREGROUND" value="ffeac4" />
       </value>
     </option>
-    <option name="JAVA_INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="ff5370" />
-      </value>
-    </option>
-    <option name="JAVA_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="81ebd0" />
-      </value>
-    </option>
     <option name="JAVA_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="7e786e" />
-      </value>
-    </option>
-    <option name="JAVA_NUMBER">
-      <value>
-        <option name="FOREGROUND" value="f78c6c" />
       </value>
     </option>
     <option name="JAVA_OPERATION_SIGN">
@@ -1158,16 +1144,6 @@
     <option name="JAVA_SEMICOLON">
       <value>
         <option name="FOREGROUND" value="ffeac4" />
-      </value>
-    </option>
-    <option name="JAVA_STRING">
-      <value>
-        <option name="FOREGROUND" value="f8b600" />
-      </value>
-    </option>
-    <option name="JAVA_VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="89ddff" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
@@ -1313,6 +1289,10 @@
         <option name="FOREGROUND" value="bfd4bc" />
       </value>
     </option>
+    <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
+    <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="PROTOCOL_REFERENCE">
       <value>
         <option name="FOREGROUND" value="fdb93b" />
