@@ -1013,11 +1013,7 @@
       </value>
     </option>
     <option name="HTML_CUSTOM_TAG_NAME" baseAttributes="HTML_TAG_NAME" />
-    <option name="HTML_ENTITY_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="f78c6c" />
-      </value>
-    </option>
+    <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
     <option name="HTML_TAG">
       <value>
         <option name="FOREGROUND" value="ffeac4" />
@@ -1951,11 +1947,6 @@
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
-    <option name="XML_ATTRIBUTE_VALUE">
-      <value>
-        <option name="FOREGROUND" value="f8b600" />
-      </value>
-    </option>
     <option name="XML_CUSTOM_TAG_NAME" baseAttributes="XML_TAG_NAME" />
     <option name="XML_ENTITY_REFERENCE">
       <value>
