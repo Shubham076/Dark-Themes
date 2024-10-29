@@ -1,7 +1,7 @@
 <scheme name="Calm" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">Idea</property>
-    <property name="ideVersion">2024.2.4.0.0</property>
+    <property name="ide">PyCharmCore</property>
+    <property name="ideVersion">2024.2.2.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -1936,11 +1936,6 @@
         <option name="FOREGROUND" value="7e786e" />
       </value>
     </option>
-    <option name="YAML_SCALAR_DSTRING">
-      <value>
-        <option name="FOREGROUND" value="f8b600" />
-      </value>
-    </option>
     <option name="YAML_SCALAR_KEY">
       <value>
         <option name="FOREGROUND" value="ffab84" />
@@ -1948,17 +1943,12 @@
     </option>
     <option name="YAML_SCALAR_LIST">
       <value>
-        <option name="FOREGROUND" value="f8b600" />
-      </value>
-    </option>
-    <option name="YAML_SCALAR_STRING">
-      <value>
-        <option name="FOREGROUND" value="f8b600" />
+        <option name="FOREGROUND" value="f4ce9f" />
       </value>
     </option>
     <option name="YAML_SCALAR_VALUE">
       <value>
-        <option name="FOREGROUND" value="f8b600" />
+        <option name="FOREGROUND" value="f4ce9f" />
       </value>
     </option>
     <option name="YAML_SIGN">
@@ -1968,7 +1958,7 @@
     </option>
     <option name="YAML_TEXT">
       <value>
-        <option name="FOREGROUND" value="f8b600" />
+        <option name="FOREGROUND" value="f4ce9f" />
       </value>
     </option>
     <option name="org.rust.MACRO">
