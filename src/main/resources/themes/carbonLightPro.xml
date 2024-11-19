@@ -223,7 +223,7 @@
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="657b83" />
+        <option name="FOREGROUND" value="4e646b" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -304,7 +304,7 @@
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="c0d8ff" />
+        <option name="BACKGROUND" value="9cc2ff" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
@@ -529,7 +529,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="657b83" />
+        <option name="FOREGROUND" value="4e646b" />
         <option name="BACKGROUND" value="fdf6e3" />
       </value>
     </option>

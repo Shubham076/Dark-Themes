@@ -677,18 +677,18 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="ffab84" />
+        <option name="FOREGROUND" value="ffb592" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="ffab84" />
+        <option name="FOREGROUND" value="ffb592" />
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="bfd4bc" />
+        <option name="FOREGROUND" value="d3c6aa" />
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -709,7 +709,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="95d1be" />
+        <option name="FOREGROUND" value="bfd4bc" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -724,7 +724,7 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="ffab84" />
+        <option name="FOREGROUND" value="ffb592" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
