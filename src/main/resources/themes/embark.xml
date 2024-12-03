@@ -1,7 +1,7 @@
 <scheme name="Embark" version="142" parent_scheme="Darcula">
 <metaInfo>
-    <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.1.1.0.0</property>
+    <property name="ide">PyCharmCore</property>
+    <property name="ideVersion">2024.2.2.0.0</property>
 </metaInfo>
 <colors>
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="2d2b40" />
@@ -690,8 +690,7 @@
     <option name="DEFAULT_PARENTHS" baseAttributes="" />
     <option name="DEFAULT_PREDEFINED_SYMBOL">
         <value>
-            <option name="FOREGROUND" value="d4bfff" />
-            <option name="FONT_TYPE" value="2" />
+            <option name="FOREGROUND" value="ffa2a5" />
         </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -1327,11 +1326,12 @@
             <option name="FOREGROUND" value="ffe6b3" />
         </value>
     </option>
-    <option name="PY.BUILTIN_NAME">
+    <option name="PY.ANNOTATION">
         <value>
-            <option name="FOREGROUND" value="f48fb1" />
+            <option name="FOREGROUND" value="d4bfff" />
         </value>
     </option>
+    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.CLASS_DEFINITION">
         <value>
             <option name="FOREGROUND" value="d4bfff" />
@@ -1373,22 +1373,14 @@
         </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.PREDEFINED_USAGE">
-        <value>
-            <option name="FOREGROUND" value="f48fb1" />
-        </value>
-    </option>
+    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.STRING">
         <value>
             <option name="FOREGROUND" value="ffe6b3" />
         </value>
     </option>
-    <option name="PY.VALID_STRING_ESCAPE">
-        <value>
-            <option name="FOREGROUND" value="abf8f7" />
-        </value>
-    </option>
+    <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
     <option name="REST.EXPLICIT">
         <value>
             <option name="FOREGROUND" value="a1efd3" />

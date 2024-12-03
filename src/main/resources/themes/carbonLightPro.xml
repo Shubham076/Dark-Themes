@@ -7,7 +7,7 @@
   <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
   <option name="CONSOLE_FONT_SIZE" value="14" />
   <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.0" />
+  <option name="CONSOLE_LINE_SPACING" value="1.5" />
   <colors>
     <option name="CARET_COLOR" value="2aa198" />
     <option name="CARET_ROW_COLOR" value="eee8d5" />
@@ -28,7 +28,7 @@
     <option name="WHITESPACES" value="93a1a1" />
   </colors>
   <attributes>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BREADCRUMBS_CURRENT">
       <value>
         <option name="FOREGROUND" value="93a1a1" />
@@ -176,12 +176,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="8279" />
+        <option name="FOREGROUND" value="458383" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="8279" />
+        <option name="FOREGROUND" value="458383" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -229,7 +229,7 @@
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="8279" />
+        <option name="FOREGROUND" value="458383" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -258,7 +258,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="13958c" />
+        <option name="FOREGROUND" value="458383" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -398,7 +398,7 @@
         <option name="BACKGROUND" value="eee8d5" />
       </value>
     </option>
-    <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="" />
+    <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
@@ -514,8 +514,8 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
-    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="" />
+    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="6c71c4" />

@@ -679,12 +679,6 @@
         <option name="FOREGROUND" value="eee192" />
       </value>
     </option>
-    <option name="DEFAULT_GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="9fdefb" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER">
       <value>
@@ -938,11 +932,6 @@
         <option name="FOREGROUND" value="fbee9f" />
       </value>
     </option>
-    <option name="GO_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="9fdefb" />
-      </value>
-    </option>
     <option name="GO_LOCAL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="fbee9f" />
@@ -953,11 +942,7 @@
         <option name="FOREGROUND" value="fbee9f" />
       </value>
     </option>
-    <option name="GO_METHOD_RECEIVER">
-      <value>
-        <option name="FOREGROUND" value="9fdefb" />
-      </value>
-    </option>
+    <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
         <option name="FOREGROUND" value="9ffbde" />
