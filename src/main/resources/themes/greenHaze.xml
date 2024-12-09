@@ -576,12 +576,12 @@
     <option name="DEFAULT_DOT" baseAttributes="" />
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="e2a488" />
+        <option name="FOREGROUND" value="fbbc9f" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="e2a488" />
+        <option name="FOREGROUND" value="fbbc9f" />
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -598,12 +598,12 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="fff8ac" />
+        <option name="FOREGROUND" value="ffe2aa" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="abdfc4" />
+        <option name="FOREGROUND" value="b8ecd1" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -623,7 +623,7 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="abdfc4" />
+        <option name="FOREGROUND" value="b8ecd1" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS" baseAttributes="" />
@@ -641,13 +641,13 @@
     <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="fff8ac" />
+        <option name="FOREGROUND" value="ffe2aa" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="fff8ac" />
+        <option name="FOREGROUND" value="ffe2aa" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
