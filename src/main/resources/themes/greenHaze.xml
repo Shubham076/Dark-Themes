@@ -1,7 +1,7 @@
 <scheme name="Green Haze" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">Idea</property>
-    <property name="ideVersion">2024.2.4.0.0</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2024.2.2.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -543,12 +543,12 @@
     <option name="DEFAULT_BRACKETS" baseAttributes="" />
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="d3b58d" />
+        <option name="FOREGROUND" value="9de3c0" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="d3b58d" />
+        <option name="FOREGROUND" value="9de3c0" />
       </value>
     </option>
     <option name="DEFAULT_COMMA" baseAttributes="" />
@@ -583,21 +583,16 @@
         <option name="FOREGROUND" value="e1b29c" />
       </value>
     </option>
-    <option name="DEFAULT_GLOBAL_VARIABLE">
-      <value>
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="c4c4c4" />
+        <option name="FOREGROUND" value="decea5" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="d3b58d" />
+        <option name="FOREGROUND" value="9de3c0" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -778,22 +773,10 @@
     <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="d3b58d" />
-      </value>
-    </option>
-    <option name="GO_PACKAGE_EXPORTED_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="c4c4c4" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="9de3c0" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-    <option name="GO_STRUCT_EXPORTED_MEMBER">
-      <value>
-        <option name="FOREGROUND" value="c4c4c4" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_KEYWORD">
       <value>
@@ -1445,7 +1428,7 @@
     <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="c4c4c4" />
+        <option name="FOREGROUND" value="decea5" />
         <option name="BACKGROUND" value="a3434" />
       </value>
     </option>
