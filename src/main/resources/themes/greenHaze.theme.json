@@ -5,7 +5,7 @@
   "editorScheme": "/themes/greenHaze.xml",
   "ui": {
     "*": {
-      "background": "#072626",
+      "background": "#123030",
       "foreground": "#d3b58d",
       "highlight": "#425b67ff",
       "selectionBackground": "#0c4343",
@@ -23,20 +23,20 @@
       "excluded": "#0c4343"
     },
     "DefaultTabs": {
-      "background": "#072626"
+      "background": "#123030"
     },
     "EditorTabs": {
       "underlinedTabBackground": "#003950"
     },
     "Popup": {
-      "Header.activeBackground": "#072626"
+      "Header.activeBackground": "#123030"
     },
     "TabbedPane": {
-      "hoverColor": "#072626"
+      "hoverColor": "#123030"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#072626"
+        "inactiveBackground": "#123030"
       }
     },
      "Plugins": {
@@ -49,7 +49,7 @@
       }
     },
     "Button": {
-      "focus": "#072626"
+      "focus": "#123030"
     }
   }
 }
