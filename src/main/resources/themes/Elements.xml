@@ -1,6 +1,6 @@
 <scheme name="Elements" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">GoLand</property>
+    <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2024.3.0.0</property>
   </metaInfo>
   <colors>
@@ -53,7 +53,7 @@
         <option name="FOREGROUND" value="dadbc0" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -1298,7 +1298,7 @@
     </option>
     <option name="PY.ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="7fdbca" />
+        <option name="FOREGROUND" value="cffbeb" />
       </value>
     </option>
     <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
@@ -1310,23 +1310,12 @@
     <option name="PY.INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="ff2c83" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="637777" />
-      </value>
-    </option>
-    <option name="PY.NUMBER">
-      <value>
-        <option name="FOREGROUND" value="f78c6c" />
-      </value>
-    </option>
-    <option name="PY.OPERATION_SIGN">
-      <value>
-        <option name="FOREGROUND" value="7fdbca" />
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
