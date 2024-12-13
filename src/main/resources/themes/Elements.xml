@@ -1,7 +1,7 @@
 <scheme name="Elements" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">PyCharmCore</property>
-    <property name="ideVersion">2024.3.0.0</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2024.3.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1a2731" />
@@ -1080,7 +1080,7 @@
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="f78c6c" />
+        <option name="FOREGROUND" value="ffa78d" />
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
