@@ -53,7 +53,7 @@
         <option name="FOREGROUND" value="c4c4c4" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="504038" />
@@ -544,12 +544,12 @@
     <option name="DEFAULT_BRACKETS" baseAttributes="" />
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="abdfc4" />
+        <option name="FOREGROUND" value="bfd4bc" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="abdfc4" />
+        <option name="FOREGROUND" value="bfd4bc" />
       </value>
     </option>
     <option name="DEFAULT_COMMA" baseAttributes="" />
@@ -593,7 +593,7 @@
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="abdfc4" />
+        <option name="FOREGROUND" value="bfd4bc" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -603,7 +603,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="b8ecd1" />
+        <option name="FOREGROUND" value="bfd4bc" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -623,7 +623,7 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="b8ecd1" />
+        <option name="FOREGROUND" value="bfd4bc" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS" baseAttributes="" />
@@ -641,7 +641,7 @@
     <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="ffe2aa" />
+        <option name="FOREGROUND" value="f4ce9f" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
@@ -775,7 +775,7 @@
     <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="abdfc4" />
+        <option name="FOREGROUND" value="bfd4bc" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
