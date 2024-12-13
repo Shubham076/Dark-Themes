@@ -5,7 +5,7 @@
   "editorScheme": "/themes/panda.xml",
   "ui": {
     "*": {
-      "background": "#4a3e51",
+      "background": "#45394c",
       "foreground": "#F8F8F2",
       "highlight": "#425b67ff",
       "selectionBackground": "#705873",
@@ -22,12 +22,12 @@
       "excluded": "#705873"
     },
     "DefaultTabs": {
-      "background": "#4a3e51",
+      "background": "#45394c",
       "borderColor": "#464258"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#4a3e51"
+        "inactiveBackground": "#45394c"
       }
     },
     "Plugins": {
@@ -41,7 +41,7 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#4a3e51",
+      "underlinedTabBackground": "#45394c",
       "borderColor" : "#464258"
     },
     "Popup": {

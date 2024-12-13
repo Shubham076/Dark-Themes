@@ -1,7 +1,7 @@
 <scheme name="Aura" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.2.2.0.0</property>
+    <property name="ideVersion">2024.3.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -634,7 +634,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="9ffbde" />
+        <option name="FOREGROUND" value="c0ffea" />
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="c0ffea" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -642,7 +647,11 @@
         <option name="FOREGROUND" value="cd9ffb" />
       </value>
     </option>
-    <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="fb9fbc" />
+      </value>
+    </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="cd9ffb" />
@@ -671,18 +680,18 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="eee192" />
+        <option name="FOREGROUND" value="fbee9f" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="eee192" />
+        <option name="FOREGROUND" value="fbee9f" />
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="dadfc0" />
+        <option name="FOREGROUND" value="ebdbb2" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -693,7 +702,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="9ffbde" />
+        <option name="FOREGROUND" value="c0ffea" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -713,7 +722,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="9ffbde" />
+        <option name="FOREGROUND" value="c0ffea" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -733,7 +742,7 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="9ffbde" />
+        <option name="FOREGROUND" value="c0ffea" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -911,28 +920,9 @@
         <option name="FOREGROUND" value="fbee9f" />
       </value>
     </option>
-    <option name="GO_BUILTIN_TYPE_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="9ffbde" />
-      </value>
-    </option>
-    <option name="GO_BUILTIN_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="9fdefb" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="GO_EXPORTED_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="fbee9f" />
-      </value>
-    </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+    <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="GO_EXPORTED_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="fbee9f" />
-      </value>
-    </option>
-    <option name="GO_LOCAL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="fbee9f" />
       </value>
@@ -945,15 +935,11 @@
     <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="9ffbde" />
+        <option name="FOREGROUND" value="c0ffea" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-    <option name="GO_TYPE_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="9ffbde" />
-      </value>
-    </option>
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="9fdefb" />
@@ -1951,7 +1937,7 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="c792ea" />
@@ -1959,7 +1945,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="dadfc0" />
+        <option name="FOREGROUND" value="ebdbb2" />
         <option name="BACKGROUND" value="17224c" />
       </value>
     </option>

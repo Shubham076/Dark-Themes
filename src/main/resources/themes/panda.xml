@@ -1,7 +1,7 @@
 <scheme name="Panda" version="142" parent_scheme="Default">
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2024.2.2.0.0</property>
+        <property name="ideVersion">2024.3.0.0</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="43997d20" />
@@ -635,7 +635,7 @@
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
             <value>
-                <option name="FOREGROUND" value="e6c000" />
+                <option name="FOREGROUND" value="a89984" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -743,7 +743,7 @@
         </option>
         <option name="DEFAULT_LINE_COMMENT">
             <value>
-                <option name="FOREGROUND" value="e6c000" />
+                <option name="FOREGROUND" value="a89984" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -754,7 +754,7 @@
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="d4bfff" />
+                <option name="FOREGROUND" value="ffb7b8" />
             </value>
         </option>
         <option name="DEFAULT_OPERATION_SIGN">
@@ -931,11 +931,6 @@
             <value>
                 <option name="FOREGROUND" value="fff352" />
                 <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="GO_BUILTIN_CONSTANT">
-            <value>
-                <option name="FOREGROUND" value="c5a3ff" />
             </value>
         </option>
         <option name="GO_BUILTIN_VARIABLE">
@@ -3586,7 +3581,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="ebdbb2" />
-                <option name="BACKGROUND" value="55495c" />
+                <option name="BACKGROUND" value="4a3e51" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
@@ -3622,7 +3617,7 @@
                 <option name="FOREGROUND" value="c7c8f5" />
             </value>
         </option>
-        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
         <option name="TYPO">
             <value>
                 <option name="EFFECT_COLOR" value="ffeb95" />
