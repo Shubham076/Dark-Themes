@@ -45,7 +45,6 @@
         <themeProvider id="com.github.shubham076.oblong" path="/themes/oblong.theme.json" />
         <themeProvider id="com.github.shubham076.vim" path="/themes/vim.theme.json" />
         <themeProvider id="com.github.shubham076.serenade" path="/themes/serenade.theme.json" />
-        <themeProvider id="com.github.shubham076.panda" path="/themes/panda.theme.json" />
         <themeProvider id="com.github.shubham076.gruvboxConcoctisHard" path="/themes/gruvboxConcoctisHard.theme.json" />
         <themeProvider id="com.github.shubham076.gruvboxConcoctisSoft" path="/themes/gruvboxConcoctisSoft.theme.json" />
         <themeProvider id="com.github.shubham076.peachy" path="/themes/peachy.theme.json" />
