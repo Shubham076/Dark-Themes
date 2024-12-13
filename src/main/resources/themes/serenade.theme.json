@@ -5,7 +5,7 @@
   "editorScheme": "/themes/serenade.xml",
   "ui": {
     "*": {
-      "background": "#22262A",
+      "background": "#2c3034",
       "foreground": "#d3c6aa",
       "highlight": "#425b67ff",
       "selectionBackground": "#3e4951",
@@ -23,18 +23,18 @@
       "excluded": "#3e4951"
     },
     "DefaultTabs": {
-      "background": "#22262A",
+      "background": "#2c3034",
       "borderColor": "#364148"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#22262A"
+      "underlinedTabBackground": "#2c3034"
     },
     "Popup": {
-      "Header.activeBackground": "#22262A"
+      "Header.activeBackground": "#2c3034"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#22262A"
+        "inactiveBackground": "#2c3034"
       }
     },
     "Plugins": {
