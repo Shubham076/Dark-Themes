@@ -1,7 +1,7 @@
 <scheme name="Gruvbox" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.2.2.0.0</property>
+    <property name="ideVersion">2024.3.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -39,7 +39,7 @@
     <option name="FILESTATUS_changelistConflict" value="f78c6c" />
     <option name="FILESTATUS_modifiedOutside" value="82aaff" />
     <option name="GUTTER_BACKGROUND" value="25292a" />
-    <option name="INDENT_GUIDE" value="2e2f2d" />
+    <option name="INDENT_GUIDE" value="343839" />
     <option name="LINE_NUMBERS_COLOR" value="ebdbb2" />
     <option name="SELECTED_INDENT_GUIDE" value="2e2f2d" />
     <option name="SELECTION_BACKGROUND" value="3e4244" />
@@ -637,13 +637,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="92bbb2" />
-        <option name="BACKGROUND" value="25292a" />
+        <option name="FOREGROUND" value="8ec07c" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="92bbb2" />
+        <option name="FOREGROUND" value="8ec07c" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -651,7 +650,11 @@
         <option name="FOREGROUND" value="d4be98" />
       </value>
     </option>
-    <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="ebdbb2" />
+      </value>
+    </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="928374" />
@@ -677,12 +680,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="a9b665" />
+        <option name="FOREGROUND" value="ffcd68" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="a9b665" />
+        <option name="FOREGROUND" value="ffcd68" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -705,14 +708,19 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="92bbb2" />
-        <option name="BACKGROUND" value="25292a" />
+        <option name="FOREGROUND" value="8ec07c" />
       </value>
     </option>
-    <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
+    <option name="DEFAULT_INVALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="b8bb26" />
+        <option name="EFFECT_COLOR" value="ff0000" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="ea6962" />
+        <option name="FOREGROUND" value="ff7c74" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -754,7 +762,7 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="92bbb2" />
+        <option name="FOREGROUND" value="8ec07c" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -784,7 +792,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="d8a657" />
+        <option name="FOREGROUND" value="b8bb26" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -926,11 +934,8 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="GO_BUILTIN_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="a9b665" />
-      </value>
-    </option>
+    <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_BUILTIN_VARIABLE">
       <value>
@@ -938,37 +943,14 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="GO_EXPORTED_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="a9b665" />
-      </value>
-    </option>
-    <option name="GO_EXPORTED_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="a9b665" />
-      </value>
-    </option>
-    <option name="GO_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="ea6962" />
-      </value>
-    </option>
+    <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="928374" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="GO_LOCAL_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="a9b665" />
-      </value>
-    </option>
-    <option name="GO_LOCAL_FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="a9b665" />
-      </value>
-    </option>
+    <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_METHOD_RECEIVER">
       <value>
         <option name="FOREGROUND" value="d4be98" />
@@ -976,7 +958,7 @@
     </option>
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="92bbb2" />
+        <option name="FOREGROUND" value="8ec07c" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
