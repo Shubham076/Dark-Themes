@@ -44,8 +44,6 @@
         <themeProvider id="com.github.shubham076.everforest" path="/themes/everforest.theme.json" />
         <themeProvider id="com.github.shubham076.vim" path="/themes/vim.theme.json" />
         <themeProvider id="com.github.shubham076.serenade" path="/themes/serenade.theme.json" />
-        <themeProvider id="com.github.shubham076.gruvboxConcoctisHard" path="/themes/gruvboxConcoctisHard.theme.json" />
-        <themeProvider id="com.github.shubham076.gruvboxConcoctisSoft" path="/themes/gruvboxConcoctisSoft.theme.json" />
         <themeProvider id="com.github.shubham076.peachy" path="/themes/peachy.theme.json" />
         <themeProvider id="com.github.shubham076.brackets" path="/themes/bracketsLightPro.theme.json" />
         <themeProvider id="com.github.shubham076.zenburn" path="/themes/zenburn.theme.json" />
