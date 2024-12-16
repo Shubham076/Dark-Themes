@@ -1,12 +1,12 @@
 {
   "author": "Shubham",
   "dark": true,
-  "name": "Gruvbox",
+  "name": "Mayukai Gruvbox",
   "editorScheme": "/themes/gruvbox.xml",
   "ui": {
     "*": {
-      "background": "#2d2b2a",
-      "foreground": "#ebdbb2",
+      "background": "#272a2b",
+      "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
       "selectionBackground": "#2d3233",
       "selectionInactiveBackground": "#2d3233",
@@ -23,21 +23,15 @@
       "excluded": "#2d3233"
     },
     "DefaultTabs": {
-      "background": "#2d2b2a",
-      "borderColor": "#3c3836"
+      "background": "#272a2b",
+      "borderColor": "#03080f"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#2d2b2a"
+      "underlinedTabBackground": "#272a2b"
     },
-    "Popup": {
-      "Header.activeBackground": "#2d2b2a"
-    },
-    "TabbedPane": {
-      "hoverColor": "#2d2b2a"
-    },
-     "ToolWindow": {
+    "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#2d2b2a"
+        "inactiveBackground": "#272a2b"
       }
     },
      "Plugins": {
@@ -49,10 +43,14 @@
         "updateForeground": "#ffffff"
       }
     },
+    "Popup": {
+      "Header.activeBackground": "#272a2b"
+    },
+    "TabbedPane": {
+      "hoverColor": "#272a2b"
+    },
     "Button": {
-      "focus": "#2d2b2a",
-      "background": "#2d2b2a",
-      "foreground": "#d5c4a1"
+      "focus": "#272a2b"
     }
   }
 }
