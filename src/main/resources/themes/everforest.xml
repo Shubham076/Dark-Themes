@@ -448,12 +448,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="a7c080" />
+        <option name="FOREGROUND" value="7fbbb3" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="a7c080" />
+        <option name="FOREGROUND" value="7fbbb3" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -463,7 +463,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="a7c080" />
+        <option name="FOREGROUND" value="d699b6" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -524,7 +524,7 @@
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="a7c080" />
+        <option name="FOREGROUND" value="7fbbb3" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -581,7 +581,7 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="a7c080" />
+        <option name="FOREGROUND" value="d699b6" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
