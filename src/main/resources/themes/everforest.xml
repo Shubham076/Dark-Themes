@@ -623,7 +623,6 @@
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d8caac" />
-        <option name="BACKGROUND" value="e68183" />
         <option name="EFFECT_COLOR" value="d8caac" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -741,6 +740,11 @@
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value />
+    </option>
+    <option name="INLAY_DEFAULT">
+      <value>
+        <option name="FOREGROUND" value="787878" />
+      </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
@@ -1713,13 +1717,23 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
-    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
+    <option name="SEARCH_RESULT_ATTRIBUTES">
+      <value>
+        <option name="ERROR_STRIPE_COLOR" value="8e8eb2" />
+      </value>
+    </option>
+    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="" />
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d3c6aa" />
         <option name="BACKGROUND" value="2d3439" />
         <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
+      <value>
+        <option name="ERROR_STRIPE_COLOR" value="71b362" />
       </value>
     </option>
     <option name="TEXT_STYLE_ERROR">
@@ -1745,7 +1759,10 @@
         <option name="FOREGROUND" value="859289" />
       </value>
     </option>
-    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="TS.TYPE_GUARD">
+      <value />
+    </option>
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="TYPO">
       <value>
         <option name="EFFECT_COLOR" value="a7c080" />
@@ -1767,6 +1784,11 @@
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="404c51" />
+      </value>
+    </option>
+    <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
+      <value>
+        <option name="ERROR_STRIPE_COLOR" value="b28fb2" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">

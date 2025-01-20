@@ -18,11 +18,11 @@
         <option name="FILESTATUS_DELETED" value="f77669" />
         <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="ef5350" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="637777" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f78c6c" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f78c6c" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f78c6c" />
-        <option name="FILESTATUS_MERGED" value="82aaff" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="fc9867" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="fc9867" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="fc9867" />
+        <option name="FILESTATUS_MERGED" value="c792ea" />
         <option name="FILESTATUS_MODIFIED" value="80cbc4" />
         <option name="FILESTATUS_NOT_CHANGED" value="dfdfdf" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
@@ -45,7 +45,7 @@
         <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
     </colors>
     <attributes>
-        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="ANNOTATION_NAME_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="cdeac0" />
@@ -664,11 +664,7 @@
                 <option name="FOREGROUND" value="efe9ae" />
             </value>
         </option>
-        <option name="DEFAULT_STATIC_METHOD">
-            <value>
-                <option name="FOREGROUND" value="ffc85b" />
-            </value>
-        </option>
+        <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
                 <option name="FOREGROUND" value="f1edbc" />

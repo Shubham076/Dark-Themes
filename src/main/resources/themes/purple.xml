@@ -49,12 +49,8 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
   </colors>
   <attributes>
-    <option name="ANNOTATION_NAME_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="ffba9f" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="ff7088" />
@@ -725,11 +721,6 @@
         <option name="FOREGROUND" value="ffb8df" />
       </value>
     </option>
-    <option name="DEFAULT_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="ffba9f" />
-      </value>
-    </option>
     <option name="DEFAULT_PARENTHS">
       <value>
         <option name="FOREGROUND" value="aeffd9" />
@@ -1157,11 +1148,6 @@
     <option name="JAVA_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="a289bb" />
-      </value>
-    </option>
-    <option name="JAVA_NUMBER">
-      <value>
-        <option name="FOREGROUND" value="ffba9f" />
       </value>
     </option>
     <option name="JAVA_OPERATION_SIGN">
