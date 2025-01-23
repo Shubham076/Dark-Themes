@@ -1,8 +1,8 @@
 {
   "author": "Shubham",
   "dark": true,
-  "name": "Elements",
-  "editorScheme": "/themes/Elements.xml",
+  "name": "Elements Pro",
+  "editorScheme": "/themes/elementsPro.xml",
   "ui": {
     "*": {
       "background": "#1c2329",
