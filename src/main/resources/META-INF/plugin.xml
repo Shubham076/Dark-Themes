@@ -35,6 +35,7 @@
         <themeProvider id="com.github.shubham076.noctisBordo" path="/themes/noctisBordo.theme.json"/>
         <themeProvider id="com.github.shubham076.noctisAzureus" path="/themes/noctisAzureus.theme.json"/>
         <themeProvider id="com.github.shubham076.elements" path="/themes/elements.theme.json"/>
+        <themeProvider id="com.github.shubham076.elementsPro" path="/themes/elementsPro.theme.json"/>
         <themeProvider id="com.github.shubham076.greenHaze" path="/themes/greenHaze.theme.json"/>
         <themeProvider id="com.github.shubham076.purple" path="/themes/purple.theme.json"/>
         <themeProvider id="com.github.shubham076.gruvboxConcoctis" path="/themes/gruvboxConcoctis.theme.json"/>
