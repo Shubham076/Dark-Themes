@@ -1,0 +1,60 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Pastel Water",
+  "editorScheme": "/themes/pastelWater.xml",
+  "ui": {
+    "*": {
+      "background": "#1e202b",
+      "foreground": "#D0BD98",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#314a5e",
+      "selectionInactiveBackground": "#314a5e",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#f29e7480",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#707a8cb3",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#1a2631"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#1e202b"
+      }
+    },
+    "Plugins": {
+      "Button": {
+        "installBackground": "#253848",
+        "updateBackground": "#253848",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "DefaultTabs": {
+      "background": "#1e202b",
+      "hoverBackground": "#707a8c99",
+      "borderColor": "#1f2430",
+      "underlinedTabForeground": "#D0BD98"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#1e202b",
+      "borderColor" : "#1f2430",
+      "underlinedTabForeground": "#D0BD98"
+    },
+    "Popup": {
+      "Header.activeBackground": "#1e202b"
+    },
+    "TabbedPane": {
+      "hoverColor": "#1e202b"
+    },
+    "Button": {
+      "focus": "#1e202b"
+    }
+  }
+}

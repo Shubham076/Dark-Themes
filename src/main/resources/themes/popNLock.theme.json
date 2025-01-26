@@ -1,0 +1,60 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Pop N Lock",
+  "editorScheme": "/themes/popNLock.xml",
+  "ui": {
+    "*": {
+      "background": "#20213a",
+      "foreground": "#D0BD98",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#314a5e",
+      "selectionInactiveBackground": "#314a5e",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#f29e7480",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#707a8cb3",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#1a2631"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#20213a"
+      }
+    },
+    "Plugins": {
+      "Button": {
+        "installBackground": "#253848",
+        "updateBackground": "#253848",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "DefaultTabs": {
+      "background": "#20213a",
+      "hoverBackground": "#707a8c99",
+      "borderColor": "#1f2430",
+      "underlinedTabForeground": "#D0BD98"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#20213a",
+      "borderColor" : "#1f2430",
+      "underlinedTabForeground": "#D0BD98"
+    },
+    "Popup": {
+      "Header.activeBackground": "#20213a"
+    },
+    "TabbedPane": {
+      "hoverColor": "#20213a"
+    },
+    "Button": {
+      "focus": "#20213a"
+    }
+  }
+}
