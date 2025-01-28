@@ -1,8 +1,7 @@
 <scheme name="Pastelwater-dark-medium" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.3.1.0.0</property>
-    <property name="originalScheme">Pastelwater-dark-medium</property>
+    <property name="ide">Idea</property>
+    <property name="ideVersion">2024.3.2.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1a2731" />
@@ -17,11 +16,11 @@
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_DELETED" value="f77669" />
     <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="fc9867" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="fc9867" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="fc9867" />
-    <option name="FILESTATUS_MERGED" value="c792ea" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="637777" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f78c6c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f78c6c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f78c6c" />
+    <option name="FILESTATUS_MERGED" value="82aaff" />
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED" value="dfdfdf" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
@@ -38,11 +37,24 @@
     <option name="WHITESPACES" value="332e35" />
   </colors>
   <attributes>
+    <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="7dbda2" />
+      </value>
+    </option>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="7dbda2" />
+      </value>
+    </option>
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="a8352e" />
       </value>
     </option>
+    <option name="BASH.EXTERNAL_COMMAND" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="BLOCK_TERMINAL_BLACK">
       <value>
         <option name="FOREGROUND" value="0" />
@@ -133,7 +145,6 @@
         <option name="FOREGROUND" value="f1bf4a" />
       </value>
     </option>
-    <option name="BASH.EXTERNAL_COMMAND" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="743d3d" />
@@ -163,6 +174,11 @@
     <option name="BUILDOUT.VALUE">
       <value>
         <option name="FOREGROUND" value="cc907d" />
+      </value>
+    </option>
+    <option name="CLASS_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="7dbda2" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -477,13 +493,13 @@
         <option name="FOREGROUND" value="cc907d" />
       </value>
     </option>
-    <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="CSS.IMPORTANT" baseAttributes="" />
     <option name="CSS.NUMBER">
       <value>
         <option name="FOREGROUND" value="cc907d" />
       </value>
     </option>
-    <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
+    <option name="CSS.URL" baseAttributes="" />
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="d99c89" />
@@ -797,6 +813,11 @@
         <option name="FOREGROUND" value="cc907d" />
       </value>
     </option>
+    <option name="ENUM_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="7dbda2" />
+      </value>
+    </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="ff6667" />
@@ -1045,10 +1066,9 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value />
     </option>
-    <option name="INSTANCE_FIELD_ATTRIBUTES">
+    <option name="INTERFACE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fda5ff" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="7dbda2" />
       </value>
     </option>
     <option name="IVAR">
@@ -1108,16 +1128,6 @@
     <option name="JAVA_DOT">
       <value>
         <option name="FOREGROUND" value="cc907d" />
-      </value>
-    </option>
-    <option name="JAVA_INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="a8352e" />
-      </value>
-    </option>
-    <option name="JAVA_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="f66953" />
       </value>
     </option>
     <option name="JAVA_LINE_COMMENT">
@@ -1911,12 +1921,6 @@
       </value>
     </option>
     <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-    <option name="STATIC_FIELD_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="fda5ff" />
-        <option name="FONT_TYPE" value="3" />
-      </value>
-    </option>
     <option name="TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="f79870" />
@@ -1946,6 +1950,7 @@
         <option name="FOREGROUND" value="f66953" />
       </value>
     </option>
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="583535" />
@@ -2044,7 +2049,5 @@
         <option name="FOREGROUND" value="cc907d" />
       </value>
     </option>
-    <option name="com.plan9.IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="com.plan9.REGISTER" baseAttributes="DEFAULT_PARAMETER" />
   </attributes>
 </scheme>
