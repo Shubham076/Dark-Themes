@@ -1,7 +1,7 @@
 <scheme name="Pastelwater-dark-medium" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">Idea</property>
-    <property name="ideVersion">2024.3.2.1.0.0</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2024.3.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1a2731" />
@@ -39,14 +39,14 @@
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="77b79c" />
+        <option name="FOREGROUND" value="90D1B5" />
       </value>
     </option>
-    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="77b79c" />
+        <option name="FOREGROUND" value="90D1B5" />
       </value>
     </option>
     <option name="BAD_CHARACTER">
@@ -178,7 +178,7 @@
     </option>
     <option name="CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="77b79c" />
+        <option name="FOREGROUND" value="90D1B5" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -493,13 +493,13 @@
         <option name="FOREGROUND" value="cc907d" />
       </value>
     </option>
-    <option name="CSS.IMPORTANT" baseAttributes="" />
+    <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CSS.NUMBER">
       <value>
         <option name="FOREGROUND" value="cc907d" />
       </value>
     </option>
-    <option name="CSS.URL" baseAttributes="" />
+    <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="d99c89" />
@@ -602,7 +602,7 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="77b79c" />
+        <option name="FOREGROUND" value="90D1B5" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -623,12 +623,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="d99c89" />
+        <option name="FOREGROUND" value="fabc89" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="d99c89" />
+        <option name="FOREGROUND" value="fabc89" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -666,17 +666,17 @@
     </option>
     <option name="DEFAULT_ENTITY">
       <value>
-        <option name="FOREGROUND" value="cc907d" />
+        <option name="FOREGROUND" value="e6a895" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="77b79c" />
+        <option name="FOREGROUND" value="90d1b5" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="77b79c" />
+        <option name="FOREGROUND" value="90d1b5" />
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -688,7 +688,7 @@
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="d99c89" />
+        <option name="FOREGROUND" value="fabc89" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -698,7 +698,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="e98b64" />
+        <option name="FOREGROUND" value="fabc89" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -709,7 +709,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="d99c89" />
+        <option name="FOREGROUND" value="fabc89" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -719,7 +719,7 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="d99c89" />
+        <option name="FOREGROUND" value="e6a895" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
@@ -729,7 +729,7 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="f79870" />
+        <option name="FOREGROUND" value="e6a895" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -742,7 +742,7 @@
     <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="d99c89" />
+        <option name="FOREGROUND" value="e6a895" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -753,7 +753,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="d99c89" />
+        <option name="FOREGROUND" value="e6a895" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -815,7 +815,7 @@
     </option>
     <option name="ENUM_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="77b79c" />
+        <option name="FOREGROUND" value="90D1B5" />
       </value>
     </option>
     <option name="ERRORS_ATTRIBUTES">
@@ -911,7 +911,7 @@
     <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="d99c89" />
+        <option name="FOREGROUND" value="fabc89" />
       </value>
     </option>
     <option name="GO_PACKAGE_EXPORTED_CONSTANT">
@@ -1024,12 +1024,12 @@
     </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="77b79c" />
+        <option name="FOREGROUND" value="90D1B5" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="77b79c" />
+        <option name="FOREGROUND" value="90D1B5" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -1068,7 +1068,7 @@
     </option>
     <option name="INTERFACE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="77b79c" />
+        <option name="FOREGROUND" value="90D1B5" />
       </value>
     </option>
     <option name="IVAR">
@@ -1173,7 +1173,7 @@
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="JSON.PROPERTY_KEY">
       <value>
-        <option name="FOREGROUND" value="77b79c" />
+        <option name="FOREGROUND" value="90D1B5" />
       </value>
     </option>
     <option name="LABEL">
@@ -1950,7 +1950,7 @@
         <option name="FOREGROUND" value="f66953" />
       </value>
     </option>
-    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="583535" />
@@ -1994,7 +1994,7 @@
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="77b79c" />
+        <option name="FOREGROUND" value="90D1B5" />
       </value>
     </option>
     <option name="XML_TAG_DATA">
@@ -2004,7 +2004,7 @@
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="77b79c" />
+        <option name="FOREGROUND" value="90D1B5" />
       </value>
     </option>
     <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -2021,7 +2021,7 @@
     </option>
     <option name="YAML_SCALAR_KEY">
       <value>
-        <option name="FOREGROUND" value="77b79c" />
+        <option name="FOREGROUND" value="90D1B5" />
       </value>
     </option>
     <option name="YAML_SCALAR_LIST">
