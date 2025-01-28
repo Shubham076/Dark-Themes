@@ -1,4 +1,4 @@
-<scheme name="Pastelwater-dark-medium" version="142" parent_scheme="Darcula">
+<scheme name="Pastel Water" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2024.3.1.0.0</property>
@@ -39,14 +39,14 @@
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="90D1B5" />
+        <option name="FOREGROUND" value="90d1b5" />
       </value>
     </option>
-    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="90D1B5" />
+        <option name="FOREGROUND" value="90d1b5" />
       </value>
     </option>
     <option name="BAD_CHARACTER">
@@ -178,7 +178,7 @@
     </option>
     <option name="CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="90D1B5" />
+        <option name="FOREGROUND" value="90d1b5" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -815,7 +815,7 @@
     </option>
     <option name="ENUM_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="90D1B5" />
+        <option name="FOREGROUND" value="90d1b5" />
       </value>
     </option>
     <option name="ERRORS_ATTRIBUTES">
@@ -1024,12 +1024,12 @@
     </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="90D1B5" />
+        <option name="FOREGROUND" value="90d1b5" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="90D1B5" />
+        <option name="FOREGROUND" value="90d1b5" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -1045,11 +1045,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="fda5ff" />
-      </value>
-    </option>
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d99c89" />
@@ -1068,7 +1064,7 @@
     </option>
     <option name="INTERFACE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="90D1B5" />
+        <option name="FOREGROUND" value="90d1b5" />
       </value>
     </option>
     <option name="IVAR">
@@ -1136,11 +1132,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JAVA_NUMBER">
-      <value>
-        <option name="FOREGROUND" value="cc907d" />
-      </value>
-    </option>
     <option name="JAVA_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="cc907d" />
@@ -1156,16 +1147,6 @@
         <option name="FOREGROUND" value="cc907d" />
       </value>
     </option>
-    <option name="JAVA_STRING">
-      <value>
-        <option name="FOREGROUND" value="cc907d" />
-      </value>
-    </option>
-    <option name="JAVA_VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="cc907d" />
-      </value>
-    </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
@@ -1173,7 +1154,7 @@
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="JSON.PROPERTY_KEY">
       <value>
-        <option name="FOREGROUND" value="90D1B5" />
+        <option name="FOREGROUND" value="90d1b5" />
       </value>
     </option>
     <option name="LABEL">
@@ -1950,7 +1931,7 @@
         <option name="FOREGROUND" value="f66953" />
       </value>
     </option>
-    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="583535" />
@@ -1994,7 +1975,7 @@
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="90D1B5" />
+        <option name="FOREGROUND" value="90d1b5" />
       </value>
     </option>
     <option name="XML_TAG_DATA">
@@ -2004,7 +1985,7 @@
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="90D1B5" />
+        <option name="FOREGROUND" value="90d1b5" />
       </value>
     </option>
     <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -2021,7 +2002,7 @@
     </option>
     <option name="YAML_SCALAR_KEY">
       <value>
-        <option name="FOREGROUND" value="90D1B5" />
+        <option name="FOREGROUND" value="90d1b5" />
       </value>
     </option>
     <option name="YAML_SCALAR_LIST">
