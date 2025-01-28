@@ -39,14 +39,14 @@
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="7dbda2" />
+        <option name="FOREGROUND" value="77b79c" />
       </value>
     </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="7dbda2" />
+        <option name="FOREGROUND" value="77b79c" />
       </value>
     </option>
     <option name="BAD_CHARACTER">
@@ -178,7 +178,7 @@
     </option>
     <option name="CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="7dbda2" />
+        <option name="FOREGROUND" value="77b79c" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -602,7 +602,7 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="7dbda2" />
+        <option name="FOREGROUND" value="77b79c" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -671,12 +671,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="7dbda2" />
+        <option name="FOREGROUND" value="77b79c" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="7dbda2" />
+        <option name="FOREGROUND" value="77b79c" />
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -815,7 +815,7 @@
     </option>
     <option name="ENUM_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="7dbda2" />
+        <option name="FOREGROUND" value="77b79c" />
       </value>
     </option>
     <option name="ERRORS_ATTRIBUTES">
@@ -1024,12 +1024,12 @@
     </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="7dbda2" />
+        <option name="FOREGROUND" value="77b79c" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="7dbda2" />
+        <option name="FOREGROUND" value="77b79c" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -1068,7 +1068,7 @@
     </option>
     <option name="INTERFACE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="7dbda2" />
+        <option name="FOREGROUND" value="77b79c" />
       </value>
     </option>
     <option name="IVAR">
@@ -1173,7 +1173,7 @@
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="JSON.PROPERTY_KEY">
       <value>
-        <option name="FOREGROUND" value="7dbda2" />
+        <option name="FOREGROUND" value="77b79c" />
       </value>
     </option>
     <option name="LABEL">
@@ -1994,7 +1994,7 @@
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="7dbda2" />
+        <option name="FOREGROUND" value="77b79c" />
       </value>
     </option>
     <option name="XML_TAG_DATA">
@@ -2004,7 +2004,7 @@
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="7dbda2" />
+        <option name="FOREGROUND" value="77b79c" />
       </value>
     </option>
     <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -2021,7 +2021,7 @@
     </option>
     <option name="YAML_SCALAR_KEY">
       <value>
-        <option name="FOREGROUND" value="7dbda2" />
+        <option name="FOREGROUND" value="77b79c" />
       </value>
     </option>
     <option name="YAML_SCALAR_LIST">
