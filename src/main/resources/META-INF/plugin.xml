@@ -66,5 +66,6 @@
         <themeProvider id="com.github.shubham076.fleet" path="/themes/fleet.theme.json" />
         <themeProvider id="com.github.shubham076.pastelWater" path="/themes/pastelWater.theme.json" />
         <themeProvider id="com.github.shubham076.popNLock" path="/themes/popNLock.theme.json" />
+        <themeProvider id="com.github.shubham076.atomic" path="/themes/atomic.theme.json" />
     </extensions>
 </idea-plugin>

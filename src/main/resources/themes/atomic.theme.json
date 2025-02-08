@@ -1,0 +1,60 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Atomic",
+  "editorScheme": "/themes/atomic.xml",
+  "ui": {
+    "*": {
+      "background": "#262524",
+      "foreground": "#ECD8B1",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#314a5e",
+      "selectionInactiveBackground": "#314a5e",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#f29e7480",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#707a8cb3",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#1a2631"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#262524"
+      }
+    },
+    "Plugins": {
+      "Button": {
+        "installBackground": "#253848",
+        "updateBackground": "#253848",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "DefaultTabs": {
+      "background": "#262524",
+      "hoverBackground": "#707a8c99",
+      "borderColor": "#1f2430",
+      "underlinedTabForeground": "#ECD8B1"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#262524",
+      "borderColor" : "#1f2430",
+      "underlinedTabForeground": "#ECD8B1"
+    },
+    "Popup": {
+      "Header.activeBackground": "#262524"
+    },
+    "TabbedPane": {
+      "hoverColor": "#262524"
+    },
+    "Button": {
+      "focus": "#262524"
+    }
+  }
+}
