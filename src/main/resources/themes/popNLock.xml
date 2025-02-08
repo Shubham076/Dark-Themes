@@ -1,7 +1,7 @@
 <scheme name="Pop N' Lock" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.3.1.0.0</property>
+    <property name="ide">PyCharmCore</property>
+    <property name="ideVersion">2024.3.2.0.0</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="79740e" />
@@ -223,6 +223,11 @@
     <option name="Block comment">
       <value>
         <option name="FOREGROUND" value="83786e" />
+      </value>
+    </option>
+    <option name="COFFEESCRIPT.CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
       </value>
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
@@ -854,49 +859,25 @@
         <option name="FOREGROUND" value="d3869b" />
       </value>
     </option>
+    <option name="PY.ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="8ec07c" />
+      </value>
+    </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="fe8019" />
+        <option name="FOREGROUND" value="8ec07c" />
       </value>
     </option>
-    <option name="PY.CLASS_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="689d6a" />
-      </value>
-    </option>
-    <option name="PY.DECORATOR">
-      <value>
-        <option name="FOREGROUND" value="d65d0e" />
-      </value>
-    </option>
-    <option name="PY.FUNCTION_CALL">
-      <value>
-        <option name="FOREGROUND" value="e7a32d" />
-      </value>
-    </option>
-    <option name="PY.FUNC_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="689d6a" />
-      </value>
-    </option>
-    <option name="PY.KEYWORD_ARGUMENT">
-      <value />
-    </option>
-    <option name="PY.PREDEFINED_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="689d6a" />
-      </value>
-    </option>
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.PREDEFINED_USAGE">
       <value>
         <option name="FOREGROUND" value="d3869b" />
       </value>
     </option>
-    <option name="PY.SELF_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="83a598" />
-      </value>
-    </option>
+    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
     <option name="RDOC_DIRECTIVE">
       <value>
         <option name="FOREGROUND" value="fb4934" />
