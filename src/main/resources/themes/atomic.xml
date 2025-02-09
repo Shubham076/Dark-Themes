@@ -1,8 +1,7 @@
 <scheme name="Atomic" version="142" parent_scheme="Darcula">
     <metaInfo>
-        <property name="ide">GoLand</property>
-        <property name="ideVersion">2024.3.1.0.0</property>
-        <property name="originalScheme">Gold-color-theme</property>
+        <property name="ide">PyCharmCore</property>
+        <property name="ideVersion">2024.3.2.0.0</property>
     </metaInfo>
     <colors>
         <option name="ANNOTATIONS_COLOR" value="0" />
@@ -1439,6 +1438,11 @@
                 <option name="FOREGROUND" value="78ae9f" />
             </value>
         </option>
+        <option name="PY.ANNOTATION">
+            <value>
+                <option name="FOREGROUND" value="f78c6c" />
+            </value>
+        </option>
         <option name="PY.BRACES">
             <value>
                 <option name="FOREGROUND" value="f78c6c" />
@@ -1451,12 +1455,7 @@
         </option>
         <option name="PY.BUILTIN_NAME">
             <value>
-                <option name="FOREGROUND" value="78ae9f" />
-            </value>
-        </option>
-        <option name="PY.CLASS_DEFINITION">
-            <value>
-                <option name="FOREGROUND" value="fed054" />
+                <option name="FOREGROUND" value="f78c6c" />
             </value>
         </option>
         <option name="PY.COMMA">
@@ -1464,51 +1463,16 @@
                 <option name="FOREGROUND" value="f78c6c" />
             </value>
         </option>
-        <option name="PY.DECORATOR">
-            <value>
-                <option name="FOREGROUND" value="78ae9f" />
-            </value>
-        </option>
-        <option name="PY.DOC_COMMENT">
-            <value>
-                <option name="FOREGROUND" value="ecd8b1" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
         <option name="PY.DOT">
             <value>
                 <option name="FOREGROUND" value="f78c6c" />
             </value>
         </option>
-        <option name="PY.FUNC_DEFINITION">
-            <value>
-                <option name="FOREGROUND" value="78ae9f" />
-            </value>
-        </option>
-        <option name="PY.INVALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="d46f2c" />
-            </value>
-        </option>
-        <option name="PY.KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="78aa9b" />
-            </value>
-        </option>
+        <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.LINE_COMMENT">
             <value>
                 <option name="FOREGROUND" value="ecd8b1" />
                 <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
-        <option name="PY.NUMBER">
-            <value>
-                <option name="FOREGROUND" value="f78c6c" />
-            </value>
-        </option>
-        <option name="PY.OPERATION_SIGN">
-            <value>
-                <option name="FOREGROUND" value="78aa9b" />
             </value>
         </option>
         <option name="PY.PARENTHS">
@@ -1516,26 +1480,15 @@
                 <option name="FOREGROUND" value="f78c6c" />
             </value>
         </option>
-        <option name="PY.PREDEFINED_USAGE">
-            <value>
-                <option name="FOREGROUND" value="78ae9f" />
-            </value>
-        </option>
+        <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+        <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+        <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.STRING">
             <value>
                 <option name="FOREGROUND" value="78ae9f" />
             </value>
         </option>
-        <option name="PY.VALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="f78c6c" />
-            </value>
-        </option>
-        <option name="REST.BOLD">
-            <value>
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
+        <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
         <option name="REST.EXPLICIT">
             <value>
                 <option name="FOREGROUND" value="78aa9b" />
