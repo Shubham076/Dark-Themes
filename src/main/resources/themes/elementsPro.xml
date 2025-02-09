@@ -1,7 +1,7 @@
 <scheme name="Element Pro" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="ide">Idea</property>
-    <property name="ideVersion">2024.3.2.2.0.0</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2024.3.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1a2731" />
@@ -48,8 +48,8 @@
     <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
   </colors>
   <attributes>
-    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -593,7 +593,7 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="67dba0" />
+        <option name="FOREGROUND" value="79d7a5" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -690,7 +690,7 @@
     <option name="DEFAULT_PARENTHS" baseAttributes="" />
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="67dba0" />
+        <option name="FOREGROUND" value="79d7a5" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -859,7 +859,7 @@
     <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="79D7A5" />
+        <option name="FOREGROUND" value="79d7a5" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -951,7 +951,7 @@
     <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="c7c7ff" />
+        <option name="FOREGROUND" value="f9cc79" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -962,9 +962,10 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
     <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="f9cc79" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
