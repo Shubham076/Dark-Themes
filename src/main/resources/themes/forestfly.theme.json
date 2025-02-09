@@ -1,0 +1,60 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Forest Fly",
+  "editorScheme": "/themes/forestfly.xml",
+  "ui": {
+    "*": {
+      "background": "#221f22",
+      "foreground": "#B09F9C",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#314a5e",
+      "selectionInactiveBackground": "#314a5e",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#f29e7480",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#707a8cb3",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#1a2631"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#221f22"
+      }
+    },
+    "Plugins": {
+      "Button": {
+        "installBackground": "#253848",
+        "updateBackground": "#253848",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "DefaultTabs": {
+      "background": "#221f22",
+      "hoverBackground": "#707a8c99",
+      "borderColor": "#1f2430",
+      "underlinedTabForeground": "#B09F9C"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#221f22",
+      "borderColor" : "#1f2430",
+      "underlinedTabForeground": "#B09F9C"
+    },
+    "Popup": {
+      "Header.activeBackground": "#221f22"
+    },
+    "TabbedPane": {
+      "hoverColor": "#221f22"
+    },
+    "Button": {
+      "focus": "#221f22"
+    }
+  }
+}
