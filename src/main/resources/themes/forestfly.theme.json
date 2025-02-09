@@ -5,7 +5,7 @@
   "editorScheme": "/themes/forestfly.xml",
   "ui": {
     "*": {
-      "background": "#221f22",
+      "background": "#272427",
       "foreground": "#B09F9C",
       "highlight": "#425b67ff",
       "selectionBackground": "#314a5e",
@@ -24,7 +24,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#221f22"
+        "inactiveBackground": "#272427"
       }
     },
     "Plugins": {
@@ -37,24 +37,24 @@
       }
     },
     "DefaultTabs": {
-      "background": "#221f22",
+      "background": "#272427",
       "hoverBackground": "#707a8c99",
       "borderColor": "#1f2430",
       "underlinedTabForeground": "#B09F9C"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#221f22",
+      "underlinedTabBackground": "#272427",
       "borderColor" : "#1f2430",
       "underlinedTabForeground": "#B09F9C"
     },
     "Popup": {
-      "Header.activeBackground": "#221f22"
+      "Header.activeBackground": "#272427"
     },
     "TabbedPane": {
-      "hoverColor": "#221f22"
+      "hoverColor": "#272427"
     },
     "Button": {
-      "focus": "#221f22"
+      "focus": "#272427"
     }
   }
 }
