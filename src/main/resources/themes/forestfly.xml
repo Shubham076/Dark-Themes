@@ -1,7 +1,7 @@
 <scheme name="Forest Fly" version="142" parent_scheme="Darcula">
     <metaInfo>
-        <property name="ide">PyCharmCore</property>
-        <property name="ideVersion">2024.3.2.0.0</property>
+        <property name="ide">Idea</property>
+        <property name="ideVersion">2024.3.2.2.0.0</property>
     </metaInfo>
     <colors>
         <option name="ANNOTATIONS_COLOR" value="0" />
@@ -43,6 +43,8 @@
         <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
     </colors>
     <attributes>
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="BAD_CHARACTER">
             <value>
                 <option name="FOREGROUND" value="ff2322" />
@@ -1091,11 +1093,6 @@
                 <option name="FOREGROUND" value="ff2322" />
             </value>
         </option>
-        <option name="JAVA_KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="fd5033" />
-            </value>
-        </option>
         <option name="JAVA_LINE_COMMENT">
             <value>
                 <option name="FOREGROUND" value="7c6966" />
@@ -1120,11 +1117,6 @@
         <option name="JAVA_SEMICOLON">
             <value>
                 <option name="FOREGROUND" value="b09f9c" />
-            </value>
-        </option>
-        <option name="JAVA_STRING">
-            <value>
-                <option name="FOREGROUND" value="ffc255" />
             </value>
         </option>
         <option name="JAVA_VALID_STRING_ESCAPE">
@@ -1895,12 +1887,6 @@
             </value>
         </option>
         <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-        <option name="STATIC_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="fda5ff" />
-                <option name="FONT_TYPE" value="3" />
-            </value>
-        </option>
         <option name="TAG_ATTR_KEY">
             <value>
                 <option name="FOREGROUND" value="ffc255" />
