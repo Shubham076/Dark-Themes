@@ -50,7 +50,7 @@
         </option>
         <option name="BUILDOUT.VALUE">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="CLASS_REFERENCE">
@@ -121,7 +121,7 @@
         </option>
         <option name="COFFEESCRIPT.HEREDOC_CONTENT">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="COFFEESCRIPT.HEREDOC_ID">
@@ -197,7 +197,7 @@
         </option>
         <option name="COFFEESCRIPT.STRING">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="COFFEESCRIPT.STRING_LITERAL">
@@ -318,7 +318,7 @@
         </option>
         <option name="CUSTOM_STRING_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
@@ -335,7 +335,7 @@
         </option>
         <option name="Clojure Character">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="Clojure Keyword">
@@ -362,7 +362,7 @@
         </option>
         <option name="Clojure Strings">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="DEFAULT_ATTRIBUTE">
@@ -435,7 +435,7 @@
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="DEFAULT_KEYWORD">
@@ -480,7 +480,7 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -491,7 +491,7 @@
         <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="DJANGO_COMMENT">
@@ -522,7 +522,7 @@
         </option>
         <option name="DJANGO_STRING_LITERAL">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="DJANGO_TAG_NAME">
@@ -533,7 +533,7 @@
         </option>
         <option name="ENUM_CONST">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="ERRORS_ATTRIBUTES">
@@ -583,12 +583,12 @@
         </option>
         <option name="GHERKIN_PYSTRING">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="GHERKIN_REGEXP_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="GHERKIN_TABLE_HEADER_CELL">
@@ -628,7 +628,7 @@
         </option>
         <option name="GQL_STRING_LITERAL">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="HAML_CLASS">
@@ -649,12 +649,12 @@
         </option>
         <option name="HAML_STRING">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="HAML_STRING_INTERPOLATED">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="HAML_TAG">
@@ -669,7 +669,7 @@
         </option>
         <option name="HTML_ATTRIBUTE_VALUE">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
@@ -720,7 +720,7 @@
         </option>
         <option name="JADE_FILE_PATH">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="JADE_STATEMENTS">
@@ -770,7 +770,7 @@
         </option>
         <option name="JAVA_STRING">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="JS.GLOBAL_VARIABLE">
@@ -900,17 +900,17 @@
         </option>
         <option name="OC.STRING">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="OC.STRUCT_FIELD">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="OC_FORMAT_TOKEN">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="PHP_PARAMETER">
@@ -982,12 +982,12 @@
         </option>
         <option name="PUPPET_SQ_STRING">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="PUPPET_STRING">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="PUPPET_VARIABLE">
@@ -998,7 +998,7 @@
         </option>
         <option name="PUPPET_VARIABLE_INTERPOLATION">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="PY.ANNOTATION">
@@ -1059,7 +1059,7 @@
         <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.STRING">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
@@ -1081,7 +1081,7 @@
         </option>
         <option name="REST.REF.NAME">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="REST.SECTION.HEADER">
@@ -1168,7 +1168,7 @@
         </option>
         <option name="RUBY_EXPR_IN_STRING">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="RUBY_GVAR">
@@ -1183,7 +1183,7 @@
         </option>
         <option name="RUBY_HEREDOC_CONTENT">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="RUBY_HEREDOC_ID">
@@ -1198,7 +1198,7 @@
         </option>
         <option name="RUBY_INTERPOLATED_STRING">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="RUBY_INVALID_ESCAPE_SEQUENCE">
@@ -1268,17 +1268,17 @@
         </option>
         <option name="RUBY_STRING">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="RUBY_SYMBOL">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="RUBY_WORDS">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="SASS_COMMENT">
@@ -1341,7 +1341,7 @@
         </option>
         <option name="SASS_STRING">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="SASS_TAG_NAME">
@@ -1398,12 +1398,12 @@
         </option>
         <option name="SLIM_INTERPOLATION">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="SLIM_STRING_INTERPOLATED">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="SLIM_TAG">
@@ -1518,7 +1518,7 @@
         </option>
         <option name="XML_ATTRIBUTE_VALUE">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="XML_ENTITY_REFERENCE">
@@ -1545,22 +1545,22 @@
         </option>
         <option name="YAML_SCALAR_DSTRING">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="YAML_SCALAR_LIST">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="YAML_SCALAR_STRING">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="YAML_SCALAR_VALUE">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
         <option name="YAML_SIGN">
@@ -1570,7 +1570,7 @@
         </option>
         <option name="YAML_TEXT">
             <value>
-                <option name="FOREGROUND" value="86b300" />
+                <option name="FOREGROUND" value="769F00" />
             </value>
         </option>
     </attributes>
