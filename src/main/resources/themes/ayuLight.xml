@@ -1,8 +1,7 @@
 <scheme name="Ayu-light" version="142" parent_scheme="Default">
     <metaInfo>
-        <property name="ide">GoLand</property>
-        <property name="ideVersion">2024.3.1.0.0</property>
-        <property name="originalScheme">Ayu-light</property>
+        <property name="ide">PyCharmCore</property>
+        <property name="ideVersion">2024.3.2.0.0</property>
     </metaInfo>
     <colors>
         <option name="CARET_COLOR" value="ff8f40" />
@@ -1011,19 +1010,14 @@
                 <option name="FOREGROUND" value="86b300" />
             </value>
         </option>
+        <option name="PY.ANNOTATION">
+            <value>
+                <option name="FOREGROUND" value="8f91" />
+            </value>
+        </option>
         <option name="PY.BUILTIN_NAME">
             <value>
-                <option name="FOREGROUND" value="f07171" />
-            </value>
-        </option>
-        <option name="PY.CLASS_DEFINITION">
-            <value>
-                <option name="FOREGROUND" value="399ee6" />
-            </value>
-        </option>
-        <option name="PY.DECORATOR">
-            <value>
-                <option name="FOREGROUND" value="f29718" />
+                <option name="FOREGROUND" value="8f91" />
             </value>
         </option>
         <option name="PY.DOC_COMMENT">
@@ -1032,25 +1026,31 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
+        <option name="PY.FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="8f91" />
+            </value>
+        </option>
         <option name="PY.FUNC_DEFINITION">
             <value>
-                <option name="FOREGROUND" value="f29718" />
+                <option name="FOREGROUND" value="8f91" />
             </value>
         </option>
-        <option name="PY.INVALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="f51818" />
-            </value>
-        </option>
-        <option name="PY.KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="fa6e32" />
-            </value>
-        </option>
+        <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.LINE_COMMENT">
             <value>
                 <option name="FOREGROUND" value="abb0b6" />
                 <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="PY.METHOD_CALL">
+            <value>
+                <option name="FOREGROUND" value="8f91" />
+            </value>
+        </option>
+        <option name="PY.NESTED_FUNC_DEFINITION">
+            <value>
+                <option name="FOREGROUND" value="8f91" />
             </value>
         </option>
         <option name="PY.NUMBER">
@@ -1063,26 +1063,15 @@
                 <option name="FOREGROUND" value="ed9366" />
             </value>
         </option>
-        <option name="PY.PREDEFINED_USAGE">
-            <value>
-                <option name="FOREGROUND" value="f07171" />
-            </value>
-        </option>
+        <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+        <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+        <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.STRING">
             <value>
                 <option name="FOREGROUND" value="86b300" />
             </value>
         </option>
-        <option name="PY.VALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="4cbf99" />
-            </value>
-        </option>
-        <option name="REST.BOLD">
-            <value>
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
+        <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
         <option name="REST.EXPLICIT">
             <value>
                 <option name="FOREGROUND" value="fa6e32" />
@@ -1091,26 +1080,6 @@
         <option name="REST.FIELD">
             <value>
                 <option name="FOREGROUND" value="fa6e32" />
-            </value>
-        </option>
-        <option name="REST.FIXED">
-            <value>
-                <option name="BACKGROUND" value="d9d9f0" />
-            </value>
-        </option>
-        <option name="REST.INLINE">
-            <value>
-                <option name="BACKGROUND" value="edfced" />
-            </value>
-        </option>
-        <option name="REST.INTERPRETED">
-            <value>
-                <option name="BACKGROUND" value="cadaba" />
-            </value>
-        </option>
-        <option name="REST.ITALIC">
-            <value>
-                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="REST.LINE_COMMENT">
