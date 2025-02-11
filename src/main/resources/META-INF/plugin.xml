@@ -69,5 +69,6 @@
         <themeProvider id="com.github.shubham076.atomic" path="/themes/atomic.theme.json" />
         <themeProvider id="com.github.shubham076.forestfly" path="/themes/forestfly.theme.json" />
         <themeProvider id="com.github.shubham076.ayuLight" path="/themes/ayuLight.theme.json" />
+        <themeProvider id="com.github.shubham076.forestFlyLight" path="/themes/forestFlyLight.theme.json" />
     </extensions>
 </idea-plugin>
