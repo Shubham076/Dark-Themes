@@ -640,12 +640,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="ffedaf" />
+        <option name="FOREGROUND" value="ECD09C" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="ffedaf" />
+        <option name="FOREGROUND" value="ECD09C" />
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -662,7 +662,7 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="ffedaf" />
+        <option name="FOREGROUND" value="ECD09C" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
@@ -716,7 +716,7 @@
     <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="ffedaf" />
+        <option name="FOREGROUND" value="ECD09C" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -727,7 +727,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="ffedaf" />
+        <option name="FOREGROUND" value="ECD09C" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
