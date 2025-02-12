@@ -603,18 +603,18 @@
     <option name="DEFAULT_BRACKETS" baseAttributes="" />
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="cffbeb" />
+        <option name="FOREGROUND" value="BCE7D7" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="cffbeb" />
+        <option name="FOREGROUND" value="BCE7D7" />
       </value>
     </option>
     <option name="DEFAULT_COMMA" baseAttributes="" />
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="fbbc9f" />
+        <option name="FOREGROUND" value="FFBA9A" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -657,7 +657,7 @@
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="cffbeb" />
+        <option name="FOREGROUND" value="BCE7D7" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -667,7 +667,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="fbbc9f" />
+        <option name="FOREGROUND" value="FFBA9A" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -682,23 +682,23 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="cffbeb" />
+        <option name="FOREGROUND" value="BCE7D7" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="fbbc9f" />
+        <option name="FOREGROUND" value="FFBA9A" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="cffbeb" />
+        <option name="FOREGROUND" value="BCE7D7" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS" baseAttributes="" />
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="cffbeb" />
+        <option name="FOREGROUND" value="BCE7D7" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -875,7 +875,7 @@
     <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="cffbeb" />
+        <option name="FOREGROUND" value="BCE7D7" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -1298,7 +1298,7 @@
     </option>
     <option name="PY.ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="cffbeb" />
+        <option name="FOREGROUND" value="BCE7D7" />
       </value>
     </option>
     <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
@@ -1719,7 +1719,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="dadbc0" />
-        <option name="BACKGROUND" value="1f2c36" />
+        <option name="BACKGROUND" value="262D33" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
