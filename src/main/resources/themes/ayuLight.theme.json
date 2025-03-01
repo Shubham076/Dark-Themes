@@ -5,7 +5,7 @@
   "editorScheme": "/themes/ayuLight.xml",
   "ui": {
     "*": {
-      "background": "#fafafa",
+      "background": "#F8F9FA",
       "foreground": "#61676C",
       "highlight": "#e7e7e8ff",
       "selectionBackground": "#ccd7daff",
@@ -23,21 +23,21 @@
       "excluded": "#d3e1e8ff"
     },
     "DefaultTabs": {
-      "background": "#fafafa",
+      "background": "#F8F9FA",
       "borderColor": "#FCF5F5"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#fafafa",
+      "underlinedTabBackground": "#F8F9FA",
       "borderColor": "#FCF5F5"
     },
     "Popup": {
-      "Header.activeBackground": "#fafafa"
+      "Header.activeBackground": "#F8F9FA"
     },
     "TabbedPane": {
-      "hoverColor": "#fafafa"
+      "hoverColor": "#F8F9FA"
     },
     "Button": {
-      "focus": "#fafafa"
+      "focus": "#F8F9FA"
     }
   }
 }

@@ -4,7 +4,7 @@
         <property name="ideVersion">2024.3.2.2.0.0</property>
     </metaInfo>
     <colors>
-        <option name="CARET_COLOR" value="df875a" />
+        <option name="CARET_COLOR" value="d68c67" />
         <option name="CARET_ROW_COLOR" value="f3f3f3" />
         <option name="CONSOLE_BACKGROUND_KEY" value="fafafa" />
         <option name="GUTTER_BACKGROUND" value="fafafa" />
@@ -34,7 +34,7 @@
         </option>
         <option name="BUILDOUT.KEY_VALUE_SEPARATOR">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="BUILDOUT.LINE_COMMENT">
@@ -45,7 +45,7 @@
         </option>
         <option name="BUILDOUT.SECTION_NAME">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="BUILDOUT.VALUE">
@@ -71,7 +71,7 @@
         </option>
         <option name="COFFEESCRIPT.BOOLEAN">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="COFFEESCRIPT.CLASS_NAME">
@@ -81,7 +81,7 @@
         </option>
         <option name="COFFEESCRIPT.COLON">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="COFFEESCRIPT.ESCAPE_SEQUENCE">
@@ -91,7 +91,7 @@
         </option>
         <option name="COFFEESCRIPT.EXISTENTIAL">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="COFFEESCRIPT.EXPRESSIONS_SUBSTITUTION_MARK">
@@ -157,7 +157,7 @@
         </option>
         <option name="COFFEESCRIPT.NUMBER">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="COFFEESCRIPT.OBJECT_KEY">
@@ -167,7 +167,7 @@
         </option>
         <option name="COFFEESCRIPT.OPERATIONS">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="COFFEESCRIPT.PROTOTYPE">
@@ -270,7 +270,7 @@
         </option>
         <option name="CSS.NUMBER">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="CSS.PROPERTY_NAME">
@@ -291,7 +291,7 @@
         </option>
         <option name="CSS.URL">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -313,7 +313,7 @@
         </option>
         <option name="CUSTOM_NUMBER_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="CUSTOM_STRING_ATTRIBUTES">
@@ -357,7 +357,7 @@
         </option>
         <option name="Clojure Numbers">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="Clojure Strings">
@@ -367,7 +367,7 @@
         </option>
         <option name="DEFAULT_ATTRIBUTE">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
@@ -378,12 +378,12 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="8f91" />
+                <option name="FOREGROUND" value="4F8889" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="8f91" />
+                <option name="FOREGROUND" value="4F8889" />
             </value>
         </option>
         <option name="DEFAULT_COMMA" baseAttributes="" />
@@ -408,17 +408,17 @@
         </option>
         <option name="DEFAULT_ENTITY">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -430,7 +430,7 @@
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="8f91" />
+                <option name="FOREGROUND" value="4F8889" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -440,7 +440,7 @@
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="DEFAULT_LABEL" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -452,22 +452,22 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="8f91" />
+                <option name="FOREGROUND" value="4F8889" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="DEFAULT_OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
-                <option name="FOREGROUND" value="8f91" />
+                <option name="FOREGROUND" value="4F8889" />
             </value>
         </option>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -517,7 +517,7 @@
         </option>
         <option name="DJANGO_NUMBER">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="DJANGO_STRING_LITERAL">
@@ -608,17 +608,17 @@
         </option>
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="8f91" />
+                <option name="FOREGROUND" value="4F8889" />
             </value>
         </option>
         <option name="GQL_ID">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="GQL_INT_LITERAL">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="GQL_KEYWORD">
@@ -681,13 +681,13 @@
         </option>
         <option name="HTML_ENTITY_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="HTML_TAG">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="HYPERLINK_ATTRIBUTES">
@@ -760,12 +760,12 @@
         </option>
         <option name="JAVA_NUMBER">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="JAVA_OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="JAVA_STRING">
@@ -792,7 +792,7 @@
         </option>
         <option name="JS.PARAMETER">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="JS.REGEXP">
@@ -879,12 +879,12 @@
         </option>
         <option name="OC.NUMBER">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="OC.PARAMETER">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="OC.PROPERTY">
@@ -915,7 +915,7 @@
         </option>
         <option name="PHP_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="PHP_VAR">
@@ -962,12 +962,12 @@
         </option>
         <option name="PUPPET_NUMBER">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="PUPPET_OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="PUPPET_PARENTH">
@@ -1003,12 +1003,12 @@
         </option>
         <option name="PY.ANNOTATION">
             <value>
-                <option name="FOREGROUND" value="8f91" />
+                <option name="FOREGROUND" value="4F8889" />
             </value>
         </option>
         <option name="PY.BUILTIN_NAME">
             <value>
-                <option name="FOREGROUND" value="8f91" />
+                <option name="FOREGROUND" value="4F8889" />
             </value>
         </option>
         <option name="PY.DOC_COMMENT">
@@ -1019,12 +1019,12 @@
         </option>
         <option name="PY.FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="8f91" />
+                <option name="FOREGROUND" value="4F8889" />
             </value>
         </option>
         <option name="PY.FUNC_DEFINITION">
             <value>
-                <option name="FOREGROUND" value="8f91" />
+                <option name="FOREGROUND" value="4F8889" />
             </value>
         </option>
         <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
@@ -1036,22 +1036,22 @@
         </option>
         <option name="PY.METHOD_CALL">
             <value>
-                <option name="FOREGROUND" value="8f91" />
+                <option name="FOREGROUND" value="4F8889" />
             </value>
         </option>
         <option name="PY.NESTED_FUNC_DEFINITION">
             <value>
-                <option name="FOREGROUND" value="8f91" />
+                <option name="FOREGROUND" value="4F8889" />
             </value>
         </option>
         <option name="PY.NUMBER">
             <value>
-                <option name="FOREGROUND" value="DF875A" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="PY.OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="DF875A" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
@@ -1086,7 +1086,7 @@
         </option>
         <option name="REST.SECTION.HEADER">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="RHTML_COMMENT_ID">
@@ -1218,7 +1218,7 @@
         </option>
         <option name="RUBY_LINE_CONTINUATION">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="RUBY_LOCAL_VAR_ID">
@@ -1233,12 +1233,12 @@
         </option>
         <option name="RUBY_NUMBER">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="RUBY_OPERATION_SIGN">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="RUBY_PARAMDEF_CALL">
@@ -1248,7 +1248,7 @@
         </option>
         <option name="RUBY_PARAMETER_ID">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="RUBY_REGEXP">
@@ -1299,7 +1299,7 @@
         </option>
         <option name="SASS_FUNCTION">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -1325,7 +1325,7 @@
         </option>
         <option name="SASS_NUMBER">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="SASS_PROPERTY_NAME">
@@ -1335,7 +1335,7 @@
         </option>
         <option name="SASS_PROPERTY_VALUE">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -1351,13 +1351,13 @@
         </option>
         <option name="SASS_URL">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="SASS_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="SEARCH_RESULT_ATTRIBUTES">
@@ -1471,7 +1471,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="61676c" />
-                <option name="BACKGROUND" value="fafafa" />
+                <option name="BACKGROUND" value="F8F9FA" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -1523,12 +1523,12 @@
         </option>
         <option name="XML_ENTITY_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="XML_TAG">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="XML_TAG_DATA">
@@ -1565,7 +1565,7 @@
         </option>
         <option name="YAML_SIGN">
             <value>
-                <option name="FOREGROUND" value="df875a" />
+                <option name="FOREGROUND" value="d68c67" />
             </value>
         </option>
         <option name="YAML_TEXT">
