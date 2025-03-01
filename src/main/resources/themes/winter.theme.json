@@ -1,0 +1,43 @@
+{
+  "author": "Shubham",
+  "dark": false,
+  "name": "Winter",
+  "editorScheme": "/themes/winter.xml",
+  "ui": {
+    "*": {
+      "background": "#fafafa",
+      "foreground": "#585859",
+      "highlight": "#e7e7e8ff",
+      "selectionBackground": "#ccd7daff",
+      "selectionInactiveBackground": "#ccd7daff",
+      "selectionForeground": "#546e7aff",
+      "button": "#f3f4f5ff",
+      "secondaryBackground": "#ffffffff",
+      "disabled": "#d2d4d5ff",
+      "contrast": "#eeeeeeff",
+      "tableSelected": "#e7e7e8ff",
+      "secondBorder": "#d3e1e8ff",
+      "treeSelection": "#80cbc440",
+      "notifications": "#eae8e8ff",
+      "accent": "#00bcd4ff",
+      "excluded": "#d3e1e8ff"
+    },
+    "DefaultTabs": {
+      "background": "#fafafa",
+      "borderColor": "#FCF5F5"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#fafafa",
+      "borderColor": "#FCF5F5"
+    },
+    "Popup": {
+      "Header.activeBackground": "#fafafa"
+    },
+    "TabbedPane": {
+      "hoverColor": "#fafafa"
+    },
+    "Button": {
+      "focus": "#fafafa"
+    }
+  }
+}
