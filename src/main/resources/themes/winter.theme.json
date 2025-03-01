@@ -5,7 +5,7 @@
   "editorScheme": "/themes/winter.xml",
   "ui": {
     "*": {
-      "background": "#fafafa",
+      "background": "#faf4ed",
       "foreground": "#585859",
       "highlight": "#e7e7e8ff",
       "selectionBackground": "#ccd7daff",
@@ -23,21 +23,21 @@
       "excluded": "#d3e1e8ff"
     },
     "DefaultTabs": {
-      "background": "#fafafa",
+      "background": "#faf4ed",
       "borderColor": "#FCF5F5"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#fafafa",
+      "underlinedTabBackground": "#faf4ed",
       "borderColor": "#FCF5F5"
     },
     "Popup": {
-      "Header.activeBackground": "#fafafa"
+      "Header.activeBackground": "#faf4ed"
     },
     "TabbedPane": {
-      "hoverColor": "#fafafa"
+      "hoverColor": "#faf4ed"
     },
     "Button": {
-      "focus": "#fafafa"
+      "focus": "#faf4ed"
     }
   }
 }

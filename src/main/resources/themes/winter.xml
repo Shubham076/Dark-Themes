@@ -2,20 +2,21 @@
     <metaInfo>
         <property name="ide">GoLand</property>
         <property name="ideVersion">2024.3.1.0.0</property>
-        <property name="originalScheme">Winteriscoming.theme</property>
     </metaInfo>
     <colors>
         <option name="CARET_COLOR" value="4fb4d8" />
         <option name="CARET_ROW_COLOR" value="eff2ef" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="faf4ed" />
         <option name="GUTTER_BACKGROUND" value="ffffff" />
-        <option name="INDENT_GUIDE" value="c4c5cd" />
-        <option name="LINE_NUMBERS_COLOR" value="236ebf" />
+        <option name="INDENT_GUIDE" value="dbdedb" />
+        <option name="LINE_NUMBERS_COLOR" value="585859" />
         <option name="SELECTED_INDENT_GUIDE" value="c4c5cd" />
         <option name="SELECTION_BACKGROUND" value="cee1f0" />
         <option name="SELECTION_FOREGROUND" value="" />
         <option name="WHITESPACES" value="c4c5cd" />
     </colors>
     <attributes>
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="BAD_CHARACTER">
             <value>
                 <option name="FOREGROUND" value="207bb8" />
@@ -52,6 +53,11 @@
         <option name="BUILDOUT.VALUE">
             <value>
                 <option name="FOREGROUND" value="a44185" />
+            </value>
+        </option>
+        <option name="CLASS_NAME_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="56949f" />
             </value>
         </option>
         <option name="CLASS_REFERENCE">
@@ -465,10 +471,14 @@
                 <option name="FOREGROUND" value="357b42" />
             </value>
         </option>
-        <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
+        <option name="DEFAULT_METADATA">
+            <value>
+                <option name="FOREGROUND" value="56949f" />
+            </value>
+        </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="49709e" />
+                <option name="FOREGROUND" value="585859" />
             </value>
         </option>
         <option name="DEFAULT_OPERATION_SIGN">
@@ -728,6 +738,7 @@
                 <option name="ERROR_STRIPE_COLOR" value="ccccff" />
             </value>
         </option>
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="EFFECT_TYPE" value="1" />
@@ -736,6 +747,12 @@
         <option name="INFO_ATTRIBUTES">
             <value>
                 <option name="EFFECT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+        <option name="INTERFACE_NAME_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="56949f" />
             </value>
         </option>
         <option name="IVAR">
@@ -775,17 +792,9 @@
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
-        <option name="JAVA_INVALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="207bb8" />
-                <option name="FONT_TYPE" value="1" />
-                <option name="EFFECT_COLOR" value="207bb8" />
-                <option name="EFFECT_TYPE" value="1" />
-            </value>
-        </option>
         <option name="JAVA_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="991b6" />
+                <option name="FOREGROUND" value="d7827e" />
             </value>
         </option>
         <option name="JAVA_LINE_COMMENT">
@@ -793,32 +802,6 @@
                 <option name="FOREGROUND" value="357b42" />
             </value>
         </option>
-        <option name="JAVA_NUMBER">
-            <value>
-                <option name="FOREGROUND" value="174781" />
-            </value>
-        </option>
-        <option name="JAVA_OPERATION_SIGN">
-            <value>
-                <option name="FOREGROUND" value="7b30d0" />
-            </value>
-        </option>
-        <option name="JAVA_STRING">
-            <value>
-                <option name="FOREGROUND" value="a44185" />
-            </value>
-        </option>
-        <option name="JAVA_VALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="2970c7" />
-            </value>
-        </option>
-        <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
-        <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
-        <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
-        <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-        <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
-        <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
         <option name="JSON.PROPERTY_KEY">
             <value>
                 <option name="FOREGROUND" value="97507f" />
@@ -1481,12 +1464,8 @@
             </value>
         </option>
         <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-        <option name="STATIC_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="660e7a" />
-                <option name="FONT_TYPE" value="3" />
-            </value>
-        </option>
+        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
         <option name="STATIC_METHOD_ATTRIBUTES">
             <value>
                 <option name="FONT_TYPE" value="2" />
@@ -1500,7 +1479,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="585859" />
-                <option name="BACKGROUND" value="fafafa" />
+                <option name="BACKGROUND" value="faf4ed" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -1512,7 +1491,6 @@
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="ff" />
-                <option name="FONT_TYPE" value="3" />
                 <option name="ERROR_STRIPE_COLOR" value="ff" />
             </value>
         </option>
