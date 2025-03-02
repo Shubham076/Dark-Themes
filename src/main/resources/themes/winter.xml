@@ -802,6 +802,10 @@
                 <option name="FOREGROUND" value="357b42" />
             </value>
         </option>
+        <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+        <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+        <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+        <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
         <option name="JSON.PROPERTY_KEY">
             <value>
                 <option name="FOREGROUND" value="97507f" />

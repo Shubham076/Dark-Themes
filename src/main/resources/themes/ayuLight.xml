@@ -378,12 +378,12 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="4F8889" />
+                <option name="FOREGROUND" value="4f8889" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="4F8889" />
+                <option name="FOREGROUND" value="4f8889" />
             </value>
         </option>
         <option name="DEFAULT_COMMA" baseAttributes="" />
@@ -430,7 +430,7 @@
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="4F8889" />
+                <option name="FOREGROUND" value="4f8889" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -452,7 +452,7 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="4F8889" />
+                <option name="FOREGROUND" value="4f8889" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -467,7 +467,7 @@
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
-                <option name="FOREGROUND" value="4F8889" />
+                <option name="FOREGROUND" value="4f8889" />
             </value>
         </option>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -608,7 +608,7 @@
         </option>
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="4F8889" />
+                <option name="FOREGROUND" value="4f8889" />
             </value>
         </option>
         <option name="GQL_ID">
@@ -773,28 +773,10 @@
                 <option name="FOREGROUND" value="769f00" />
             </value>
         </option>
-        <option name="JS.GLOBAL_VARIABLE">
-            <value>
-                <option name="FOREGROUND" value="55b4d4" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
-        <option name="JS.INSTANCE_MEMBER_FUNCTION">
-            <value>
-                <option name="FOREGROUND" value="f29718" />
-            </value>
-        </option>
-        <option name="JS.LOCAL_VARIABLE">
-            <value>
-                <option name="FOREGROUND" value="55b4d4" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
-        <option name="JS.PARAMETER">
-            <value>
-                <option name="FOREGROUND" value="d68c67" />
-            </value>
-        </option>
+        <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+        <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+        <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+        <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="JS.REGEXP">
             <value>
                 <option name="FOREGROUND" value="4cbf99" />
@@ -1003,12 +985,12 @@
         </option>
         <option name="PY.ANNOTATION">
             <value>
-                <option name="FOREGROUND" value="4F8889" />
+                <option name="FOREGROUND" value="4f8889" />
             </value>
         </option>
         <option name="PY.BUILTIN_NAME">
             <value>
-                <option name="FOREGROUND" value="4F8889" />
+                <option name="FOREGROUND" value="4f8889" />
             </value>
         </option>
         <option name="PY.DOC_COMMENT">
@@ -1019,12 +1001,12 @@
         </option>
         <option name="PY.FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="4F8889" />
+                <option name="FOREGROUND" value="4f8889" />
             </value>
         </option>
         <option name="PY.FUNC_DEFINITION">
             <value>
-                <option name="FOREGROUND" value="4F8889" />
+                <option name="FOREGROUND" value="4f8889" />
             </value>
         </option>
         <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
@@ -1036,12 +1018,12 @@
         </option>
         <option name="PY.METHOD_CALL">
             <value>
-                <option name="FOREGROUND" value="4F8889" />
+                <option name="FOREGROUND" value="4f8889" />
             </value>
         </option>
         <option name="PY.NESTED_FUNC_DEFINITION">
             <value>
-                <option name="FOREGROUND" value="4F8889" />
+                <option name="FOREGROUND" value="4f8889" />
             </value>
         </option>
         <option name="PY.NUMBER">
@@ -1456,8 +1438,8 @@
             </value>
         </option>
         <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
-        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
+        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
+        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="" />
         <option name="STATIC_METHOD_ATTRIBUTES">
             <value>
                 <option name="FONT_TYPE" value="2" />
@@ -1471,7 +1453,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="61676c" />
-                <option name="BACKGROUND" value="F8F9FA" />
+                <option name="BACKGROUND" value="f8f9fa" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -1574,4 +1556,4 @@
             </value>
         </option>
     </attributes>
-</scheme
+</scheme>
