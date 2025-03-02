@@ -382,12 +382,12 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="49709e" />
+                <option name="FOREGROUND" value="56949f" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="49709e" />
+                <option name="FOREGROUND" value="56949f" />
             </value>
         </option>
         <option name="DEFAULT_COMMA">
@@ -450,12 +450,12 @@
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="49709e" />
+                <option name="FOREGROUND" value="56949f" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="56949f" />
+                <option name="FOREGROUND" value="97507f" />
                 <option name="FONT_TYPE" value="1" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
@@ -506,7 +506,7 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="56949f" />
+                <option name="FOREGROUND" value="97507f" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -517,7 +517,7 @@
         <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="56949f" />
+                <option name="FOREGROUND" value="97507f" />
             </value>
         </option>
         <option name="DJANGO_COMMENT">
@@ -646,7 +646,7 @@
         </option>
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="49709e" />
+                <option name="FOREGROUND" value="56949f" />
             </value>
         </option>
         <option name="GQL_ID">
