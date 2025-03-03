@@ -1,8 +1,8 @@
 {
   "author": "Shubham",
   "dark": false,
-  "name": "Winter",
-  "editorScheme": "/themes/winter.xml",
+  "name": "Rose Pine",
+  "editorScheme": "/themes/rosePine.xml",
   "ui": {
     "*": {
       "background": "#faf4ed",
