@@ -10,7 +10,7 @@
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="1a2731" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-    <option name="CARET_COLOR" value="fabc89" />
+    <option name="CARET_COLOR" value="F2B891" />
     <option name="CARET_ROW_COLOR" value="2f313a" />
     <option name="CONSOLE_BACKGROUND_KEY" value="282a35" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
@@ -31,7 +31,7 @@
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
     <option name="GUTTER_BACKGROUND" value="1e202b" />
     <option name="INDENT_GUIDE" value="332e35" />
-    <option name="LINE_NUMBERS_COLOR" value="fabc89" />
+    <option name="LINE_NUMBERS_COLOR" value="F2B891" />
     <option name="SELECTED_INDENT_GUIDE" value="332e35" />
     <option name="SELECTION_BACKGROUND" value="34363f" />
     <option name="WHITESPACES" value="332e35" />
@@ -39,14 +39,14 @@
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="90d1b5" />
+        <option name="FOREGROUND" value="94CCB4" />
       </value>
     </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="90d1b5" />
+        <option name="FOREGROUND" value="94CCB4" />
       </value>
     </option>
     <option name="BAD_CHARACTER">
@@ -178,7 +178,7 @@
     </option>
     <option name="CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="90d1b5" />
+        <option name="FOREGROUND" value="94CCB4" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -602,7 +602,7 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="90D1B5" />
+        <option name="FOREGROUND" value="94CCB4" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -623,12 +623,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="fabc89" />
+        <option name="FOREGROUND" value="F2B891" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="fabc89" />
+        <option name="FOREGROUND" value="F2B891" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -671,12 +671,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="90d1b5" />
+        <option name="FOREGROUND" value="94CCB4" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="90d1b5" />
+        <option name="FOREGROUND" value="94CCB4" />
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -688,7 +688,7 @@
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="fabc89" />
+        <option name="FOREGROUND" value="F2B891" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -698,7 +698,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="fabc89" />
+        <option name="FOREGROUND" value="F2B891" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -709,7 +709,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="fabc89" />
+        <option name="FOREGROUND" value="F2B891" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -815,7 +815,7 @@
     </option>
     <option name="ENUM_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="90d1b5" />
+        <option name="FOREGROUND" value="94CCB4" />
       </value>
     </option>
     <option name="ERRORS_ATTRIBUTES">
@@ -911,7 +911,7 @@
     <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="fabc89" />
+        <option name="FOREGROUND" value="F2B891" />
       </value>
     </option>
     <option name="GO_PACKAGE_EXPORTED_CONSTANT">
@@ -1024,12 +1024,12 @@
     </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="90d1b5" />
+        <option name="FOREGROUND" value="94CCB4" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="90d1b5" />
+        <option name="FOREGROUND" value="94CCB4" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -1064,7 +1064,7 @@
     </option>
     <option name="INTERFACE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="90d1b5" />
+        <option name="FOREGROUND" value="94CCB4" />
       </value>
     </option>
     <option name="IVAR">
@@ -1154,7 +1154,7 @@
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="JSON.PROPERTY_KEY">
       <value>
-        <option name="FOREGROUND" value="90d1b5" />
+        <option name="FOREGROUND" value="94CCB4" />
       </value>
     </option>
     <option name="LABEL">
@@ -1388,7 +1388,7 @@
     </option>
     <option name="PY.ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="fabc89" />
+        <option name="FOREGROUND" value="F2B891" />
       </value>
     </option>
     <option name="PY.BRACES">
@@ -1861,34 +1861,34 @@
     <option name="SPY-JS.EXCEPTION">
       <value>
         <option name="BACKGROUND" value="713f3f" />
-        <option name="EFFECT_COLOR" value="fabc89" />
+        <option name="EFFECT_COLOR" value="F2B891" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="SPY-JS.FUNCTION_SCOPE">
       <value>
         <option name="BACKGROUND" value="2e2e1f" />
-        <option name="EFFECT_COLOR" value="fabc89" />
+        <option name="EFFECT_COLOR" value="F2B891" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="SPY-JS.PATH_LEVEL_ONE">
       <value>
         <option name="BACKGROUND" value="254226" />
-        <option name="EFFECT_COLOR" value="fabc89" />
+        <option name="EFFECT_COLOR" value="F2B891" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="SPY-JS.PATH_LEVEL_TWO">
       <value>
-        <option name="EFFECT_COLOR" value="fabc89" />
+        <option name="EFFECT_COLOR" value="F2B891" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="SPY-JS.PROGRAM_SCOPE">
       <value>
         <option name="BACKGROUND" value="2b2b2b" />
-        <option name="EFFECT_COLOR" value="fabc89" />
+        <option name="EFFECT_COLOR" value="F2B891" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1931,7 +1931,7 @@
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="4a3f10" />
-        <option name="EFFECT_COLOR" value="fabc89" />
+        <option name="EFFECT_COLOR" value="F2B891" />
         <option name="ERROR_STRIPE_COLOR" value="ffff00" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -1966,7 +1966,7 @@
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="90d1b5" />
+        <option name="FOREGROUND" value="94CCB4" />
       </value>
     </option>
     <option name="XML_TAG_DATA">
@@ -1976,7 +1976,7 @@
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="90d1b5" />
+        <option name="FOREGROUND" value="94CCB4" />
       </value>
     </option>
     <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -1993,7 +1993,7 @@
     </option>
     <option name="YAML_SCALAR_KEY">
       <value>
-        <option name="FOREGROUND" value="90d1b5" />
+        <option name="FOREGROUND" value="94CCB4" />
       </value>
     </option>
     <option name="YAML_SCALAR_LIST">
