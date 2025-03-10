@@ -2,19 +2,21 @@
     <metaInfo>
         <property name="ide">GoLand</property>
         <property name="ideVersion">2024.3.1.0.0</property>
-        <property name="originalScheme">Nightowllight</property>
     </metaInfo>
     <colors>
         <option name="CARET_COLOR" value="4fb4d8" />
         <option name="CARET_ROW_COLOR" value="eff2ef" />
         <option name="GUTTER_BACKGROUND" value="ffffff" />
-        <option name="INDENT_GUIDE" value="c4c5cd" />
+        <option name="INDENT_GUIDE" value="dedfe3" />
         <option name="LINE_NUMBERS_COLOR" value="5c6166" />
         <option name="SELECTED_INDENT_GUIDE" value="c4c5cd" />
         <option name="SELECTION_BACKGROUND" value="cee1f0" />
+        <option name="SELECTION_FOREGROUND" value="" />
         <option name="WHITESPACES" value="c4c5cd" />
     </colors>
     <attributes>
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="BAD_CHARACTER">
             <value>
                 <option name="FOREGROUND" value="207bb8" />
@@ -682,13 +684,14 @@
                 <option name="ERROR_STRIPE_COLOR" value="ccccff" />
             </value>
         </option>
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INFO_ATTRIBUTES">
             <value>
                 <option name="EFFECT_COLOR" value="cccccc" />
-                <option name="ERROR_STRIPE_COLOR" value="ffffcc" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
+        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
         <option name="IVAR">
             <value>
                 <option name="FOREGROUND" value="2f86d2" />
@@ -704,16 +707,6 @@
                 <option name="FOREGROUND" value="991b6" />
             </value>
         </option>
-        <option name="JAVA_BLOCK_COMMENT">
-            <value>
-                <option name="FOREGROUND" value="357b42" />
-            </value>
-        </option>
-        <option name="JAVA_DOC_COMMENT">
-            <value>
-                <option name="FOREGROUND" value="357b42" />
-            </value>
-        </option>
         <option name="JAVA_DOC_MARKUP">
             <value>
                 <option name="BACKGROUND" value="e2ffe2" />
@@ -726,42 +719,14 @@
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
-        <option name="JAVA_INVALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="207bb8" />
-                <option name="FONT_TYPE" value="1" />
-                <option name="EFFECT_COLOR" value="207bb8" />
-                <option name="EFFECT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="JAVA_KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="991b6" />
-            </value>
-        </option>
         <option name="JAVA_LINE_COMMENT">
             <value>
                 <option name="FOREGROUND" value="357b42" />
             </value>
         </option>
-        <option name="JAVA_NUMBER">
-            <value>
-                <option name="FOREGROUND" value="174781" />
-            </value>
-        </option>
         <option name="JAVA_OPERATION_SIGN">
             <value>
                 <option name="FOREGROUND" value="7b30d0" />
-            </value>
-        </option>
-        <option name="JAVA_STRING">
-            <value>
-                <option name="FOREGROUND" value="a44185" />
-            </value>
-        </option>
-        <option name="JAVA_VALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="2970c7" />
             </value>
         </option>
         <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
@@ -1431,12 +1396,8 @@
             </value>
         </option>
         <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-        <option name="STATIC_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="660e7a" />
-                <option name="FONT_TYPE" value="3" />
-            </value>
-        </option>
+        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
         <option name="STATIC_METHOD_ATTRIBUTES">
             <value>
                 <option name="FONT_TYPE" value="2" />
@@ -1473,10 +1434,8 @@
         </option>
         <option name="WARNING_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="f6ebbc" />
                 <option name="EFFECT_COLOR" value="236ebf" />
-                <option name="ERROR_STRIPE_COLOR" value="ffff00" />
-                <option name="EFFECT_TYPE" value="1" />
+                <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
         <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
