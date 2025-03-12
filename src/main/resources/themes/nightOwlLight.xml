@@ -206,6 +206,11 @@
                 <option name="FOREGROUND" value="357b42" />
             </value>
         </option>
+        <option name="CONSOLE_BLACK_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="5c6166" />
+            </value>
+        </option>
         <option name="CONSOLE_BLUE_OUTPUT">
             <value>
                 <option name="FOREGROUND" value="ff" />
@@ -229,6 +234,11 @@
         <option name="CONSOLE_MAGENTA_OUTPUT">
             <value>
                 <option name="FOREGROUND" value="ff00ff" />
+            </value>
+        </option>
+        <option name="CONSOLE_NORMAL_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="5c6166" />
             </value>
         </option>
         <option name="CONSOLE_RED_OUTPUT">
