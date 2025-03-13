@@ -32,6 +32,11 @@
     "Popup": {
       "Header.activeBackground": "#FAF4F2"
     },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#FAF4F2"
+      }
+    },
     "TabbedPane": {
       "hoverColor": "#FAF4F2"
     },
