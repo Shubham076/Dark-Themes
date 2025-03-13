@@ -1,19 +1,19 @@
 <scheme name="Monokai Light" version="142" parent_scheme="Default">
     <metaInfo>
-        <property name="ide">Idea</property>
-        <property name="ideVersion">2024.3.2.2.0.0</property>
+        <property name="ide">GoLand</property>
+        <property name="ideVersion">2024.3.1.0.0</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="269d69" />
         <option name="ANNOTATIONS_COLOR" value="918c8e" />
         <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="706b6e" />
         <option name="ActionButton.iconTextForeground" value="606060" />
-        <option name="BACKGROUND" value="FAF4F2" />
+        <option name="BACKGROUND" value="faf4f2" />
         <option name="Bookmark.Mnemonic.iconForeground" value="e14775" />
         <option name="Bookmark.iconBackground" value="e14775" />
         <option name="CARET_COLOR" value="606060" />
         <option name="CARET_ROW_COLOR" value="f0eae9" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="FAF4F2" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="faf4f2" />
         <option name="DELETED_LINES_COLOR" value="e14775" />
         <option name="DOCUMENTATION_COLOR" value="fefaf9" />
         <option name="DOC_COMMENT_GUIDE" value="d3cdcc" />
@@ -40,7 +40,7 @@
         <option name="FILESTATUS_addedOutside" value="a59fa0" />
         <option name="FILESTATUS_changelistConflict" value="e14775" />
         <option name="FILESTATUS_modifiedOutside" value="e16032" />
-        <option name="GUTTER_BACKGROUND" value="FAF4F2" />
+        <option name="GUTTER_BACKGROUND" value="faf4f2" />
         <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="269d69" />
         <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="e14775" />
         <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="e16032" />
@@ -98,26 +98,26 @@
         <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="e0dad9" />
         <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="a59fa0" />
         <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="e0dad959" />
-        <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="FAF4F2" />
+        <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="faf4f2" />
         <option name="ScrollBar.Mac.Transparent.thumbColor" value="bfb9ba" />
-        <option name="ScrollBar.Mac.Transparent.trackColor" value="00" />
-        <option name="ScrollBar.Mac.hoverThumbBorderColor" value="FAF4F2" />
+        <option name="ScrollBar.Mac.Transparent.trackColor" value="0" />
+        <option name="ScrollBar.Mac.hoverThumbBorderColor" value="faf4f2" />
         <option name="ScrollBar.Mac.hoverThumbColor" value="a59fa0" />
         <option name="ScrollBar.Mac.hoverTrackColor" value="e0dad9" />
-        <option name="ScrollBar.Mac.thumbBorderColor" value="FAF4F2" />
+        <option name="ScrollBar.Mac.thumbBorderColor" value="faf4f2" />
         <option name="ScrollBar.Mac.thumbColor" value="bfb9ba" />
         <option name="ScrollBar.Mac.trackColor" value="e0dad9" />
-        <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="FAF4F2" />
+        <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="faf4f2" />
         <option name="ScrollBar.Transparent.hoverThumbColor" value="a59fa0" />
         <option name="ScrollBar.Transparent.hoverTrackColor" value="e0dad959" />
-        <option name="ScrollBar.Transparent.thumbBorderColor" value="FAF4F2" />
+        <option name="ScrollBar.Transparent.thumbBorderColor" value="faf4f2" />
         <option name="ScrollBar.Transparent.thumbColor" value="bfb9ba" />
-        <option name="ScrollBar.Transparent.trackColor" value="00" />
+        <option name="ScrollBar.Transparent.trackColor" value="0" />
         <option name="ScrollBar.background" value="e0dad9" />
-        <option name="ScrollBar.hoverThumbBorderColor" value="FAF4F2" />
+        <option name="ScrollBar.hoverThumbBorderColor" value="faf4f2" />
         <option name="ScrollBar.hoverThumbColor" value="a59fa0" />
         <option name="ScrollBar.hoverTrackColor" value="e0dad9" />
-        <option name="ScrollBar.thumbBorderColor" value="FAF4F2" />
+        <option name="ScrollBar.thumbBorderColor" value="faf4f2" />
         <option name="ScrollBar.thumbColor" value="bfb9ba" />
         <option name="ScrollBar.trackColor" value="e0dad9" />
         <option name="TEARLINE_COLOR" value="d3cdcc" />
@@ -125,14 +125,14 @@
         <option name="VCS_ANNOTATIONS_COLOR_2" value="eae5e3" />
         <option name="VCS_ANNOTATIONS_COLOR_3" value="f0eae9" />
         <option name="VCS_ANNOTATIONS_COLOR_4" value="f5efed" />
-        <option name="VCS_ANNOTATIONS_COLOR_5" value="FAF4F2" />
+        <option name="VCS_ANNOTATIONS_COLOR_5" value="faf4f2" />
         <option name="VISUAL_INDENT_GUIDE" value="d3cdcc" />
         <option name="WHITESPACES" value="bfb9ba" />
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="e16032" />
     </colors>
     <attributes>
-        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
         <option name="BAD_CHARACTER">
             <value>
                 <option name="EFFECT_COLOR" value="e14775" />
@@ -512,8 +512,7 @@
         </option>
         <option name="DEFAULT_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="7058be" />
-                <option name="FONT_TYPE" value="2" />
+                <option name="FOREGROUND" value="239161" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT">
@@ -585,11 +584,7 @@
                 <option name="FOREGROUND" value="d65279" />
             </value>
         </option>
-        <option name="DEFAULT_LABEL">
-            <value>
-                <option name="FOREGROUND" value="269d69" />
-            </value>
-        </option>
+        <option name="DEFAULT_LABEL" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_LINE_COMMENT">
             <value>
                 <option name="FOREGROUND" value="a59fa0" />
@@ -643,9 +638,9 @@
         </option>
         <option name="DELETED_TEXT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="FAF4F2" />
+                <option name="FOREGROUND" value="faf4f2" />
                 <option name="BACKGROUND" value="e14775" />
-                <option name="EFFECT_COLOR" value="FAF4F2" />
+                <option name="EFFECT_COLOR" value="faf4f2" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
         </option>
@@ -745,16 +740,6 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="GO_EXPORTED_FUNCTION_CALL">
-            <value>
-                <option name="FOREGROUND" value="269d69" />
-            </value>
-        </option>
-        <option name="GO_LOCAL_FUNCTION_CALL">
-            <value>
-                <option name="FOREGROUND" value="269d69" />
-            </value>
-        </option>
         <option name="GO_METHOD_RECEIVER">
             <value>
                 <option name="FOREGROUND" value="269d69" />
@@ -762,17 +747,12 @@
         </option>
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="1c8ca8" />
+                <option name="FOREGROUND" value="7058be" />
             </value>
         </option>
         <option name="GO_SHADOWING_VARIABLE">
             <value>
                 <option name="FOREGROUND" value="918c8e" />
-            </value>
-        </option>
-        <option name="GO_TYPE_REFERENCE">
-            <value>
-                <option name="FOREGROUND" value="1c8ca8" />
             </value>
         </option>
         <option name="GRAMMAR_ERROR">
@@ -864,31 +844,15 @@
                 <option name="FOREGROUND" value="606060" />
             </value>
         </option>
-        <option name="JS.GLOBAL_FUNCTION">
-            <value>
-                <option name="FOREGROUND" value="269d69" />
-            </value>
-        </option>
+        <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="JS.GLOBAL_VARIABLE">
             <value>
                 <option name="FOREGROUND" value="7058be" />
             </value>
         </option>
-        <option name="JS.INSTANCE_MEMBER_FUNCTION">
-            <value>
-                <option name="FOREGROUND" value="269d69" />
-            </value>
-        </option>
-        <option name="JS.JSX_CLIENT_COMPONENT">
-            <value>
-                <option name="FOREGROUND" value="1c8ca8" />
-            </value>
-        </option>
-        <option name="JS.LOCAL_VARIABLE">
-            <value>
-                <option name="FOREGROUND" value="606060" />
-            </value>
-        </option>
+        <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+        <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+        <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="JS.REGEXP">
             <value>
                 <option name="FOREGROUND" value="606060" />
@@ -1386,7 +1350,7 @@
         </option>
         <option name="RHTML_SCRIPTING_BACKGROUND_ID">
             <value>
-                <option name="BACKGROUND" value="FAF4F2" />
+                <option name="BACKGROUND" value="faf4f2" />
             </value>
         </option>
         <option name="RHTML_SCRIPTLET_END_ID">
@@ -1573,7 +1537,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="606060" />
-                <option name="BACKGROUND" value="FAF4F2" />
+                <option name="BACKGROUND" value="faf4f2" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
