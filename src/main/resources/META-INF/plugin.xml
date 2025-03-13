@@ -72,5 +72,6 @@
         <themeProvider id="com.github.shubham076.ayuLight" path="/themes/ayuLight.theme.json" />
         <themeProvider id="com.github.shubham076.forestFlyLight" path="/themes/forestFlyLight.theme.json" />
         <themeProvider id="com.github.shubham076.rosePine" path="/themes/rosePine.theme.json" />
+        <themeProvider id="com.github.shubham076.monokaiLight" path="/themes/monokaiLight.theme.json" />
     </extensions>
 </idea-plugin>
