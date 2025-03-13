@@ -5,7 +5,7 @@
   "editorScheme": "/themes/monokaiLight.xml",
   "ui": {
     "*": {
-      "background": "#f2fff0",
+      "background": "#FAF4F2",
       "foreground": "#606060",
       "highlight": "#e7e7e8ff",
       "selectionBackground": "#ccd7daff",
@@ -23,20 +23,20 @@
       "excluded": "#d3e1e8ff"
     },
     "DefaultTabs": {
-      "background": "#f2fff0",
+      "background": "#FAF4F2",
       "borderColor": "#1f2430"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#f2fff0"
+      "underlinedTabBackground": "#FAF4F2"
     },
     "Popup": {
-      "Header.activeBackground": "#f2fff0"
+      "Header.activeBackground": "#FAF4F2"
     },
     "TabbedPane": {
-      "hoverColor": "#f2fff0"
+      "hoverColor": "#FAF4F2"
     },
     "Button": {
-      "focus": "#f2fff0"
+      "focus": "#FAF4F2"
     }
   }
 }
