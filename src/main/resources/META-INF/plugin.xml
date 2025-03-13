@@ -3,9 +3,6 @@
     <id>com.github.shubham076.darkthemes</id>
     <name>Dark-Themes</name>
     <vendor>shubham076</vendor>
-
-    <product-descriptor code="PDARKTHEMES" release-date="20241226" release-version="20243" optional="true"/>
-
     <depends>com.intellij.modules.platform</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
