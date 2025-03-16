@@ -1081,12 +1081,6 @@
                 <option name="BACKGROUND" value="273627" />
             </value>
         </option>
-        <option name="INSTANCE_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="fda5ff" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
         <option name="IVAR">
             <value>
                 <option name="FOREGROUND" value="ecd8b1" />
