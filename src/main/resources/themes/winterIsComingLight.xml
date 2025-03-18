@@ -5,6 +5,12 @@
         <property name="originalScheme">Winter Is Coming Light</property>
     </metaInfo>
     <colors>
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="d5d6db" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="d5d6db" />
+        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="d5d6db" />
+        <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
+        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="d5d6db" />
+        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
         <option name="CARET_COLOR" value="4fb4d8" />
         <option name="CARET_ROW_COLOR" value="eff2ef" />
         <option name="FILESTATUS_ADDED" value="c3e887" />
