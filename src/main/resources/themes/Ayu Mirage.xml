@@ -1882,7 +1882,11 @@
         <option name="FOREGROUND" value="ffa759" />
       </value>
     </option>
-    <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="XML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="ffd580" />
+      </value>
+    </option>
     <option name="YAML_COMMENT">
       <value>
         <option name="FOREGROUND" value="5c6773" />
@@ -1892,11 +1896,6 @@
     <option name="YAML_SCALAR_DSTRING">
       <value>
         <option name="FOREGROUND" value="bae67e" />
-      </value>
-    </option>
-    <option name="YAML_SCALAR_KEY">
-      <value>
-        <option name="FOREGROUND" value="5ccfe6" />
       </value>
     </option>
     <option name="YAML_SCALAR_LIST">
