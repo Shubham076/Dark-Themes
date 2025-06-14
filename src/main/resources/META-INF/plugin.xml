@@ -72,5 +72,6 @@
         <themeProvider id="com.github.shubham076.rosePine" path="/themes/rosePine.theme.json" />
         <themeProvider id="com.github.shubham076.monokaiLight" path="/themes/monokaiLight.theme.json" />
         <themeProvider id="com.github.shubham076.winterIsComingLight" path="/themes/winterIsComingLight.theme.json" />
+        <themeProvider id="com.github.shubham076.vitesseLight" path="/themes/vitesseLight.theme.json" />
     </extensions>
 </idea-plugin>

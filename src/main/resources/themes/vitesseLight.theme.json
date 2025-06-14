@@ -1,0 +1,57 @@
+{
+  "author": "Shubham",
+  "dark": false,
+  "name": "Vitesse Light",
+  "editorScheme": "/themes/vitesseLight.xml",
+  "ui": {
+    "*": {
+      "background": "#F1F0E9",
+      "foreground": "#606060",
+      "highlight": "#e7e7e8ff",
+      "selectionBackground": "#ccd7daff",
+      "selectionInactiveBackground": "#ccd7daff",
+      "selectionForeground": "#546e7aff",
+      "button": "#f3f4f5ff",
+      "secondaryBackground": "#ffffffff",
+      "disabled": "#d2d4d5ff",
+      "contrast": "#eeeeeeff",
+      "tableSelected": "#e7e7e8ff",
+      "secondBorder": "#d3e1e8ff",
+      "treeSelection": "#80cbc440",
+      "notifications": "#eae8e8ff",
+      "accent": "#00bcd4ff",
+      "excluded": "#d3e1e8ff"
+    },
+    "DefaultTabs": {
+      "background": "#F1F0E9",
+      "borderColor": "#FCF5F5"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#F1F0E9"
+      }
+    },
+    "Plugins": {
+      "Button": {
+        "installBackground": "#144d69",
+        "updateBackground": "#144d69",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#F1F0E9",
+      "borderColor": "#FCF5F5"
+    },
+    "Popup": {
+      "Header.activeBackground": "#F1F0E9"
+    },
+    "TabbedPane": {
+      "hoverColor": "#F1F0E9"
+    },
+    "Button": {
+      "focus": "#F1F0E9"
+    }
+  }
+}
