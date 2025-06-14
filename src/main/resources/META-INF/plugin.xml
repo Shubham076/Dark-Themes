@@ -42,6 +42,7 @@
         <themeProvider id="com.github.shubham076.GruvboxLight" path="/themes/gruvboxLight.theme.json" />
         <themeProvider id="com.github.shubham076.asunaLight" path="/themes/asunaLight.theme.json" />
         <themeProvider id="com.github.shubham076.everforest" path="/themes/everforest.theme.json" />
+        <themeProvider id="com.github.shubham076.everforestLight" path="/themes/everforestLight.theme.json" />
         <themeProvider id="com.github.shubham076.vim" path="/themes/vim.theme.json" />
         <themeProvider id="com.github.shubham076.serenade" path="/themes/serenade.theme.json" />
         <themeProvider id="com.github.shubham076.peachy" path="/themes/peachy.theme.json" />
