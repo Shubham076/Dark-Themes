@@ -1,49 +1,49 @@
 <scheme name="Talosdark" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.1.1.0.0</property>
+    <property name="ideVersion">2025.1.1.0.0</property>
   </metaInfo>
   <colors>
-    <option name="ANNOTATIONS_COLOR" value="0" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="282b35" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="282b35" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="282b35" />
-    <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="282b35" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
-    <option name="CARET_COLOR" value="1de1e3" />
+    <option name="ANNOTATIONS_COLOR" value="000000" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="282B35" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="282B35" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="282B35" />
+    <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="EBDBB2" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="282B35" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="EBDBB2" />
+    <option name="CARET_COLOR" value="1DE1E3" />
     <option name="CARET_ROW_COLOR" value="374247" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="282b35" />
-    <option name="FILESTATUS_ADDED" value="c3e887" />
-    <option name="FILESTATUS_COPIED" value="addb67" />
-    <option name="FILESTATUS_DELETED" value="f77669" />
-    <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="ef5350" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="282B35" />
+    <option name="FILESTATUS_ADDED" value="C3E887" />
+    <option name="FILESTATUS_COPIED" value="ADDB67" />
+    <option name="FILESTATUS_DELETED" value="F77669" />
+    <option name="FILESTATUS_HIJACKED" value="FFCB6B" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="EF5350" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="637777" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f78c6c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f78c6c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f78c6c" />
-    <option name="FILESTATUS_MERGED" value="82aaff" />
-    <option name="FILESTATUS_MODIFIED" value="80cbc4" />
-    <option name="FILESTATUS_NOT_CHANGED" value="dfdfdf" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
-    <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
-    <option name="FILESTATUS_RENAMED" value="c792ea" />
-    <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
-    <option name="FILESTATUS_SWITCHED" value="f77669" />
-    <option name="FILESTATUS_UNKNOWN" value="f77669" />
-    <option name="FILESTATUS_addedOutside" value="7fdbca" />
-    <option name="FILESTATUS_changelistConflict" value="f78c6c" />
-    <option name="FILESTATUS_modifiedOutside" value="82aaff" />
-    <option name="GUTTER_BACKGROUND" value="282b35" />
-    <option name="LINE_NUMBERS_COLOR" value="d5d8da" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="F78C6C" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="F78C6C" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="F78C6C" />
+    <option name="FILESTATUS_MERGED" value="82AAFF" />
+    <option name="FILESTATUS_MODIFIED" value="80CBC4" />
+    <option name="FILESTATUS_NOT_CHANGED" value="DFDFDF" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80CBC4" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80CBC4" />
+    <option name="FILESTATUS_OBSOLETE" value="FFCB6B" />
+    <option name="FILESTATUS_RENAMED" value="C792EA" />
+    <option name="FILESTATUS_SUPPRESSED" value="546E7A" />
+    <option name="FILESTATUS_SWITCHED" value="F77669" />
+    <option name="FILESTATUS_UNKNOWN" value="F77669" />
+    <option name="FILESTATUS_addedOutside" value="7FDBCA" />
+    <option name="FILESTATUS_changelistConflict" value="F78C6C" />
+    <option name="FILESTATUS_modifiedOutside" value="82AAFF" />
+    <option name="GUTTER_BACKGROUND" value="282B35" />
+    <option name="LINE_NUMBERS_COLOR" value="D5D8DA" />
     <option name="SELECTION_BACKGROUND" value="293847" />
-    <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
-    <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
-    <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
-    <option name="VCS_ANNOTATIONS_COLOR_4" value="5ca4a9" />
-    <option name="VCS_ANNOTATIONS_COLOR_5" value="e6ebe0" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="C5574A" />
+    <option name="VCS_ANNOTATIONS_COLOR_2" value="F4F1BB" />
+    <option name="VCS_ANNOTATIONS_COLOR_3" value="9BC1BC" />
+    <option name="VCS_ANNOTATIONS_COLOR_4" value="5CA4A9" />
+    <option name="VCS_ANNOTATIONS_COLOR_5" value="E6EBE0" />
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -560,6 +560,11 @@
         <option name="FOREGROUND" value="fac29a" />
       </value>
     </option>
+    <option name="DEFAULT_CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="fac29a" />
+      </value>
+    </option>
     <option name="DEFAULT_COMMA" baseAttributes="" />
     <option name="DEFAULT_CONSTANT">
       <value>
@@ -602,7 +607,7 @@
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="ffac96" />
+        <option name="FOREGROUND" value="cccccc" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -623,7 +628,13 @@
         <option name="FOREGROUND" value="fac29a" />
       </value>
     </option>
-    <option name="DEFAULT_INVALID_STRING_ESCAPE" baseAttributes="" />
+    <option name="DEFAULT_INVALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="bae67e" />
+        <option name="EFFECT_COLOR" value="ff0000" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="9ee8f7" />
@@ -827,17 +838,8 @@
         <option name="FOREGROUND" value="fae2aa" />
       </value>
     </option>
-    <option name="GO_BUILTIN_TYPE_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="fac29a" />
-      </value>
-    </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
-    <option name="GO_EXPORTED_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="fae2aa" />
-      </value>
-    </option>
     <option name="GO_EXPORTED_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="fae2aa" />
@@ -854,11 +856,6 @@
         <option name="FOREGROUND" value="ffac96" />
       </value>
     </option>
-    <option name="GO_LOCAL_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="fae2aa" />
-      </value>
-    </option>
     <option name="GO_LOCAL_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="fae2aa" />
@@ -868,22 +865,6 @@
     <option name="GO_PACKAGE">
       <value>
         <option name="FOREGROUND" value="fac29a" />
-      </value>
-    </option>
-    <option name="GO_PACKAGE_EXPORTED_CONSTANT">
-      <value>
-        <option name="FOREGROUND" value="ffac96" />
-      </value>
-    </option>
-    <option name="GO_PACKAGE_EXPORTED_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="cccccc" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="GO_PACKAGE_LOCAL_CONSTANT">
-      <value>
-        <option name="FOREGROUND" value="ffac96" />
       </value>
     </option>
     <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
