@@ -31,18 +31,18 @@
         <option name="DIFF_SEPARATORS_BACKGROUND" value="3C474D" />
         <option name="DOCUMENTATION_COLOR" value="FFFBEF" />
         <option name="ERROR_HINT" value="FBE3DA" />
-        <option name="FILESTATUS_ADDED" value="8DA101" />
-        <option name="FILESTATUS_DELETED" value="F85552" />
+        <option name="FILESTATUS_ADDED" value="C3E887" />
+        <option name="FILESTATUS_DELETED" value="F77669" />
+        <option name="FILESTATUS_HIJACKED" value="FFCB6B" />
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="939F91" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="939F91" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="E9F0E9" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="E9F0E9" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="E9F0E9" />
-        <option name="FILESTATUS_MERGED" value="8DA101" />
-        <option name="FILESTATUS_MODIFIED" value="DFA000" />
-        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="3A94C5" />
-        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="3A94C5" />
-        <option name="FILESTATUS_UNKNOWN" value="F85552" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="393A34" />
+        <option name="FILESTATUS_MODIFIED" value="80CBC4" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80CBC4" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80CBC4" />
+        <option name="FILESTATUS_OBSOLETE" value="FFCB6B" />
+        <option name="FILESTATUS_SUPPRESSED" value="546E7A" />
+        <option name="FILESTATUS_SWITCHED" value="F77669" />
+        <option name="FILESTATUS_UNKNOWN" value="F77669" />
         <option name="FILESTATUS_addedOutside" value="8DA101" />
         <option name="FILESTATUS_changelistConflict" value="E9F0E9" />
         <option name="FILESTATUS_modifiedOutside" value="DFA000" />
@@ -239,7 +239,7 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="35a77b" />
+                <option name="FOREGROUND" value="61917a" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
@@ -293,12 +293,12 @@
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="409873" />
+                <option name="FOREGROUND" value="61917a" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="409873" />
+                <option name="FOREGROUND" value="61917a" />
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -311,7 +311,7 @@
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="409873" />
+                <option name="FOREGROUND" value="61917a" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -480,7 +480,7 @@
         </option>
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="409873" />
+                <option name="FOREGROUND" value="61917a" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
