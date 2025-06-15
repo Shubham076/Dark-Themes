@@ -5,7 +5,7 @@
   "editorScheme": "/themes/everforestLight.xml",
   "ui": {
     "*": {
-      "background": "#FFFBEF",
+      "background": "#FAFAFA",
       "foreground": "#5C6A72",
       "highlight": "#e7e7e8ff",
       "selectionBackground": "#ccd7daff",
@@ -23,12 +23,12 @@
       "excluded": "#d3e1e8ff"
     },
     "DefaultTabs": {
-      "background": "#FFFBEF",
+      "background": "#FAFAFA",
       "borderColor": "#FCF5F5"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#FFFBEF"
+        "inactiveBackground": "#FAFAFA"
       }
     },
     "Plugins": {
@@ -41,17 +41,17 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#FFFBEF",
+      "underlinedTabBackground": "#FAFAFA",
       "borderColor": "#FCF5F5"
     },
     "Popup": {
-      "Header.activeBackground": "#FFFBEF"
+      "Header.activeBackground": "#FAFAFA"
     },
     "TabbedPane": {
-      "hoverColor": "#FFFBEF"
+      "hoverColor": "#FAFAFA"
     },
     "Button": {
-      "focus": "#FFFBEF"
+      "focus": "#FAFAFA"
     }
   }
 }

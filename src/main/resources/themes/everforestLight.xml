@@ -6,9 +6,9 @@
     <colors>
         <option name="ADDED_LINES_COLOR" value="F0F1D2" />
         <option name="ANNOTATIONS_COLOR" value="5C6A72" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="FFFBEF" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="FFFBEF" />
-        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="FFFBEF" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="FAFAFA" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="FAFAFA" />
+        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="FAFAFA" />
         <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="5C6A72" />
         <option name="BLOCK_TERMINAL_GENERATE_COMMAND_CARET_COLOR" value="DF69BA" />
         <option name="BLOCK_TERMINAL_GENERATE_COMMAND_PLACEHOLDER_FOREGROUND" value="DF69BA" />
@@ -29,7 +29,7 @@
         <option name="DIAGRAM_NOTE_BORDER" value="495259" />
         <option name="DIAGRAM_REALIZATION_EDGE" value="8DA101" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="3C474D" />
-        <option name="DOCUMENTATION_COLOR" value="FFFBEF" />
+        <option name="DOCUMENTATION_COLOR" value="FAFAFA" />
         <option name="ERROR_HINT" value="FBE3DA" />
         <option name="FILESTATUS_ADDED" value="C3E887" />
         <option name="FILESTATUS_DELETED" value="F77669" />
@@ -46,7 +46,7 @@
         <option name="FILESTATUS_addedOutside" value="8DA101" />
         <option name="FILESTATUS_changelistConflict" value="E9F0E9" />
         <option name="FILESTATUS_modifiedOutside" value="DFA000" />
-        <option name="GUTTER_BACKGROUND" value="FFFBEF" />
+        <option name="GUTTER_BACKGROUND" value="FAFAFA" />
         <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="EDEAD5" />
         <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="EDEAD5" />
         <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="EDEAD5" />
@@ -54,13 +54,13 @@
         <option name="INFORMATION_HINT" value="E9F0E9" />
         <option name="LINE_NUMBERS_COLOR" value="BDC3AF" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="5C6A72" />
-        <option name="LOOKUP_COLOR" value="FFFBEF" />
+        <option name="LOOKUP_COLOR" value="FAFAFA" />
         <option name="METHOD_SEPARATORS_COLOR" value="" />
         <option name="MODIFIED_LINES_COLOR" value="E9F0E9" />
         <option name="NOTIFICATION_BACKGROUND" value="3C474D" />
         <option name="PROMOTION_PANE" value="E9F0E9" />
         <option name="QUESTION_HINT" value="E9F0E9" />
-        <option name="RECENT_LOCATIONS_SELECTION" value="FFFBEF" />
+        <option name="RECENT_LOCATIONS_SELECTION" value="FAFAFA" />
         <option name="RIGHT_MARGIN_COLOR" value="3C474D" />
         <option name="SELECTED_INDENT_GUIDE" value="E9F0E9" />
         <option name="SELECTED_TEARLINE_COLOR" value="495259" />
@@ -1419,7 +1419,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="5c6a72" />
-                <option name="BACKGROUND" value="fffbef" />
+                <option name="BACKGROUND" value="FAFAFA" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
