@@ -249,12 +249,12 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="61917a" />
+                <option name="FOREGROUND" value="829400" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="61917a" />
+                <option name="FOREGROUND" value="829400" />
             </value>
         </option>
         <option name="DEFAULT_COMMA">
@@ -264,7 +264,7 @@
         </option>
         <option name="DEFAULT_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="e48850" />
+                <option name="FOREGROUND" value="ca7daf" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT">
@@ -303,12 +303,12 @@
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="61917a" />
+                <option name="FOREGROUND" value="829400" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="61917a" />
+                <option name="FOREGROUND" value="829400" />
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -321,18 +321,18 @@
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="61917a" />
+                <option name="FOREGROUND" value="829400" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="829400" />
+                <option name="FOREGROUND" value="5fa083" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="de6f68" />
+                <option name="FOREGROUND" value="db8d5f" />
             </value>
         </option>
         <option name="DEFAULT_LABEL">
@@ -400,7 +400,7 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="829400" />
+                <option name="FOREGROUND" value="5fa083" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -414,7 +414,7 @@
         </option>
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="829400" />
+                <option name="FOREGROUND" value="5fa083" />
             </value>
         </option>
         <option name="DELETED_TEXT_ATTRIBUTES">
@@ -490,7 +490,7 @@
         </option>
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="61917a" />
+                <option name="FOREGROUND" value="829400" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
@@ -1419,7 +1419,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="5c6a72" />
-                <option name="BACKGROUND" value="FAFAFA" />
+                <option name="BACKGROUND" value="fafafa" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
