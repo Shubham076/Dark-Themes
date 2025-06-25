@@ -24,7 +24,7 @@ class CheckLicense {
         /**
          * PRODUCT_CODE must be the same specified in plugin.xml inside the <product-descriptor> tag
          */
-        private const val PRODUCT_CODE = "PMAKECOFFEE"
+        private const val PRODUCT_CODE = "PDARKTHEMES"
         private const val KEY_PREFIX = "key:"
         private const val STAMP_PREFIX = "stamp:"
 
