@@ -16,7 +16,7 @@
 
     <applicationListeners>
         <listener class="com.github.shubham076.themes.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-        <listener class="com.github.shubham076.themes.listeners.ThemeChangeListener" topic="com.intellij.ide.ui.LafManagerListener"/>
+<!--        <listener class="com.github.shubham076.themes.listeners.ThemeChangeListener" topic="com.intellij.ide.ui.LafManagerListener"/>-->
     </applicationListeners>
 
     <extensions defaultExtensionNs="com.intellij">

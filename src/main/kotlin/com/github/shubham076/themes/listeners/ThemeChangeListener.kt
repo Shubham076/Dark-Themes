@@ -11,7 +11,7 @@ import com.intellij.openapi.application.ApplicationManager
 
 class ThemeChangeListener : LafManagerListener {
     private val editorColorsManager = EditorColorsManager.getInstance()
-    private var TITLE = "Dark Themes";
+    private var TITLE = "Dark Themes"
     val proThemes = listOf(
         "Gruvbox"
     )
@@ -19,7 +19,7 @@ class ThemeChangeListener : LafManagerListener {
 
     override fun lookAndFeelChanged(lafManager: LafManager) {
         val currentUI = lafManager.currentLookAndFeel?.name
-        if (previousUI != currentUI && proThemes.contains(currentUI)) {
+        if (previousUI != null && previousUI != currentUI && proThemes.contains(currentUI)) {
             val isLicensed = CheckLicense.isLicensed()
             if (isLicensed == false) {
                 lafManager.installedLookAndFeels.firstOrNull { it.name == previousUI }?.let {
@@ -32,6 +32,6 @@ class ThemeChangeListener : LafManagerListener {
                 JOptionPane.showMessageDialog(JOptionPane.getRootFrame(), message, TITLE, JOptionPane.INFORMATION_MESSAGE);
             }
         }
-        previousUI = currentUI
+        previousUI = lafManager.currentLookAndFeel?.name
     }
 }
