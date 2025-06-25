@@ -2,7 +2,7 @@
 <idea-plugin>
     <id>com.github.shubham076.darkthemes</id>
     <name>Dark-Themes</name>
-    <vendor>shubham076</vendor>
+    <vendor>9144e893-8ac4-4237-9adf-0dc26dbfc284</vendor>
     <depends>com.intellij.modules.platform</depends>
     <product-descriptor code="PDARKTHEMES" release-date="20250701" release-version="20251" optional="true"/>
     <version>2025.1.0</version>
