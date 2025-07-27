@@ -40,6 +40,7 @@
         <themeProvider id="com.github.shubham076.gruvboxMaterial" path="/themes/gruvboxMaterial.theme.json"/>
         <themeProvider id="com.github.shubham076.talosDark" path="/themes/talosDark.theme.json"/>
         <themeProvider id="com.github.shubham076.TokyoNightLight" path="/themes/tokyoNightLight.theme.json" />
+        <themeProvider id="com.github.shubham076.GruvboxLight" path="/themes/gruvboxLight.theme.json" />
         <themeProvider id="com.github.shubham076.asunaLight" path="/themes/asunaLight.theme.json" />
         <themeProvider id="com.github.shubham076.everforest" path="/themes/everforest.theme.json" />
         <themeProvider id="com.github.shubham076.everforestLight" path="/themes/everforestLight.theme.json" />
@@ -73,5 +74,6 @@
         <themeProvider id="com.github.shubham076.monokaiLight" path="/themes/monokaiLight.theme.json" />
         <themeProvider id="com.github.shubham076.winterIsComingLight" path="/themes/winterIsComingLight.theme.json" />
         <themeProvider id="com.github.shubham076.vitesseLight" path="/themes/vitesseLight.theme.json" />
+        <themeProvider id="com.github.shubham076.whiteSand" path="/themes/whiteSand.theme.json" />
     </extensions>
 </idea-plugin>

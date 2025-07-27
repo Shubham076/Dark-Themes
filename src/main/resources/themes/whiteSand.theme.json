@@ -1,12 +1,12 @@
 {
   "author": "Shubham",
   "dark": false,
-  "name": "Gruvbox Light",
-  "editorScheme": "/themes/gruvBoxLight.xml",
+  "name": "White Sand",
+  "editorScheme": "/themes/whiteSand.xml",
   "ui": {
     "*": {
-      "background": "#F9F5D7",
-      "foreground": "#3c3836",
+      "background": "#F5EBE1",
+      "foreground": "#585858",
       "highlight": "#e7e7e8ff",
       "selectionBackground": "#ccd7daff",
       "selectionInactiveBackground": "#ccd7daff",
@@ -23,25 +23,35 @@
       "excluded": "#d3e1e8ff"
     },
     "DefaultTabs": {
-      "background": "#F9F5D7",
-      "borderColor": "#1f2430"
-    },
-    "EditorTabs": {
-      "underlinedTabBackground": "#F9F5D7"
+      "background": "#F5EBE1",
+      "borderColor": "#FCF5F5"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#F9F5D7"
+        "inactiveBackground": "#F5EBE1"
       }
     },
+    "Plugins": {
+      "Button": {
+        "installBackground": "#144d69",
+        "updateBackground": "#144d69",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#F5EBE1",
+      "borderColor": "#FCF5F5"
+    },
     "Popup": {
-      "Header.activeBackground": "#F9F5D7"
+      "Header.activeBackground": "#F5EBE1"
     },
     "TabbedPane": {
-      "hoverColor": "#F9F5D7"
+      "hoverColor": "#F5EBE1"
     },
     "Button": {
-      "focus": "#F9F5D7"
+      "focus": "#F5EBE1"
     }
   }
 }
