@@ -75,5 +75,7 @@
         <themeProvider id="com.github.shubham076.winterIsComingLight" path="/themes/winterIsComingLight.theme.json" />
         <themeProvider id="com.github.shubham076.vitesseLight" path="/themes/vitesseLight.theme.json" />
         <themeProvider id="com.github.shubham076.whiteSand" path="/themes/whiteSand.theme.json" />
+        <themeProvider id="com.github.shubham076.solarizedLight" path="/themes/solarizedLight.theme.json" />
+        <themeProvider id="com.github.shubham076.rougeLight" path="/themes/rougeLight.theme.json" />
     </extensions>
 </idea-plugin>
