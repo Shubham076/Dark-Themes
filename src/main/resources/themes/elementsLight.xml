@@ -52,6 +52,82 @@
                 <option name="FOREGROUND" value="6653d" />
             </value>
         </option>
+        <option name="CONSOLE_BLACK_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="2f3f50" />
+            </value>
+        </option>
+        <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="1c5e7d" />
+            </value>
+        </option>
+        <option name="CONSOLE_BLUE_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="1c5e7d" />
+            </value>
+        </option>
+        <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="2391b7" />
+            </value>
+        </option>
+        <option name="CONSOLE_CYAN_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="9e9e" />
+            </value>
+        </option>
+        <option name="CONSOLE_ERROR_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="c42740" />
+            </value>
+        </option>
+        <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="1f9a6a" />
+            </value>
+        </option>
+        <option name="CONSOLE_GREEN_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="1f9a6a" />
+            </value>
+        </option>
+        <option name="CONSOLE_NORMAL_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="2f3f50" />
+            </value>
+        </option>
+        <option name="CONSOLE_RED_BRIGHT_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="c42740" />
+            </value>
+        </option>
+        <option name="CONSOLE_RED_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="c42740" />
+            </value>
+        </option>
+        <option name="CONSOLE_SYSTEM_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="25507f" />
+            </value>
+        </option>
+        <option name="CONSOLE_USER_INPUT">
+            <value>
+                <option name="FOREGROUND" value="f76c5e" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="a69275" />
+            </value>
+        </option>
+        <option name="CONSOLE_YELLOW_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="a69275" />
+            </value>
+        </option>
         <option name="CLASS_REFERENCE">
             <value>
                 <option name="FOREGROUND" value="26673" />
@@ -407,7 +483,7 @@
         </option>
         <option name="DEFAULT_ATTRIBUTE">
             <value>
-                <option name="FOREGROUND" value="B16B16" />
+                <option name="FOREGROUND" value="b16b16" />
             </value>
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
@@ -472,7 +548,7 @@
         </option>
         <option name="DEFAULT_ENTITY">
             <value>
-                <option name="FOREGROUND" value="B16B16" />
+                <option name="FOREGROUND" value="b16b16" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
@@ -767,13 +843,7 @@
         </option>
         <option name="HTML_ATTRIBUTE_NAME">
             <value>
-                <option name="FOREGROUND" value="26673" />
-            </value>
-        </option>
-        <option name="HTML_ATTRIBUTE_VALUE">
-            <value>
-                <option name="FOREGROUND" value="6653d" />
-                <option name="FONT_TYPE" value="1" />
+                <option name="FOREGROUND" value="936406" />
             </value>
         </option>
         <option name="HTML_COMMENT">
@@ -781,20 +851,14 @@
                 <option name="FOREGROUND" value="7e8aa2" />
             </value>
         </option>
-        <option name="HTML_ENTITY_REFERENCE">
-            <value>
-                <option name="FOREGROUND" value="936406" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
         <option name="HTML_TAG">
             <value>
-                <option name="FOREGROUND" value="535e74" />
+                <option name="FOREGROUND" value="ab5959" />
             </value>
         </option>
         <option name="HTML_TAG_NAME">
             <value>
-                <option name="FOREGROUND" value="c0400c" />
+                <option name="FOREGROUND" value="ab5959" />
             </value>
         </option>
         <option name="HYPERLINK_ATTRIBUTES">
@@ -894,12 +958,11 @@
                 <option name="FOREGROUND" value="404859" />
             </value>
         </option>
-        <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
-        <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
-        <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
-        <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-        <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
-        <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
+        <option name="JSON.PROPERTY_KEY">
+            <value>
+                <option name="FOREGROUND" value="ab5959" />
+            </value>
+        </option>
         <option name="LABEL">
             <value>
                 <option name="FOREGROUND" value="df2a69" />
@@ -1693,7 +1756,7 @@
         </option>
         <option name="XML_ATTRIBUTE_VALUE">
             <value>
-                <option name="FOREGROUND" value="6653d" />
+                <option name="FOREGROUND" value="518150" />
             </value>
         </option>
         <option name="XML_ENTITY_REFERENCE">
@@ -1706,6 +1769,11 @@
                 <option name="FOREGROUND" value="535e74" />
             </value>
         </option>
+        <option name="XML_TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="b16b16" />
+            </value>
+        </option>
         <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="YAML_COMMENT">
             <value>
@@ -1714,7 +1782,7 @@
         </option>
         <option name="YAML_SCALAR_KEY">
             <value>
-                <option name="FOREGROUND" value="B16B16" />
+                <option name="FOREGROUND" value="ab5959" />
             </value>
         </option>
         <option name="YAML_SIGN">
