@@ -407,7 +407,7 @@
         </option>
         <option name="DEFAULT_ATTRIBUTE">
             <value>
-                <option name="FOREGROUND" value="be7728" />
+                <option name="FOREGROUND" value="B16B16" />
             </value>
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
@@ -472,7 +472,7 @@
         </option>
         <option name="DEFAULT_ENTITY">
             <value>
-                <option name="FOREGROUND" value="be7728" />
+                <option name="FOREGROUND" value="B16B16" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
@@ -1714,7 +1714,7 @@
         </option>
         <option name="YAML_SCALAR_KEY">
             <value>
-                <option name="FOREGROUND" value="be7728" />
+                <option name="FOREGROUND" value="B16B16" />
             </value>
         </option>
         <option name="YAML_SIGN">
