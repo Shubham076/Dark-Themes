@@ -409,7 +409,6 @@
                 <option name="FOREGROUND" value="fabd2f" />
             </value>
         </option>
-        </option>
         <option name="CSS.COLOR" baseAttributes="CSS.IDENT" />
         <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
         <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
