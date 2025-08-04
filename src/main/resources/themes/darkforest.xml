@@ -13,7 +13,7 @@
         <option name="ANNOTATIONS_COLOR" value="D7C483" />
         <option name="CARET_COLOR" value="78824B" />
         <option name="CARET_ROW_COLOR" value="2F2F2F" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="222222" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="" />
         <option name="DELETED_LINES_COLOR" value="B36D43" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="1E2A30" />
         <option name="DIFF_SEPARATORS_TOP_BORDER" value="1B262B" />
@@ -24,13 +24,13 @@
         <option name="FILESTATUS_DELETED" value="F77669" />
         <option name="FILESTATUS_HIJACKED" value="FFCB6B" />
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="B36D43" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="637777" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="F78C6C" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="F78C6C" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="F78C6C" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="AB7967" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="FC9867" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="FC9867" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="FC9867" />
         <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="5F875F" />
         <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="685742" />
-        <option name="FILESTATUS_MERGED" value="82AAFF" />
+        <option name="FILESTATUS_MERGED" value="C792EA" />
         <option name="FILESTATUS_MODIFIED" value="80CBC4" />
         <option name="FILESTATUS_NOT_CHANGED" value="DFDFDF" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80CBC4" />
