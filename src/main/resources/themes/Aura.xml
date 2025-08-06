@@ -440,6 +440,9 @@
         <option name="FOREGROUND" value="ebdbb2" />
       </value>
     </option>
+    <option name="CONSOLE_RANGE_TO_EXECUTE">
+      <value />
+    </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
         <option name="FOREGROUND" value="f28e82" />
@@ -1184,6 +1187,7 @@
         <option name="FOREGROUND" value="89ddff" />
       </value>
     </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="9fdefb" />
@@ -1196,11 +1200,7 @@
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-    <option name="JS.REGEXP">
-      <value>
-        <option name="FOREGROUND" value="89ddff" />
-      </value>
-    </option>
+    <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="KOTLIN_LABEL">
       <value />
     </option>
