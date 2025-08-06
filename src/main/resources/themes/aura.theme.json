@@ -5,7 +5,7 @@
   "editorScheme": "/themes/Aura.xml",
   "ui": {
     "*": {
-      "background": "#131d46",
+      "background": "#1B2443",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
       "selectionBackground": "#22337b",
@@ -23,12 +23,12 @@
       "excluded": "#22337b"
     },
     "DefaultTabs": {
-      "background": "#131d46",
+      "background": "#1B2443",
       "borderColor": "#002b3f"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#131d46"
+        "inactiveBackground": "#1B2443"
       }
     },
     "Plugins": {
@@ -41,16 +41,16 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#131d46"
+      "underlinedTabBackground": "#1B2443"
     },
     "Popup": {
-      "Header.activeBackground": "#131d46"
+      "Header.activeBackground": "#1B2443"
     },
     "TabbedPane": {
-      "hoverColor": "#131d46"
+      "hoverColor": "#1B2443"
     },
     "Button": {
-      "focus": "#131d46"
+      "focus": "#1B2443"
     }
   }
 }
