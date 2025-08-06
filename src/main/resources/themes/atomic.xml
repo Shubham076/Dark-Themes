@@ -1879,6 +1879,16 @@
             </value>
         </option>
         <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
+        <option name="SQL_SCHEMA">
+            <value>
+                <option name="FOREGROUND" value="96cabb" />
+            </value>
+        </option>
+        <option name="SQL_TABLE">
+            <value>
+                <option name="FOREGROUND" value="96cabb" />
+            </value>
+        </option>
         <option name="TAG_ATTR_KEY">
             <value>
                 <option name="FOREGROUND" value="78aa9b" />
