@@ -555,12 +555,12 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="a8b47a" />
+                <option name="FOREGROUND" value="b4c186" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="a8b47a" />
+                <option name="FOREGROUND" value="b4c186" />
             </value>
         </option>
         <option name="DEFAULT_COMMA">
@@ -609,12 +609,12 @@
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="a8b47a" />
+                <option name="FOREGROUND" value="b4c186" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="a8b47a" />
+                <option name="FOREGROUND" value="b4c186" />
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -626,7 +626,7 @@
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="a8b47a" />
+                <option name="FOREGROUND" value="b4c186" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -637,7 +637,7 @@
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="db9e82" />
+                <option name="FOREGROUND" value="e8ab8e" />
             </value>
         </option>
         <option name="DEFAULT_LABEL">
@@ -653,12 +653,12 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="a8b47a" />
+                <option name="FOREGROUND" value="b4c186" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="a8b47a" />
+                <option name="FOREGROUND" value="b4c186" />
             </value>
         </option>
         <option name="DEFAULT_OPERATION_SIGN">
@@ -673,7 +673,7 @@
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
-                <option name="FOREGROUND" value="a8b47a" />
+                <option name="FOREGROUND" value="b4c186" />
             </value>
         </option>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -845,7 +845,7 @@
         <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="a8b47a" />
+                <option name="FOREGROUND" value="b4c186" />
             </value>
         </option>
         <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
