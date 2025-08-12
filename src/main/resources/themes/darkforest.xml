@@ -13,12 +13,12 @@
         <option name="ANNOTATIONS_COLOR" value="D7C483" />
         <option name="CARET_COLOR" value="78824B" />
         <option name="CARET_ROW_COLOR" value="3a3a3a" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="303030" />
         <option name="DELETED_LINES_COLOR" value="B36D43" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="1E2A30" />
         <option name="DIFF_SEPARATORS_TOP_BORDER" value="1B262B" />
         <option name="DOCUMENTATION_COLOR" value="222222" />
-        <option name="EDITOR_GUTTER_BACKGROUND" value="272727" />
+        <option name="EDITOR_GUTTER_BACKGROUND" value="303030" />
         <option name="FILESTATUS_ADDED" value="C3E887" />
         <option name="FILESTATUS_COPIED" value="5F875F" />
         <option name="FILESTATUS_DELETED" value="F77669" />
@@ -2570,7 +2570,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="c8bf9d" />
-                <option name="BACKGROUND" value="2b2b2b" />
+                <option name="BACKGROUND" value="303030" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>

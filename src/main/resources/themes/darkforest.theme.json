@@ -5,7 +5,7 @@
   "editorScheme": "/themes/darkforest.xml",
   "ui": {
     "*": {
-      "background": "#262626",
+      "background": "#2b2b2b",
       "foreground": "#BBB291",
       "highlight": "#425b67ff",
       "selectionBackground": "#3e4951",
@@ -34,7 +34,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#262626"
+        "inactiveBackground": "#2b2b2b"
       }
     },
     "Plugins": {
