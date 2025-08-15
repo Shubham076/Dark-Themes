@@ -64,7 +64,6 @@
         <themeProvider id="com.github.shubham076.bracketsLight" path="/themes/bracketsLight.theme.json" />
         <themeProvider id="com.github.shubham076.chill" path="/themes/chill.theme.json" />
         <themeProvider id="com.github.shubham076.chalk" path="/themes/chalk.theme.json" />
-        <themeProvider id="com.github.shubham076.chalkPro" path="/themes/chalkPro.theme.json" />
         <themeProvider id="com.github.shubham076.fleet" path="/themes/fleet.theme.json" />
         <themeProvider id="com.github.shubham076.pastelWater" path="/themes/pastelWater.theme.json" />
         <themeProvider id="com.github.shubham076.popNLock" path="/themes/popNLock.theme.json" />

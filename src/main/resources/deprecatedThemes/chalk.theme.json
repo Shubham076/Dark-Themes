@@ -1,12 +1,12 @@
 {
   "author": "Shubham",
   "dark": true,
-  "name": "Chalk Pro",
-  "editorScheme": "/themes/chalkPro.xml",
+  "name": "Chalk",
+  "editorScheme": "/themes/chalk.xml",
   "ui": {
     "*": {
-      "background": "#292828",
-      "foreground": "#C3C1BD",
+      "background": "#212d33",
+      "foreground": "#DADBC0",
       "highlight": "#425b67ff",
       "selectionBackground": "#3B4252",
       "selectionInactiveBackground": "#3B4252",
@@ -23,12 +23,12 @@
       "excluded": "#3B4252"
     },
     "DefaultTabs": {
-      "background": "#292828",
+      "background": "#212d33",
       "borderColor": "#002b3f"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#292828"
+        "inactiveBackground": "#212d33"
       }
     },
     "Plugins": {
@@ -41,16 +41,16 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#292828"
+      "underlinedTabBackground": "#212d33"
     },
     "Popup": {
-      "Header.activeBackground": "#292828"
+      "Header.activeBackground": "#212d33"
     },
     "TabbedPane": {
-      "hoverColor": "#292828"
+      "hoverColor": "#212d33"
     },
     "Button": {
-      "focus": "#292828"
+      "focus": "#212d33"
     }
   }
 }
