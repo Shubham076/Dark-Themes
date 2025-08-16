@@ -1,0 +1,56 @@
+{
+  "author": "Shubham",
+  "dark": true,
+  "name": "Catpuccin",
+  "editorScheme": "/themes/catpuccin.xml",
+  "ui": {
+    "*": {
+      "background": "#24273A",
+      "foreground": "#CAD3F5",
+      "highlight": "#425b67ff",
+      "selectionBackground": "#3b4252",
+      "selectionInactiveBackground": "#3b4252",
+      "selectionForeground": "#ffffffff",
+      "button": "#2e3c43ff",
+      "secondaryBackground": "#32424aff",
+      "disabled": "#415967ff",
+      "contrast": "#1e272cff",
+      "tableSelected": "#314549ff",
+      "secondBorder": "#2a373eff",
+      "treeSelection": "#00485c",
+      "notifications": "#323232ff",
+      "accent": "#009688ff",
+      "excluded": "#3b4252"
+    },
+    "DefaultTabs": {
+      "background": "#24273A",
+      "borderColor": "#002b3f"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "#24273A"
+      }
+    },
+    "Plugins": {
+      "Button": {
+        "installBackground": "#144d69",
+        "updateBackground": "#144d69",
+        "installForeground": "#ffffff",
+        "installFillForeground": "#ffffff",
+        "updateForeground": "#ffffff"
+      }
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#24273A"
+    },
+    "Popup": {
+      "Header.activeBackground": "#24273A"
+    },
+    "TabbedPane": {
+      "hoverColor": "#24273A"
+    },
+    "Button": {
+      "focus": "#24273A"
+    }
+  }
+}
