@@ -5,8 +5,8 @@
   "editorScheme": "/themes/gruvBoxLight.xml",
   "ui": {
     "*": {
-      "background": "#F9F5D7",
-      "foreground": "#3c3836",
+      "background": "#FDF6E3",
+      "foreground": "#836350",
       "highlight": "#e7e7e8ff",
       "selectionBackground": "#ccd7daff",
       "selectionInactiveBackground": "#ccd7daff",
@@ -23,25 +23,25 @@
       "excluded": "#d3e1e8ff"
     },
     "DefaultTabs": {
-      "background": "#F9F5D7",
+      "background": "#FDF6E3",
       "borderColor": "#1f2430"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#F9F5D7"
+      "underlinedTabBackground": "#FDF6E3"
+    },
+    "Popup": {
+      "Header.activeBackground": "#FDF6E3"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#F9F5D7"
+        "inactiveBackground": "#FDF6E3"
       }
     },
-    "Popup": {
-      "Header.activeBackground": "#F9F5D7"
-    },
     "TabbedPane": {
-      "hoverColor": "#F9F5D7"
+      "hoverColor": "#FDF6E3"
     },
     "Button": {
-      "focus": "#F9F5D7"
+      "focus": "#FDF6E3"
     }
   }
 }
