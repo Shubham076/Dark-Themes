@@ -5,7 +5,7 @@
   "editorScheme": "/themes/catpuccin.xml",
   "ui": {
     "*": {
-      "background": "#24273A",
+      "background": "#2b2f41",
       "foreground": "#CAD3F5",
       "highlight": "#425b67ff",
       "selectionBackground": "#3b4252",
@@ -23,12 +23,12 @@
       "excluded": "#3b4252"
     },
     "DefaultTabs": {
-      "background": "#24273A",
+      "background": "#2b2f41",
       "borderColor": "#002b3f"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#24273A"
+        "inactiveBackground": "#2b2f41"
       }
     },
     "Plugins": {
@@ -41,16 +41,16 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#24273A"
+      "underlinedTabBackground": "#2b2f41"
     },
     "Popup": {
-      "Header.activeBackground": "#24273A"
+      "Header.activeBackground": "#2b2f41"
     },
     "TabbedPane": {
-      "hoverColor": "#24273A"
+      "hoverColor": "#2b2f41"
     },
     "Button": {
-      "focus": "#24273A"
+      "focus": "#2b2f41"
     }
   }
 }
