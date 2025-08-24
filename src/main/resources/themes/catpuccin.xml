@@ -1,7 +1,7 @@
-<scheme name="Catppuccin Mocha" version="142" parent_scheme="Darcula">
+<scheme name="Catppuccin" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2025.1.3.0.0</property>
+        <property name="ideVersion">2025.2.0.1.0.0</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="A6E3A1" />
@@ -17,31 +17,33 @@
         <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="313244" />
         <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="89B4FA" />
         <option name="CARET_COLOR" value="F5E0DC" />
-        <option name="CARET_ROW_COLOR" value="262637" />
+        <option name="CARET_ROW_COLOR" value="373B4D" />
         <option name="CONSOLE_BACKGROUND_KEY" value="303446" />
         <option name="DELETED_LINES_COLOR" value="EBA0AC" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="6C7086" />
         <option name="DOCUMENTATION_COLOR" value="181825" />
         <option name="DOC_COMMENT_LINK" value="89B4FA" />
         <option name="ERROR_HINT" value="781732" />
-        <option name="FILESTATUS_ADDED" value="A6E3A1" />
+        <option name="FILESTATUS_ADDED" value="C3E887" />
         <option name="FILESTATUS_COPIED" value="A6E3A1" />
-        <option name="FILESTATUS_DELETED" value="585B70" />
-        <option name="FILESTATUS_HIJACKED" value="F9E2AF" />
+        <option name="FILESTATUS_DELETED" value="F77669" />
+        <option name="FILESTATUS_HIJACKED" value="FFCB6B" />
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="585B70" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="6C7086" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="FAB387" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="FAB387" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="FAB387" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="AB7967" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="FC9867" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="FC9867" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="FC9867" />
         <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="A6E3A1" />
         <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="6C7086" />
-        <option name="FILESTATUS_MERGED" value="CBA6F7" />
-        <option name="FILESTATUS_MODIFIED" value="89B4FA" />
-        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="89B4FA" />
-        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="89B4FA" />
-        <option name="FILESTATUS_SUPPRESSED" value="6C7086" />
-        <option name="FILESTATUS_SWITCHED" value="B4BEFE" />
-        <option name="FILESTATUS_UNKNOWN" value="E4A47E" />
+        <option name="FILESTATUS_MERGED" value="C792EA" />
+        <option name="FILESTATUS_MODIFIED" value="80CBC4" />
+        <option name="FILESTATUS_NOT_CHANGED" value="DFDFDF" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80CBC4" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80CBC4" />
+        <option name="FILESTATUS_OBSOLETE" value="FFCB6B" />
+        <option name="FILESTATUS_SUPPRESSED" value="546E7A" />
+        <option name="FILESTATUS_SWITCHED" value="F77669" />
+        <option name="FILESTATUS_UNKNOWN" value="F77669" />
         <option name="FILESTATUS_addedOutside" value="A6E3A1" />
         <option name="FILESTATUS_changelistConflict" value="DE809C" />
         <option name="FILESTATUS_modifiedOutside" value="89B4FA" />
@@ -1252,7 +1254,6 @@
         </option>
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="585b70" />
                 <option name="ERROR_STRIPE_COLOR" value="94e2d5" />
             </value>
         </option>
@@ -2641,7 +2642,7 @@
         </option>
         <option name="TEXT">
             <value>
-                <option name="FOREGROUND" value="939ab7" />
+                <option name="FOREGROUND" value="cad3f5" />
                 <option name="BACKGROUND" value="303446" />
             </value>
         </option>
@@ -2654,7 +2655,7 @@
         </option>
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="939ab7" />
+                <option name="FOREGROUND" value="cad3f5" />
                 <option name="FONT_TYPE" value="2" />
                 <option name="ERROR_STRIPE_COLOR" value="fab387" />
             </value>
@@ -2734,7 +2735,6 @@
         </option>
         <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="585b70" />
                 <option name="ERROR_STRIPE_COLOR" value="94e2d5" />
             </value>
         </option>
