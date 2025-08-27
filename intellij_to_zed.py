@@ -197,8 +197,8 @@ class IntelliJToZedConverter:
             'link_text.hover': 'text.accent',
             'drop_target.background': 'element.selected',
 
-            # Document highlight backgrounds
-            'editor.document_highlight.read_background': 'editor.highlighted_line.background',
+            # Document highlight backgrounds - use subtle highlighting that won't conflict with caret row
+            'editor.document_highlight.read_background': None,  # Disable to avoid conflicts
             'editor.document_highlight.write_background': 'editor.selection.background',
 
             # Title bar
