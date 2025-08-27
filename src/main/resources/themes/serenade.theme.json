@@ -7,7 +7,8 @@
     "*": {
       "background": "#252a2e",
       "foreground": "#d3c6aa",
-      "highlight": "#425b67ff",
+      "highlight": "#665c54",
+      "border": "665c54",
       "selectionBackground": "#3e4951",
       "selectionInactiveBackground": "#3e4951",
       "selectionForeground": "#ffffffff",
@@ -15,9 +16,9 @@
       "secondaryBackground": "#32424aff",
       "disabled": "#415967ff",
       "contrast": "#1e272cff",
-      "tableSelected": "#314549ff",
+      "tableSelected": "#665c54",
       "secondBorder": "#2a373eff",
-      "treeSelection": "#00485c",
+      "treeSelection": "#665c54",
       "notifications": "#323232ff",
       "accent": "#009688ff",
       "excluded": "#3e4951"
@@ -27,7 +28,7 @@
       "borderColor": "#364148"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#252a2e"
+      "underlinedTabBackground": "#665c54"
     },
     "Popup": {
       "Header.activeBackground": "#252a2e"

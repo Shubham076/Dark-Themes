@@ -6,18 +6,19 @@
   "ui": {
     "*": {
       "background": "#202b3d",
-      "foreground": "#b0bec5ff",
+      "foreground": "#dadbc0",
       "highlight": "#425b67ff",
-      "selectionBackground": "#263348ff",
+      "selectionBackground": "#303d53",
       "selectionInactiveBackground": "#263348ff",
       "selectionForeground": "#ffffffff",
+      "border": "404d64",
       "button": "#2e3c43ff",
       "secondaryBackground": "#32424aff",
-      "disabled": "#415967ff",
+      "disabled": "#adae94",
       "contrast": "#1e272cff",
-      "tableSelected": "#314549ff",
-      "secondBorder": "#2a373eff",
-      "treeSelection": "#00485c",
+      "tableSelected": "#303d53",
+      "secondBorder": "#303d53",
+      "treeSelection": "#303d53",
       "notifications": "#323232ff",
       "accent": "#009688ff",
       "excluded": "#263348ff"
@@ -27,7 +28,7 @@
       "borderColor": "#002b3f"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#202b3d"
+      "underlinedTabBackground": "#303d53"
     },
     "ToolWindow": {
       "Header": {
