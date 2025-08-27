@@ -40,6 +40,9 @@ class IntelliJToZedConverter:
             'CONSOLE_CYAN_OUTPUT.FOREGROUND': 'terminal.ansi.cyan',
             'CONSOLE_WHITE_OUTPUT.FOREGROUND': 'terminal.ansi.white',
 
+            #hint
+            "DEFAULT_LINE_COMMENT.FOREGROUND": ["hint"],
+
             # Terminal colors - bright
             'CONSOLE_DARKGRAY_OUTPUT.FOREGROUND': 'terminal.ansi.bright_black',
             'CONSOLE_RED_BRIGHT_OUTPUT.FOREGROUND': 'terminal.ansi.bright_red',
@@ -70,7 +73,7 @@ class IntelliJToZedConverter:
             '*.selectionForeground': 'editor.selection.foreground',
             '*.button': ['element.background'],
             '*.secondaryBackground': ['elevated_surface.background'],
-            '*.disabled': ['text.placeholder', 'text.disabled', 'element.disabled', 'ghost_element.disabled', 'icon.disabled', 'hint'],
+            '*.disabled': ['text.placeholder', 'text.disabled', 'element.disabled', 'ghost_element.disabled', 'icon.disabled'],
             '*.contrast': ['border.variant', 'editor.wrap_guide'],
             '*.accent': ['text.accent', 'icon.accent'],
             # '*.highlight': ['element.selected', 'ghost_element.selected'],
@@ -448,7 +451,6 @@ class IntelliJToZedConverter:
 
                 if attribute:
                     attributes[name] = attribute
-
         return attributes
 
     def map_colors_to_zed(self, intellij_colors: Dict[str, str]) -> Dict[str, str]:
@@ -537,7 +539,7 @@ class IntelliJToZedConverter:
 
         for intellij_name, intellij_attr in intellij_attributes.items():
             if intellij_name in self.syntax_mapping:
-                zed_name = self.syntax_mapping[intellij_name]
+                zed_mapping = self.syntax_mapping[intellij_name]
 
                 zed_attr = {}
                 if 'color' in intellij_attr:
@@ -555,7 +557,14 @@ class IntelliJToZedConverter:
 
                 # Only add if we have meaningful content
                 if zed_attr.get('color') or zed_attr.get('font_style') or zed_attr.get('font_weight'):
-                    zed_syntax[zed_name] = zed_attr
+                    # Handle both single mappings and multiple mappings
+                    if isinstance(zed_mapping, list):
+                        # Map to multiple Zed syntax elements
+                        for zed_name in zed_mapping:
+                            zed_syntax[zed_name] = zed_attr.copy()
+                    else:
+                        # Single mapping
+                        zed_syntax[zed_mapping] = zed_attr
 
         return zed_syntax
 
