@@ -115,7 +115,7 @@ class IntelliJToSublimeConverter:
             'CARET_ROW_COLOR': 'lineHighlight',
             'SELECTION_BACKGROUND': 'selection',
             'SELECTION_FOREGROUND': 'selectionForeground',
-            'LINE_NUMBERS_COLOR': 'lineNumber',
+            'LINE_NUMBERS_COLOR': 'gutterForeground',
             'GUTTER_BACKGROUND': 'gutterBackground',
         }
 
