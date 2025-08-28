@@ -8,3 +8,8 @@
 ```bash
      python3 intellij_to_sublime.py <path-to-xml-file> <output.tmTheme>
 ```
+
+
+```bash
+ python3 intellij_to_sublime_json.py /Users/shubham.dogra/IdeaProjects/Dark-Themes/src/main/resources/themes/everforestLight.xml ./everforest-light.sublime-color-scheme 
+```
