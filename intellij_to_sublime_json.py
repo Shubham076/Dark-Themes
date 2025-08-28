@@ -250,7 +250,7 @@ class IntelliJToSublimeJSONConverter:
             group_name = self.attribute_to_group.get(attr_name)
             if group_name and attr_data:
                 if group_name not in group_colors:
-                    group_colors[group_name] = {'attrs': [], 'colors': {}, 'font_style': None}
+                    group_colors[group_name] = {'attrs': [], 'colors': {}}
 
                 group_colors[group_name]['attrs'].append(attr_name)
 
@@ -259,15 +259,13 @@ class IntelliJToSublimeJSONConverter:
                 priority_attrs = ['DEFAULT_KEYWORD', 'DEFAULT_STRING', 'DEFAULT_FUNCTION_DECLARATION',
                                 'DEFAULT_IDENTIFIER', 'DEFAULT_COMMENT', 'DEFAULT_CONSTANT']
 
+                # Handle colors with priority logic
                 if attr_name in priority_attrs or not group_colors[group_name]['colors']:
                     if 'FOREGROUND' in attr_data:
                         group_colors[group_name]['colors']['foreground'] = attr_data['FOREGROUND']
                     if 'BACKGROUND' in attr_data:
                         group_colors[group_name]['colors']['background'] = attr_data['BACKGROUND']
-                    if 'FONT_TYPE' in attr_data:
-                        font_style = self.map_font_type(attr_data['FONT_TYPE'])
-                        if font_style:
-                            group_colors[group_name]['font_style'] = font_style
+
 
         # Create variables section
         variables = {}
@@ -403,9 +401,6 @@ class IntelliJToSublimeJSONConverter:
                 if 'background' in group_info['colors']:
                     rule['background'] = group_info['colors']['background']
 
-                if group_info['font_style']:
-                    rule['font_style'] = group_info['font_style']
-
                 rules.append(rule)
 
         # Handle any unmapped attributes individually
@@ -421,12 +416,6 @@ class IntelliJToSublimeJSONConverter:
                 if 'BACKGROUND' in attr_data:
                     rule['background'] = attr_data['BACKGROUND']
 
-                font_type = attr_data.get('FONT_TYPE')
-                if font_type:
-                    font_style = self.map_font_type(font_type)
-                    if font_style:
-                        rule['font_style'] = font_style
-
                 rules.append(rule)
 
         # Add bracket highlighter rule using SELECTION_BACKGROUND color
@@ -440,14 +429,6 @@ class IntelliJToSublimeJSONConverter:
         theme['rules'] = rules
         return theme
 
-    def map_font_type(self, font_type: str) -> Optional[str]:
-        """Map IntelliJ font type to Sublime font style."""
-        font_type_mapping = {
-            '1': 'bold',
-            '2': 'italic',
-            '3': 'bold italic',
-        }
-        return font_type_mapping.get(font_type)
 
     def convert(self, input_file: str, output_file: str) -> None:
         """Convert IntelliJ theme to Sublime JSON theme."""
