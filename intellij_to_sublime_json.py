@@ -63,7 +63,7 @@ class IntelliJToSublimeJSONConverter:
             },
             'Operators': {
                 'scopes': 'keyword.operator, keyword.operator.logical, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.arithmetic, keyword.operator.regexp',
-                'intellij_attrs': ['DEFAULT_OPERATION_SIGN', 'CSS.OPERATORS', 'REGEXP.META', 'REGEXP.QUANTIFIER'],
+                'intellij_attrs': ['DEFAULT_OPERATION_SIGN'],
                 'variable': 'operator_color'
             },
             'Punctuation': {
