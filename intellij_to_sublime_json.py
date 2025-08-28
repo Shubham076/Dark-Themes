@@ -137,10 +137,10 @@ class IntelliJToSublimeJSONConverter:
         # Global theme settings mapping (supports both string and list values)
         self.global_color_mapping = {
             'BACKGROUND': 'background',
-            'FOREGROUND': 'foreground',
+            'FOREGROUND': ['foreground', 'find_highlight_foreground'],
             'CARET_COLOR': 'caret',
             'CARET_ROW_COLOR': ['line_highlight', 'active_guide'],
-            'SELECTION_BACKGROUND': ['selection', 'inactive_selection'],
+            'SELECTION_BACKGROUND': ['selection', 'inactive_selection', "find_highlight"],
             'SELECTION_FOREGROUND': 'selection_foreground',
             'LINE_NUMBERS_COLOR': ['gutter_foreground'],
             'GUTTER_BACKGROUND': 'gutter_background',
@@ -364,6 +364,9 @@ class IntelliJToSublimeJSONConverter:
             globals_dict['background'] = base_colors['background']
         if 'foreground' not in globals_dict and 'foreground' in base_colors:
             globals_dict['foreground'] = base_colors['foreground']
+        # Also set find_highlight_foreground to match foreground if not already set
+        if 'find_highlight_foreground' not in globals_dict and 'foreground' in base_colors:
+            globals_dict['find_highlight_foreground'] = base_colors['foreground']
 
         # Add some default settings if not present
         if 'caret' not in globals_dict:
@@ -425,6 +428,14 @@ class IntelliJToSublimeJSONConverter:
                         rule['font_style'] = font_style
 
                 rules.append(rule)
+
+        # Add bracket highlighter rule using SELECTION_BACKGROUND color
+        if 'SELECTION_BACKGROUND' in colors:
+            bracket_rule = {
+                "scope": "brackethighlighter",
+                "background": colors['SELECTION_BACKGROUND']
+            }
+            rules.append(bracket_rule)
 
         theme['rules'] = rules
         return theme
