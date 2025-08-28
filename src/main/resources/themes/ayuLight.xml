@@ -5,13 +5,13 @@
     </metaInfo>
     <colors>
         <option name="CARET_COLOR" value="d68c67" />
-        <option name="CARET_ROW_COLOR" value="f3f3f3" />
+        <option name="CARET_ROW_COLOR" value="e2f3ff" />
         <option name="CONSOLE_BACKGROUND_KEY" value="fafafa" />
         <option name="GUTTER_BACKGROUND" value="fafafa" />
         <option name="INDENT_GUIDE" value="d9dbdd" />
         <option name="LINE_NUMBERS_COLOR" value="61676c" />
         <option name="SELECTED_INDENT_GUIDE" value="d9dbdd" />
-        <option name="SELECTION_BACKGROUND" value="e9f2f8" />
+        <option name="SELECTION_BACKGROUND" value="CEE1F0" />
         <option name="SELECTION_FOREGROUND" value="" />
         <option name="WHITESPACES" value="d9dbdd" />
     </colors>
