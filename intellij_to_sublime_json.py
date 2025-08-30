@@ -272,17 +272,18 @@ class IntelliJToSublimeJSONConverter:
 
         # Add permanent color palette variables based on theme brightness
         light_theme_colors = {
-            "--bluish": "#063FDB",
-            "--cyanish": "#4f8787",
+            "--bluish": "#343e5e",
+            "--cyanish": "#316a6a",
             "--greenish": "#B8BB26",
             "--orangish": "#F78D8C",
             "--pinkish": "#D3859A",
             "--purplish": "#e5bb00",
-            "--redish": "#af483c",
+            "--redish": "#9b362b",
             "--yellowish": "#B28C00"
         }
 
         dark_theme_colors = {
+            "--cyanish": "#8ec07b",
             "--bluish": "#84a498",
             "--cyanish": "#8ec07b",
             "--greenish": "#b8bb26",
@@ -426,6 +427,59 @@ class IntelliJToSublimeJSONConverter:
             }
             rules.append(bracket_rule)
 
+         # Add default region color rules based on theme brightness
+        theme_background = variables.get('background', base_colors.get('background', '#ffffff'))
+
+        # Create region rules with appropriate colors for light/dark themes
+        region_rules = [
+            {
+                "name": "region red color",
+                "scope": "region.redish",
+                "background": theme_background + "59"  # Add alpha for transparency
+            },
+            {
+                "name": "region blue color",
+                "scope": "region.bluish",
+                "background": theme_background + "59"  # Add alpha for transparency
+            },
+            {
+                "scope": "debugger.selection",
+                "background": colors['SELECTION_BACKGROUND']
+            }
+            # {
+            #     "name": "region orange color",
+            #     "scope": "region.orangish",
+            #     "foreground": chosen_colors["--orangish"],
+            #     "background": theme_background + "59"
+            # },
+            # {
+            #     "name": "region yellow color",
+            #     "scope": "region.yellowish",
+            #     "foreground": chosen_colors["--yellowish"],
+            #     "background": theme_background + "59"
+            # },
+            # {
+            #     "name": "region green color",
+            #     "scope": "region.greenish",
+            #     "foreground": chosen_colors["--greenish"],
+            #     "background": theme_background + "59"
+            # },
+            # {
+            #     "name": "region purple color",
+            #     "scope": "region.purplish",
+            #     "foreground": chosen_colors["--purplish"],
+            #     "background": theme_background + "59"
+            # },
+            # {
+            #     "name": "region pink color",
+            #     "scope": "region.pinkish",
+            #     "foreground": chosen_colors["--pinkish"],
+            #     "background": theme_background + "59"
+            # }
+        ]
+
+        # Add region rules to the main rules list
+        rules.extend(region_rules)
         theme['rules'] = rules
         return theme
 
