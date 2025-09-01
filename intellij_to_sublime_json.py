@@ -446,36 +446,36 @@ class IntelliJToSublimeJSONConverter:
                 "scope": "debugger.selection",
                 "background": colors['SELECTION_BACKGROUND']
             }
-            # {
-            #     "name": "region orange color",
-            #     "scope": "region.orangish",
-            #     "foreground": chosen_colors["--orangish"],
-            #     "background": theme_background + "59"
-            # },
-            # {
-            #     "name": "region yellow color",
-            #     "scope": "region.yellowish",
-            #     "foreground": chosen_colors["--yellowish"],
-            #     "background": theme_background + "59"
-            # },
-            # {
-            #     "name": "region green color",
-            #     "scope": "region.greenish",
-            #     "foreground": chosen_colors["--greenish"],
-            #     "background": theme_background + "59"
-            # },
-            # {
-            #     "name": "region purple color",
-            #     "scope": "region.purplish",
-            #     "foreground": chosen_colors["--purplish"],
-            #     "background": theme_background + "59"
-            # },
-            # {
-            #     "name": "region pink color",
-            #     "scope": "region.pinkish",
-            #     "foreground": chosen_colors["--pinkish"],
-            #     "background": theme_background + "59"
-            # }
+            {
+                "name": "region orange color",
+                "scope": "region.orangish",
+                # "foreground": chosen_colors["--orangish"],
+                "background": theme_background + "59"
+            },
+            {
+                "name": "region yellow color",
+                "scope": "region.yellowish",
+                # "foreground": chosen_colors["--yellowish"],
+                "background": theme_background + "59"
+            },
+            {
+                "name": "region green color",
+                "scope": "region.greenish",
+                # "foreground": chosen_colors["--greenish"],
+                "background": theme_background + "59"
+            },
+            {
+                "name": "region purple color",
+                "scope": "region.purplish",
+                # "foreground": chosen_colors["--purplish"],
+                "background": theme_background + "59"
+            },
+            {
+                "name": "region pink color",
+                "scope": "region.pinkish",
+                # "foreground": chosen_colors["--pinkish"],
+                "background": theme_background + "59"
+            }
         ]
 
         # Add region rules to the main rules list
