@@ -1,7 +1,7 @@
 <scheme name="Rouge" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2024.2.2.0.0</property>
+    <property name="ideVersion">2025.2.0.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
@@ -624,12 +624,12 @@
     </option>
     <option name="DEFAULT_BRACES">
       <value>
-        <option name="FOREGROUND" value="d0d6b5" />
+        <option name="FOREGROUND" value="bbbbbb" />
       </value>
     </option>
     <option name="DEFAULT_BRACKETS">
       <value>
-        <option name="FOREGROUND" value="d0d6b5" />
+        <option name="FOREGROUND" value="bbbbbb" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_NAME">
@@ -694,9 +694,9 @@
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
     <option name="DEFAULT_IDENTIFIER">
-    <value>
-      <option name="FOREGROUND" value="BBBBBB" />
-    </value>
+      <value>
+        <option name="FOREGROUND" value="bbbbbb" />
+      </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
@@ -706,7 +706,7 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="bbbbbb" />
+        <option name="FOREGROUND" value="9dd2bb" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
@@ -751,7 +751,7 @@
     </option>
     <option name="DEFAULT_PARENTHS">
       <value>
-        <option name="FOREGROUND" value="d0d6b5" />
+        <option name="FOREGROUND" value="bbbbbb" />
       </value>
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
@@ -784,7 +784,7 @@
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="eabe9a" />
+        <option name="FOREGROUND" value="9dd2bb" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -1238,8 +1238,7 @@
     </option>
     <option name="JSON.PROPERTY_KEY">
       <value>
-        <option name="FOREGROUND" value="9dd2bb" />
-        <option name="BACKGROUND" value="222d40" />
+        <option name="FOREGROUND" value="EABE9A" />
       </value>
     </option>
     <option name="JSON.STRING">
@@ -2003,7 +2002,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="BBBBBB" />
+        <option name="FOREGROUND" value="bbbbbb" />
         <option name="BACKGROUND" value="222d40" />
       </value>
     </option>
@@ -2025,7 +2024,7 @@
         <option name="FOREGROUND" value="f9b5ac" />
       </value>
     </option>
-    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="583535" />
