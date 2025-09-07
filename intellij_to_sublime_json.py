@@ -9,6 +9,20 @@ modern JSON format with variables, globals, and rules.
 
 Usage:
     python intellij_to_sublime_json.py input_theme.icls output_theme.sublime-color-scheme
+
+
+popup's uses css
+<div class="mdpopups">
+    <div class="bracket-highlighter"> // WRAPPER_CLASS given by plugins developer
+        <div class="admonition panel-error">
+            <p class="admonition-title">Matching bracket could not be found!</p>
+            <ul>
+                <li>...</li>
+            </ul>
+            <p><a href="100">(Match brackets without threshold)</a></p>
+        </div>
+    </div>
+</div>
 """
 
 import xml.etree.ElementTree as ET
@@ -274,7 +288,7 @@ class IntelliJToSublimeJSONConverter:
         light_theme_colors = {
             "--bluish": "#343e5e",
             "--cyanish": "#316a6a",
-            "--greenish": "#B8BB26",
+            "--greenish": "#22863a",
             "--orangish": "#F78D8C",
             "--pinkish": "#D3859A",
             "--purplish": "#e5bb00",
@@ -282,10 +296,23 @@ class IntelliJToSublimeJSONConverter:
             "--yellowish": "#B28C00"
         }
 
+        git_diff_colors_light = {
+            "inserted":"#BEE6BE" ,
+            "deleted":"#e4bbb2" ,
+            "modified":"#C2D8F2" ,
+        }
+
+        git_diff_colors_dark = {
+            "inserted":"#334f40" ,
+            "deleted":"#763c31" ,
+            "modified":"#43607c" ,
+        }
+
+        linter_popup_color_light = "#fff1cc"
+
         dark_theme_colors = {
-            "--cyanish": "#8ec07b",
-            "--bluish": "#84a498",
-            "--cyanish": "#8ec07b",
+            "--cyanish": "#9acd87",
+            "--bluish": "#85dacc",
             "--greenish": "#b8bb26",
             "--orangish": "#ebdbb2",
             "--pinkish": "#d3859a",
@@ -312,6 +339,7 @@ class IntelliJToSublimeJSONConverter:
 
         # Use appropriate color palette
         chosen_colors = light_theme_colors if is_light_theme else dark_theme_colors
+        chosen_git_colors = git_diff_colors_light if is_light_theme else git_diff_colors_dark
         variables.update(chosen_colors)
 
         # Add base colors as variables
@@ -376,6 +404,56 @@ class IntelliJToSublimeJSONConverter:
             if bg.startswith('#'):
                 # Simple alpha blend for selection
                 globals_dict['selection'] = bg + '40'  # Add alpha
+
+        globals_dict["line_diff_width"] = "10"
+        globals_dict["line_diff_added"] = chosen_colors["--greenish"]
+        globals_dict["line_diff_modified"] = colors['SELECTION_BACKGROUND']
+        globals_dict["line_diff_deleted"] = chosen_colors["--redish"]
+
+        # Create better popup backgrounds for contrast - opposite of main background
+        main_bg = variables.get('background', '#ffffff')
+
+        if is_light_theme:
+            # Light theme (light background) -> use dark popup background for contrast
+            if main_bg.startswith('#') and len(main_bg) == 7:
+                # Darken the background significantly for good contrast
+                r = max(0, int(main_bg[1:3], 16) - 10)
+                g = max(0, int(main_bg[3:5], 16) - 10)
+                b = max(0, int(main_bg[5:7], 16) - 10)
+                popup_bg = f"#{r:02x}{g:02x}{b:02x}"
+            else:
+                popup_bg = "#404040"  # Fallback dark color
+
+        else:
+            # Dark theme (dark background) -> use light popup background for contrast
+            if main_bg.startswith('#') and len(main_bg) == 7:
+                # Lighten the background significantly for good contrast
+                r = min(255, int(main_bg[1:3], 16) + 20)
+                g = min(255, int(main_bg[3:5], 16) + 20)
+                b = min(255, int(main_bg[5:7], 16) + 20)
+                popup_bg = f"#{r:02x}{g:02x}{b:02x}"
+            else:
+                popup_bg = "#c0c0c0"  # Fallback light color
+
+
+        link_color = chosen_colors["--cyanish"]
+        chosen_linter_popup_colors = linter_popup_color_light if is_light_theme else popup_bg
+
+        # popup_css = f"* {{--mdpopups-bg: {popup_bg}; --mdpopups-hl-bg: {popup_bg}; --mdpopups-hl-border: none;}} a {{text-decoration: none; color: var(--bluish);}}  .info {{--bluish: {popup_bg};}} .hints {{--bluish: {popup_bg};}} .errors {{--redish: {popup_bg};}} .warnings {{--yellowish: {popup_bg};}}"
+        # popup_css = f"* {{--mdpopups-bg: {popup_bg}; --mdpopups-hl-bg: {popup_bg}; --mdpopups-hl-border: none;}} a {{text-decoration: none; color: var(--bluish);}}  .info {{--bluish: {popup_bg};}} .hints {{--bluish: {popup_bg};}} .errors {{--redish: {popup_bg};}} .warnings {{--yellowish: {popup_bg};}} .mdpopups .bracket-highlighter {{--redish: {popup_bg}; --bluish: {popup_bg}; --orangish: {popup_bg}; --greenish: {popup_bg}; --mdpopups-admon-error-accent: {popup_bg}; --mdpopups-admon-info-accent: {popup_bg}; --mdpopups-admon-warning-accent: {popup_bg}; --mdpopups-admon-success-accent: {popup_bg}; --mdpopups-admon-info-bg: {popup_bg}; --mdpopups-admon-warning-bg: {popup_bg}; --mdpopups-admon-warning-bg: {popup_bg}; --mdpopups-admon-success-bg: {popup_bg};  --mdpopups-admon-error-bg: {popup_bg}; --mdpopups-link: {link_color};}}"
+
+        popup_css = f"""
+        html, body {{--background: {chosen_linter_popup_colors}; border-radius: 2px;}}
+        .mdpopups {{--mdpopups-bg: {popup_bg}; --mdpopups-hl-bg: {popup_bg}; --mdpopups-hl-border: none; --mdpopups-link: {link_color};}}
+        a {{text-decoration: none; color: var(--cyanish);}}
+        .mdpopups .lsp_popup {{--redish: {popup_bg}; --greenish: {popup_bg}; --yellowish: {popup_bg};}}
+        .mdpopups .lsp_popup a {{color: var(--cyanish);}}
+        .mdpopups .bracket-highlighter .admonition.panel-error {{--mdpopups-admon-error-accent: {popup_bg}; --mdpopups-admon-info-accent: {popup_bg}; --mdpopups-admon-warning-accent: {popup_bg}; --mdpopups-admon-success-accent: {popup_bg};}}
+        .mdpopups .bracket-highlighter .admonition.panel-error .admonition-title {{--mdpopups-admon-error-accent: {chosen_git_colors["deleted"]}; --mdpopups-admon-info-accent: {chosen_git_colors["modified"]}; --mdpopups-admon-warning-accent: {chosen_colors['--yellowish']}; --mdpopups-admon-success-accent: {chosen_git_colors["inserted"]};}}
+        .mdpopups .bracket-highlighter {{ --mdpopups-admon-info-bg: {popup_bg}; --mdpopups-admon-warning-bg: {popup_bg}; --mdpopups-admon-warning-bg: {popup_bg}; --mdpopups-admon-success-bg: {popup_bg};  --mdpopups-admon-error-bg: {popup_bg}; --mdpopups-link: {link_color};}}"""
+
+
+        globals_dict["popup_css"] = popup_css
 
         theme['globals'] = globals_dict
 
@@ -445,7 +523,7 @@ class IntelliJToSublimeJSONConverter:
             {
                 "scope": "debugger.selection",
                 "background": colors['SELECTION_BACKGROUND']
-            }
+            },
             {
                 "name": "region orange color",
                 "scope": "region.orangish",
@@ -478,8 +556,84 @@ class IntelliJToSublimeJSONConverter:
             }
         ]
 
+        git_diff_rules = [
+            {
+                "name": "Inserted",
+                "scope": "markup.inserted",
+                "foreground": base_colors['foreground'],
+                "background": chosen_git_colors["inserted"]
+            },
+            {
+                "name": "Changed",
+                "scope": "markup.changed",
+                "foreground": base_colors['foreground'],
+                "background": chosen_git_colors['modified']
+            },
+            {
+                "name": "Deleted",
+                "scope": "markup.deleted",
+                "foreground": base_colors['foreground'],
+                "background": chosen_git_colors["deleted"]
+            },
+            {
+                "name": "Diff Deleted",
+                "scope": "diff.deleted",
+                "foreground": base_colors['foreground'],
+                "background": chosen_git_colors['modified']
+            },
+            {
+                "name": "Diff deleted char",
+                "scope": "diff.deleted.char",
+                "foreground": base_colors['foreground'],
+                "background": chosen_git_colors['modified']
+            },
+            {
+                "name": "Diff inserted",
+                "scope": "diff.inserted",
+                "foreground": base_colors['foreground'],
+                "background": chosen_git_colors['modified']
+            },
+            {
+                "name": "Diff inserted char",
+                "scope": "diff.inserted.char",
+                "foreground": base_colors['foreground'],
+                "background": chosen_git_colors['modified']
+            }
+        ]
+
+        lsp_markup_colors = [
+            {
+                "name": "lsp info color",
+                "scope": "markup.info.lsp",
+                "foreground": chosen_colors["--bluish"],
+                "background": base_colors['background']
+            },
+            {
+                "name": "lsp hint color",
+                "scope": "markup.info.hint.lsp",
+                "foreground": chosen_colors["--greenish"],
+                "background": base_colors['background']
+            },
+            {
+                "name": "lsp warning color",
+                "scope": "markup.warning.lsp",
+                "foreground": chosen_colors["--yellowish"],
+                "background": base_colors['background']
+
+            },
+            {
+                "name": "lsp error color",
+                "scope": "markup.error.lsp",
+                "foreground": chosen_colors["--redish"],
+                "background": base_colors['background']
+
+            }
+        ]
+
         # Add region rules to the main rules list
         rules.extend(region_rules)
+        rules.extend(git_diff_rules)
+        rules.extend(lsp_markup_colors)
         theme['rules'] = rules
         return theme
 
