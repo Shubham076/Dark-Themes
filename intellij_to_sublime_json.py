@@ -42,12 +42,12 @@ class IntelliJToSublimeJSONConverter:
         self.semantic_groups = {
             'Keywords': {
                 'scopes': 'keyword, keyword.other, keyword.control, variable.language.class, storage.modifier',
-                'intellij_attrs': ['DEFAULT_KEYWORD', 'CUSTOM_KEYWORD1_ATTRIBUTES', 'CUSTOM_KEYWORD2_ATTRIBUTES', 'CUSTOM_KEYWORD3_ATTRIBUTES', 'CUSTOM_KEYWORD4_ATTRIBUTES'],
+                'intellij_attrs': ['DEFAULT_KEYWORD'],
                 'variable': 'keyword_color'
             },
             'Storage Types': {
                 'scopes': 'storage, storage.type, storage.type.builtin, storage.modifier, meta.namespace, entity.name, support.class, entity.name.type, entity.name.class',
-                'intellij_attrs': ['DEFAULT_CLASS_NAME', 'DEFAULT_CLASS_REFERENCE', 'DEFAULT_INTERFACE_NAME', 'DEFAULT_METADATA', 'GO_PACKAGE', 'PY.ANNOTATION'],
+                'intellij_attrs': ['DEFAULT_CLASS_NAME'],
                 'variable': 'storage_color'
             },
             'Strings': {
@@ -57,22 +57,22 @@ class IntelliJToSublimeJSONConverter:
             },
             'Functions': {
                 'scopes': 'entity.name.function, variable.function, support.function, meta.function-call, keyword.other.special-method, support.function.builtin',
-                'intellij_attrs': ['DEFAULT_FUNCTION_DECLARATION', 'DEFAULT_FUNCTION_CALL', 'DEFAULT_STATIC_METHOD', 'BASH.EXTERNAL_COMMAND', 'JS.GLOBAL_FUNCTION', 'PY.BUILTIN_NAME', 'CSS.FUNCTION'],
+                'intellij_attrs': ['DEFAULT_FUNCTION_DECLARATION', ],
                 'variable': 'function_color'
             },
             'Variables': {
                 'scopes': 'variable, variable.other, variable.other.readwrite, variable.other.member, variable.other.global, variable.other.local, variable.other.constant, meta.block variable.other, variable.language.anonymous, meta.function.declaration variable.parameter, variable.other.readwrite.declaration, variable.parameter',
-                'intellij_attrs': ['DEFAULT_IDENTIFIER', 'DEFAULT_PARAMETER', 'DEFAULT_LOCAL_VARIABLE', 'DEFAULT_INSTANCE_FIELD', 'DEFAULT_STATIC_FIELD', 'DEFAULT_GLOBAL_VARIABLE', 'DEFAULT_REASSIGNED_LOCAL_VARIABLE', 'DEFAULT_REASSIGNED_PARAMETER', 'JS.GLOBAL_VARIABLE', 'PY.SELF_PARAMETER', 'PY.KEYWORD_ARGUMENT', 'GO_METHOD_RECEIVER'],
+                'intellij_attrs': ['DEFAULT_IDENTIFIER',],
                 'variable': 'variable_color'
             },
             'Constants': {
                 'scopes': 'constant, constant.numeric, constant.language, constant.character, constant.character.escape, constant.other, variable.other.constant, support.constant, keyword.other.unit',
-                'intellij_attrs': ['DEFAULT_CONSTANT', 'DEFAULT_NUMBER', 'DEFAULT_VALID_STRING_ESCAPE', 'CSS.UNIT', 'CSS.COLOR'],
+                'intellij_attrs': ['DEFAULT_CONSTANT', 'DEFAULT_NUMBER'],
                 'variable': 'constant_color'
             },
             'Comments': {
                 'scopes': 'comment, comment.line, comment.block, comment.documentation, punctuation.definition.comment, comment.line.shebang',
-                'intellij_attrs': ['DEFAULT_COMMENT', 'DEFAULT_LINE_COMMENT', 'DEFAULT_BLOCK_COMMENT', 'DEFAULT_DOC_COMMENT', 'BASH.SHEBANG'],
+                'intellij_attrs': ['DEFAULT_LINE_COMMENT'],
                 'variable': 'comment_color'
             },
             'Operators': {
@@ -82,7 +82,7 @@ class IntelliJToSublimeJSONConverter:
             },
             'Punctuation': {
                 'scopes': 'punctuation, punctuation.separator, punctuation.separator.comma, punctuation.terminator, punctuation.terminator.semicolon, punctuation.section, punctuation.section.braces, punctuation.section.brackets, punctuation.section.parens, punctuation.accessor.dot, punctuation.separator.colon, punctuation.definition',
-                'intellij_attrs': ['DEFAULT_BRACES', 'DEFAULT_BRACKETS', 'DEFAULT_PARENTHS', 'DEFAULT_COMMA', 'DEFAULT_DOT', 'DEFAULT_SEMICOLON', 'DEFAULT_COLON', 'REGEXP.PARENTHS', 'REGEXP.BRACKETS', 'REGEXP.BRACES'],
+                'intellij_attrs': ['DEFAULT_BRACKETS'],
                 'variable': 'punctuation_color'
             },
             'JSON Keys': {
@@ -107,12 +107,12 @@ class IntelliJToSublimeJSONConverter:
             },
             'XML/HTML Tags': {
                 'scopes': 'meta.tag, entity.name.tag, entity.name.tag.html, entity.name.tag.xml, entity.other.attribute-name, entity.other.attribute-name.html, entity.other.attribute-name.xml, string.quoted.double.xml, string.quoted.single.xml, string.quoted.double.html, string.quoted.single.html, punctuation.definition.tag, punctuation.definition.tag.html, punctuation.definition.tag.xml, meta.tag.preprocessor.xml, meta.tag.sgml, constant.character.entity.html, constant.character.entity.xml, punctuation.definition.entity.html, punctuation.definition.entity.xml, meta.tag.inline, meta.tag.block, meta.tag.other',
-                'intellij_attrs': ['HTML_TAG', 'HTML_ATTRIBUTE_NAME', 'HTML_ENTITY_REFERENCE', 'HTML_CUSTOM_TAG_NAME'],
+                'intellij_attrs': ['HTML_TAG'],
                 'variable': 'tag_color'
             },
             'Annotations': {
                 'scopes': 'variable.annotation, punctuation.definition.annotation, meta.annotation, storage.type.annotation, entity.name.function.annotation, keyword.other.annotation, support.type.annotation, meta.declaration.annotation, punctuation.definition.annotation.java, storage.modifier.annotation, entity.other.attribute-name.annotation',
-                'intellij_attrs': ['DEFAULT_METADATA', 'ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES', 'ANNOTATION_NAME_ATTRIBUTES', 'PY.ANNOTATION'],
+                'intellij_attrs': ['DEFAULT_METADATA'],
                 'variable': 'annotation_color'
             },
             'Markup/Markdown': {
@@ -122,22 +122,22 @@ class IntelliJToSublimeJSONConverter:
             },
             'CSS Selectors': {
                 'scopes': 'entity.other.attribute-name.class.css, entity.other.attribute-name.id.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css, support.type.property-name.css',
-                'intellij_attrs': ['CSS.CLASS_NAME', 'CSS.ATTRIBUTE_NAME'],
+                'intellij_attrs': ['CSS.CLASS_NAME'],
                 'variable': 'css_selector_color'
             },
             'RegExp': {
                 'scopes': 'string.regexp, constant.character.character-class.regexp, constant.character.escape.regexp, keyword.operator.quantifier.regexp, punctuation.section.group.regexp, punctuation.section.character-class.regexp',
-                'intellij_attrs': ['REGEXP.CHARACTER', 'REGEXP.CHAR_CLASS', 'REGEXP.ESC_CHARACTER'],
+                'intellij_attrs': ['REGEXP.CHARACTER'],
                 'variable': 'regexp_color'
             },
             'Errors/Invalid': {
                 'scopes': 'invalid, invalid.illegal, invalid.deprecated, invalid.illegal.bad-character, invalid.deprecated.trailing-whitespace',
-                'intellij_attrs': ['ERRORS_ATTRIBUTES', 'BAD_CHARACTER', 'GENERIC_SERVER_ERROR_OR_WARNING', 'DEPRECATED_ATTRIBUTES', 'DEFAULT_INVALID_STRING_ESCAPE'],
+                'intellij_attrs': ['ERRORS_ATTRIBUTES'],
                 'variable': 'error_color'
             },
             'Documentation': {
                 'scopes': 'comment.documentation, keyword.other.documentation, variable.parameter.documentation, markup.other.documentation',
-                'intellij_attrs': ['DEFAULT_DOC_COMMENT_TAG', 'DEFAULT_DOC_COMMENT_TAG_VALUE', 'DEFAULT_DOC_MARKUP'],
+                'intellij_attrs': ['DEFAULT_DOC_COMMENT_TAG'],
                 'variable': 'doc_color'
             }
         }
@@ -162,6 +162,26 @@ class IntelliJToSublimeJSONConverter:
             'LINE_DIFF_MODIFIED': 'line_diff_modified',
             'LINE_DIFF_DELETED': 'line_diff_deleted',
         }
+
+    def json_to_css_variables(self, json_obj):
+        css_vars = []
+
+        # Start with the root selector
+        css_vars.append(" html {")
+
+        # Convert each key-value pair to a CSS variable
+        for var_name, var_value in json_obj.items():
+            # Make sure the variable name has -- prefix
+            if not var_name.startswith('--'):
+                var_name = f"--{var_name}"
+
+            css_vars.append(f"  {var_name}: {var_value};")
+
+        # Close the CSS rule
+        css_vars.append("}")
+
+        # Join with newlines
+        return "\n".join(css_vars)
 
     def normalize_color(self, color: str) -> str:
         """Convert color format from IntelliJ to Sublime (add # prefix if missing)."""
@@ -226,6 +246,7 @@ class IntelliJToSublimeJSONConverter:
             raise ValueError(f"Error parsing IntelliJ theme file: {e}")
         except Exception as e:
             raise ValueError(f"Error reading theme file: {e}")
+
 
     def create_sublime_json_theme(self, colors: Dict, attributes: Dict, theme_name: str) -> Dict:
         """Create Sublime theme JSON structure from IntelliJ data using semantic grouping."""
@@ -296,6 +317,17 @@ class IntelliJToSublimeJSONConverter:
             "--yellowish": "#B28C00"
         }
 
+        dark_theme_colors = {
+            "--cyanish": "#9acd87",
+            "--bluish": "#85dacc",
+            "--greenish": "#b8bb26",
+            "--orangish": "#ebdbb2",
+            "--pinkish": "#d3859a",
+            "--purplish": "#ebdbb2",
+            "--redish": "#dd7b70",
+            "--yellowish": "#fabd2f"
+        }
+
         git_diff_colors_light = {
             "inserted":"#BEE6BE" ,
             "deleted":"#e4bbb2" ,
@@ -308,18 +340,24 @@ class IntelliJToSublimeJSONConverter:
             "modified":"#43607c" ,
         }
 
-        linter_popup_color_light = "#fff1cc"
-
-        dark_theme_colors = {
-            "--cyanish": "#9acd87",
-            "--bluish": "#85dacc",
-            "--greenish": "#b8bb26",
-            "--orangish": "#ebdbb2",
-            "--pinkish": "#d3859a",
-            "--purplish": "#ebdbb2",
-            "--redish": "#dd7b70",
-            "--yellowish": "#fabd2f"
+        popup_colors_light = {
+            "popup_redish": "#e4bbb2",
+            "popup_yellowish": "#B28C00",
+            "popup_greenish": "#BEE6BE",
+            "popup_bluish": "#C2D8F2",
+            "popup_cyanish": "#316a6a",
         }
+
+        popup_colors_dark = {
+            "popup_redish": "#763c31",
+            "popup_bluish": "#43607c",
+            "popup_greenish": "#334f40",
+            "popup_yellowish": "#fabd2f",
+            "popup_cyanish": "#9acd87",
+        }
+
+        generic_popup_background_light = "#fff1cc"
+
 
         # Determine if theme is light or dark based on background color brightness
         is_light_theme = True  # Default to light
@@ -337,89 +375,17 @@ class IntelliJToSublimeJSONConverter:
                 luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b
                 is_light_theme = luminance > 0.5
 
-        # Use appropriate color palette
-        chosen_colors = light_theme_colors if is_light_theme else dark_theme_colors
-        chosen_git_colors = git_diff_colors_light if is_light_theme else git_diff_colors_dark
-        variables.update(chosen_colors)
-
-        # Add base colors as variables
-        if 'foreground' in base_colors:
-            variables['textcolor'] = base_colors['foreground']
-        if 'background' in base_colors:
-            variables['background'] = base_colors['background']
-
-        # Add fallback colors for JSON and YAML keys (not values) if they don't have specific colors
-        key_fallback_groups = ['JSON Keys', 'YAML Keys']
-        foreground_fallback = base_colors.get('foreground', variables.get('textcolor', '#000000'))
-
-        for fallback_group in key_fallback_groups:
-            if fallback_group in self.semantic_groups:
-                if fallback_group not in group_colors or not group_colors[fallback_group]['colors']:
-                    # Create the group with fallback foreground color
-                    if fallback_group not in group_colors:
-                        group_colors[fallback_group] = {'attrs': [], 'colors': {}, 'font_style': None}
-                    group_colors[fallback_group]['colors']['foreground'] = foreground_fallback
-
-        # Add group colors as variables
-        for group_name, group_info in group_colors.items():
-            if group_name in self.semantic_groups and group_info['colors']:
-                group_data = self.semantic_groups[group_name]
-                var_name = group_data['variable']
-
-                if 'foreground' in group_info['colors']:
-                    variables[var_name] = group_info['colors']['foreground']
-
-        theme['variables'] = variables
-
-        # Create globals section
-        globals_dict = {}
-
-        # Map IntelliJ global colors to Sublime globals (handle both string and list mappings)
-        for intellij_color, sublime_keys in self.global_color_mapping.items():
-            if intellij_color in colors:
-                color_value = colors[intellij_color]
-                if isinstance(sublime_keys, list):
-                    # Apply the same color to multiple Sublime globals
-                    for sublime_key in sublime_keys:
-                        globals_dict[sublime_key] = color_value
-                else:
-                    # Single mapping
-                    globals_dict[sublime_keys] = color_value
-
-        # Add base colors if not already set
-        if 'background' not in globals_dict and 'background' in base_colors:
-            globals_dict['background'] = base_colors['background']
-        if 'foreground' not in globals_dict and 'foreground' in base_colors:
-            globals_dict['foreground'] = base_colors['foreground']
-        # Also set find_highlight_foreground to match foreground if not already set
-        if 'find_highlight_foreground' not in globals_dict and 'foreground' in base_colors:
-            globals_dict['find_highlight_foreground'] = base_colors['foreground']
-
-        # Add some default settings if not present
-        if 'caret' not in globals_dict:
-            globals_dict['caret'] = variables.get('textcolor', '#000000')
-        if 'selection' not in globals_dict:
-            # Create a lighter version of background for selection
-            bg = variables.get('background', '#ffffff')
-            if bg.startswith('#'):
-                # Simple alpha blend for selection
-                globals_dict['selection'] = bg + '40'  # Add alpha
-
-        globals_dict["line_diff_width"] = "10"
-        globals_dict["line_diff_added"] = chosen_colors["--greenish"]
-        globals_dict["line_diff_modified"] = colors['SELECTION_BACKGROUND']
-        globals_dict["line_diff_deleted"] = chosen_colors["--redish"]
-
         # Create better popup backgrounds for contrast - opposite of main background
-        main_bg = variables.get('background', '#ffffff')
-
+        main_bg = base_colors.get('background', '#ffffff')
         if is_light_theme:
+            # popup_bg = "#e8eaec"
             # Light theme (light background) -> use dark popup background for contrast
+            # Darken the background significantly for good contrast
+
             if main_bg.startswith('#') and len(main_bg) == 7:
-                # Darken the background significantly for good contrast
-                r = max(0, int(main_bg[1:3], 16) - 10)
-                g = max(0, int(main_bg[3:5], 16) - 10)
-                b = max(0, int(main_bg[5:7], 16) - 10)
+                r = max(0, int(main_bg[1:3], 16) - 17)
+                g = max(0, int(main_bg[3:5], 16) - 17)
+                b = max(0, int(main_bg[5:7], 16) - 17)
                 popup_bg = f"#{r:02x}{g:02x}{b:02x}"
             else:
                 popup_bg = "#404040"  # Fallback dark color
@@ -433,28 +399,112 @@ class IntelliJToSublimeJSONConverter:
                 b = min(255, int(main_bg[5:7], 16) + 20)
                 popup_bg = f"#{r:02x}{g:02x}{b:02x}"
             else:
-                popup_bg = "#c0c0c0"  # Fallback light color
+                popup_bg = "#c0c0c0"
 
+        # Add popup background as a variable
+        variables['popup_bg'] = popup_bg
 
-        link_color = chosen_colors["--cyanish"]
-        chosen_linter_popup_colors = linter_popup_color_light if is_light_theme else popup_bg
+        # Use appropriate color palette
+        chosen_colors = light_theme_colors if is_light_theme else dark_theme_colors
+        chosen_git_colors = git_diff_colors_light if is_light_theme else git_diff_colors_dark
+        chosen_popup_colors = popup_colors_light if is_light_theme else popup_colors_dark
+        generic_popup_bg = generic_popup_background_light if is_light_theme else popup_bg
+        chosen_popup_colors["mdpopups_background"] = popup_bg
+        chosen_popup_colors["popups_background"] = generic_popup_bg
+
+        css_variables_string = self.json_to_css_variables(chosen_popup_colors)
+        print(css_variables_string)
+
+        variables.update(chosen_colors)
+        variables.update(chosen_git_colors)
+        # Add base colors as variables
+        if 'foreground' in base_colors:
+            variables['textcolor'] = base_colors['foreground']
+        if 'background' in base_colors:
+            variables['background'] = base_colors['background']
+
+        # Add selection background as variable if available
+        if 'SELECTION_BACKGROUND' in colors:
+            variables['selection_background'] = colors['SELECTION_BACKGROUND']
+
+        # Add fallback colors for JSON and YAML keys (not values) if they don't have specific colors
+        key_fallback_groups = ['JSON Keys', 'YAML Keys']
+
+        for fallback_group in key_fallback_groups:
+            if fallback_group in self.semantic_groups:
+                if fallback_group not in group_colors or not group_colors[fallback_group]['colors']:
+                    # Create the group with fallback foreground color
+                    if fallback_group not in group_colors:
+                        group_colors[fallback_group] = {'attrs': [], 'colors': {}, 'font_style': None}
+                    # Use actual color value, not variable reference for internal processing
+                    group_colors[fallback_group]['colors']['foreground'] = variables.get('textcolor', '#000000')
+
+        # Add group colors as variables
+        for group_name, group_info in group_colors.items():
+            if group_name in self.semantic_groups and group_info['colors']:
+                group_data = self.semantic_groups[group_name]
+                var_name = group_data['variable']
+
+                if 'foreground' in group_info['colors']:
+                    variables[var_name] = group_info['colors']['foreground']
+
+        # Add additional variables for globals
+        if 'CARET_ROW_COLOR' in colors:
+            variables['line_highlight_color'] = colors['CARET_ROW_COLOR']
+        if 'LINE_NUMBERS_COLOR' in colors:
+            variables['gutter_foreground_color'] = colors['LINE_NUMBERS_COLOR']
+
+        # Set variables after we've added all of them
+        theme['variables'] = variables
+
+        # Create globals section - simple direct assignment using variables
+        globals_dict = {}
+        globals_dict['background'] = 'var(background)'
+        globals_dict['foreground'] = 'var(textcolor)'
+        globals_dict['find_highlight_foreground'] = 'var(textcolor)'
+        globals_dict['caret'] = 'var(textcolor)'
+        globals_dict['line_highlight'] = 'var(line_highlight_color)' if 'line_highlight_color' in variables else 'var(background)'
+        globals_dict['active_guide'] = 'var(line_highlight_color)' if 'line_highlight_color' in variables else 'var(background)'
+        globals_dict['selection'] = 'var(selection_background)'
+        globals_dict['inactive_selection'] = 'var(selection_background)'
+        globals_dict['find_highlight'] = 'var(selection_background)'
+        globals_dict['selection_foreground'] = 'var(textcolor)'
+        globals_dict['gutter_foreground'] = 'var(gutter_foreground_color)' if 'gutter_foreground_color' in variables else 'var(textcolor)'
+        globals_dict['gutter_background'] = 'var(background)'
+
+        globals_dict["line_diff_width"] = "10"
+        globals_dict["line_diff_added"] = "var(--greenish)"
+        globals_dict["line_diff_modified"] = "var(selection_background)"
+        globals_dict["line_diff_deleted"] = "var(--redish)"
 
         # popup_css = f"* {{--mdpopups-bg: {popup_bg}; --mdpopups-hl-bg: {popup_bg}; --mdpopups-hl-border: none;}} a {{text-decoration: none; color: var(--bluish);}}  .info {{--bluish: {popup_bg};}} .hints {{--bluish: {popup_bg};}} .errors {{--redish: {popup_bg};}} .warnings {{--yellowish: {popup_bg};}}"
         # popup_css = f"* {{--mdpopups-bg: {popup_bg}; --mdpopups-hl-bg: {popup_bg}; --mdpopups-hl-border: none;}} a {{text-decoration: none; color: var(--bluish);}}  .info {{--bluish: {popup_bg};}} .hints {{--bluish: {popup_bg};}} .errors {{--redish: {popup_bg};}} .warnings {{--yellowish: {popup_bg};}} .mdpopups .bracket-highlighter {{--redish: {popup_bg}; --bluish: {popup_bg}; --orangish: {popup_bg}; --greenish: {popup_bg}; --mdpopups-admon-error-accent: {popup_bg}; --mdpopups-admon-info-accent: {popup_bg}; --mdpopups-admon-warning-accent: {popup_bg}; --mdpopups-admon-success-accent: {popup_bg}; --mdpopups-admon-info-bg: {popup_bg}; --mdpopups-admon-warning-bg: {popup_bg}; --mdpopups-admon-warning-bg: {popup_bg}; --mdpopups-admon-success-bg: {popup_bg};  --mdpopups-admon-error-bg: {popup_bg}; --mdpopups-link: {link_color};}}"
 
+        # popup_css = f"""
+        # html, body {{--background: {chosen_linter_popup_colors}; border-radius: 2px;}}
+        # .mdpopups {{--mdpopups-bg: {popup_bg}; --mdpopups-hl-bg: {popup_bg}; --mdpopups-hl-border: none; --mdpopups-link: {link_color};}}
+        # a {{text-decoration: none; color: var(--cyanish);}}
+        # .mdpopups .lsp_popup {{--redish: {popup_bg}; --greenish: {popup_bg}; --yellowish: {popup_bg};}}
+        # .mdpopups .lsp_popup a {{color: var(--cyanish);}}
+        # .mdpopups .bracket-highlighter .admonition.panel-error {{--mdpopups-admon-error-accent: {popup_bg}; --mdpopups-admon-info-accent: {popup_bg}; --mdpopups-admon-warning-accent: {popup_bg}; --mdpopups-admon-success-accent: {popup_bg};}}
+        # .mdpopups .bracket-highlighter .admonition.panel-error .admonition-title {{--mdpopups-admon-error-accent: {chosen_git_colors["deleted"]}; --mdpopups-admon-info-accent: {chosen_git_colors["modified"]}; --mdpopups-admon-warning-accent: {chosen_colors['--yellowish']}; --mdpopups-admon-success-accent: {chosen_git_colors["inserted"]};}}
+        # .mdpopups .bracket-highlighter {{ --mdpopups-admon-info-bg: {popup_bg}; --mdpopups-admon-warning-bg: {popup_bg}; --mdpopups-admon-warning-bg: {popup_bg}; --mdpopups-admon-success-bg: {popup_bg};  --mdpopups-admon-error-bg: {popup_bg}; --mdpopups-link: {link_color};}}"""
+
+
         popup_css = f"""
-        html, body {{--background: {chosen_linter_popup_colors}; border-radius: 2px;}}
-        .mdpopups {{--mdpopups-bg: {popup_bg}; --mdpopups-hl-bg: {popup_bg}; --mdpopups-hl-border: none; --mdpopups-link: {link_color};}}
-        a {{text-decoration: none; color: var(--cyanish);}}
-        .mdpopups .lsp_popup {{--redish: {popup_bg}; --greenish: {popup_bg}; --yellowish: {popup_bg};}}
-        .mdpopups .lsp_popup a {{color: var(--cyanish);}}
-        .mdpopups .bracket-highlighter .admonition.panel-error {{--mdpopups-admon-error-accent: {popup_bg}; --mdpopups-admon-info-accent: {popup_bg}; --mdpopups-admon-warning-accent: {popup_bg}; --mdpopups-admon-success-accent: {popup_bg};}}
-        .mdpopups .bracket-highlighter .admonition.panel-error .admonition-title {{--mdpopups-admon-error-accent: {chosen_git_colors["deleted"]}; --mdpopups-admon-info-accent: {chosen_git_colors["modified"]}; --mdpopups-admon-warning-accent: {chosen_colors['--yellowish']}; --mdpopups-admon-success-accent: {chosen_git_colors["inserted"]};}}
-        .mdpopups .bracket-highlighter {{ --mdpopups-admon-info-bg: {popup_bg}; --mdpopups-admon-warning-bg: {popup_bg}; --mdpopups-admon-warning-bg: {popup_bg}; --mdpopups-admon-success-bg: {popup_bg};  --mdpopups-admon-error-bg: {popup_bg}; --mdpopups-link: {link_color};}}"""
+        {css_variables_string}
+        html, body {{--background: var(--popups_background); border-radius: 2px;}}
+        .mdpopups {{--mdpopups-bg: var(--mdpopups_background); --mdpopups-hl-bg: var(--mdpopups_background); --mdpopups-hl-border: none; --mdpopups-link: var(--popup_cyanish);}}
+        a {{text-decoration: none; color: var(--popup_cyanish);}}
+        .mdpopups .lsp_popup {{--redish: var(--popup_redish); --yellowish: var(--popup_redish); --greenish: var(--popup_greenish); }}
+        .mdpopups .lsp_popup a {{color: var(--popup_cyanish);}}
+        .mdpopups .bracket-highlighter .admonition.panel-error {{--mdpopups-admon-error-accent: var(--mdpopups_background); --mdpopups-admon-info-accent: var(--mdpopups_background); --mdpopups-admon-warning-accent: var(--mdpopups_background); --mdpopups-admon-success-accent: var(--mdpopups_background);}}
+        .mdpopups .bracket-highlighter .admonition.panel-error .admonition-title {{--mdpopups-admon-error-accent: var(--popup_redish); --mdpopups-admon-info-accent: var(--popup_cyanish); --mdpopups-admon-warning-accent: var(--popup_yellowish); --mdpopups-admon-success-accent: var(--popup_greenish);}}
+        .mdpopups .bracket-highlighter {{ --mdpopups-admon-info-bg: var(--mdpopups_background); --mdpopups-admon-warning-bg: var(--mdpopups_background); --mdpopups-admon-warning-bg: var(--mdpopups_background); --mdpopups-admon-success-bg: var(--mdpopups_background);  --mdpopups-admon-error-bg: var(--mdpopups_background); --mdpopups-link: var(--cyanish);}}
+        """
 
 
         globals_dict["popup_css"] = popup_css
-
         theme['globals'] = globals_dict
 
         # Create rules section
@@ -482,26 +532,13 @@ class IntelliJToSublimeJSONConverter:
 
                 rules.append(rule)
 
-        # Handle any unmapped attributes individually
-        for attr_name, attr_data in attributes.items():
-            if attr_name not in self.attribute_to_group and attr_data:
-                rule = {
-                    "name": attr_name.replace('_', ' ').title(),
-                    "scope": f"source.{attr_name.lower().replace('_', '.')}"
-                }
-
-                if 'FOREGROUND' in attr_data:
-                    rule['foreground'] = attr_data['FOREGROUND']
-                if 'BACKGROUND' in attr_data:
-                    rule['background'] = attr_data['BACKGROUND']
-
-                rules.append(rule)
+        # Skip unmapped attributes to avoid noise in rules section
 
         # Add bracket highlighter rule using SELECTION_BACKGROUND color
         if 'SELECTION_BACKGROUND' in colors:
             bracket_rule = {
                 "scope": "brackethighlighter",
-                "background": colors['SELECTION_BACKGROUND']
+                "background": "var(selection_background)"
             }
             rules.append(bracket_rule)
 
@@ -513,46 +550,46 @@ class IntelliJToSublimeJSONConverter:
             {
                 "name": "region red color",
                 "scope": "region.redish",
-                "background": theme_background + "59"  # Add alpha for transparency
+                "background": "var(background)"
             },
             {
                 "name": "region blue color",
                 "scope": "region.bluish",
-                "background": theme_background + "59"  # Add alpha for transparency
+                "background": "var(background)"
             },
             {
                 "scope": "debugger.selection",
-                "background": colors['SELECTION_BACKGROUND']
+                "background": "var(selection_background)"
             },
             {
                 "name": "region orange color",
                 "scope": "region.orangish",
-                # "foreground": chosen_colors["--orangish"],
-                "background": theme_background + "59"
+                # "foreground": "var(--orangish)",
+                "background": "var(background)"
             },
             {
                 "name": "region yellow color",
                 "scope": "region.yellowish",
-                # "foreground": chosen_colors["--yellowish"],
-                "background": theme_background + "59"
+                # "foreground": "var(--yellowish)",
+                "background": "var(background)"
             },
             {
                 "name": "region green color",
                 "scope": "region.greenish",
-                # "foreground": chosen_colors["--greenish"],
-                "background": theme_background + "59"
+                # "foreground":"var(--greenish)",
+                "background": "var(background)"
             },
             {
                 "name": "region purple color",
                 "scope": "region.purplish",
-                # "foreground": chosen_colors["--purplish"],
-                "background": theme_background + "59"
+                # "foreground": "var(--purplish)",
+                "background": "var(background)"
             },
             {
                 "name": "region pink color",
                 "scope": "region.pinkish",
-                # "foreground": chosen_colors["--pinkish"],
-                "background": theme_background + "59"
+                # "foreground": "var(--pinkish)",
+                "background": "var(background)"
             }
         ]
 
@@ -560,44 +597,44 @@ class IntelliJToSublimeJSONConverter:
             {
                 "name": "Inserted",
                 "scope": "markup.inserted",
-                "foreground": base_colors['foreground'],
-                "background": chosen_git_colors["inserted"]
+                "foreground": "var(textcolor)",
+                "background": "var(inserted)"
             },
             {
                 "name": "Changed",
                 "scope": "markup.changed",
-                "foreground": base_colors['foreground'],
-                "background": chosen_git_colors['modified']
+                "foreground": "var(textcolor)",
+                "background": "var(modified)"
             },
             {
                 "name": "Deleted",
                 "scope": "markup.deleted",
-                "foreground": base_colors['foreground'],
-                "background": chosen_git_colors["deleted"]
+                "foreground": "var(textcolor)",
+                "background": "var(deleted)"
             },
             {
                 "name": "Diff Deleted",
                 "scope": "diff.deleted",
-                "foreground": base_colors['foreground'],
-                "background": chosen_git_colors['modified']
+                "foreground": "var(textcolor)",
+                "background": "var(modified)"
             },
             {
                 "name": "Diff deleted char",
                 "scope": "diff.deleted.char",
-                "foreground": base_colors['foreground'],
-                "background": chosen_git_colors['modified']
+                "foreground": "var(textcolor)",
+                "background": "var(modified)"
             },
             {
                 "name": "Diff inserted",
                 "scope": "diff.inserted",
-                "foreground": base_colors['foreground'],
-                "background": chosen_git_colors['modified']
+                "foreground": "var(textcolor)",
+                "background": "var(modified)"
             },
             {
                 "name": "Diff inserted char",
                 "scope": "diff.inserted.char",
-                "foreground": base_colors['foreground'],
-                "background": chosen_git_colors['modified']
+                "foreground": "var(textcolor)",
+                "background": "var(modified)"
             }
         ]
 
@@ -605,27 +642,26 @@ class IntelliJToSublimeJSONConverter:
             {
                 "name": "lsp info color",
                 "scope": "markup.info.lsp",
-                "foreground": chosen_colors["--bluish"],
-                "background": base_colors['background']
+                "foreground": "var(--bluish)",
+                "background": "var(background)"
             },
             {
                 "name": "lsp hint color",
                 "scope": "markup.info.hint.lsp",
-                "foreground": chosen_colors["--greenish"],
-                "background": base_colors['background']
+                "foreground": "var(--greenish)",
+                "background": "var(background)"
             },
             {
                 "name": "lsp warning color",
                 "scope": "markup.warning.lsp",
-                "foreground": chosen_colors["--yellowish"],
-                "background": base_colors['background']
-
+                "foreground": "var(--yellowish)",
+                "background": "var(background)"
             },
             {
                 "name": "lsp error color",
                 "scope": "markup.error.lsp",
-                "foreground": chosen_colors["--redish"],
-                "background": base_colors['background']
+                "foreground": "var(--redish)",
+                "background": "var(background)"
 
             }
         ]
