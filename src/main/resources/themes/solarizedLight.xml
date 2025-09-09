@@ -4,13 +4,13 @@
     <property name="ideVersion">2025.2.0.1.0.0</property>
   </metaInfo>
   <colors>
-    <option name="CARET_ROW_COLOR" value="EEE8D5" />
+    <option name="CARET_ROW_COLOR" value="E4EBF2" />
     <option name="CONSOLE_BACKGROUND_KEY" value="FDF6E3" />
     <option name="GUTTER_BACKGROUND" value="FDF6E3" />
-    <option name="INDENT_GUIDE" value="F4CCA1" />
+    <option name="INDENT_GUIDE" value="F1DAC0" />
     <option name="LINE_NUMBERS_COLOR" value="707080" />
-    <option name="SELECTED_INDENT_GUIDE" value="F4CCA1" />
-    <option name="SELECTION_BACKGROUND" value="F1DAC0" />
+    <option name="SELECTED_INDENT_GUIDE" value="F1DAC0" />
+    <option name="SELECTION_BACKGROUND" value="F8E1C6" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="WHITESPACES" value="F4CCA1" />
   </colors>
@@ -1571,7 +1571,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="707080" />
-        <option name="BACKGROUND" value="fdf6e3" />
+        <option name="BACKGROUND" value="f8f6f2" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
