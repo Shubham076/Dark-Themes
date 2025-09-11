@@ -224,6 +224,11 @@
         <option name="FOREGROUND" value="397b44" />
       </value>
     </option>
+    <option name="CONSOLE_BLACK_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="707080" />
+      </value>
+    </option>
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ff" />
@@ -247,6 +252,11 @@
     <option name="CONSOLE_MAGENTA_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ff00ff" />
+      </value>
+    </option>
+    <option name="CONSOLE_NORMAL_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="707080" />
       </value>
     </option>
     <option name="CONSOLE_RANGE_TO_EXECUTE">
@@ -298,9 +308,7 @@
       </value>
     </option>
     <option name="CTRL_CLICKABLE">
-      <value>
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
+      <value />
     </option>
     <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES">
       <value>
@@ -1120,6 +1128,7 @@
         <option name="FOREGROUND" value="bf7958" />
       </value>
     </option>
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.PARENTHS">
       <value>
         <option name="FOREGROUND" value="bf7958" />
@@ -1621,5 +1630,10 @@
       </value>
     </option>
     <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="YAML_SCALAR_KEY">
+      <value>
+        <option name="FOREGROUND" value="707080" />
+      </value>
+    </option>
   </attributes>
 </scheme>
