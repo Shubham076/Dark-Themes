@@ -17,12 +17,9 @@ class IntelliJToZedConverter:
         self.color_mapping = {
             # Editor colors - use TEXT attribute colors
             'TEXT.BACKGROUND': ['editor.background', 'editor.gutter.background', 'toolbar.background'],
-            'TEXT.FOREGROUND': ['editor.foreground'],
-            'CARET_COLOR': 'editor.foreground',
-            'CARET_ROW_COLOR': 'editor.active_line.background',
-            'SELECTION_BACKGROUND': ['editor.selection.background', 'tab.active_background', 'element.selected', 'ghost_element.selected'],
-            'SELECTION_FOREGROUND': 'editor.selection.foreground',
-            'LINE_NUMBERS_COLOR': 'editor.line_number',
+            'TEXT.FOREGROUND': ['editor.foreground', 'editor.selection.foreground', 'elevated_surface.foreground', 'text', 'text.accent', 'text.muted', 'terminal.foreground', 'editor.line_number'],
+            'CARET_ROW_COLOR': ['editor.active_line.background', 'tab.active_background', 'scrollbar.thumb.background', 'editor.indent_guide', 'elevated_surface.background'],
+            'SELECTION_BACKGROUND': ['editor.selection.background', 'element.selected', 'ghost_element.selected', 'search.match_background', 'panel.focused_border'],
 
             'MATCHED_BRACE_ATTRIBUTES.BACKGROUND': ['editor.indent_guide_active', 'editor.document_highlight.bracket_background'],
 
@@ -31,75 +28,39 @@ class IntelliJToZedConverter:
             'CONSOLE_NORMAL_OUTPUT': 'terminal.foreground',
 
             # Terminal colors - regular
-            'CONSOLE_BLACK_OUTPUT.FOREGROUND': 'terminal.ansi.black',
-            'CONSOLE_RED_OUTPUT.FOREGROUND': 'terminal.ansi.red',
-            'CONSOLE_GREEN_OUTPUT.FOREGROUND': 'terminal.ansi.green',
-            'CONSOLE_YELLOW_OUTPUT.FOREGROUND': 'terminal.ansi.yellow',
-            'CONSOLE_BLUE_OUTPUT.FOREGROUND': 'terminal.ansi.blue',
-            'CONSOLE_MAGENTA_OUTPUT.FOREGROUND': 'terminal.ansi.magenta',
-            'CONSOLE_CYAN_OUTPUT.FOREGROUND': 'terminal.ansi.cyan',
-            'CONSOLE_WHITE_OUTPUT.FOREGROUND': 'terminal.ansi.white',
+            # 'CONSOLE_BLACK_OUTPUT.FOREGROUND': 'terminal.ansi.black',
+            # 'CONSOLE_RED_OUTPUT.FOREGROUND': 'terminal.ansi.red',
+            # 'CONSOLE_GREEN_OUTPUT.FOREGROUND': 'terminal.ansi.green',
+            # 'CONSOLE_YELLOW_OUTPUT.FOREGROUND': 'terminal.ansi.yellow',
+            # 'CONSOLE_BLUE_OUTPUT.FOREGROUND': 'terminal.ansi.blue',
+            # 'CONSOLE_MAGENTA_OUTPUT.FOREGROUND': 'terminal.ansi.magenta',
+            # 'CONSOLE_CYAN_OUTPUT.FOREGROUND': 'terminal.ansi.cyan',
+            # 'CONSOLE_WHITE_OUTPUT.FOREGROUND': 'terminal.ansi.white',
 
             #hint
             "DEFAULT_LINE_COMMENT.FOREGROUND": ["hint"],
 
             # Terminal colors - bright
-            'CONSOLE_DARKGRAY_OUTPUT.FOREGROUND': 'terminal.ansi.bright_black',
-            'CONSOLE_RED_BRIGHT_OUTPUT.FOREGROUND': 'terminal.ansi.bright_red',
-            'CONSOLE_GREEN_BRIGHT_OUTPUT.FOREGROUND': 'terminal.ansi.bright_green',
-            'CONSOLE_YELLOW_BRIGHT_OUTPUT.FOREGROUND': 'terminal.ansi.bright_yellow',
-            'CONSOLE_BLUE_BRIGHT_OUTPUT.FOREGROUND': 'terminal.ansi.bright_blue',
-            'CONSOLE_MAGENTA_BRIGHT_OUTPUT.FOREGROUND': 'terminal.ansi.bright_magenta',
-            'CONSOLE_CYAN_BRIGHT_OUTPUT.FOREGROUND': 'terminal.ansi.bright_cyan',
-            'CONSOLE_GRAY_OUTPUT.FOREGROUND': 'terminal.ansi.bright_white',
+            # 'CONSOLE_DARKGRAY_OUTPUT.FOREGROUND': 'terminal.ansi.bright_black',
+            # 'CONSOLE_RED_BRIGHT_OUTPUT.FOREGROUND': 'terminal.ansi.bright_red',
+            # 'CONSOLE_GREEN_BRIGHT_OUTPUT.FOREGROUND': 'terminal.ansi.bright_green',
+            # 'CONSOLE_YELLOW_BRIGHT_OUTPUT.FOREGROUND': 'terminal.ansi.bright_yellow',
+            # 'CONSOLE_BLUE_BRIGHT_OUTPUT.FOREGROUND': 'terminal.ansi.bright_blue',
+            # 'CONSOLE_MAGENTA_BRIGHT_OUTPUT.FOREGROUND': 'terminal.ansi.bright_magenta',
+            # 'CONSOLE_CYAN_BRIGHT_OUTPUT.FOREGROUND': 'terminal.ansi.bright_cyan',
+            # 'CONSOLE_GRAY_OUTPUT.FOREGROUND': 'terminal.ansi.bright_white'
 
             # UI borders and panels
             'BORDER_COLOR': 'border',
 
             # File status colors
-            'FILESTATUS_ADDED': 'created',
-            'FILESTATUS_MODIFIED': 'modified',
-            'FILESTATUS_DELETED': 'deleted',
-            'FILESTATUS_UNKNOWN': 'warning',
-            'FILESTATUS_IDEA_FILESTATUS_IGNORED': 'ignored',
+            # 'FILESTATUS_ADDED': 'created',
+            # 'FILESTATUS_MODIFIED': 'modified',
+            # 'FILESTATUS_DELETED': 'deleted',
+            # 'FILESTATUS_UNKNOWN': 'warning',
+            # 'FILESTATUS_IDEA_FILESTATUS_IGNORED': 'ignored'
         }
 
-        # Map IntelliJ theme.json UI colors to Zed UI colors
-        self.theme_ui_mapping = {
-            # General UI colors - Core
-            '*.background': ['background', 'surface.background', 'terminal.background', 'panel.background'],
-            '*.foreground': ['text', 'text.accent', 'text.muted', 'terminal.foreground'],
-            '*.selectionBackground': ['editor.selection.background', 'search.match_background'],
-            '*.selectionForeground': 'editor.selection.foreground',
-            '*.button': ['element.background'],
-            '*.secondaryBackground': ['elevated_surface.background'],
-            '*.disabled': ['text.placeholder', 'text.disabled', 'element.disabled', 'ghost_element.disabled', 'icon.disabled'],
-            '*.contrast': ['border.variant', 'editor.wrap_guide'],
-            '*.accent': ['text.accent', 'icon.accent'],
-            # '*.highlight': ['element.selected', 'ghost_element.selected'],
-            '*.selectionInactiveBackground': 'editor.highlighted_line.background',
-
-            # Borders
-            '*.border': ['border', 'editor.indent_guide'],
-
-            # Tab colors
-            'DefaultTabs.background': ['tab_bar.background', 'tab.inactive_background'],
-
-            # Element states
-            'TabbedPane.hoverColor': ['element.hover', 'ghost_element.hover'],
-            'Button.focus': 'border.focused',
-
-            # Tool windows and panels
-            'ToolWindow.Header.inactiveBackground': ['title_bar.inactive_background'],
-            'Popup.Header.activeBackground': ['elevated_surface.background'],
-
-            # Status and notifications
-            '*.notifications': ['status_bar.background', 'elevated_surface.background'],
-
-            # Plugin buttons (map to element states)
-            'Plugins.Button.installBackground': 'element.background',
-            'Plugins.Button.updateBackground': 'element.active',
-        }
 
         # Additional comprehensive mappings for Zed UI elements not covered by theme.json
         self.additional_zed_mappings = {
@@ -124,37 +85,11 @@ class IntelliJToZedConverter:
             'scrollbar.track.background': 'surface.background',
             'scrollbar.track.border': 'border.variant',
 
-
-            # Status colors (will be set to reasonable defaults)
-            'error': '#ff6b6b',
-            'error.background': '#2d1b1b',
-            'error.border': '#ff6b6b',
-            'warning': '#ffd93d',
-            'warning.background': '#2d2a1b',
-            'warning.border': '#ffd93d',
-            'success': '#6bcf7f',
-            'success.background': '#1b2d1f',
-            'success.border': '#6bcf7f',
-            'info': '#74b9ff',
-            'info.background': '#1b2332',
-            'info.border': '#74b9ff',
-            'hint': '#a29bfe',
-            'hint.background': '#23212d',
-            'hint.border': '#a29bfe',
-
             # Additional state colors
             'conflict': '#fd79a8',
             'conflict.background': '#2d1b26',
             'conflict.border': '#fd79a8',
-            'created': '#00b894',
-            'created.background': '#1b2d28',
-            'created.border': '#00b894',
-            'deleted': '#e17055',
-            'deleted.background': '#2d201b',
-            'deleted.border': '#e17055',
-            'modified': '#fdcb6e',
-            'modified.background': '#2d271b',
-            'modified.border': '#fdcb6e',
+
             'renamed': '#a29bfe',
             'renamed.background': '#23212d',
             'renamed.border': '#a29bfe',
@@ -168,33 +103,6 @@ class IntelliJToZedConverter:
             'predictive.background': '#1b2332',
             'predictive.border': '#74b9ff',
 
-            # Terminal ANSI colors (reasonable defaults)
-            'terminal.ansi.black': '#2d3748',
-            'terminal.ansi.red': '#e53e3e',
-            'terminal.ansi.green': '#38a169',
-            'terminal.ansi.yellow': '#d69e2e',
-            'terminal.ansi.blue': '#3182ce',
-            'terminal.ansi.magenta': '#805ad5',
-            'terminal.ansi.cyan': '#319795',
-            'terminal.ansi.white': '#a0aec0',
-            'terminal.ansi.bright_black': '#4a5568',
-            'terminal.ansi.bright_red': '#f56565',
-            'terminal.ansi.bright_green': '#48bb78',
-            'terminal.ansi.bright_yellow': '#ed8936',
-            'terminal.ansi.bright_blue': '#4299e1',
-            'terminal.ansi.bright_magenta': '#9f7aea',
-            'terminal.ansi.bright_cyan': '#4fd1c7',
-            'terminal.ansi.bright_white': '#f7fafc',
-            'terminal.ansi.dim_black': '#1a202c',
-            'terminal.ansi.dim_red': '#c53030',
-            'terminal.ansi.dim_green': '#2f855a',
-            'terminal.ansi.dim_yellow': '#b7791f',
-            'terminal.ansi.dim_blue': '#2c5282',
-            'terminal.ansi.dim_magenta': '#6b46c1',
-            'terminal.ansi.dim_cyan': '#285e61',
-            'terminal.ansi.dim_white': '#718096',
-            'terminal.bright_foreground': '#f7fafc',
-            'terminal.dim_foreground': '#718096',
 
             # Link and other interactive elements
             'link_text.hover': 'text.accent',
@@ -211,74 +119,68 @@ class IntelliJToZedConverter:
         # Map IntelliJ attributes to Zed syntax elements
         self.syntax_mapping = {
             # Comments
-            'DEFAULT_LINE_COMMENT': 'comment',
-            'DEFAULT_BLOCK_COMMENT': 'comment',
-            'DEFAULT_DOC_COMMENT': 'comment.doc',
-            'CUSTOM_LINE_COMMENT_ATTRIBUTES': 'comment',
-            'CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES': 'comment',
+            'DEFAULT_LINE_COMMENT': ['comment', 'comment.doc', 'comment.documentation', 'string.documentation'],
 
-            # Keywords
-            'DEFAULT_KEYWORD': 'keyword',
-            'CUSTOM_KEYWORD1_ATTRIBUTES': 'keyword',
-            'CUSTOM_KEYWORD2_ATTRIBUTES': 'keyword',
-            'CUSTOM_KEYWORD3_ATTRIBUTES': 'keyword',
-            'CUSTOM_KEYWORD4_ATTRIBUTES': 'keyword',
+            # Keywords - comprehensive coverage
+            'DEFAULT_KEYWORD': ['keyword', 'keyword.modifier', 'keyword.type', 'keyword.coroutine',
+                                'keyword.function', 'keyword.import', 'keyword.return', 'keyword.operator',
+                                'keyword.repeat', 'keyword.debug', 'keyword.exception', 'keyword.conditional',
+                                'keyword.conditional.ternary', 'keyword.export'],
 
-            # Strings
-            'DEFAULT_STRING': 'string',
-            'CUSTOM_STRING_ATTRIBUTES': 'string',
-            'DEFAULT_VALID_STRING_ESCAPE': 'string.escape',
-            'CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES': 'string.escape',
-            'DEFAULT_INVALID_STRING_ESCAPE': 'string.escape',
-            'CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES': 'string.escape',
+            # Strings - all variants
+            'DEFAULT_STRING': ['string', 'string.documentation', 'string.doc'],
+            'DEFAULT_VALID_STRING_ESCAPE': ['string.escape', 'string.special', 'string.special.path',
+                                            'string.special.symbol', 'string.special.url'],
 
-            # Numbers
-            'DEFAULT_NUMBER': 'number',
-            'CUSTOM_NUMBER_ATTRIBUTES': 'number',
+            # Numbers - all numeric types
+            'DEFAULT_NUMBER': ['number', 'number.float', 'float'],
 
             # Constants and booleans
-            'DEFAULT_CONSTANT': 'constant',
-            'DEFAULT_PREDEFINED_SYMBOL': 'boolean',
-            'ENUM_CONST': 'constant',
+            'DEFAULT_CONSTANT': ['constant', 'constant.builtin', 'constant.macro'],
+            'DEFAULT_PREDEFINED_SYMBOL': ['boolean', 'constant.builtin'],
+            'ENUM_CONST': ['enum'],
 
-            # Functions
-            'DEFAULT_FUNCTION_DECLARATION': 'function',
-            'DEFAULT_FUNCTION_CALL': 'function',
-            'DEFAULT_STATIC_METHOD': 'function',
+            # Functions - comprehensive function coverage
+            'DEFAULT_FUNCTION_DECLARATION': ['function', 'function.builtin', 'function.call', 'function.macro',
+                                             'function.method', 'function.method.call', 'function.decorator'],
+            'DEFAULT_FUNCTION_CALL': ['function.call', 'function.method.call'],
+            'DEFAULT_STATIC_METHOD': ['function.method', 'function.builtin'],
 
-            # Types and classes
-            'DEFAULT_CLASS_NAME': 'type',
-            'DEFAULT_CLASS_REFERENCE': 'type',
-            'DEFAULT_INTERFACE_NAME': 'type',
+            # Types and classes - expanded coverage
+            'DEFAULT_CLASS_NAME': ['type', 'type.builtin', 'type.definition', 'type.interface',
+                                   'type.super', 'type.class.definition', 'namespace'],
 
-            # Variables and identifiers
-            'DEFAULT_IDENTIFIER': 'variable',
-            'DEFAULT_INSTANCE_FIELD': 'variable',
-            'DEFAULT_STATIC_FIELD': 'variable',
-            'DEFAULT_LOCAL_VARIABLE': 'variable',
-            'DEFAULT_PARAMETER': 'variable.special',
-            'DEFAULT_GLOBAL_VARIABLE': 'variable',
+            # Variables and identifiers - granular mapping
+            'DEFAULT_IDENTIFIER': ['variable', 'variable.member', 'variable.builtin'],
+            'DEFAULT_INSTANCE_FIELD': ['field', 'property'],
+            'DEFAULT_PARAMETER': ['variable.parameter', 'parameter'],
 
-            # HTML/XML
-            'DEFAULT_TAG': 'tag',
-            'DEFAULT_ATTRIBUTE': 'attribute',
-            'HTML_TAG': 'tag',
-            'HTML_TAG_NAME': 'tag',
-            'HTML_ATTRIBUTE_NAME': 'attribute',
+            # Operators and punctuation
+            'DEFAULT_OPERATION_SIGN': ['operator', 'punctuation', 'punctuation.delimiter'],
+            'DEFAULT_BRACKETS': ['punctuation.bracket'],
 
-            # Text literals
-            'DEFAULT_TEMPLATE_LANGUAGE_COLOR': 'text.literal',
+            # HTML/XML - expanded
+            'DEFAULT_TAG': ['tag', 'tag.delimiter'],
+            'DEFAULT_ATTRIBUTE': ['attribute', 'tag.attribute'],
 
-            # Language-specific mappings
-            'PY.STRING': 'string',
-            'RUBY_STRING': 'string',
-            'COFFEESCRIPT.STRING': 'string',
-            'CSS.PROPERTY_VALUE': 'string',
-            'JSON.PROPERTY_KEY': 'attribute',
-            'JAVA_DOC_TAG': 'comment.doc',
-            'GO_PACKAGE': 'type',
-            'JS.GLOBAL_FUNCTION': 'function',
-            'JS.GLOBAL_VARIABLE': 'variable',
+            # Special elements
+            'DEFAULT_TEMPLATE_LANGUAGE_COLOR': ['text.literal', 'embedded'],
+            'DEFAULT_METADATA': ['attribute', 'punctuation.special'],
+            'DEFAULT_LABEL': ['label'],
+
+            # Preprocessor and directives
+            'DEFAULT_PREPROCESSOR_DIRECTIVE': ['keyword.directive', 'keyword.directive.define'],
+
+            # Documentation and markup
+            'DEFAULT_DOC_MARKUP': ['emphasis', 'emphasis.strong'],
+            'DEFAULT_DOC_COMMENT_TAG': ['comment.doc', 'punctuation.special'],
+
+            # Error and warning highlights
+            'WRONG_REFERENCES_ATTRIBUTES': ['comment.error'],
+            'WARNING_ATTRIBUTES': ['comment.warning'],
+
+            'JSON.PROPERTY_KEY': ['property']
+
         }
 
     def load_intellij_theme(self, theme_path: Path) -> ET.Element:
@@ -385,27 +287,6 @@ class IntelliJToZedConverter:
 
         return colors
 
-    def extract_theme_ui_colors(self, theme_json: Dict[str, Any]) -> Dict[str, str]:
-        """Extract UI colors from IntelliJ theme.json file."""
-        ui_colors = {}
-
-        if 'ui' not in theme_json:
-            return ui_colors
-
-        ui_section = theme_json['ui']
-
-        # Process UI sections
-        for section_key, section_value in ui_section.items():
-            if isinstance(section_value, dict):
-                for property_key, color_value in section_value.items():
-                    if isinstance(color_value, str) and color_value:
-                        # Create full key like "*.background" or "DefaultTabs.borderColor"
-                        full_key = f"{section_key}.{property_key}"
-                        normalized_color = self.normalize_color(color_value)
-                        if normalized_color:
-                            ui_colors[full_key] = normalized_color
-
-        return ui_colors
 
     def extract_attributes(self, root: ET.Element) -> Dict[str, Dict[str, Any]]:
         """Extract syntax highlighting attributes from IntelliJ theme."""
@@ -483,32 +364,26 @@ class IntelliJToZedConverter:
         if 'editor.foreground' not in zed_colors and 'TEXT.FOREGROUND' in intellij_colors:
             zed_colors['editor.foreground'] = intellij_colors['TEXT.FOREGROUND']
 
-        # Set reasonable defaults for common UI elements
-        if 'border' not in zed_colors:
-            # Derive border color from background (lighter)
-            bg_color = zed_colors.get('background', '#2D2D2D')
-            zed_colors['border'] = self.derive_lighter_color(bg_color)
+        # Generate darker variants for UI elements that need visual hierarchy
+        if 'TEXT.BACKGROUND' in intellij_colors:
+            base_bg = intellij_colors['TEXT.BACKGROUND']
+            bg_variants = self.generate_color_variants(base_bg)
+
+            # Use 20% darker for secondary UI elements
+            darker_bg = bg_variants['darker_2']
+
+            # Apply darker background to elements that need visual separation
+            ui_elements_needing_darker_bg = [
+                'surface.background', 'panel.background', 'element.background', 'tab_bar.background',
+                'tab.inactive_background', 'status_bar.background'
+            ]
+
+            for element in ui_elements_needing_darker_bg:
+                if element not in zed_colors:
+                    zed_colors[element] = darker_bg
 
         return zed_colors
 
-    def map_theme_ui_colors_to_zed(self, theme_ui_colors: Dict[str, str]) -> Dict[str, str]:
-        """Map IntelliJ theme.json UI colors to Zed UI colors."""
-        zed_colors = {}
-
-        for theme_key, zed_mapping in self.theme_ui_mapping.items():
-            if theme_key in theme_ui_colors:
-                color_value = theme_ui_colors[theme_key]
-
-                # Handle both single mappings and multiple mappings
-                if isinstance(zed_mapping, list):
-                    # Map to multiple Zed properties
-                    for zed_name in zed_mapping:
-                        zed_colors[zed_name] = color_value
-                else:
-                    # Single mapping
-                    zed_colors[zed_mapping] = color_value
-
-        return zed_colors
 
     def apply_additional_zed_mappings(self, zed_colors: Dict[str, str]) -> Dict[str, str]:
         """Apply additional Zed UI element mappings using existing colors as sources."""
@@ -537,8 +412,9 @@ class IntelliJToZedConverter:
         """Map IntelliJ syntax attributes to Zed syntax elements."""
         zed_syntax = {}
 
+        # Process DEFAULT_ attributes first to establish base colors
         for intellij_name, intellij_attr in intellij_attributes.items():
-            if intellij_name in self.syntax_mapping:
+            if intellij_name.startswith('DEFAULT_') and intellij_name in self.syntax_mapping:
                 zed_mapping = self.syntax_mapping[intellij_name]
 
                 zed_attr = {}
@@ -566,7 +442,80 @@ class IntelliJToZedConverter:
                         # Single mapping
                         zed_syntax[zed_mapping] = zed_attr
 
+        # Process non-DEFAULT attributes only if they don't conflict with existing mappings
+        for intellij_name, intellij_attr in intellij_attributes.items():
+            if not intellij_name.startswith('DEFAULT_') and intellij_name in self.syntax_mapping:
+                zed_mapping = self.syntax_mapping[intellij_name]
+
+                # Skip if this would override a DEFAULT_ mapping
+                if isinstance(zed_mapping, list):
+                    skip = any(zed_name in zed_syntax for zed_name in zed_mapping)
+                else:
+                    skip = zed_mapping in zed_syntax
+
+                if skip:
+                    continue
+
+                zed_attr = {}
+                if 'color' in intellij_attr:
+                    zed_attr['color'] = intellij_attr['color']
+
+                if 'font_style' in intellij_attr:
+                    zed_attr['font_style'] = intellij_attr['font_style']
+                else:
+                    zed_attr['font_style'] = None
+
+                if 'font_weight' in intellij_attr:
+                    zed_attr['font_weight'] = intellij_attr['font_weight']
+                else:
+                    zed_attr['font_weight'] = None
+
+                # Only add if we have meaningful content
+                if zed_attr.get('color') or zed_attr.get('font_style') or zed_attr.get('font_weight'):
+                    # Handle both single mappings and multiple mappings
+                    if isinstance(zed_mapping, list):
+                        # Map to multiple Zed syntax elements
+                        for zed_name in zed_mapping:
+                            if zed_name not in zed_syntax:
+                                zed_syntax[zed_name] = zed_attr.copy()
+                    else:
+                        # Single mapping
+                        if zed_mapping not in zed_syntax:
+                            zed_syntax[zed_mapping] = zed_attr
+
+        # Add fallbacks for missing syntax colors using foreground color
+        return self.add_syntax_fallbacks(zed_syntax)
+
+    def add_syntax_fallbacks(self, zed_syntax: Dict[str, Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
+        """Add fallback colors for missing syntax elements using foreground color."""
+        # Define essential syntax elements that should have fallbacks
+        essential_elements = [
+            'comment', 'comment.doc', 'keyword', 'string', 'string.escape',
+            'number', 'constant', 'boolean', 'function', 'type', 'variable',
+            'variable.special', 'tag', 'attribute', 'text.literal', 'property'
+        ]
+
+        # Get foreground color as fallback (from TEXT.FOREGROUND or default)
+        fallback_color = self.get_fallback_color()
+
+        for element in essential_elements:
+            if element not in zed_syntax:
+                # Add fallback using foreground color
+                zed_syntax[element] = {
+                    'color': fallback_color,
+                    'font_style': None,
+                    'font_weight': None
+                }
+            elif 'color' not in zed_syntax[element] or not zed_syntax[element]['color']:
+                # Element exists but has no color, use fallback
+                zed_syntax[element]['color'] = fallback_color
+
         return zed_syntax
+
+    def get_fallback_color(self) -> str:
+        """Get fallback color (foreground color or reasonable default)."""
+        # This will be set during conversion process
+        return getattr(self, '_fallback_color', '#BBBBBB')
 
     def derive_lighter_color(self, hex_color: str, factor: float = 1.2) -> str:
         """Derive a lighter version of a color."""
@@ -588,6 +537,121 @@ class IntelliJToZedConverter:
         except:
             # Fallback to a reasonable default
             return '#404040'
+
+    def adjust_brightness(self, hex_color: str, factor: float) -> str:
+        """Adjust brightness of a color by a factor (0.0 = black, 1.0 = original, >1.0 = brighter)."""
+        try:
+            # Remove # if present
+            hex_color = hex_color.lstrip('#')
+
+            # Convert to RGB
+            r = int(hex_color[0:2], 16)
+            g = int(hex_color[2:4], 16)
+            b = int(hex_color[4:6], 16)
+
+            # Adjust brightness
+            r = max(0, min(255, int(r * factor)))
+            g = max(0, min(255, int(g * factor)))
+            b = max(0, min(255, int(b * factor)))
+
+            return f'#{r:02X}{g:02X}{b:02X}'
+        except:
+            # Fallback to original color
+            return hex_color if hex_color.startswith('#') else f'#{hex_color}'
+
+    def adjust_saturation(self, hex_color: str, factor: float) -> str:
+        """Adjust saturation of a color (0.0 = grayscale, 1.0 = original, >1.0 = more saturated)."""
+        try:
+            # Remove # if present
+            hex_color = hex_color.lstrip('#')
+
+            # Convert to RGB
+            r = int(hex_color[0:2], 16) / 255.0
+            g = int(hex_color[2:4], 16) / 255.0
+            b = int(hex_color[4:6], 16) / 255.0
+
+            # Convert to HSL-like adjustment
+            max_val = max(r, g, b)
+            min_val = min(r, g, b)
+            diff = max_val - min_val
+
+            # Calculate luminance
+            luminance = (max_val + min_val) / 2
+
+            # Adjust saturation
+            if diff == 0:  # Grayscale
+                return hex_color if hex_color.startswith('#') else f'#{hex_color}'
+
+            # Apply saturation adjustment
+            r = luminance + (r - luminance) * factor
+            g = luminance + (g - luminance) * factor
+            b = luminance + (b - luminance) * factor
+
+            # Clamp values
+            r = max(0, min(1, r))
+            g = max(0, min(1, g))
+            b = max(0, min(1, b))
+
+            # Convert back to RGB
+            r_int = int(r * 255)
+            g_int = int(g * 255)
+            b_int = int(b * 255)
+
+            return f'#{r_int:02X}{g_int:02X}{b_int:02X}'
+        except:
+            # Fallback to original color
+            return hex_color if hex_color.startswith('#') else f'#{hex_color}'
+
+    def add_alpha(self, hex_color: str, alpha: float) -> str:
+        """Add alpha channel to a hex color (alpha: 0.0-1.0)."""
+        try:
+            # Ensure proper hex format
+            if not hex_color.startswith('#'):
+                hex_color = f'#{hex_color}'
+
+            # Clamp alpha value
+            alpha = max(0.0, min(1.0, alpha))
+            alpha_hex = format(int(alpha * 255), '02X')
+
+            return f'{hex_color}{alpha_hex}'
+        except:
+            return hex_color
+
+    def generate_color_variants(self, base_color: str) -> Dict[str, str]:
+        """Generate various color variants from a base color for theme consistency."""
+        if not base_color:
+            return {}
+
+        variants = {
+            'base': self.normalize_color(base_color),
+        }
+
+        base_normalized = variants['base']
+        if not base_normalized:
+            return variants
+
+        # Brightness variants
+        variants['darker_2'] = self.adjust_brightness(base_normalized, 0.98)
+        variants['darker_5'] = self.adjust_brightness(base_normalized, 0.95)
+        variants['darker_10'] = self.adjust_brightness(base_normalized, 0.9)
+        variants['darker_15'] = self.adjust_brightness(base_normalized, 0.85)
+        variants['darker_20'] = self.adjust_brightness(base_normalized, 0.80)
+
+        variants['lighter_2'] = self.adjust_brightness(base_normalized, 1.02)
+        variants['lighter_5'] = self.adjust_brightness(base_normalized, 1.05)
+        variants['lighter_10'] = self.adjust_brightness(base_normalized, 1.10)
+        variants['lighter_15'] = self.adjust_brightness(base_normalized, 1.15)
+        variants['lighter_20'] = self.adjust_brightness(base_normalized, 1.2)
+
+        # Combined variants (commonly used in themes)
+        variants['hover'] = self.adjust_brightness(base_normalized, 1.1)  # Slightly lighter for hover
+        variants['active'] = self.adjust_brightness(base_normalized, 0.9)  # Slightly darker for active
+        variants['disabled'] = self.adjust_saturation(
+            self.adjust_brightness(base_normalized, 0.7), 0.5
+        )  # Darker and desaturated for disabled
+        variants['muted'] = self.adjust_saturation(base_normalized, 0.6)  # Desaturated for muted
+
+        return variants
 
     def generate_default_players(self) -> List[Dict[str, str]]:
         """Generate default player colors for collaborative editing."""
@@ -617,13 +681,11 @@ class IntelliJToZedConverter:
         zed_ui_colors = self.map_colors_to_zed(intellij_colors)
         zed_syntax = self.map_syntax_to_zed(intellij_attributes)
 
-        # Extract and merge UI colors from theme.json if provided
-        if theme_json:
-            theme_ui_colors = self.extract_theme_ui_colors(theme_json)
-            zed_theme_ui_colors = self.map_theme_ui_colors_to_zed(theme_ui_colors)
+        # Set fallback color for syntax elements (use mapped editor.foreground)
+        self._fallback_color = zed_ui_colors.get('editor.foreground', '#BBBBBB')
 
-            # Merge theme.json UI colors (they take priority over .icls colors)
-            zed_ui_colors.update(zed_theme_ui_colors)
+        # Apply fallbacks to syntax elements
+        zed_syntax = self.add_syntax_fallbacks(zed_syntax)
 
         # Apply additional comprehensive Zed UI mappings
         zed_ui_colors = self.apply_additional_zed_mappings(zed_ui_colors)
@@ -640,6 +702,94 @@ class IntelliJToZedConverter:
                     appearance = "light"
             except:
                 pass
+
+        zed_ui_colors["info"] = zed_ui_colors["editor.foreground"]
+        zed_ui_colors["warning"] = zed_ui_colors["editor.foreground"]
+        zed_ui_colors["error"] = zed_ui_colors["editor.foreground"]
+        zed_ui_colors["hint"] = zed_ui_colors["editor.foreground"]
+        zed_ui_colors["success"] = zed_ui_colors["editor.foreground"]
+
+        caret_row_color = intellij_colors['CARET_ROW_COLOR']
+        caret_variants = self.generate_color_variants(caret_row_color)
+
+        # Use 2% darker for border elements
+        border_color_dark = caret_variants['lighter_20']
+        border_color_light = caret_variants['darker_15']
+
+        if appearance == 'light':
+            zed_ui_colors["info.background"] = "#C2D8F2"
+            zed_ui_colors["info.border"] = "#C2D8F2"
+            zed_ui_colors["error.background"] = "#FFD5CC"
+            zed_ui_colors["error.border"] = "#FFD5CC"
+            zed_ui_colors["warning.background"] = "#FFE8B4"
+            zed_ui_colors["warning.border"] = "#FFE8B4"
+            zed_ui_colors["hint.background"] = "#FFE8B4"
+            zed_ui_colors["hint.border"] = "#FFE8B4"
+            zed_ui_colors["success.background"] = "#BEE6BE"
+            zed_ui_colors["success.border"]  = "#BEE6BE"
+
+            zed_ui_colors["terminal.ansi.black"] = "#BFB9BA"
+            zed_ui_colors["terminal.ansi.red"] = "#E14775"
+            zed_ui_colors["terminal.ansi.green"] = "#269D69"
+            zed_ui_colors["terminal.ansi.yellow"] = "#AB6763"
+            zed_ui_colors["terminal.ansi.blue"] = "#E16032"
+            zed_ui_colors["terminal.ansi.magenta"] = "#79619E"
+            zed_ui_colors["terminal.ansi.cyan"] = "#286A84"
+            zed_ui_colors["terminal.ansi.white"] = "#606060"
+            zed_ui_colors["terminal.ansi.bright_black"] = "#A59FA0"
+            zed_ui_colors["terminal.ansi.bright_red"] = "#E14775"
+            zed_ui_colors["terminal.ansi.bright_green"] = "#269D69"
+            zed_ui_colors["terminal.ansi.bright_yellow"] = "#AB6763"
+            zed_ui_colors["terminal.ansi.bright_blue"] = "#E16032"
+            zed_ui_colors["terminal.ansi.bright_magenta"] = "#79619E"
+            zed_ui_colors["terminal.ansi.bright_cyan"] = "#286A84"
+            zed_ui_colors["terminal.ansi.bright_white"] = "#918C8E"
+
+            zed_ui_colors["created"] = "#319668"
+            zed_ui_colors["modified"] = "#007599"
+            zed_ui_colors["deleted"] = "#d75c4d"
+            zed_ui_colors["ignored"] = "#8d8788"
+            zed_ui_colors["renamed"] = "#664d9b"
+
+            zed_ui_colors["border"] = border_color_light
+        else:
+            zed_ui_colors["info.background"] = "#385570"
+            zed_ui_colors["info.border"] = "#385570"
+            zed_ui_colors["error.background"] = "#45302B"
+            zed_ui_colors["error.border"] = "#45302B"
+            zed_ui_colors["warning.background"] = "#614438"
+            zed_ui_colors["warning.border"] = "#614438"
+            zed_ui_colors["hint.background"] = "#614438"
+            zed_ui_colors["hint.border"] = "#614438"
+            zed_ui_colors["success.background"] = "#294436"
+            zed_ui_colors["success.border"] = "#294436"
+
+            zed_ui_colors["terminal.ansi.black"] = "#353535"
+            zed_ui_colors["terminal.ansi.red"] = "#F78D8C"
+            zed_ui_colors["terminal.ansi.green"] = "#B8BB26"
+            zed_ui_colors["terminal.ansi.yellow"] = "#FABD2F"
+            zed_ui_colors["terminal.ansi.blue"] = "#84A498"
+            zed_ui_colors["terminal.ansi.magenta"] = "#D3859A"
+            zed_ui_colors["terminal.ansi.cyan"] = "#8EC07B"
+            zed_ui_colors["terminal.ansi.white"] = "#EBDBB2"
+
+            zed_ui_colors["terminal.ansi.bright_black"] = "#353535"
+            zed_ui_colors["terminal.ansi.bright_red"] = "#F28E82"
+            zed_ui_colors["terminal.ansi.bright_green"] = "#B2B437"
+            zed_ui_colors["terminal.ansi.bright_yellow"] = "#F1BF4A"
+            zed_ui_colors["terminal.ansi.bright_blue"] = "#95A19D"
+            zed_ui_colors["terminal.ansi.bright_magenta"] = "#CD98A6"
+            zed_ui_colors["terminal.ansi.bright_cyan"] = "#9EBD93"
+            zed_ui_colors["terminal.ansi.bright_white"] = "#EBDBB2"
+
+            zed_ui_colors["created"] = "#C3E887"
+            zed_ui_colors["modified"] = "#80CBC4"
+            zed_ui_colors["deleted"] = "#F77669"
+            zed_ui_colors["ignored"] = "#637777"
+            zed_ui_colors["renamed"] = "#C792EA"
+
+            zed_ui_colors["border"] = border_color_dark
+
 
         # Build Zed theme structure
         zed_theme = {

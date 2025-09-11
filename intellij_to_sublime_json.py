@@ -51,7 +51,7 @@ class IntelliJToSublimeJSONConverter:
                 'variable': 'storage_color'
             },
             'Strings': {
-                'scopes': 'string, string.quoted, string.quoted.single, string.quoted.double, string.quoted.triple, string.unquoted, string.template, string.regexp, string.other.link',
+                'scopes': 'string, string.quoted, string.quoted.single, string.quoted.double, string.quoted.triple, string.unquoted, string.template, string.regexp, string.other.link, variable.annotation',
                 'intellij_attrs': ['DEFAULT_STRING'],
                 'variable': 'string_color'
             },
@@ -336,12 +336,12 @@ class IntelliJToSublimeJSONConverter:
 
         git_diff_colors_dark = {
             "inserted":"#334f40" ,
-            "deleted":"#763c31" ,
+            "deleted":"#774F51" ,
             "modified":"#43607c" ,
         }
 
         popup_colors_light = {
-            "popup_redish": "#e4bbb2",
+            "popup_redish": "#cc6b61",
             "popup_yellowish": "#B28C00",
             "popup_greenish": "#BEE6BE",
             "popup_bluish": "#C2D8F2",
@@ -349,7 +349,7 @@ class IntelliJToSublimeJSONConverter:
         }
 
         popup_colors_dark = {
-            "popup_redish": "#763c31",
+            "popup_redish": "#ff6d62",
             "popup_bluish": "#43607c",
             "popup_greenish": "#334f40",
             "popup_yellowish": "#fabd2f",
@@ -499,7 +499,7 @@ class IntelliJToSublimeJSONConverter:
         .mdpopups .lsp_popup {{--redish: var(--popup_redish); --yellowish: var(--popup_redish); --greenish: var(--popup_greenish); }}
         .mdpopups .lsp_popup a {{color: var(--popup_cyanish);}}
         .mdpopups .bracket-highlighter .admonition.panel-error {{--mdpopups-admon-error-accent: var(--mdpopups_background); --mdpopups-admon-info-accent: var(--mdpopups_background); --mdpopups-admon-warning-accent: var(--mdpopups_background); --mdpopups-admon-success-accent: var(--mdpopups_background);}}
-        .mdpopups .bracket-highlighter .admonition.panel-error .admonition-title {{--mdpopups-admon-error-accent: var(--popup_redish); --mdpopups-admon-info-accent: var(--popup_cyanish); --mdpopups-admon-warning-accent: var(--popup_yellowish); --mdpopups-admon-success-accent: var(--popup_greenish);}}
+        .mdpopups .bracket-highlighter .admonition.panel-error .admonition-title {{--mdpopups-admon-error-accent: color(var(--popup_redish) alpha(0.25)); --mdpopups-admon-info-accent: color(var(--popup_cyanish) alpha(0.25)); --mdpopups-admon-warning-accent: color(var(--popup_yellowish) alpha(0.25)); --mdpopups-admon-success-accent: color(var(--popup_greenish) alpha(0.25));}}
         .mdpopups .bracket-highlighter {{ --mdpopups-admon-info-bg: var(--mdpopups_background); --mdpopups-admon-warning-bg: var(--mdpopups_background); --mdpopups-admon-warning-bg: var(--mdpopups_background); --mdpopups-admon-success-bg: var(--mdpopups_background);  --mdpopups-admon-error-bg: var(--mdpopups_background); --mdpopups-link: var(--cyanish);}}
         """
 
@@ -666,10 +666,38 @@ class IntelliJToSublimeJSONConverter:
             }
         ]
 
+        side_by_side_compare_colors = [
+            {
+                "name": "Sbs compare diff deleted",
+                "scope": "diff.deleted.sbs-compare",
+                "foreground": "var(textcolor)",
+                "background": "var(deleted)"
+            },
+            {
+                "name": "Sbs compare diff char deleted",
+                "scope": "diff.deleted.char.sbs-compare",
+                "foreground": "var(textcolor)",
+                "background": "var(modified)"
+            },
+            {
+                "name": "Sbs compare diff inserted",
+                "scope": "diff.inserted.sbs-compare",
+                "foreground": "var(textcolor)",
+                "background": "var(inserted)"
+            },
+            {
+                "name": "Sbs compare diff inserted char",
+                "scope": "diff.inserted.char.sbs-compare",
+                "foreground": "var(textcolor)",
+                "background": "var(modified)"
+            }
+        ]
+
         # Add region rules to the main rules list
         rules.extend(region_rules)
         rules.extend(git_diff_rules)
         rules.extend(lsp_markup_colors)
+        rules.extend(side_by_side_compare_colors)
         theme['rules'] = rules
         return theme
 
