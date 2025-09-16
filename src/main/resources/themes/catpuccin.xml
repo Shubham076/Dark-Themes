@@ -782,7 +782,7 @@
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="eed49f" />
+                <option name="FOREGROUND" value="e5c890" />
             </value>
         </option>
         <option name="DEFAULT_COMMA">
@@ -830,12 +830,12 @@
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="89b4fa" />
+                <option name="FOREGROUND" value="8caaee" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="89b4fa" />
+                <option name="FOREGROUND" value="8caaee" />
             </value>
         </option>
         <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -856,18 +856,18 @@
         </option>
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="eed49f" />
+                <option name="FOREGROUND" value="e5c890" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="a6da95" />
+                <option name="FOREGROUND" value="a6d189" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="cba6f7" />
+                <option name="FOREGROUND" value="ca9ee6" />
             </value>
         </option>
         <option name="DEFAULT_LABEL">
@@ -883,8 +883,7 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="eed49f" />
-                <option name="FONT_TYPE" value="2" />
+                <option name="FOREGROUND" value="e5c890" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -924,7 +923,7 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="a6da95" />
+                <option name="FOREGROUND" value="a6d189" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -939,7 +938,7 @@
         </option>
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="a6da95" />
+                <option name="FOREGROUND" value="a6d189" />
             </value>
         </option>
         <option name="DELETED_TEXT_ATTRIBUTES">
@@ -1128,7 +1127,11 @@
             </value>
         </option>
         <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
-        <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+        <option name="GO_BUILTIN_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="f5a97f" />
+            </value>
+        </option>
         <option name="GO_COMMENT_REFERENCE" baseAttributes="DEFAULT_LINE_COMMENT" />
         <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="GO_LOCAL_CONSTANT">
@@ -1140,7 +1143,7 @@
         <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="eed49f" />
+                <option name="FOREGROUND" value="e5c890" />
             </value>
         </option>
         <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
