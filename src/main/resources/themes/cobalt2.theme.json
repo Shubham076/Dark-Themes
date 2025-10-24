@@ -5,7 +5,7 @@
   "editorScheme": "/themes/Cobalt 2.xml",
   "ui": {
     "*": {
-      "background": "#15232dff",
+      "background": "#0e2b3e",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
       "selectionBackground": "#203544ff",
@@ -24,7 +24,7 @@
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#15232dff"
+        "inactiveBackground": "#0e2b3e"
       }
     },
      "Plugins": {
@@ -37,20 +37,20 @@
       }
     },
     "DefaultTabs": {
-      "background": "#15232d",
+      "background": "#0e2b3e",
       "borderColor": "#002b3f"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#15232d"
+      "underlinedTabBackground": "#0e2b3e"
     },
     "Popup": {
-      "Header.activeBackground": "#15232d"
+      "Header.activeBackground": "#0e2b3e"
     },
     "TabbedPane": {
-      "hoverColor": "#15232d"
+      "hoverColor": "#0e2b3e"
     },
     "Button": {
-      "focus": "#15232d"
+      "focus": "#0e2b3e"
     }
   }
 }
