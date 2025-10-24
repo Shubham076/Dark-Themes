@@ -9,4 +9,10 @@ import com.intellij.util.PsiErrorElementUtil
 import com.github.shubham076.themes.services.MyProjectService
 
 @TestDataPath("\$CONTENT_ROOT/src/test/testData")
-class MyPluginTest : BasePlatformTestCase() {}
+class MyPluginTest : BasePlatformTestCase() {
+    
+    fun testProjectServiceIsAvailable() {
+        val service = project.service<MyProjectService>()
+        assertNotNull("MyProjectService should be available", service)
+    }
+}
