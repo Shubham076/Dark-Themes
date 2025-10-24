@@ -14,6 +14,7 @@
       "button": "#f3f4f5ff",
       "secondaryBackground": "#ffffffff",
       "disabled": "#d2d4d5ff",
+      "border": "#d3cdcc",
       "contrast": "#eeeeeeff",
       "tableSelected": "#e7e7e8ff",
       "secondBorder": "#d3e1e8ff",

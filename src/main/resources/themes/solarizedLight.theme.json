@@ -5,7 +5,7 @@
   "editorScheme": "/themes/solarizedLight.xml",
   "ui": {
     "*": {
-      "background": "#FDF6E3",
+      "background": "#F8F6F2",
       "foreground": "#707080",
       "highlight": "#e7e7e8ff",
       "selectionBackground": "#ccd7daff",
@@ -23,12 +23,12 @@
       "excluded": "#d3e1e8ff"
     },
     "DefaultTabs": {
-      "background": "#FDF6E3",
+      "background": "#F8F6F2",
       "borderColor": "#FCF5F5"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#FDF6E3"
+        "inactiveBackground": "#F8F6F2"
       }
     },
     "Plugins": {
@@ -41,17 +41,17 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#FDF6E3",
+      "underlinedTabBackground": "#F8F6F2",
       "borderColor": "#FCF5F5"
     },
     "Popup": {
-      "Header.activeBackground": "#FDF6E3"
+      "Header.activeBackground": "#F8F6F2"
     },
     "TabbedPane": {
-      "hoverColor": "#FDF6E3"
+      "hoverColor": "#F8F6F2"
     },
     "Button": {
-      "focus": "#FDF6E3"
+      "focus": "#F8F6F2"
     }
   }
 }

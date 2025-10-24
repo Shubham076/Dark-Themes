@@ -1,13 +1,13 @@
 <scheme name="Chalk" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2025.1.3.0.0</property>
+        <property name="ideVersion">2025.2.0.1.0.0</property>
     </metaInfo>
     <colors>
         <option name="CARET_COLOR" value="E3BBB5" />
         <option name="CARET_ROW_COLOR" value="312E2D" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="2e2d2d" />
-        <option name="GUTTER_BACKGROUND" value="2e2d2d" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="2E2D2D" />
+        <option name="GUTTER_BACKGROUND" value="2E2D2D" />
         <option name="INDENT_GUIDE" value="45403D" />
         <option name="LINE_NUMBERS_COLOR" value="E3BBB5" />
         <option name="SELECTED_INDENT_GUIDE" value="45403D" />
@@ -480,7 +480,7 @@
         </option>
         <option name="DEFAULT_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="ebc1a8" />
+                <option name="FOREGROUND" value="a7bec6" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT">
@@ -1874,7 +1874,7 @@
         </option>
         <option name="YAML_TEXT">
             <value>
-                <option name="FOREGROUND" value="ebc1a8" />
+                <option name="FOREGROUND" value="a7bec6" />
             </value>
         </option>
     </attributes>

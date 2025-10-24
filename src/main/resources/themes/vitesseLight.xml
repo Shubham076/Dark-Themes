@@ -1,7 +1,7 @@
 <scheme name="Vitesse Light Soft" version="142" parent_scheme="Default">
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2025.1.2.0.0</property>
+        <property name="ideVersion">2025.2.0.1.0.0</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="1E754F" />
@@ -270,6 +270,11 @@
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
+        <option name="DEFAULT_LINE_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="808080" />
+            </value>
+        </option>
         <option name="DEFAULT_METADATA">
             <value>
                 <option name="FOREGROUND" value="bd8f8f" />
@@ -424,7 +429,7 @@
         </option>
         <option name="JSON.PROPERTY_KEY">
             <value>
-                <option name="FOREGROUND" value="b56959" />
+                <option name="FOREGROUND" value="606060" />
             </value>
         </option>
         <option name="JSON.STRING">
@@ -474,7 +479,7 @@
         <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="YAML_SCALAR_KEY">
             <value>
-                <option name="FOREGROUND" value="2f798a" />
+                <option name="FOREGROUND" value="606060" />
             </value>
         </option>
     </attributes>
