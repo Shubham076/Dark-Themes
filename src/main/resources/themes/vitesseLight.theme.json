@@ -22,9 +22,22 @@
       "accent": "#00bcd4ff",
       "excluded": "#d3e1e8ff"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "#dadadb",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "#dadadb",
     "DefaultTabs": {
       "background": "#F1F0E9",
-      "borderColor": "#FCF5F5"
+      "borderColor": "#F1F0E9"
     },
     "ToolWindow": {
       "Header": {
@@ -41,8 +54,19 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#F1F0E9",
-      "borderColor": "#FCF5F5"
+      "background": "#F1F0E9",
+      "underTabsBorderColor": "#F1F0E9",
+
+      "underlinedTabBackground": "#D3D3D3",
+      "underlinedBorderColor": "#D3D3D3",
+
+      "inactiveUnderlinedTabBackground": "#D3D3D3",
+      "inactiveUnderlinedTabBorderColor": "#D3D3D3",
+      "hoverBackground": "#dadadb",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
       "Header.activeBackground": "#F1F0E9"
@@ -52,6 +76,12 @@
     },
     "Button": {
       "focus": "#F1F0E9"
+    },
+    "ActionButton": {
+      "hoverBackground": "#F1F0E9",
+      "hoverBorderColor": "#F1F0E9",
+      "pressedBackground": "#dadadb",
+      "pressedBorderColor": "#dadadb"
     }
   }
 }
