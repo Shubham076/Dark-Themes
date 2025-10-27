@@ -6,10 +6,6 @@
     <depends>com.intellij.modules.platform</depends>
     <resource-bundle>messages.MyBundle</resource-bundle>
 
-    <applicationListeners>
-        <listener class="com.github.shubham076.themes.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
-
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="com.github.shubham076.bluedolphin" path="/themes/blueDolphin.theme.json"/>
         <themeProvider id="com.github.shubham076.ayuMirage" path="/themes/ayuMirage.theme.json"/>
