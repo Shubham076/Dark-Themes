@@ -31,7 +31,7 @@
     "Islands": 1,
     "Island": {
       "arc": 20,
-      "borderWidth": 4,
+      "borderWidth": 7,
       "borderColor": "background",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
