@@ -1,15 +1,20 @@
 {
+  "name": "Tokyo Night Light",
   "author": "Shubham",
   "dark": false,
-  "name": "Tokyo Night Light",
   "editorScheme": "/themes/tokyoNightLight.xml",
+  "colors": {
+    "background": "#E6E7ED",
+    "selectionBackground": "#d1d2d7",
+    "hover": "#d7d8dd"
+  },
   "ui": {
     "*": {
-      "background": "#d5d6db",
+      "background": "background",
       "foreground": "#343b59",
       "highlight": "#e7e7e8ff",
-      "selectionBackground": "#fbf1c7",
-      "selectionInactiveBackground": "#fbf1c7",
+      "selectionBackground": "#d7d8dd",
+      "selectionInactiveBackground": "#d7d8dd",
       "selectionForeground": "#546e7aff",
       "button": "#f3f4f5ff",
       "secondaryBackground": "#ffffffff",
@@ -20,30 +25,62 @@
       "treeSelection": "#80cbc440",
       "notifications": "#eae8e8ff",
       "accent": "#00bcd4ff",
-      "excluded": "#fbf1c7"
+      "excluded": "#d7d8dd"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "DefaultTabs": {
-      "background": "#d5d6db",
-      "borderColor": "#1f2430"
+      "background": "background",
+      "borderColor": "background"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#d5d6db",
-      "hoverBackground": "#d5d6db"
+      "background": "background",
+      "underTabsBorderColor": "background",
 
+      "underlinedTabBackground": "selectionBackground",
+      "underlinedBorderColor": "selectionBackground",
+
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#d5d6db"
-      }
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
     "Popup": {
-      "Header.activeBackground": "#d5d6db"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#d5d6db"
     },
     "Button": {
-      "focus": "#d5d6db"
+      "focus": "background"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

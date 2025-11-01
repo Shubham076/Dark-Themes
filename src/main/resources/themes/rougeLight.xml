@@ -8,7 +8,7 @@
         <option name="ANNOTATIONS_COLOR" value="737373" />
         <option name="ANNOTATIONS_MERGED_COLOR" value="737373" />
         <option name="CARET_COLOR" value="9BCED6" />
-        <option name="CARET_ROW_COLOR" value="F0E6DC" />
+        <option name="CARET_ROW_COLOR" value="E9DFD5" />
         <option name="CONSOLE_BACKGROUND_KEY" value="F5EBE1" />
         <option name="DELETED_LINES_COLOR" value="D88989" />
         <option name="DOCUMENTATION_COLOR" value="" />
@@ -28,8 +28,7 @@
         <option name="RIGHT_MARGIN_COLOR" value="E1D8CF" />
         <option name="SELECTED_INDENT_GUIDE" value="656565" />
         <option name="SELECTED_TEARLINE_COLOR" value="" />
-        <option name="SELECTION_BACKGROUND" value="E9E7E0" />
-        <option name="SELECTION_FOREGROUND" value="76690B" />
+        <option name="SELECTION_BACKGROUND" value="E2E0D9" />
         <option name="SEPARATOR_ABOVE_COLOR" value="E1D8CF" />
         <option name="SEPARATOR_BELOW_COLOR" value="E1D8CF" />
         <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="B8B0A8" />

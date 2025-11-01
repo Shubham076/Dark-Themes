@@ -8,7 +8,8 @@
         <option name="ANNOTATIONS_COLOR" value="737373" />
         <option name="ANNOTATIONS_MERGED_COLOR" value="737373" />
         <option name="CARET_COLOR" value="808080" />
-        <option name="CARET_ROW_COLOR" value="E1D8CF" />
+        <option name="SELECTION_BACKGROUND" value="E1D8CF" />
+        <option name="CARET_ROW_COLOR" value="e8dfd5" />
         <option name="CONSOLE_BACKGROUND_KEY" value="F5EBE1" />
         <option name="DOCUMENTATION_COLOR" value="" />
         <option name="FILESTATUS_ADDED" value="C3E887" />
@@ -38,8 +39,6 @@
         <option name="RIGHT_MARGIN_COLOR" value="E1D8CF" />
         <option name="SELECTED_INDENT_GUIDE" value="656565" />
         <option name="SELECTED_TEARLINE_COLOR" value="" />
-        <option name="SELECTION_BACKGROUND" value="FCF3EA" />
-        <option name="SELECTION_FOREGROUND" value="76690B" />
         <option name="SEPARATOR_ABOVE_COLOR" value="E1D8CF" />
         <option name="SEPARATOR_BELOW_COLOR" value="E1D8CF" />
         <option name="TEARLINE_COLOR" value="656565" />

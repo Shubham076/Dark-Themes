@@ -1,7 +1,7 @@
 {
   "name": "Brackets Light",
-  "dark": false,
   "author": "Shubham Dogra",
+  "dark": false,
   "editorScheme": "/themes/bracketsLight.xml",
   "colors": {
     "borderColor": "#c5d1d7",
@@ -13,7 +13,7 @@
     "inputBackground": "#fdfeff",
     "tabHoverBackground": "#f6d4c8",
     "hoverBackground": "#d5d8e7",
-    "selectionBackground": "#b6d8e5",
+    "selectionBackground": "#D4DDE7",
     "selectionInactiveBackground": "#c3dbe5",
     "lineColor": "#ED7E5A",
     "alternateBackground": "#ED7E5A",
@@ -27,13 +27,15 @@
     "warning": "#CC9D57",
     "warningFocused": "#d09136",
     "info": "#397fb7",
-    "success": "#30a25e"
+    "success": "#30a25e",
+    "background": "#FEFEFE",
+    "hover": "#E6EDF5"
   },
   "ui": {
     "*": {
       "arc": "7",
       "foreground": "primaryForeground",
-      "background": "menuBackground",
+      "background": "background",
       "selectionForeground": "primaryForeground",
       "selectionInactiveForeground": "primaryForeground",
       "selectionBackground": "selectionBackground",
@@ -44,15 +46,22 @@
       "separatorColor": "separatorColor",
       "iconColor": "accentColor"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "Borders": {
       "color": "borderColor",
       "ContrastBorderColor": "borderColor"
-    },
-    "ActionButton": {
-      "hoverBackground": "hoverBackground",
-      "hoverBorderColor": "hoverBackground",
-      "pressedBackground": "hoverBackground",
-      "pressedBorderColor": "hoverBackground"
     },
     "Button": {
       "foreground": "primaryForeground",
@@ -107,12 +116,20 @@
       "shortcutForeground": "accentColor"
     },
     "EditorTabs": {
-      "background": "menuBackground",
-      "hoverBackground": "tabHoverBackground",
-      "underlinedTabBackground": "tabColor",
-      "inactiveUnderlineColor": "lineColor",
-      "underlineColor": "lineColor",
-      "underlineHeight": 3
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "selectionBackground",
+      "underlinedBorderColor": "selectionBackground",
+
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Label": {
       "errorForeground": "error",
@@ -160,6 +177,7 @@
       "SectionHeader": {
         "foreground": "primaryForeground"
       },
+
       "hoverBackground": "hoverBackground",
       "lightSelectionBackground": "selectionBackground",
       "Button": {
@@ -231,6 +249,7 @@
     },
     "Table": {
       "gridColor": "borderColor",
+
       "hoverBackground": "hoverBackground",
       "lightSelectionBackground": "selectionBackground"
     },
@@ -253,15 +272,16 @@
         "hoverBackground": "hoverBackground"
       },
       "Header": {
-        "background": "headerBackground",
-        "inactiveBackground": "headerBackground"
+        "background": "background",
+        "inactiveBackground": "background"
       },
       "HeaderTab": {
         "underlineColor": "lineColor",
         "underlineHeight": 3,
         "underlinedTabBackground": "tabColor",
         "underlinedTabInactiveBackground": "tabColor"
-      }
+      },
+      "background": "background"
     },
     "Tree": {
       "modifiedItemForeground": "accentColor",
@@ -312,6 +332,16 @@
           "background": "menuBackground"
         }
       }
+    },
+    "DefaultTabs": {
+      "background": "background",
+      "borderColor": "background"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   },
   "icons": {

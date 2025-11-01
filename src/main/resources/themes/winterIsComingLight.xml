@@ -11,6 +11,7 @@
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="d5d6db" />
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
         <option name="CARET_COLOR" value="4fb4d8" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="#ffffff" />
         <option name="CARET_ROW_COLOR" value="eff2ef" />
         <option name="FILESTATUS_ADDED" value="c3e887" />
         <option name="FILESTATUS_DELETED" value="f77669" />

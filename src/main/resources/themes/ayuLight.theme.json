@@ -1,11 +1,16 @@
 {
+  "name": "Ayu Light",
   "author": "Shubham",
   "dark": false,
-  "name": "Ayu Light",
   "editorScheme": "/themes/ayuLight.xml",
+  "colors": {
+    "background": "#FAFAFA",
+    "hover": "#E2F3FF",
+    "selectionBackground": "#CEE1F0"
+  },
   "ui": {
     "*": {
-      "background": "#F8F9FA",
+      "background": "background",
       "foreground": "#61676C",
       "highlight": "#e7e7e8ff",
       "selectionBackground": "#ccd7daff",
@@ -22,13 +27,38 @@
       "accent": "#00bcd4ff",
       "excluded": "#d3e1e8ff"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "DefaultTabs": {
-      "background": "#F8F9FA",
-      "borderColor": "#FCF5F5"
+      "background": "background",
+      "borderColor": "background"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#F8F9FA",
-      "borderColor": "#FCF5F5"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "selectionBackground",
+      "underlinedBorderColor": "selectionBackground",
+
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
       "Header.activeBackground": "#F8F9FA"
@@ -38,6 +68,19 @@
     },
     "Button": {
       "focus": "#F8F9FA"
+    },
+    "ToolWindow": {
+      "background": "background",
+      "Header": {
+        "background": "background",
+        "inactiveBackground": "background"
+      }
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

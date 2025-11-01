@@ -1,11 +1,16 @@
 {
+  "name": "Forest Fly Light",
   "author": "Shubham",
   "dark": false,
-  "name": "Forest Fly Light",
   "editorScheme": "/themes/forestFlyLight.xml",
+  "colors": {
+    "background": "#ECE3DB",
+    "hover": "#dfd6ce",
+    "selectionBackground": "#D9D1C9"
+  },
   "ui": {
     "*": {
-      "background": "#ECE3DB",
+      "background": "background",
       "foreground": "#585858",
       "highlight": "#e7e7e8ff",
       "selectionBackground": "#ccd7daff",
@@ -22,14 +27,29 @@
       "accent": "#00bcd4ff",
       "excluded": "#d3e1e8ff"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "DefaultTabs": {
-      "background": "#ECE3DB",
-      "borderColor": "#FCF5F5"
+      "background": "background",
+      "borderColor": "background"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#ECE3DB"
-      }
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
     "Plugins": {
       "Button": {
@@ -41,8 +61,20 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#ECE3DB",
-      "borderColor": "#FCF5F5"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "selectionBackground",
+      "underlinedBorderColor": "selectionBackground",
+
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
       "Header.activeBackground": "#ECE3DB"
@@ -52,6 +84,12 @@
     },
     "Button": {
       "focus": "#ECE3DB"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

@@ -7,7 +7,7 @@
     <option name="ADDED_LINES_COLOR" value="4C7A5D" />
     <option name="ANNOTATIONS_COLOR" value="836350" />
     <option name="CARET_COLOR" value="836350" />
-    <option name="CARET_ROW_COLOR" value="" />
+    <option name="CARET_ROW_COLOR" value="f2efe6" />
     <option name="CONSOLE_BACKGROUND_KEY" value="" />
     <option name="DELETED_LINES_COLOR" value="C14A4A" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="E4E6EB" />
@@ -61,8 +61,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="D5C4A1" />
     <option name="SELECTED_INDENT_GUIDE" value="" />
     <option name="SELECTED_TEARLINE_COLOR" value="6F9352" />
-    <option name="SELECTION_BACKGROUND" value="E6D5AE" />
-    <option name="SELECTION_FOREGROUND" value="" />
+    <option name="SELECTION_BACKGROUND" value="FFF0CC" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="A89984" />
     <option name="STICKY_LINES_HOVERED_COLOR" value="EBDBB2" />
     <option name="ScrollBar.hoverThumbColor" value="EDDEB5" />
