@@ -6,11 +6,11 @@
     <colors>
         <option name="ADDED_LINES_COLOR" value="51966b" />
         <option name="ANNOTATIONS_COLOR" value="0" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="26294d" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="26294d" />
-        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="26294d" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="222D40" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="222D40" />
+        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="222D40" />
         <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="26294d" />
+        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="222D40" />
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
         <option name="CARET_ROW_COLOR" value="313c51" />
         <option name="CONSOLE_BACKGROUND_KEY" value="222d40" />

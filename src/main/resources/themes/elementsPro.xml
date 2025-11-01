@@ -4,11 +4,11 @@
     <property name="ideVersion">2024.3.1.1.0.0</property>
   </metaInfo>
   <colors>
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1a2731" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="1a2731" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="1a2731" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="21282E" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="21282E" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="21282E" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="1a2731" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="21282E" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="CARET_COLOR" value="80a4c2" />
     <option name="CARET_ROW_COLOR" value="2f3239" />

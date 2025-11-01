@@ -1,11 +1,16 @@
 {
+  "name": "Zenburn",
   "author": "Shubham",
   "dark": true,
-  "name": "Zenburn",
   "editorScheme": "/themes/zenburn.xml",
+  "colors": {
+    "background": "#3F3F3F",
+    "selectionBackground": "#4F4F4F",
+    "hover": "#4F4F4F"
+  },
   "ui": {
     "*": {
-      "background": "#3f3f3f",
+      "background": "background",
       "foreground": "#dedede",
       "highlight": "#425b67ff",
       "selectionBackground": "#303030",
@@ -22,17 +27,45 @@
       "accent": "#009688ff",
       "excluded": "#303030"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "DefaultTabs": {
-      "background": "#3f3f3f",
-      "borderColor": "#1f2430"
+      "background": "background",
+      "borderColor": "background"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#3f3f3f"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "selectionBackground",
+      "underlinedBorderColor": "selectionBackground",
+
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#3f3f3f"
-      }
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
     "Plugins": {
       "Button": {
@@ -44,13 +77,19 @@
       }
     },
     "Popup": {
-      "Header.activeBackground": "#3f3f3f"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#3f3f3f"
     },
     "Button": {
       "focus": "#3f3f3f"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

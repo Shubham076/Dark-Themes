@@ -5,11 +5,11 @@
     </metaInfo>
     <colors>
         <option name="ANNOTATIONS_COLOR" value="0" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="262335" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="262335" />
-        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="262335" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="2C292C" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="2C292C" />
+        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="2C292C" />
         <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="262335" />
+        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="2C292C" />
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
         <option name="CONSOLE_BACKGROUND_KEY" value="2c292c" />
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="ef5350" />
@@ -33,7 +33,7 @@
         <option name="FILESTATUS_addedOutside" value="7fdbca" />
         <option name="FILESTATUS_changelistConflict" value="f78c6c" />
         <option name="FILESTATUS_modifiedOutside" value="82aaff" />
-        <option name="GUTTER_BACKGROUND" value="262335" />
+        <option name="GUTTER_BACKGROUND" value="2C292C" />
         <option name="LINE_NUMBERS_COLOR" value="bbbbbb" />
         <option name="SELECTION_BACKGROUND" value="413e4e" />
         <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />

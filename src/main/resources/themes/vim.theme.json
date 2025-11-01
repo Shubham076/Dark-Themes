@@ -1,11 +1,16 @@
 {
+  "name": "Vim Dark",
   "author": "Shubham",
   "dark": true,
-  "name": "Vim Dark",
   "editorScheme": "/themes/vim.xml",
+  "colors": {
+    "background": "#323232",
+    "selectionBackground": "#474747",
+    "hover": "#414141"
+  },
   "ui": {
     "*": {
-      "background": "#2d2d2d",
+      "background": "background",
       "foreground": "#ebdbb2",
       "highlight": "#425b67ff",
       "selectionBackground": "#424242",
@@ -22,19 +27,47 @@
       "accent": "#009688ff",
       "excluded": "#424242"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "DefaultTabs": {
-      "background": "#2d2d2d",
-      "borderColor": "#1f2430"
+      "background": "background",
+      "borderColor": "background"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#2d2d2d"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "selectionBackground",
+      "underlinedBorderColor": "selectionBackground",
+
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#2d2d2d"
-      }
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
-     "Plugins": {
+    "Plugins": {
       "Button": {
         "installBackground": "#424242",
         "updateBackground": "#424242",
@@ -44,13 +77,19 @@
       }
     },
     "Popup": {
-      "Header.activeBackground": "#2d2d2d"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#2d2d2d"
     },
     "Button": {
       "focus": "#2d2d2d"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

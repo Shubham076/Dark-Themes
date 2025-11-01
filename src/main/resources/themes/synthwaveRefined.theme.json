@@ -1,11 +1,17 @@
 {
+  "name": "Synthwave Refined",
   "author": "Shubham",
   "dark": true,
-  "name": "Synthwave Refined",
-  "editorScheme": "/themes/Synthwave Refined.xml",
+  "editorScheme": "/themes/synthwaveRefined.xml",
+  "colors": {
+    "background": "#302D3F",
+    "selectionBackground": "#413E4E",
+    "tabBackground": "#4c4959",
+    "hover": "#3F3C4F"
+  },
   "ui": {
     "*": {
-      "background": "#2b283a",
+      "background": "background",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
       "selectionBackground": "#352745",
@@ -22,12 +28,27 @@
       "accent": "#009688ff",
       "excluded": "#352745"
     },
-    "ToolWindow": {
-      "Header": {
-        "inactiveBackground": "#2b283a"
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
       }
     },
-     "Plugins": {
+    "MainWindow.background": "selectionBackground",
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
+    },
+    "Plugins": {
       "Button": {
         "installBackground": "#3d2e4f",
         "updateBackground": "#3d2e4f",
@@ -37,20 +58,39 @@
       }
     },
     "DefaultTabs": {
-      "background": "#2b283a",
-      "borderColor": "#002b3f"
+      "background": "background",
+      "borderColor": "background"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#2b283a"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "tabBackground",
+      "underlinedBorderColor": "tabBackground",
+
+      "inactiveUnderlinedTabBackground": "tabBackground",
+      "inactiveUnderlinedTabBorderColor": "tabBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "#2b283a"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#2b283a"
     },
     "Button": {
       "focus": "#2b283a"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

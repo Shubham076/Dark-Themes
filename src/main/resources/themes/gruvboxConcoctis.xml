@@ -5,12 +5,12 @@
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="25292a" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="25292a" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="25292a" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="32302F" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="32302F" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="32302F" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="25292a" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="32302F" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="ebdbb2" />
@@ -38,7 +38,7 @@
     <option name="FILESTATUS_addedOutside" value="7fdbca" />
     <option name="FILESTATUS_changelistConflict" value="f78c6c" />
     <option name="FILESTATUS_modifiedOutside" value="82aaff" />
-    <option name="GUTTER_BACKGROUND" value="25292a" />
+    <option name="GUTTER_BACKGROUND" value="32302F" />
     <option name="INDENT_GUIDE" value="343839" />
     <option name="LINE_NUMBERS_COLOR" value="ebdbb2" />
     <option name="SELECTED_INDENT_GUIDE" value="2e2f2d" />

@@ -1,15 +1,21 @@
 {
+  "name": "Cobalt 2",
   "author": "Shubham",
   "dark": true,
-  "name": "Cobalt 2",
-  "editorScheme": "/themes/Cobalt 2.xml",
+  "editorScheme": "/themes/cobalt2.xml",
+  "colors": {
+    "background": "#193549",
+    "selectionBackground": "#233f54",
+    "tabBackground": "#165496",
+    "hover": "#1F4662"
+  },
   "ui": {
     "*": {
-      "background": "#0e2b3e",
+      "background": "background",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
-      "selectionBackground": "#203544ff",
-      "selectionInactiveBackground": "#203544ff",
+      "selectionBackground": "#233f54",
+      "selectionInactiveBackground": "#233f54",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
       "secondaryBackground": "#32424aff",
@@ -20,14 +26,29 @@
       "treeSelection": "#00485c",
       "notifications": "#323232ff",
       "accent": "#009688ff",
-      "excluded": "#203544ff"
+      "excluded": "#233f54"
     },
-    "ToolWindow": {
-      "Header": {
-        "inactiveBackground": "#0e2b3e"
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
       }
     },
-     "Plugins": {
+    "MainWindow.background": "selectionBackground",
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
+    },
+    "Plugins": {
       "Button": {
         "installBackground": "#253e50ff",
         "updateBackground": "#253e50ff",
@@ -37,20 +58,39 @@
       }
     },
     "DefaultTabs": {
-      "background": "#0e2b3e",
-      "borderColor": "#002b3f"
+      "background": "background",
+      "borderColor": "background"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#0e2b3e"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "tabBackground",
+      "underlinedBorderColor": "tabBackground",
+
+      "inactiveUnderlinedTabBackground": "tabBackground",
+      "inactiveUnderlinedTabBorderColor": "tabBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "#0e2b3e"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#0e2b3e"
     },
     "Button": {
       "focus": "#0e2b3e"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

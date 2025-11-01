@@ -1,11 +1,17 @@
 {
+  "name": "Aura",
   "author": "Shubham",
   "dark": true,
-  "name": "Aura",
   "editorScheme": "/themes/Aura.xml",
+  "colors": {
+    "background": "#202948",
+    "selectionBackground": "#2f3859",
+    "tabBackground": "#394364",
+    "hover": "#2A3763"
+  },
   "ui": {
     "*": {
-      "background": "#1B2443",
+      "background": "background",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
       "selectionBackground": "#22337b",
@@ -22,14 +28,29 @@
       "accent": "#009688ff",
       "excluded": "#22337b"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "DefaultTabs": {
-      "background": "#1B2443",
-      "borderColor": "#002b3f"
+      "background": "background",
+      "borderColor": "background"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#1B2443"
-      }
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
     "Plugins": {
       "Button": {
@@ -41,16 +62,35 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#1B2443"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "tabBackground",
+      "underlinedBorderColor": "tabBackground",
+
+      "inactiveUnderlinedTabBackground": "tabBackground",
+      "inactiveUnderlinedTabBorderColor": "tabBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "#1B2443"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#1B2443"
     },
     "Button": {
       "focus": "#1B2443"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

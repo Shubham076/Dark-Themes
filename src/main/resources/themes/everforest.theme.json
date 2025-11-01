@@ -1,11 +1,17 @@
 {
+  "name": "EverForest",
   "author": "Shubham",
   "dark": true,
-  "name": "EverForest",
   "editorScheme": "/themes/everforest.xml",
+  "colors": {
+    "background": "#2D3439",
+    "selectionBackground": "#373e43",
+    "tabBackground": "#573E4C",
+    "hover": "#374247"
+  },
   "ui": {
     "*": {
-      "background": "#282f34",
+      "background": "background",
       "foreground": "#d3c6aa",
       "highlight": "#425b67ff",
       "selectionBackground": "#3e4951",
@@ -22,20 +28,48 @@
       "accent": "#009688ff",
       "excluded": "#3e4951"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "DefaultTabs": {
-      "background": "#364148",
-      "borderColor": "#364148"
+      "background": "background",
+      "borderColor": "background"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#364148"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "tabBackground",
+      "underlinedBorderColor": "tabBackground",
+
+      "inactiveUnderlinedTabBackground": "tabBackground",
+      "inactiveUnderlinedTabBorderColor": "tabBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "#364148"
+      "Header.activeBackground": "background"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#282f34"
-      }
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
     "Plugins": {
       "Button": {
@@ -51,6 +85,12 @@
     },
     "Button": {
       "focus": "#364148"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

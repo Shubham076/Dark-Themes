@@ -1,11 +1,16 @@
 {
+  "name": "Noctis Minimus",
   "author": "Shubham",
   "dark": true,
-  "name": "Noctis Minimus",
   "editorScheme": "/themes/noctisMinimus.xml",
+  "colors": {
+    "background": "#1B2932",
+    "selectionBackground": "#2A3F4C",
+    "hover": "#263E4D"
+  },
   "ui": {
     "*": {
-      "background": "#152027",
+      "background": "background",
       "foreground": "#c5cdd3",
       "highlight": "#425b67ff",
       "selectionBackground": "#273b48",
@@ -22,19 +27,47 @@
       "accent": "#009688ff",
       "excluded": "#273b48"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "DefaultTabs": {
-      "background": "#152027",
-      "borderColor": "#1d3544"
+      "background": "background",
+      "borderColor": "background"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#152027"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "selectionBackground",
+      "underlinedBorderColor": "selectionBackground",
+
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#152027"
-      }
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
-     "Plugins": {
+    "Plugins": {
       "Button": {
         "installBackground": "#2d4453",
         "updateBackground": "#2d4453",
@@ -44,13 +77,19 @@
       }
     },
     "Popup": {
-      "Header.activeBackground": "#152027"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#152027"
     },
     "Button": {
       "focus": "#152027"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

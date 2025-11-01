@@ -1,11 +1,16 @@
 {
+  "name": "Gruvbox Material",
   "author": "Shubham",
   "dark": true,
-  "name": "Gruvbox Material",
   "editorScheme": "/themes/gruvboxMaterial.xml",
+  "colors": {
+    "background": "#323030",
+    "selectionBackground": "#433E3B",
+    "hover": "#413F3F"
+  },
   "ui": {
     "*": {
-      "background": "#292828",
+      "background": "background",
       "foreground": "#d4be98",
       "highlight": "#425b67ff",
       "selectionBackground": "#3a3939",
@@ -22,19 +27,47 @@
       "accent": "#009688ff",
       "excluded": "#3a3939"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "DefaultTabs": {
-      "background": "#292828",
-      "borderColor": "#444c56"
+      "background": "background",
+      "borderColor": "background"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#292828"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "selectionBackground",
+      "underlinedBorderColor": "selectionBackground",
+
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#292828"
-      }
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
-     "Plugins": {
+    "Plugins": {
       "Button": {
         "installBackground": "#434141",
         "updateBackground": "#434141",
@@ -53,6 +86,12 @@
       "focus": "#292828",
       "background": "#292828",
       "foreground": "#adbac7"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

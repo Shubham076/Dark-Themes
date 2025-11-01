@@ -5,15 +5,15 @@
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="282828" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="282828" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="282828" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="2d2d2d" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="2d2d2d" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="2d2d2d" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="282828" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="2d2d2d" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="CARET_COLOR" value="ff4057" />
     <option name="CARET_ROW_COLOR" value="373737" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="282828" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="2d2d2d" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
     <option name="FILESTATUS_DELETED" value="f77669" />
@@ -39,7 +39,7 @@
     <option name="FILESTATUS_addedOutside" value="7fdbca" />
     <option name="FILESTATUS_changelistConflict" value="f78c6c" />
     <option name="FILESTATUS_modifiedOutside" value="82aaff" />
-    <option name="GUTTER_BACKGROUND" value="282828" />
+    <option name="GUTTER_BACKGROUND" value="2d2d2d" />
     <option name="LINE_NUMBERS_COLOR" value="ebdbb2" />
     <option name="SELECTED_INDENT_GUIDE" value="44484f" />
     <option name="SELECTION_BACKGROUND" value="504945" />
@@ -1771,7 +1771,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d4be98" />
-        <option name="BACKGROUND" value="282828" />
+        <option name="BACKGROUND" value="2d2d2d" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

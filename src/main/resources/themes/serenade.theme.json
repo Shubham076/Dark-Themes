@@ -1,11 +1,17 @@
 {
+  "name": "Serenade",
   "author": "Shubham",
   "dark": true,
-  "name": "Serenade",
   "editorScheme": "/themes/serenade.xml",
+  "colors": {
+    "background": "#2A2F33",
+    "selectionBackground": "#393e43",
+    "tabBackground": "#665C54",
+    "hover": "#393E43"
+  },
   "ui": {
     "*": {
-      "background": "#252a2e",
+      "background": "background",
       "foreground": "#d3c6aa",
       "highlight": "#665c54",
       "border": "665c54",
@@ -23,20 +29,48 @@
       "accent": "#009688ff",
       "excluded": "#3e4951"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "DefaultTabs": {
-      "background": "#252a2e",
-      "borderColor": "#364148"
+      "background": "background",
+      "borderColor": "background"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#665c54"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "tabBackground",
+      "underlinedBorderColor": "tabBackground",
+
+      "inactiveUnderlinedTabBackground": "tabBackground",
+      "inactiveUnderlinedTabBorderColor": "tabBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
       "Header.activeBackground": "#252a2e"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#252a2e"
-      }
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
     "Plugins": {
       "Button": {
@@ -52,6 +86,12 @@
     },
     "Button": {
       "focus": "#364148"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

@@ -4,15 +4,15 @@
     <property name="ideVersion">2024.3.0.0</property>
   </metaInfo>
   <colors>
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1a2731" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="1a2731" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="1a2731" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="262D33" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="262D33" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="262D33" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="1a2731" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="262D33" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="CARET_COLOR" value="d6deeb" />
     <option name="CARET_ROW_COLOR" value="2a363e" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1a2731" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="262D33" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
     <option name="FILESTATUS_DELETED" value="f77669" />
@@ -1805,7 +1805,7 @@
     <option name="YAML_SCALAR_LIST">
       <value>
         <option name="FOREGROUND" value="f78c6c" />
-        <option name="BACKGROUND" value="1a2731" />
+        <option name="BACKGROUND" value="262D33" />
       </value>
     </option>
     <option name="YAML_SCALAR_STRING">

@@ -1,11 +1,17 @@
 {
+  "name": "Embark",
   "author": "Shubham",
   "dark": true,
-  "name": "Embark",
   "editorScheme": "/themes/embark.xml",
+  "colors": {
+    "background": "#2D2B40",
+    "selectionBackground": "#37354b",
+    "tabBackground": "#585273",
+    "hover": "#3E3859"
+  },
   "ui": {
     "*": {
-      "background": "#28263a",
+      "background": "background",
       "foreground": "#CBE3E7",
       "highlight": "#425b67ff",
       "selectionBackground": "#585273",
@@ -22,10 +28,25 @@
       "accent": "#009688ff",
       "excluded": "#1a2631"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#28263a"
-      }
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
     "Plugins": {
       "Button": {
@@ -37,22 +58,39 @@
       }
     },
     "DefaultTabs": {
-      "background": "#28263a",
-      "hoverBackground": "#707a8c99",
-      "borderColor": "#1f2430"
+      "background": "background",
+      "borderColor": "background"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#28263a",
-      "borderColor" : "#1f2430"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "tabBackground",
+      "underlinedBorderColor": "tabBackground",
+
+      "inactiveUnderlinedTabBackground": "tabBackground",
+      "inactiveUnderlinedTabBorderColor": "tabBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "#28263a"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#28263a"
     },
     "Button": {
       "focus": "#28263a"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

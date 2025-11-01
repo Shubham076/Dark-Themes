@@ -1,11 +1,16 @@
 {
+  "name": "In Bed By 7",
   "author": "Shubham",
   "dark": true,
-  "name": "InBedBy7",
-  "editorScheme": "/themes/InBedBy7.xml",
+  "editorScheme": "/themes/inBedBy7.xml",
+  "colors": {
+    "background": "#2e3142",
+    "selectionBackground": "#42485F",
+    "hover": "#383B4D"
+  },
   "ui": {
     "*": {
-      "background": "#222533ff",
+      "background": "background",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
       "selectionBackground": "#373b51ff",
@@ -22,22 +27,50 @@
       "accent": "#009688ff",
       "excluded": "#373b51ff"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "DefaultTabs": {
-      "background": "#292c3d",
-      "borderColor": "#002b3f"
+      "background": "background",
+      "borderColor": "background"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#292c3d"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "selectionBackground",
+      "underlinedBorderColor": "selectionBackground",
+
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "#292c3d"
+      "Header.activeBackground": "#2e3142"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#222533ff"
-      }
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
-     "Plugins": {
+    "Plugins": {
       "Button": {
         "installBackground": "#3e425cff",
         "updateBackground": "#3e425cff",
@@ -47,10 +80,16 @@
       }
     },
     "TabbedPane": {
-      "hoverColor": "#292c3d"
+      "hoverColor": "#2e3142"
     },
     "Button": {
-      "focus": "#292c3d"
+      "focus": "#2e3142"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

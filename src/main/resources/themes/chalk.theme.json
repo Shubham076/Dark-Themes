@@ -1,11 +1,17 @@
 {
+  "name": "Chalk",
   "author": "Shubham",
   "dark": true,
-  "name": "Chalk",
   "editorScheme": "/themes/chalk.xml",
+  "colors": {
+    "background": "#2E2D2D",
+    "selectionBackground": "#433E3B",
+    "tabBackground": "#4e4946",
+    "hover": "#312E2D"
+  },
   "ui": {
     "*": {
-      "background": "#292828",
+      "background": "background",
       "foreground": "#C3C1BD",
       "highlight": "#425b67ff",
       "selectionBackground": "#3B4252",
@@ -22,14 +28,29 @@
       "accent": "#009688ff",
       "excluded": "#3B4252"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "DefaultTabs": {
-      "background": "#292828",
-      "borderColor": "#002b3f"
+      "background": "background",
+      "borderColor": "background"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#292828"
-      }
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
     "Plugins": {
       "Button": {
@@ -41,7 +62,20 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#292828"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "tabBackground",
+      "underlinedBorderColor": "tabBackground",
+
+      "inactiveUnderlinedTabBackground": "tabBackground",
+      "inactiveUnderlinedTabBorderColor": "tabBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
       "Header.activeBackground": "#292828"
@@ -51,6 +85,12 @@
     },
     "Button": {
       "focus": "#292828"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

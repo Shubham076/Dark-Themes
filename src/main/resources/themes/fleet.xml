@@ -4,15 +4,15 @@
         <property name="ideVersion">2024.3.0.0</property>
     </metaInfo>
     <colors>
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="212733" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="212733" />
-        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="212733" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="2b2b2b" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="2b2b2b" />
+        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="2b2b2b" />
         <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="212733" />
+        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="2b2b2b" />
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
         <option name="CARET_COLOR" value="d6d6dd" />
         <option name="CARET_ROW_COLOR" value="353535" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="262626" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="2b2b2b" />
         <option name="GUTTER_BACKGROUND" value="181818" />
         <option name="INDENT_GUIDE" value="353535" />
         <option name="LINE_NUMBERS_COLOR" value="d6d6dd" />
@@ -1680,7 +1680,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="d1d1d1" />
-                <option name="BACKGROUND" value="262626" />
+                <option name="BACKGROUND" value="2b2b2b" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

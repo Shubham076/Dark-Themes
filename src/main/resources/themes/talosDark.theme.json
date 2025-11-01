@@ -1,11 +1,16 @@
 {
+  "name": "Talos Dark",
   "author": "Shubham",
   "dark": true,
-  "name": "Talos Dark",
   "editorScheme": "/themes/talosDark.xml",
+  "colors": {
+    "background": "#282B35",
+    "selectionBackground": "#334252",
+    "hover": "#374247"
+  },
   "ui": {
     "*": {
-      "background": "#232630",
+      "background": "background",
       "foreground": "#cccccc",
       "highlight": "#425b67ff",
       "selectionBackground": "#2A2D3A",
@@ -22,19 +27,47 @@
       "accent": "#009688ff",
       "excluded": "#2A2D3A"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "DefaultTabs": {
-      "background": "#232630",
-      "borderColor": "#242731"
+      "background": "background",
+      "borderColor": "background"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#232630"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "selectionBackground",
+      "underlinedBorderColor": "selectionBackground",
+
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#232630"
-      }
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
-     "Plugins": {
+    "Plugins": {
       "Button": {
         "installBackground": "#323543",
         "updateBackground": "#323543",
@@ -44,13 +77,19 @@
       }
     },
     "Popup": {
-      "Header.activeBackground": "#232630"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#232630"
     },
     "Button": {
       "focus": "#232630"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

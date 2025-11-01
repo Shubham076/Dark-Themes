@@ -1,11 +1,16 @@
 {
+  "name": "Pastel Water",
   "author": "Shubham",
   "dark": true,
-  "name": "Pastel Water",
   "editorScheme": "/themes/pastelWater.xml",
+  "colors": {
+    "background": "#282A35",
+    "selectionBackground": "#3c3e4a",
+    "hover": "#2F313A"
+  },
   "ui": {
     "*": {
-      "background": "#232530",
+      "background": "background",
       "foreground": "#D0BD98",
       "highlight": "#425b67ff",
       "selectionBackground": "#314a5e",
@@ -22,10 +27,25 @@
       "accent": "#009688ff",
       "excluded": "#1a2631"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#232530"
-      }
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
     "Plugins": {
       "Button": {
@@ -37,24 +57,39 @@
       }
     },
     "DefaultTabs": {
-      "background": "#232530",
-      "hoverBackground": "#707a8c99",
-      "borderColor": "#1f2430",
-      "underlinedTabForeground": "#D0BD98"
+      "background": "background",
+      "borderColor": "background"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#232530",
-      "borderColor" : "#1f2430",
-      "underlinedTabForeground": "#D0BD98"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "selectionBackground",
+      "underlinedBorderColor": "selectionBackground",
+
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "#232530"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#232530"
     },
     "Button": {
       "focus": "#232530"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

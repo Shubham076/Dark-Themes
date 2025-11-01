@@ -1,11 +1,16 @@
 {
+  "name": "Hack The Box",
   "author": "Shubham",
   "dark": true,
-  "name": "Hack The Box",
-  "editorScheme": "/themes/Hack The Box.xml",
+  "editorScheme": "/themes/hackTheBox.xml",
+  "colors": {
+    "background": "#253042",
+    "selectionBackground": "#455065",
+    "hover": "#344052"
+  },
   "ui": {
     "*": {
-      "background": "#202b3d",
+      "background": "background",
       "foreground": "#dadbc0",
       "highlight": "#425b67ff",
       "selectionBackground": "#303d53",
@@ -23,19 +28,47 @@
       "accent": "#009688ff",
       "excluded": "#263348ff"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
+      }
+    },
+    "MainWindow.background": "selectionBackground",
     "DefaultTabs": {
-      "background": "#202b3d",
-      "borderColor": "#002b3f"
+      "background": "background",
+      "borderColor": "background"
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#303d53"
+      "background": "background",
+      "underTabsBorderColor": "background",
+
+      "underlinedTabBackground": "selectionBackground",
+      "underlinedBorderColor": "selectionBackground",
+
+      "inactiveUnderlinedTabBackground": "selectionBackground",
+      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "ToolWindow": {
       "Header": {
-        "inactiveBackground": "#202b3d"
-      }
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
-     "Plugins": {
+    "Plugins": {
       "Button": {
         "installBackground": "#2b3a54ff",
         "updateBackground": "#2b3a54ff",
@@ -45,13 +78,19 @@
       }
     },
     "Popup": {
-      "Header.activeBackground": "#202b3d"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#202b3d"
     },
     "Button": {
       "focus": "#202b3d"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

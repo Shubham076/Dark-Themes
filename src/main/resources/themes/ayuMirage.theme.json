@@ -1,14 +1,20 @@
 {
+  "name": "Ayu Mirage",
   "author": "Shubham",
   "dark": true,
-  "name": "Ayu Mirage",
-  "editorScheme": "/themes/Ayu Mirage.xml",
+  "editorScheme": "/themes/ayuMirage.xml",
+  "colors": {
+    "background": "#262c38",
+    "selectionBackground": "#293847",
+    "hover": "#2A363E"
+  },
   "ui": {
     "*": {
-      "background": "#1f2430ff",
+      "background": "background",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
       "selectionBackground": "#333b4fff",
+      "tabBackground": "#2e3d4c",
       "selectionInactiveBackground": "#333b4fff",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
@@ -22,17 +28,31 @@
       "accent": "#009688ff",
       "excluded": "#333b4fff"
     },
-    "ToolWindow": {
-      "Header": {
-        "inactiveBackground": "#1f2430ff"
+    "Islands": 1,
+    "Island": {
+      "arc": 20,
+      "borderWidth": 4,
+      "borderColor": "background",
+      "inactiveAlpha": 0.44,
+      "inactiveAlphaInStatusBar": {
+        "os.mac": 0.2,
+        "os.windows": 0.2,
+        "os.linux": 0.15
       }
     },
-    "DefaultTabs": {
-      "background": "#1f2430",
-      "hoverBackground": "#707a8c99",
-      "borderColor": "#1c222c"
+    "MainWindow.background": "selectionBackground",
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "background",
+        "background": "background"
+      },
+      "background": "background"
     },
-      "Plugins": {
+    "DefaultTabs": {
+      "background": "tabBackground",
+      "borderColor": "tabBackground"
+    },
+    "Plugins": {
       "Button": {
         "installBackground": "#3a4359ff",
         "updateBackground": "#3a4359ff",
@@ -42,17 +62,35 @@
       }
     },
     "EditorTabs": {
-      "underlinedTabBackground": "#1f2430",
-      "borderColor" : "#1c222c"
+      "background": "tabBackground",
+      "underTabsBorderColor": "tabBackground",
+
+      "underlinedTabBackground": "tabBackground",
+      "underlinedBorderColor": "tabBackground",
+
+      "inactiveUnderlinedTabBackground": "tabBackground",
+      "inactiveUnderlinedTabBorderColor": "tabBackground",
+
+      "hoverBackground": "hover",
+
+      "tabInsets": "-6,8,-6,8",
+      "tabInsets.compact": "-2,6,-2,4",
+      "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "#1f2430"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#1f2430"
     },
     "Button": {
       "focus": "#1f2430"
+    },
+    "ActionButton": {
+      "hoverBackground": "hover",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
     }
   }
 }

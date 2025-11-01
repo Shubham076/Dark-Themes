@@ -5,11 +5,11 @@
     </metaInfo>
     <colors>
         <option name="ANNOTATIONS_COLOR" value="0" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="262335" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="262335" />
-        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="262335" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="2B2A29" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="2B2A29" />
+        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="2B2A29" />
         <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="262335" />
+        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="2B2A29" />
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
         <option name="CONSOLE_BACKGROUND_KEY" value="2b2a29" />
         <option name="GUTTER_BACKGROUND" value="181716" />
