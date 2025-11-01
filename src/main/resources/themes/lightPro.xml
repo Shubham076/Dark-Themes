@@ -14,6 +14,9 @@
         <option name="DIFF_SEPARATORS_TOP_BORDER" value="171717" />
         <option name="DOCUMENTATION_COLOR" value="FFFFFF" />
         <option name="DOC_COMMENT_GUIDE" value="D0D0D0" />
+        <option name="FILESTATUS_MODIFIED" value="007C7C" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="007C7C" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="007C7C" />
         <option name="FILESTATUS_modifiedOutside" value="0095B3" />
         <option name="GUTTER_BACKGROUND" value="FAFAFA" />
         <option name="INDENT_GUIDE" value="F7F7F7" />

@@ -14,6 +14,9 @@
         <option name="EDITOR_GUTTER_BACKGROUND" value="edf3f5" />
         <option name="ERROR_HINT" value="ffdcdc" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
+        <option name="FILESTATUS_MODIFIED" value="007C7C" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="007C7C" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="007C7C" />
         <option name="GUTTER_BACKGROUND" value="fefefe" />
         <option name="INDENT_GUIDE" value="dde7f6" />
         <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="" />

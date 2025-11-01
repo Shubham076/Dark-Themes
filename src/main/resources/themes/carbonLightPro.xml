@@ -13,6 +13,9 @@
     <option name="CARET_ROW_COLOR" value="eee8d5" />
     <option name="CONSOLE_BACKGROUND_KEY" value="fdf6e3" />
     <option name="DOCUMENTATION_COLOR" value="eee8d5" />
+    <option name="FILESTATUS_MODIFIED" value="007C7C" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="007C7C" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="007C7C" />
     <option name="GUTTER_BACKGROUND" value="fdf6e3" />
     <option name="INDENT_GUIDE" value="eee8d5" />
     <option name="INFORMATION_HINT" value="eee8d5" />
@@ -21,8 +24,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="93a1a1" />
     <option name="SELECTED_INDENT_GUIDE" value="eee8d5" />
     <option name="SELECTED_TEARLINE_COLOR" value="586e75" />
-    <option name="SELECTION_BACKGROUND" value="f5efdc" />
-    <option name="SELECTION_FOREGROUND" value="839496" />
+    <option name="SELECTION_BACKGROUND" value="e8e2cf" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="93a1a1" />
     <option name="TEARLINE_COLOR" value="93a1a1" />
     <option name="WHITESPACES" value="93a1a1" />

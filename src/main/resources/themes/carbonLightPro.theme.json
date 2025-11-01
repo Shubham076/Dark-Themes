@@ -6,7 +6,7 @@
   "colors": {
     "background": "#FDF6E3",
     "hover": "#EEE8D5",
-    "selectionBackground": "#F5EFDC"
+    "selectionBackground": "#e8e2cf"
   },
   "ui": {
     "*": {

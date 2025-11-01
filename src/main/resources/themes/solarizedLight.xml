@@ -6,6 +6,9 @@
   <colors>
     <option name="CARET_ROW_COLOR" value="E4EBF2" />
     <option name="CONSOLE_BACKGROUND_KEY" value="F8F6F2" />
+    <option name="FILESTATUS_MODIFIED" value="007C7C" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="007C7C" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="007C7C" />
     <option name="GUTTER_BACKGROUND" value="F8F6F2" />
     <option name="INDENT_GUIDE" value="F1DAC0" />
     <option name="LINE_NUMBERS_COLOR" value="707080" />

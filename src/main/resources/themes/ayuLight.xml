@@ -7,6 +7,9 @@
         <option name="CARET_COLOR" value="d68c67" />
         <option name="CARET_ROW_COLOR" value="e2f3ff" />
         <option name="CONSOLE_BACKGROUND_KEY" value="fafafa" />
+        <option name="FILESTATUS_MODIFIED" value="007C7C" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="007C7C" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="007C7C" />
         <option name="GUTTER_BACKGROUND" value="fafafa" />
         <option name="INDENT_GUIDE" value="d9dbdd" />
         <option name="LINE_NUMBERS_COLOR" value="61676c" />
