@@ -118,15 +118,11 @@
     "EditorTabs": {
       "background": "background",
       "underTabsBorderColor": "background",
-
       "underlinedTabBackground": "selectionBackground",
       "underlinedBorderColor": "selectionBackground",
-
       "inactiveUnderlinedTabBackground": "selectionBackground",
       "inactiveUnderlinedTabBorderColor": "selectionBackground",
-
       "hoverBackground": "hover",
-
       "tabInsets": "-6,8,-6,8",
       "tabInsets.compact": "-2,6,-2,4",
       "tabContentActionsRightInsets": "0,2,0,2"
@@ -177,7 +173,6 @@
       "SectionHeader": {
         "foreground": "primaryForeground"
       },
-
       "hoverBackground": "hoverBackground",
       "lightSelectionBackground": "selectionBackground",
       "Button": {
@@ -249,7 +244,6 @@
     },
     "Table": {
       "gridColor": "borderColor",
-
       "hoverBackground": "hoverBackground",
       "lightSelectionBackground": "selectionBackground"
     },
@@ -342,6 +336,9 @@
       "hoverBorderColor": "background",
       "pressedBackground": "background",
       "pressedBorderColor": "background"
+    },
+    "RunWidget": {
+      "iconColor": "primaryForeground"
     }
   },
   "icons": {

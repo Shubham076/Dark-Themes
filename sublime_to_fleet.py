@@ -250,17 +250,18 @@ class SublimeToFleetConverter:
     
     def create_colors_from_globals(self, globals_dict: Dict[str, str], 
                                    variables: Dict[str, str], 
-                                   palette: Dict[str, str]) -> Dict[str, str]:
+                                   palette: Dict[str, str],
+                                   theme_kind: str = "Dark") -> Dict[str, str]:
         """Create Fleet colors section from Sublime globals - using ONLY palette colors."""
         colors = {}
-        
+
         # Get resolved colors
         background = self.resolve_color_var(globals_dict.get('background', ''), variables)
         foreground = self.resolve_color_var(globals_dict.get('foreground', ''), variables)
         selection = self.resolve_color_var(globals_dict.get('selection', ''), variables)
         line_highlight = self.resolve_color_var(globals_dict.get('line_highlight', ''), variables)
         caret = self.resolve_color_var(globals_dict.get('caret', ''), variables)
-        
+
         # Smart palette lookup with fallbacks
         def get_palette_color(preferred_names: List[str], fallback: str = 'Text') -> str:
             """Get first available color from preferred names, or fallback."""
@@ -268,7 +269,7 @@ class SublimeToFleetConverter:
                 if name in palette:
                     return name
             return fallback if fallback in palette else list(palette.keys())[0]
-        
+
         # Find exact palette match for a color value
         def find_palette_name(color: str, fallback: str = 'Text') -> str:
             if not color:
@@ -278,25 +279,25 @@ class SublimeToFleetConverter:
                 if self.normalize_color(palette_color) == color:
                     return name
             return fallback
-        
+
         # Define common colors early
         bg = get_palette_color(['Base', 'Text'])
         text_color = get_palette_color(['Text', 'Variable'])
-        
+
         # === Core Editor Colors ===
         colors['editor.text'] = text_color
         colors['editor.caret.background'] = text_color
         colors['editor.whitespace.text'] = get_palette_color(['Comment', 'GutterFg', 'Text'])
-        
+
         # Line highlighting
         line_hl = find_palette_name(line_highlight, 'LineHighlight')
         colors['editor.currentLine.background.default'] = line_hl
         colors['editor.currentLine.background.focused'] = line_hl
-        
+
         # Line numbers
         colors['editor.lineNumber.default'] = get_palette_color(['GutterFg', 'Comment', 'Text'])
         colors['editor.lineNumber.current'] = get_palette_color(['Keyword', 'Purple', 'Blue', 'Text'])
-        
+
         # Editor folding and interline (IMPORTANT for panels/terminal area)
         colors['editor.foldedMark.background'] = get_palette_color(['Mantle', 'Base'])
         colors['editor.foldedMark.text'] = text_color
@@ -310,7 +311,7 @@ class SublimeToFleetConverter:
         colors['editor.interline.match.text.secondary'] = text_color
         colors['editor.interline.preview.background'] = bg
         colors['editor.interline.preview.border'] = 'Transparent'
-        
+
         # === Background Colors ===
         # Use selection color for background.primary
         sel = find_palette_name(selection, 'Selection')
@@ -319,14 +320,14 @@ class SublimeToFleetConverter:
         colors['island.background'] = bg
         colors['background.hovered'] = get_palette_color(['LineHighlight', 'Selection', 'Base'])
         colors['background.selected'] = get_palette_color(['Selection', 'LineHighlight', 'Base'])
-        
+
         # Selection is handled in textAttributes, not colors
-        
+
         # === Borders ===
         colors['border'] = bg
         colors['border.focused'] = get_palette_color(['Keyword', 'Purple', 'Blue', 'Function'])
         colors['shadow.border'] = get_palette_color(['Mantle', 'Base'])
-        
+
         # === Text Colors ===
         colors['text.default'] = text_color
         colors['text.primary'] = text_color
@@ -335,28 +336,38 @@ class SublimeToFleetConverter:
         colors['text.disabled'] = get_palette_color(['Comment', 'GutterFg', 'Text'])
         colors['text.bright'] = text_color
         colors['text.dangerous'] = get_palette_color(['Red', 'Operator', 'Keyword'])
-        
+
         # === Git Diff Colors ===
-        # Use actual diff colors from palette or defaults
+        # Use actual diff colors from palette or defaults for background
         colors['editor.gitDiff.background.added'] = get_palette_color(['DiffInserted', 'Green', 'String'])
-        colors['editor.gitDiff.text.added'] = get_palette_color(['DiffInserted', 'Green', 'String'])
         colors['editor.gitDiff.background.deleted'] = get_palette_color(['DiffDeleted', 'Red', 'Operator'])
-        colors['editor.gitDiff.text.deleted'] = get_palette_color(['DiffDeleted', 'Red', 'Operator'])
         colors['editor.gitDiff.background.modified'] = get_palette_color(['DiffModified', 'Blue', 'Function'])
-        colors['editor.gitDiff.text.modified'] = get_palette_color(['DiffModified', 'Blue', 'Function'])
         colors['editor.gitDiff.background.conflict'] = get_palette_color(['DiffDeleted', 'Red', 'Operator'])
-        colors['editor.gitDiff.text.conflict'] = get_palette_color(['DiffDeleted', 'Red', 'Operator'])
-        
+
+        # Use specific hex values for text colors based on theme kind
+        if theme_kind == "Light":
+            # Light theme colors from Atom One Light
+            colors['editor.gitDiff.text.added'] = "#50A14F"    # Green
+            colors['editor.gitDiff.text.conflict'] = "#DC1212"  # Error (Red)
+            colors['editor.gitDiff.text.deleted'] = "#E45649"   # Coral
+            colors['editor.gitDiff.text.modified'] = "#C18401"  # Orange
+        else:
+            # Dark theme colors from Fleet Dark
+            colors['editor.gitDiff.text.added'] = "#3EA17F"    # Green
+            colors['editor.gitDiff.text.conflict'] = "#FAD075"  # Yellow
+            colors['editor.gitDiff.text.deleted'] = "#EB4056"   # Red
+            colors['editor.gitDiff.text.modified'] = "#F8AB17"  # Orange/Yellow
+
         # === Links ===
         colors['link.focusOutline'] = get_palette_color(['Blue', 'Cyan', 'Function'])
         colors['link.text'] = get_palette_color(['Blue', 'Cyan', 'Function', 'Documentation'])
-        
+
         # === Search & Completion ===
         colors['completion.match.background'] = 'Transparent'
         colors['completion.match.text'] = get_palette_color(['Orange', 'Yellow', 'Constant'])
         colors['search.match.background'] = get_palette_color(['Yellow', 'Orange', 'Selection'])
         colors['search.match.text'] = get_palette_color(['Base', 'Text'])
-        
+
         # === Popups & Tooltips ===
         popup_bg = get_palette_color(['Mantle', 'Base'])
         colors['popup.background'] = popup_bg
@@ -377,7 +388,7 @@ class SublimeToFleetConverter:
         colors['notification.separator'] = get_palette_color(['Mantle', 'Base'])
         colors['notification.text'] = text_color
         colors['notification.timestamp'] = text_color
-        
+
         # === AI Properties ===
         colors['ai.snippet.border'] = 'Transparent'
         colors['ai.snippet.header.background'] = get_palette_color(['Mantle', 'Base'])
@@ -388,7 +399,7 @@ class SublimeToFleetConverter:
         colors['ai.user.icon.background'] = get_palette_color(['Blue', 'Cyan', 'Function'])
         colors['ai.user.icon.background.secondary'] = get_palette_color(['Selection', 'LineHighlight'])
         colors['ai.error.border'] = get_palette_color(['Red', 'Operator'])
-        
+
         # === List Items (for popup menus) ===
         colors['listItem.text.default'] = text_color
         colors['listItem.text.hovered'] = text_color
@@ -404,13 +415,13 @@ class SublimeToFleetConverter:
         colors['listItem.background.focused'] = get_palette_color(['Selection', 'LineHighlight'])
         colors['listItem.background.selected'] = get_palette_color(['Selection', 'LineHighlight'])
         colors['listItem.background.dnd'] = get_palette_color(['Selection', 'LineHighlight'])
-        
+
         # === Tree (file explorer) ===
         colors['tree.focusBorder'] = get_palette_color(['Keyword', 'Purple', 'Blue'])
         colors['tree.compactFolder.selector.default'] = text_color
         colors['tree.compactFolder.selector.focused'] = text_color
         colors['tree.compactFolder.separator'] = get_palette_color(['Comment', 'GutterFg'])
-        
+
         # === Tabs ===
         # Use selection color for better contrast in editor tabs (no borders)
         colors['tab.background.default'] = 'Transparent'
@@ -422,7 +433,7 @@ class SublimeToFleetConverter:
         colors['tab.border.selected'] = 'Transparent'
         colors['tab.border.selectedFocused'] = 'Transparent'
         colors['tab.text'] = text_color
-        
+
         # === Terminal ===
         # Terminal background = editor background (Base)
         colors['terminal.background'] = bg
@@ -445,7 +456,7 @@ class SublimeToFleetConverter:
         colors['terminal.ansiColors.foreground.ansiCyan'] = get_palette_color(['Cyan', 'Blue'])
         colors['terminal.ansiColors.background.ansiWhite'] = text_color
         colors['terminal.ansiColors.foreground.ansiWhite'] = text_color
-        
+
         # Bright ANSI colors (ansiBrightWhite controls terminal background!)
         colors['terminal.ansiColors.background.ansiBrightBlack'] = get_palette_color(['LineHighlight', 'Selection'])
         colors['terminal.ansiColors.foreground.ansiBrightBlack'] = get_palette_color(['Comment', 'GutterFg'])
@@ -463,7 +474,7 @@ class SublimeToFleetConverter:
         colors['terminal.ansiColors.foreground.ansiBrightCyan'] = get_palette_color(['Cyan', 'Blue'])
         colors['terminal.ansiColors.background.ansiBrightWhite'] = bg  # Editor background for terminal
         colors['terminal.ansiColors.foreground.ansiBrightWhite'] = text_color
-        
+
         # === Buttons ===
         # Regular buttons
         colors['button.background.default'] = get_palette_color(['LineHighlight', 'Selection'])
@@ -473,33 +484,33 @@ class SublimeToFleetConverter:
         colors['button.border.default'] = get_palette_color(['Selection', 'LineHighlight'])
         colors['button.focusBorder'] = 'Transparent'
         colors['button.focusOutline'] = 'Transparent'
-        
+
         # Secondary buttons
         colors['button.secondary.background.default'] = get_palette_color(['LineHighlight', 'Selection'])
         colors['button.secondary.background.hovered'] = get_palette_color(['Selection', 'LineHighlight'])
         colors['button.secondary.text.default'] = text_color
         colors['button.secondary.text.hovered'] = text_color
         colors['button.secondary.border.default'] = 'Transparent'
-        
+
         # Tile buttons (like Git Pull)
         colors['button.tile.background.default'] = get_palette_color(['Mantle', 'LineHighlight', 'Base'])
         colors['button.tile.background.hovered'] = get_palette_color(['LineHighlight', 'Selection'])
         colors['button.tile.text.default'] = text_color
         colors['button.tile.text.hovered'] = text_color
         colors['button.tile.border.default'] = 'Transparent'
-        
+
         # === Misc UI ===
         colors['disabled'] = 'Transparent'
         colors['focusOutline'] = get_palette_color(['Keyword', 'Purple', 'Blue'])
-        
+
         return colors
-    
+
     def map_scope_to_fleet(self, scope: str) -> Optional[str]:
         """Map a Sublime scope to a Fleet semantic identifier."""
         # Try exact match first
         if scope in self.scope_to_fleet_mapping:
             return self.scope_to_fleet_mapping[scope]
-        
+
         # Try partial matches (longer matches first)
         scopes = scope.split(',')
         for s in scopes:
@@ -510,16 +521,16 @@ class SublimeToFleetConverter:
                 prefix = '.'.join(parts[:i])
                 if prefix in self.scope_to_fleet_mapping:
                     return self.scope_to_fleet_mapping[prefix]
-        
+
         return None
-    
-    def create_text_attributes(self, rules: List[Dict], variables: Dict[str, str], 
+
+    def create_text_attributes(self, rules: List[Dict], variables: Dict[str, str],
                                palette: Dict[str, str], globals_dict: Dict[str, str] = None) -> Dict[str, Dict]:
         """Create Fleet textAttributes from Sublime rules - using ONLY palette colors."""
         text_attributes = {}
         if globals_dict is None:
             globals_dict = {}
-        
+
         # Smart palette lookup with fallbacks
         def get_palette_color(preferred_names: List[str], fallback: str = 'Text') -> str:
             """Get first available color from preferred names, or fallback."""
@@ -527,7 +538,7 @@ class SublimeToFleetConverter:
                 if name in palette:
                     return name
             return fallback if fallback in palette else list(palette.keys())[0]
-        
+
         # Find palette name for a color value
         def find_palette_name(color: str, fallback: str = 'Text') -> str:
             if not color:
@@ -538,10 +549,10 @@ class SublimeToFleetConverter:
                     return name
             # If not found, don't return the hex - return fallback
             return get_palette_color([fallback], 'Text')
-        
+
         # Add all common text attributes directly (based on Fleet.json structure)
         # No need to process rules - just define what we need
-        
+
         # Comments
         text_attributes['comment'] = {
             'foregroundColor': get_palette_color(['Comment', 'GutterFg'], 'Text'),
@@ -553,7 +564,7 @@ class SublimeToFleetConverter:
         text_attributes['comment.doc.tag'] = {
             'foregroundColor': get_palette_color(['Annotation', 'Documentation', 'Comment'], 'Text')
         }
-        
+
         # Keywords
         text_attributes['keyword'] = {
             'foregroundColor': get_palette_color(['Keyword', 'Purple', 'Blue'], 'Text')
@@ -564,7 +575,7 @@ class SublimeToFleetConverter:
         text_attributes['keyword.typeModifier'] = {
             'foregroundColor': get_palette_color(['Storage', 'Yellow', 'Blue'], 'Text')
         }
-        
+
         # Strings
         text_attributes['string'] = {
             'foregroundColor': get_palette_color(['String', 'Green', 'Constant'], 'Text')
@@ -572,7 +583,7 @@ class SublimeToFleetConverter:
         text_attributes['string.regexp'] = {
             'foregroundColor': get_palette_color(['String', 'Green'], 'Text')
         }
-        
+
         # Numbers and constants
         text_attributes['number'] = {
             'foregroundColor': get_palette_color(['Constant', 'Orange', 'Yellow'], 'Text')
@@ -580,7 +591,7 @@ class SublimeToFleetConverter:
         text_attributes['boolean'] = {
             'foregroundColor': get_palette_color(['Keyword', 'Purple', 'Constant'], 'Text')
         }
-        
+
         # Identifiers
         text_attributes['identifier'] = {
             'foregroundColor': get_palette_color(['Variable', 'Text'], 'Text')
@@ -621,7 +632,7 @@ class SublimeToFleetConverter:
         text_attributes['identifier.field'] = {
             'foregroundColor': get_palette_color(['Variable', 'Text'], 'Text')
         }
-        
+
         # Operators and punctuation
         text_attributes['punctuation'] = {
             'foregroundColor': get_palette_color(['Operator', 'Cyan', 'Text'], 'Text')
@@ -629,7 +640,7 @@ class SublimeToFleetConverter:
         text_attributes['punctuation.operator'] = {
             'foregroundColor': get_palette_color(['Operator', 'Cyan', 'Keyword'], 'Text')
         }
-        
+
         # HTML/XML
         text_attributes['tagName.html'] = {
             'foregroundColor': get_palette_color(['Tag', 'Red', 'Keyword'], 'Text')
@@ -641,12 +652,12 @@ class SublimeToFleetConverter:
         text_attributes['attributeName.html'] = {
             'foregroundColor': get_palette_color(['Annotation', 'Yellow', 'Function'], 'Text')
         }
-        
+
         # JSON
         text_attributes['json.keys'] = {
             'foregroundColor': get_palette_color(['Text', 'Variable'], 'Text')
         }
-        
+
         # Markup
         text_attributes['markup.bold'] = {
             'fontModifier': {'bold': True}
@@ -658,18 +669,18 @@ class SublimeToFleetConverter:
             'foregroundColor': get_palette_color(['Keyword', 'Purple', 'Blue'], 'Text'),
             'fontModifier': {'bold': True}
         }
-        
+
         # Links
         text_attributes['link'] = {
             'foregroundColor': get_palette_color(['Blue', 'Cyan', 'Function'], 'Text')
         }
-        
+
         # Regions (for highlighting)
         for color in ['red', 'blue', 'orange', 'yellow', 'green', 'purple', 'pink']:
             text_attributes[f'region.{color}.color'] = {
                 'backgroundColor': get_palette_color(['Base'], 'Base')
             }
-        
+
         # LSP diagnostics
         text_attributes['lsp.info.color'] = {
             'foregroundColor': get_palette_color(['Blue', 'Function'], 'Text'),
@@ -687,14 +698,14 @@ class SublimeToFleetConverter:
             'foregroundColor': get_palette_color(['Red', 'Operator'], 'Text'),
             'backgroundColor': get_palette_color(['Base'], 'Base')
         }
-        
+
         # Add editor selection (CRITICAL for Fleet) - must be in textAttributes
         selection_color = globals_dict.get('selection', '')
         if selection_color:
             sel_resolved = find_palette_name(self.resolve_color_var(selection_color, variables), 'Selection')
         else:
             sel_resolved = get_palette_color(['Selection', 'LineHighlight', 'Base'])
-        
+
         if 'editor.selection' not in text_attributes:
             text_attributes['editor.selection'] = {
                 'backgroundColor': sel_resolved
@@ -703,14 +714,14 @@ class SublimeToFleetConverter:
             text_attributes['editor.selection.focused'] = {
                 'backgroundColor': sel_resolved
             }
-        
+
         # Add indentation guides using selection color
         selection_color = globals_dict.get('selection', '')
         if selection_color:
             indent_guide_color = find_palette_name(self.resolve_color_var(selection_color, variables), 'Selection')
         else:
             indent_guide_color = get_palette_color(['Selection', 'LineHighlight', 'Base'])
-        
+
         if 'editor.indentGuide' not in text_attributes:
             text_attributes['editor.indentGuide'] = {
                 'foregroundColor': indent_guide_color
@@ -719,12 +730,18 @@ class SublimeToFleetConverter:
             text_attributes['editor.indentGuide.current'] = {
                 'foregroundColor': indent_guide_color
             }
-        
+
+        # Add bracket matching background using selection color
+        if 'editor.brace.match' not in text_attributes:
+            text_attributes['editor.brace.match'] = {
+                'backgroundColor': sel_resolved
+            }
+
         # Add only the required diff properties
         deleted_color = get_palette_color(['DiffDeleted', 'Red'])
         added_color = get_palette_color(['DiffInserted', 'Green'])
         modified_color = get_palette_color(['DiffModified', 'Blue'])
-        
+
         # Only add the 6 required diff properties
         text_attributes['diff.added'] = {
             'backgroundColor': added_color
@@ -744,9 +761,9 @@ class SublimeToFleetConverter:
         text_attributes['diff.modified.word'] = {
             'backgroundColor': modified_color
         }
-        
+
         return text_attributes
-    
+
     def convert(self, sublime_theme: Dict) -> Dict:
         """Convert a Sublime theme to Fleet format."""
         # Extract components
@@ -754,14 +771,14 @@ class SublimeToFleetConverter:
         variables = sublime_theme.get('variables', {})
         globals_dict = sublime_theme.get('globals', {})
         rules = sublime_theme.get('rules', [])
-        
+
         # Create palette
         palette = self.create_palette_from_variables(variables)
-        
+
         # Determine theme kind
         background = self.resolve_color_var(globals_dict.get('background', ''), variables)
         theme_kind = self.determine_theme_kind(background)
-        
+
         # Create Fleet theme
         fleet_theme = {
             'meta': {
@@ -769,7 +786,7 @@ class SublimeToFleetConverter:
                 'theme.kind': theme_kind,
                 'theme.version': 1
             },
-            'colors': self.create_colors_from_globals(globals_dict, variables, palette),
+            'colors': self.create_colors_from_globals(globals_dict, variables, palette, theme_kind),
             'textAttributes': self.create_text_attributes(rules, variables, palette, globals_dict),
             'palette': palette
         }

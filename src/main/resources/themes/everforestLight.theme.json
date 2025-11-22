@@ -90,6 +90,9 @@
       "hoverBorderColor": "background",
       "pressedBackground": "background",
       "pressedBorderColor": "background"
+    },
+    "RunWidget": {
+      "iconColor": "#6C707E"
     }
   }
 }

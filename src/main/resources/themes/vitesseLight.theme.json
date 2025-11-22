@@ -56,14 +56,11 @@
     "EditorTabs": {
       "background": "#F1F0E9",
       "underTabsBorderColor": "#F1F0E9",
-
       "underlinedTabBackground": "#D3D3D3",
       "underlinedBorderColor": "#D3D3D3",
-
       "inactiveUnderlinedTabBackground": "#D3D3D3",
       "inactiveUnderlinedTabBorderColor": "#D3D3D3",
       "hoverBackground": "#dadadb",
-
       "tabInsets": "-6,8,-6,8",
       "tabInsets.compact": "-2,6,-2,4",
       "tabContentActionsRightInsets": "0,2,0,2"
@@ -82,6 +79,9 @@
       "hoverBorderColor": "#F1F0E9",
       "pressedBackground": "#dadadb",
       "pressedBorderColor": "#dadadb"
+    },
+    "RunWidget": {
+      "iconColor": "#606060"
     }
   }
 }
