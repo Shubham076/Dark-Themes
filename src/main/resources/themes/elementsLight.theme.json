@@ -6,7 +6,9 @@
   "colors": {
     "background": "#EAECF0",
     "hover": "#DCE2ED",
-    "selectionBackground": "#D5DBE7"
+    "selectionBackground": "#D5DBE7",
+    "focusedColor": "#bfbfbf",
+    "borderTransparent": "#00000000"
   },
   "ui": {
     "*": {
@@ -30,7 +32,7 @@
     "Islands": 1,
     "Island": {
       "arc": 20,
-      "borderWidth": 4,
+      "borderWidth": 8,
       "borderColor": "background",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
@@ -82,13 +84,23 @@
       "focus": "#EAECF0"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "focusedColor",
+      "hoverBorderColor": "borderTransparent",
+      "pressedBackground": "focusedColor",
+      "pressedBorderColor": "borderTransparent",
+      "focusedBorderColor": "borderTransparent",
+      "hoverSeparatorColor": "focusedColor"
     },
     "RunWidget": {
-      "iconColor": "#565E70"
+      "iconColor": "#565E70",
+      "foreground": "#000000",
+      "runningBackground": "#369650",
+      "stopBackground": "#E55765",
+      "hoverBackground": "#00000022",
+      "pressedBackground": "#00000028",
+      "runIconColor": "#369650",
+      "stopIconColor": "#FFFFFF",
+      "runningIconColor": "#FFFFFF"
     }
   }
 }

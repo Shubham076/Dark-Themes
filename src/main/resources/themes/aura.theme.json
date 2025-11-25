@@ -7,14 +7,15 @@
     "background": "#202948",
     "selectionBackground": "#2f3859",
     "tabBackground": "#394364",
-    "hover": "#2A3763"
+    "focusedColor": "#435460",
+    "borderTransparent": "#00000000"
   },
   "ui": {
     "*": {
       "background": "background",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
-      "selectionBackground": "#22337b",
+      "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "#22337b",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
@@ -24,7 +25,7 @@
       "tableSelected": "#314549ff",
       "secondBorder": "#2a373eff",
       "treeSelection": "#00485c",
-      "notifications": "#323232ff",
+      "notifications": "selectionBackground",
       "accent": "#009688ff",
       "excluded": "#22337b"
     },
@@ -78,7 +79,13 @@
       "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "background"
+      "Header.activeBackground": "selectionBackground",
+      "background": "selectionBackground",
+      "borderColor": "selectionBackground"
+    },
+    "List": {
+      "background": "selectionBackground",
+      "selectionBackground": "focusedColor"
     },
     "TabbedPane": {
       "hoverColor": "#1B2443"
@@ -87,10 +94,28 @@
       "focus": "#1B2443"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "focusedColor",
+      "hoverBorderColor": "borderTransparent",
+      "pressedBackground": "focusedColor",
+      "pressedBorderColor": "borderTransparent",
+      "focusedBorderColor": "borderTransparent",
+      "hoverSeparatorColor": "focusedColor"
+    },
+    "ToolTip": {
+      "background": "selectionBackground",
+      "borderColor": "selectionBackground"
+    },
+    "Notification": {
+      "background": "selectionBackground",
+      "borderColor": "selectionBackground"
+    },
+    "EditorNotificationBar": {
+      "background": "selectionBackground",
+      "borderColor": "selectionBackground"
+    },
+    "SuggestedPluginNotification": {
+      "background": "selectionBackground",
+      "borderColor": "selectionBackground"
     }
   }
 }

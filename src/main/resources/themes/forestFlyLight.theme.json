@@ -95,7 +95,15 @@
       "pressedBorderColor": "background"
     },
     "RunWidget": {
-      "iconColor": "#585858"
+      "iconColor": "#565E70",
+      "foreground": "#000000",
+      "runningBackground": "#369650",
+      "stopBackground": "#E55765",
+      "hoverBackground": "#00000022",
+      "pressedBackground": "#00000028",
+      "runIconColor": "#369650",
+      "stopIconColor": "#FFFFFF",
+      "runningIconColor": "#FFFFFF"
     }
   }
 }
