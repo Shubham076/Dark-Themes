@@ -1,48 +1,48 @@
 <scheme name="Brackets Light" version="142" parent_scheme="Default">
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2024.2.2.1.0.0</property>
+        <property name="ideVersion">2025.2.4.0.0</property>
     </metaInfo>
     <colors>
-        <option name="BREADCRUMBS_BORDER_COLOR" value="c5d1d7" />
+        <option name="BREADCRUMBS_BORDER_COLOR" value="C5D1D7" />
         <option name="CARET_COLOR" value="467196" />
-        <option name="CARET_ROW_COLOR" value="e6edf5" />
-        <option name="DIFF_SEPARATORS_BACKGROUND" value="efefef" />
+        <option name="CARET_ROW_COLOR" value="E6EDF5" />
+        <option name="DIFF_SEPARATORS_BACKGROUND" value="EFEFEF" />
         <option name="DOCUMENTATION_COLOR" value="" />
         <option name="DOC_COMMENT_GUIDE" value="" />
-        <option name="DOC_COMMENT_LINK" value="6e828f" />
-        <option name="EDITOR_GUTTER_BACKGROUND" value="edf3f5" />
-        <option name="ERROR_HINT" value="ffdcdc" />
-        <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
+        <option name="DOC_COMMENT_LINK" value="6E828F" />
+        <option name="EDITOR_GUTTER_BACKGROUND" value="EDF3F5" />
+        <option name="ERROR_HINT" value="FFDCDC" />
         <option name="FILESTATUS_MODIFIED" value="007C7C" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="007C7C" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="007C7C" />
-        <option name="GUTTER_BACKGROUND" value="fefefe" />
-        <option name="INDENT_GUIDE" value="dde7f6" />
+        <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
+        <option name="GUTTER_BACKGROUND" value="FEFEFE" />
+        <option name="INDENT_GUIDE" value="DDE7F6" />
         <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="" />
         <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="" />
         <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="" />
-        <option name="LINE_NUMBERS_COLOR" value="7d9aa6" />
+        <option name="LINE_NUMBERS_COLOR" value="7D9AA6" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="114156" />
         <option name="LOOKUP_COLOR" value="" />
-        <option name="METHOD_SEPARATORS_COLOR" value="c5d1d7" />
+        <option name="METHOD_SEPARATORS_COLOR" value="C5D1D7" />
         <option name="MODIFIED_TAB_ICON" value="" />
-        <option name="NOTIFICATION_BACKGROUND" value="fcfdfe" />
+        <option name="NOTIFICATION_BACKGROUND" value="FCFDFE" />
         <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
         <option name="RECENT_LOCATIONS_SELECTION" value="" />
-        <option name="RIGHT_MARGIN_COLOR" value="dde7f6" />
-        <option name="SELECTED_INDENT_GUIDE" value="a2bae2" />
-        <option name="SELECTED_TEARLINE_COLOR" value="a2bae2" />
-        <option name="SELECTION_BACKGROUND" value="d4dde7" />
+        <option name="RIGHT_MARGIN_COLOR" value="DDE7F6" />
+        <option name="SELECTED_INDENT_GUIDE" value="A2BAE2" />
+        <option name="SELECTED_TEARLINE_COLOR" value="A2BAE2" />
+        <option name="SELECTION_BACKGROUND" value="D4DDE7" />
         <option name="SELECTION_FOREGROUND" value="" />
         <option name="SOFT_WRAP_SIGN_COLOR" value="" />
-        <option name="ScrollBar.Mac.hoverThumbColor" value="bfc5e1" />
-        <option name="ScrollBar.Mac.thumbColor" value="edf3f5" />
-        <option name="ScrollBar.hoverThumbColor" value="c3dbe5bf" />
-        <option name="ScrollBar.thumbColor" value="c3dbe580" />
-        <option name="TEARLINE_COLOR" value="dde7f6" />
-        <option name="VISUAL_INDENT_GUIDE" value="dde7f6" />
-        <option name="WHITESPACES" value="bec5c7" />
+        <option name="ScrollBar.Mac.hoverThumbColor" value="BFC5E1" />
+        <option name="ScrollBar.Mac.thumbColor" value="EDF3F5" />
+        <option name="ScrollBar.hoverThumbColor" value="C3DBE5BF" />
+        <option name="ScrollBar.thumbColor" value="C3DBE580" />
+        <option name="TEARLINE_COLOR" value="DDE7F6" />
+        <option name="VISUAL_INDENT_GUIDE" value="DDE7F6" />
+        <option name="WHITESPACES" value="BEC5C7" />
     </colors>
     <attributes>
         <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
@@ -197,7 +197,7 @@
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
         <option name="DEFAULT_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="131b25" />
+                <option name="FOREGROUND" value="415b7c" />
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_FIELD">
@@ -552,7 +552,7 @@
         </option>
         <option name="TEXT">
             <value>
-                <option name="FOREGROUND" value="131b25" />
+                <option name="FOREGROUND" value="415b7c" />
                 <option name="BACKGROUND" value="fdfeff" />
             </value>
         </option>
