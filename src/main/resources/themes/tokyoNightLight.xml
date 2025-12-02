@@ -270,7 +270,7 @@
         </option>
         <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="3c4c8" />
+                <option name="FOREGROUND" value="7aaad" />
             </value>
         </option>
         <option name="CONSOLE_CYAN_OUTPUT">
@@ -283,24 +283,29 @@
                 <option name="FOREGROUND" value="646464" />
             </value>
         </option>
+        <option name="CONSOLE_ERROR_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="a91b1b" />
+            </value>
+        </option>
         <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="a237" />
+                <option name="FOREGROUND" value="38830" />
             </value>
         </option>
         <option name="CONSOLE_GREEN_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="a237" />
+                <option name="FOREGROUND" value="38830" />
             </value>
         </option>
         <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="ffb3ae" />
+                <option name="FOREGROUND" value="d3625c" />
             </value>
         </option>
         <option name="CONSOLE_MAGENTA_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="ef61a2" />
+                <option name="FOREGROUND" value="d2548e" />
             </value>
         </option>
         <option name="CONSOLE_NORMAL_OUTPUT">
@@ -325,12 +330,12 @@
         </option>
         <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="b59f00" />
+                <option name="FOREGROUND" value="a28007" />
             </value>
         </option>
         <option name="CONSOLE_YELLOW_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="b68e00" />
+                <option name="FOREGROUND" value="a28007" />
             </value>
         </option>
         <option name="CSS.COMMENT">
@@ -611,6 +616,30 @@
                 <option name="FOREGROUND" value="c3c3c3" />
                 <option name="BACKGROUND" value="f5f7f0" />
                 <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="DIFF_CONFLICT">
+            <value>
+                <option name="BACKGROUND" value="efc7c7" />
+                <option name="ERROR_STRIPE_COLOR" value="ffc8bd" />
+            </value>
+        </option>
+        <option name="DIFF_DELETED">
+            <value>
+                <option name="BACKGROUND" value="efe2ba" />
+                <option name="ERROR_STRIPE_COLOR" value="c8c8c8" />
+            </value>
+        </option>
+        <option name="DIFF_INSERTED">
+            <value>
+                <option name="BACKGROUND" value="bbe2bb" />
+                <option name="ERROR_STRIPE_COLOR" value="aadeaa" />
+            </value>
+        </option>
+        <option name="DIFF_MODIFIED">
+            <value>
+                <option name="BACKGROUND" value="a3daec" />
+                <option name="ERROR_STRIPE_COLOR" value="b8cbf5" />
             </value>
         </option>
         <option name="DJANGO_COMMENT">
@@ -1057,7 +1086,7 @@
         </option>
         <option name="LOG_INFO_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="a237" />
+                <option name="FOREGROUND" value="6722a" />
             </value>
         </option>
         <option name="LOG_VERBOSE_OUTPUT">
@@ -1067,7 +1096,7 @@
         </option>
         <option name="LOG_WARNING_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="b68e00" />
+                <option name="FOREGROUND" value="a28007" />
             </value>
         </option>
         <option name="MACRONAME">

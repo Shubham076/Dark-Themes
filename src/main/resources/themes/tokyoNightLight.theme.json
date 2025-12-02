@@ -6,7 +6,9 @@
   "colors": {
     "background": "#E6E7ED",
     "selectionBackground": "#d1d2d7",
-    "hover": "#d7d8dd"
+    "hover": "#d7d8dd",
+    "focusedColor": "#b7b8bd",
+    "borderTransparent": "#00000000"
   },
   "ui": {
     "*": {
@@ -69,14 +71,16 @@
     "TabbedPane": {
       "hoverColor": "#d5d6db"
     },
+    "ActionButton": {
+      "hoverBackground": "focusedColor",
+      "hoverBorderColor": "borderTransparent",
+      "pressedBackground": "focusedColor",
+      "pressedBorderColor": "borderTransparent",
+      "focusedBorderColor": "borderTransparent",
+      "hoverSeparatorColor": "focusedColor"
+    },
     "Button": {
       "focus": "background"
-    },
-    "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
     },
     "RunWidget": {
       "iconColor": "#565E70",
