@@ -18,7 +18,7 @@
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="007C7C" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="007C7C" />
         <option name="GUTTER_BACKGROUND" value="D5D6DB" />
-        <option name="LINE_NUMBERS_COLOR" value="343B59" />
+        <option name="LINE_NUMBERS_COLOR" value="757575" />
         <option name="SELECTION_BACKGROUND" value="D1D2D7" />
         <option name="SELECTION_FOREGROUND" value="" />
     </colors>
@@ -255,7 +255,7 @@
         </option>
         <option name="CONSOLE_BLACK_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="24292e" />
+                <option name="FOREGROUND" value="45464f" />
             </value>
         </option>
         <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
@@ -301,6 +301,11 @@
         <option name="CONSOLE_MAGENTA_OUTPUT">
             <value>
                 <option name="FOREGROUND" value="ef61a2" />
+            </value>
+        </option>
+        <option name="CONSOLE_NORMAL_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="45464f" />
             </value>
         </option>
         <option name="CONSOLE_RED_BRIGHT_OUTPUT">
@@ -993,11 +998,20 @@
                 <option name="FOREGROUND" value="4c505e" />
             </value>
         </option>
-        <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+        <option name="JS.GLOBAL_FUNCTION">
+            <value>
+                <option name="FOREGROUND" value="965027" />
+            </value>
+        </option>
         <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
         <option name="JS.INSTANCE_MEMBER_FUNCTION">
             <value>
-                <option name="FOREGROUND" value="34548a" />
+                <option name="FOREGROUND" value="965027" />
+            </value>
+        </option>
+        <option name="JS.LOCAL_FUNCTION">
+            <value>
+                <option name="FOREGROUND" value="965027" />
             </value>
         </option>
         <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -1034,6 +1048,11 @@
         <option name="LOG_ERROR_OUTPUT">
             <value>
                 <option name="FOREGROUND" value="a91b1b" />
+            </value>
+        </option>
+        <option name="LOG_EXPIRED_ENTRY">
+            <value>
+                <option name="FOREGROUND" value="45464f" />
             </value>
         </option>
         <option name="LOG_INFO_OUTPUT">
