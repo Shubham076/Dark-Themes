@@ -6,6 +6,7 @@
     <colors>
         <option name="CARET_COLOR" value="E3BBB5" />
         <option name="CARET_ROW_COLOR" value="312E2D" />
+<option name="DOCUMENTATION_COLOR" value="312E2D" />
         <option name="CONSOLE_BACKGROUND_KEY" value="2E2D2D" />
         <option name="GUTTER_BACKGROUND" value="2E2D2D" />
         <option name="INDENT_GUIDE" value="45403D" />

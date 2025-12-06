@@ -13,6 +13,7 @@
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="EBDBB2" />
     <option name="CARET_COLOR" value="FAD000" />
     <option name="CARET_ROW_COLOR" value="3A3E64" />
+<option name="DOCUMENTATION_COLOR" value="3A3E64" />
     <option name="CONSOLE_BACKGROUND_KEY" value="26294D" />
     <option name="FILESTATUS_ADDED" value="C3E887" />
     <option name="FILESTATUS_COPIED" value="ADDB67" />

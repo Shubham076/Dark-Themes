@@ -15,6 +15,7 @@
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="" />
     <option name="CARET_COLOR" value="ebdbb2" />
     <option name="CARET_ROW_COLOR" value="343839" />
+<option name="DOCUMENTATION_COLOR" value="343839" />
     <option name="CONSOLE_BACKGROUND_KEY" value="32302f" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="addb67" />
