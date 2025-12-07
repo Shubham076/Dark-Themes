@@ -4,8 +4,11 @@
   "dark": true,
   "editorScheme": "/themes/blueDolphin.xml",
   "colors": {
-    "background": "#164961",
-    "selectionBackground": "#215670",
+    "background": "#0f445b",
+    "mainBackground": "#215670",
+    "treeSelection": "#2d617c",
+    "popupBackground": "#1b506a",
+    "tabBackground": "#2d617c",
     "hover": "#1C4F67"
   },
   "ui": {
@@ -13,8 +16,8 @@
       "background": "background",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
-      "selectionBackground": "#004e72ff",
-      "selectionInactiveBackground": "#004e72ff",
+      "selectionBackground": "treeSelection",
+      "selectionInactiveBackground": "treeSelection",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
       "secondaryBackground": "#32424aff",
@@ -22,7 +25,7 @@
       "contrast": "#1e272cff",
       "tableSelected": "#314549ff",
       "secondBorder": "#2a373eff",
-      "treeSelection": "#00485c",
+      "treeSelection": "treeSelection",
       "notifications": "#323232ff",
       "accent": "#009688ff",
       "excluded": "#004e72ff"
@@ -30,7 +33,7 @@
     "Islands": 1,
     "Island": {
       "arc": 20,
-      "borderWidth": 4,
+      "borderWidth": 6,
       "borderColor": "background",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
@@ -39,7 +42,7 @@
         "os.linux": 0.15
       }
     },
-    "MainWindow.background": "selectionBackground",
+    "MainWindow.background": "mainBackground",
     "DefaultTabs": {
       "background": "background",
       "borderColor": "background"
@@ -48,11 +51,11 @@
       "background": "background",
       "underTabsBorderColor": "background",
 
-      "underlinedTabBackground": "selectionBackground",
-      "underlinedBorderColor": "selectionBackground",
+      "underlinedTabBackground": "tabBackground",
+      "underlinedBorderColor": "tabBackground",
 
-      "inactiveUnderlinedTabBackground": "selectionBackground",
-      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+      "inactiveUnderlinedTabBackground": "tabBackground",
+      "inactiveUnderlinedTabBorderColor": "tabBackground",
 
       "hoverBackground": "hover",
 
@@ -61,7 +64,13 @@
       "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "background"
+      "Header.activeBackground": "popupBackground",
+      "background": "popupBackground",
+      "borderColor": "popupBackground"
+    },
+    "List": {
+      "background": "selectionBackground",
+      "mainBackground": "treeSelection"
     },
     "ToolWindow": {
       "Header": {
@@ -90,6 +99,22 @@
       "hoverBorderColor": "background",
       "pressedBackground": "background",
       "pressedBorderColor": "background"
+    },
+    "ToolTip": {
+      "background": "popupBackground",
+      "borderColor": "popupBackground"
+    },
+    "Notification": {
+      "background": "popupBackground",
+      "borderColor": "popupBackground"
+    },
+    "EditorNotificationBar": {
+      "background": "popupBackground",
+      "borderColor": "popupBackground"
+    },
+    "SuggestedPluginNotification": {
+      "background": "popupBackground",
+      "borderColor": "popupBackground"
     }
   }
 }
