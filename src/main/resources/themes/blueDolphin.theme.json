@@ -4,8 +4,8 @@
   "dark": true,
   "editorScheme": "/themes/blueDolphin.xml",
   "colors": {
-    "background": "#003950",
-    "selectionBackground": "#005877",
+    "background": "#164961",
+    "selectionBackground": "#215670",
     "hover": "#1C4F67"
   },
   "ui": {
