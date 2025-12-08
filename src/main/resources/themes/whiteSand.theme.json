@@ -6,7 +6,8 @@
   "colors": {
     "background": "#eee4da",
     "hover": "#e8dfd5",
-    "selectionBackground": "#E1D8CF"
+    "selectionBackground": "#E1D8CF",
+    "tabBackground": "#dad1c9"
   },
   "ui": {
     "*": {
@@ -63,10 +64,10 @@
     "EditorTabs": {
       "background": "background",
       "underTabsBorderColor": "background",
-      "underlinedTabBackground": "selectionBackground",
-      "underlinedBorderColor": "selectionBackground",
-      "inactiveUnderlinedTabBackground": "selectionBackground",
-      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+      "underlinedTabBackground": "tabBackground",
+      "underlinedBorderColor": "tabBackground",
+      "inactiveUnderlinedTabBackground": "tabBackground",
+      "inactiveUnderlinedTabBorderColor": "tabBackground",
       "hoverBackground": "hover",
       "tabInsets": "-6,8,-6,8",
       "tabInsets.compact": "-2,6,-2,4",
