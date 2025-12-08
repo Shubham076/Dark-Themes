@@ -9,7 +9,7 @@
         <option name="ANNOTATIONS_MERGED_COLOR" value="737373" />
         <option name="CARET_COLOR" value="808080" />
         <option name="CARET_ROW_COLOR" value="E8DFD5" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="F5EBE1" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="eee4da" />
         <option name="DOCUMENTATION_COLOR" value="" />
         <option name="FILESTATUS_ADDED" value="C3E887" />
         <option name="FILESTATUS_COPIED" value="656565" />
@@ -30,10 +30,10 @@
         <option name="FILESTATUS_UNKNOWN" value="F77669" />
         <option name="GUTTER_BACKGROUND" value="E1D8CF" />
         <option name="INDENT_GUIDE" value="E1D8CF" />
-        <option name="LINE_NUMBERS_COLOR" value="656565" />
+        <option name="LINE_NUMBERS_COLOR" value="737373" />
         <option name="METHOD_SEPARATORS_COLOR" value="E1D8CF" />
         <option name="MODIFIED_LINES_COLOR" value="BCCFF9" />
-        <option name="NOTIFICATION_BACKGROUND" value="F5EBE1" />
+        <option name="NOTIFICATION_BACKGROUND" value="eee4da" />
         <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
         <option name="RIGHT_MARGIN_COLOR" value="E1D8CF" />
         <option name="SELECTED_INDENT_GUIDE" value="656565" />
@@ -1085,7 +1085,7 @@
         </option>
         <option name="EXECUTIONPOINT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="f5ebe1" />
+                <option name="FOREGROUND" value="eee4da" />
                 <option name="BACKGROUND" value="737373" />
             </value>
         </option>
@@ -3296,7 +3296,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="737373" />
-                <option name="BACKGROUND" value="f5ebe1" />
+                <option name="BACKGROUND" value="eee4da" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -3406,7 +3406,7 @@
         </option>
         <option name="UNMATCHED_BRACE_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="f5ebe1" />
+                <option name="FOREGROUND" value="eee4da" />
                 <option name="BACKGROUND" value="ff4d12" />
             </value>
         </option>

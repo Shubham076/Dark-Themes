@@ -4,7 +4,7 @@
   "dark": false,
   "editorScheme": "/themes/whiteSand.xml",
   "colors": {
-    "background": "#F5EBE1",
+    "background": "#eee4da",
     "hover": "#e8dfd5",
     "selectionBackground": "#E1D8CF"
   },
@@ -30,7 +30,7 @@
     "Islands": 1,
     "Island": {
       "arc": 20,
-      "borderWidth": 4,
+      "borderWidth": 6,
       "borderColor": "background",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
@@ -73,13 +73,13 @@
       "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "#F5EBE1"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
-      "hoverColor": "#F5EBE1"
+      "hoverColor": "background"
     },
     "Button": {
-      "focus": "#F5EBE1"
+      "focus": "background"
     },
     "ActionButton": {
       "hoverBackground": "hover",
