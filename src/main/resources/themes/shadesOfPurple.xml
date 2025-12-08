@@ -599,12 +599,12 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="94e0e0" />
+                <option name="FOREGROUND" value="a5e597" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="94e0e0" />
+                <option name="FOREGROUND" value="a5e597" />
             </value>
         </option>
         <option name="DEFAULT_COMMA">
@@ -644,12 +644,12 @@
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="94e0e0" />
+                <option name="FOREGROUND" value="a5e597" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="94e0e0" />
+                <option name="FOREGROUND" value="a5e597" />
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -661,12 +661,12 @@
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="94e0e0" />
+                <option name="FOREGROUND" value="a5e597" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="a5e597" />
+                <option name="FOREGROUND" value="94e0e0" />
             </value>
         </option>
         <option name="DEFAULT_KEYWORD">
@@ -686,7 +686,7 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="94e0e0" />
+                <option name="FOREGROUND" value="a5e597" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -728,7 +728,7 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="a5e597" />
+                <option name="FOREGROUND" value="94e0e0" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -739,7 +739,7 @@
         <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="a5e597" />
+                <option name="FOREGROUND" value="94e0e0" />
             </value>
         </option>
         <option name="DEPRECATED_ATTRIBUTES">
@@ -881,7 +881,7 @@
         <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="94e0e0" />
+                <option name="FOREGROUND" value="a5e597" />
             </value>
         </option>
         <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />

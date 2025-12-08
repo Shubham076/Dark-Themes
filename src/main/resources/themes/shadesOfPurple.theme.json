@@ -6,6 +6,8 @@
   "colors": {
     "background": "#32305B",
     "selectionBackground": "#464672",
+    "tabBackground": "#464672",
+    "mainBackground": "#464672",
     "hover": "#3C3B66"
   },
   "ui": {
@@ -13,8 +15,8 @@
       "background": "background",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
-      "selectionBackground": "#2d2d5b",
-      "selectionInactiveBackground": "#2d2d5b",
+      "selectionBackground": "selectionBackground",
+      "selectionInactiveBackground": "selectionBackground",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
       "secondaryBackground": "#32424aff",
@@ -38,7 +40,7 @@
         "os.linux": 0.15
       }
     },
-    "MainWindow.background": "selectionBackground",
+    "MainWindow.background": "mainBackground",
     "DefaultTabs": {
       "background": "background",
       "borderColor": "background"
@@ -47,11 +49,11 @@
       "background": "background",
       "underTabsBorderColor": "background",
 
-      "underlinedTabBackground": "selectionBackground",
-      "underlinedBorderColor": "selectionBackground",
+      "underlinedTabBackground": "tabBackground",
+      "underlinedBorderColor": "tabBackground",
 
-      "inactiveUnderlinedTabBackground": "selectionBackground",
-      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+      "inactiveUnderlinedTabBackground": "tabBackground",
+      "inactiveUnderlinedTabBorderColor": "tabBackground",
 
       "hoverBackground": "hover",
 
