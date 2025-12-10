@@ -5,18 +5,22 @@
   "editorScheme": "/themes/whiteSand.xml",
   "colors": {
     "background": "#eee4da",
-    "hover": "#e8dfd5",
+    "foreground": "#585858",
     "selectionBackground": "#E1D8CF",
-    "tabBackground": "#dad1c9"
+    "tabHoverBackground": "#d3cac2",
+    "tabBackground": "#d3cac2",
+    "mainWindowBackground": "#dad1c9",
+    "actionBtnFocusBackground": "#bab1a9",
+    "actionBtnHoverBackground": "#c1b8b0"
   },
   "ui": {
     "*": {
       "background": "background",
-      "foreground": "#585858",
+      "foreground": "foreground",
       "highlight": "#e7e7e8ff",
-      "selectionBackground": "#ccd7daff",
-      "selectionInactiveBackground": "#ccd7daff",
-      "selectionForeground": "#546e7aff",
+      "selectionBackground": "selectionBackground",
+      "selectionInactiveBackground": "selectionBackground",
+      "selectionForeground": "foreground",
       "button": "#f3f4f5ff",
       "secondaryBackground": "#ffffffff",
       "disabled": "#d2d4d5ff",
@@ -40,7 +44,7 @@
         "os.linux": 0.15
       }
     },
-    "MainWindow.background": "selectionBackground",
+    "MainWindow.background": "mainWindowBackground",
     "DefaultTabs": {
       "background": "background",
       "borderColor": "background"
@@ -68,7 +72,7 @@
       "underlinedBorderColor": "tabBackground",
       "inactiveUnderlinedTabBackground": "tabBackground",
       "inactiveUnderlinedTabBorderColor": "tabBackground",
-      "hoverBackground": "hover",
+      "hoverBackground": "tabHoverBackground",
       "tabInsets": "-6,8,-6,8",
       "tabInsets.compact": "-2,6,-2,4",
       "tabContentActionsRightInsets": "0,2,0,2"
@@ -83,10 +87,10 @@
       "focus": "background"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "actionBtnHoverBackground",
+      "focusedBorderColor": "borderTransparent",
+      "hoverBorderColor": "borderTransparent",
+      "pressedBackground": "actionBtnFocusBackground"
     },
     "RunWidget": {
       "iconColor": "#565E70",
