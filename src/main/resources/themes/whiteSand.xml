@@ -8,7 +8,7 @@
         <option name="ANNOTATIONS_COLOR" value="737373" />
         <option name="ANNOTATIONS_MERGED_COLOR" value="737373" />
         <option name="CARET_COLOR" value="808080" />
-        <option name="CARET_ROW_COLOR" value="E5D9CF" />
+        <option name="CARET_ROW_COLOR" value="E7DDD5" />
         <option name="CONSOLE_BACKGROUND_KEY" value="EEE4DA" />
         <option name="DOCUMENTATION_COLOR" value="" />
         <option name="FILESTATUS_ADDED" value="6E8050" />
@@ -42,7 +42,7 @@
         <option name="RIGHT_MARGIN_COLOR" value="E1D8CF" />
         <option name="SELECTED_INDENT_GUIDE" value="656565" />
         <option name="SELECTED_TEARLINE_COLOR" value="" />
-        <option name="SELECTION_BACKGROUND" value="DCD3CB" />
+        <option name="SELECTION_BACKGROUND" value="DED6CF" />
         <option name="SELECTION_FOREGROUND" value="" />
         <option name="SEPARATOR_ABOVE_COLOR" value="E1D8CF" />
         <option name="SEPARATOR_BELOW_COLOR" value="E1D8CF" />
@@ -2112,8 +2112,7 @@
         </option>
         <option name="NOT_USED_ELEMENT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="656565" />
-                <option name="FONT_TYPE" value="2" />
+                <option name="FOREGROUND" value="8d8888" />
             </value>
         </option>
         <option name="OC.BADCHARACTER">
@@ -3249,7 +3248,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="737373" />
-                <option name="BACKGROUND" value="eee4da" />
+                <option name="BACKGROUND" value="eee9e4" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
