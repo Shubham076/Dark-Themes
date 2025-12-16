@@ -11,7 +11,8 @@
     "tabBackground": "#d3cac2",
     "mainWindowBackground": "#dad1c9",
     "actionBtnFocusBackground": "#bab1a9",
-    "actionBtnHoverBackground": "#c1b8b0"
+    "actionBtnHoverBackground": "#c1b8b0",
+    "borderTransparent": "#00000000"
   },
   "ui": {
     "*": {
