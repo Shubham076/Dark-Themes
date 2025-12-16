@@ -3370,16 +3370,11 @@
                 <option name="FOREGROUND" value="b3534b" />
             </value>
         </option>
+        <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="YAML_COMMENT">
             <value>
                 <option name="FOREGROUND" value="a9a9a9" />
                 <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
-        <option name="YAML_SCALAR_DSTRING">
-            <value>
-                <option name="FOREGROUND" value="b3534b" />
-                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="YAML_SCALAR_KEY">
@@ -3389,15 +3384,7 @@
             </value>
         </option>
         <option name="YAML_SCALAR_LIST">
-            <value>
-                <option name="BACKGROUND" value="e1d8cf" />
-            </value>
-        </option>
-        <option name="YAML_SCALAR_STRING">
-            <value>
-                <option name="FOREGROUND" value="b3534b" />
-                <option name="FONT_TYPE" value="1" />
-            </value>
+            <value />
         </option>
         <option name="bemhtml.bem.error">
             <value>
