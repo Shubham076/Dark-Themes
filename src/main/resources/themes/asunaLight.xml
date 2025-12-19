@@ -1,6 +1,6 @@
 <scheme name="Asunalight" version="142" parent_scheme="Default">
     <metaInfo>
-        <property name="ide">GoLand</property>
+        <property name="ide">Idea</property>
         <property name="ideVersion">2025.2.5.0.0</property>
     </metaInfo>
     <colors>
@@ -23,6 +23,7 @@
         <option name="SELECTION_FOREGROUND" value="" />
     </colors>
     <attributes>
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="BAD_CHARACTER">
             <value>
                 <option name="FOREGROUND" value="ff5555" />
@@ -466,6 +467,11 @@
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
+        <option name="DEFAULT_REASSIGNED_PARAMETER">
+            <value>
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
         <option name="DEFAULT_SEMICOLON" baseAttributes="" />
         <option name="DEFAULT_STATIC_FIELD">
             <value>
@@ -629,6 +635,7 @@
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
+        <option name="GROOVY_KEYWORD" baseAttributes="JAVA_KEYWORD" />
         <option name="HAML_CLASS">
             <value>
                 <option name="FOREGROUND" value="e53935" />
@@ -682,7 +689,7 @@
                 <option name="ERROR_STRIPE_COLOR" value="ccccff" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="377c7c" />
@@ -699,6 +706,7 @@
         <option name="INJECTED_LANGUAGE_FRAGMENT">
             <value />
         </option>
+        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
         <option name="JADE_FILE_PATH">
             <value>
                 <option name="FOREGROUND" value="a61d0d" />
@@ -729,44 +737,8 @@
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
-        <option name="JAVA_INVALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="ff5555" />
-                <option name="EFFECT_COLOR" value="ff5555" />
-                <option name="EFFECT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="JAVA_KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="a61d0d" />
-            </value>
-        </option>
-        <option name="JAVA_LINE_COMMENT">
-            <value>
-                <option name="FOREGROUND" value="6272a4" />
-            </value>
-        </option>
-        <option name="JAVA_NUMBER">
-            <value>
-                <option name="FOREGROUND" value="4c94d6" />
-            </value>
-        </option>
-        <option name="JAVA_OPERATION_SIGN">
-            <value>
-                <option name="FOREGROUND" value="e53935" />
-            </value>
-        </option>
-        <option name="JAVA_STRING">
-            <value>
-                <option name="FOREGROUND" value="a61d0d" />
-            </value>
-        </option>
-        <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
-        <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
-        <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
-        <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-        <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
-        <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
+        <option name="KOTLIN_CLOSURE_DEFAULT_PARAMETER" baseAttributes="KOTLIN_PARAMETER" />
+        <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
         <option name="LABEL">
             <value>
                 <option name="FOREGROUND" value="a61d0d" />
@@ -1262,8 +1234,8 @@
             </value>
         </option>
         <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
-        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="" />
+        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
         <option name="STATIC_METHOD_ATTRIBUTES">
             <value>
                 <option name="FONT_TYPE" value="2" />

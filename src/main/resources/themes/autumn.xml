@@ -1,6 +1,6 @@
 <scheme name="Autumn Scheme" version="142" parent_scheme="Default">
     <metaInfo>
-        <property name="ide">GoLand</property>
+        <property name="ide">Idea</property>
         <property name="ideVersion">2025.2.5.0.0</property>
     </metaInfo>
     <colors>
@@ -49,7 +49,11 @@
                 <option name="FOREGROUND" value="96723b" />
             </value>
         </option>
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="a65e6d" />
+            </value>
+        </option>
         <option name="BAD_CHARACTER">
             <value>
                 <option name="BACKGROUND" value="f5dddd" />
@@ -681,8 +685,8 @@
                 <option name="ERROR_STRIPE_COLOR" value="7c8134" />
             </value>
         </option>
-        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
-        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="" />
+        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
         <option name="STATIC_METHOD_ATTRIBUTES">
             <value>
                 <option name="FONT_TYPE" value="2" />

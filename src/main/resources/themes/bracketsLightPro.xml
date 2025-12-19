@@ -1,6 +1,6 @@
 <scheme name="Brackets-light-pro" version="142" parent_scheme="Default">
     <metaInfo>
-        <property name="ide">GoLand</property>
+        <property name="ide">Idea</property>
         <property name="ideVersion">2025.2.5.0.0</property>
     </metaInfo>
     <colors>
@@ -29,7 +29,7 @@
         <option name="SELECTION_FOREGROUND" value="" />
     </colors>
     <attributes>
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="BASH.SHEBANG">
             <value />
         </option>
@@ -696,7 +696,7 @@
                 <option name="ERROR_STRIPE_COLOR" value="ccccff" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="338583" />
@@ -713,7 +713,7 @@
         <option name="INJECTED_LANGUAGE_FRAGMENT">
             <value />
         </option>
-        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="" />
+        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
         <option name="JADE_FILE_PATH">
             <value>
                 <option name="FOREGROUND" value="e88501" />
@@ -722,11 +722,6 @@
         <option name="JADE_STATEMENTS">
             <value>
                 <option name="FOREGROUND" value="386ac3" />
-            </value>
-        </option>
-        <option name="JAVA_BLOCK_COMMENT">
-            <value>
-                <option name="FOREGROUND" value="10a567" />
             </value>
         </option>
         <option name="JAVA_DOC_MARKUP">
@@ -741,24 +736,9 @@
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
-        <option name="JAVA_KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="386ac3" />
-            </value>
-        </option>
-        <option name="JAVA_NUMBER">
-            <value>
-                <option name="FOREGROUND" value="6d8600" />
-            </value>
-        </option>
         <option name="JAVA_OPERATION_SIGN">
             <value>
                 <option name="FOREGROUND" value="535353" />
-            </value>
-        </option>
-        <option name="JAVA_STRING">
-            <value>
-                <option name="FOREGROUND" value="e88501" />
             </value>
         </option>
         <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
@@ -1293,8 +1273,8 @@
             </value>
         </option>
         <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
-        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="" />
+        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
         <option name="STATIC_METHOD_ATTRIBUTES">
             <value>
                 <option name="FONT_TYPE" value="2" />
@@ -1376,6 +1356,5 @@
                 <option name="FOREGROUND" value="535353" />
             </value>
         </option>
-        <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
     </attributes>
 </scheme>
