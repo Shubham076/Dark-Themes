@@ -18,7 +18,7 @@
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="007C7C" />
         <option name="FILESTATUS_RENAMED" value="C792EA" />
         <option name="GUTTER_BACKGROUND" value="FCFCFC" />
-        <option name="LINE_NUMBERS_COLOR" value="4D4D4A" />
+        <option name="LINE_NUMBERS_COLOR" value="70706D" />
         <option name="SELECTION_BACKGROUND" value="D0E3F1" />
         <option name="SELECTION_FOREGROUND" value="" />
     </colors>
@@ -1335,44 +1335,15 @@
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
+        <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="YAML_COMMENT">
             <value>
                 <option name="FOREGROUND" value="6272a4" />
             </value>
         </option>
-        <option name="YAML_SCALAR_DSTRING">
-            <value>
-                <option name="FOREGROUND" value="a61d0d" />
-            </value>
-        </option>
-        <option name="YAML_SCALAR_KEY">
-            <value>
-                <option name="FOREGROUND" value="e53935" />
-            </value>
-        </option>
         <option name="YAML_SCALAR_LIST">
             <value>
-                <option name="FOREGROUND" value="a61d0d" />
-            </value>
-        </option>
-        <option name="YAML_SCALAR_STRING">
-            <value>
-                <option name="FOREGROUND" value="a61d0d" />
-            </value>
-        </option>
-        <option name="YAML_SCALAR_VALUE">
-            <value>
-                <option name="FOREGROUND" value="a61d0d" />
-            </value>
-        </option>
-        <option name="YAML_SIGN">
-            <value>
-                <option name="FOREGROUND" value="e53935" />
-            </value>
-        </option>
-        <option name="YAML_TEXT">
-            <value>
-                <option name="FOREGROUND" value="a61d0d" />
+                <option name="FOREGROUND" value="5e5e5a" />
             </value>
         </option>
     </attributes>
