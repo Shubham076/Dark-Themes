@@ -1,7 +1,7 @@
 <scheme name="Vitesse Light Soft" version="142" parent_scheme="Default">
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2025.2.4.0.0</property>
+        <property name="ideVersion">2025.2.5.0.0</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="1E754F" />
@@ -36,7 +36,7 @@
         <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="1C6B48" />
         <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="1C6B48" />
         <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="1C6B48" />
-        <option name="LINE_NUMBERS_COLOR" value="393A3450" />
+        <option name="LINE_NUMBERS_COLOR" value="868484" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="4E4F47" />
         <option name="LOOKUP_COLOR" value="F1F0E9" />
         <option name="METHOD_SEPARATORS_COLOR" value="D1D5DA" />
@@ -95,6 +95,91 @@
         <option name="CODE_LENS_BORDER_COLOR">
             <value>
                 <option name="EFFECT_COLOR" value="e7e5db" />
+            </value>
+        </option>
+        <option name="CONSOLE_BLACK_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="606060" />
+            </value>
+        </option>
+        <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="3154b6" />
+            </value>
+        </option>
+        <option name="CONSOLE_BLUE_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="1c44b2" />
+            </value>
+        </option>
+        <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="2f9a9a" />
+            </value>
+        </option>
+        <option name="CONSOLE_CYAN_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="28e8e" />
+            </value>
+        </option>
+        <option name="CONSOLE_DARKGRAY_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="656565" />
+            </value>
+        </option>
+        <option name="CONSOLE_ERROR_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="a22b2b" />
+            </value>
+        </option>
+        <option name="CONSOLE_GRAY_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="929292" />
+            </value>
+        </option>
+        <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="3d964a" />
+            </value>
+        </option>
+        <option name="CONSOLE_GREEN_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="67d17" />
+            </value>
+        </option>
+        <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="9f339f" />
+            </value>
+        </option>
+        <option name="CONSOLE_MAGENTA_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="962d96" />
+            </value>
+        </option>
+        <option name="CONSOLE_NORMAL_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="606060" />
+            </value>
+        </option>
+        <option name="CONSOLE_RED_BRIGHT_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="a62b2b" />
+            </value>
+        </option>
+        <option name="CONSOLE_RED_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="ce0505" />
+            </value>
+        </option>
+        <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="bb9713" />
+            </value>
+        </option>
+        <option name="CONSOLE_YELLOW_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="b28c00" />
             </value>
         </option>
         <option name="CSS.ATTRIBUTE_NAME">
@@ -157,8 +242,7 @@
         </option>
         <option name="CTRL_CLICKABLE">
             <value>
-                <option name="FOREGROUND" value="296aa3" />
-                <option name="EFFECT_COLOR" value="296aa3" />
+                <option name="FOREGROUND" value="1e754f" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -336,8 +420,7 @@
         </option>
         <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="296aa3" />
-                <option name="EFFECT_COLOR" value="296aa3" />
+                <option name="FOREGROUND" value="1e754f" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -370,14 +453,13 @@
         </option>
         <option name="HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="296aa3" />
-                <option name="EFFECT_COLOR" value="296aa3" />
+                <option name="FOREGROUND" value="1e754f" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="a0ada0" />
+                <option name="FOREGROUND" value="1e754f" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -450,10 +532,28 @@
                 <option name="FOREGROUND" value="b07d48" />
             </value>
         </option>
+        <option name="LOG_DEBUG_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="2c8181" />
+            </value>
+        </option>
+        <option name="LOG_ERROR_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="a22b2b" />
+            </value>
+        </option>
         <option name="LOG_INFO_OUTPUT">
             <value>
                 <option name="FOREGROUND" value="7f00" />
             </value>
+        </option>
+        <option name="LOG_VERBOSE_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="3636a9" />
+            </value>
+        </option>
+        <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
+            <value />
         </option>
         <option name="TEXT">
             <value>
@@ -468,8 +568,7 @@
         </option>
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="1e754f" />
-                <option name="FONT_TYPE" value="3" />
+                <option name="FOREGROUND" value="7f8380" />
                 <option name="ERROR_STRIPE_COLOR" value="1e754f" />
             </value>
         </option>
