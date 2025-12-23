@@ -4,18 +4,20 @@
   "dark": true,
   "editorScheme": "/themes/hackTheBox.xml",
   "colors": {
-    "background": "#253042",
+    "background": "#2B384DFF",
+    "foreground": "#dadbc0",
     "selectionBackground": "#455065",
+    "treeSelection": "#3a485e",
     "hover": "#344052"
   },
   "ui": {
     "*": {
       "background": "background",
-      "foreground": "#dadbc0",
+      "foreground": "foreground",
       "highlight": "#425b67ff",
-      "selectionBackground": "#303d53",
-      "selectionInactiveBackground": "#263348ff",
-      "selectionForeground": "#ffffffff",
+      "selectionBackground": "treeSelection",
+      "selectionInactiveBackground": "treeSelection",
+      "selectionForeground": "foreground",
       "border": "404d64",
       "button": "#2e3c43ff",
       "secondaryBackground": "#32424aff",

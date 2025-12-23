@@ -1,7 +1,7 @@
 <scheme name="Aura" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2025.2.5.0.0</property>
+        <property name="ideVersion">2025.3.0.0</property>
     </metaInfo>
     <colors>
         <option name="ANNOTATIONS_COLOR" value="000000" />
@@ -644,12 +644,12 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="c0ffea" />
+                <option name="FOREGROUND" value="b6f1dd" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="c0ffea" />
+                <option name="FOREGROUND" value="b6f1dd" />
             </value>
         </option>
         <option name="DEFAULT_COMMA">
@@ -690,29 +690,24 @@
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="fbee9f" />
+                <option name="FOREGROUND" value="ecde8e" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="fbee9f" />
+                <option name="FOREGROUND" value="ecde8e" />
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
         <option name="DEFAULT_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="d3c7a7" />
+                <option name="FOREGROUND" value="ecd8b1" />
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
-        <option name="DEFAULT_INSTANCE_METHOD">
-            <value>
-                <option name="FOREGROUND" value="fbee9f" />
-            </value>
-        </option>
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="c0ffea" />
+                <option name="FOREGROUND" value="b6f1dd" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -732,7 +727,7 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="c0ffea" />
+                <option name="FOREGROUND" value="b6f1dd" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -752,7 +747,7 @@
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
-                <option name="FOREGROUND" value="c0ffea" />
+                <option name="FOREGROUND" value="b6f1dd" />
             </value>
         </option>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -771,11 +766,7 @@
             </value>
         </option>
         <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
-        <option name="DEFAULT_STATIC_METHOD">
-            <value>
-                <option name="FOREGROUND" value="fbee9f" />
-            </value>
-        </option>
+        <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
                 <option name="FOREGROUND" value="fbbc9f" />
@@ -971,7 +962,7 @@
         <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="c0ffea" />
+                <option name="FOREGROUND" value="b6f1dd" />
             </value>
         </option>
         <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -1982,7 +1973,7 @@
         </option>
         <option name="TEXT">
             <value>
-                <option name="FOREGROUND" value="d3c7a7" />
+                <option name="FOREGROUND" value="ecd8b1" />
                 <option name="BACKGROUND" value="252e4e" />
             </value>
         </option>

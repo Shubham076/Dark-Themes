@@ -5,16 +5,16 @@
   </metaInfo>
   <colors>
     <option name="ANNOTATIONS_COLOR" value="0" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="253042" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="253042" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="253042" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="2B384DFF" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="2B384DFF" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="2B384DFF" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ebdbb2" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="253042" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="2B384DFF" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="ebdbb2" />
     <option name="CARET_COLOR" value="dadfc0" />
-    <option name="CARET_ROW_COLOR" value="344052" />
+    <option name="CARET_ROW_COLOR" value="3A485C" />
 <option name="DOCUMENTATION_COLOR" value="344052" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="253042" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="2B384DFF" />
     <option name="FILESTATUS_ADDED" value="c3e887" />
     <option name="FILESTATUS_COPIED" value="73bd79" />
     <option name="FILESTATUS_DELETED" value="f77669" />
@@ -37,7 +37,7 @@
     <option name="FILESTATUS_addedOutside" value="7fdbca" />
     <option name="FILESTATUS_changelistConflict" value="f78c6c" />
     <option name="FILESTATUS_modifiedOutside" value="82aaff" />
-    <option name="GUTTER_BACKGROUND" value="253042" />
+    <option name="GUTTER_BACKGROUND" value="2B384DFF" />
     <option name="LINE_NUMBERS_COLOR" value="a4b1cd" />
     <option name="SELECTION_BACKGROUND" value="455065" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
@@ -52,6 +52,12 @@
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="ff8484" />
+      </value>
+    </option>
+    <option name="GIT_TOOLBOX.EDITOR_INLINE_BLAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="929394FF" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="BASH.EXTERNAL_COMMAND" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -1779,7 +1785,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="dadbc0" />
-        <option name="BACKGROUND" value="253042" />
+        <option name="BACKGROUND" value="2B384DFF" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -1846,7 +1852,7 @@
     <option name="YAML_SCALAR_LIST">
       <value>
         <option name="FOREGROUND" value="d8eba1" />
-        <option name="BACKGROUND" value="253042" />
+        <option name="BACKGROUND" value="2B384DFF" />
       </value>
     </option>
     <option name="YAML_SCALAR_VALUE">
