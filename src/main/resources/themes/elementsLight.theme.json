@@ -4,7 +4,7 @@
   "dark": false,
   "editorScheme": "/themes/elementsLight.xml",
   "colors": {
-    "background": "#EAECF0",
+    "background": "#ECECECFF",
     "hover": "#DCE2ED",
     "selectionBackground": "#D5DBE7",
     "focusedColor": "#bfbfbf",

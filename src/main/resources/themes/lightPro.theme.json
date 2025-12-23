@@ -4,7 +4,7 @@
   "dark": false,
   "editorScheme": "/themes/lightPro.xml",
   "colors": {
-    "background": "#FAFAFA",
+    "background": "#FAFAF5FF",
     "hover": null,
     "selectionBackground": "#DFEBE7"
   },
