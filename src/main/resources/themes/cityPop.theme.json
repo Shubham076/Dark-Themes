@@ -4,8 +4,9 @@
   "dark": true,
   "editorScheme": "/themes/cityPop.xml",
   "colors": {
-    "background": "#26294D",
+    "background": "#2C3148FF",
     "selectionBackground": "#303358",
+    "treeSelectionBackground": "#3d4071",
     "tabBackground": "#5A3253",
     "hover": "#3A3E64"
   },
@@ -14,8 +15,8 @@
       "background": "background",
       "foreground": "#b0bec5ff",
       "highlight": "#425b67ff",
-      "selectionBackground": "#333565ff",
-      "selectionInactiveBackground": "#333565ff",
+      "selectionBackground": "treeSelectionBackground",
+      "selectionInactiveBackground": "treeSelectionBackground",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
       "secondaryBackground": "#32424aff",
