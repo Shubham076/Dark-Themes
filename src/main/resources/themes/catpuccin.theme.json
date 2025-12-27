@@ -4,7 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/catpuccin.xml",
   "colors": {
-    "background": "#303446",
+    "background": "#383C50FF",
     "selectionBackground": "#4E5369",
     "hover": "#363B4E"
   },
@@ -77,7 +77,7 @@
       "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "#2b2f41"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#2b2f41"
