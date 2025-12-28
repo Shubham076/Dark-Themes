@@ -1,12 +1,12 @@
 {
-  "name": "Night-Owl",
+  "name": "Calm",
   "author": "Shubham",
   "dark": true,
-  "editorScheme": "/themes/nightOwl.xml",
+  "editorScheme": "/themes/calm.xml",
   "colors": {
-    "background": "#032C4FFF",
-    "selectionBackground": "#1B4263",
-    "hover": "#1B4263"
+    "background": "#223844FF",
+    "selectionBackground": "#3F4E57",
+    "hover": "#4F5D5E"
   },
   "ui": {
     "*": {
@@ -30,7 +30,7 @@
     "Islands": 1,
     "Island": {
       "arc": 20,
-      "borderWidth": 4,
+      "borderWidth": 6,
       "borderColor": "background",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
