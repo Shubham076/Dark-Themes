@@ -28,7 +28,7 @@
         <option name="BookmarkMnemonicIcon.foreground" value="FFFFFF" />
         <option name="CARET_COLOR" value="7E57C2" />
         <option name="CARET_ROW_COLOR" value="3F4E57" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="273136FF" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="273136" />
         <option name="DELETED_LINES_COLOR" value="EF5350" />
         <option name="DIAGRAM_ANNOTATION_EDGE" value="C792EA" />
         <option name="DIAGRAM_COARSE_GRID" value="32374D" />
@@ -50,33 +50,32 @@
         <option name="DIAGRAM_SNAPPING_LINES" value="7E57C2" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="1E2A30" />
         <option name="DIFF_SEPARATORS_TOP_BORDER" value="1B262B" />
-<!--        <option name="DOCUMENTATION_COLOR" value="0B2942" />-->
         <option name="DOC_COMMENT_GUIDE" value="4B6479" />
         <option name="DOC_COMMENT_LINK" value="ECC48D" />
-        <option name="FILESTATUS_ADDED" value="ADDB67" />
+        <option name="FILESTATUS_ADDED" value="C3E887" />
         <option name="FILESTATUS_COPIED" value="ADDB67" />
-        <option name="FILESTATUS_DELETED" value="EF5350" />
-        <option name="FILESTATUS_HIJACKED" value="C792EA" />
+        <option name="FILESTATUS_DELETED" value="F77669" />
+        <option name="FILESTATUS_HIJACKED" value="FFCB6B" />
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="EF5350" />
         <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="637777" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="F78C6C" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="F78C6C" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="F78C6C" />
         <option name="FILESTATUS_MERGED" value="82AAFF" />
-        <option name="FILESTATUS_MODIFIED" value="FFCB8B" />
-        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="7FDBCA" />
-        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="7FDBCA" />
+        <option name="FILESTATUS_MODIFIED" value="80CBC4" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80CBC4" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80CBC4" />
         <option name="FILESTATUS_OBSOLETE" value="FFCB6B" />
         <option name="FILESTATUS_RENAMED" value="C792EA" />
-        <option name="FILESTATUS_SUPPRESSED" value="D6DEEB" />
-        <option name="FILESTATUS_SWITCHED" value="C792EA" />
-        <option name="FILESTATUS_UNKNOWN" value="EF5350" />
+        <option name="FILESTATUS_SUPPRESSED" value="546E7A" />
+        <option name="FILESTATUS_SWITCHED" value="F77669" />
+        <option name="FILESTATUS_UNKNOWN" value="F77669" />
         <option name="FILESTATUS_addedOutside" value="7FDBCA" />
         <option name="FILESTATUS_changelistConflict" value="F78C6C" />
         <option name="FILESTATUS_modifiedOutside" value="82AAFF" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="314365" />
         <option name="GUTTER_BACKGROUND" value="3844FF" />
-        <option name="INDENT_GUIDE" value="273136FF" />
+        <option name="INDENT_GUIDE" value="273136" />
         <option name="INFORMATION_HINT" value="3844FF" />
         <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="3844FF" />
         <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="4373C2" />
@@ -169,11 +168,6 @@
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="7E97AC" />
     </colors>
     <attributes>
-        <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="addb67" />
-            </value>
-        </option>
         <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
             <value>
                 <option name="FOREGROUND" value="f78c6c" />
@@ -258,10 +252,70 @@
                 <option name="EFFECT_COLOR" value="7e57c2" />
             </value>
         </option>
+        <option name="BLOCK_TERMINAL_BLUE">
+            <value>
+                <option name="FOREGROUND" value="92b4ef" />
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_BLUE_BRIGHT">
+            <value>
+                <option name="FOREGROUND" value="3399ff" />
+            </value>
+        </option>
         <option name="BLOCK_TERMINAL_COMMAND">
             <value>
                 <option name="BACKGROUND" value="b253a" />
                 <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_CYAN">
+            <value>
+                <option name="FOREGROUND" value="86d598" />
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_CYAN_BRIGHT">
+            <value>
+                <option name="FOREGROUND" value="86d598" />
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_GREEN">
+            <value>
+                <option name="FOREGROUND" value="bcd570" />
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_GREEN_BRIGHT">
+            <value>
+                <option name="FOREGROUND" value="bcd570" />
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_MAGENTA">
+            <value>
+                <option name="FOREGROUND" value="c6a4dc" />
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_MAGENTA_BRIGHT">
+            <value>
+                <option name="FOREGROUND" value="c6a4dc" />
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_RED">
+            <value>
+                <option name="FOREGROUND" value="e3a7a6" />
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_RED_BRIGHT">
+            <value>
+                <option name="FOREGROUND" value="e3a7a6" />
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_YELLOW">
+            <value>
+                <option name="FOREGROUND" value="dec18b" />
+            </value>
+        </option>
+        <option name="BLOCK_TERMINAL_YELLOW_BRIGHT">
+            <value>
+                <option name="FOREGROUND" value="dec18b" />
             </value>
         </option>
         <option name="BNF_KEYWORD">
@@ -410,7 +464,7 @@
         </option>
         <option name="CONSOLE_MAGENTA_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="c792ea" />
+                <option name="FOREGROUND" value="c6a4dc" />
             </value>
         </option>
         <option name="CONSOLE_NORMAL_OUTPUT">
@@ -878,18 +932,11 @@
                 <option name="FOREGROUND" value="ff5874" />
             </value>
         </option>
-        <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
-        <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-        <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
-        <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
-        <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="GO_LOCAL_CONSTANT">
             <value>
                 <option name="FOREGROUND" value="f78c6c" />
             </value>
         </option>
-        <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-        <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="GO_PACKAGE">
             <value>
                 <option name="FOREGROUND" value="eeb89d" />
@@ -905,7 +952,6 @@
                 <option name="FOREGROUND" value="bbbbbb" />
             </value>
         </option>
-        <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
         <option name="GRAMMAR_ERROR">
             <value>
                 <option name="EFFECT_COLOR" value="b98382" />
@@ -1201,11 +1247,6 @@
         <option name="IVAR">
             <value>
                 <option name="FOREGROUND" value="9373a5" />
-            </value>
-        </option>
-        <option name="JAVA.PRIMITIVE">
-            <value>
-                <option name="FOREGROUND" value="82aaff" />
             </value>
         </option>
         <option name="JFLEX_MACROS_REF">
@@ -2747,7 +2788,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="cec3af" />
-                <option name="BACKGROUND" value="273136" />
+                <option name="BACKGROUND" value="263238" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
