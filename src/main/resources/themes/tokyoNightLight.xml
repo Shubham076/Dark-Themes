@@ -14,9 +14,29 @@
         <option name="CARET_COLOR" value="343B59" />
         <option name="CARET_ROW_COLOR" value="D7D8DD" />
         <option name="CONSOLE_BACKGROUND_KEY" value="E6E7ED" />
-        <option name="FILESTATUS_MODIFIED" value="007C7C" />
-        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="007C7C" />
-        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="007C7C" />
+        <option name="FILESTATUS_ADDED" value="72A038" />
+        <option name="FILESTATUS_DELETED" value="F77669" />
+        <option name="FILESTATUS_HIJACKED" value="8F7A53" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="C6756D" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="637777" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="C6756D" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="C6756D" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="C6756D" />
+        <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72A038" />
+        <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
+        <option name="FILESTATUS_IDEA_SVN_REPLACED" value="77904F" />
+        <option name="FILESTATUS_MERGED" value="667FB4" />
+        <option name="FILESTATUS_MODIFIED" value="598F8A" />
+        <option name="FILESTATUS_NOT_CHANGED" value="5E75A3" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="5A938E" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="5A938E" />
+        <option name="FILESTATUS_OBSOLETE" value="AF9464" />
+        <option name="FILESTATUS_SUPPRESSED" value="546E7A" />
+        <option name="FILESTATUS_SWITCHED" value="C6756D" />
+        <option name="FILESTATUS_UNKNOWN" value="C6756D" />
+        <option name="FILESTATUS_addedOutside" value="72A038" />
+        <option name="FILESTATUS_changelistConflict" value="C6756D" />
+        <option name="FILESTATUS_modifiedOutside" value="4C6190" />
         <option name="GUTTER_BACKGROUND" value="D5D6DB" />
         <option name="LINE_NUMBERS_COLOR" value="757575" />
         <option name="SELECTION_BACKGROUND" value="D1D2D7" />
@@ -315,6 +335,9 @@
                 <option name="FOREGROUND" value="45464f" />
             </value>
         </option>
+        <option name="CONSOLE_RANGE_TO_EXECUTE">
+            <value />
+        </option>
         <option name="CONSOLE_RED_BRIGHT_OUTPUT">
             <value>
                 <option name="FOREGROUND" value="e62000" />
@@ -382,7 +405,7 @@
         </option>
         <option name="CTRL_CLICKABLE">
             <value>
-                <option name="FOREGROUND" value="485e30" />
+                <option name="FOREGROUND" value="4c8c66" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -561,7 +584,7 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="69323d" />
+                <option name="FOREGROUND" value="965027" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -628,7 +651,7 @@
         </option>
         <option name="DIFF_DELETED">
             <value>
-                <option name="BACKGROUND" value="efe2ba" />
+                <option name="BACKGROUND" value="e7d9ad" />
                 <option name="ERROR_STRIPE_COLOR" value="c8c8c8" />
             </value>
         </option>
@@ -640,7 +663,7 @@
         </option>
         <option name="DIFF_MODIFIED">
             <value>
-                <option name="BACKGROUND" value="a3daec" />
+                <option name="BACKGROUND" value="94d2e5" />
                 <option name="ERROR_STRIPE_COLOR" value="b8cbf5" />
             </value>
         </option>
@@ -705,9 +728,7 @@
         </option>
         <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="485e30" />
-                <option name="BACKGROUND" value="e9e9e9" />
-                <option name="FONT_TYPE" value="2" />
+                <option name="FOREGROUND" value="4c8c66" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -820,6 +841,7 @@
                 <option name="FOREGROUND" value="485e30" />
             </value>
         </option>
+        <option name="GROOVY_KEYWORD" baseAttributes="JAVA_KEYWORD" />
         <option name="HAML_CLASS">
             <value>
                 <option name="FOREGROUND" value="8c4351" />
@@ -876,9 +898,6 @@
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
-        <option name="HTML_CODE">
-            <value />
-        </option>
         <option name="HTML_COMMENT">
             <value>
                 <option name="FONT_TYPE" value="2" />
@@ -902,8 +921,7 @@
         </option>
         <option name="HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="485e30" />
-                <option name="FONT_TYPE" value="2" />
+                <option name="FOREGROUND" value="4c8c66" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -913,7 +931,7 @@
         <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="485e30" />
+                <option name="FOREGROUND" value="4c8c66" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -961,18 +979,6 @@
         <option name="JAVA_COMMA">
             <value>
                 <option name="FOREGROUND" value="4c505e" />
-            </value>
-        </option>
-        <option name="JAVA_DOC_MARKUP">
-            <value>
-                <option name="BACKGROUND" value="e2ffe2" />
-            </value>
-        </option>
-        <option name="JAVA_DOC_TAG">
-            <value>
-                <option name="FONT_TYPE" value="1" />
-                <option name="EFFECT_COLOR" value="808080" />
-                <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
         <option name="JAVA_DOT">
@@ -1030,6 +1036,11 @@
         </option>
         <option name="KOTLIN_LABEL">
             <value />
+        </option>
+        <option name="KOTLIN_MUTABLE_VARIABLE">
+            <value>
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
         </option>
         <option name="LABEL">
             <value>
@@ -1767,11 +1778,6 @@
         <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
         <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
         <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
-        <option name="STATIC_METHOD_ATTRIBUTES">
-            <value>
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
         <option name="TAG_ATTR_KEY">
             <value>
                 <option name="FOREGROUND" value="5a4a78" />
@@ -1784,20 +1790,18 @@
         </option>
         <option name="TEXT">
             <value>
-                <option name="FOREGROUND" value="343b59" />
+                <option name="FOREGROUND" value="595a65" />
                 <option name="BACKGROUND" value="e6e7ed" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="ffff00" />
-                <option name="ERROR_STRIPE_COLOR" value="ff00" />
+                <option name="BACKGROUND" value="ccccff" />
             </value>
         </option>
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="485e30" />
-                <option name="ERROR_STRIPE_COLOR" value="ff" />
+                <option name="FOREGROUND" value="7a8170" />
             </value>
         </option>
         <option name="TYPEDEF">
@@ -1807,10 +1811,8 @@
         </option>
         <option name="WARNING_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="f6ebbc" />
-                <option name="EFFECT_COLOR" value="343b59" />
-                <option name="ERROR_STRIPE_COLOR" value="ffff00" />
-                <option name="EFFECT_TYPE" value="1" />
+                <option name="EFFECT_COLOR" value="9a926d" />
+                <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
         <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
@@ -1821,7 +1823,7 @@
         </option>
         <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="ffcdff" />
+                <option name="BACKGROUND" value="ccccff" />
             </value>
         </option>
         <option name="XML_ATTRIBUTE_NAME">
@@ -1852,11 +1854,6 @@
         <option name="XML_TAG_NAME">
             <value>
                 <option name="FOREGROUND" value="8c4351" />
-            </value>
-        </option>
-        <option name="YAML_COMMENT">
-            <value>
-                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="YAML_SCALAR_DSTRING">
