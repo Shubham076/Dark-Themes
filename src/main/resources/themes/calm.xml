@@ -1,6 +1,6 @@
 <scheme name="Calm" version="142" parent_scheme="Darcula">
     <metaInfo>
-        <property name="ide">GoLand</property>
+        <property name="ide">idea</property>
         <property name="ideVersion">2025.3.0.0</property>
     </metaInfo>
     <colors>
@@ -9,15 +9,15 @@
         <option name="ActionButton.hoverBackground" value="4D8150" />
         <option name="ActionButton.iconTextForeground" value="5F7E97" />
         <option name="ActionButton.pressedBackground" value="084D81" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="3844FF" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="3844FF" />
-        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="3844FF" />
-        <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="D6DEEB" />
-        <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="EF5350" />
-        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="122D42" />
-        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="7E57C2C0" />
-        <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="4373C2" />
-        <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="7E57C2" />
+<!--        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="3844FF" />-->
+<!--        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="3844FF" />-->
+<!--        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="3844FF" />-->
+<!--        <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="D6DEEB" />-->
+<!--        <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="EF5350" />-->
+<!--        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="122D42" />-->
+<!--        <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="7E57C2C0" />-->
+<!--        <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="4373C2" />-->
+<!--        <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="7E57C2" />-->
         <option name="Bookmark.Mnemonic.iconBackground" value="4373C2" />
         <option name="Bookmark.Mnemonic.iconBorderColor" value="4373C2" />
         <option name="Bookmark.Mnemonic.iconForeground" value="FFFFFF" />
@@ -28,7 +28,7 @@
         <option name="BookmarkMnemonicIcon.foreground" value="FFFFFF" />
         <option name="CARET_COLOR" value="7E57C2" />
         <option name="CARET_ROW_COLOR" value="3F4E57" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="223844" />
         <option name="DELETED_LINES_COLOR" value="EF5350" />
         <option name="DIAGRAM_ANNOTATION_EDGE" value="C792EA" />
         <option name="DIAGRAM_COARSE_GRID" value="32374D" />
@@ -199,8 +199,8 @@
                 <option name="FOREGROUND" value="c792ea" />
             </value>
         </option>
-        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="APACHE_CONFIG.ARG_LEXEM">
             <value>
                 <option name="FOREGROUND" value="addb67" />
@@ -385,7 +385,7 @@
         </option>
         <option name="CONSOLE_ERROR_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="e1a1a0" />
+                <option name="FOREGROUND" value="e3a7a6" />
             </value>
         </option>
         <option name="CONSOLE_GRAY_OUTPUT">
@@ -449,7 +449,7 @@
         </option>
         <option name="CONSOLE_WHITE_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="f8f8f0" />
+                <option name="FOREGROUND" value="d9d9d5" />
             </value>
         </option>
         <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
@@ -580,7 +580,7 @@
         </option>
         <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
         <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-        <option name="Class" baseAttributes="" />
+        <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="Closure braces">
             <value>
                 <option name="FOREGROUND" value="d6deeb" />
@@ -598,7 +598,7 @@
         </option>
         <option name="DEFAULT_ATTRIBUTE">
             <value>
-                <option name="FOREGROUND" value="7fdbca" />
+                <option name="FOREGROUND" value="d7b991" />
             </value>
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
@@ -1079,10 +1079,14 @@
         </option>
         <option name="HTML_CUSTOM_TAG_NAME" baseAttributes="HTML_TAG_NAME" />
         <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
-        <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
+        <option name="HTML_TAG">
+            <value>
+                <option name="FOREGROUND" value="d7b991" />
+            </value>
+        </option>
         <option name="HTML_TAG_NAME">
             <value>
-                <option name="FOREGROUND" value="7fdbca" />
+                <option name="FOREGROUND" value="d7b991" />
             </value>
         </option>
         <option name="HTTP_REQUEST_PARAMETER_NAME">
@@ -1148,7 +1152,7 @@
                 <option name="FOREGROUND" value="d6deeb" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="ecc48d" />
@@ -1468,7 +1472,7 @@
         </option>
         <option name="LOG_ERROR_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="d9a2a1" />
+                <option name="FOREGROUND" value="e3a7a6" />
             </value>
         </option>
         <option name="LOG_EXPIRED_ENTRY">
@@ -1962,15 +1966,15 @@
                 <option name="FOREGROUND" value="ef5350" />
             </value>
         </option>
-        <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="" />
+        <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
         <option name="PROPERTIES.KEY">
             <value>
                 <option name="FOREGROUND" value="7fdbca" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="" />
-        <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="" />
+        <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
+        <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
         <option name="PROTOCOL_REFERENCE">
             <value>
                 <option name="FOREGROUND" value="219598" />
@@ -1992,26 +1996,21 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.NONE">
             <value>
                 <option name="FOREGROUND" value="ff5874" />
             </value>
         </option>
-        <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-        <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
         <option name="PY.PRINT">
             <value>
                 <option name="FOREGROUND" value="addb67" />
             </value>
         </option>
-        <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.STRING">
             <value>
                 <option name="FOREGROUND" value="ecc48d" />
             </value>
         </option>
-        <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
         <option name="PY.TRUE_FALSE">
             <value>
                 <option name="FOREGROUND" value="ff5874" />
@@ -2751,7 +2750,7 @@
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
-        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
         <option name="SUGGESTION">
             <value>
                 <option name="EFFECT_COLOR" value="637777" />
@@ -2766,7 +2765,7 @@
         </option>
         <option name="Scala Type Alias" baseAttributes="" />
         <option name="Scala Type parameter" baseAttributes="" />
-        <option name="Static method access" baseAttributes="" />
+        <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
         <option name="Static property reference ID">
             <value>
                 <option name="FOREGROUND" value="ffeb95" />
@@ -2868,7 +2867,7 @@
                 <option name="FOREGROUND" value="c7c8f5" />
             </value>
         </option>
-        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
         <option name="TYPO">
             <value>
                 <option name="EFFECT_COLOR" value="ffeb95" />
@@ -2930,16 +2929,21 @@
             </value>
         </option>
         <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
-        <option name="XML_PROLOGUE" baseAttributes="TEXT" />
+        <option name="XML_PROLOGUE">
+            <value>
+                <option name="FOREGROUND" value="d7b991" />
+                <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
         <option name="XML_TAG">
             <value>
-                <option name="FOREGROUND" value="7fdbca" />
+                <option name="FOREGROUND" value="d7b991" />
             </value>
         </option>
         <option name="XML_TAG_DATA" baseAttributes="TEXT" />
         <option name="XML_TAG_NAME">
             <value>
-                <option name="FOREGROUND" value="7fdbca" />
+                <option name="FOREGROUND" value="d7b991" />
             </value>
         </option>
         <option name="XPATH.KEYWORD">
