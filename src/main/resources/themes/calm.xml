@@ -9,9 +9,9 @@
         <option name="ActionButton.hoverBackground" value="4D8150" />
         <option name="ActionButton.iconTextForeground" value="5F7E97" />
         <option name="ActionButton.pressedBackground" value="084D81" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="0223844FF" />
-        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="0223844FF" />
-        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="0223844FF" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="3844FF" />
+        <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="3844FF" />
+        <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="3844FF" />
         <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="D6DEEB" />
         <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="EF5350" />
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="122D42" />
@@ -37,11 +37,11 @@
         <option name="DIAGRAM_GENERALIZATION_EDGE" value="ADDB67" />
         <option name="DIAGRAM_HOT_SPOTS" value="E2B93D" />
         <option name="DIAGRAM_INNER_EDGE" value="82AAFF" />
-        <option name="DIAGRAM_NODE_BACKGROUND" value="0223844FF" />
+        <option name="DIAGRAM_NODE_BACKGROUND" value="3844FF" />
         <option name="DIAGRAM_NODE_BORDER" value="084D81" />
         <option name="DIAGRAM_NODE_HEADER" value="0B2942" />
         <option name="DIAGRAM_NODE_SLOPPY_BACKGROUND" value="084D81" />
-        <option name="DIAGRAM_NOTE_BACKGROUND" value="0223844FF" />
+        <option name="DIAGRAM_NOTE_BACKGROUND" value="3844FF" />
         <option name="DIAGRAM_NOTE_BORDER" value="D6DEEB" />
         <option name="DIAGRAM_NOTE_SLOPPY_BACKGROUND" value="084D81" />
         <option name="DIAGRAM_REALIZATION_EDGE" value="F78C6C" />
@@ -75,10 +75,10 @@
         <option name="FILESTATUS_changelistConflict" value="F78C6C" />
         <option name="FILESTATUS_modifiedOutside" value="82AAFF" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="314365" />
-        <option name="GUTTER_BACKGROUND" value="0223844FF" />
-        <option name="INDENT_GUIDE" value="073B42" />
-        <option name="INFORMATION_HINT" value="0223844FF" />
-        <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="0223844FF" />
+        <option name="GUTTER_BACKGROUND" value="3844FF" />
+        <option name="INDENT_GUIDE" value="4F5D5E" />
+        <option name="INFORMATION_HINT" value="3844FF" />
+        <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="3844FF" />
         <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="4373C2" />
         <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="1D3B53" />
         <option name="JUPYTER.CELL_UNDER_CARET_COMMAND_MODE_STRIPE_COLOR" value="7E57C2" />
@@ -91,7 +91,7 @@
         <option name="JUPYTER.SAUSAGE_BUTTON_SHORTCUT_COLOR" value="5F7E97" />
         <option name="LINE_NUMBERS_COLOR" value="838F9A" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="C5E4FD" />
-        <option name="LOOKUP_COLOR" value="0223844FF" />
+        <option name="LOOKUP_COLOR" value="3844FF" />
         <option name="METHOD_SEPARATORS_COLOR" value="084D81" />
         <option name="MODIFIED_LINES_COLOR" value="E2B93D" />
         <option name="MODIFIED_TAB_ICON" value="7E57C2" />
@@ -128,37 +128,37 @@
         <option name="NOTIFICATION_BACKGROUND" value="01111D" />
         <option name="NOT_CHANGED" value="D6DEEB" />
         <option name="PROMOTION_PANE" value="1D3B53" />
-        <option name="QUESTION_HINT" value="0223844FF" />
+        <option name="QUESTION_HINT" value="3844FF" />
         <option name="RECENT_LOCATIONS_SELECTION" value="1D3B53" />
-        <option name="RIGHT_MARGIN_COLOR" value="084D81" />
-        <option name="SELECTED_INDENT_GUIDE" value="7E97AC" />
+        <option name="RIGHT_MARGIN_COLOR" value="" />
+        <option name="SELECTED_INDENT_GUIDE" value="" />
         <option name="SELECTED_TEARLINE_COLOR" value="7E97AC" />
         <option name="SELECTION_BACKGROUND" value="0B4263" />
         <option name="SEPARATOR_BELOW_COLOR" value="122D42" />
         <option name="SOFT_WRAP_SIGN_COLOR" value="122D42" />
         <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="7E57C2C0" />
-        <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="0223844FF" />
+        <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="3844FF" />
         <option name="ScrollBar.Mac.Transparent.thumbColor" value="7E57C280" />
-        <option name="ScrollBar.Mac.Transparent.trackColor" value="0223844FF" />
+        <option name="ScrollBar.Mac.Transparent.trackColor" value="3844FF" />
         <option name="ScrollBar.Mac.hoverThumbColor" value="7E57C2" />
-        <option name="ScrollBar.Mac.hoverTrackColor" value="0223844FF" />
+        <option name="ScrollBar.Mac.hoverTrackColor" value="3844FF" />
         <option name="ScrollBar.Mac.thumbColor" value="7E57C2C0" />
-        <option name="ScrollBar.Mac.trackColor" value="0223844FF" />
+        <option name="ScrollBar.Mac.trackColor" value="3844FF" />
         <option name="ScrollBar.Transparent.hoverThumbColor" value="7E57C2C0" />
-        <option name="ScrollBar.Transparent.hoverTrackColor" value="0223844FF" />
+        <option name="ScrollBar.Transparent.hoverTrackColor" value="3844FF" />
         <option name="ScrollBar.Transparent.thumbColor" value="7E57C280" />
-        <option name="ScrollBar.Transparent.trackColor" value="0223844FF" />
+        <option name="ScrollBar.Transparent.trackColor" value="3844FF" />
         <option name="ScrollBar.hoverThumbColor" value="7E57C2" />
-        <option name="ScrollBar.hoverTrackColor" value="0223844FF" />
+        <option name="ScrollBar.hoverTrackColor" value="3844FF" />
         <option name="ScrollBar.thumbColor" value="7E57C2C0" />
-        <option name="ScrollBar.trackColor" value="0223844FF" />
+        <option name="ScrollBar.trackColor" value="3844FF" />
         <option name="Scrollbar.Tabs.HoveredThumbColor" value="7E57C2" />
         <option name="Scrollbar.Tabs.ThumbColor" value="7E57C2C0" />
         <option name="Scrollbar.Tabs.TransparentThumbColor" value="7E57C280" />
         <option name="TAB_UNDERLINE" value="7E57C2" />
         <option name="TAB_UNDERLINE_INACTIVE" value="7E57C2C0" />
         <option name="TEARLINE_COLOR" value="444267" />
-        <option name="TOOLTIP" value="0223844FF" />
+        <option name="TOOLTIP" value="3844FF" />
         <option name="VCS_ANNOTATIONS_COLOR_1" value="637777" />
         <option name="VCS_ANNOTATIONS_COLOR_2" value="2E3C43" />
         <option name="VCS_ANNOTATIONS_COLOR_3" value="37474F" />
@@ -289,7 +289,7 @@
         <option name="BREADCRUMBS_DEFAULT">
             <value>
                 <option name="FOREGROUND" value="d6deeb" />
-                <option name="BACKGROUND" value="223844FF" />
+                <option name="BACKGROUND" value="223844" />
             </value>
         </option>
         <option name="BREADCRUMBS_HOVERED">
@@ -301,7 +301,7 @@
         <option name="BREADCRUMBS_INACTIVE">
             <value>
                 <option name="FOREGROUND" value="5f7e97" />
-                <option name="BACKGROUND" value="223844FF" />
+                <option name="BACKGROUND" value="223844" />
             </value>
         </option>
         <option name="BREAKPOINT_ATTRIBUTES">
@@ -420,7 +420,7 @@
         </option>
         <option name="CONSOLE_OUTPUT">
             <value>
-                <option name="BACKGROUND" value="223844FF" />
+                <option name="BACKGROUND" value="223844" />
             </value>
         </option>
         <option name="CONSOLE_RANGE_TO_EXECUTE">
@@ -619,12 +619,12 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="e2c3b2" />
+                <option name="FOREGROUND" value="eeb89d" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="e2c3b2" />
+                <option name="FOREGROUND" value="eeb89d" />
             </value>
         </option>
         <option name="DEFAULT_COMMA">
@@ -672,12 +672,12 @@
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="e2c3b2" />
+                <option name="FOREGROUND" value="eeb89d" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="e2c3b2" />
+                <option name="FOREGROUND" value="eeb89d" />
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -689,7 +689,7 @@
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="e2c3b2" />
+                <option name="FOREGROUND" value="eeb89d" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -716,7 +716,7 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="e2c3b2" />
+                <option name="FOREGROUND" value="eeb89d" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -922,7 +922,7 @@
         <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="e2c3b2" />
+                <option name="FOREGROUND" value="eeb89d" />
             </value>
         </option>
         <option name="GO_PACKAGE_EXPORTED_VARIABLE">
@@ -2187,7 +2187,7 @@
         <option name="RUBY_HEREDOC_CONTENT">
             <value>
                 <option name="FOREGROUND" value="d6deeb" />
-                <option name="BACKGROUND" value="223844FF" />
+                <option name="BACKGROUND" value="223844" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
@@ -2278,7 +2278,7 @@
         </option>
         <option name="RUBY_REGEXP">
             <value>
-                <option name="BACKGROUND" value="223844FF" />
+                <option name="BACKGROUND" value="223844" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
@@ -2473,7 +2473,7 @@
         </option>
         <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK">
             <value>
-                <option name="BACKGROUND" value="223844FF" />
+                <option name="BACKGROUND" value="223844" />
             </value>
         </option>
         <option name="ReSharper.ASP_NET_RAZOR_COMMENT">
