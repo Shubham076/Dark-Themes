@@ -1,6 +1,6 @@
 <scheme name="Calm" version="142" parent_scheme="Darcula">
     <metaInfo>
-        <property name="ide">GoLand</property>
+        <property name="ide">idea</property>
         <property name="ideVersion">2025.3.0.0</property>
     </metaInfo>
     <colors>
@@ -76,7 +76,7 @@
         <option name="FILESTATUS_modifiedOutside" value="82AAFF" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="314365" />
         <option name="GUTTER_BACKGROUND" value="3844FF" />
-        <option name="INDENT_GUIDE" value="4F5D5E" />
+        <option name="INDENT_GUIDE" value="" />
         <option name="INFORMATION_HINT" value="3844FF" />
         <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="3844FF" />
         <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="4373C2" />
@@ -580,7 +580,7 @@
         </option>
         <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
         <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-        <option name="Class" baseAttributes="" />
+        <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="Closure braces">
             <value>
                 <option name="FOREGROUND" value="d6deeb" />
@@ -598,7 +598,7 @@
         </option>
         <option name="DEFAULT_ATTRIBUTE">
             <value>
-                <option name="FOREGROUND" value="d7b991" />
+                <option name="FOREGROUND" value="aad0ac" />
             </value>
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
@@ -650,7 +650,7 @@
         </option>
         <option name="DEFAULT_ENTITY">
             <value>
-                <option name="FOREGROUND" value="86cabc" />
+                <option name="FOREGROUND" value="eeb89d" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
@@ -677,7 +677,7 @@
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="90d7c9" />
+                <option name="FOREGROUND" value="b0c586" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -707,11 +707,6 @@
                 <option name="FOREGROUND" value="eeb89d" />
             </value>
         </option>
-        <option name="DEFAULT_OPERATION_SIGN">
-            <value>
-                <option name="FOREGROUND" value="86cabc" />
-            </value>
-        </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
                 <option name="FOREGROUND" value="bfd198" />
@@ -732,7 +727,7 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="90d7c9" />
+                <option name="FOREGROUND" value="b0c586" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -747,19 +742,19 @@
         </option>
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="90d7c9" />
+                <option name="FOREGROUND" value="b0c586" />
             </value>
         </option>
         <option name="DELETED_TEXT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="ef5350" />
-                <option name="EFFECT_COLOR" value="c14360" />
+                <option name="FOREGROUND" value="c98e8c" />
+                <option name="EFFECT_COLOR" value="c98e8c" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
         </option>
         <option name="DEPRECATED_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="637777" />
+                <option name="FOREGROUND" value="798686" />
                 <option name="EFFECT_COLOR" value="637777" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
@@ -833,9 +828,8 @@
         </option>
         <option name="GENERIC_SERVER_ERROR_OR_WARNING">
             <value>
-                <option name="EFFECT_COLOR" value="f49810" />
-                <option name="ERROR_STRIPE_COLOR" value="f49810" />
-                <option name="EFFECT_TYPE" value="1" />
+                <option name="EFFECT_COLOR" value="b98382" />
+                <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
         <option name="GIT_TOOLBOX.CHANGED_COUNT_ATTRIBUTES">
@@ -912,6 +906,12 @@
             </value>
         </option>
         <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+        <option name="GRAMMAR_ERROR">
+            <value>
+                <option name="EFFECT_COLOR" value="b98382" />
+                <option name="EFFECT_TYPE" value="2" />
+            </value>
+        </option>
         <option name="HAML_CLASS">
             <value>
                 <option name="FOREGROUND" value="ffcb8b" />
@@ -1056,12 +1056,12 @@
         <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
         <option name="HTML_TAG">
             <value>
-                <option name="FOREGROUND" value="d7b991" />
+                <option name="FOREGROUND" value="eeb89d" />
             </value>
         </option>
         <option name="HTML_TAG_NAME">
             <value>
-                <option name="FOREGROUND" value="d7b991" />
+                <option name="FOREGROUND" value="eeb89d" />
             </value>
         </option>
         <option name="HTTP_REQUEST_PARAMETER_NAME">
@@ -1127,7 +1127,7 @@
                 <option name="FOREGROUND" value="d6deeb" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="ecc48d" />
@@ -1419,15 +1419,11 @@
             </value>
         </option>
         <option name="LIVE_TEMPLATE_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="ffffff" />
-                <option name="BACKGROUND" value="7e57c2" />
-            </value>
+            <value />
         </option>
         <option name="LIVE_TEMPLATE_INACTIVE_SEGMENT">
             <value>
-                <option name="FOREGROUND" value="637777" />
-                <option name="FONT_TYPE" value="2" />
+                <option name="FOREGROUND" value="779393" />
             </value>
         </option>
         <option name="LOG_DEBUG_OUTPUT">
@@ -1705,14 +1701,14 @@
         </option>
         <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="637777" />
-                <option name="EFFECT_COLOR" value="ef5350" />
+                <option name="FOREGROUND" value="798686" />
+                <option name="EFFECT_COLOR" value="ad7272" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
         </option>
         <option name="MATCHED_BRACE_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="5f7e97" />
+                <option name="BACKGROUND" value="775754" />
                 <option name="FONT_TYPE" value="1" />
                 <option name="EFFECT_COLOR" value="7e57c2" />
                 <option name="EFFECT_TYPE" value="4" />
@@ -2280,8 +2276,8 @@
         </option>
         <option name="RUNTIME_ERROR">
             <value>
-                <option name="BACKGROUND" value="ef5350" />
-                <option name="ERROR_STRIPE_COLOR" value="ef5350" />
+                <option name="EFFECT_COLOR" value="b98382" />
+                <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
         <option name="RUST_ASYNC_AWAIT">
@@ -2709,12 +2705,6 @@
                 <option name="FOREGROUND" value="c792ea" />
             </value>
         </option>
-        <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="7fdbca" />
-                <option name="EFFECT_TYPE" value="1" />
-            </value>
-        </option>
         <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
         <option name="SUGGESTION">
             <value>
@@ -2748,9 +2738,7 @@
             </value>
         </option>
         <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
-            <value>
-                <option name="FOREGROUND" value="57b6c2" />
-            </value>
+            <value />
         </option>
         <option name="TERMINAL_CLASS_NAME_LOG_REFERENCE" baseAttributes="" />
         <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
@@ -2882,33 +2870,32 @@
         </option>
         <option name="WRONG_REFERENCES_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="ef5350" />
-                <option name="ERROR_STRIPE_COLOR" value="ef5350" />
-                <option name="EFFECT_TYPE" value="1" />
+                <option name="EFFECT_COLOR" value="b98382" />
+                <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
-        <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
-        <option name="XML_CUSTOM_TAG_NAME">
+        <option name="XML_ATTRIBUTE_NAME">
             <value>
-                <option name="FOREGROUND" value="7fdbca" />
+                <option name="FOREGROUND" value="eeb89d" />
             </value>
         </option>
+        <option name="XML_CUSTOM_TAG_NAME" baseAttributes="XML_TAG_NAME" />
         <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
         <option name="XML_PROLOGUE">
             <value>
-                <option name="FOREGROUND" value="d7b991" />
+                <option name="FOREGROUND" value="eeb89d" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
         <option name="XML_TAG">
             <value>
-                <option name="FOREGROUND" value="d7b991" />
+                <option name="FOREGROUND" value="eeb89d" />
             </value>
         </option>
         <option name="XML_TAG_DATA" baseAttributes="TEXT" />
         <option name="XML_TAG_NAME">
             <value>
-                <option name="FOREGROUND" value="d7b991" />
+                <option name="FOREGROUND" value="eeb89d" />
             </value>
         </option>
         <option name="XPATH.KEYWORD">
@@ -2928,19 +2915,27 @@
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
-        <option name="YAML_ANCHOR">
-            <value>
-                <option name="FOREGROUND" value="ecc48d" />
-            </value>
-        </option>
+        <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="YAML_SCALAR_KEY">
             <value>
                 <option name="FOREGROUND" value="dcaba6" />
             </value>
         </option>
+        <option name="YAML_SCALAR_LIST">
+            <value>
+                <option name="FOREGROUND" value="cec3af" />
+                <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
+        <option name="YAML_SCALAR_VALUE">
+            <value>
+                <option name="FOREGROUND" value="cec3af" />
+                <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
         <option name="YAML_TEXT">
             <value>
-                <option name="FOREGROUND" value="ecc48d" />
+                <option name="FOREGROUND" value="cec3af" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
