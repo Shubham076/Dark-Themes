@@ -1,7 +1,7 @@
 <scheme name="Tokyo night light" version="142" parent_scheme="Default">
     <metaInfo>
-        <property name="ide">GoLand</property>
-        <property name="ideVersion">2025.2.4.0.0</property>
+        <property name="ide">idea</property>
+        <property name="ideVersion">2025.3.0.0</property>
     </metaInfo>
     <colors>
         <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="D5D6DB" />
@@ -23,6 +23,8 @@
         <option name="SELECTION_FOREGROUND" value="" />
     </colors>
     <attributes>
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
         <option name="BAD_CHARACTER">
             <value>
                 <option name="FOREGROUND" value="942f2f" />
@@ -908,6 +910,7 @@
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value />
         </option>
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="485e30" />
@@ -924,7 +927,7 @@
         <option name="INJECTED_LANGUAGE_FRAGMENT">
             <value />
         </option>
-        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="" />
+        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
         <option name="IVAR">
             <value>
                 <option name="FOREGROUND" value="343b58" />
@@ -960,11 +963,6 @@
                 <option name="FOREGROUND" value="4c505e" />
             </value>
         </option>
-        <option name="JAVA_DOC_COMMENT">
-            <value>
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
         <option name="JAVA_DOC_MARKUP">
             <value>
                 <option name="BACKGROUND" value="e2ffe2" />
@@ -980,21 +978,6 @@
         <option name="JAVA_DOT">
             <value>
                 <option name="FOREGROUND" value="4c505e" />
-            </value>
-        </option>
-        <option name="JAVA_INVALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="942f2f" />
-            </value>
-        </option>
-        <option name="JAVA_KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="5a4a78" />
-            </value>
-        </option>
-        <option name="JAVA_LINE_COMMENT">
-            <value>
-                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="JAVA_NUMBER">
@@ -1015,11 +998,6 @@
         <option name="JAVA_SEMICOLON">
             <value>
                 <option name="FOREGROUND" value="4c505e" />
-            </value>
-        </option>
-        <option name="JAVA_STRING">
-            <value>
-                <option name="FOREGROUND" value="485e30" />
             </value>
         </option>
         <option name="JAVA_VALID_STRING_ESCAPE">
@@ -1787,8 +1765,8 @@
             </value>
         </option>
         <option name="SPY-JS.VALUE_HINT" baseAttributes="" />
-        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
-        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="" />
+        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
         <option name="STATIC_METHOD_ATTRIBUTES">
             <value>
                 <option name="FONT_TYPE" value="2" />
