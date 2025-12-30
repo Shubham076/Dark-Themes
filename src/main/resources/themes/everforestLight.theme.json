@@ -5,8 +5,9 @@
   "editorScheme": "/themes/everforestLight.xml",
   "colors": {
     "background": "#EFEEEEFF",
-    "hover": "#F3EFDA",
-    "selectionBackground": "#dfdfdf"
+    "hover": "#d2d2d2",
+    "selectionBackground": "#cbcbcb",
+    "mainBackground": "#d2d2d2"
   },
   "ui": {
     "*": {
@@ -30,7 +31,7 @@
     "Islands": 1,
     "Island": {
       "arc": 20,
-      "borderWidth": 4,
+      "borderWidth": 6,
       "borderColor": "background",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
@@ -39,7 +40,7 @@
         "os.linux": 0.15
       }
     },
-    "MainWindow.background": "#e6e6e6",
+    "MainWindow.background": "mainBackground",
     "DefaultTabs": {
       "background": "background",
       "borderColor": "background"
