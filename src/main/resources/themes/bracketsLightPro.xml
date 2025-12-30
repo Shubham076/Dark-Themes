@@ -1,7 +1,7 @@
 <scheme name="Brackets-light-pro" version="142" parent_scheme="Default">
     <metaInfo>
-        <property name="ide">idea</property>
-        <property name="ideVersion">2025.3.1.0.0</property>
+        <property name="ide">GoLand</property>
+        <property name="ideVersion">2025.3.0.0</property>
     </metaInfo>
     <colors>
         <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="F8F8F8" />
@@ -206,7 +206,7 @@
         </option>
         <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="626f91" />
+                <option name="FOREGROUND" value="5c6d9b" />
             </value>
         </option>
         <option name="CONSOLE_BLUE_OUTPUT">
@@ -216,7 +216,7 @@
         </option>
         <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="448888" />
+                <option name="FOREGROUND" value="67a6a6" />
             </value>
         </option>
         <option name="CONSOLE_CYAN_OUTPUT">
@@ -231,7 +231,7 @@
         </option>
         <option name="CONSOLE_ERROR_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="985f5f" />
+                <option name="FOREGROUND" value="9a5d5d" />
             </value>
         </option>
         <option name="CONSOLE_GRAY_OUTPUT">
@@ -241,7 +241,7 @@
         </option>
         <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="609859" />
+                <option name="FOREGROUND" value="5d9a56" />
             </value>
         </option>
         <option name="CONSOLE_GREEN_OUTPUT">
@@ -251,12 +251,12 @@
         </option>
         <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="8a5b8a" />
+                <option name="FOREGROUND" value="a25ba2" />
             </value>
         </option>
         <option name="CONSOLE_MAGENTA_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="8d548d" />
+                <option name="FOREGROUND" value="8d4d8d" />
             </value>
         </option>
         <option name="CONSOLE_NORMAL_OUTPUT">
@@ -269,12 +269,12 @@
         </option>
         <option name="CONSOLE_RED_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="a66565" />
+                <option name="FOREGROUND" value="a45f5f" />
             </value>
         </option>
         <option name="CONSOLE_RED_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="a16363" />
+                <option name="FOREGROUND" value="b64646" />
             </value>
         </option>
         <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -284,17 +284,17 @@
         </option>
         <option name="CONSOLE_USER_INPUT">
             <value>
-                <option name="FOREGROUND" value="51854b" />
+                <option name="FOREGROUND" value="5e835b" />
             </value>
         </option>
         <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="a18a5e" />
+                <option name="FOREGROUND" value="9f8858" />
             </value>
         </option>
         <option name="CONSOLE_YELLOW_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="a28d62" />
+                <option name="FOREGROUND" value="c28d22" />
             </value>
         </option>
         <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
@@ -421,7 +421,7 @@
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="775aaf" />
+                <option name="FOREGROUND" value="926998" />
             </value>
         </option>
         <option name="DEFAULT_COMMA" baseAttributes="" />
@@ -464,7 +464,7 @@
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
         <option name="DEFAULT_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="726f6f" />
+                <option name="FOREGROUND" value="5d5c5c" />
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -506,7 +506,11 @@
         <option name="DEFAULT_OPERATION_SIGN">
             <value />
         </option>
-        <option name="DEFAULT_PREDEFINED_SYMBOL" baseAttributes="DEFAULT_IDENTIFIER" />
+        <option name="DEFAULT_PREDEFINED_SYMBOL">
+            <value>
+                <option name="FOREGROUND" value="507e6a" />
+            </value>
+        </option>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="DEFAULT_SEMICOLON" baseAttributes="" />
         <option name="DEFAULT_STATIC_FIELD">
@@ -656,7 +660,7 @@
         </option>
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="775aaf" />
+                <option name="FOREGROUND" value="926998" />
             </value>
         </option>
         <option name="GO_PACKAGE_EXPORTED_CONSTANT">
@@ -741,7 +745,7 @@
                 <option name="ERROR_STRIPE_COLOR" value="ccccff" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="338583" />
@@ -770,7 +774,7 @@
                 <option name="BACKGROUND" value="bcdaf7" />
             </value>
         </option>
-        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="" />
         <option name="INTERFACE_NAME_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="926998" />
@@ -834,27 +838,32 @@
         </option>
         <option name="LOG_DEBUG_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="518383" />
+                <option name="FOREGROUND" value="2f8181" />
             </value>
         </option>
         <option name="LOG_ERROR_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="985f5f" />
+                <option name="FOREGROUND" value="9a5d5d" />
+            </value>
+        </option>
+        <option name="LOG_EXPIRED_ENTRY">
+            <value>
+                <option name="FOREGROUND" value="706d6d" />
             </value>
         </option>
         <option name="LOG_INFO_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="608d5b" />
+                <option name="FOREGROUND" value="5d9456" />
             </value>
         </option>
         <option name="LOG_VERBOSE_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="565681" />
+                <option name="FOREGROUND" value="63639d" />
             </value>
         </option>
         <option name="LOG_WARNING_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="8f7c53" />
+                <option name="FOREGROUND" value="9f844d" />
             </value>
         </option>
         <option name="MACRONAME">
@@ -1361,7 +1370,7 @@
                 <option name="FOREGROUND" value="926998" />
             </value>
         </option>
-        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
+        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="" />
         <option name="STATIC_METHOD_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="926998" />
@@ -1382,7 +1391,7 @@
         </option>
         <option name="TEXT">
             <value>
-                <option name="FOREGROUND" value="726f6f" />
+                <option name="FOREGROUND" value="5d5c5c" />
                 <option name="BACKGROUND" value="f8f8f8" />
             </value>
         </option>
@@ -1421,7 +1430,7 @@
         </option>
         <option name="XML_PROLOGUE">
             <value>
-                <option name="FOREGROUND" value="587094" />
+                <option name="FOREGROUND" value="386ac3" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -1430,9 +1439,10 @@
                 <option name="FOREGROUND" value="587094" />
             </value>
         </option>
-        <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
-        <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
-        <option name="XPATH.XPATH_NAME" baseAttributes="TEXT" />
+        <option name="XPATH.FUNCTION" baseAttributes="" />
+        <option name="XPATH.KEYWORD" baseAttributes="" />
+        <option name="XPATH.XPATH_NAME" baseAttributes="" />
         <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
+        <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
     </attributes>
 </scheme>
