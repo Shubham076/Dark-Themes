@@ -28,7 +28,7 @@
         <option name="BookmarkMnemonicIcon.foreground" value="FFFFFF" />
         <option name="CARET_COLOR" value="7E57C2" />
         <option name="CARET_ROW_COLOR" value="3F4E57" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="273136" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="2D353BFF" />
         <option name="DELETED_LINES_COLOR" value="EF5350" />
         <option name="DIAGRAM_ANNOTATION_EDGE" value="C792EA" />
         <option name="DIAGRAM_COARSE_GRID" value="32374D" />
@@ -663,12 +663,12 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="eeb89d" />
+                <option name="FOREGROUND" value="e1bc86" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="eeb89d" />
+                <option name="FOREGROUND" value="e1bc86" />
             </value>
         </option>
         <option name="DEFAULT_COMMA">
@@ -676,7 +676,7 @@
         </option>
         <option name="DEFAULT_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="d7b991" />
+                <option name="FOREGROUND" value="eeb89d" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT">
@@ -709,12 +709,12 @@
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="eeb89d" />
+                <option name="FOREGROUND" value="e1bc86" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="eeb89d" />
+                <option name="FOREGROUND" value="e1bc86" />
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -726,12 +726,12 @@
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="eeb89d" />
+                <option name="FOREGROUND" value="e1bc86" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="b0c586" />
+                <option name="FOREGROUND" value="aad0cf" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -781,7 +781,7 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="b0c586" />
+                <option name="FOREGROUND" value="aad0cf" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -796,7 +796,7 @@
         </option>
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="b0c586" />
+                <option name="FOREGROUND" value="aad0cf" />
             </value>
         </option>
         <option name="DELETED_TEXT_ATTRIBUTES">
@@ -940,7 +940,7 @@
         <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="eeb89d" />
+                <option name="FOREGROUND" value="e1bc86" />
             </value>
         </option>
         <option name="GO_PACKAGE_EXPORTED_VARIABLE">
@@ -1176,7 +1176,7 @@
                 <option name="FOREGROUND" value="d6deeb" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="ecc48d" />
@@ -1753,7 +1753,6 @@
         <option name="MATCHED_BRACE_ATTRIBUTES">
             <value>
                 <option name="BACKGROUND" value="775754" />
-                <option name="FONT_TYPE" value="1" />
                 <option name="EFFECT_COLOR" value="7e57c2" />
                 <option name="EFFECT_TYPE" value="4" />
             </value>
@@ -1971,15 +1970,15 @@
                 <option name="FOREGROUND" value="ef5350" />
             </value>
         </option>
-        <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
+        <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="" />
         <option name="PROPERTIES.KEY">
             <value>
                 <option name="FOREGROUND" value="7fdbca" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
-        <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+        <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="" />
+        <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="" />
         <option name="PROTOCOL_REFERENCE">
             <value>
                 <option name="FOREGROUND" value="219598" />
@@ -2749,7 +2748,7 @@
                 <option name="FOREGROUND" value="c792ea" />
             </value>
         </option>
-        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
+        <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
         <option name="SUGGESTION">
             <value>
                 <option name="EFFECT_COLOR" value="637777" />
@@ -2764,7 +2763,7 @@
         </option>
         <option name="Scala Type Alias" baseAttributes="" />
         <option name="Scala Type parameter" baseAttributes="" />
-        <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
+        <option name="Static method access" baseAttributes="" />
         <option name="Static property reference ID">
             <value>
                 <option name="FOREGROUND" value="ffeb95" />
@@ -2791,7 +2790,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="cec3af" />
-                <option name="BACKGROUND" value="263238" />
+                <option name="BACKGROUND" value="2d353b" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
@@ -2864,7 +2863,7 @@
                 <option name="FOREGROUND" value="c7c8f5" />
             </value>
         </option>
-        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
         <option name="TYPO">
             <value>
                 <option name="EFFECT_COLOR" value="ffeb95" />
