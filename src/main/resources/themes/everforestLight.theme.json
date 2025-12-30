@@ -4,7 +4,7 @@
   "dark": false,
   "editorScheme": "/themes/everforestLight.xml",
   "colors": {
-    "background": "#f3f3f3",
+    "background": "#EFEEEEFF",
     "hover": "#F3EFDA",
     "selectionBackground": "#dfdfdf"
   },
