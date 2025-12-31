@@ -1,6 +1,6 @@
 <scheme name="Everforest Light" version="142" parent_scheme="Default">
     <metaInfo>
-        <property name="ide">idea</property>
+        <property name="ide">GoLand</property>
         <property name="ideVersion">2025.3.0.0</property>
     </metaInfo>
     <colors>
@@ -15,7 +15,7 @@
         <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="ECF5ED" />
         <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="3A94C5" />
         <option name="CARET_COLOR" value="5C6A72" />
-        <option name="CARET_ROW_COLOR" value="E2E5E8" />
+        <option name="CARET_ROW_COLOR" value="E1E5E8" />
         <option name="CONSOLE_BACKGROUND_KEY" value="" />
         <option name="DELETED_LINES_COLOR" value="FBE3DA" />
         <option name="DIAGRAM_ANNOTATION_EDGE" value="E9F0E9" />
@@ -30,21 +30,25 @@
         <option name="DIFF_SEPARATORS_BACKGROUND" value="3C474D" />
         <option name="DOCUMENTATION_COLOR" value="FAFAFA" />
         <option name="ERROR_HINT" value="FBE3DA" />
-        <option name="FILESTATUS_ADDED" value="C3E887" />
-        <option name="FILESTATUS_DELETED" value="F77669" />
-        <option name="FILESTATUS_HIJACKED" value="FFCB6B" />
+        <option name="FILESTATUS_ADDED" value="777954" />
+        <option name="FILESTATUS_DELETED" value="A46D67" />
+        <option name="FILESTATUS_HIJACKED" value="9A845C" />
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="939F91" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="393A34" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="7D7E7A" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="A46D67" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="A46D67" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="A46D67" />
+        <option name="FILESTATUS_MERGED" value="6E5783" />
         <option name="FILESTATUS_MODIFIED" value="007C7C" />
-        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="007C7C" />
-        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="007C7C" />
-        <option name="FILESTATUS_OBSOLETE" value="FFCB6B" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="518070" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="518070" />
+        <option name="FILESTATUS_OBSOLETE" value="9A845C" />
         <option name="FILESTATUS_SUPPRESSED" value="546E7A" />
-        <option name="FILESTATUS_SWITCHED" value="F77669" />
-        <option name="FILESTATUS_UNKNOWN" value="F77669" />
-        <option name="FILESTATUS_addedOutside" value="8DA101" />
-        <option name="FILESTATUS_changelistConflict" value="E9F0E9" />
-        <option name="FILESTATUS_modifiedOutside" value="DFA000" />
+        <option name="FILESTATUS_SWITCHED" value="A46D67" />
+        <option name="FILESTATUS_UNKNOWN" value="A46D67" />
+        <option name="FILESTATUS_addedOutside" value="697752" />
+        <option name="FILESTATUS_changelistConflict" value="518070" />
+        <option name="FILESTATUS_modifiedOutside" value="9A845C" />
         <option name="GUTTER_BACKGROUND" value="FAFAFA" />
         <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="EDEAD5" />
         <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="EDEAD5" />
@@ -81,8 +85,8 @@
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="BDC3AF" />
     </colors>
     <attributes>
-        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
-        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+        <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
+        <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
         <option name="BAD_CHARACTER">
             <value>
                 <option name="BACKGROUND" value="fbe3da" />
@@ -600,7 +604,7 @@
                 <option name="BACKGROUND" value="edead5" />
             </value>
         </option>
-        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+        <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="5b916b" />
@@ -629,7 +633,7 @@
                 <option name="BACKGROUND" value="cccccc" />
             </value>
         </option>
-        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+        <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="" />
         <option name="JS.BADCHARACTER">
             <value>
                 <option name="BACKGROUND" value="fbe3da" />
@@ -1377,11 +1381,6 @@
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
-        <option name="PY.ANNOTATION">
-            <value>
-                <option name="FOREGROUND" value="dfa000" />
-            </value>
-        </option>
         <option name="PY.BRACES">
             <value>
                 <option name="FOREGROUND" value="5c6a72" />
@@ -1392,22 +1391,8 @@
                 <option name="FOREGROUND" value="5c6a72" />
             </value>
         </option>
-        <option name="PY.CLASS_DEFINITION">
-            <value>
-                <option name="FOREGROUND" value="dfa000" />
-            </value>
-        </option>
+        <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
         <option name="PY.COMMA">
-            <value>
-                <option name="FOREGROUND" value="939f91" />
-            </value>
-        </option>
-        <option name="PY.DECORATOR">
-            <value>
-                <option name="FOREGROUND" value="8da101" />
-            </value>
-        </option>
-        <option name="PY.DOC_COMMENT">
             <value>
                 <option name="FOREGROUND" value="939f91" />
             </value>
@@ -1422,21 +1407,6 @@
                 <option name="FOREGROUND" value="939f91" />
             </value>
         </option>
-        <option name="PY.FUNCTION_CALL">
-            <value>
-                <option name="FOREGROUND" value="8da101" />
-            </value>
-        </option>
-        <option name="PY.FUNC_DEFINITION">
-            <value>
-                <option name="FOREGROUND" value="8da101" />
-            </value>
-        </option>
-        <option name="PY.KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="f85552" />
-            </value>
-        </option>
         <option name="PY.KEYWORD_ARGUMENT">
             <value>
                 <option name="FOREGROUND" value="5c6a72" />
@@ -1445,26 +1415,6 @@
         <option name="PY.LINE_COMMENT">
             <value>
                 <option name="FOREGROUND" value="939f91" />
-            </value>
-        </option>
-        <option name="PY.METHOD_CALL">
-            <value>
-                <option name="FOREGROUND" value="8da101" />
-            </value>
-        </option>
-        <option name="PY.NESTED_FUNC_DEFINITION">
-            <value>
-                <option name="FOREGROUND" value="8da101" />
-            </value>
-        </option>
-        <option name="PY.NUMBER">
-            <value>
-                <option name="FOREGROUND" value="df69ba" />
-            </value>
-        </option>
-        <option name="PY.OPERATION_SIGN">
-            <value>
-                <option name="FOREGROUND" value="f57d26" />
             </value>
         </option>
         <option name="PY.PARAMETER">
@@ -1482,26 +1432,9 @@
                 <option name="FOREGROUND" value="8da101" />
             </value>
         </option>
-        <option name="PY.PREDEFINED_USAGE">
-            <value>
-                <option name="FOREGROUND" value="8da101" />
-            </value>
-        </option>
-        <option name="PY.SELF_PARAMETER">
-            <value>
-                <option name="FOREGROUND" value="3a94c5" />
-            </value>
-        </option>
-        <option name="PY.STRING.B">
-            <value>
-                <option name="FOREGROUND" value="35a77c" />
-            </value>
-        </option>
-        <option name="PY.STRING.U">
-            <value>
-                <option name="FOREGROUND" value="35a77c" />
-            </value>
-        </option>
+        <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+        <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+        <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
         <option name="RUNTIME_ERROR">
             <value>
                 <option name="EFFECT_COLOR" value="f85552" />
@@ -1514,15 +1447,15 @@
                 <option name="BACKGROUND" value="eaedc8" />
             </value>
         </option>
-        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
-        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
+        <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
+        <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="" />
         <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
             <value />
         </option>
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="5c6a72" />
-                <option name="BACKGROUND" value="F5F4F4" />
+                <option name="BACKGROUND" value="f5f4f4" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
@@ -1623,9 +1556,9 @@
                 <option name="FOREGROUND" value="5c6a72" />
             </value>
         </option>
-        <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
-        <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
-        <option name="XPATH.XPATH_NAME" baseAttributes="TEXT" />
+        <option name="XPATH.FUNCTION" baseAttributes="" />
+        <option name="XPATH.KEYWORD" baseAttributes="" />
+        <option name="XPATH.XPATH_NAME" baseAttributes="" />
         <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
     </attributes>
 </scheme>

@@ -1,15 +1,26 @@
 <scheme name="Ayu-light" version="142" parent_scheme="Default">
     <metaInfo>
-        <property name="ide">Idea</property>
-        <property name="ideVersion">2024.3.2.2.0.0</property>
+        <property name="ide">GoLand</property>
+        <property name="ideVersion">2025.3.0.0</property>
     </metaInfo>
     <colors>
         <option name="CARET_COLOR" value="D68C67" />
         <option name="CARET_ROW_COLOR" value="E2F3FF" />
         <option name="CONSOLE_BACKGROUND_KEY" value="FAFAFA" />
+        <option name="FILESTATUS_ADDED" value="51794E" />
+        <option name="FILESTATUS_HIJACKED" value="93823D" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="8564A1" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="993300" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="993300" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="993300" />
+        <option name="FILESTATUS_MERGED" value="8564A1" />
         <option name="FILESTATUS_MODIFIED" value="007C7C" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="007C7C" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="007C7C" />
+        <option name="FILESTATUS_SWITCHED" value="51794E" />
+        <option name="FILESTATUS_addedOutside" value="51794E" />
+        <option name="FILESTATUS_changelistConflict" value="993300" />
+        <option name="FILESTATUS_modifiedOutside" value="54668A" />
         <option name="GUTTER_BACKGROUND" value="FAFAFA" />
         <option name="INDENT_GUIDE" value="D9DBDD" />
         <option name="LINE_NUMBERS_COLOR" value="757B80" />
@@ -450,7 +461,7 @@
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="749a08" />
+                <option name="FOREGROUND" value="749123" />
             </value>
         </option>
         <option name="DEFAULT_KEYWORD">
@@ -495,7 +506,7 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="749a08" />
+                <option name="FOREGROUND" value="749123" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -506,7 +517,7 @@
         <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="749a08" />
+                <option name="FOREGROUND" value="749123" />
             </value>
         </option>
         <option name="DJANGO_COMMENT">
