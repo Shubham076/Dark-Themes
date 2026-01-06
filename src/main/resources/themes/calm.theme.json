@@ -5,16 +5,20 @@
   "editorScheme": "/themes/calm.xml",
   "colors": {
     "background": "#353A3DFF",
-    "selectionBackground": "#3F4E57",
-    "hover": "#4F5D5E"
+    "tabBackground": "#4F5D5E",
+    "treeSelection": "#4F5D5E",
+    "focusedColor": "#60747f",
+    "mainBackground": "#4a4f52",
+    "hover": "#4F5D5E",
+    "borderTransparent": "#00000000"
   },
   "ui": {
     "*": {
       "background": "background",
       "foreground": "#D6DEEB",
       "highlight": "#425b67ff",
-      "selectionBackground": "#4373C2",
-      "selectionInactiveBackground": "#4373C2",
+      "selectionBackground": "treeSelection",
+      "selectionInactiveBackground": "treeSelection",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
       "secondaryBackground": "#32424aff",
@@ -31,7 +35,7 @@
     "Island": {
       "arc": 20,
       "borderWidth": 6,
-      "borderColor": "background",
+      "borderColor": "mainBackground",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
         "os.mac": 0.2,
@@ -39,7 +43,7 @@
         "os.linux": 0.15
       }
     },
-    "MainWindow.background": "selectionBackground",
+    "MainWindow.background": "mainBackground",
     "DefaultTabs": {
       "background": "background",
       "borderColor": "background"
@@ -48,11 +52,11 @@
       "background": "background",
       "underTabsBorderColor": "background",
 
-      "underlinedTabBackground": "selectionBackground",
-      "underlinedBorderColor": "selectionBackground",
+      "underlinedTabBackground": "tabBackground",
+      "underlinedBorderColor": "tabBackground",
 
-      "inactiveUnderlinedTabBackground": "selectionBackground",
-      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+      "inactiveUnderlinedTabBackground": "tabBackground",
+      "inactiveUnderlinedTabBorderColor": "tabBackground",
 
       "hoverBackground": "hover",
 
@@ -80,16 +84,18 @@
       "Header.activeBackground": "background"
     },
     "TabbedPane": {
-      "hoverColor": "#002441"
+      "hoverColor": "hover"
     },
     "Button": {
-      "focus": "#002441"
+      "focus": "focusedColor"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "focusedColor",
+      "hoverBorderColor": "borderTransparent",
+      "pressedBackground": "focusedColor",
+      "pressedBorderColor": "borderTransparent",
+      "focusedBorderColor": "borderTransparent",
+      "hoverSeparatorColor": "focusedColor"
     }
   }
 }
