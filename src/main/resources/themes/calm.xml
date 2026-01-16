@@ -43,27 +43,27 @@
         <option name="DIFF_SEPARATORS_TOP_BORDER" value="1B262B" />
         <option name="DOC_COMMENT_GUIDE" value="4B6479" />
         <option name="DOC_COMMENT_LINK" value="ECC48D" />
-        <option name="FILESTATUS_ADDED" value="C3E887" />
-        <option name="FILESTATUS_COPIED" value="ADDB67" />
-        <option name="FILESTATUS_DELETED" value="F77669" />
-        <option name="FILESTATUS_HIJACKED" value="FFCB6B" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="EF5350" />
+        <option name="FILESTATUS_ADDED" value="BCDE8A" />
+        <option name="FILESTATUS_COPIED" value="BCDE8A" />
+        <option name="FILESTATUS_DELETED" value="DA9D9C" />
+        <option name="FILESTATUS_HIJACKED" value="F6D08A" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="DA9D9C" />
         <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="637777" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="F78C6C" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="F78C6C" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="F78C6C" />
-        <option name="FILESTATUS_MERGED" value="82AAFF" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="DA9D9C" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="DA9D9C" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="DA9D9C" />
+        <option name="FILESTATUS_MERGED" value="9AB8F8" />
         <option name="FILESTATUS_MODIFIED" value="80CBC4" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80CBC4" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80CBC4" />
-        <option name="FILESTATUS_OBSOLETE" value="FFCB6B" />
-        <option name="FILESTATUS_RENAMED" value="C792EA" />
+        <option name="FILESTATUS_OBSOLETE" value="F6D08A" />
+        <option name="FILESTATUS_RENAMED" value="D2ABEC" />
         <option name="FILESTATUS_SUPPRESSED" value="546E7A" />
-        <option name="FILESTATUS_SWITCHED" value="F77669" />
-        <option name="FILESTATUS_UNKNOWN" value="F77669" />
-        <option name="FILESTATUS_addedOutside" value="7FDBCA" />
+        <option name="FILESTATUS_SWITCHED" value="DA9D9C" />
+        <option name="FILESTATUS_UNKNOWN" value="DA9D9C" />
+        <option name="FILESTATUS_addedOutside" value="80CBC4" />
         <option name="FILESTATUS_changelistConflict" value="F78C6C" />
-        <option name="FILESTATUS_modifiedOutside" value="82AAFF" />
+        <option name="FILESTATUS_modifiedOutside" value="9AB8F8" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="737070" />
         <option name="GUTTER_BACKGROUND" value="4F5D5E" />
         <option name="INDENT_GUIDE" value="273136" />
@@ -638,7 +638,7 @@
         </option>
         <option name="DEFAULT_ATTRIBUTE">
             <value>
-                <option name="FOREGROUND" value="eeb89d" />
+                <option name="FOREGROUND" value="dcaba6" />
             </value>
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
@@ -649,12 +649,12 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="e1bc86" />
+                <option name="FOREGROUND" value="bccb9f" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="e1bc86" />
+                <option name="FOREGROUND" value="bccb9f" />
             </value>
         </option>
         <option name="DEFAULT_COMMA">
@@ -673,7 +673,7 @@
         </option>
         <option name="DEFAULT_DOC_COMMENT_TAG">
             <value>
-                <option name="FOREGROUND" value="86cabc" />
+                <option name="FOREGROUND" value="809f9f" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -690,17 +690,17 @@
         </option>
         <option name="DEFAULT_ENTITY">
             <value>
-                <option name="FOREGROUND" value="eeb89d" />
+                <option name="FOREGROUND" value="cbaf91" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="e1bc86" />
+                <option name="FOREGROUND" value="bccb9f" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="e1bc86" />
+                <option name="FOREGROUND" value="bccb9f" />
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -712,23 +712,18 @@
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="e1bc86" />
+                <option name="FOREGROUND" value="bccb9f" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="c3d0aa" />
+                <option name="FOREGROUND" value="d5bc96" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="aad0ac" />
-            </value>
-        </option>
-        <option name="DEFAULT_LABEL">
-            <value>
-                <option name="FOREGROUND" value="bbbbbb" />
+                <option name="FOREGROUND" value="dcaba6" />
             </value>
         </option>
         <option name="DEFAULT_LINE_COMMENT">
@@ -744,7 +739,7 @@
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="eeb89d" />
+                <option name="FOREGROUND" value="d5bc96" />
             </value>
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
@@ -767,12 +762,13 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="bccb9f" />
+                <option name="FOREGROUND" value="d5bc96" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
             <value>
-                <option name="FOREGROUND" value="7fdbca" />
+                <option name="FOREGROUND" value="cec3af" />
+                <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
         <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
@@ -782,7 +778,7 @@
         </option>
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="c3d0aa" />
+                <option name="FOREGROUND" value="d5bc96" />
             </value>
         </option>
         <option name="DELETED_TEXT_ATTRIBUTES">
@@ -927,25 +923,21 @@
         <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
         <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+        <option name="GO_COLON">
+            <value>
+                <option name="FOREGROUND" value="cec3af" />
+                <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
         <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="e1bc86" />
-            </value>
-        </option>
-        <option name="GO_PACKAGE_EXPORTED_VARIABLE">
-            <value>
-                <option name="FOREGROUND" value="bbbbbb" />
+                <option name="FOREGROUND" value="bccb9f" />
             </value>
         </option>
         <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-        <option name="GO_STRUCT_EXPORTED_MEMBER">
-            <value>
-                <option name="FOREGROUND" value="bbbbbb" />
-            </value>
-        </option>
         <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
         <option name="GRAMMAR_ERROR">
             <value>
@@ -1089,7 +1081,11 @@
             </value>
         </option>
         <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
-        <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
+        <option name="HTML_ATTRIBUTE_VALUE">
+            <value>
+                <option name="FOREGROUND" value="c0d29d" />
+            </value>
+        </option>
         <option name="HTML_CODE">
             <value />
         </option>
@@ -1097,14 +1093,10 @@
         <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
         <option name="HTML_TAG">
             <value>
-                <option name="FOREGROUND" value="eeb89d" />
+                <option name="FOREGROUND" value="dcaba6" />
             </value>
         </option>
-        <option name="HTML_TAG_NAME">
-            <value>
-                <option name="FOREGROUND" value="eeb89d" />
-            </value>
-        </option>
+        <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
         <option name="HTTP_REQUEST_PARAMETER_NAME">
             <value>
                 <option name="FOREGROUND" value="f9ee98" />
@@ -1173,7 +1165,7 @@
         <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="aad0cf" />
+                <option name="FOREGROUND" value="d5bc96" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -1301,11 +1293,6 @@
         <option name="JS.THIS_SUPER">
             <value>
                 <option name="FOREGROUND" value="7fdbca" />
-            </value>
-        </option>
-        <option name="JSON.PROPERTY_KEY">
-            <value>
-                <option name="FOREGROUND" value="dcaba6" />
             </value>
         </option>
         <option name="MATCHED_BRACE_ATTRIBUTES">
@@ -2207,7 +2194,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="cec3af" />
-                <option name="BACKGROUND" value="35383B" />
+                <option name="BACKGROUND" value="35383b" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
@@ -2334,30 +2321,27 @@
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
-        <option name="XML_ATTRIBUTE_NAME">
+        <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+        <option name="XML_ATTRIBUTE_VALUE">
             <value>
-                <option name="FOREGROUND" value="eeb89d" />
+                <option name="FOREGROUND" value="a3c4c5" />
             </value>
         </option>
         <option name="XML_CUSTOM_TAG_NAME" baseAttributes="XML_TAG_NAME" />
         <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
         <option name="XML_PROLOGUE">
             <value>
-                <option name="FOREGROUND" value="eeb89d" />
+                <option name="FOREGROUND" value="a3c4c5" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
         <option name="XML_TAG">
             <value>
-                <option name="FOREGROUND" value="eeb89d" />
+                <option name="FOREGROUND" value="dcaba6" />
             </value>
         </option>
         <option name="XML_TAG_DATA" baseAttributes="TEXT" />
-        <option name="XML_TAG_NAME">
-            <value>
-                <option name="FOREGROUND" value="eeb89d" />
-            </value>
-        </option>
+        <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
         <option name="XPATH.KEYWORD">
             <value>
                 <option name="FOREGROUND" value="a7dbd8" />
@@ -2376,6 +2360,11 @@
             </value>
         </option>
         <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
+        <option name="YAML_SCALAR_DSTRING">
+            <value>
+                <option name="FOREGROUND" value="a3c4c5" />
+            </value>
+        </option>
         <option name="YAML_SCALAR_KEY">
             <value>
                 <option name="FOREGROUND" value="dcaba6" />
@@ -2385,6 +2374,11 @@
             <value>
                 <option name="FOREGROUND" value="cec3af" />
                 <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
+        <option name="YAML_SCALAR_STRING">
+            <value>
+                <option name="FOREGROUND" value="a3c4c5" />
             </value>
         </option>
         <option name="YAML_SCALAR_VALUE">
