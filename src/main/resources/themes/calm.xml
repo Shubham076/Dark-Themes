@@ -322,19 +322,19 @@
         </option>
         <option name="BREADCRUMBS_CURRENT">
             <value>
-                <option name="FOREGROUND" value="ffffff" />
-                <option name="BACKGROUND" value="676e95" />
+                <option name="FOREGROUND" value="B2B8BDFF" />
+                <option name="BACKGROUND" value="4f5d5e" />
             </value>
         </option>
         <option name="BREADCRUMBS_DEFAULT">
             <value>
-                <option name="FOREGROUND" value="d6deeb" />
-                <option name="BACKGROUND" value="273136" />
+                <option name="FOREGROUND" value="B2B8BDFF" />
+                <option name="BACKGROUND" value="4f5d5e" />
             </value>
         </option>
         <option name="BREADCRUMBS_HOVERED">
             <value>
-                <option name="FOREGROUND" value="ffffff" />
+                <option name="FOREGROUND" value="B2B8BDFF" />
                 <option name="BACKGROUND" value="4f5d5e" />
             </value>
         </option>
@@ -679,8 +679,8 @@
         </option>
         <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
             <value>
-                <option name="FOREGROUND" value="637777" />
-                <option name="FONT_TYPE" value="3" />
+                <option name="FOREGROUND" value="809f9f" />
+                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_DOC_MARKUP">
@@ -717,7 +717,7 @@
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="d5bc96" />
+                <option name="FOREGROUND" value="e0c08e" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -739,7 +739,7 @@
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="d5bc96" />
+                <option name="FOREGROUND" value="e0c08e" />
             </value>
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
@@ -762,7 +762,7 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="d5bc96" />
+                <option name="FOREGROUND" value="e0c08e" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -778,7 +778,7 @@
         </option>
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="d5bc96" />
+                <option name="FOREGROUND" value="e0c08e" />
             </value>
         </option>
         <option name="DELETED_TEXT_ATTRIBUTES">
@@ -1165,7 +1165,7 @@
         <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="d5bc96" />
+                <option name="FOREGROUND" value="dabb8b" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
