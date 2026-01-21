@@ -322,19 +322,19 @@
         </option>
         <option name="BREADCRUMBS_CURRENT">
             <value>
-                <option name="FOREGROUND" value="B2B8BDFF" />
+                <option name="FOREGROUND" value="b2b8bd" />
                 <option name="BACKGROUND" value="4f5d5e" />
             </value>
         </option>
         <option name="BREADCRUMBS_DEFAULT">
             <value>
-                <option name="FOREGROUND" value="B2B8BDFF" />
+                <option name="FOREGROUND" value="b2b8bd" />
                 <option name="BACKGROUND" value="4f5d5e" />
             </value>
         </option>
         <option name="BREADCRUMBS_HOVERED">
             <value>
-                <option name="FOREGROUND" value="B2B8BDFF" />
+                <option name="FOREGROUND" value="b2b8bd" />
                 <option name="BACKGROUND" value="4f5d5e" />
             </value>
         </option>
@@ -717,7 +717,7 @@
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="e0c08e" />
+                <option name="FOREGROUND" value="a3c4c5" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -762,7 +762,7 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="e0c08e" />
+                <option name="FOREGROUND" value="a3c4c5" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -778,7 +778,7 @@
         </option>
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="e0c08e" />
+                <option name="FOREGROUND" value="a3c4c5" />
             </value>
         </option>
         <option name="DELETED_TEXT_ATTRIBUTES">
@@ -845,8 +845,7 @@
         </option>
         <option name="ERRORS_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="ef5350" />
-                <option name="ERROR_STRIPE_COLOR" value="ef5350" />
+                <option name="EFFECT_COLOR" value="dc7f7d" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -864,6 +863,7 @@
         <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="9dd2bb" />
+                <option name="EFFECT_COLOR" value="9dd2bb" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -1110,6 +1110,7 @@
         <option name="HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="9dd2bb" />
+                <option name="EFFECT_COLOR" value="9dd2bb" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -1165,7 +1166,7 @@
         <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="" />
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="dabb8b" />
+                <option name="FOREGROUND" value="a3c4c5" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -1196,7 +1197,7 @@
         </option>
         <option name="INFO_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="addb67" />
+                <option name="EFFECT_COLOR" value="aeae80" />
                 <option name="ERROR_STRIPE_COLOR" value="aeae80" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
@@ -1293,6 +1294,17 @@
         <option name="JS.THIS_SUPER">
             <value>
                 <option name="FOREGROUND" value="7fdbca" />
+            </value>
+        </option>
+        <option name="LIVE_TEMPLATE_ATTRIBUTES">
+            <value>
+                <option name="EFFECT_COLOR" value="95adc9" />
+            </value>
+        </option>
+        <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
+            <value>
+                <option name="EFFECT_COLOR" value="b98382" />
+                <option name="EFFECT_TYPE" value="3" />
             </value>
         </option>
         <option name="MATCHED_BRACE_ATTRIBUTES">
@@ -2204,6 +2216,12 @@
                 <option name="ERROR_STRIPE_COLOR" value="737070" />
             </value>
         </option>
+        <option name="TEXT_STYLE_SUGGESTION">
+            <value>
+                <option name="EFFECT_COLOR" value="8ab6cc" />
+                <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="a6a49a" />
@@ -2270,7 +2288,7 @@
         <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
         <option name="TYPO">
             <value>
-                <option name="EFFECT_COLOR" value="ffeb95" />
+                <option name="EFFECT_COLOR" value="e0c08e" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -2299,8 +2317,7 @@
         </option>
         <option name="WARNING_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="ffcb8b" />
-                <option name="ERROR_STRIPE_COLOR" value="ffcb8b" />
+                <option name="EFFECT_COLOR" value="e0c08e" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
