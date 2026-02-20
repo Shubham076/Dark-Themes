@@ -623,23 +623,22 @@
         </option>
         <option name="DEFAULT_ATTRIBUTE">
             <value>
-                <option name="FOREGROUND" value="9fdefb" />
+                <option name="FOREGROUND" value="abd9ca" />
             </value>
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
             <value>
                 <option name="FOREGROUND" value="cd9ffb" />
-                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="b6f1dd" />
+                <option name="FOREGROUND" value="abd9ca" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="b6f1dd" />
+                <option name="FOREGROUND" value="abd9ca" />
             </value>
         </option>
         <option name="DEFAULT_COMMA">
@@ -647,7 +646,7 @@
         </option>
         <option name="DEFAULT_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="e1a4b8" />
+                <option name="FOREGROUND" value="e1a8bb" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT">
@@ -668,17 +667,17 @@
         </option>
         <option name="DEFAULT_ENTITY">
             <value>
-                <option name="FOREGROUND" value="9fdefb" />
+                <option name="FOREGROUND" value="abd9ca" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="b6f1dd" />
+                <option name="FOREGROUND" value="abd9ca" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="b6f1dd" />
+                <option name="FOREGROUND" value="abd9ca" />
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -690,12 +689,12 @@
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="b6f1dd" />
+                <option name="FOREGROUND" value="abd9ca" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="e7deaa" />
+                <option name="FOREGROUND" value="e3adbe" />
             </value>
         </option>
         <option name="DEFAULT_KEYWORD">
@@ -710,17 +709,17 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="b6f1dd" />
+                <option name="FOREGROUND" value="abd9ca" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="9fdefb" />
+                <option name="FOREGROUND" value="9fcbe0" />
             </value>
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
-                <option name="FOREGROUND" value="b6f1dd" />
+                <option name="FOREGROUND" value="a9dccb" />
             </value>
         </option>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -740,7 +739,7 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="e7deaa" />
+                <option name="FOREGROUND" value="e3adbe" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -751,7 +750,7 @@
         <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="e7deaa" />
+                <option name="FOREGROUND" value="e3adbe" />
             </value>
         </option>
         <option name="DEPRECATED_ATTRIBUTES">
@@ -921,7 +920,7 @@
         <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="b6f1dd" />
+                <option name="FOREGROUND" value="abd9ca" />
             </value>
         </option>
         <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -1065,20 +1064,20 @@
         </option>
         <option name="INLINE_PARAMETER_HINT">
             <value>
-                <option name="FOREGROUND" value="ffffff" />
-                <option name="BACKGROUND" value="3092ec" />
+                <option name="FOREGROUND" value="d7d3d3" />
+                <option name="BACKGROUND" value="6193c2" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_CURRENT">
             <value>
-                <option name="FOREGROUND" value="ffffff" />
-                <option name="BACKGROUND" value="3092ec" />
+                <option name="FOREGROUND" value="d7d3d3" />
+                <option name="BACKGROUND" value="6193c2" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
             <value>
-                <option name="FOREGROUND" value="ffffff" />
-                <option name="BACKGROUND" value="3092ec" />
+                <option name="FOREGROUND" value="d7d3d3" />
+                <option name="BACKGROUND" value="6193c2" />
             </value>
         </option>
         <option name="IVAR">
@@ -1904,7 +1903,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="ecd8b1" />
-                <option name="BACKGROUND" value="252e4e" />
+                <option name="BACKGROUND" value="293152" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

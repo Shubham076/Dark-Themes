@@ -1,7 +1,7 @@
 <scheme name="Shades of purple" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2025.2.5.0.0</property>
+        <property name="ideVersion">2025.3.0.0</property>
     </metaInfo>
     <colors>
         <option name="ANNOTATIONS_COLOR" value="000000" />
@@ -589,12 +589,12 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="a5e597" />
+                <option name="FOREGROUND" value="a6ce85" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="a5e597" />
+                <option name="FOREGROUND" value="a6ce85" />
             </value>
         </option>
         <option name="DEFAULT_COMMA">
@@ -627,12 +627,12 @@
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="a5e597" />
+                <option name="FOREGROUND" value="a6ce85" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="a5e597" />
+                <option name="FOREGROUND" value="a6ce85" />
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -644,12 +644,12 @@
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="a5e597" />
+                <option name="FOREGROUND" value="a6ce85" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="a5e597" />
+                <option name="FOREGROUND" value="a6ce85" />
             </value>
         </option>
         <option name="DEFAULT_KEYWORD">
@@ -669,7 +669,7 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="a5e597" />
+                <option name="FOREGROUND" value="a6ce85" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -704,7 +704,7 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="a5e597" />
+                <option name="FOREGROUND" value="a6ce85" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -715,7 +715,7 @@
         <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="a5e597" />
+                <option name="FOREGROUND" value="a6ce85" />
             </value>
         </option>
         <option name="DEPRECATED_ATTRIBUTES">
@@ -868,6 +868,12 @@
                 <option name="FOREGROUND" value="ff9d00" />
             </value>
         </option>
+        <option name="GIT_TOOLBOX.EDITOR_INLINE_BLAME_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="889098" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
         <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
         <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
         <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
@@ -882,7 +888,7 @@
         <option name="GO_METHOD_RECEIVER" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="a5e597" />
+                <option name="FOREGROUND" value="a6ce85" />
             </value>
         </option>
         <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
@@ -1029,20 +1035,20 @@
         </option>
         <option name="INLINE_PARAMETER_HINT">
             <value>
-                <option name="FOREGROUND" value="ffffff" />
-                <option name="BACKGROUND" value="947b00" />
+                <option name="FOREGROUND" value="beb7b7" />
+                <option name="BACKGROUND" value="7e7e72" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_CURRENT">
             <value>
-                <option name="FOREGROUND" value="ffffff" />
-                <option name="BACKGROUND" value="947b00" />
+                <option name="FOREGROUND" value="beb7b7" />
+                <option name="BACKGROUND" value="7e7e72" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
             <value>
-                <option name="FOREGROUND" value="ffffff" />
-                <option name="BACKGROUND" value="947b00" />
+                <option name="FOREGROUND" value="beb7b7" />
+                <option name="BACKGROUND" value="7e7e72" />
             </value>
         </option>
         <option name="IVAR">
@@ -1896,7 +1902,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="ccbe9a" />
-                <option name="BACKGROUND" value="32305b" />
+                <option name="BACKGROUND" value="343356" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
