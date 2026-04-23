@@ -18,14 +18,19 @@ class IntelliJToZedConverter:
             # Editor colors - use TEXT attribute colors
             'TEXT.BACKGROUND': ['editor.background', 'editor.gutter.background', 'toolbar.background'],
             'TEXT.FOREGROUND': ['editor.foreground', 'editor.selection.foreground', 'elevated_surface.foreground', 'text', 'text.accent', 'text.muted', 'terminal.foreground', 'editor.line_number'],
-            'CARET_ROW_COLOR': ['editor.active_line.background', 'tab.active_background', 'scrollbar.thumb.background', 'editor.indent_guide', 'elevated_surface.background'],
-            'SELECTION_BACKGROUND': ['editor.selection.background', 'element.selected', 'ghost_element.selected', 'search.match_background', 'panel.focused_border'],
+            'CARET_ROW_COLOR': ['editor.active_line.background', 'tab.active_background', 'editor.indent_guide', 'elevated_surface.background'],
+            'SELECTION_BACKGROUND': ['editor.selection.background', 'element.selected', 'ghost_element.selected', 'search.match_background', 'panel.focused_border', 'scrollbar.thumb.hover_background', 'scrollbar.thumb.background'],
 
             'MATCHED_BRACE_ATTRIBUTES.BACKGROUND': ['editor.indent_guide_active', 'editor.document_highlight.bracket_background'],
 
             # UI elements
             'CONSOLE_BACKGROUND_KEY': 'terminal.background',
             'CONSOLE_NORMAL_OUTPUT': 'terminal.foreground',
+
+            # Version Control colors
+            'DIFF_INSERTED.BACKGROUND': ['version_control.added', "version_control.word_added"],
+            'DIFF_DELETED.BACKGROUND': ['version_control.deleted', 'version_control.word_deleted'],
+            'DIFF_MODIFIED.BACKGROUND': 'version_control.modified',
 
             # Terminal colors - regular
             # 'CONSOLE_BLACK_OUTPUT.FOREGROUND': 'terminal.ansi.black',
@@ -717,6 +722,14 @@ class IntelliJToZedConverter:
         border_color_light = caret_variants['darker_15']
 
         if appearance == 'light':
+            # Make word-level diff highlights 2 shades darker for light themes
+            if 'version_control.added' in zed_ui_colors:
+                zed_ui_colors['version_control.added'] = self.adjust_brightness(zed_ui_colors['version_control.added'], 0.75)
+            if 'version_control.deleted' in zed_ui_colors:
+                zed_ui_colors['version_control.deleted'] = self.adjust_brightness(zed_ui_colors['version_control.deleted'], 0.75)
+            if 'version_control.modified' in zed_ui_colors:
+                zed_ui_colors['version_control.modified'] = self.adjust_brightness(zed_ui_colors['version_control.modified'], 0.75)
+
             zed_ui_colors["info.background"] = "#C2D8F2"
             zed_ui_colors["info.border"] = "#C2D8F2"
             zed_ui_colors["error.background"] = "#FFD5CC"

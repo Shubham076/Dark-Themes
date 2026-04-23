@@ -1,7 +1,7 @@
 <scheme name="Vitesse Light Soft" version="142" parent_scheme="Default">
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2025.2.5.0.0</property>
+        <property name="ideVersion">2026.1.0.0</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="1E754F" />
@@ -404,6 +404,30 @@
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
                 <option name="FOREGROUND" value="b07d48" />
+            </value>
+        </option>
+        <option name="DIFF_CONFLICT">
+            <value>
+                <option name="BACKGROUND" value="aea1dc" />
+                <option name="ERROR_STRIPE_COLOR" value="ffc8bd" />
+            </value>
+        </option>
+        <option name="DIFF_DELETED">
+            <value>
+                <option name="BACKGROUND" value="e1b6ac" />
+                <option name="ERROR_STRIPE_COLOR" value="c8c8c8" />
+            </value>
+        </option>
+        <option name="DIFF_INSERTED">
+            <value>
+                <option name="BACKGROUND" value="9ecb9e" />
+                <option name="ERROR_STRIPE_COLOR" value="aadeaa" />
+            </value>
+        </option>
+        <option name="DIFF_MODIFIED">
+            <value>
+                <option name="BACKGROUND" value="aebbd9" />
+                <option name="ERROR_STRIPE_COLOR" value="b8cbf5" />
             </value>
         </option>
         <option name="ERRORS_ATTRIBUTES">
