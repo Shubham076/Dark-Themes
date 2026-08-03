@@ -363,6 +363,9 @@ class IntelliJToSublimeJSONConverter:
         is_light_theme = True  # Default to light
         if 'background' in base_colors:
             bg_color = base_colors['background'].lstrip('#')
+            # Drop alpha channel if present (RRGGBBAA -> RRGGBB)
+            if len(bg_color) == 8:
+                bg_color = bg_color[:6]
             if len(bg_color) == 6:
                 # Calculate perceived brightness using relative luminance
                 r = int(bg_color[0:2], 16) / 255
@@ -377,26 +380,31 @@ class IntelliJToSublimeJSONConverter:
 
         # Create better popup backgrounds for contrast - opposite of main background
         main_bg = base_colors.get('background', '#ffffff')
+        # Normalize main_bg to #RRGGBB (drop alpha if present)
+        main_bg_rgb = main_bg
+        if main_bg_rgb.startswith('#') and len(main_bg_rgb) == 9:
+            main_bg_rgb = main_bg_rgb[:7]
+
         if is_light_theme:
             # popup_bg = "#e8eaec"
             # Light theme (light background) -> use dark popup background for contrast
             # Darken the background significantly for good contrast
 
-            if main_bg.startswith('#') and len(main_bg) == 7:
-                r = max(0, int(main_bg[1:3], 16) - 17)
-                g = max(0, int(main_bg[3:5], 16) - 17)
-                b = max(0, int(main_bg[5:7], 16) - 17)
+            if main_bg_rgb.startswith('#') and len(main_bg_rgb) == 7:
+                r = max(0, int(main_bg_rgb[1:3], 16) - 17)
+                g = max(0, int(main_bg_rgb[3:5], 16) - 17)
+                b = max(0, int(main_bg_rgb[5:7], 16) - 17)
                 popup_bg = f"#{r:02x}{g:02x}{b:02x}"
             else:
                 popup_bg = "#404040"  # Fallback dark color
 
         else:
             # Dark theme (dark background) -> use light popup background for contrast
-            if main_bg.startswith('#') and len(main_bg) == 7:
+            if main_bg_rgb.startswith('#') and len(main_bg_rgb) == 7:
                 # Lighten the background significantly for good contrast
-                r = min(255, int(main_bg[1:3], 16) + 20)
-                g = min(255, int(main_bg[3:5], 16) + 20)
-                b = min(255, int(main_bg[5:7], 16) + 20)
+                r = min(255, int(main_bg_rgb[1:3], 16) + 20)
+                g = min(255, int(main_bg_rgb[3:5], 16) + 20)
+                b = min(255, int(main_bg_rgb[5:7], 16) + 20)
                 popup_bg = f"#{r:02x}{g:02x}{b:02x}"
             else:
                 popup_bg = "#c0c0c0"
@@ -719,7 +727,6 @@ class IntelliJToSublimeJSONConverter:
         theme_json = self.create_sublime_json_theme(colors, attributes, theme_name)
 
         # Write output file
-        os.makedirs(os.path.dirname(output_file), exist_ok=True)
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(theme_json, f, indent=4, ensure_ascii=False)
 
@@ -734,13 +741,14 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog='''
 Examples:
-  python intellij_to_sublime_json.py theme.icls theme.sublime-color-scheme
-  python intellij_to_sublime_json.py /path/to/monokai.icls /path/to/monokai.sublime-color-scheme
+  python intellij_to_sublime_json.py theme.icls -o theme.sublime-color-scheme
+  python intellij_to_sublime_json.py /path/to/monokai.icls -o /path/to/monokai.sublime-color-scheme
         '''
     )
 
     parser.add_argument('input', help='Input IntelliJ theme file (.icls or .xml)')
-    parser.add_argument('output', help='Output Sublime theme file (.sublime-color-scheme)')
+    parser.add_argument('-o', '--output', required=True,
+                        help='Output Sublime theme file path (.sublime-color-scheme)')
     parser.add_argument('--verbose', '-v', action='store_true',
                         help='Enable verbose output')
 
