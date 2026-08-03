@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/greenHaze.xml",
   "colors": {
+    "textFieldBackground": "#0c4343",
     "background": "#173535",
     "selectionBackground": "#2D5454",
     "hover": "#224949"
@@ -27,6 +28,7 @@
       "accent": "#009688ff",
       "excluded": "#0c4343"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

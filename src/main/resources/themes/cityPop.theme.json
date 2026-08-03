@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/cityPop.xml",
   "colors": {
+    "textFieldBackground": "#3d4071",
     "background": "#2C3148FF",
     "selectionBackground": "#303358",
     "treeSelectionBackground": "#3d4071",
@@ -29,6 +30,7 @@
       "accent": "#009688ff",
       "excluded": "#333565ff"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

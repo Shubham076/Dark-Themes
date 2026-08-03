@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/catpuccin.xml",
   "colors": {
+    "textFieldBackground": "#3b4252",
     "background": "#303446",
     "selectionBackground": "#4E5369",
     "hover": "#363B4E"
@@ -27,6 +28,7 @@
       "accent": "#009688ff",
       "excluded": "#3b4252"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

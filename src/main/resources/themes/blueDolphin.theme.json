@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/blueDolphin.xml",
   "colors": {
+    "textFieldBackground": "#2d617c",
     "background": "#0f445b",
     "mainBackground": "#215670",
     "treeSelection": "#2d617c",
@@ -30,6 +31,7 @@
       "accent": "#009688ff",
       "excluded": "#004e72ff"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

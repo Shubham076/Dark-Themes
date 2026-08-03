@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/moonlight.xml",
   "colors": {
+    "textFieldBackground": "#424865",
     "background": "#272A42",
     "selectionBackground": "#454963",
     "hover": "#3B3F58"
@@ -27,6 +28,7 @@
       "accent": "#009688ff",
       "excluded": "#424865"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

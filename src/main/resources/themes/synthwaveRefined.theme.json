@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/synthwaveRefined.xml",
   "colors": {
+    "textFieldBackground": "#352745",
     "background": "#302D3F",
     "selectionBackground": "#413E4E",
     "tabBackground": "#4c4959",
@@ -28,6 +29,7 @@
       "accent": "#009688ff",
       "excluded": "#352745"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

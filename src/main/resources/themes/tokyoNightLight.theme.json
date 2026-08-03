@@ -4,6 +4,7 @@
   "dark": false,
   "editorScheme": "/themes/tokyoNightLight.xml",
   "colors": {
+    "textFieldBackground": "#d7d8dd",
     "background": "#E6E7ED",
     "selectionBackground": "#d1d2d7",
     "hover": "#d7d8dd",
@@ -29,6 +30,7 @@
       "accent": "#00bcd4ff",
       "excluded": "#d7d8dd"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

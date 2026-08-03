@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/peachy.xml",
   "colors": {
+    "textFieldBackground": "#472541",
     "background": "#2A2D3A",
     "selectionBackground": "#444755",
     "hover": "#393C4A"
@@ -27,6 +28,7 @@
       "accent": "#009688ff",
       "excluded": "#472541"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

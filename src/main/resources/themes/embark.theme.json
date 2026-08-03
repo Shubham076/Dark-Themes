@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/embark.xml",
   "colors": {
+    "textFieldBackground": "#585273",
     "background": "#2D2B40",
     "selectionBackground": "#37354b",
     "tabBackground": "#585273",
@@ -28,6 +29,7 @@
       "accent": "#009688ff",
       "excluded": "#1a2631"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

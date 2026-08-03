@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/carbon.xml",
   "colors": {
+    "textFieldBackground": "#0A677A",
     "background": "#222D40",
     "selectionBackground": "#2c374b",
     "tabBackground": "#214760",
@@ -33,6 +34,7 @@
       "acceleratorForeground": "#abb9bc",
       "acceleratorSelectionForeground": "#abb9bc"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

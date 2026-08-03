@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/inBedBy7.xml",
   "colors": {
+    "textFieldBackground": "#373b51ff",
     "background": "#2e3142",
     "selectionBackground": "#42485F",
     "hover": "#383B4D"
@@ -27,6 +28,7 @@
       "accent": "#009688ff",
       "excluded": "#373b51ff"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/purple.xml",
   "colors": {
+    "textFieldBackground": "#45495E",
     "background": "#303448",
     "selectionBackground": "#424865",
     "hover": "#45495E"
@@ -26,6 +27,7 @@
       "accent": "#009688ff",
       "excluded": "#45495E"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

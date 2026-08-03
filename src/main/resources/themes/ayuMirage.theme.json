@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/ayuMirage.xml",
   "colors": {
+    "textFieldBackground": "#333b4fff",
     "background": "#262c38",
     "selectionBackground": "#293847",
     "hover": "#2A363E"
@@ -28,6 +29,7 @@
       "accent": "#009688ff",
       "excluded": "#333b4fff"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

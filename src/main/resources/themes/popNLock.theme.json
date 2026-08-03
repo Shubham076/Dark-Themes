@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/popNLock.xml",
   "colors": {
+    "textFieldBackground": "#314a5e",
     "background": "#2f3049",
     "selectionBackground": "#3E405B",
     "hover": "#393A55"
@@ -27,6 +28,7 @@
       "accent": "#009688ff",
       "excluded": "#1a2631"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

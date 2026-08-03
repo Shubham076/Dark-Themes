@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/pastelWater.xml",
   "colors": {
+    "textFieldBackground": "#314a5e",
     "background": "#282A35",
     "selectionBackground": "#3c3e4a",
     "hover": "#2F313A"
@@ -27,6 +28,7 @@
       "accent": "#009688ff",
       "excluded": "#1a2631"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

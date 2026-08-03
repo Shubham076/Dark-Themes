@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/hackTheBox.xml",
   "colors": {
+    "textFieldBackground": "#3a485e",
     "background": "#2B384DFF",
     "foreground": "#dadbc0",
     "selectionBackground": "#455065",
@@ -30,6 +31,7 @@
       "accent": "#009688ff",
       "excluded": "#263348ff"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

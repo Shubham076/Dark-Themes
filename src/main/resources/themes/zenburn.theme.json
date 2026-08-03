@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/zenburn.xml",
   "colors": {
+    "textFieldBackground": "#303030",
     "background": "#3F3F3F",
     "selectionBackground": "#4F4F4F",
     "hover": "#4F4F4F"
@@ -27,6 +28,7 @@
       "accent": "#009688ff",
       "excluded": "#303030"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

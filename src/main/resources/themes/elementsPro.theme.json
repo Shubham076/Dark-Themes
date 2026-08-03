@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/elementsPro.xml",
   "colors": {
+    "textFieldBackground": "#314a5e",
     "background": "#21282E",
     "selectionBackground": "#2b3238",
     "tabBackground": "#314A5E",
@@ -28,6 +29,7 @@
       "accent": "#009688ff",
       "excluded": "#1a2631"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

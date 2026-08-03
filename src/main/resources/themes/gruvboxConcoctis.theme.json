@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/gruvboxConcoctis.xml",
   "colors": {
+    "textFieldBackground": "#2d3233",
     "background": "#32302F",
     "selectionBackground": "#3E4244",
     "hover": "#343839"
@@ -27,6 +28,7 @@
       "accent": "#009688ff",
       "excluded": "#2d3233"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

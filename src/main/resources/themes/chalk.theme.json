@@ -7,7 +7,8 @@
     "background": "#2E2D2D",
     "selectionBackground": "#433E3B",
     "tabBackground": "#4e4946",
-    "hover": "#312E2D"
+    "hover": "#312E2D",
+    "textFieldBackground": "#3B4252"
   },
   "ui": {
     "*": {
@@ -41,6 +42,7 @@
       }
     },
     "MainWindow.background": "selectionBackground",
+    "TextField.background": "textFieldBackground",
     "DefaultTabs": {
       "background": "background",
       "borderColor": "background"

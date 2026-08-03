@@ -4,6 +4,7 @@
   "dark": false,
   "editorScheme": "/themes/carbonLightPro.xml",
   "colors": {
+    "textFieldBackground": "#eae0c0",
     "background": "#FDF6E3",
     "hover": "#EEE8D5",
     "selectionBackground": "#e8e2cf"
@@ -27,6 +28,7 @@
       "accent": "#00bcd4ff",
       "excluded": "#d3e1e8ff"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

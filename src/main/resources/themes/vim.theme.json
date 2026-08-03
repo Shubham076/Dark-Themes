@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/vim.xml",
   "colors": {
+    "textFieldBackground": "#424242",
     "background": "#323232",
     "selectionBackground": "#474747",
     "hover": "#414141"
@@ -27,6 +28,7 @@
       "accent": "#009688ff",
       "excluded": "#424242"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

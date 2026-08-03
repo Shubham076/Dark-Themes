@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/shadesOfPurple.xml",
   "colors": {
+    "textFieldBackground": "#464672",
     "background": "#343356FF",
     "selectionBackground": "#464672",
     "tabBackground": "#464672",
@@ -28,6 +29,7 @@
       "accent": "#009688ff",
       "excluded": "#2d2d5b"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

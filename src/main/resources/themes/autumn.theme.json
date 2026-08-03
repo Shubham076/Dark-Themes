@@ -4,6 +4,7 @@
   "dark": false,
   "editorScheme": "/themes/autumn.xml",
   "colors": {
+    "textFieldBackground": "#ccd7daff",
     "background": "#FAF9F9",
     "hover": "#F6EEDB",
     "selectionBackground": "#DAE5CD"
@@ -28,6 +29,7 @@
       "accent": "#00bcd4ff",
       "excluded": "#d3e1e8ff"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

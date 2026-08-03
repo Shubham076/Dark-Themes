@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/noctis.xml",
   "colors": {
+    "textFieldBackground": "#08383eff",
     "background": "#102f33",
     "selectionBackground": "#09454D",
     "hover": "#073B42"
@@ -27,6 +28,7 @@
       "accent": "#009688ff",
       "excluded": "#08383eff"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/fleet.xml",
   "colors": {
+    "textFieldBackground": "#333b4fff",
     "background": "#2b2b2b",
     "selectionBackground": "#353535",
     "tabBackground": "#163761",
@@ -28,6 +29,7 @@
       "accent": "#009688ff",
       "excluded": "#333b4fff"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

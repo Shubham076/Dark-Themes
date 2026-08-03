@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/forestfly.xml",
   "colors": {
+    "textFieldBackground": "#314a5e",
     "background": "#2C292C",
     "selectionBackground": "#413E4E",
     "hover": null
@@ -27,6 +28,7 @@
       "accent": "#009688ff",
       "excluded": "#1a2631"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

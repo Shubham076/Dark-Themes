@@ -4,6 +4,7 @@
   "dark": false,
   "editorScheme": "/themes/rougeLight.xml",
   "colors": {
+    "textFieldBackground": "#ccd7daff",
     "background": "#F5EBE1",
     "hover": "#E9DFD5",
     "selectionBackground": "#E2E0D9"
@@ -27,6 +28,7 @@
       "accent": "#00bcd4ff",
       "excluded": "#d3e1e8ff"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

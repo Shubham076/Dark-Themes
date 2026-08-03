@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/cobalt2.xml",
   "colors": {
+    "textFieldBackground": "#233f54",
     "background": "#193549",
     "selectionBackground": "#233f54",
     "tabBackground": "#165496",
@@ -28,6 +29,7 @@
       "accent": "#009688ff",
       "excluded": "#233f54"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

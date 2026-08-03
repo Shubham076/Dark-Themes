@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/talosDark.xml",
   "colors": {
+    "textFieldBackground": "#2A2D3A",
     "background": "#282B35",
     "selectionBackground": "#334252",
     "hover": "#374247"
@@ -27,6 +28,7 @@
       "accent": "#009688ff",
       "excluded": "#2A2D3A"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

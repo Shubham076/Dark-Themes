@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/noctisBordo.xml",
   "colors": {
+    "textFieldBackground": "#443a3e",
     "background": "#322A2D",
     "selectionBackground": "#544249",
     "hover": "#4E3D44"
@@ -27,6 +28,7 @@
       "accent": "#009688ff",
       "excluded": "#443a3e"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

@@ -4,6 +4,7 @@
   "dark": false,
   "editorScheme": "/themes/nightOwlLight.xml",
   "colors": {
+    "textFieldBackground": "#ccd7daff",
     "background": "#FFFFFF",
     "hover": "#EFF2EF",
     "selectionBackground": "#CEE1F0"
@@ -27,6 +28,7 @@
       "accent": "#00bcd4ff",
       "excluded": "#d3e1e8ff"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

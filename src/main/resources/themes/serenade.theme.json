@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/serenade.xml",
   "colors": {
+    "textFieldBackground": "#3e4951",
     "background": "#2A2F33",
     "selectionBackground": "#393e43",
     "tabBackground": "#665C54",
@@ -29,6 +30,7 @@
       "accent": "#009688ff",
       "excluded": "#3e4951"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/everforest.xml",
   "colors": {
+    "textFieldBackground": "#3e4951",
     "background": "#2D3439",
     "selectionBackground": "#373e43",
     "tabBackground": "#573E4C",
@@ -28,6 +29,7 @@
       "accent": "#009688ff",
       "excluded": "#3e4951"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

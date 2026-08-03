@@ -4,6 +4,7 @@
   "dark": false,
   "editorScheme": "/themes/whiteSand.xml",
   "colors": {
+    "textFieldBackground": "#E1D8CF",
     "background": "#EEE9E4",
     "foreground": "#585858",
     "selectionBackground": "#E1D8CF",
@@ -33,6 +34,7 @@
       "accent": "#00bcd4ff",
       "excluded": "#d3e1e8ff"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

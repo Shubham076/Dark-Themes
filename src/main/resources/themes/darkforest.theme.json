@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/darkforest.xml",
   "colors": {
+    "textFieldBackground": "#3e4951",
     "background": "#303030",
     "selectionBackground": "#3F3F3F",
     "tabBackground": "#4a4a4a",
@@ -28,6 +29,7 @@
       "accent": "#009688ff",
       "excluded": "#3e4951"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

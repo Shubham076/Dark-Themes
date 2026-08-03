@@ -4,6 +4,7 @@
   "dark": false,
   "editorScheme": "/themes/gruvBoxLight.xml",
   "colors": {
+    "textFieldBackground": "#ccd7daff",
     "background": "#fffcf3",
     "hover": "#f2efe6",
     "selectionBackground": "#FFF0CC"
@@ -27,6 +28,7 @@
       "accent": "#00bcd4ff",
       "excluded": "#d3e1e8ff"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,

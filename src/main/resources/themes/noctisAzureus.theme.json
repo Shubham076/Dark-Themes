@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/noctisAzureus.xml",
   "colors": {
+    "textFieldBackground": "#0b3b59",
     "background": "#0d2c40",
     "selectionBackground": "#224156",
     "tabBackground": "#0B4263",
@@ -28,6 +29,7 @@
       "accent": "#009688ff",
       "excluded": "#0b3b59"
     },
+    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,
