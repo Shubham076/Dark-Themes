@@ -4,20 +4,22 @@
   "dark": false,
   "editorScheme": "/themes/elementsLight.xml",
   "colors": {
-    "textFieldBackground": "#ccd7daff",
+    "tree_cell_active": "#ccd7daff",
+    "main_bg": "#D5DBE7",
+    "island_border": "#ECECECFF",
     "background": "#ECECECFF",
     "hover": "#DCE2ED",
-    "selectionBackground": "#D5DBE7",
-    "focusedColor": "#bfbfbf",
-    "borderTransparent": "#00000000"
+    "selection_background": "#D5DBE7",
+    "focused_color": "#bfbfbf",
+    "border_transparent": "#00000000"
   },
   "ui": {
     "*": {
       "background": "background",
       "foreground": "#565E70",
       "highlight": "#e7e7e8ff",
-      "selectionBackground": "#ccd7daff",
-      "selectionInactiveBackground": "#ccd7daff",
+      "selectionBackground": "tree_cell_active",
+      "selectionInactiveBackground": "tree_cell_active",
       "selectionForeground": "#546e7aff",
       "button": "#f3f4f5ff",
       "secondaryBackground": "#ffffffff",
@@ -28,14 +30,13 @@
       "treeSelection": "#80cbc440",
       "notifications": "#eae8e8ff",
       "accent": "#00bcd4ff",
-      "excluded": "#d3e1e8ff"
+      "excluded": "tree_cell_active"
     },
-    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,
       "borderWidth": 8,
-      "borderColor": "background",
+      "borderColor": "island_border",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
         "os.mac": 0.2,
@@ -43,7 +44,7 @@
         "os.linux": 0.15
       }
     },
-    "MainWindow.background": "selectionBackground",
+    "MainWindow.background": "main_bg",
     "DefaultTabs": {
       "background": "background",
       "borderColor": "background"
@@ -67,10 +68,10 @@
     "EditorTabs": {
       "background": "background",
       "underTabsBorderColor": "background",
-      "underlinedTabBackground": "selectionBackground",
-      "underlinedBorderColor": "selectionBackground",
-      "inactiveUnderlinedTabBackground": "selectionBackground",
-      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+      "underlinedTabBackground": "selection_background",
+      "underlinedBorderColor": "selection_background",
+      "inactiveUnderlinedTabBackground": "selection_background",
+      "inactiveUnderlinedTabBorderColor": "selection_background",
       "hoverBackground": "hover",
       "tabInsets": "-6,8,-6,8",
       "tabInsets.compact": "-2,6,-2,4",
@@ -86,12 +87,12 @@
       "focus": "#EAECF0"
     },
     "ActionButton": {
-      "hoverBackground": "focusedColor",
-      "hoverBorderColor": "borderTransparent",
-      "pressedBackground": "focusedColor",
-      "pressedBorderColor": "borderTransparent",
-      "focusedBorderColor": "borderTransparent",
-      "hoverSeparatorColor": "focusedColor"
+      "hoverBackground": "focused_color",
+      "hoverBorderColor": "border_transparent",
+      "pressedBackground": "focused_color",
+      "pressedBorderColor": "border_transparent",
+      "focusedBorderColor": "border_transparent",
+      "hoverSeparatorColor": "focused_color"
     },
     "RunWidget": {
       "iconColor": "#565E70",

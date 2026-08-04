@@ -3,13 +3,18 @@
   "dark": false,
   "name": "Vitesse Light",
   "editorScheme": "/themes/vitesseLight.xml",
+  "colors": {
+    "tree_cell_active": "#ccd7daff",
+    "main_bg": "#dadadb",
+    "island_border": "#dadadb"
+  },
   "ui": {
     "*": {
       "background": "#F1F0E9",
       "foreground": "#606060",
       "highlight": "#e7e7e8ff",
-      "selectionBackground": "#ccd7daff",
-      "selectionInactiveBackground": "#ccd7daff",
+      "selectionBackground": "tree_cell_active",
+      "selectionInactiveBackground": "tree_cell_active",
       "selectionForeground": "#546e7aff",
       "button": "#f3f4f5ff",
       "secondaryBackground": "#ffffffff",
@@ -20,13 +25,13 @@
       "treeSelection": "#80cbc440",
       "notifications": "#eae8e8ff",
       "accent": "#00bcd4ff",
-      "excluded": "#d3e1e8ff"
+      "excluded": "tree_cell_active"
     },
     "Islands": 1,
     "Island": {
       "arc": 20,
       "borderWidth": 4,
-      "borderColor": "#dadadb",
+      "borderColor": "island_border",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
         "os.mac": 0.2,
@@ -34,7 +39,7 @@
         "os.linux": 0.15
       }
     },
-    "MainWindow.background": "#dadadb",
+    "MainWindow.background": "main_bg",
     "DefaultTabs": {
       "background": "#F1F0E9",
       "borderColor": "#F1F0E9"

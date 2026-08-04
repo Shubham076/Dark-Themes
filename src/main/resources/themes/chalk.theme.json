@@ -4,19 +4,21 @@
   "dark": true,
   "editorScheme": "/themes/chalk.xml",
   "colors": {
+    "tree_cell_active": "#3B4252",
+    "main_bg": "#433E3B",
+    "island_border": "#2E2D2D",
     "background": "#2E2D2D",
-    "selectionBackground": "#433E3B",
-    "tabBackground": "#4e4946",
-    "hover": "#312E2D",
-    "textFieldBackground": "#3B4252"
+    "selection_background": "#433E3B",
+    "tab_background": "#4e4946",
+    "hover": "#312E2D"
   },
   "ui": {
     "*": {
       "background": "background",
       "foreground": "#C3C1BD",
       "highlight": "#425b67ff",
-      "selectionBackground": "#3B4252",
-      "selectionInactiveBackground": "#3B4252",
+      "selectionBackground": "tree_cell_active",
+      "selectionInactiveBackground": "tree_cell_active",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
       "secondaryBackground": "#32424aff",
@@ -27,13 +29,13 @@
       "treeSelection": "#00485c",
       "notifications": "#3B4252ff",
       "accent": "#009688ff",
-      "excluded": "#3B4252"
+      "excluded": "tree_cell_active"
     },
     "Islands": 1,
     "Island": {
       "arc": 20,
       "borderWidth": 4,
-      "borderColor": "background",
+      "borderColor": "island_border",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
         "os.mac": 0.2,
@@ -41,8 +43,7 @@
         "os.linux": 0.15
       }
     },
-    "MainWindow.background": "selectionBackground",
-    "TextField.background": "textFieldBackground",
+    "MainWindow.background": "main_bg",
     "DefaultTabs": {
       "background": "background",
       "borderColor": "background"
@@ -67,11 +68,11 @@
       "background": "background",
       "underTabsBorderColor": "background",
 
-      "underlinedTabBackground": "tabBackground",
-      "underlinedBorderColor": "tabBackground",
+      "underlinedTabBackground": "tab_background",
+      "underlinedBorderColor": "tab_background",
 
-      "inactiveUnderlinedTabBackground": "tabBackground",
-      "inactiveUnderlinedTabBorderColor": "tabBackground",
+      "inactiveUnderlinedTabBackground": "tab_background",
+      "inactiveUnderlinedTabBorderColor": "tab_background",
 
       "hoverBackground": "hover",
 

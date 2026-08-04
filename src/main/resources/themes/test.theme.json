@@ -5,24 +5,24 @@
   "parentTheme": "ExperimentalLightWithLightHeader",
   "editorScheme": "Light",
   "colors": {
-    "BackgroundLight": "Gray14",
-    "BackgroundMid": "Gray14",
-    "BackgroundDark": "Gray12",
-    "BackgroundDarkest": "Gray11",
-    "BorderDark": "Gray12",
-    "BorderLight": "Gray12",
-    "BorderTransparent": "#00000000",
-    "ToolWindowBorder": "#00000006",
-    "PanelBackground": "Gray13",
-    "HoverBackground": "Gray12",
-    "PopupBackground": "Gray14",
-    "PopupBackgroundDark": "Gray13",
-    "PopupBorder": "Gray11",
-    "TooltipBackground": "Gray14",
-    "TooltipBorder": "Gray12",
-    "InputBackground": "Gray14",
-    "ComboboxBackground": "Gray14",
-    "ComponentBorder": "Gray9"
+    "background_light": "Gray14",
+    "background_mid": "Gray14",
+    "background_dark": "Gray12",
+    "background_darkest": "Gray11",
+    "border_dark": "Gray12",
+    "border_light": "Gray12",
+    "border_transparent": "#00000000",
+    "tool_window_border": "#00000006",
+    "panel_background": "Gray13",
+    "hover_background": "Gray12",
+    "popup_background": "Gray14",
+    "popup_background_dark": "Gray13",
+    "popup_border": "Gray11",
+    "tooltip_background": "Gray14",
+    "tooltip_border": "Gray12",
+    "input_background": "Gray14",
+    "combobox_background": "Gray14",
+    "component_border": "Gray9"
   },
   "ui": {
     "Islands": 1,
@@ -36,44 +36,44 @@
         "os.linux": 0.15
       }
     },
-    "MainWindow.background": "BackgroundDark",
-    "Borders.color": "BorderDark",
-    "Borders.ContrastBorderColor": "BorderDark",
+    "MainWindow.background": "background_dark",
+    "Borders.color": "border_dark",
+    "Borders.ContrastBorderColor": "border_dark",
     "MainWindow.Tab": {
-      "selectedBackground": "BackgroundMid",
+      "selectedBackground": "background_mid",
       "hoverBackground": "#0000000D",
       "separatorColor": "#00000012",
       "foreground": "#818594"
     },
     "MainToolbar": {
-      "background": "BackgroundDark",
-      "borderColor": "BorderTransparent",
+      "background": "background_dark",
+      "borderColor": "border_transparent",
       "Button.arc.compact": 8
     },
     "StatusBar": {
-      "background": "BackgroundDark",
-      "borderColor": "BorderTransparent"
+      "background": "background_dark",
+      "borderColor": "border_transparent"
     },
     "ToolWindow": {
-      "background": "BackgroundMid",
-      "borderColor": "ToolWindowBorder",
+      "background": "background_mid",
+      "borderColor": "tool_window_border",
       "Header": {
-        "background": "BackgroundMid",
-        "inactiveBackground": "BackgroundMid",
-        "borderColor": "BorderDark"
+        "background": "background_mid",
+        "inactiveBackground": "background_mid",
+        "borderColor": "border_dark"
       },
       "HeaderTab": {
-        "hoverBackground": "HoverBackground",
-        "hoverInactiveBackground": "HoverBackground"
+        "hoverBackground": "hover_background",
+        "hoverInactiveBackground": "hover_background"
       },
       "Stripe": {
-        "background": "BackgroundDark",
-        "borderColor": "BorderTransparent"
+        "background": "background_dark",
+        "borderColor": "border_transparent"
       }
     },
     "EditorTabs": {
-      "background": "BackgroundLight",
-      "underTabsBorderColor": "BackgroundDark",
+      "background": "background_light",
+      "underTabsBorderColor": "background_dark",
       "underlinedBorderColor": "Blue9",
       "underlinedTabBackground": "#D4E2FFB3",
       "inactiveUnderlinedTabBorderColor": "Gray10",
@@ -83,42 +83,42 @@
       "tabInsets.compact": "-2,6,-2,4",
       "tabContentActionsRightInsets": "0,2,0,2"
     },
-    "Editor.SearchField.background": "BackgroundLight",
+    "Editor.SearchField.background": "background_light",
     "Editor.ToolTip": {
-      "background": "TooltipBackground",
-      "border": "TooltipBackground"
+      "background": "tooltip_background",
+      "border": "tooltip_background"
     },
     "Code.Block": {
-      "borderColor": "BorderDark",
-      "EditorPane.borderColor": "BorderDark"
+      "borderColor": "border_dark",
+      "EditorPane.borderColor": "border_dark"
     },
     "FileColor": {
       "Yellow": "#fff9eb",
       "Green": "#edfaef"
     },
-    "NavBar.borderColor": "BorderTransparent",
+    "NavBar.borderColor": "border_transparent",
     "Popup": {
-      "background": "PopupBackground",
-      "Header.activeBackground": "PopupBackground",
-      "Advertiser.background": "PopupBackgroundDark",
-      "Advertiser.borderColor": "PopupBackgroundDark",
-      "borderColor": "PopupBorder"
+      "background": "popup_background",
+      "Header.activeBackground": "popup_background",
+      "Advertiser.background": "popup_background_dark",
+      "Advertiser.borderColor": "popup_background_dark",
+      "borderColor": "popup_border"
     },
-    "ComplexPopup.Header.background": "PopupBackgroundDark",
-    "CompletionPopup.Advertiser.background": "PopupBackgroundDark",
+    "ComplexPopup.Header.background": "popup_background_dark",
+    "CompletionPopup.Advertiser.background": "popup_background_dark",
     "Menu": {
-      "background": "PopupBackground",
-      "borderColor": "PopupBorder"
+      "background": "popup_background",
+      "borderColor": "popup_border"
     },
-    "MenuItem.background": "PopupBackground",
-    "PopupMenu.background": "PopupBackground",
+    "MenuItem.background": "popup_background",
+    "PopupMenu.background": "popup_background",
     "ToolTip": {
-      "background": "TooltipBackground",
-      "borderColor": "TooltipBorder"
+      "background": "tooltip_background",
+      "borderColor": "tooltip_border"
     },
     "GotItTooltip": {
-      "background": "TooltipBackground",
-      "borderColor": "TooltipBorder"
+      "background": "tooltip_background",
+      "borderColor": "tooltip_border"
     },
     "Tooltip.Learning": {
       "background": "Blue6",

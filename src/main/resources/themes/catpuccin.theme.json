@@ -4,9 +4,11 @@
   "dark": true,
   "editorScheme": "/themes/catpuccin.xml",
   "colors": {
-    "textFieldBackground": "#3b4252",
+    "tree_cell_active": "#3b4252",
+    "main_bg": "#4E5369",
+    "island_border": "#303446",
     "background": "#303446",
-    "selectionBackground": "#4E5369",
+    "selection_background": "#4E5369",
     "hover": "#363B4E"
   },
   "ui": {
@@ -14,8 +16,8 @@
       "background": "background",
       "foreground": "#CAD3F5",
       "highlight": "#425b67ff",
-      "selectionBackground": "#3b4252",
-      "selectionInactiveBackground": "#3b4252",
+      "selectionBackground": "tree_cell_active",
+      "selectionInactiveBackground": "tree_cell_active",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
       "secondaryBackground": "#32424aff",
@@ -26,14 +28,13 @@
       "treeSelection": "#00485c",
       "notifications": "#323232ff",
       "accent": "#009688ff",
-      "excluded": "#3b4252"
+      "excluded": "tree_cell_active"
     },
-    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,
       "borderWidth": 4,
-      "borderColor": "background",
+      "borderColor": "island_border",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
         "os.mac": 0.2,
@@ -41,7 +42,7 @@
         "os.linux": 0.15
       }
     },
-    "MainWindow.background": "selectionBackground",
+    "MainWindow.background": "main_bg",
     "DefaultTabs": {
       "background": "background",
       "borderColor": "background"
@@ -66,11 +67,11 @@
       "background": "background",
       "underTabsBorderColor": "background",
 
-      "underlinedTabBackground": "selectionBackground",
-      "underlinedBorderColor": "selectionBackground",
+      "underlinedTabBackground": "selection_background",
+      "underlinedBorderColor": "selection_background",
 
-      "inactiveUnderlinedTabBackground": "selectionBackground",
-      "inactiveUnderlinedTabBorderColor": "selectionBackground",
+      "inactiveUnderlinedTabBackground": "selection_background",
+      "inactiveUnderlinedTabBorderColor": "selection_background",
 
       "hoverBackground": "hover",
 

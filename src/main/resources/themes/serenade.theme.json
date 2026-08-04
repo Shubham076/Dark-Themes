@@ -4,10 +4,12 @@
   "dark": true,
   "editorScheme": "/themes/serenade.xml",
   "colors": {
-    "textFieldBackground": "#3e4951",
+    "tree_cell_active": "#3e4951",
+    "main_bg": "#393e43",
+    "island_border": "#2A2F33",
     "background": "#2A2F33",
-    "selectionBackground": "#393e43",
-    "tabBackground": "#665C54",
+    "selection_background": "#393e43",
+    "tab_background": "#665C54",
     "hover": "#393E43"
   },
   "ui": {
@@ -16,8 +18,8 @@
       "foreground": "#d3c6aa",
       "highlight": "#665c54",
       "border": "665c54",
-      "selectionBackground": "#3e4951",
-      "selectionInactiveBackground": "#3e4951",
+      "selectionBackground": "tree_cell_active",
+      "selectionInactiveBackground": "tree_cell_active",
       "selectionForeground": "#ffffffff",
       "button": "#2e3c43ff",
       "secondaryBackground": "#32424aff",
@@ -28,14 +30,13 @@
       "treeSelection": "#665c54",
       "notifications": "#323232ff",
       "accent": "#009688ff",
-      "excluded": "#3e4951"
+      "excluded": "tree_cell_active"
     },
-    "TextField.background": "textFieldBackground",
     "Islands": 1,
     "Island": {
       "arc": 20,
       "borderWidth": 4,
-      "borderColor": "background",
+      "borderColor": "island_border",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
         "os.mac": 0.2,
@@ -43,7 +44,7 @@
         "os.linux": 0.15
       }
     },
-    "MainWindow.background": "selectionBackground",
+    "MainWindow.background": "main_bg",
     "DefaultTabs": {
       "background": "background",
       "borderColor": "background"
@@ -52,11 +53,11 @@
       "background": "background",
       "underTabsBorderColor": "background",
 
-      "underlinedTabBackground": "tabBackground",
-      "underlinedBorderColor": "tabBackground",
+      "underlinedTabBackground": "tab_background",
+      "underlinedBorderColor": "tab_background",
 
-      "inactiveUnderlinedTabBackground": "tabBackground",
-      "inactiveUnderlinedTabBorderColor": "tabBackground",
+      "inactiveUnderlinedTabBackground": "tab_background",
+      "inactiveUnderlinedTabBorderColor": "tab_background",
 
       "hoverBackground": "hover",
 
