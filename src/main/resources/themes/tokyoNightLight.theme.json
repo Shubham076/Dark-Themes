@@ -8,10 +8,10 @@
     "main_bg": "#d1d2d7",
     "island_border": "#E6E7ED",
     "background": "#E6E7ED",
-    "selection_background": "#d1d2d7",
+    "background_light": "#d1d2d7",
     "hover": "#d7d8dd",
     "focused_color": "#b7b8bd",
-    "border_transparent": "#00000000"
+    "transparent": "#00000000"
   },
   "ui": {
     "*": {
@@ -35,7 +35,7 @@
     "Islands": 1,
     "Island": {
       "arc": 20,
-      "borderWidth": 4,
+      "borderWidth": 8,
       "borderColor": "island_border",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
@@ -52,10 +52,10 @@
     "EditorTabs": {
       "background": "background",
       "underTabsBorderColor": "background",
-      "underlinedTabBackground": "selection_background",
-      "underlinedBorderColor": "selection_background",
-      "inactiveUnderlinedTabBackground": "selection_background",
-      "inactiveUnderlinedTabBorderColor": "selection_background",
+      "underlinedTabBackground": "background_light",
+      "underlinedBorderColor": "background_light",
+      "inactiveUnderlinedTabBackground": "background_light",
+      "inactiveUnderlinedTabBorderColor": "background_light",
       "hoverBackground": "hover",
       "tabInsets": "-6,8,-6,8",
       "tabInsets.compact": "-2,6,-2,4",
@@ -76,10 +76,10 @@
     },
     "ActionButton": {
       "hoverBackground": "focused_color",
-      "hoverBorderColor": "border_transparent",
+      "hoverBorderColor": "transparent",
       "pressedBackground": "focused_color",
-      "pressedBorderColor": "border_transparent",
-      "focusedBorderColor": "border_transparent",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
       "hoverSeparatorColor": "focused_color"
     },
     "Button": {

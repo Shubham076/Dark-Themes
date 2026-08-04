@@ -8,7 +8,7 @@
     "main_bg": "#2c374b",
     "island_border": "#222D40",
     "background": "#222D40",
-    "selection_background": "#2c374b",
+    "background_light": "#2c374b",
     "tab_background": "#214760",
     "hover": "#313C51"
   },
@@ -40,7 +40,7 @@
     "Islands": 1,
     "Island": {
       "arc": 20,
-      "borderWidth": 4,
+      "borderWidth": 8,
       "borderColor": "island_border",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {

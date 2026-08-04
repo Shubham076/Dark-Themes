@@ -13,7 +13,7 @@
     "focused_color": "#60747f",
     "main_background": "#4a4f52",
     "hover": "#4F5D5E",
-    "border_transparent": "#00000000"
+    "transparent": "#00000000"
   },
   "ui": {
     "*": {
@@ -37,7 +37,7 @@
     "Islands": 1,
     "Island": {
       "arc": 20,
-      "borderWidth": 6,
+      "borderWidth": 8,
       "borderColor": "island_border",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
@@ -94,10 +94,10 @@
     },
     "ActionButton": {
       "hoverBackground": "focused_color",
-      "hoverBorderColor": "border_transparent",
+      "hoverBorderColor": "transparent",
       "pressedBackground": "focused_color",
-      "pressedBorderColor": "border_transparent",
-      "focusedBorderColor": "border_transparent",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
       "hoverSeparatorColor": "focused_color"
     }
   }

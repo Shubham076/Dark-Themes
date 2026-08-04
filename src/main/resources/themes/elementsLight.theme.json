@@ -9,9 +9,9 @@
     "island_border": "#ECECECFF",
     "background": "#ECECECFF",
     "hover": "#DCE2ED",
-    "selection_background": "#D5DBE7",
+    "background_light": "#D5DBE7",
     "focused_color": "#bfbfbf",
-    "border_transparent": "#00000000"
+    "transparent": "#00000000"
   },
   "ui": {
     "*": {
@@ -68,10 +68,10 @@
     "EditorTabs": {
       "background": "background",
       "underTabsBorderColor": "background",
-      "underlinedTabBackground": "selection_background",
-      "underlinedBorderColor": "selection_background",
-      "inactiveUnderlinedTabBackground": "selection_background",
-      "inactiveUnderlinedTabBorderColor": "selection_background",
+      "underlinedTabBackground": "background_light",
+      "underlinedBorderColor": "background_light",
+      "inactiveUnderlinedTabBackground": "background_light",
+      "inactiveUnderlinedTabBorderColor": "background_light",
       "hoverBackground": "hover",
       "tabInsets": "-6,8,-6,8",
       "tabInsets.compact": "-2,6,-2,4",
@@ -88,10 +88,10 @@
     },
     "ActionButton": {
       "hoverBackground": "focused_color",
-      "hoverBorderColor": "border_transparent",
+      "hoverBorderColor": "transparent",
       "pressedBackground": "focused_color",
-      "pressedBorderColor": "border_transparent",
-      "focusedBorderColor": "border_transparent",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
       "hoverSeparatorColor": "focused_color"
     },
     "RunWidget": {

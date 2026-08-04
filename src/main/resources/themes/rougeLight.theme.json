@@ -9,7 +9,7 @@
     "island_border": "#F5EBE1",
     "background": "#F5EBE1",
     "hover": "#E9DFD5",
-    "selection_background": "#E2E0D9"
+    "background_light": "#E2E0D9"
   },
   "ui": {
     "*": {
@@ -33,7 +33,7 @@
     "Islands": 1,
     "Island": {
       "arc": 20,
-      "borderWidth": 4,
+      "borderWidth": 8,
       "borderColor": "island_border",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
@@ -66,10 +66,10 @@
     "EditorTabs": {
       "background": "background",
       "underTabsBorderColor": "background",
-      "underlinedTabBackground": "selection_background",
-      "underlinedBorderColor": "selection_background",
-      "inactiveUnderlinedTabBackground": "selection_background",
-      "inactiveUnderlinedTabBorderColor": "selection_background",
+      "underlinedTabBackground": "background_light",
+      "underlinedBorderColor": "background_light",
+      "inactiveUnderlinedTabBackground": "background_light",
+      "inactiveUnderlinedTabBorderColor": "background_light",
       "hoverBackground": "hover",
       "tabInsets": "-6,8,-6,8",
       "tabInsets.compact": "-2,6,-2,4",

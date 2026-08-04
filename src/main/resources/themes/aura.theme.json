@@ -7,10 +7,10 @@
     "main_bg": "#2f3859",
     "island_border": "#293152FF",
     "background": "#293152FF",
-    "selection_background": "#2f3859",
+    "background_light": "#2f3859",
     "tab_background": "#394364",
     "tree_cell_active": "#435460",
-    "border_transparent": "#00000000"
+    "transparent": "#00000000"
   },
   "ui": {
     "*": {
@@ -27,14 +27,14 @@
       "tableSelected": "#314549ff",
       "secondBorder": "#2a373eff",
       "treeSelection": "#00485c",
-      "notifications": "selection_background",
+      "notifications": "background_light",
       "accent": "#009688ff",
       "excluded": "tree_cell_active"
     },
     "Islands": 1,
     "Island": {
       "arc": 20,
-      "borderWidth": 4,
+      "borderWidth": 8,
       "borderColor": "island_border",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
@@ -81,12 +81,12 @@
       "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "selection_background",
-      "background": "selection_background",
-      "borderColor": "selection_background"
+      "Header.activeBackground": "background_light",
+      "background": "background_light",
+      "borderColor": "background_light"
     },
     "List": {
-      "background": "selection_background",
+      "background": "background_light",
       "selectionBackground": "tree_cell_active"
     },
     "TabbedPane": {
@@ -97,27 +97,27 @@
     },
     "ActionButton": {
       "hoverBackground": "tree_cell_active",
-      "hoverBorderColor": "border_transparent",
+      "hoverBorderColor": "transparent",
       "pressedBackground": "tree_cell_active",
-      "pressedBorderColor": "border_transparent",
-      "focusedBorderColor": "border_transparent",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
       "hoverSeparatorColor": "tree_cell_active"
     },
     "ToolTip": {
-      "background": "selection_background",
-      "borderColor": "selection_background"
+      "background": "background_light",
+      "borderColor": "background_light"
     },
     "Notification": {
-      "background": "selection_background",
-      "borderColor": "selection_background"
+      "background": "background_light",
+      "borderColor": "background_light"
     },
     "EditorNotificationBar": {
-      "background": "selection_background",
-      "borderColor": "selection_background"
+      "background": "background_light",
+      "borderColor": "background_light"
     },
     "SuggestedPluginNotification": {
-      "background": "selection_background",
-      "borderColor": "selection_background"
+      "background": "background_light",
+      "borderColor": "background_light"
     }
   }
 }

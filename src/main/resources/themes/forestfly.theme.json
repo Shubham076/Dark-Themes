@@ -8,7 +8,7 @@
     "main_bg": "#413E4E",
     "island_border": "#2C292C",
     "background": "#2C292C",
-    "selection_background": "#413E4E",
+    "background_light": "#413E4E",
     "hover": null
   },
   "ui": {
@@ -33,7 +33,7 @@
     "Islands": 1,
     "Island": {
       "arc": 20,
-      "borderWidth": 4,
+      "borderWidth": 8,
       "borderColor": "island_border",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
@@ -67,11 +67,11 @@
       "background": "background",
       "underTabsBorderColor": "background",
 
-      "underlinedTabBackground": "selection_background",
-      "underlinedBorderColor": "selection_background",
+      "underlinedTabBackground": "background_light",
+      "underlinedBorderColor": "background_light",
 
-      "inactiveUnderlinedTabBackground": "selection_background",
-      "inactiveUnderlinedTabBorderColor": "selection_background",
+      "inactiveUnderlinedTabBackground": "background_light",
+      "inactiveUnderlinedTabBorderColor": "background_light",
 
       "hoverBackground": "hover",
 

@@ -11,7 +11,7 @@
     "background_darkest": "Gray11",
     "border_dark": "Gray12",
     "border_light": "Gray12",
-    "border_transparent": "#00000000",
+    "transparent": "#00000000",
     "tool_window_border": "#00000006",
     "panel_background": "Gray13",
     "hover_background": "Gray12",
@@ -28,7 +28,7 @@
     "Islands": 1,
     "Island": {
       "arc": 20,
-      "borderWidth": 4,
+      "borderWidth": 8,
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
         "os.mac": 0.2,
@@ -47,12 +47,12 @@
     },
     "MainToolbar": {
       "background": "background_dark",
-      "borderColor": "border_transparent",
+      "borderColor": "transparent",
       "Button.arc.compact": 8
     },
     "StatusBar": {
       "background": "background_dark",
-      "borderColor": "border_transparent"
+      "borderColor": "transparent"
     },
     "ToolWindow": {
       "background": "background_mid",
@@ -68,7 +68,7 @@
       },
       "Stripe": {
         "background": "background_dark",
-        "borderColor": "border_transparent"
+        "borderColor": "transparent"
       }
     },
     "EditorTabs": {
@@ -96,7 +96,7 @@
       "Yellow": "#fff9eb",
       "Green": "#edfaef"
     },
-    "NavBar.borderColor": "border_transparent",
+    "NavBar.borderColor": "transparent",
     "Popup": {
       "background": "popup_background",
       "Header.activeBackground": "popup_background",

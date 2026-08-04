@@ -16,7 +16,7 @@
     "input_background": "#fdfeff",
     "tab_hover_background": "#f6d4c8",
     "hover_background": "#d5d8e7",
-    "selection_background": "#D4DDE7",
+    "background_light": "#D4DDE7",
     "selection_inactive_background": "#c3dbe5",
     "line_color": "#ED7E5A",
     "alternate_background": "#ED7E5A",
@@ -53,7 +53,7 @@
     "Islands": 1,
     "Island": {
       "arc": 20,
-      "borderWidth": 4,
+      "borderWidth": 8,
       "borderColor": "island_border",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
@@ -93,18 +93,18 @@
         "disabledIconColor": "selection_inactive_background",
         "iconColor": "line_color"
       },
-      "selectionBackground": "selection_background",
+      "selectionBackground": "background_light",
       "nonEditableBackground": "input_background"
     },
     "CompletionPopup": {
-      "selectionBackground": "selection_background",
+      "selectionBackground": "background_light",
       "selectionInactiveBackground": "selection_inactive_background",
       "matchForeground": "accent_color"
     },
     "Component": {
       "focusColor": "line_color",
       "borderColor": "border_color",
-      "focusedBorderColor": "selection_background",
+      "focusedBorderColor": "background_light",
       "disabledBorderColor": "selection_inactive_background",
       "infoForeground": "secondary_foreground",
       "errorFocusColor": "error_focused",
@@ -113,7 +113,7 @@
       "inactiveWarningFocusColor": "warning"
     },
     "DragAndDrop": {
-      "borderColor": "selection_background"
+      "borderColor": "background_light"
     },
     "Editor": {
       "background": "menu_background",
@@ -122,10 +122,10 @@
     "EditorTabs": {
       "background": "background",
       "underTabsBorderColor": "background",
-      "underlinedTabBackground": "selection_background",
-      "underlinedBorderColor": "selection_background",
-      "inactiveUnderlinedTabBackground": "selection_background",
-      "inactiveUnderlinedTabBorderColor": "selection_background",
+      "underlinedTabBackground": "background_light",
+      "underlinedBorderColor": "background_light",
+      "inactiveUnderlinedTabBackground": "background_light",
+      "inactiveUnderlinedTabBorderColor": "background_light",
       "hoverBackground": "hover",
       "tabInsets": "-6,8,-6,8",
       "tabInsets.compact": "-2,6,-2,4",
@@ -178,14 +178,14 @@
         "foreground": "primary_foreground"
       },
       "hoverBackground": "hover_background",
-      "lightSelectionBackground": "selection_background",
+      "lightSelectionBackground": "background_light",
       "Button": {
         "installBorderColor": "accent_color",
         "installForeground": "accent_color",
         "installBackground": "menu_background",
         "installFillForeground": "accent_color",
         "installFillBackground": "menu_background",
-        "installFocusedBackground": "selection_background",
+        "installFocusedBackground": "background_light",
         "updateBorderColor": "accent_color",
         "updateForeground": "accent_color",
         "updateBackground": "menu_background"
@@ -214,7 +214,7 @@
     },
     "ScrollBar": {
       "Mac": {
-        "hoverThumbColor": "selection_background",
+        "hoverThumbColor": "background_light",
         "Transparent": {
           "hoverThumbColor": "selection_inactive_background"
         }
@@ -249,7 +249,7 @@
     "Table": {
       "gridColor": "border_color",
       "hoverBackground": "hover_background",
-      "lightSelectionBackground": "selection_background"
+      "lightSelectionBackground": "background_light"
     },
     "TableHeader": {
       "bottomSeparatorColor": "separator_color"
@@ -260,7 +260,7 @@
     "ToggleButton": {
       "onBackground": "line_color",
       "onForeground": "hover_background",
-      "offBackground": "selection_background",
+      "offBackground": "background_light",
       "offForeground": "hover_background",
       "buttonColor": "primary_foreground"
     },
@@ -283,7 +283,7 @@
     },
     "Tree": {
       "modifiedItemForeground": "accent_color",
-      "selectionBackground": "selection_background",
+      "selectionBackground": "background_light",
       "selectionInactiveBackground": "selection_inactive_background",
       "hash": "hover_background"
     },
@@ -294,7 +294,7 @@
     "VersionControl": {
       "FileHistory": {
         "Commit": {
-          "selectedBranchBackground": "selection_background"
+          "selectedBranchBackground": "background_light"
         }
       },
       "GitLog": {
@@ -307,7 +307,7 @@
       "Log": {
         "Commit": {
           "hoveredBackground": "hover_background",
-          "currentBranchBackground": "selection_background"
+          "currentBranchBackground": "background_light"
         }
       },
       "RefLabel": {
@@ -324,7 +324,7 @@
       "separatorColor": "separator_color",
       "Projects": {
         "background": "menu_background",
-        "selectionBackground": "selection_background",
+        "selectionBackground": "background_light",
         "selectionInactiveBackground": "selection_inactive_background",
         "actions": {
           "background": "menu_background"

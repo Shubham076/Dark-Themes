@@ -9,13 +9,13 @@
     "island_border": "#EEE9E4",
     "background": "#EEE9E4",
     "foreground": "#585858",
-    "selection_background": "#E1D8CF",
+    "background_light": "#E1D8CF",
     "tab_hover_background": "#d3cac2",
     "tab_background": "#d3cac2",
     "main_window_background": "#dad1c9",
     "action_btn_focus_background": "#bab1a9",
     "action_btn_hover_background": "#c1b8b0",
-    "border_transparent": "#00000000"
+    "transparent": "#00000000"
   },
   "ui": {
     "*": {
@@ -39,7 +39,7 @@
     "Islands": 1,
     "Island": {
       "arc": 20,
-      "borderWidth": 6,
+      "borderWidth": 8,
       "borderColor": "island_border",
       "inactiveAlpha": 0.44,
       "inactiveAlphaInStatusBar": {
@@ -92,8 +92,8 @@
     },
     "ActionButton": {
       "hoverBackground": "action_btn_hover_background",
-      "focusedBorderColor": "border_transparent",
-      "hoverBorderColor": "border_transparent",
+      "focusedBorderColor": "transparent",
+      "hoverBorderColor": "transparent",
       "pressedBackground": "action_btn_focus_background"
     },
     "RunWidget": {
