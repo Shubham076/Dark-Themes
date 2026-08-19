@@ -10,7 +10,8 @@
     "background": "#102f33",
     "background_light": "#09454D",
     "hover": "#073B42",
-    "user_message_background": "background_light"
+    "user_message_background": "background_light",
+    "focus_color": "#ea916e"
   },
   "ui": {
     "*": {
@@ -106,6 +107,11 @@
           }
         }
       }
+    },
+    "Component": {
+      "focusColor": "focus_color",
+      "focusedBorderColor": "focus_color",
+      "focusWidth": 1
     }
   }
 }

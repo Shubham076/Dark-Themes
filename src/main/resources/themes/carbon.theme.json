@@ -11,7 +11,8 @@
     "background_light": "#2c374b",
     "tab_background": "#214760",
     "hover": "#313C51",
-    "user_message_background": "tab_background"
+    "user_message_background": "tab_background",
+    "focus_color": "#e3898c"
   },
   "ui": {
     "*": {
@@ -85,9 +86,9 @@
     },
     "Component": {
       "errorFocusColor": "#bf616a",
-      "focusColor": "#0c9294",
-      "focusedBorderColor": "#0c9294",
-      "focusWidth": 2,
+      "focusColor": "focus_color",
+      "focusedBorderColor": "focus_color",
+      "focusWidth": 1,
       "inactiveErrorFocusColor": "#bf616a",
       "inactiveWarningFocusColor": "#8f9544",
       "infoForeground": "#bac8cb",

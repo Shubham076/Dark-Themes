@@ -14,7 +14,8 @@
     "main_background": "#4a4f52",
     "hover": "#4F5D5E",
     "transparent": "#00000000",
-    "user_message_background": "tab_background"
+    "user_message_background": "tab_background",
+    "focus_color": "#dcaba6"
   },
   "ui": {
     "*": {
@@ -112,6 +113,11 @@
           }
         }
       }
+    },
+    "Component": {
+      "focusColor": "focus_color",
+      "focusedBorderColor": "focus_color",
+      "focusWidth": 1
     }
   }
 }

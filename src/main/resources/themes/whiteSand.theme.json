@@ -16,7 +16,8 @@
     "action_btn_focus_background": "#bab1a9",
     "action_btn_hover_background": "#c1b8b0",
     "transparent": "#00000000",
-    "user_message_background": "tab_background"
+    "user_message_background": "tab_background",
+    "focus_color": "#888655"
   },
   "ui": {
     "*": {
@@ -119,6 +120,11 @@
           }
         }
       }
+    },
+    "Component": {
+      "focusColor": "focus_color",
+      "focusedBorderColor": "focus_color",
+      "focusWidth": 1
     }
   }
 }

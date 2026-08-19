@@ -13,7 +13,8 @@
     "popup_background": "#1b506a",
     "tab_background": "#2d617c",
     "hover": "#1C4F67",
-    "user_message_background": "tab_background"
+    "user_message_background": "tab_background",
+    "focus_color": "#f5b8a0"
   },
   "ui": {
     "*": {
@@ -131,6 +132,11 @@
           }
         }
       }
+    },
+    "Component": {
+      "focusColor": "focus_color",
+      "focusedBorderColor": "focus_color",
+      "focusWidth": 1
     }
   }
 }

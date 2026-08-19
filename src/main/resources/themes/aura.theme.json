@@ -11,7 +11,8 @@
     "tab_background": "#394364",
     "tree_cell_active": "#435460",
     "transparent": "#00000000",
-    "user_message_background": "tab_background"
+    "user_message_background": "tab_background",
+    "focus_color": "#fbbc9f"
   },
   "ui": {
     "*": {
@@ -131,6 +132,11 @@
           }
         }
       }
+    },
+    "Component": {
+      "focusColor": "focus_color",
+      "focusedBorderColor": "focus_color",
+      "focusWidth": 1
     }
   }
 }

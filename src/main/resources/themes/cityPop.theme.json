@@ -12,7 +12,8 @@
     "tree_selection_background": "#3d4071",
     "tab_background": "#5A3253",
     "hover": "#3A3E64",
-    "user_message_background": "tab_background"
+    "user_message_background": "tab_background",
+    "focus_color": "#ffd19a"
   },
   "ui": {
     "*": {
@@ -108,6 +109,11 @@
           }
         }
       }
+    },
+    "Component": {
+      "focusColor": "focus_color",
+      "focusedBorderColor": "focus_color",
+      "focusWidth": 1
     }
   }
 }

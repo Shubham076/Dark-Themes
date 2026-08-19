@@ -33,7 +33,8 @@
     "success": "#30a25e",
     "background": "#FEFEFE",
     "hover": "#E6EDF5",
-    "user_message_background": "background_light"
+    "user_message_background": "background_light",
+    "focus_color": "#2e674f"
   },
   "ui": {
     "*": {
@@ -103,9 +104,10 @@
       "matchForeground": "accent_color"
     },
     "Component": {
-      "focusColor": "line_color",
+      "focusWidth": 1,
+      "focusColor": "focus_color",
       "borderColor": "border_color",
-      "focusedBorderColor": "background_light",
+      "focusedBorderColor": "focus_color",
       "disabledBorderColor": "selection_inactive_background",
       "infoForeground": "secondary_foreground",
       "errorFocusColor": "error_focused",
