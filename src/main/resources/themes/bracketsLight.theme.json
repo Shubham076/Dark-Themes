@@ -32,7 +32,8 @@
     "info": "#397fb7",
     "success": "#30a25e",
     "background": "#FEFEFE",
-    "hover": "#E6EDF5"
+    "hover": "#E6EDF5",
+    "user_message_background": "background_light"
   },
   "ui": {
     "*": {
@@ -351,6 +352,18 @@
       "runIconColor": "#369650",
       "stopIconColor": "#FFFFFF",
       "runningIconColor": "#FFFFFF"
+    },
+    "HelpBrowser": {
+      "UserMessage": {
+        "background": "user_message_background",
+        "Snippet": {
+          "border": "user_message_background",
+          "MoreLines": {
+            "background": "user_message_background",
+            "hoverBackground": "user_message_background"
+          }
+        }
+      }
     }
   },
   "icons": {

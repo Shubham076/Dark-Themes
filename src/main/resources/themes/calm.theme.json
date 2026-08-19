@@ -13,7 +13,8 @@
     "focused_color": "#60747f",
     "main_background": "#4a4f52",
     "hover": "#4F5D5E",
-    "transparent": "#00000000"
+    "transparent": "#00000000",
+    "user_message_background": "tab_background"
   },
   "ui": {
     "*": {
@@ -99,6 +100,18 @@
       "pressedBorderColor": "transparent",
       "focusedBorderColor": "transparent",
       "hoverSeparatorColor": "focused_color"
+    },
+    "HelpBrowser": {
+      "UserMessage": {
+        "background": "user_message_background",
+        "Snippet": {
+          "border": "user_message_background",
+          "MoreLines": {
+            "background": "user_message_background",
+            "hoverBackground": "user_message_background"
+          }
+        }
+      }
     }
   }
 }

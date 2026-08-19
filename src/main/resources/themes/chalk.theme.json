@@ -10,7 +10,8 @@
     "background": "#2E2D2D",
     "background_light": "#433E3B",
     "tab_background": "#4e4946",
-    "hover": "#312E2D"
+    "hover": "#312E2D",
+    "user_message_background": "tab_background"
   },
   "ui": {
     "*": {
@@ -94,6 +95,18 @@
       "hoverBorderColor": "background",
       "pressedBackground": "background",
       "pressedBorderColor": "background"
+    },
+    "HelpBrowser": {
+      "UserMessage": {
+        "background": "user_message_background",
+        "Snippet": {
+          "border": "user_message_background",
+          "MoreLines": {
+            "background": "user_message_background",
+            "hoverBackground": "user_message_background"
+          }
+        }
+      }
     }
   }
 }

@@ -11,7 +11,8 @@
     "hover": "#DCE2ED",
     "background_light": "#D5DBE7",
     "focused_color": "#bfbfbf",
-    "transparent": "#00000000"
+    "transparent": "#00000000",
+    "user_message_background": "background_light"
   },
   "ui": {
     "*": {
@@ -104,6 +105,18 @@
       "runIconColor": "#369650",
       "stopIconColor": "#FFFFFF",
       "runningIconColor": "#FFFFFF"
+    },
+    "HelpBrowser": {
+      "UserMessage": {
+        "background": "user_message_background",
+        "Snippet": {
+          "border": "user_message_background",
+          "MoreLines": {
+            "background": "user_message_background",
+            "hoverBackground": "user_message_background"
+          }
+        }
+      }
     }
   }
 }

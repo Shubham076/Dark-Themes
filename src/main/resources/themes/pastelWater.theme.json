@@ -9,7 +9,8 @@
     "island_border": "#282A35",
     "background": "#282A35",
     "background_light": "#3c3e4a",
-    "hover": "#2F313A"
+    "hover": "#2F313A",
+    "user_message_background": "background_light"
   },
   "ui": {
     "*": {
@@ -93,6 +94,18 @@
       "hoverBorderColor": "background",
       "pressedBackground": "background",
       "pressedBorderColor": "background"
+    },
+    "HelpBrowser": {
+      "UserMessage": {
+        "background": "user_message_background",
+        "Snippet": {
+          "border": "user_message_background",
+          "MoreLines": {
+            "background": "user_message_background",
+            "hoverBackground": "user_message_background"
+          }
+        }
+      }
     }
   }
 }

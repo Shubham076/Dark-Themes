@@ -12,7 +12,8 @@
     "tree_selection": "#2d617c",
     "popup_background": "#1b506a",
     "tab_background": "#2d617c",
-    "hover": "#1C4F67"
+    "hover": "#1C4F67",
+    "user_message_background": "tab_background"
   },
   "ui": {
     "*": {
@@ -118,6 +119,18 @@
     "SuggestedPluginNotification": {
       "background": "popup_background",
       "borderColor": "popup_background"
+    },
+    "HelpBrowser": {
+      "UserMessage": {
+        "background": "user_message_background",
+        "Snippet": {
+          "border": "user_message_background",
+          "MoreLines": {
+            "background": "user_message_background",
+            "hoverBackground": "user_message_background"
+          }
+        }
+      }
     }
   }
 }

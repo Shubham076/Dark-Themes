@@ -9,7 +9,8 @@
     "island_border": "#FCF9F9",
     "background": "#FCF9F9",
     "hover": "#FCF5F5",
-    "background_light": "#F5E4E5"
+    "background_light": "#F5E4E5",
+    "user_message_background": "#ccd7daff"
   },
   "ui": {
     "*": {
@@ -58,6 +59,18 @@
       "tabInsets": "-6,8,-6,8",
       "tabInsets.compact": "-2,6,-2,4",
       "tabContentActionsRightInsets": "0,2,0,2"
+    },
+    "HelpBrowser": {
+      "UserMessage": {
+        "background": "user_message_background",
+        "Snippet": {
+          "border": "user_message_background",
+          "MoreLines": {
+            "background": "user_message_background",
+            "hoverBackground": "user_message_background"
+          }
+        }
+      }
     },
     "Popup": {
       "Header.activeBackground": "#fcfcfc"
