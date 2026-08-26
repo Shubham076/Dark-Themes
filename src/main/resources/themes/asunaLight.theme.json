@@ -11,7 +11,8 @@
     "hover": "#FCF5F5",
     "background_light": "#F5E4E5",
     "user_message_background": "#ccd7daff",
-    "focus_color": "#b26158"
+    "focus_color": "#b26158",
+    "snippet_border": "#DEDBDB"
   },
   "ui": {
     "*": {
@@ -69,6 +70,15 @@
           "MoreLines": {
             "background": "user_message_background",
             "hoverBackground": "user_message_background"
+          }
+        }
+      },
+      "HelpBrowserMessage": {
+        "Snippet": {
+          "border": "snippet_border",
+          "MoreLines": {
+            "background": "background",
+            "hoverBackground": "hover"
           }
         }
       }
