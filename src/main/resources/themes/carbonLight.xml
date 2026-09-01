@@ -9,7 +9,7 @@
     <option name="CONSOLE_LINE_SPACING" value="1.8" />
     <colors>
         <option name="CARET_ROW_COLOR" value="EEE8D5" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="FDF6E3" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="F8F8F8" />
         <option name="DOCUMENTATION_COLOR" value="EEE8D5" />
         <option name="ERROR_HINT" value="F5E6E7" />
         <option name="FILESTATUS_ADDED" value="709B2A" />
@@ -594,7 +594,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="6d7783" />
-                <option name="BACKGROUND" value="fdf6e3" />
+                <option name="BACKGROUND" value="F8F8F8" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
