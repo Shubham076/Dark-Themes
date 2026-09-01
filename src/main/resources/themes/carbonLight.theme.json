@@ -4,14 +4,14 @@
   "dark": false,
   "editorScheme": "/themes/carbonLight.xml",
   "colors": {
-    "tree_cell_active": "#eae0c0",
-    "main_bg": "#EAE0C0",
-    "island_border": "#FDF6E3",
-    "background": "#FDF6E3",
-    "hover": "#EEE8D5",
-    "background_light": "#EAE0C0",
+    "tree_cell_active": "#ccd7daff",
+    "main_bg": "#CEE1F0",
+    "island_border": "#FAFAFA",
+    "background": "#F8F8F8",
+    "hover": "#E2F3FF",
+    "background_light": "#CEE1F0",
     "user_message_background": "background_light",
-    "focus_color": "#0a6d84"
+    "focus_color": "#cc8866"
   },
   "ui": {
     "*": {
@@ -62,7 +62,7 @@
       "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "#eee8d5"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#eee8d5"

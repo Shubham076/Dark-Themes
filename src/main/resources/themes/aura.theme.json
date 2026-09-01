@@ -83,7 +83,7 @@
       "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "background_light",
+      "Header.activeBackground": "background",
       "background": "background_light",
       "borderColor": "background_light"
     },

@@ -201,7 +201,7 @@
       "borderColor": "#213047",
       "inactiveBorderColor": "#213047",
       "Toolbar.borderColor": "#213047",
-      "Header.activeBackground": "#1d283b",
+      "Header.activeBackground": "background",
       "Header.inactiveBackground": "#1d283b",
       "separatorForeground": "#213047",
       "Advertiser": {

@@ -62,7 +62,7 @@
       "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "#F8F9FA"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#F8F9FA"

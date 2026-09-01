@@ -62,7 +62,7 @@
       "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "#FBFBFB"
+      "Header.activeBackground": "background"
     },
     "ToolWindow": {
       "Header": {

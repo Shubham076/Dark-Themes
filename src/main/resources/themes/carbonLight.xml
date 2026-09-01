@@ -8,8 +8,8 @@
     <option name="CONSOLE_FONT_SIZE" value="15" />
     <option name="CONSOLE_LINE_SPACING" value="1.8" />
     <colors>
-        <option name="CARET_ROW_COLOR" value="EEE8D5" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="FDF6E3" />
+        <option name="CARET_ROW_COLOR" value="E6ECEC" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="F8F8F8" />
         <option name="DOCUMENTATION_COLOR" value="EEE8D5" />
         <option name="ERROR_HINT" value="F5E6E7" />
         <option name="FILESTATUS_ADDED" value="709B2A" />
@@ -34,7 +34,7 @@
         <option name="RIGHT_MARGIN_COLOR" value="E1DBC8" />
         <option name="SELECTED_INDENT_GUIDE" value="D3AF86" />
         <option name="SELECTED_TEARLINE_COLOR" value="D3AF86" />
-        <option name="SELECTION_BACKGROUND" value="EAE0C0" />
+        <option name="SELECTION_BACKGROUND" value="D0E3F1" />
         <option name="SELECTION_FOREGROUND" value="" />
         <option name="SEPARATOR_ABOVE_COLOR" value="E1DBC8" />
         <option name="SEPARATOR_BELOW_COLOR" value="E1DBC8" />
@@ -618,7 +618,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="6d7783" />
-                <option name="BACKGROUND" value="fdf6e3" />
+                <option name="BACKGROUND" value="F8F8F8" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

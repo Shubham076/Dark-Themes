@@ -82,7 +82,7 @@
       }
     },
     "Popup": {
-      "Header.activeBackground": "#272a2b"
+      "Header.activeBackground": "background"
     },
     "TabbedPane": {
       "hoverColor": "#272a2b"

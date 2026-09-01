@@ -10,13 +10,13 @@
   <option name="CONSOLE_LINE_SPACING" value="1.5" />
   <colors>
     <option name="CARET_COLOR" value="2AA198" />
-    <option name="CARET_ROW_COLOR" value="EEE8D5" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="FDF6E3" />
+    <option name="CARET_ROW_COLOR" value="E6ECEC" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="FAFAFA" />
     <option name="DOCUMENTATION_COLOR" value="EEE8D5" />
     <option name="FILESTATUS_MODIFIED" value="007C7C" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="007C7C" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="007C7C" />
-    <option name="GUTTER_BACKGROUND" value="FDF6E3" />
+    <option name="GUTTER_BACKGROUND" value="FAFAFA" />
     <option name="INDENT_GUIDE" value="EEE8D5" />
     <option name="INFORMATION_HINT" value="EEE8D5" />
     <option name="LINE_NUMBERS_COLOR" value="93A1A1" />
@@ -24,7 +24,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="93A1A1" />
     <option name="SELECTED_INDENT_GUIDE" value="EEE8D5" />
     <option name="SELECTED_TEARLINE_COLOR" value="586E75" />
-    <option name="SELECTION_BACKGROUND" value="E8E2CF" />
+    <option name="SELECTION_BACKGROUND" value="D0E3F1" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="93A1A1" />
     <option name="TEARLINE_COLOR" value="93A1A1" />
@@ -188,7 +188,7 @@
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="fdf6e3" />
+        <option name="FOREGROUND" value="FAFAFA" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT" baseAttributes="CONSOLE_YELLOW_OUTPUT" />
@@ -552,7 +552,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="6d7c81" />
-        <option name="BACKGROUND" value="fdf6e3" />
+        <option name="BACKGROUND" value="fafafa" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
