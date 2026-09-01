@@ -8,8 +8,8 @@
     <option name="CONSOLE_FONT_SIZE" value="15" />
     <option name="CONSOLE_LINE_SPACING" value="1.8" />
     <colors>
-        <option name="CARET_ROW_COLOR" value="E6ECEC" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="F8F8F8" />
+        <option name="CARET_ROW_COLOR" value="EEE8D5" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="FDF6E3" />
         <option name="DOCUMENTATION_COLOR" value="EEE8D5" />
         <option name="ERROR_HINT" value="F5E6E7" />
         <option name="FILESTATUS_ADDED" value="709B2A" />
@@ -34,7 +34,7 @@
         <option name="RIGHT_MARGIN_COLOR" value="E1DBC8" />
         <option name="SELECTED_INDENT_GUIDE" value="D3AF86" />
         <option name="SELECTED_TEARLINE_COLOR" value="D3AF86" />
-        <option name="SELECTION_BACKGROUND" value="D0E3F1" />
+        <option name="SELECTION_BACKGROUND" value="EAE0C0" />
         <option name="SELECTION_FOREGROUND" value="" />
         <option name="SEPARATOR_ABOVE_COLOR" value="E1DBC8" />
         <option name="SEPARATOR_BELOW_COLOR" value="E1DBC8" />
@@ -288,7 +288,7 @@
         <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
         <option name="DEFAULT_ATTRIBUTE">
             <value>
-                <option name="FOREGROUND" value="bc466b" />
+                <option name="FOREGROUND" value="8c7185" />
             </value>
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
@@ -298,14 +298,10 @@
             </value>
         </option>
         <option name="DEFAULT_BRACES">
-            <value>
-                <option name="FOREGROUND" value="4d6a86" />
-            </value>
+            <value />
         </option>
         <option name="DEFAULT_BRACKETS">
-            <value>
-                <option name="FOREGROUND" value="4d6a86" />
-            </value>
+            <value />
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
@@ -319,7 +315,7 @@
         </option>
         <option name="DEFAULT_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="805d77" />
+                <option name="FOREGROUND" value="8c7185" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT">
@@ -344,11 +340,7 @@
                 <option name="BACKGROUND" value="eae0c0" />
             </value>
         </option>
-        <option name="DEFAULT_ENTITY">
-            <value>
-                <option name="FOREGROUND" value="f859b" />
-            </value>
-        </option>
+        <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
                 <option name="FOREGROUND" value="8c7185" />
@@ -383,7 +375,7 @@
         </option>
         <option name="DEFAULT_LABEL">
             <value>
-                <option name="FOREGROUND" value="805d77" />
+                <option name="FOREGROUND" value="8c7185" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -395,7 +387,7 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="a6d84" />
+                <option name="FOREGROUND" value="8c7185" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -409,9 +401,7 @@
             </value>
         </option>
         <option name="DEFAULT_PARENTHS">
-            <value>
-                <option name="FOREGROUND" value="4d6a86" />
-            </value>
+            <value />
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
@@ -576,33 +566,19 @@
         </option>
         <option name="PY.ANNOTATION">
             <value>
-                <option name="FOREGROUND" value="805d77" />
+                <option name="FOREGROUND" value="8c7185" />
             </value>
         </option>
         <option name="PY.BUILTIN_NAME">
             <value>
-                <option name="FOREGROUND" value="805d77" />
-            </value>
-        </option>
-        <option name="PY.INVALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="8a822d" />
+                <option name="FOREGROUND" value="8c7185" />
             </value>
         </option>
         <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
         <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
         <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
-        <option name="PY.STRING.U">
-            <value>
-                <option name="FOREGROUND" value="8a822d" />
-            </value>
-        </option>
-        <option name="PY.VALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="8a822d" />
-            </value>
-        </option>
+        <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
         <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
         <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
             <value>
@@ -618,7 +594,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="6d7783" />
-                <option name="BACKGROUND" value="F8F8F8" />
+                <option name="BACKGROUND" value="fdf6e3" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
