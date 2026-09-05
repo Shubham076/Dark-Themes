@@ -191,6 +191,97 @@ box was traced to the editor's `TEXT` attribute background.
   `ToolbarSplitButton` all showed as boxes of the *editor* background over our box color, since the
   sweep runs before we re-wrap. `clearToolbarBackgrounds` unsets it instead of recoloring it, which
   leaves nothing painted at rest and `ActionButton.hoverBackground` in charge of hover/pressed.
+- **A forced background beats the scheme, and a cold start sets one.** `EditorTextField`'s
+  `initOneLineMode` ends every editor it builds with `editor.setBackgroundColor(getBackground())`,
+  and `EditorImpl.getBackgroundColor()` returns that forced color ahead of
+  `myScheme.getDefaultBackground()` (the scroll pane is a `JBColor.lazy` over it, so it is never
+  stale — the forced value simply wins). The assistant's `getBackground()` override reads the
+  *editor's* scheme, so it only works once an editor exists; while `myEditor` is still null it falls
+  through to `UIUtil.getTextFieldBackground()`. Net effect on a cold start: the box turns our color
+  but the text area stays `TextField.background`. Sending a message hides it, because the
+  replacement editor is built while `myEditor` still points at the previous, wrapped editor — which
+  is why this looked fixed. `dropForcedBackground` clears it by passing *our* color:
+  `EditorImpl.setBackgroundColor` drops the override when the color equals what the scheme would
+  have returned anyway.
+- **Clearing the forced background is necessary but not sufficient — the text area is the scroll
+  pane's viewport.** `AIAssistantInputEditorTextField.createEditor` calls
+  `getContentComponent().setOpaque(false)`, and `EditorImpl` touches the viewport exactly once, via
+  `setViewportView` — it never sets its background or its opacity (it only wraps the *scroll pane's*
+  background in a `JBColor.lazy(this::getBackgroundColor)`). So the empty part of the box is painted
+  by the LaF's `Viewport.background`, which a theme's `"*": { "background": ... }` wildcard sets to
+  the panel color. Hence `editor.scrollPane.viewport.background = ours` alongside the forced-color
+  clear. Diagnostics from a cold start, one editor, before and after our pass:
+  `before: editorBg=#FAFAFA viewport=#FAFAFA/opaque=true` → `after: editorBg=#DEDEDE
+  viewport=#DEDEDE`. Fixing only the forced color leaves the viewport painting over it, which is
+  exactly what "the box is right but the text area is white" looks like.
+- **`editor.colorsScheme` never returns our wrapper.** `EditorImpl.setColorsScheme` re-wraps
+  whatever you hand it in its own `EditorColorSchemeDelegate` (it logs "Will wrap it with
+  MyColorSchemeDelegate" for unexpected types), so `scheme is ThemedInputScheme` is always false and
+  any code branching on it is dead. Walk the chain with `DelegateColorScheme.getDelegate()` instead.
+  Colors are unaffected — the outer delegate forwards `getDefaultBackground()` — but re-wrapping
+  blindly nests a new pair of delegates on every pass, and a theme switch triggers two passes
+  (`LafManagerListener` *and* `EditorColorsListener`).
+- **`setBackground(null)` fires the *inherited* color as the event's new value.** `Component`:
+  ```java
+  background = c;
+  if (peer != null) { c = getBackground(); ... }   // field is null now, so this inherits
+  firePropertyChange("background", oldColor, c);   // fires the parent's color, not null
+  ```
+  So a `PropertyChangeListener("background")` that re-clears whenever `newValue != null` recurses
+  until the stack dies — a `StackOverflowError` through `PropertyChangeSupport.fire`, and only on
+  components that already have a peer. Ask `isBackgroundSet()` instead: it reads the component's own
+  field and does not inherit, so it goes false as soon as the clear lands and the second hop stops.
+  Verified on the JBR: after `setBackground(null)` on a realized child of a red panel, the event
+  says `newValue=red` while `isBackgroundSet()` is `false`.
+- **Re-wrapping the editor's scheme on every pass is not free.** `EditorImpl.setColorsScheme` keeps
+  what it is handed inside a *new* `EditorColorSchemeDelegate` and then calls `reinitSettings()`, so
+  a pass that runs often (ours runs on editor creation, both theme-change listeners, and every
+  re-show) nests two delegates each time — lengthening the chain every attribute lookup walks while
+  painting — and re-inits the editor. Wrap once, guarded by a chain walk, and write the forced color
+  and the viewport only when they differ. Symptom of getting this wrong: the panel gets slower the
+  longer the session runs, with no freeze in the log to point at.
+- **When two suspects share a color value, stop measuring and instrument.** `Viewport.background`
+  and `TextField.background` both resolve through the `*` wildcard to the same panel color, so no
+  screenshot could separate them; two rounds of inference were wasted before a temporary
+  `Logger.getInstance("darkthemes.aiassistant").warn(...)` dump of every color source (scheme class
+  and default, `getBackgroundColor()`, scroll pane, viewport + opacity, content component + opacity,
+  and each component under the input with its background) settled it in one restart. `idea.log` is
+  readable directly at `~/Library/Logs/JetBrains/<IDE>/idea.log`; log at WARN so it is never
+  filtered, and dump `before`/`after` plus a `javax.swing.Timer` pass a few seconds later to catch
+  the async toolbar build.
+- **Verify what is actually running before believing a test result.** Plugin jars are read at
+  startup, so an install cannot take effect in the running session: compare the session's
+  `AppStarter - Loaded custom plugins` timestamp against the jar's mtime. That line also prints the
+  version from the jar's `plugin.xml`, which is *not* the filename — a renamed jar reports its old
+  version, and rebuilding without bumping `pluginVersion` in `gradle.properties` makes the log
+  useless for telling builds apart. When in doubt, grep the installed jar for a string only the new
+  build contains.
+- `editorTextField.getEditor(true)` returns null while the field is outside the Swing hierarchy —
+  it refuses to build one. The controller's `initEditor` tolerates that (its editor block is
+  null-guarded) and still runs `updateTheme`, so on a cold start the toolbar sweep spreads
+  `TextField.background`, not any editor color. Don't assume an editor exists just because their
+  init ran.
+- `Component.isBackgroundSet()` is a plain null check on the component's own field; only
+  `getBackground()` inherits from the parent. So unsetting a button's background really does stop
+  `ActionButtonLook` from filling it — verified with a two-line Swing program on the JBR.
+- **The toolbars are rebuilt asynchronously, so one clearing pass is never enough.**
+  `AiChatInputToolbarFactory.watchControlsAndRebuild` follows a flow: it fires well after a cold
+  start as models and agents resolve, and again when a request starts and send becomes stop. New
+  children arrive after our pass, and the `CustomComponentAction` ones (mode selector,
+  context-usage circle) are `JPanel`s whose constructor installs `Panel.background` — a slab again.
+  Hence the `ContainerListener`, installed on *every* container under the input rather than only on
+  the toolbars, since a rebuild can bring a new `ActionToolbar` with it. Do not remove it: it is
+  what keeps the backgrounds clear, and deleting it once already regressed this.
+- `AiChatInputActionButtonStyle.apply` sets only the foreground and the cursor — it is not a
+  background source. `ActionToolbarImpl`, `ActionButton` and `ActionButtonWithText` never touch
+  backgrounds either, and `setBackgroundRecursively` appears exactly once in the whole chat jar
+  (that one sweep), so any slab you see is either that sweep or a component coloring itself.
+- To tell these apart, **measure the screenshot** instead of guessing: `python3` with Pillow is
+  available, and a `Counter` over the pixels plus a coarse grid dump names every surface. The
+  theme's `background`, `TextField.background` and the `.xml` `TEXT` background are often within a
+  couple of RGB points of each other (ayuLight: `#FAFAFA` vs `#F8F9FA`), and which one shows tells
+  you which code path ran. Absence is evidence too — no `#F8F9FA` pixel anywhere proved the editor
+  scheme was not involved.
 - Scope that sweep to `ActionToolbar` subtrees, as they do. The agent/model row below the box is
   `getBottomToolbarPanel()`: the input builds it but `AIAssistantChatPanel` re-parents it, so it is
   outside the input's hierarchy and no sweep — theirs or ours — reaches it.
