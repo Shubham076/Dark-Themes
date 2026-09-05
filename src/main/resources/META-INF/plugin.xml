@@ -68,5 +68,33 @@
         <themeProvider id="com.github.shubham076.rougeLight" path="/themes/rougeLight.theme.json" />
         <themeProvider id="com.github.shubham076.elementsLight" path="/themes/elementsLight.theme.json" />
         <themeProvider id="com.github.shubham076.calm" path="/themes/calm.theme.json" />
+
+        <projectService serviceImplementation="com.github.shubham076.darkthemes.cascade.CascadeSync"/>
+        <notificationGroup id="Dark-Themes" displayType="BALLOON"/>
+        <registryKey key="darkthemes.cascade.sync"
+                     defaultValue="true"
+                     restartRequired="false"
+                     description="Dark-Themes: derive the Windsurf/Cascade chat panel's colors (--bg-elevated, --tint-tertiary) from the active theme instead of the plugin's hardcoded near-black values."/>
     </extensions>
+
+    <applicationListeners>
+        <listener class="com.github.shubham076.darkthemes.cascade.CascadeLafListener"
+                  topic="com.intellij.ide.ui.LafManagerListener"/>
+        <listener class="com.github.shubham076.darkthemes.cascade.CascadeSchemeListener"
+                  topic="com.intellij.openapi.editor.colors.EditorColorsListener"/>
+    </applicationListeners>
+
+    <projectListeners>
+        <listener class="com.github.shubham076.darkthemes.cascade.CascadeToolWindowListener"
+                  topic="com.intellij.openapi.wm.ex.ToolWindowManagerListener"/>
+    </projectListeners>
+
+    <actions>
+        <action id="com.github.shubham076.darkthemes.SyncCascadeColors"
+                class="com.github.shubham076.darkthemes.cascade.SyncCascadeColorsAction"
+                text="Sync Cascade Colors With Theme"
+                description="Re-apply the current theme's colors to the Cascade chat panel">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+    </actions>
 </idea-plugin>

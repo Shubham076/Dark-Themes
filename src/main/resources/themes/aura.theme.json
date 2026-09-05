@@ -8,7 +8,7 @@
     "island_border": "#293152FF",
     "background": "#293152FF",
     "background_light": "#2f3859",
-    "tab_background": "#394364",
+    "tab_background": "#454A5E",
     "tree_cell_active": "#435460",
     "transparent": "#00000000",
     "user_message_background": "tab_background",
@@ -83,7 +83,7 @@
       "tabContentActionsRightInsets": "0,2,0,2"
     },
     "Popup": {
-      "Header.activeBackground": "background",
+      "Header.activeBackground": "background_light",
       "background": "background_light",
       "borderColor": "background_light"
     },
