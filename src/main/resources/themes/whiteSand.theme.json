@@ -109,6 +109,21 @@
       "stopIconColor": "#FFFFFF",
       "runningIconColor": "#FFFFFF"
     },
+    "AIAssistantInput": {
+      "background": "user_message_background"
+    },
+    "AIAssistant": {
+      "Chat": {
+        "StepCard": {
+          "Default": {
+            "background.color": "user_message_background",
+            "border.color": "user_message_background",
+            "Content.background.color": "user_message_background",
+            "Shortcut.background.color": "background"
+          }
+        }
+      }
+    },
     "HelpBrowser": {
       "UserMessage": {
         "background": "user_message_background",
@@ -122,6 +137,7 @@
       }
     },
     "Component": {
+      "infoForeground": "foreground",
       "focusColor": "focus_color",
       "focusedBorderColor": "focus_color",
       "focusWidth": 1

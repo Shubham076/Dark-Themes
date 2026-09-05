@@ -12,12 +12,13 @@
     "tab_background": "#214760",
     "hover": "#313C51",
     "user_message_background": "tab_background",
-    "focus_color": "#e3898c"
+    "focus_color": "#e3898c",
+    "foreground": "#bac8cb"
   },
   "ui": {
     "*": {
       "excluded": "tree_cell_active",
-      "foreground": "#bac8cb",
+      "foreground": "foreground",
       "background": "background",
       "borderColor": "#213047",
       "disabledBorderColor": "#586e75",
@@ -312,6 +313,21 @@
       "hoverBorderColor": "background",
       "pressedBackground": "background",
       "pressedBorderColor": "background"
+    },
+    "AIAssistantInput": {
+      "background": "user_message_background"
+    },
+    "AIAssistant": {
+      "Chat": {
+        "StepCard": {
+          "Default": {
+            "background.color": "user_message_background",
+            "border.color": "user_message_background",
+            "Content.background.color": "user_message_background",
+            "Shortcut.background.color": "background"
+          }
+        }
+      }
     },
     "HelpBrowser": {
       "UserMessage": {

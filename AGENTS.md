@@ -197,3 +197,34 @@ box was traced to the editor's `TEXT` attribute background.
 - To read their code: `unzip` the package out of `intellij.ml.llm.chat.jar` and run the IDE's own
   Fernflower with the IDE's JBR (a system `java` is too old for those class files):
   `"/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home/bin/java" -cp ".../plugins/java-decompiler/lib/java-decompiler.jar" org.jetbrains.java.decompiler.main.decompiler.ConsoleDecompiler -hdc=0 -dgs=1 <classes> <outdir>`.
+
+## AI Assistant chat messages (Compose)
+
+The message area around the input is **not Swing** — it is Compose/Jewel, in
+`intellij.ml.llm.agents.frontend.jar`, so the UI Inspector cannot reach it and only the keys that
+plugin asks for exist. `AIAColors.Companion.getColor` builds them as
+`"AIAssistant.Chat" + <component> + <"Default"|ForceColor prefix> + <colorName>`, e.g.
+`AIAssistant.Chat.StepCard.Default.background.color` (see the nested `AIAssistant.Chat.StepCard`
+block in `aura.theme.json`). There are exactly three component names — `StepCard`,
+`AgentEventBlock`, `ChatHistory` — plus the standalone
+`AIAssistant.Chat.AssistantMessage.inlineCodeBackground` for inline `` `code` `` spans (default
+`#FFFFFF10`). Anything not in that list is not themeable.
+
+- **A fenced code block's fill is the editor background and cannot be overridden.**
+  `CodeBlockRenderer` takes only its *border* from a key (`stepCard.borderColor`); the fill comes
+  from `MarkdownStyling.Code.Fenced.background`, and `ProvideAIAssistantMarkdownStyling` passes
+  `code = null`, so Jewel's default applies:
+  `BridgeMarkdownStylingKt.getBlockBackgroundColor()` = `retrieveEditorColorScheme()
+  .getDefaultBackground()`, i.e. the *globally active* scheme's `TEXT` background. Investigated and
+  rejected: mutating the remembered styling (5+ hops of Compose-desktop internals into
+  `CompositionImpl.slotTable` after every LaF change), a bytecode agent (needs
+  `-Djdk.attach.allowAttachSelf`), and lying about the global scheme's default background (leaks to
+  every non-editor consumer, and `setAttributes` can persist into the user's saved
+  `colors.scheme.xml`). Treat the fill as fixed: either match the card to it or accept the inset
+  look. Note the code text is highlighted from the same scheme, so a card-colored fill would also
+  cost token contrast.
+- There is no way back to a Swing message area: none of `ml-llm`'s 451 registry keys switch the
+  renderer (`llm.chat.history.new.enabled` is the history view only,
+  `llm.chat.detached.compose.panel.*` are just panel caches).
+- `AIAColors` also carries `editorBackground`, `editorForeground` and `hoverBackground` from
+  `JBColors`, but nothing reads `editorBackground` — do not mistake it for the code block's.
