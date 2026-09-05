@@ -10,7 +10,7 @@
     "background": "#F8F8F8",
     "hover": "#F8F8F8",
     "background_light": "#dedede",
-    "user_message_background": "background_light",
+    "user_message_background": "#dedede",
     "focus_color": "#587094",
     "foreground": "#535353"
   },
