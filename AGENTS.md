@@ -142,3 +142,58 @@ Context that is expensive to rediscover:
   wire `toolWindowShown`, `toolWindowsRegistered` and `stateChanged`, since which one fires on a
   restore depends on the saved layout.
 - Toggle at runtime with the registry key `darkthemes.cascade.sync`.
+
+## AI Assistant chat input
+
+`src/main/kotlin/.../aiassistant/` gives the AI Assistant's chat input box its own background.
+A theme opts in by defining `AIAssistantInput.background` in its `ui` section; with the key absent
+nothing happens. Only `aura.theme.json` has it so far.
+
+The IDE-side inspection tool is the **UI Inspector** (`idea.is.internal=true` in Help → Edit Custom
+Properties, then Ctrl+Alt+Click), whose Color Key Picker names the color's source — that is how the
+box was traced to the editor's `TEXT` attribute background.
+
+- The box is `AIAssistantNewToolbarInput` in `com.intellij.ml.llm.core.chat.ui.chat.input`, which
+  lives in `ml-llm/lib/modules/intellij.ml.llm.chat.jar` (not `ml-llm.jar`, despite the package).
+- It cannot be recolored from outside: `setBackground` is compiled to a bare `return`, and
+  `getBackground()` returns `editorTextField.editor.colorsScheme.defaultBackground`.
+  `AIAssistantInputBorder.paintBorder` fills from that same `EditorEx.colorsScheme` too.
+- Both read the *editor's* scheme, not the global one, so the lever is a `DelegateColorScheme` on
+  that single editor overriding `getDefaultBackground()`. One wrap moves the text area, the strip
+  behind the toolbar and the border fill together, and affects no other editor.
+- The theme JSON alone cannot reach it. All of `ml-llm.jar` contains exactly one named UI key,
+  `Editor.SearchField.background`, and that belongs to the inline code-generation popup.
+- Identify the editor by walking its `contentComponent` parents for
+  `AIAssistantInputEditorTextField`, and do it in an `invokeLater` from
+  `EditorFactoryListener.editorCreated` — at creation time the editor is not in the component tree
+  yet. File type is no use: the field is built with `FileTypes.PLAIN_TEXT`, even though the plugin
+  ships a whole `ChatInputLanguage` (`ChatInput`) for the box's completion and folding.
+- The delegate reads `UIManager` on every call, so the color itself needs no re-wrapping — but
+  **the assistant throws the wrapper away on every theme change**, so re-wrapping is mandatory:
+  `AIAssistantInputEditorLifecycleController.updateTheme` calls
+  `AIAssistantInputEditorTextField.applyIdeThemeColorScheme`, which is
+  `editor.setColorsScheme(editor.createBoundColorSchemeDelegate(schemeForCurrentUITheme))`. It runs
+  from their own `LafManagerListener` (subscribed through `launchOnShow`, so only while the panel is
+  showing) and from `initEditor`.
+- Because both listeners hear the same event and message bus order is not ours to choose, our
+  re-wrap must be deferred with `invokeLater`; anything synchronous can be overwritten. Symptom of
+  getting this wrong: the box keeps the old editor background after a theme switch and only turns
+  the right color once a message is sent — sending recreates the document, which recreates the
+  editor, which fires `editorCreated` again.
+- Re-wrap over whatever scheme is there, unwrapping our own first (`DelegateColorScheme.getDelegate`)
+  rather than rebuilding the bound delegate: theirs carries the editor font name/size and line
+  spacing that `applyIdeThemeColorScheme` sets right after creating it.
+- The same `updateTheme` runs `UIUtil.setBackgroundRecursively(toolbar, editorTextField.background)`
+  over every `ActionToolbar` in the input, and `ActionButtonLook.getStateBackground` returns
+  `component.isBackgroundSet() ? component.getBackground() : null` for the idle state (with
+  `paintBorder` adding a hover border on top). So an explicit background makes every toolbar button
+  paint a filled rounded slab — the `+`, the mode selector, the context-usage circle and the send
+  `ToolbarSplitButton` all showed as boxes of the *editor* background over our box color, since the
+  sweep runs before we re-wrap. `clearToolbarBackgrounds` unsets it instead of recoloring it, which
+  leaves nothing painted at rest and `ActionButton.hoverBackground` in charge of hover/pressed.
+- Scope that sweep to `ActionToolbar` subtrees, as they do. The agent/model row below the box is
+  `getBottomToolbarPanel()`: the input builds it but `AIAssistantChatPanel` re-parents it, so it is
+  outside the input's hierarchy and no sweep — theirs or ours — reaches it.
+- To read their code: `unzip` the package out of `intellij.ml.llm.chat.jar` and run the IDE's own
+  Fernflower with the IDE's JBR (a system `java` is too old for those class files):
+  `"/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home/bin/java" -cp ".../plugins/java-decompiler/lib/java-decompiler.jar" org.jetbrains.java.decompiler.main.decompiler.ConsoleDecompiler -hdc=0 -dgs=1 <classes> <outdir>`.

@@ -75,12 +75,19 @@
                      defaultValue="true"
                      restartRequired="false"
                      description="Dark-Themes: derive the Windsurf/Cascade chat panel's colors (--bg-elevated, --tint-tertiary) from the active theme instead of the plugin's hardcoded near-black values."/>
+
+        <editorFactoryListener
+            implementation="com.github.shubham076.darkthemes.aiassistant.AIAssistantInputEditorListener"/>
     </extensions>
 
     <applicationListeners>
         <listener class="com.github.shubham076.darkthemes.cascade.CascadeLafListener"
                   topic="com.intellij.ide.ui.LafManagerListener"/>
         <listener class="com.github.shubham076.darkthemes.cascade.CascadeSchemeListener"
+                  topic="com.intellij.openapi.editor.colors.EditorColorsListener"/>
+        <listener class="com.github.shubham076.darkthemes.aiassistant.AIAssistantInputLafListener"
+                  topic="com.intellij.ide.ui.LafManagerListener"/>
+        <listener class="com.github.shubham076.darkthemes.aiassistant.AIAssistantInputSchemeListener"
                   topic="com.intellij.openapi.editor.colors.EditorColorsListener"/>
     </applicationListeners>
 
