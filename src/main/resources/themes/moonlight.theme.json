@@ -4,6 +4,8 @@
   "dark": true,
   "editorScheme": "/themes/moonlight.xml",
   "colors": {
+    "tab_background": "#454963",
+    "transparent": "#00000000",
     "tree_cell_active": "#424865",
     "main_bg": "#454963",
     "island_border": "#272A42",
@@ -92,10 +94,12 @@
       "focus": "#222436"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "tree_cell_active",
+      "hoverBorderColor": "transparent",
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "AIAssistantInput": {
       "background": "user_message_background"

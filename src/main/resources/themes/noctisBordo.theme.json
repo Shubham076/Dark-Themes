@@ -4,6 +4,8 @@
   "dark": true,
   "editorScheme": "/themes/noctisBordo.xml",
   "colors": {
+    "tab_background": "#544249",
+    "transparent": "#00000000",
     "tree_cell_active": "#443a3e",
     "main_bg": "#544249",
     "island_border": "#322A2D",
@@ -92,10 +94,12 @@
       "focus": "#2c2528"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "tree_cell_active",
+      "hoverBorderColor": "transparent",
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "AIAssistantInput": {
       "background": "user_message_background"

@@ -93,10 +93,12 @@
       "focus": "background"
     },
     "ActionButton": {
-      "hoverBackground": "action_btn_hover_background",
-      "focusedBorderColor": "transparent",
+      "hoverBackground": "tree_cell_active",
       "hoverBorderColor": "transparent",
-      "pressedBackground": "action_btn_focus_background"
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "RunWidget": {
       "iconColor": "#565E70",

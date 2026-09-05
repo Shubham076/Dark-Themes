@@ -4,6 +4,8 @@
   "dark": true,
   "editorScheme": "/themes/gruvboxMaterial.xml",
   "colors": {
+    "tab_background": "#433E3B",
+    "transparent": "#00000000",
     "tree_cell_active": "#3a3939",
     "main_bg": "#433E3B",
     "island_border": "#323030",
@@ -94,10 +96,12 @@
       "foreground": "#adbac7"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "tree_cell_active",
+      "hoverBorderColor": "transparent",
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "AIAssistantInput": {
       "background": "user_message_background"

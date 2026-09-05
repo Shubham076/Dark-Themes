@@ -5,6 +5,8 @@
   "parentTheme": "ExperimentalLightWithLightHeader",
   "editorScheme": "Light",
   "colors": {
+    "tab_background": "#D4E2FFB3",
+    "tree_cell_active": "Gray12",
     "background_light": "Gray14",
     "background_mid": "Gray14",
     "background_dark": "Gray12",
@@ -112,6 +114,14 @@
     },
     "MenuItem.background": "popup_background",
     "PopupMenu.background": "popup_background",
+    "ActionButton": {
+      "hoverBackground": "tree_cell_active",
+      "hoverBorderColor": "transparent",
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
+    },
     "ToolTip": {
       "background": "tooltip_background",
       "borderColor": "tooltip_border"

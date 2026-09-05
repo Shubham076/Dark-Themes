@@ -96,12 +96,12 @@
       "focus": "focused_color"
     },
     "ActionButton": {
-      "hoverBackground": "focused_color",
+      "hoverBackground": "tree_cell_active",
       "hoverBorderColor": "transparent",
-      "pressedBackground": "focused_color",
+      "pressedBackground": "tree_cell_active",
       "pressedBorderColor": "transparent",
       "focusedBorderColor": "transparent",
-      "hoverSeparatorColor": "focused_color"
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "AIAssistantInput": {
       "background": "user_message_background"

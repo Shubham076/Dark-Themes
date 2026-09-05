@@ -56,6 +56,12 @@
         "inactiveBackground": "background",
         "background": "background"
       },
+      "Stripe": {
+        "background": "background"
+      },
+       "Button": {
+         "selectedBackground": "tree_cell_active"
+       },
       "background": "background"
     },
     "Plugins": {

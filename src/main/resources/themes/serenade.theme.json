@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/serenade.xml",
   "colors": {
+    "transparent": "#00000000",
     "tree_cell_active": "#3e4951",
     "main_bg": "#393e43",
     "island_border": "#2A2F33",
@@ -94,10 +95,12 @@
       "focus": "#364148"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "tree_cell_active",
+      "hoverBorderColor": "transparent",
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "AIAssistantInput": {
       "background": "user_message_background"

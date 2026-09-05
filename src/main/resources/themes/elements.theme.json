@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/Elements.xml",
   "colors": {
+    "transparent": "#00000000",
     "tree_cell_active": "#314a5e",
     "main_bg": "#30373d",
     "island_border": "#262D33",
@@ -93,10 +94,12 @@
       "focus": "#21282e"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "tree_cell_active",
+      "hoverBorderColor": "transparent",
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "AIAssistantInput": {
       "background": "user_message_background"

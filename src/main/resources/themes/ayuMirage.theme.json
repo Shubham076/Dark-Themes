@@ -4,6 +4,8 @@
   "dark": true,
   "editorScheme": "/themes/ayuMirage.xml",
   "colors": {
+    "tab_background": "#2e3d4c",
+    "transparent": "#00000000",
     "tree_cell_active": "#333b4fff",
     "main_bg": "#293847",
     "island_border": "#262c38",
@@ -93,10 +95,12 @@
       "focus": "#1f2430"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "tree_cell_active",
+      "hoverBorderColor": "transparent",
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "AIAssistantInput": {
       "background": "user_message_background"

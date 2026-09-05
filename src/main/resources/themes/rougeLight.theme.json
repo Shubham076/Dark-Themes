@@ -4,6 +4,8 @@
   "dark": false,
   "editorScheme": "/themes/rougeLight.xml",
   "colors": {
+    "tab_background": "#E2E0D9",
+    "transparent": "#00000000",
     "tree_cell_active": "#ccd7daff",
     "main_bg": "#E2E0D9",
     "island_border": "#F5EBE1",
@@ -88,10 +90,12 @@
       "focus": "#F5EBE1"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "tree_cell_active",
+      "hoverBorderColor": "transparent",
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "RunWidget": {
       "iconColor": "#565E70",

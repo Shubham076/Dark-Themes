@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/blueDolphin.xml",
   "colors": {
+    "transparent": "#00000000",
     "tree_cell_active": "#2d617c",
     "main_bg": "#215670",
     "island_border": "#0f445b",
@@ -101,10 +102,12 @@
       "focus": "#002b3f"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "tree_cell_active",
+      "hoverBorderColor": "transparent",
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "ToolTip": {
       "background": "popup_background",

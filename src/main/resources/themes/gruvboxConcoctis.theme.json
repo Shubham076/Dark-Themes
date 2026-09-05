@@ -4,6 +4,8 @@
   "dark": true,
   "editorScheme": "/themes/gruvboxConcoctis.xml",
   "colors": {
+    "tab_background": "#3E4244",
+    "transparent": "#00000000",
     "tree_cell_active": "#2d3233",
     "main_bg": "#3E4244",
     "island_border": "#32302F",
@@ -94,10 +96,12 @@
       "foreground": "#d5c4a1"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "tree_cell_active",
+      "hoverBorderColor": "transparent",
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "AIAssistantInput": {
       "background": "user_message_background"

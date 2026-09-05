@@ -4,6 +4,8 @@
   "name": "Vitesse Light",
   "editorScheme": "/themes/vitesseLight.xml",
   "colors": {
+    "tab_background": "#D3D3D3",
+    "transparent": "#00000000",
     "tree_cell_active": "#ccd7daff",
     "main_bg": "#dadadb",
     "island_border": "#dadadb",
@@ -83,10 +85,12 @@
       "focus": "#F1F0E9"
     },
     "ActionButton": {
-      "hoverBackground": "#F1F0E9",
-      "hoverBorderColor": "#F1F0E9",
-      "pressedBackground": "#dadadb",
-      "pressedBorderColor": "#dadadb"
+      "hoverBackground": "tree_cell_active",
+      "hoverBorderColor": "transparent",
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "RunWidget": {
       "iconColor": "#565E70",

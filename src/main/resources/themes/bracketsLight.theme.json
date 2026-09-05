@@ -4,6 +4,8 @@
   "dark": false,
   "editorScheme": "/themes/bracketsLight.xml",
   "colors": {
+    "tab_background": "#D4DDE7",
+    "transparent": "#00000000",
     "tree_cell_active": "#D4DDE7",
     "main_bg": "#D4DDE7",
     "island_border": "#FEFEFE",
@@ -270,7 +272,6 @@
     },
     "ToolWindow": {
       "Button": {
-        "selectedBackground": "alternate_background",
         "hoverBackground": "hover_background"
       },
       "Header": {
@@ -340,10 +341,12 @@
       "borderColor": "background"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "tree_cell_active",
+      "hoverBorderColor": "transparent",
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "RunWidget": {
       "iconColor": "#565E70",

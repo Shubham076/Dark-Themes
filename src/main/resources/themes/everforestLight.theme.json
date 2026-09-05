@@ -4,6 +4,8 @@
   "dark": false,
   "editorScheme": "/themes/everforestLight.xml",
   "colors": {
+    "tab_background": "#cbcbcb",
+    "transparent": "#00000000",
     "tree_cell_active": "#ccd7daff",
     "main_bg": "#d2d2d2",
     "island_border": "#F5F4F4FF",
@@ -89,10 +91,12 @@
       "focus": "background"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "tree_cell_active",
+      "hoverBorderColor": "transparent",
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "RunWidget": {
       "iconColor": "#565E70",

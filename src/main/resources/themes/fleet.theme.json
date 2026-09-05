@@ -4,6 +4,7 @@
   "dark": true,
   "editorScheme": "/themes/fleet.xml",
   "colors": {
+    "transparent": "#00000000",
     "tree_cell_active": "#333b4fff",
     "main_bg": "#353535",
     "island_border": "#2b2b2b",
@@ -93,10 +94,12 @@
       "focus": "#1f2430"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "tree_cell_active",
+      "hoverBorderColor": "transparent",
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "AIAssistantInput": {
       "background": "user_message_background"

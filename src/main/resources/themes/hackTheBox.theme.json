@@ -4,6 +4,8 @@
   "dark": true,
   "editorScheme": "/themes/hackTheBox.xml",
   "colors": {
+    "tab_background": "#455065",
+    "transparent": "#00000000",
     "tree_cell_active": "#3a485e",
     "main_bg": "#455065",
     "island_border": "#2B384DFF",
@@ -94,10 +96,12 @@
       "focus": "#202b3d"
     },
     "ActionButton": {
-      "hoverBackground": "hover",
-      "hoverBorderColor": "background",
-      "pressedBackground": "background",
-      "pressedBorderColor": "background"
+      "hoverBackground": "tree_cell_active",
+      "hoverBorderColor": "transparent",
+      "pressedBackground": "tree_cell_active",
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent",
+      "hoverSeparatorColor": "tree_cell_active"
     },
     "AIAssistantInput": {
       "background": "user_message_background"
