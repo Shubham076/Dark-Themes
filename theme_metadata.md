@@ -19,7 +19,7 @@ macOS path:
 /Applications/IntelliJ\ IDEA\ CE.app/Contents/lib/intellij.platform.ide.impl.jar
 ```
 
-> **Note:** older docs (including `EXTRACT_INTELLIJ_THEMES.md`) point at `app-client.jar`.
+> **Note:** older docs (including `extract_intellij_themes.md`) point at `app-client.jar`.
 > That jar no longer exists in recent builds — the theme JSONs and the metadata both moved
 > into `intellij.platform.ide.impl.jar`. Locate it yourself with:
 >
@@ -152,5 +152,5 @@ Every theme here defines a `focus_color` palette entry sourced from its editor s
 
 ## Related docs
 
-- `EXTRACT_INTELLIJ_THEMES.md` — extracting the built-in `*.theme.json` files themselves
-- `Conversion.md` — converting schemes to other editors
+- `extract_intellij_themes.md` — extracting the built-in `*.theme.json` files themselves
+- `conversion.md` — converting schemes to other editors

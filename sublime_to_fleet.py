@@ -216,6 +216,8 @@ class SublimeToFleetConverter:
             'annotation_color': 'Annotation',
             'doc_color': 'Documentation',
             'tag_color': 'Tag',
+            'tag_name_color': 'TagName',
+            'punctuation_color': 'Punctuation',
             'css_selector_color': 'CssSelector',
             'json_key_color': 'JsonKey',
             'yaml_key_color': 'YamlKey',
@@ -553,6 +555,10 @@ class SublimeToFleetConverter:
         # Add all common text attributes directly (based on Fleet.json structure)
         # No need to process rules - just define what we need
 
+        text_attributes['editor.text.scheme'] = {
+            'foregroundColor': get_palette_color(['Text', 'Variable'], 'Text')
+        }
+
         # Comments
         text_attributes['comment'] = {
             'foregroundColor': get_palette_color(['Comment', 'GutterFg'], 'Text'),
@@ -635,7 +641,7 @@ class SublimeToFleetConverter:
 
         # Operators and punctuation
         text_attributes['punctuation'] = {
-            'foregroundColor': get_palette_color(['Operator', 'Cyan', 'Text'], 'Text')
+            'foregroundColor': get_palette_color(['Punctuation', 'Text'], 'Text')
         }
         text_attributes['punctuation.operator'] = {
             'foregroundColor': get_palette_color(['Operator', 'Cyan', 'Keyword'], 'Text')
@@ -643,7 +649,7 @@ class SublimeToFleetConverter:
 
         # HTML/XML
         text_attributes['tagName.html'] = {
-            'foregroundColor': get_palette_color(['Tag', 'Red', 'Keyword'], 'Text')
+            'foregroundColor': get_palette_color(['TagName', 'Tag', 'Red', 'Keyword'], 'Text')
         }
         text_attributes['tag.html'] = {
             'foregroundColor': get_palette_color(['Tag', 'Text'], 'Text'),
@@ -652,10 +658,27 @@ class SublimeToFleetConverter:
         text_attributes['attributeName.html'] = {
             'foregroundColor': get_palette_color(['Annotation', 'Yellow', 'Function'], 'Text')
         }
+        text_attributes['attributeValue.html'] = {
+            'foregroundColor': get_palette_color(['String', 'Green'], 'Text')
+        }
+        text_attributes['entityReference.html'] = {
+            'foregroundColor': get_palette_color(['Constant', 'Orange'], 'Text')
+        }
 
         # JSON
-        text_attributes['json.keys'] = {
-            'foregroundColor': get_palette_color(['Text', 'Variable'], 'Text')
+        text_attributes['key.json'] = {
+            'foregroundColor': get_palette_color(['JsonKey', 'Text'], 'Text')
+        }
+
+        # YAML
+        text_attributes['key.yaml'] = {
+            'foregroundColor': get_palette_color(['YamlKey', 'Text'], 'Text')
+        }
+        text_attributes['schema.yaml'] = {
+            'foregroundColor': get_palette_color(['YamlKey', 'Text'], 'Text')
+        }
+        text_attributes['value.yaml'] = {
+            'foregroundColor': get_palette_color(['Text'], 'Text')
         }
 
         # Markup

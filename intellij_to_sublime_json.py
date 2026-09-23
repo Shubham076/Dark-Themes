@@ -51,7 +51,7 @@ class IntelliJToSublimeJSONConverter:
                 'variable': 'storage_color'
             },
             'Strings': {
-                'scopes': 'string, string.quoted, string.quoted.single, string.quoted.double, string.quoted.triple, string.unquoted, string.template, string.regexp, string.other.link, variable.annotation',
+                'scopes': 'string, string.quoted, string.quoted.single, string.quoted.double, string.quoted.triple, string.unquoted, string.template, string.regexp, string.other.link, variable.annotation, punctuation.definition.string',
                 'intellij_attrs': ['DEFAULT_STRING'],
                 'variable': 'string_color'
             },
@@ -82,7 +82,7 @@ class IntelliJToSublimeJSONConverter:
             },
             'Punctuation': {
                 'scopes': 'punctuation, punctuation.separator, punctuation.separator.comma, punctuation.terminator, punctuation.terminator.semicolon, punctuation.section, punctuation.section.braces, punctuation.section.brackets, punctuation.section.parens, punctuation.accessor.dot, punctuation.separator.colon, punctuation.definition',
-                'intellij_attrs': ['DEFAULT_BRACKETS'],
+                'intellij_attrs': ['DEFAULT_BRACKETS', 'DEFAULT_BRACES', 'DEFAULT_COMMA', 'DEFAULT_DOT', 'DEFAULT_SEMICOLON'],
                 'variable': 'punctuation_color'
             },
             'JSON Keys': {
@@ -106,9 +106,14 @@ class IntelliJToSublimeJSONConverter:
                 'variable': 'yaml_value_color'
             },
             'XML/HTML Tags': {
-                'scopes': 'meta.tag, entity.name.tag, entity.name.tag.html, entity.name.tag.xml, entity.other.attribute-name, entity.other.attribute-name.html, entity.other.attribute-name.xml, string.quoted.double.xml, string.quoted.single.xml, string.quoted.double.html, string.quoted.single.html, punctuation.definition.tag, punctuation.definition.tag.html, punctuation.definition.tag.xml, meta.tag.preprocessor.xml, meta.tag.sgml, constant.character.entity.html, constant.character.entity.xml, punctuation.definition.entity.html, punctuation.definition.entity.xml, meta.tag.inline, meta.tag.block, meta.tag.other',
-                'intellij_attrs': ['HTML_TAG'],
+                'scopes': 'meta.tag, entity.other.attribute-name, entity.other.attribute-name.html, entity.other.attribute-name.xml, string.quoted.double.xml, string.quoted.single.xml, string.quoted.double.html, string.quoted.single.html, punctuation.definition.tag, punctuation.definition.tag.html, punctuation.definition.tag.xml, meta.tag.preprocessor.xml, meta.tag.sgml, constant.character.entity.html, constant.character.entity.xml, punctuation.definition.entity.html, punctuation.definition.entity.xml, meta.tag.inline, meta.tag.block, meta.tag.other',
+                'intellij_attrs': ['HTML_TAG', 'XML_TAG'],
                 'variable': 'tag_color'
+            },
+            'XML/HTML Tag Names': {
+                'scopes': 'entity.name.tag, entity.name.tag.html, entity.name.tag.xml',
+                'intellij_attrs': ['XML_TAG_NAME', 'HTML_TAG_NAME'],
+                'variable': 'tag_name_color'
             },
             'Annotations': {
                 'scopes': 'variable.annotation, punctuation.definition.annotation, meta.annotation, storage.type.annotation, entity.name.function.annotation, keyword.other.annotation, support.type.annotation, meta.declaration.annotation, punctuation.definition.annotation.java, storage.modifier.annotation, entity.other.attribute-name.annotation',
@@ -309,7 +314,7 @@ class IntelliJToSublimeJSONConverter:
         light_theme_colors = {
             "--bluish": "#343e5e",
             "--cyanish": "#316a6a",
-            "--greenish": "#22863a",
+            "--greenish": "#388E3C",
             "--orangish": "#F78D8C",
             "--pinkish": "#D3859A",
             "--purplish": "#e5bb00",
@@ -363,9 +368,6 @@ class IntelliJToSublimeJSONConverter:
         is_light_theme = True  # Default to light
         if 'background' in base_colors:
             bg_color = base_colors['background'].lstrip('#')
-            # Drop alpha channel if present (RRGGBBAA -> RRGGBB)
-            if len(bg_color) == 8:
-                bg_color = bg_color[:6]
             if len(bg_color) == 6:
                 # Calculate perceived brightness using relative luminance
                 r = int(bg_color[0:2], 16) / 255
@@ -380,31 +382,26 @@ class IntelliJToSublimeJSONConverter:
 
         # Create better popup backgrounds for contrast - opposite of main background
         main_bg = base_colors.get('background', '#ffffff')
-        # Normalize main_bg to #RRGGBB (drop alpha if present)
-        main_bg_rgb = main_bg
-        if main_bg_rgb.startswith('#') and len(main_bg_rgb) == 9:
-            main_bg_rgb = main_bg_rgb[:7]
-
         if is_light_theme:
             # popup_bg = "#e8eaec"
             # Light theme (light background) -> use dark popup background for contrast
             # Darken the background significantly for good contrast
 
-            if main_bg_rgb.startswith('#') and len(main_bg_rgb) == 7:
-                r = max(0, int(main_bg_rgb[1:3], 16) - 17)
-                g = max(0, int(main_bg_rgb[3:5], 16) - 17)
-                b = max(0, int(main_bg_rgb[5:7], 16) - 17)
+            if main_bg.startswith('#') and len(main_bg) == 7:
+                r = max(0, int(main_bg[1:3], 16) - 17)
+                g = max(0, int(main_bg[3:5], 16) - 17)
+                b = max(0, int(main_bg[5:7], 16) - 17)
                 popup_bg = f"#{r:02x}{g:02x}{b:02x}"
             else:
                 popup_bg = "#404040"  # Fallback dark color
 
         else:
             # Dark theme (dark background) -> use light popup background for contrast
-            if main_bg_rgb.startswith('#') and len(main_bg_rgb) == 7:
+            if main_bg.startswith('#') and len(main_bg) == 7:
                 # Lighten the background significantly for good contrast
-                r = min(255, int(main_bg_rgb[1:3], 16) + 20)
-                g = min(255, int(main_bg_rgb[3:5], 16) + 20)
-                b = min(255, int(main_bg_rgb[5:7], 16) + 20)
+                r = min(255, int(main_bg[1:3], 16) + 20)
+                g = min(255, int(main_bg[3:5], 16) + 20)
+                b = min(255, int(main_bg[5:7], 16) + 20)
                 popup_bg = f"#{r:02x}{g:02x}{b:02x}"
             else:
                 popup_bg = "#c0c0c0"
@@ -504,7 +501,7 @@ class IntelliJToSublimeJSONConverter:
         html, body {{--background: var(--popups_background); border-radius: 2px;}}
         .mdpopups {{--mdpopups-bg: var(--mdpopups_background); --mdpopups-hl-bg: var(--mdpopups_background); --mdpopups-hl-border: none; --mdpopups-link: var(--popup_cyanish);}}
         a {{text-decoration: none; color: var(--popup_cyanish);}}
-        .mdpopups .lsp_popup {{--redish: var(--popup_redish); --yellowish: var(--popup_redish); --greenish: var(--popup_greenish); }}
+        .mdpopups .lsp_popup {{--redish: var(--popup_redish); --yellowish: var(--popup_yellowish); --greenish: var(--popup_greenish); }}
         .mdpopups .lsp_popup a {{color: var(--popup_cyanish);}}
         .mdpopups .bracket-highlighter .admonition.panel-error {{--mdpopups-admon-error-accent: var(--mdpopups_background); --mdpopups-admon-info-accent: var(--mdpopups_background); --mdpopups-admon-warning-accent: var(--mdpopups_background); --mdpopups-admon-success-accent: var(--mdpopups_background);}}
         .mdpopups .bracket-highlighter .admonition.panel-error .admonition-title {{--mdpopups-admon-error-accent: color(var(--popup_redish) alpha(0.25)); --mdpopups-admon-info-accent: color(var(--popup_cyanish) alpha(0.25)); --mdpopups-admon-warning-accent: color(var(--popup_yellowish) alpha(0.25)); --mdpopups-admon-success-accent: color(var(--popup_greenish) alpha(0.25));}}
@@ -566,10 +563,6 @@ class IntelliJToSublimeJSONConverter:
                 "background": "var(background)"
             },
             {
-                "scope": "debugger.selection",
-                "background": "var(selection_background)"
-            },
-            {
                 "name": "region orange color",
                 "scope": "region.orangish",
                 # "foreground": "var(--orangish)",
@@ -600,6 +593,56 @@ class IntelliJToSublimeJSONConverter:
                 "background": "var(background)"
             }
         ]
+
+         # debugger light/dark themes
+        debugger_rules = [
+             {
+                 "name": "region red color for debugger",
+                 "scope": "region.redish.debugger",
+                 "foreground": "var(--redish)",
+                 "background": "var(background)"
+             },
+             {
+                 "name": "region blue color for debugger",
+                 "scope": "region.bluish.debugger",
+                 "foreground": "var(--bluish)",
+                 "background": "var(background)"
+             },
+             {
+                 "scope": "debugger.selection",
+                 "background": "var(selection_background)"
+             },
+             {
+                 "name": "region orange color for debugger",
+                 "scope": "region.orangish.debugger",
+                 "foreground": "var(--orangish)",
+                 "background": "var(background)"
+             },
+             {
+                 "name": "region yellow color for debugger",
+                 "scope": "region.yellowish.debugger",
+                 "foreground": "var(--yellowish)",
+                 "background": "var(background)"
+             },
+             {
+                 "name": "region green color for debugger",
+                 "scope": "region.greenish.debugger",
+                 "foreground":"var(--greenish)",
+                 "background": "var(background)"
+             },
+             {
+                 "name": "region purple color debugger",
+                 "scope": "region.purplish.debugger",
+                 "foreground": "var(--purplish)",
+                 "background": "var(background)"
+             },
+             {
+                 "name": "region pink color for debugger",
+                 "scope": "region.pinkish.debuggers",
+                 "foreground": "var(--pinkish)",
+                 "background": "var(background)"
+             }
+         ]
 
         git_diff_rules = [
             {
@@ -703,6 +746,7 @@ class IntelliJToSublimeJSONConverter:
 
         # Add region rules to the main rules list
         rules.extend(region_rules)
+        rules.extend(debugger_rules)
         rules.extend(git_diff_rules)
         rules.extend(lsp_markup_colors)
         rules.extend(side_by_side_compare_colors)
@@ -727,6 +771,7 @@ class IntelliJToSublimeJSONConverter:
         theme_json = self.create_sublime_json_theme(colors, attributes, theme_name)
 
         # Write output file
+        os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(theme_json, f, indent=4, ensure_ascii=False)
 
@@ -741,14 +786,13 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog='''
 Examples:
-  python intellij_to_sublime_json.py theme.icls -o theme.sublime-color-scheme
-  python intellij_to_sublime_json.py /path/to/monokai.icls -o /path/to/monokai.sublime-color-scheme
+  python intellij_to_sublime_json.py theme.icls theme.sublime-color-scheme
+  python intellij_to_sublime_json.py /path/to/monokai.icls /path/to/monokai.sublime-color-scheme
         '''
     )
 
     parser.add_argument('input', help='Input IntelliJ theme file (.icls or .xml)')
-    parser.add_argument('-o', '--output', required=True,
-                        help='Output Sublime theme file path (.sublime-color-scheme)')
+    parser.add_argument('output', help='Output Sublime theme file (.sublime-color-scheme)')
     parser.add_argument('--verbose', '-v', action='store_true',
                         help='Enable verbose output')
 
