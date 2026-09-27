@@ -66,6 +66,10 @@
       "tabContentActionsRightInsets": "0,2,0,2"
     },
     "ToolWindow": {
+      "Button": {
+        "selectedBackground": "tree_cell_active",
+        "selectedForeground": "foreground"
+      },
       "Header": {
         "inactiveBackground": "background",
         "background": "background"

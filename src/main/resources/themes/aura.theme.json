@@ -59,9 +59,10 @@
       "Stripe": {
         "background": "background"
       },
-       "Button": {
-         "selectedBackground": "tree_cell_active"
-       },
+      "Button": {
+        "selectedBackground": "tree_cell_active",
+        "selectedForeground": "foreground"
+      },
       "background": "background"
     },
     "Plugins": {

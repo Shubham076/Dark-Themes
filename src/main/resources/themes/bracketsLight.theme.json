@@ -272,7 +272,9 @@
     },
     "ToolWindow": {
       "Button": {
-        "hoverBackground": "hover_background"
+        "hoverBackground": "hover_background",
+        "selectedBackground": "tree_cell_active",
+        "selectedForeground": "foreground"
       },
       "Header": {
         "background": "background",

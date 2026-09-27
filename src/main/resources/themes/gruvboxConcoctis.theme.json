@@ -75,6 +75,10 @@
       "hoverColor": "#2d2b2a"
     },
     "ToolWindow": {
+      "Button": {
+        "selectedBackground": "tree_cell_active",
+        "selectedForeground": "foreground"
+      },
       "Header": {
         "inactiveBackground": "background",
         "background": "background"

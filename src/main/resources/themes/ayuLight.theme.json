@@ -74,6 +74,10 @@
       "focus": "#F8F9FA"
     },
     "ToolWindow": {
+      "Button": {
+        "selectedBackground": "tree_cell_active",
+        "selectedForeground": "foreground"
+      },
       "background": "background",
       "Header": {
         "background": "background",

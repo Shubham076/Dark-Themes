@@ -291,7 +291,9 @@
         "hoverInactiveBackground": "#313C51"
       },
       "Button": {
-        "hoverBackground": "#313C51"
+        "hoverBackground": "#313C51",
+        "selectedBackground": "tree_cell_active",
+        "selectedForeground": "foreground"
       },
       "background": "background"
     },

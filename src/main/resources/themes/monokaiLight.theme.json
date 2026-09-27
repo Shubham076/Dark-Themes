@@ -69,6 +69,10 @@
       "Header.activeBackground": "background"
     },
     "ToolWindow": {
+      "Button": {
+        "selectedBackground": "tree_cell_active",
+        "selectedForeground": "foreground"
+      },
       "Header": {
         "inactiveBackground": "background",
         "background": "background"

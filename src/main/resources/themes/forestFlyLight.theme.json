@@ -62,7 +62,9 @@
         "hoverInactiveBackground": "hover"
       },
       "Button": {
-        "hoverBackground": "hover"
+        "hoverBackground": "hover",
+        "selectedBackground": "tree_cell_active",
+        "selectedForeground": "foreground"
         },
       "background": "background"
     },
