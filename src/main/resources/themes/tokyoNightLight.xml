@@ -40,6 +40,7 @@
         <option name="GUTTER_BACKGROUND" value="D5D6DB" />
         <option name="LINE_NUMBERS_COLOR" value="757575" />
         <option name="SELECTION_BACKGROUND" value="D1D2D7" />
+        <option name="GRID_STRIPE_COLOR" value="DDDEE4" />
         <option name="SELECTION_FOREGROUND" value="" />
     </colors>
     <attributes>

@@ -42,6 +42,7 @@
     <option name="GUTTER_BACKGROUND" value="323232" />
     <option name="LINE_NUMBERS_COLOR" value="ebdbb2" />
     <option name="SELECTION_BACKGROUND" value="474747" />
+    <option name="GRID_STRIPE_COLOR" value="3E3E3E" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="c5574a" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="f4f1bb" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="9bc1bc" />
