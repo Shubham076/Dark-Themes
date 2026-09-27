@@ -50,8 +50,8 @@
     "MainWindow.background": "main_bg",
     "ToolWindow": {
       "Button": {
-        "selectedBackground": "tree_cell_active",
-        "selectedForeground": "foreground"
+        "selectedBackground": "focus_color",
+        "selectedForeground": "main_bg"
       },
       "Header": {
         "inactiveBackground": "background",
@@ -98,9 +98,9 @@
       "focus": "#272427"
     },
     "ActionButton": {
-      "hoverBackground": "tree_cell_active",
+      "hoverBackground": "#DDA19333",
       "hoverBorderColor": "transparent",
-      "pressedBackground": "tree_cell_active",
+      "pressedBackground": "#DDA19359",
       "pressedBorderColor": "transparent",
       "focusedBorderColor": "transparent",
       "hoverSeparatorColor": "tree_cell_active"
