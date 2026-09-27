@@ -5,6 +5,9 @@ import com.intellij.ide.ui.LafManagerListener
 import com.intellij.openapi.actionSystem.ActionToolbar
 import com.intellij.openapi.application.ApplicationManager
 import com.intellij.openapi.editor.EditorFactory
+import com.intellij.openapi.editor.colors.EditorColors
+import com.intellij.openapi.editor.colors.TextAttributesKey
+import com.intellij.openapi.editor.markup.TextAttributes
 import com.intellij.openapi.editor.colors.EditorColorsListener
 import com.intellij.openapi.editor.colors.EditorColorsScheme
 import com.intellij.openapi.editor.colors.impl.DelegateColorScheme
@@ -14,6 +17,7 @@ import com.intellij.openapi.editor.ex.EditorEx
 import java.awt.Color
 import java.awt.Component
 import java.awt.Container
+import java.awt.Font
 import java.awt.event.ContainerAdapter
 import java.awt.event.ContainerEvent
 import java.awt.event.HierarchyEvent
@@ -40,10 +44,52 @@ private const val INPUT_TEXT_FIELD =
 /** Everything the input is built from, the text field included, lives in this one package. */
 private const val INPUT_PACKAGE = "com.intellij.ml.llm.core.chat.ui.chat.input."
 
-/** Reads the theme on every call, so a theme switch needs no re-wrapping. */
-private class ThemedInputScheme(delegate: EditorColorsScheme) : DelegateColorScheme(delegate) {
-    override fun getDefaultBackground(): Color =
-        UIManager.getColor(BACKGROUND_KEY) ?: super.getDefaultBackground()
+/**
+ * The chat input's background: text area, toolbar strip and border fill. Null leaves the editor's
+ * own, which is what makes the background opt-in per theme.
+ */
+private fun background(): Color? = getFromTheme(BACKGROUND_KEY)
+
+/**
+ * Editor attribute to the change it gets inside the chat input only, one line per attribute. Every
+ * other attribute is the color scheme's, untouched. Real editors never see any of this.
+ *
+ * `FOLDED_TEXT_ATTRIBUTES`: `@file:…` references are fold placeholders
+ * (`ChatInputReferenceFoldingBuilder`), so without this they sit on the fold background as a slab.
+ */
+private fun attributes(): Map<TextAttributesKey, Change> = mapOf(
+    EditorColors.FOLDED_TEXT_ATTRIBUTES to NO_BACKGROUND + PLAIN_FONT,
+)
+
+/** Any key from the `ui` section of the active `<name>.theme.json`. */
+private fun getFromTheme(key: String): Color? = UIManager.getColor(key)
+
+/** An edit to a copy of the scheme's attributes, given the chat input's editor. */
+private typealias Change = TextAttributes.(EditorEx) -> Unit
+
+private operator fun Change.plus(other: Change): Change = { editor -> this@plus(editor); other(editor) }
+
+/**
+ * Paints nothing behind the text. A null background does not do it: the painter falls back to the
+ * scheme's `TEXT` background, which is not what the box shows unless the theme sets [background]
+ * (then the editor background is still forced to `TextField.background`). The painter skips a
+ * background equal to the editor's own, so match that.
+ */
+private val NO_BACKGROUND: Change = { editor -> backgroundColor = editor.backgroundColor }
+
+/** Regular weight, instead of the platform's bold default for folds. */
+private val PLAIN_FONT: Change = { fontType = Font.PLAIN }
+
+/** Applies [background] and [attributes]; reads them on every call, so a theme switch needs no re-wrapping. */
+private class ThemedInputScheme(delegate: EditorColorsScheme, private val editor: EditorEx) :
+    DelegateColorScheme(delegate) {
+    override fun getDefaultBackground(): Color = background() ?: super.getDefaultBackground()
+
+    override fun getAttributes(key: TextAttributesKey?): TextAttributes? {
+        val attributes = super.getAttributes(key) ?: return null
+        val change = attributes()[key] ?: return attributes
+        return attributes.clone().apply { change(editor) }
+    }
 }
 
 /**
@@ -63,7 +109,6 @@ private fun EditorColorsScheme.isThemed(): Boolean {
 }
 
 private fun theme(editor: EditorEx) {
-    val background = UIManager.getColor(BACKGROUND_KEY) ?: return
     val input = chatInput(editor) ?: return
     // Wrap once, and only once. `setColorsScheme` nests another `EditorColorSchemeDelegate` around
     // whatever it is given and then runs `reinitSettings`, so re-wrapping on every pass would
@@ -72,8 +117,14 @@ private fun theme(editor: EditorEx) {
     // `applyIdeThemeColorScheme` throws ours away on a theme change; this puts it back.
     var changed = false
     if (!editor.colorsScheme.isThemed()) {
-        editor.colorsScheme = ThemedInputScheme(editor.colorsScheme)
+        editor.colorsScheme = ThemedInputScheme(editor.colorsScheme, editor)
         changed = true
+    }
+    // Everything below is the background, which stays opt-in per theme.
+    val background = background()
+    if (background == null) {
+        if (changed) input.repaint()
+        return
     }
     // A *forced* background outranks the scheme, and `EditorTextField` forces one on every editor
     // it builds — `TextField.background` on a cold start, when it has no editor to read a color
@@ -203,7 +254,6 @@ internal class AIAssistantInputEditorListener : EditorFactoryListener {
 
     override fun editorCreated(event: EditorFactoryEvent) {
         val editor = event.editor as? EditorEx ?: return
-        if (UIManager.getColor(BACKGROUND_KEY) == null) return
         // Deferred: the editor is not in the component tree yet, and that tree is what identifies
         // it — nor has the assistant's own `initEditor`, which this has to follow, run.
         ApplicationManager.getApplication().invokeLater {

@@ -214,6 +214,14 @@ box was traced to the editor's `TEXT` attribute background.
   `before: editorBg=#FAFAFA viewport=#FAFAFA/opaque=true` → `after: editorBg=#DEDEDE
   viewport=#DEDEDE`. Fixing only the forced color leaves the viewport painting over it, which is
   exactly what "the box is right but the text area is white" looks like.
+- **The `@file:…` reference highlight is a fold placeholder**, not syntax highlighting:
+  `ChatInputReferenceFoldingBuilder` folds each reference and the editor paints it with
+  `EditorColors.FOLDED_TEXT_ATTRIBUTES` (platform default: bold on green when the `.xml` omits it).
+  `attributes()` in `AIAssistantInputTheme.kt` edits a copy for that key only. A `null` background
+  is **not** transparent: the painter falls back to the scheme's `TEXT` background (Ayu-light
+  `#F8F9FA`), which showed as a white slab on a box painted `TextField.background`. It skips a
+  background equal to `editor.backgroundColor`, so `NO_BACKGROUND` sets exactly that. The scheme
+  wrapper is installed for every theme; only the background part stays opt-in.
 - **`editor.colorsScheme` never returns our wrapper.** `EditorImpl.setColorsScheme` re-wraps
   whatever you hand it in its own `EditorColorSchemeDelegate` (it logs "Will wrap it with
   MyColorSchemeDelegate" for unexpected types), so `scheme is ThemedInputScheme` is always false and
