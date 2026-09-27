@@ -1155,9 +1155,7 @@
             </value>
         </option>
         <option name="INJECTED_LANGUAGE_FRAGMENT">
-            <value>
-                <option name="BACKGROUND" value="e1d8cf" />
-            </value>
+            <value />
         </option>
         <option name="INLINE_PARAMETER_HINT">
             <value>

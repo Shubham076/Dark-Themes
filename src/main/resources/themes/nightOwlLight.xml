@@ -707,6 +707,9 @@
             </value>
         </option>
         <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+        <option name="INJECTED_LANGUAGE_FRAGMENT">
+            <value />
+        </option>
         <option name="IVAR">
             <value>
                 <option name="FOREGROUND" value="2f86d2" />

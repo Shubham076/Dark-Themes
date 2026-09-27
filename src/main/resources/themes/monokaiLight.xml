@@ -804,9 +804,7 @@
             </value>
         </option>
         <option name="INJECTED_LANGUAGE_FRAGMENT">
-            <value>
-                <option name="BACKGROUND" value="ede7e5" />
-            </value>
+            <value />
         </option>
         <option name="INLAY_DEFAULT">
             <value>

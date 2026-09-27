@@ -676,6 +676,9 @@
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="INJECTED_LANGUAGE_FRAGMENT">
+        <value />
+    </option>
     <option name="JADE_FILE_PATH">
       <value>
         <option name="FOREGROUND" value="e88501" />
