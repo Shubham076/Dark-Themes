@@ -10,7 +10,7 @@
     <colors>
         <option name="CARET_ROW_COLOR" value="EEE8D5" />
         <option name="CONSOLE_BACKGROUND_KEY" value="F8F8F8" />
-        <option name="DOCUMENTATION_COLOR" value="EEE8D5" />
+        <option name="DOCUMENTATION_COLOR" value="ECECEC" />
         <option name="ERROR_HINT" value="F5E6E7" />
         <option name="FILESTATUS_ADDED" value="709B2A" />
         <option name="FILESTATUS_COPIED" value="709B2A" />
