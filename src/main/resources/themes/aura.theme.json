@@ -13,7 +13,8 @@
     "tree_cell_active": "#435460",
     "transparent": "#00000000",
     "user_message_background": "tab_background",
-    "focus_color": "#fbbc9f"
+    "focus_color": "#fbbc9f",
+    "primary_button_background": "#fbbc9f"
   },
   "ui": {
     "*": {
@@ -103,7 +104,15 @@
       "hoverColor": "#1B2443"
     },
     "Button": {
-      "focus": "#1B2443"
+      "focus": "#1B2443",
+      "default": {
+        "foreground": "background",
+        "startBackground": "primary_button_background",
+        "endBackground": "primary_button_background",
+        "startBorderColor": "primary_button_background",
+        "endBorderColor": "primary_button_background",
+        "focusedBorderColor": "focus_color"
+      }
     },
     "ActionButton": {
       "hoverBackground": "#FBBC9F33",

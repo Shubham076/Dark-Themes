@@ -14,7 +14,8 @@
     "background_light": "#CEE1F0",
     "user_message_background": "#dedede",
     "focus_color": "#cc8866",
-    "foreground": "#2f3f50"
+    "foreground": "#2f3f50",
+    "primary_button_background": "#9f6a50"
   },
   "ui": {
     "*": {
@@ -71,7 +72,15 @@
       "hoverColor": "#FDF6E3"
     },
     "Button": {
-      "focus": "#FDF6E3"
+      "focus": "#FDF6E3",
+      "default": {
+        "foreground": "#FFFFFF",
+        "startBackground": "primary_button_background",
+        "endBackground": "primary_button_background",
+        "startBorderColor": "primary_button_background",
+        "endBorderColor": "primary_button_background",
+        "focusedBorderColor": "focus_color"
+      }
     },
     "ToolWindow": {
       "Button": {

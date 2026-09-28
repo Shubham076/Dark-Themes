@@ -15,7 +15,8 @@
     "transparent": "#00000000",
     "user_message_background": "background_light",
     "focus_color": "#5a4a78",
-    "foreground": "#343b59"
+    "foreground": "#343b59",
+    "primary_button_background": "#5a4a78"
   },
   "ui": {
     "*": {
@@ -91,7 +92,15 @@
       "hoverSeparatorColor": "tree_cell_active"
     },
     "Button": {
-      "focus": "background"
+      "focus": "background",
+      "default": {
+        "foreground": "#FFFFFF",
+        "startBackground": "primary_button_background",
+        "endBackground": "primary_button_background",
+        "startBorderColor": "primary_button_background",
+        "endBorderColor": "primary_button_background",
+        "focusedBorderColor": "focus_color"
+      }
     },
     "RunWidget": {
       "iconColor": "#565E70",

@@ -11,7 +11,8 @@
     "island_border": "#dadadb",
     "user_message_background": "#D3D3D3",
     "focus_color": "#b56959",
-    "foreground": "#606060"
+    "foreground": "#606060",
+    "primary_button_background": "#aa6354"
   },
   "ui": {
     "*": {
@@ -86,7 +87,15 @@
       "hoverColor": "#F1F0E9"
     },
     "Button": {
-      "focus": "#F1F0E9"
+      "focus": "#F1F0E9",
+      "default": {
+        "foreground": "#FFFFFF",
+        "startBackground": "primary_button_background",
+        "endBackground": "primary_button_background",
+        "startBorderColor": "primary_button_background",
+        "endBorderColor": "primary_button_background",
+        "focusedBorderColor": "focus_color"
+      }
     },
     "ActionButton": {
       "hoverBackground": "#B5695933",
