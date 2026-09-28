@@ -56,6 +56,9 @@ TEXT_ATTRIBUTES: Dict[str, Tuple[str, List[str]]] = {
     'identifier.function.declaration': (FG, ['DEFAULT_FUNCTION_DECLARATION']),
     'identifier.function.call': (FG, ['DEFAULT_FUNCTION_CALL', 'DEFAULT_FUNCTION_DECLARATION']),
     'identifier.method.static': (FG, ['DEFAULT_STATIC_METHOD', 'DEFAULT_FUNCTION_DECLARATION']),
+    # Fleet's documentation renderer targets this key for IntelliJ's legacy
+    # #000000 inline color; it is separate from identifier.type.class.
+    'identifier.class': (FG, ['DEFAULT_CLASS_NAME']),
     'identifier.type': (FG, ['DEFAULT_CLASS_NAME']),
     'identifier.type.class': (FG, ['DEFAULT_CLASS_NAME']),
     'identifier.type.enum': (FG, ['DEFAULT_CLASS_NAME']),
@@ -287,6 +290,11 @@ class IntelliJToFleetConverter:
                         'textDecoration': {'color': ref, 'style': 'WAVY', 'type': 'UNDERLINE'}}
             resolved[key] = attr
 
+        # Some schemes define TEXT's background but omit its foreground. Keep
+        # the editor root explicit so child fallbacks never reach Fleet defaults.
+        if 'editor.text.scheme' not in resolved:
+            resolved['editor.text.scheme'] = {'foregroundColor': 'Text'}
+
         # Unresolved foreground keys inherit from their nearest resolved Fleet parent.
         for key, (prop, _) in TEXT_ATTRIBUTES.items():
             if key in resolved or prop != FG:
@@ -321,6 +329,7 @@ def main():
     parser = argparse.ArgumentParser(description='Convert IntelliJ color schemes to Fleet theme format')
     parser.add_argument('input', help='Input IntelliJ theme file (.icls or .xml)')
     parser.add_argument('output', help='Output Fleet theme file (.json)')
+    parser.add_argument('--name', help='Override the generated Fleet theme name')
     args = parser.parse_args()
 
     if not Path(args.input).exists():
@@ -329,6 +338,8 @@ def main():
 
     try:
         fleet_theme = IntelliJToFleetConverter(IntelliJScheme(args.input)).convert()
+        if args.name:
+            fleet_theme['meta']['theme.name'] = args.name
     except Exception as e:
         print(f"Error during conversion: {e}", file=sys.stderr)
         return 1

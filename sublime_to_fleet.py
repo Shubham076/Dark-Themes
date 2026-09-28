@@ -334,7 +334,9 @@ class SublimeToFleetConverter:
         colors['text.default'] = text_color
         colors['text.primary'] = text_color
         colors['text.secondary'] = get_palette_color(['Comment', 'GutterFg', 'Text'])
-        colors['text.tertiary'] = get_palette_color(['GutterFg', 'Comment', 'Text'])
+        # Fleet renders daemon inlay/type hints with the global text.tertiary role.
+        # Point it at the class/type color so inferred types match type references.
+        colors['text.tertiary'] = get_palette_color(['Storage', 'Yellow', 'Blue'], 'Text')
         colors['text.disabled'] = get_palette_color(['Comment', 'GutterFg', 'Text'])
         colors['text.bright'] = text_color
         colors['text.dangerous'] = get_palette_color(['Red', 'Operator', 'Keyword'])
@@ -581,6 +583,9 @@ class SublimeToFleetConverter:
         text_attributes['keyword.typeModifier'] = {
             'foregroundColor': get_palette_color(['Storage', 'Yellow', 'Blue'], 'Text')
         }
+        text_attributes['metadata'] = {
+            'foregroundColor': get_palette_color(['Annotation', 'Documentation', 'Comment'], 'Text')
+        }
 
         # Strings
         text_attributes['string'] = {
@@ -608,6 +613,11 @@ class SublimeToFleetConverter:
         text_attributes['identifier.function.declaration'] = {
             'foregroundColor': get_palette_color(['Function', 'Blue', 'Cyan'], 'Text')
         }
+        # Fleet's documentation renderer maps IntelliJ's legacy #000000 inline
+        # color to identifier.class, which is distinct from identifier.type.class.
+        text_attributes['identifier.class'] = {
+            'foregroundColor': get_palette_color(['Storage', 'Yellow', 'Blue'], 'Text')
+        }
         text_attributes['identifier.type'] = {
             'foregroundColor': get_palette_color(['Storage', 'Yellow', 'Blue'], 'Text')
         }
@@ -626,6 +636,9 @@ class SublimeToFleetConverter:
         text_attributes['identifier.typeReference'] = {
             'foregroundColor': get_palette_color(['Storage', 'Yellow', 'Blue'], 'Text')
         }
+        text_attributes['identifier.typeParameter'] = {
+            'foregroundColor': get_palette_color(['Storage', 'Yellow', 'Blue'], 'Text')
+        }
         text_attributes['identifier.constant'] = {
             'foregroundColor': get_palette_color(['Constant', 'Orange', 'Yellow'], 'Text')
         }
@@ -637,6 +650,9 @@ class SublimeToFleetConverter:
         }
         text_attributes['identifier.field'] = {
             'foregroundColor': get_palette_color(['Variable', 'Text'], 'Text')
+        }
+        text_attributes['identifier.method.static'] = {
+            'foregroundColor': get_palette_color(['Function', 'Blue', 'Cyan'], 'Text')
         }
 
         # Operators and punctuation
@@ -720,6 +736,9 @@ class SublimeToFleetConverter:
         text_attributes['lsp.error.color'] = {
             'foregroundColor': get_palette_color(['Red', 'Operator'], 'Text'),
             'backgroundColor': get_palette_color(['Base'], 'Base')
+        }
+        text_attributes['problem.error'] = {
+            'foregroundColor': get_palette_color(['Red', 'Operator', 'Keyword'], 'Text')
         }
 
         # Add editor selection (CRITICAL for Fleet) - must be in textAttributes
@@ -816,7 +835,8 @@ class SublimeToFleetConverter:
         
         return fleet_theme
     
-    def convert_file(self, input_path: str, output_path: str):
+    def convert_file(self, input_path: str, output_path: str,
+                     name_override: Optional[str] = None):
         """Convert a Sublime theme file to Fleet format."""
         # Read input file
         with open(input_path, 'r', encoding='utf-8') as f:
@@ -824,6 +844,8 @@ class SublimeToFleetConverter:
         
         # Convert
         fleet_theme = self.convert(sublime_theme)
+        if name_override:
+            fleet_theme['meta']['theme.name'] = name_override
         
         # Write output file
         with open(output_path, 'w', encoding='utf-8') as f:
@@ -850,6 +872,7 @@ Examples:
     
     parser.add_argument('input', help='Input Sublime theme file (.sublime-color-scheme or .json)')
     parser.add_argument('output', help='Output Fleet theme file (.json)')
+    parser.add_argument('--name', help='Override the generated Fleet theme name')
     
     args = parser.parse_args()
     
@@ -861,7 +884,7 @@ Examples:
     # Convert
     try:
         converter = SublimeToFleetConverter()
-        converter.convert_file(args.input, args.output)
+        converter.convert_file(args.input, args.output, args.name)
         return 0
     except Exception as e:
         print(f"Error during conversion: {e}")
