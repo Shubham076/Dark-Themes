@@ -1,21 +1,21 @@
 {
-  "name": "Rouge Light",
   "author": "Shubham",
   "dark": false,
+  "name": "Rouge Light",
   "editorScheme": "/themes/rougeLight.xml",
   "colors": {
-    "tab_background": "#E2E0D9",
+    "tab_background": "#E8E6DC",
     "transparent": "#00000000",
     "tree_cell_active": "#ccd7daff",
-    "main_bg": "#E2E0D9",
-    "island_border": "#F5EBE1",
-    "background": "#F5EBE1",
-    "hover": "#E9DFD5",
-    "background_light": "#E2E0D9",
+    "main_bg": "#dadadb",
+    "island_border": "#dadadb",
+    "background": "#F5F5F1",
+    "background_light": "#E8E6DC",
+    "hover": "#EEEDE6",
     "user_message_background": "background_light",
-    "focus_color": "#4a858c",
-    "foreground": "#585858",
-    "primary_button_background": "#467e85"
+    "focus_color": "#b56959",
+    "foreground": "#606060",
+    "primary_button_background": "#aa6354"
   },
   "ui": {
     "*": {
@@ -89,10 +89,10 @@
       "Header.activeBackground": "background"
     },
     "TabbedPane": {
-      "hoverColor": "#F5EBE1"
+      "hoverColor": "hover"
     },
     "Button": {
-      "focus": "#F5EBE1",
+      "focus": "background",
       "default": {
         "foreground": "#FFFFFF",
         "startBackground": "primary_button_background",
@@ -103,9 +103,9 @@
       }
     },
     "ActionButton": {
-      "hoverBackground": "#4A858C33",
+      "hoverBackground": "#B5695933",
       "hoverBorderColor": "transparent",
-      "pressedBackground": "#4A858C59",
+      "pressedBackground": "#B5695959",
       "pressedBorderColor": "transparent",
       "focusedBorderColor": "transparent",
       "hoverSeparatorColor": "tree_cell_active"
