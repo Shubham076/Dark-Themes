@@ -11,10 +11,13 @@
         <option name="GRID_STRIPE_COLOR" value="F0EAE4" />
         <option name="GUTTER_BACKGROUND" value="F5F5F1" />
         <option name="INDENT_GUIDE" value="DBDEDB" />
-        <option name="LINE_NUMBERS_COLOR" value="585859" />
+        <option name="LINE_NUMBERS_COLOR" value="B4B2A9" />
+        <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="606060" />
         <option name="SELECTED_INDENT_GUIDE" value="C4C5CD" />
         <option name="SELECTION_BACKGROUND" value="DEDFE3" />
+        <option name="SELECTED_TEARLINE_COLOR" value="B4B2A9" />
         <option name="SELECTION_FOREGROUND" value="" />
+        <option name="TEARLINE_COLOR" value="E3E1D8" />
         <option name="WHITESPACES" value="C4C5CD" />
     </colors>
     <attributes>
