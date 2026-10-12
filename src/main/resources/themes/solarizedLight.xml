@@ -1,21 +1,21 @@
 <scheme name="SolarizedLight" version="142" parent_scheme="Default">
   <metaInfo>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2025.2.0.1.0.0</property>
+    <property name="ideVersion">2026.2.3.0.0</property>
   </metaInfo>
   <colors>
     <option name="CARET_ROW_COLOR" value="E4EBF2" />
     <option name="CONSOLE_BACKGROUND_KEY" value="F8F6F2" />
+    <option name="DOCUMENTATION_COLOR" value="ECEAE6" />
     <option name="FILESTATUS_MODIFIED" value="007C7C" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="007C7C" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="007C7C" />
+    <option name="GRID_STRIPE_COLOR" value="EEECE8" />
     <option name="GUTTER_BACKGROUND" value="F8F6F2" />
     <option name="INDENT_GUIDE" value="F1DAC0" />
     <option name="LINE_NUMBERS_COLOR" value="707080" />
     <option name="SELECTED_INDENT_GUIDE" value="F1DAC0" />
     <option name="SELECTION_BACKGROUND" value="F8E1C6" />
-    <option name="DOCUMENTATION_COLOR" value="ECEAE6" />
-    <option name="GRID_STRIPE_COLOR" value="EEECE8" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="WHITESPACES" value="F4CCA1" />
   </colors>
@@ -380,34 +380,26 @@
         <option name="FOREGROUND" value="f47e1b" />
       </value>
     </option>
-    <option name="DEFAULT_ATTRIBUTE">
-      <value>
-        <option name="FOREGROUND" value="3978a8" />
-      </value>
-    </option>
+    <option name="DEFAULT_ATTRIBUTE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="748599" />
+        <option name="FOREGROUND" value="909098" />
       </value>
     </option>
     <option name="DEFAULT_BRACES">
-      <value>
-        <option name="FOREGROUND" value="bf7958" />
-      </value>
+      <value />
     </option>
     <option name="DEFAULT_BRACKETS">
-      <value>
-        <option name="FOREGROUND" value="bf7958" />
-      </value>
+      <value />
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="4f8889" />
+        <option name="FOREGROUND" value="648e8f" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="4f8889" />
+        <option name="FOREGROUND" value="648e8f" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -417,7 +409,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="4f8889" />
+        <option name="FOREGROUND" value="648e8f" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -452,12 +444,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="4f8889" />
+        <option name="FOREGROUND" value="648e8f" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="4f8889" />
+        <option name="FOREGROUND" value="648e8f" />
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
@@ -469,7 +461,7 @@
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="4f8889" />
+        <option name="FOREGROUND" value="648e8f" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -479,7 +471,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="c26d5c" />
+        <option name="FOREGROUND" value="a9776d" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
@@ -489,17 +481,17 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="748599" />
+        <option name="FOREGROUND" value="909098" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="4584b5" />
+        <option name="FOREGROUND" value="648e8f" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="b56bb1" />
+        <option name="FOREGROUND" value="a97ca7" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
@@ -508,9 +500,7 @@
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
-      <value>
-        <option name="FOREGROUND" value="bf7958" />
-      </value>
+      <value />
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
@@ -527,7 +517,7 @@
     <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="b58900" />
+        <option name="FOREGROUND" value="a4916d" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -675,7 +665,7 @@
     </option>
     <option name="GO_PACKAGE">
       <value>
-        <option name="FOREGROUND" value="4f8889" />
+        <option name="FOREGROUND" value="648e8f" />
       </value>
     </option>
     <option name="GQL_ID">
@@ -773,7 +763,7 @@
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
-        <value />
+      <value />
     </option>
     <option name="IVAR">
       <value>
@@ -1599,7 +1589,7 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="5f5f6e" />
+        <option name="FOREGROUND" value="909098" />
       </value>
     </option>
     <option name="TYPEDEF">
