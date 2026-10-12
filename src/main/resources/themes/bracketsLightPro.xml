@@ -1,7 +1,7 @@
 <scheme name="Brackets-light-pro" version="142" parent_scheme="Default">
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2025.3.0.0</property>
+        <property name="ideVersion">2026.2.3.0.0</property>
     </metaInfo>
     <colors>
         <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="F8F8F8" />
@@ -11,6 +11,7 @@
         <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="EBDBB2" />
         <option name="CARET_ROW_COLOR" value="E4E4E4" />
         <option name="CONSOLE_BACKGROUND_KEY" value="F8F8F8" />
+        <option name="DOCUMENTATION_COLOR" value="ECECEC" />
         <option name="FILESTATUS_ADDED" value="C3E887" />
         <option name="FILESTATUS_COPIED" value="ADDB67" />
         <option name="FILESTATUS_DELETED" value="F77669" />
@@ -23,11 +24,10 @@
         <option name="FILESTATUS_SUPPRESSED" value="546E7A" />
         <option name="FILESTATUS_SWITCHED" value="F77669" />
         <option name="FILESTATUS_UNKNOWN" value="F77669" />
+        <option name="GRID_STRIPE_COLOR" value="EEEEEE" />
         <option name="GUTTER_BACKGROUND" value="F8F8F8" />
         <option name="LINE_NUMBERS_COLOR" value="727070" />
         <option name="SELECTION_BACKGROUND" value="ABDFFA" />
-        <option name="DOCUMENTATION_COLOR" value="ECECEC" />
-        <option name="GRID_STRIPE_COLOR" value="EEEEEE" />
         <option name="SELECTION_FOREGROUND" value="" />
     </colors>
     <attributes>
@@ -466,7 +466,7 @@
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
         <option name="DEFAULT_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="5d5c5c" />
+                <option name="FOREGROUND" value="797575" />
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -477,7 +477,7 @@
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="507e6a" />
+                <option name="FOREGROUND" value="9d7146" />
             </value>
         </option>
         <option name="DEFAULT_KEYWORD">
@@ -502,17 +502,13 @@
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="6d8600" />
+                <option name="FOREGROUND" value="788355" />
             </value>
         </option>
         <option name="DEFAULT_OPERATION_SIGN">
             <value />
         </option>
-        <option name="DEFAULT_PREDEFINED_SYMBOL">
-            <value>
-                <option name="FOREGROUND" value="507e6a" />
-            </value>
-        </option>
+        <option name="DEFAULT_PREDEFINED_SYMBOL" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="DEFAULT_SEMICOLON" baseAttributes="" />
         <option name="DEFAULT_STATIC_FIELD">
@@ -521,14 +517,14 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="507e6a" />
+                <option name="FOREGROUND" value="9d7146" />
             </value>
         </option>
         <option name="DEFAULT_TAG" baseAttributes="TEXT" />
         <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="507e6a" />
+                <option name="FOREGROUND" value="9d7146" />
             </value>
         </option>
         <option name="DJANGO_COMMENT">
@@ -1011,51 +1007,24 @@
         </option>
         <option name="PY.ANNOTATION">
             <value>
-                <option name="FOREGROUND" value="775aaf" />
+                <option name="FOREGROUND" value="926998" />
             </value>
         </option>
         <option name="PY.BUILTIN_NAME">
             <value>
-                <option name="FOREGROUND" value="775aaf" />
-            </value>
-        </option>
-        <option name="PY.INVALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="8a822d" />
-            </value>
-        </option>
-        <option name="PY.KEYWORD">
-            <value>
-                <option name="FOREGROUND" value="386ac3" />
+                <option name="FOREGROUND" value="926998" />
             </value>
         </option>
         <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
-        <option name="PY.NUMBER">
-            <value>
-                <option name="FOREGROUND" value="6d8600" />
-            </value>
-        </option>
         <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-        <option name="PY.PREDEFINED_USAGE">
-            <value>
-                <option name="FOREGROUND" value="386ac3" />
-            </value>
-        </option>
+        <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+        <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.STRING">
             <value>
                 <option name="FOREGROUND" value="e88501" />
             </value>
         </option>
-        <option name="PY.STRING.U">
-            <value>
-                <option name="FOREGROUND" value="8a822d" />
-            </value>
-        </option>
-        <option name="PY.VALID_STRING_ESCAPE">
-            <value>
-                <option name="FOREGROUND" value="8a822d" />
-            </value>
-        </option>
+        <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
         <option name="REST.BOLD">
             <value>
                 <option name="FONT_TYPE" value="1" />
@@ -1393,7 +1362,7 @@
         </option>
         <option name="TEXT">
             <value>
-                <option name="FOREGROUND" value="5d5c5c" />
+                <option name="FOREGROUND" value="797575" />
                 <option name="BACKGROUND" value="f8f8f8" />
             </value>
         </option>
