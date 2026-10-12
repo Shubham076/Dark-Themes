@@ -1,7 +1,7 @@
 <scheme name="Light Pro" version="142" parent_scheme="Default">
     <metaInfo>
         <property name="ide">GoLand</property>
-        <property name="ideVersion">2025.3.0.0</property>
+        <property name="ideVersion">2026.2.3.0.0</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="C7DBA9" />
@@ -18,6 +18,7 @@
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="007C7C" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="007C7C" />
         <option name="FILESTATUS_modifiedOutside" value="0095B3" />
+        <option name="GRID_STRIPE_COLOR" value="F0F0EB" />
         <option name="GUTTER_BACKGROUND" value="FAFAFA" />
         <option name="INDENT_GUIDE" value="BED0D0" />
         <option name="INFORMATION_HINT" value="FFFFFF" />
@@ -26,7 +27,6 @@
         <option name="SELECTED_INDENT_GUIDE" value="D9D9D9" />
         <option name="SELECTED_TEARLINE_COLOR" value="C2C2C2" />
         <option name="SELECTION_BACKGROUND" value="DFEBE7" />
-        <option name="GRID_STRIPE_COLOR" value="F0F0EB" />
         <option name="SELECTION_FOREGROUND" value="" />
         <option name="SOFT_WRAP_SIGN_COLOR" value="4F6269" />
     </colors>
@@ -502,7 +502,7 @@
         </option>
         <option name="CTRL_CLICKABLE">
             <value>
-                <option name="FOREGROUND" value="4f8889" />
+                <option name="FOREGROUND" value="6c9381" />
             </value>
         </option>
         <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
@@ -533,12 +533,12 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="bb7b49" />
+                <option name="FOREGROUND" value="a28777" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="bb7b49" />
+                <option name="FOREGROUND" value="a28777" />
             </value>
         </option>
         <option name="DEFAULT_COMMA">
@@ -548,7 +548,7 @@
         </option>
         <option name="DEFAULT_CONSTANT">
             <value>
-                <option name="FOREGROUND" value="a98617" />
+                <option name="FOREGROUND" value="a4935b" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT">
@@ -584,35 +584,35 @@
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="bb7b49" />
+                <option name="FOREGROUND" value="a28777" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="bb7b49" />
+                <option name="FOREGROUND" value="a28777" />
             </value>
         </option>
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE" baseAttributes="DEFAULT_STRING" />
         <option name="DEFAULT_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="6f6f81" />
+                <option name="FOREGROUND" value="868080" />
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="bb7b49" />
+                <option name="FOREGROUND" value="a28777" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="986688" />
+                <option name="FOREGROUND" value="a28777" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="588672" />
+                <option name="FOREGROUND" value="6f8d80" />
             </value>
         </option>
         <option name="DEFAULT_LABEL">
@@ -627,7 +627,7 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="bb7b49" />
+                <option name="FOREGROUND" value="a28777" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -636,16 +636,14 @@
             </value>
         </option>
         <option name="DEFAULT_OPERATION_SIGN">
-            <value>
-                <option name="FOREGROUND" value="6f6f81" />
-            </value>
+            <value />
         </option>
         <option name="DEFAULT_PARENTHS">
             <value />
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
-                <option name="FOREGROUND" value="4a9191" />
+                <option name="FOREGROUND" value="6c9381" />
             </value>
         </option>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -667,7 +665,7 @@
         <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="986688" />
+                <option name="FOREGROUND" value="b0848f" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
@@ -680,7 +678,7 @@
         </option>
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="986688" />
+                <option name="FOREGROUND" value="a28777" />
             </value>
         </option>
         <option name="DELETED_TEXT_ATTRIBUTES">
@@ -742,13 +740,12 @@
         </option>
         <option name="FOLDED_TEXT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="4d545d" />
-                <option name="BACKGROUND" value="f5f5f5" />
+                <option name="BACKGROUND" value="ded0f3" />
             </value>
         </option>
         <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="4f8889" />
+                <option name="FOREGROUND" value="6c9381" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -776,11 +773,6 @@
                 <option name="FOREGROUND" value="928db0" />
             </value>
         </option>
-        <option name="GO_BUILTIN_CONSTANT">
-            <value>
-                <option name="FOREGROUND" value="4d545d" />
-            </value>
-        </option>
         <option name="GO_COLON">
             <value>
                 <option name="FOREGROUND" value="363b41" />
@@ -797,14 +789,9 @@
                 <option name="FOREGROUND" value="363b41" />
             </value>
         </option>
-        <option name="GO_OPERATOR">
-            <value>
-                <option name="FOREGROUND" value="68638b" />
-            </value>
-        </option>
         <option name="GO_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="bb7b49" />
+                <option name="FOREGROUND" value="a28777" />
             </value>
         </option>
         <option name="GO_SEMICOLON">
@@ -926,7 +913,7 @@
         </option>
         <option name="HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="4f8889" />
+                <option name="FOREGROUND" value="6c9381" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -942,7 +929,7 @@
         </option>
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="4f8889" />
+                <option name="FOREGROUND" value="6c9381" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -2931,7 +2918,7 @@
         </option>
         <option name="TEXT">
             <value>
-                <option name="FOREGROUND" value="6f6f81" />
+                <option name="FOREGROUND" value="868080" />
                 <option name="BACKGROUND" value="fafaf5" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
@@ -2939,7 +2926,7 @@
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="757272" />
-                <option name="BACKGROUND" value="ffe792" />
+                <option name="BACKGROUND" value="f6e0a4" />
                 <option name="EFFECT_COLOR" value="ffe792" />
             </value>
         </option>
@@ -3014,9 +3001,7 @@
         </option>
         <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="333333" />
-                <option name="BACKGROUND" value="ffe792" />
-                <option name="ERROR_STRIPE_COLOR" value="c55450" />
+                <option name="BACKGROUND" value="f6e0a4" />
             </value>
         </option>
         <option name="WRONG_REFERENCES_ATTRIBUTES">
