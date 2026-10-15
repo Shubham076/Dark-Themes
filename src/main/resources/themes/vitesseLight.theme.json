@@ -57,6 +57,9 @@
       },
       "Header": {
         "inactiveBackground": "#F1F0E9"
+      },
+      "Stripe": {
+        "background": "user_message_background"
       }
     },
     "Plugins": {
